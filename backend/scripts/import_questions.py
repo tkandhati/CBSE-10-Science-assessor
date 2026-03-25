@@ -1,16 +1,24 @@
 """
-Import script — indexes all 13 NCERT Class 10 Science chapters.
+LEGACY import script — reads raw source files from data/uploads/.
 
-Reads from:  data/uploads/Chapter{N}/Questions/Test/*.json
-             data/uploads/Chapter{N}/Questions/Understanding/*.json
-             data/uploads/Chapter{N}/Questions/metadata.json
+DO NOT run this script. The pre-built question JSON files in data/questions/
+are the authoritative source. Running this script will OVERWRITE those files
+with raw source data from data/uploads/ (which may contain mismatched chapter
+folder mappings and is not committed to git).
 
-Writes to:   data/questions/{chapter_id}.json      (content: text, options, rubric, template_params, diagram_path)
-             SQLite question_index table            (metadata: chapter, topic, type, difficulty, marks, ...)
+Use index_questions.py instead:
+    python -m backend.scripts.index_questions
 
-Run:  python -m backend.scripts.import_questions
-Re-running is safe — uses INSERT OR REPLACE.
+This file is kept only as a reference for how the original import worked.
 """
+import sys
+print("ERROR: Do not run import_questions.py.")
+print("Use instead:  python -m backend.scripts.index_questions")
+sys.exit(1)
+
+# ---- original code below (disabled) ----
+if False:
+    pass
 import json
 import os
 import sys
