@@ -15,8 +15,8 @@ cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload --app-dir ..
 
-# Import existing questions (run once after setup)
-python -m backend.scripts.import_questions
+# Index questions into SQLite (run once after setup)
+python -m backend.scripts.index_questions
 
 # Frontend
 cd frontend

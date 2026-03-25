@@ -41,7 +41,8 @@ science/
 │   │   ├── profile_updater.py   # XP and streak updates
 │   │   └── question_loader.py  # In-memory question store
 │   ├── scripts/
-│   │   └── import_questions.py # One-time question bank import
+│   │   ├── import_questions.py # Legacy import (requires data/uploads/)
+│   │   └── index_questions.py  # Index pre-built question JSON into SQLite
 │   └── tests/                  # 99 pytest tests
 ├── frontend/
 │   ├── src/
@@ -120,10 +121,10 @@ python -m venv .venv
 pip install -r backend/requirements.txt
 ```
 
-Import the question bank into SQLite (run once on a fresh database):
+Index the question bank into SQLite (run once on a fresh database):
 
 ```bash
-python -m backend.scripts.import_questions
+python -m backend.scripts.index_questions
 ```
 
 Start the backend:
