@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        text-anchor="middle" fill="black">V-I Graph — Figure A</text>
+
+  <!-- Graph area: origin at (80,310), x-axis right, y-axis up -->
+  <!-- Grid lines (light) -->
+  <!-- Vertical grid lines at I = 1,2,3,4 -->
+  <line x1="160" y1="70" x2="160" y2="310" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="240" y1="70" x2="240" y2="310" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="320" y1="70" x2="320" y2="310" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="400" y1="70" x2="400" y2="310" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Horizontal grid lines at V = 2,4,6,8 -->
+  <line x1="80" y1="250" x2="430" y2="250" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="190" x2="430" y2="190" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="130" x2="430" y2="130" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="80" y1="70"  x2="430" y2="70"  stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Axes -->
+  <line x1="80" y1="310" x2="440" y2="310" stroke="black" stroke-width="2"/>
+  <line x1="80" y1="310" x2="80"  y2="50"  stroke="black" stroke-width="2"/>
+
+  <!-- Axis arrow heads -->
+  <polygon points="440,310 432,306 432,314" fill="black"/>
+  <polygon points="80,50 76,58 84,58" fill="black"/>
+
+  <!-- X-axis label -->
+  <text x="450" y="314" font-family="Arial, sans-serif" font-size="12" fill="black">I (A)</text>
+  <!-- Y-axis label -->
+  <text x="20" y="55" font-family="Arial, sans-serif" font-size="12" fill="black">V (V)</text>
+  <text x="30" y="68" font-family="Arial, sans-serif" font-size="11" fill="black">8</text>
+  <text x="30" y="128" font-family="Arial, sans-serif" font-size="11" fill="black">6</text>
+  <text x="30" y="188" font-family="Arial, sans-serif" font-size="11" fill="black">4</text>
+  <text x="30" y="248" font-family="Arial, sans-serif" font-size="11" fill="black">2</text>
+  <text x="76" y="326" font-family="Arial, sans-serif" font-size="11" fill="black">0</text>
+
+  <!-- X-axis tick labels -->
+  <text x="156" y="326" font-family="Arial, sans-serif" font-size="11" fill="black">1</text>
+  <text x="236" y="326" font-family="Arial, sans-serif" font-size="11" fill="black">2</text>
+  <text x="316" y="326" font-family="Arial, sans-serif" font-size="11" fill="black">3</text>
+  <text x="396" y="326" font-family="Arial, sans-serif" font-size="11" fill="black">4</text>
+  <!-- Axis title -->
+  <text x="250" y="344" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="black">
+    Current I (A)
+  </text>
+  <text x="18" y="200" font-family="Arial, sans-serif" font-size="12" fill="black"
+        transform="rotate(-90 18 200)">Voltage V (V)</text>
+
+  <!-- Tick marks on axes -->
+  <line x1="160" y1="308" x2="160" y2="312" stroke="black" stroke-width="1.5"/>
+  <line x1="240" y1="308" x2="240" y2="312" stroke="black" stroke-width="1.5"/>
+  <line x1="320" y1="308" x2="320" y2="312" stroke="black" stroke-width="1.5"/>
+  <line x1="400" y1="308" x2="400" y2="312" stroke="black" stroke-width="1.5"/>
+  <line x1="78" y1="250" x2="82" y2="250" stroke="black" stroke-width="1.5"/>
+  <line x1="78" y1="190" x2="82" y2="190" stroke="black" stroke-width="1.5"/>
+  <line x1="78" y1="130" x2="82" y2="130" stroke="black" stroke-width="1.5"/>
+  <line x1="78" y1="70"  x2="82" y2="70"  stroke="black" stroke-width="1.5"/>
+
+  <!--
+    Origin (80,310)
+    Scale: 1A = 80px right, 2V = 60px up
+    Wire A: slope = 1 V/A (R=1 Ω) — passes (0,0)→(4A,4V) → (80,310)→(400,70+120)=wait
+    Let's re-scale:
+    X: 1A = 80px → 4A = 320px from origin → x=400
+    Y: 2V = 60px → 8V = 240px up → y = 310-240 = 70 (correct)
+    Wire A (R=1Ω): at I=4, V=4 → x=400, y=310-120=190 → (80,310)→(400,190)
+    Wire B (R=4Ω): at I=2, V=8 → x=240, y=310-240=70 → (80,310)→(240,70)
+    extend to x=400: at I=4, V=16 — off chart, so draw to (240,70) and continue to (260,10) clipped
+  -->
+
+  <!-- Wire A: gentler slope, R=1Ω, (80,310)→(400,190) -->
+  <line x1="80" y1="310" x2="400" y2="190" stroke="#1565c0" stroke-width="2.5"/>
+  <text x="402" y="188" font-family="Arial, sans-serif" font-size="12" fill="#1565c0" font-weight="bold">Wire A</text>
+  <text x="402" y="202" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">(R = 1 Ω)</text>
+
+  <!-- Wire B: steeper slope, R=4Ω, (80,310)→(240,70) -->
+  <line x1="80" y1="310" x2="240" y2="70" stroke="#e53935" stroke-width="2.5"/>
+  <text x="242" y="68" font-family="Arial, sans-serif" font-size="12" fill="#e53935" font-weight="bold">Wire B</text>
+  <text x="242" y="82" font-family="Arial, sans-serif" font-size="10" fill="#e53935">(R = 4 Ω)</text>
+
+  <!-- Data point dots -->
+  <circle cx="400" cy="190" r="4" fill="#1565c0"/>
+  <circle cx="240" cy="70" r="4" fill="#e53935"/>
+
+  <!-- Note -->
+  <text x="250" y="370" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    Steeper slope → higher resistance. R = V / I (Ohm's Law)
+  </text>
+</svg>

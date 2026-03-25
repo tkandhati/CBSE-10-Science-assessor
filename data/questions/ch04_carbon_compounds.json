@@ -552,7 +552,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap4_ver_dia_001.png"
+      "diagram_path": "chap4_ver_dia_001.svg"
     },
     {
       "id": "chap4_ver_la_001",
@@ -1308,7 +1308,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap4_eth_dia_001.png"
+      "diagram_path": "chap4_eth_dia_001.svg"
     },
     {
       "id": "chap4_eth_la_001",

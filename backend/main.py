@@ -1,9 +1,11 @@
 import asyncio
 import json
+import os
 from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from contextlib import asynccontextmanager
 
 from backend.database import init_db, get_db
@@ -49,6 +51,9 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="Physics Assessor API", version="1.0.0", lifespan=lifespan)
+
+DIAGRAMS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "diagrams")
+app.mount("/diagrams", StaticFiles(directory=DIAGRAMS_DIR), name="diagrams")
 
 app.add_middleware(
     CORSMiddleware,

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        text-anchor="middle" fill="black">Structural Formulas — Figure A</text>
+
+  <!-- Grid: 2 columns × 3 rows -->
+  <!-- Each cell ~230 wide, ~105 tall -->
+  <!-- Row 1: P and Q -->
+  <!-- Cell P (top-left) -->
+  <rect x="20" y="35" width="225" height="100" rx="6" fill="#f0f8ff" stroke="#aaa" stroke-width="1"/>
+  <text x="30" y="55" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">P: Methanol (CH₃OH)</text>
+  <text x="30" y="78" font-family="Arial, sans-serif" font-size="13" fill="#333">H   O</text>
+  <text x="30" y="96" font-family="Arial, sans-serif" font-size="13" fill="#333">|   |</text>
+  <text x="30" y="114" font-family="Arial, sans-serif" font-size="13" fill="#333">H — C — H</text>
+  <text x="30" y="132" font-family="Arial, sans-serif" font-size="11" fill="#555">   |</text>
+  <text x="30" y="125" font-family="Arial, sans-serif" font-size="13" fill="#333">    H</text>
+
+  <!-- Cell Q (top-right) -->
+  <rect x="255" y="35" width="225" height="100" rx="6" fill="#f0f8ff" stroke="#aaa" stroke-width="1"/>
+  <text x="265" y="55" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">Q: Ethanol (C₂H₅OH)</text>
+  <text x="265" y="78" font-family="Arial, sans-serif" font-size="13" fill="#333">H   H   O</text>
+  <text x="265" y="96" font-family="Arial, sans-serif" font-size="13" fill="#333">|   |   |</text>
+  <text x="265" y="114" font-family="Arial, sans-serif" font-size="13" fill="#333">H—C—C—H</text>
+  <text x="265" y="126" font-family="Arial, sans-serif" font-size="13" fill="#333">    |   |</text>
+  <text x="265" y="138" font-family="Arial, sans-serif" font-size="13" fill="#333">    H   H</text>
+
+  <!-- Row 2: R and S -->
+  <!-- Cell R -->
+  <rect x="20" y="148" width="225" height="100" rx="6" fill="#f0fff0" stroke="#aaa" stroke-width="1"/>
+  <text x="30" y="168" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">R: Ethanoic Acid (CH₃COOH)</text>
+  <text x="30" y="188" font-family="Arial, sans-serif" font-size="13" fill="#333">H     O</text>
+  <text x="30" y="206" font-family="Arial, sans-serif" font-size="13" fill="#333">|     ‖</text>
+  <text x="30" y="224" font-family="Arial, sans-serif" font-size="13" fill="#333">H — C — C — O — H</text>
+  <text x="30" y="238" font-family="Arial, sans-serif" font-size="13" fill="#333">    |</text>
+  <text x="30" y="250" font-family="Arial, sans-serif" font-size="13" fill="#333">    H</text>
+
+  <!-- Cell S -->
+  <rect x="255" y="148" width="225" height="100" rx="6" fill="#f0fff0" stroke="#aaa" stroke-width="1"/>
+  <text x="265" y="168" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">S: Ethene (CH₂=CH₂)</text>
+  <text x="265" y="195" font-family="Arial, sans-serif" font-size="13" fill="#333">H     H</text>
+  <text x="265" y="213" font-family="Arial, sans-serif" font-size="13" fill="#333">|     |</text>
+  <text x="265" y="231" font-family="Arial, sans-serif" font-size="13" fill="#333">C = C</text>
+  <text x="265" y="245" font-family="Arial, sans-serif" font-size="13" fill="#333">|     |</text>
+  <text x="265" y="259" font-family="Arial, sans-serif" font-size="13" fill="#333">H     H</text>
+
+  <!-- Row 3: T and U -->
+  <!-- Cell T -->
+  <rect x="20" y="261" width="225" height="100" rx="6" fill="#fff8f0" stroke="#aaa" stroke-width="1"/>
+  <text x="30" y="280" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">T: Propene (CH₃CH=CH₂)</text>
+  <text x="30" y="300" font-family="Arial, sans-serif" font-size="13" fill="#333">H   H   H</text>
+  <text x="30" y="318" font-family="Arial, sans-serif" font-size="13" fill="#333">|   |   |</text>
+  <text x="30" y="336" font-family="Arial, sans-serif" font-size="13" fill="#333">H—C—C = C</text>
+  <text x="30" y="350" font-family="Arial, sans-serif" font-size="13" fill="#333">    |       |</text>
+  <text x="30" y="364" font-family="Arial, sans-serif" font-size="13" fill="#333">    H       H</text>
+
+  <!-- Cell U -->
+  <rect x="255" y="261" width="225" height="100" rx="6" fill="#fff8f0" stroke="#aaa" stroke-width="1"/>
+  <text x="265" y="280" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">U: Methane (CH₄)</text>
+  <text x="340" y="305" font-family="Arial, sans-serif" font-size="13" fill="#333">H</text>
+  <text x="340" y="320" font-family="Arial, sans-serif" font-size="13" fill="#333">|</text>
+  <text x="305" y="338" font-family="Arial, sans-serif" font-size="13" fill="#333">H — C — H</text>
+  <text x="340" y="351" font-family="Arial, sans-serif" font-size="13" fill="#333">|</text>
+  <text x="340" y="366" font-family="Arial, sans-serif" font-size="13" fill="#333">H</text>
+</svg>

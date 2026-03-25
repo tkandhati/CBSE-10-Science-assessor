@@ -166,7 +166,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap6_ns_dia_006.png"
+      "diagram_path": "chap6_ns_dia_006.svg"
     },
     {
       "id": "chap6_ns_la_007",
@@ -572,7 +572,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap6_hb_dia_006.png"
+      "diagram_path": "chap6_hb_dia_006.svg"
     },
     {
       "id": "chap6_hb_la_007",
@@ -992,7 +992,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap6_ha_dia_005.png"
+      "diagram_path": "chap6_ha_dia_005.svg"
     },
     {
       "id": "chap6_ha_la_006",

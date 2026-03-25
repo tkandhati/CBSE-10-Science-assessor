@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="28" font-family="Arial, sans-serif" font-size="15" font-weight="bold"
+        text-anchor="middle" fill="black">Activity: Metal Reactivity Comparison</text>
+
+  <!-- TEST TUBE (I): Iron nail in CuSO4 -->
+  <!-- Test tube body -->
+  <rect x="80" y="90" width="80" height="170" rx="40" fill="#cce5ff" stroke="black" stroke-width="2"/>
+  <!-- Test tube rim (open top) -->
+  <rect x="78" y="88" width="84" height="12" rx="3" fill="white" stroke="black" stroke-width="2"/>
+  <!-- Iron nail -->
+  <rect x="116" y="100" width="8" height="120" rx="2" fill="#888" stroke="#555" stroke-width="1.5"/>
+  <!-- Nail head -->
+  <rect x="108" y="100" width="24" height="8" rx="2" fill="#777" stroke="#444" stroke-width="1"/>
+  <!-- Label (I) -->
+  <text x="120" y="78" font-family="Arial, sans-serif" font-size="13" font-weight="bold"
+        text-anchor="middle" fill="black">Test Tube (I)</text>
+  <!-- Pointer labels -->
+  <line x1="165" y1="130" x2="195" y2="115" stroke="#333" stroke-width="1"/>
+  <text x="198" y="113" font-family="Arial, sans-serif" font-size="11" fill="#333">Iron nail</text>
+  <line x1="165" y1="195" x2="195" y2="205" stroke="#333" stroke-width="1"/>
+  <text x="198" y="210" font-family="Arial, sans-serif" font-size="11" fill="#0055aa">CuSO₄ solution</text>
+  <text x="198" y="224" font-family="Arial, sans-serif" font-size="11" fill="#0055aa">(Blue)</text>
+
+  <!-- TEST TUBE (II): Copper wire in FeSO4 -->
+  <rect x="290" y="90" width="80" height="170" rx="40" fill="#d4f0d4" stroke="black" stroke-width="2"/>
+  <rect x="288" y="88" width="84" height="12" rx="3" fill="white" stroke="black" stroke-width="2"/>
+  <!-- Copper wire (coiled appearance) -->
+  <line x1="330" y1="108" x2="330" y2="230" stroke="#b87333" stroke-width="4"/>
+  <ellipse cx="330" cy="140" rx="10" ry="4" fill="none" stroke="#b87333" stroke-width="2"/>
+  <ellipse cx="330" cy="160" rx="10" ry="4" fill="none" stroke="#b87333" stroke-width="2"/>
+  <ellipse cx="330" cy="180" rx="10" ry="4" fill="none" stroke="#b87333" stroke-width="2"/>
+  <ellipse cx="330" cy="200" rx="10" ry="4" fill="none" stroke="#b87333" stroke-width="2"/>
+  <!-- Label (II) -->
+  <text x="330" y="78" font-family="Arial, sans-serif" font-size="13" font-weight="bold"
+        text-anchor="middle" fill="black">Test Tube (II)</text>
+  <!-- Pointer labels -->
+  <line x1="340" y1="160" x2="390" y2="145" stroke="#333" stroke-width="1"/>
+  <text x="393" y="143" font-family="Arial, sans-serif" font-size="11" fill="#8b4513">Copper wire</text>
+  <line x1="340" y1="210" x2="390" y2="220" stroke="#333" stroke-width="1"/>
+  <text x="393" y="225" font-family="Arial, sans-serif" font-size="11" fill="#2d6a2d">FeSO₄ solution</text>
+  <text x="393" y="239" font-family="Arial, sans-serif" font-size="11" fill="#2d6a2d">(Pale green)</text>
+
+  <!-- Observation note -->
+  <rect x="30" y="290" width="440" height="60" rx="6" fill="#fffde7" stroke="#f0c040" stroke-width="1.5"/>
+  <text x="250" y="312" font-family="Arial, sans-serif" font-size="12" font-weight="bold"
+        text-anchor="middle" fill="#555">Observation:</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">
+    Test tube (I): Iron nail turns reddish-brown (Cu deposited)
+  </text>
+  <text x="250" y="346" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">
+    Test tube (II): No change (Cu cannot displace Fe)
+  </text>
+</svg>

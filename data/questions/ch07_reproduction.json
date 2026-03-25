@@ -720,7 +720,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap7_srp_dia_001.png"
+      "diagram_path": "chap7_srp_dia_001.svg"
     },
     {
       "id": "chap7_srp_ar_001",
@@ -1039,7 +1039,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap7_hre_dia_001.png"
+      "diagram_path": "chap7_hre_dia_001.svg"
     },
     {
       "id": "chap7_rph_mcq_001",

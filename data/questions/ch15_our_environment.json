@@ -315,7 +315,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap13_fcw_diag_001.png"
+      "diagram_path": "chap13_fcw_diag_001.svg"
     },
     {
       "id": "ch15_fcw_diag_002",
@@ -346,7 +346,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap13_fcw_diag_002.png"
+      "diagram_path": "chap13_fcw_diag_002.svg"
     },
     {
       "id": "ch15_fcw_num_001",
@@ -757,7 +757,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap13_wst_diag_001.png"
+      "diagram_path": "chap13_wst_diag_001.svg"
     },
     {
       "id": "ch15_mcq_und_001",

@@ -108,6 +108,16 @@ function MockTestView({ session }: { session: SessionResponse }) {
 
                     <p className="text-gray-800 leading-relaxed">{q.text}</p>
 
+                    {q.diagram_path && (
+                      <div className="my-4 flex justify-center">
+                        <img
+                          src={`/diagrams/${q.diagram_path}`}
+                          alt="Question diagram"
+                          className="max-w-full max-h-96 border border-gray-200 rounded"
+                        />
+                      </div>
+                    )}
+
                     {(q.type === 'mcq' || q.type === 'assertion_reason') && q.options && (
                       <div className="mt-3 space-y-2">
                         {q.options.map((opt, idx) => (
@@ -217,6 +227,16 @@ function ChapterTestView({ session }: { session: SessionResponse }) {
             )}
 
             <p className="text-gray-800 leading-relaxed">{q.text}</p>
+
+            {q.diagram_path && (
+              <div className="my-4 flex justify-center">
+                <img
+                  src={`/diagrams/${q.diagram_path}`}
+                  alt="Question diagram"
+                  className="max-w-full max-h-96 border border-gray-200 rounded"
+                />
+              </div>
+            )}
 
             {/* MCQ options shown for reference */}
             {(q.type === 'mcq' || q.type === 'assertion_reason') && q.options && (
@@ -435,6 +455,15 @@ function UnderstandingView({ session }: { session: SessionResponse }) {
               </span>
             </div>
             <p className="text-gray-800 text-lg leading-relaxed">{q.text}</p>
+            {q.diagram_path && (
+              <div className="my-4 flex justify-center">
+                <img
+                  src={`/diagrams/${q.diagram_path}`}
+                  alt="Question diagram"
+                  className="max-w-full max-h-96 border border-gray-200 rounded"
+                />
+              </div>
+            )}
             {q.type === 'mcq' || q.type === 'assertion_reason' ? (
               <MCQOptions question={q} answer={getAns(q.id)} onChange={handleMCQ} />
             ) : q.type === 'numerical' ? (

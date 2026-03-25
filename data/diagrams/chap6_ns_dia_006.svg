@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="26" font-family="Arial, sans-serif" font-size="15" font-weight="bold"
+        text-anchor="middle" fill="black">Structure of a Neuron</text>
+
+  <!-- Cell body (soma) -->
+  <ellipse cx="160" cy="185" rx="55" ry="50" fill="#ffe0b2" stroke="#e65100" stroke-width="2"/>
+  <!-- Nucleus inside cell body -->
+  <ellipse cx="160" cy="185" rx="22" ry="18" fill="#ffccbc" stroke="#bf360c" stroke-width="1.5"/>
+  <text x="160" y="189" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#bf360c">Nucleus</text>
+
+  <!-- Dendrites (A) branching left -->
+  <!-- Dendrite 1 -->
+  <line x1="108" y1="165" x2="55" y2="135" stroke="#e65100" stroke-width="2.5"/>
+  <line x1="55" y1="135" x2="22" y2="110" stroke="#e65100" stroke-width="1.5"/>
+  <line x1="55" y1="135" x2="28" y2="155" stroke="#e65100" stroke-width="1.5"/>
+  <!-- Dendrite 2 -->
+  <line x1="105" y1="185" x2="50" y2="175" stroke="#e65100" stroke-width="2.5"/>
+  <line x1="50" y1="175" x2="18" y2="165" stroke="#e65100" stroke-width="1.5"/>
+  <line x1="50" y1="175" x2="20" y2="188" stroke="#e65100" stroke-width="1.5"/>
+  <!-- Dendrite 3 -->
+  <line x1="110" y1="205" x2="55" y2="225" stroke="#e65100" stroke-width="2.5"/>
+  <line x1="55" y1="225" x2="22" y2="215" stroke="#e65100" stroke-width="1.5"/>
+  <line x1="55" y1="225" x2="25" y2="240" stroke="#e65100" stroke-width="1.5"/>
+
+  <!-- Label A: Dendrites -->
+  <text x="18" y="90" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="black">A</text>
+  <text x="18" y="104" font-family="Arial, sans-serif" font-size="10" fill="#333">Dendrites</text>
+
+  <!-- Axon (B) extending right from cell body -->
+  <line x1="215" y1="185" x2="460" y2="185" stroke="#1565c0" stroke-width="3"/>
+
+  <!-- Label B: Axon -->
+  <text x="310" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="black">B</text>
+  <text x="300" y="183" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">Axon</text>
+
+  <!-- Myelin sheath segments (C) around axon -->
+  <!-- Segment 1 -->
+  <rect x="230" y="172" width="40" height="26" rx="3" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
+  <!-- Node of Ranvier gap -->
+  <!-- Segment 2 -->
+  <rect x="280" y="172" width="40" height="26" rx="3" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
+  <!-- Segment 3 -->
+  <rect x="330" y="172" width="40" height="26" rx="3" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
+  <!-- Segment 4 -->
+  <rect x="380" y="172" width="40" height="26" rx="3" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
+
+  <!-- Label C: Myelin Sheath -->
+  <line x1="305" y1="172" x2="305" y2="145" stroke="#333" stroke-width="1"/>
+  <text x="248" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="black">C</text>
+  <text x="262" y="140" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">Myelin Sheath</text>
+
+  <!-- Node of Ranvier labels -->
+  <text x="270" y="210" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#666">Node of</text>
+  <text x="270" y="220" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#666">Ranvier</text>
+  <line x1="270" y1="207" x2="270" y2="198" stroke="#999" stroke-width="1"/>
+
+  <!-- Synaptic knobs/terminals (D) at far right -->
+  <line x1="460" y1="185" x2="475" y2="165" stroke="#1565c0" stroke-width="2"/>
+  <circle cx="478" cy="162" r="8" fill="#64b5f6" stroke="#1565c0" stroke-width="1.5"/>
+  <line x1="460" y1="185" x2="475" y2="185" stroke="#1565c0" stroke-width="2"/>
+  <circle cx="478" cy="185" r="8" fill="#64b5f6" stroke="#1565c0" stroke-width="1.5"/>
+  <line x1="460" y1="185" x2="475" y2="205" stroke="#1565c0" stroke-width="2"/>
+  <circle cx="478" cy="208" r="8" fill="#64b5f6" stroke="#1565c0" stroke-width="1.5"/>
+
+  <!-- Label D: Synaptic terminals -->
+  <text x="452" y="250" font-family="Arial, sans-serif" font-size="12" font-weight="bold"
+        text-anchor="middle" fill="black">D</text>
+  <text x="452" y="264" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Synaptic</text>
+  <text x="452" y="276" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Terminals</text>
+
+  <!-- Cell body label -->
+  <text x="160" y="250" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#e65100">Cell Body (Soma)</text>
+
+  <!-- Legend -->
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    A: Dendrites   B: Axon   C: Myelin Sheath   D: Synaptic Terminals
+  </text>
+  <text x="250" y="332" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#777">
+    Nerve impulse travels: Dendrites → Cell Body → Axon → Synaptic terminals
+  </text>
+</svg>

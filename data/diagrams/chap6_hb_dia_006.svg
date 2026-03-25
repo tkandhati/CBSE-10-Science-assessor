@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="26" font-family="Arial, sans-serif" font-size="15" font-weight="bold"
+        text-anchor="middle" fill="black">Human Brain (Lateral View)</text>
+
+  <!-- Cerebrum (A) — large upper region -->
+  <ellipse cx="230" cy="160" rx="165" ry="120" fill="#ffccbc" stroke="#bf360c" stroke-width="2"/>
+  <!-- Cerebral folds (sulci/gyri) -->
+  <path d="M 90 130 Q 120 110 150 130 Q 180 150 210 130 Q 240 110 270 130 Q 300 150 330 130 Q 360 110 380 130"
+        fill="none" stroke="#e64a19" stroke-width="1.5"/>
+  <path d="M 80 160 Q 110 140 140 160 Q 170 180 200 160 Q 230 140 260 160 Q 290 180 320 160 Q 350 140 380 165"
+        fill="none" stroke="#e64a19" stroke-width="1.5"/>
+  <path d="M 85 190 Q 115 170 145 190 Q 175 210 205 190 Q 235 170 265 190 Q 295 210 325 190 Q 355 170 385 190"
+        fill="none" stroke="#e64a19" stroke-width="1.5"/>
+
+  <!-- Cerebellum (B) — bottom right -->
+  <ellipse cx="330" cy="270" rx="80" ry="55" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/>
+  <!-- Cerebellar folds -->
+  <path d="M 262 265 Q 280 255 300 265 Q 320 275 340 265 Q 360 255 380 265 Q 395 275 408 270"
+        fill="none" stroke="#388e3c" stroke-width="1.2"/>
+  <path d="M 262 278 Q 280 268 300 278 Q 320 288 340 278 Q 360 268 380 278 Q 395 288 408 283"
+        fill="none" stroke="#388e3c" stroke-width="1.2"/>
+
+  <!-- Medulla oblongata / brainstem (C) -->
+  <rect x="168" y="265" width="45" height="90" rx="20" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <!-- Spinal cord extension -->
+  <rect x="180" y="348" width="22" height="25" rx="8" fill="#90caf9" stroke="#1565c0" stroke-width="1.5"/>
+
+  <!-- Label A: Cerebrum -->
+  <line x1="200" y1="100" x2="150" y2="55" stroke="#333" stroke-width="1.5"/>
+  <text x="108" y="48" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">A</text>
+  <text x="108" y="62" font-family="Arial, sans-serif" font-size="11" fill="#bf360c">Cerebrum</text>
+  <text x="108" y="75" font-family="Arial, sans-serif" font-size="10" fill="#555">(Largest part)</text>
+
+  <!-- Label B: Cerebellum -->
+  <line x1="380" y1="260" x2="430" y2="240" stroke="#333" stroke-width="1.5"/>
+  <text x="432" y="234" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">B</text>
+  <text x="432" y="248" font-family="Arial, sans-serif" font-size="11" fill="#2e7d32">Cerebellum</text>
+  <text x="432" y="261" font-family="Arial, sans-serif" font-size="10" fill="#555">(Balance &amp;</text>
+  <text x="432" y="273" font-family="Arial, sans-serif" font-size="10" fill="#555">coordination)</text>
+
+  <!-- Label C: Medulla -->
+  <line x1="168" y1="305" x2="110" y2="305" stroke="#333" stroke-width="1.5"/>
+  <text x="58" y="299" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">C</text>
+  <text x="30" y="313" font-family="Arial, sans-serif" font-size="11" fill="#1565c0">Medulla</text>
+  <text x="22" y="327" font-family="Arial, sans-serif" font-size="11" fill="#1565c0">Oblongata</text>
+  <text x="22" y="341" font-family="Arial, sans-serif" font-size="10" fill="#555">(Controls vital</text>
+  <text x="22" y="353" font-family="Arial, sans-serif" font-size="10" fill="#555">functions)</text>
+
+  <!-- Spinal cord label -->
+  <line x1="191" y1="370" x2="240" y2="370" stroke="#999" stroke-width="1"/>
+  <text x="242" y="374" font-family="Arial, sans-serif" font-size="10" fill="#777">Spinal cord</text>
+</svg>

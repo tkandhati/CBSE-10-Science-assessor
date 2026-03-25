@@ -485,7 +485,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Images/chap3_chem_diag_001.png"
+      "diagram_path": "chap3_chem_diag_001.svg"
     },
     {
       "id": "chap3_chem_sa_005",
@@ -1069,7 +1069,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Images/chap3_metal_diag_001.png"
+      "diagram_path": "chap3_metal_diag_001.svg"
     },
     {
       "id": "chap3_metal_ar_001",

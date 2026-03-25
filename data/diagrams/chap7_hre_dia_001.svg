@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="26" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        text-anchor="middle" fill="black">Human Female Reproductive System</text>
+
+  <!-- A: Ovaries (left and right) -->
+  <!-- Left ovary -->
+  <ellipse cx="155" cy="155" rx="30" ry="22" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+  <!-- Right ovary -->
+  <ellipse cx="345" cy="155" rx="30" ry="22" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+
+  <!-- B: Fallopian tubes / Oviducts (curved tubes from ovary to uterus) -->
+  <!-- Left fallopian tube -->
+  <path d="M 155 133 Q 155 95 200 90 Q 230 88 250 110"
+        fill="none" stroke="#e91e63" stroke-width="3"/>
+  <!-- Fimbriae (finger-like projections) at left -->
+  <path d="M 155 133 C 140 120 135 130 138 143" fill="none" stroke="#e91e63" stroke-width="2"/>
+  <path d="M 155 133 C 143 118 140 125 145 138" fill="none" stroke="#e91e63" stroke-width="2"/>
+
+  <!-- Right fallopian tube -->
+  <path d="M 345 133 Q 345 95 300 90 Q 270 88 250 110"
+        fill="none" stroke="#e91e63" stroke-width="3"/>
+  <!-- Fimbriae (finger-like projections) at right -->
+  <path d="M 345 133 C 360 120 365 130 362 143" fill="none" stroke="#e91e63" stroke-width="2"/>
+  <path d="M 345 133 C 357 118 360 125 355 138" fill="none" stroke="#e91e63" stroke-width="2"/>
+
+  <!-- C: Uterus (pear-shaped, centre) -->
+  <path d="M 200 110 Q 190 175 200 230 Q 220 270 250 275 Q 280 270 300 230 Q 310 175 300 110 Q 280 95 250 92 Q 220 95 200 110 Z"
+        fill="#ffcdd2" stroke="#e53935" stroke-width="2"/>
+  <!-- Uterus cavity (inner) -->
+  <path d="M 215 120 Q 210 180 220 225 Q 235 255 250 258 Q 265 255 280 225 Q 290 180 285 120 Q 268 108 250 106 Q 232 108 215 120 Z"
+        fill="#ffebee" stroke="#ef9a9a" stroke-width="1"/>
+
+  <!-- D: Vagina (tube below uterus) -->
+  <rect x="225" y="272" width="50" height="80" rx="20" fill="#f48fb1" stroke="#c2185b" stroke-width="2"/>
+  <!-- Vaginal opening -->
+  <ellipse cx="250" cy="350" rx="20" ry="8" fill="#f06292" stroke="#c2185b" stroke-width="1.5"/>
+
+  <!-- Cervix (junction between uterus and vagina) -->
+  <ellipse cx="250" cy="273" rx="22" ry="8" fill="#e57373" stroke="#b71c1c" stroke-width="1.5"/>
+  <text x="290" y="277" font-family="Arial, sans-serif" font-size="9" fill="#777">Cervix</text>
+
+  <!-- Label A: Ovary -->
+  <line x1="126" y1="148" x2="60" y2="130" stroke="#333" stroke-width="1.5"/>
+  <text x="18" y="125" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">A</text>
+  <text x="18" y="139" font-family="Arial, sans-serif" font-size="11" fill="#c2185b">Ovary</text>
+  <text x="10" y="152" font-family="Arial, sans-serif" font-size="10" fill="#555">(produces eggs)</text>
+
+  <!-- Label B: Fallopian tube -->
+  <line x1="175" y1="92" x2="120" y2="68" stroke="#333" stroke-width="1.5"/>
+  <text x="72" y="64" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">B</text>
+  <text x="45" y="78" font-family="Arial, sans-serif" font-size="11" fill="#e91e63">Fallopian Tube</text>
+  <text x="52" y="91" font-family="Arial, sans-serif" font-size="10" fill="#555">(Oviduct)</text>
+
+  <!-- Label C: Uterus -->
+  <line x1="300" y1="185" x2="390" y2="185" stroke="#333" stroke-width="1.5"/>
+  <text x="394" y="181" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">C</text>
+  <text x="394" y="195" font-family="Arial, sans-serif" font-size="11" fill="#e53935">Uterus</text>
+  <text x="385" y="208" font-family="Arial, sans-serif" font-size="10" fill="#555">(Womb)</text>
+
+  <!-- Label D: Vagina -->
+  <line x1="275" y1="310" x2="390" y2="310" stroke="#333" stroke-width="1.5"/>
+  <text x="394" y="306" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="black">D</text>
+  <text x="394" y="320" font-family="Arial, sans-serif" font-size="11" fill="#c2185b">Vagina</text>
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="28" font-family="Arial, sans-serif" font-size="15" font-weight="bold"
+        text-anchor="middle" fill="black">Structural Formulas — Figure B</text>
+
+  <!-- Compound A: Ethanol -->
+  <rect x="30" y="50" width="200" height="270" rx="8" fill="#f0f8ff" stroke="#5588cc" stroke-width="1.5"/>
+  <text x="130" y="72" font-family="Arial, sans-serif" font-size="13" font-weight="bold"
+        text-anchor="middle" fill="#003380">Compound A</text>
+  <text x="130" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Ethanol (C₂H₅OH)</text>
+
+  <!-- Structural formula for ethanol -->
+  <text x="55" y="130" font-family="Arial, sans-serif" font-size="14" fill="#333">H    H</text>
+  <text x="55" y="150" font-family="Arial, sans-serif" font-size="14" fill="#333">|    |</text>
+  <text x="55" y="170" font-family="Arial, sans-serif" font-size="14" fill="#333">H—C—C—O—H</text>
+  <text x="55" y="188" font-family="Arial, sans-serif" font-size="14" fill="#333">|    |</text>
+  <text x="55" y="206" font-family="Arial, sans-serif" font-size="14" fill="#333">H    H</text>
+
+  <!-- Circle/highlight around -OH group -->
+  <ellipse cx="183" cy="170" rx="22" ry="28" fill="none" stroke="#cc0000" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="183" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#cc0000" font-weight="bold">−OH group</text>
+  <text x="130" y="248" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">(Hydroxyl functional group)</text>
+  <line x1="183" y1="218" x2="183" y2="238" stroke="#cc0000" stroke-width="1.5"/>
+
+  <text x="130" y="295" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">Alcohol functional group</text>
+  <text x="130" y="311" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">Makes compound an alcohol</text>
+
+  <!-- Compound B: Acetic acid -->
+  <rect x="270" y="50" width="200" height="270" rx="8" fill="#f0fff0" stroke="#558855" stroke-width="1.5"/>
+  <text x="370" y="72" font-family="Arial, sans-serif" font-size="13" font-weight="bold"
+        text-anchor="middle" fill="#003300">Compound B</text>
+  <text x="370" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Acetic Acid (CH₃COOH)</text>
+
+  <!-- Structural formula for acetic acid -->
+  <text x="285" y="130" font-family="Arial, sans-serif" font-size="14" fill="#333">H      O</text>
+  <text x="285" y="150" font-family="Arial, sans-serif" font-size="14" fill="#333">|      ‖</text>
+  <text x="285" y="170" font-family="Arial, sans-serif" font-size="14" fill="#333">H—C—C—O—H</text>
+  <text x="285" y="188" font-family="Arial, sans-serif" font-size="14" fill="#333">|</text>
+  <text x="285" y="206" font-family="Arial, sans-serif" font-size="14" fill="#333">H</text>
+
+  <!-- Circle/highlight around -COOH group -->
+  <ellipse cx="395" cy="162" rx="42" ry="32" fill="none" stroke="#cc0000" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="370" y="230" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#cc0000" font-weight="bold">−COOH group</text>
+  <text x="370" y="248" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">(Carboxyl functional group)</text>
+  <line x1="370" y1="218" x2="370" y2="238" stroke="#cc0000" stroke-width="1.5"/>
+
+  <text x="370" y="295" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">Carboxylic acid group</text>
+  <text x="370" y="311" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">Makes compound an acid</text>
+
+  <!-- Bottom note -->
+  <text x="250" y="348" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    Functional groups determine the chemical properties of organic compounds
+  </text>
+</svg>

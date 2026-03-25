@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="500" height="380">
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold"
+        text-anchor="middle" fill="black">Series-Parallel Circuit — Figure B</text>
+
+  <!--
+    Layout:
+    Battery (left, y=60 to y=310).
+    R1=5Ω in series from x=60 to x=220 (along top wire).
+    At x=220, circuit splits into two parallel branches meeting at x=390.
+    R2=10Ω top branch (y=110), R3=20Ω bottom branch (y=260).
+    Then rejoins and goes back to battery.
+  -->
+
+  <!-- Battery left side vertical line -->
+  <line x1="60" y1="60" x2="60" y2="310" stroke="black" stroke-width="2"/>
+  <!-- Battery symbol -->
+  <line x1="48" y1="168" x2="72" y2="168" stroke="black" stroke-width="3"/>
+  <line x1="52" y1="182" x2="68" y2="182" stroke="black" stroke-width="1.5"/>
+  <line x1="48" y1="196" x2="72" y2="196" stroke="black" stroke-width="3"/>
+  <line x1="52" y1="210" x2="68" y2="210" stroke="black" stroke-width="1.5"/>
+  <text x="22" y="168" font-family="Arial, sans-serif" font-size="11" fill="black">+</text>
+  <text x="22" y="213" font-family="Arial, sans-serif" font-size="11" fill="black">−</text>
+  <text x="14" y="190" font-family="Arial, sans-serif" font-size="13" font-weight="bold"
+        text-anchor="middle" fill="black">12V</text>
+
+  <!-- Top rail from battery+ to R1 start -->
+  <line x1="60" y1="60" x2="130" y2="60" stroke="black" stroke-width="2"/>
+
+  <!-- R1 = 5Ω in series (top rail) -->
+  <rect x="130" y="48" width="80" height="24" rx="3" fill="white" stroke="black" stroke-width="2"/>
+  <text x="170" y="64" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="black">R₁ = 5 Ω</text>
+
+  <!-- Wire from R1 to split point -->
+  <line x1="210" y1="60" x2="255" y2="60" stroke="black" stroke-width="2"/>
+  <!-- Split junction -->
+  <circle cx="255" cy="60" r="4" fill="black"/>
+
+  <!-- Left vertical drop from junction to top branch (y=110) -->
+  <line x1="255" y1="60" x2="255" y2="110" stroke="black" stroke-width="2"/>
+  <!-- Left vertical drop from junction to bottom branch (y=260) -->
+  <line x1="255" y1="60" x2="255" y2="260" stroke="black" stroke-width="2"/>
+
+  <!-- Top branch: R2=10Ω at y=110 -->
+  <line x1="255" y1="110" x2="295" y2="110" stroke="black" stroke-width="2"/>
+  <rect x="295" y="98" width="90" height="24" rx="3" fill="white" stroke="black" stroke-width="2"/>
+  <text x="340" y="114" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="black">R₂ = 10 Ω</text>
+  <line x1="385" y1="110" x2="420" y2="110" stroke="black" stroke-width="2"/>
+
+  <!-- Bottom branch: R3=20Ω at y=260 -->
+  <line x1="255" y1="260" x2="295" y2="260" stroke="black" stroke-width="2"/>
+  <rect x="295" y="248" width="90" height="24" rx="3" fill="white" stroke="black" stroke-width="2"/>
+  <text x="340" y="264" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="black">R₃ = 20 Ω</text>
+  <line x1="385" y1="260" x2="420" y2="260" stroke="black" stroke-width="2"/>
+
+  <!-- Right bus bar (join point at x=420) -->
+  <line x1="420" y1="110" x2="420" y2="260" stroke="black" stroke-width="2"/>
+  <circle cx="420" cy="110" r="4" fill="black"/>
+  <circle cx="420" cy="260" r="4" fill="black"/>
+
+  <!-- Wire from rejoin to bottom rail -->
+  <line x1="420" y1="185" x2="460" y2="185" stroke="black" stroke-width="2"/>
+  <line x1="460" y1="185" x2="460" y2="310" stroke="black" stroke-width="2"/>
+  <line x1="60" y1="310" x2="460" y2="310" stroke="black" stroke-width="2"/>
+
+  <!-- Left junction dots -->
+  <circle cx="255" cy="110" r="4" fill="black"/>
+  <circle cx="255" cy="260" r="4" fill="black"/>
+
+  <!-- Labels and annotations -->
+  <text x="170" y="40" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">(Series)</text>
+  <text x="340" y="88" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">(Parallel)</text>
+  <text x="340" y="244" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">(Parallel)</text>
+
+  <!-- Info box -->
+  <rect x="30" y="290" width="440" height="50" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1"/>
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">
+    R₂ ∥ R₃ = (10×20)/(10+20) = 200/30 ≈ 6.67 Ω
+  </text>
+  <text x="250" y="328" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#333">
+    R_total = R₁ + (R₂ ∥ R₃) = 5 + 6.67 ≈ 11.67 Ω
+  </text>
+
+  <!-- Current label -->
+  <text x="90" y="50" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">I →</text>
+</svg>

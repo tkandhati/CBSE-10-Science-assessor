@@ -467,7 +467,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap11_ohm_diagram_001.png"
+      "diagram_path": "chap11_ohm_diagram_001.svg"
     },
     {
       "id": "chap11_ohm_ar_001",
@@ -772,7 +772,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap11_sp_diagram_001.png"
+      "diagram_path": "chap11_sp_diagram_001.svg"
     },
     {
       "id": "chap11_sp_diagram_002",
@@ -806,7 +806,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap11_sp_diagram_002.png"
+      "diagram_path": "chap11_sp_diagram_002.svg"
     },
     {
       "id": "chap11_sp_la_001",
@@ -1909,7 +1909,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap11_sp_diagram_001.png"
+      "diagram_path": "chap11_sp_diagram_001.svg"
     },
     {
       "id": "chap11_sp_und_sa_003",
@@ -1973,7 +1973,7 @@
         }
       },
       "template_params": null,
-      "diagram_path": "Questions/Images/chap11_sp_diagram_002.png"
+      "diagram_path": "chap11_sp_diagram_002.svg"
     },
     {
       "id": "chap11_sp_und_num_001",
