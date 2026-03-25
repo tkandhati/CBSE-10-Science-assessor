@@ -1,0 +1,80 @@
+{
+  "subject": "Physics",
+  "class": 10,
+  "board": "CBSE",
+  "total_marks": 30,
+  "chapters": [
+    {
+      "id": "light",
+      "title": "Light — Reflection & Refraction",
+      "ncert_chapter": 10,
+      "board_weightage": 7,
+      "topics": [
+        { "id": "laws_of_reflection", "title": "Laws of Reflection", "board_weightage": 0.10 },
+        { "id": "spherical_mirrors", "title": "Spherical Mirrors", "board_weightage": 0.20 },
+        { "id": "mirror_formula", "title": "Mirror Formula & Magnification", "board_weightage": 0.20 },
+        { "id": "refraction", "title": "Refraction of Light", "board_weightage": 0.15 },
+        { "id": "refraction_glass_slab", "title": "Refraction through Glass Slab", "board_weightage": 0.10 },
+        { "id": "spherical_lenses", "title": "Spherical Lenses", "board_weightage": 0.15 },
+        { "id": "lens_formula", "title": "Lens Formula & Magnification", "board_weightage": 0.10 }
+      ]
+    },
+    {
+      "id": "human_eye",
+      "title": "Human Eye & Colourful World",
+      "ncert_chapter": 11,
+      "board_weightage": 5,
+      "topics": [
+        { "id": "human_eye_structure", "title": "Human Eye — Structure & Function", "board_weightage": 0.20 },
+        { "id": "defects_of_vision", "title": "Defects of Vision & Correction", "board_weightage": 0.35 },
+        { "id": "refraction_atmosphere", "title": "Atmospheric Refraction", "board_weightage": 0.15 },
+        { "id": "dispersion_prism", "title": "Dispersion through Prism", "board_weightage": 0.15 },
+        { "id": "scattering_light", "title": "Scattering of Light", "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "electricity",
+      "title": "Electricity",
+      "ncert_chapter": 12,
+      "board_weightage": 8,
+      "topics": [
+        { "id": "electric_current_circuit", "title": "Electric Current & Circuit", "board_weightage": 0.10 },
+        { "id": "potential_difference", "title": "Potential Difference", "board_weightage": 0.10 },
+        { "id": "ohms_law", "title": "Ohm's Law", "board_weightage": 0.15 },
+        { "id": "resistance_factors", "title": "Resistance & Factors Affecting It", "board_weightage": 0.15 },
+        { "id": "series_parallel", "title": "Series & Parallel Circuits", "board_weightage": 0.20 },
+        { "id": "heating_effect", "title": "Heating Effect of Electric Current", "board_weightage": 0.15 },
+        { "id": "electric_power_energy", "title": "Electric Power & Energy", "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "magnetic_effects",
+      "title": "Magnetic Effects of Current",
+      "ncert_chapter": 13,
+      "board_weightage": 7,
+      "topics": [
+        { "id": "magnetic_field_lines", "title": "Magnetic Field & Field Lines", "board_weightage": 0.15 },
+        { "id": "field_due_to_conductor", "title": "Magnetic Field due to Current-Carrying Conductor", "board_weightage": 0.15 },
+        { "id": "solenoid", "title": "Solenoid & Bar Magnet", "board_weightage": 0.10 },
+        { "id": "force_on_conductor", "title": "Force on Current-Carrying Conductor", "board_weightage": 0.15 },
+        { "id": "electric_motor", "title": "Electric Motor", "board_weightage": 0.15 },
+        { "id": "electromagnetic_induction", "title": "Electromagnetic Induction", "board_weightage": 0.15 },
+        { "id": "electric_generator", "title": "Electric Generator", "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "sources_of_energy",
+      "title": "Sources of Energy",
+      "ncert_chapter": 14,
+      "board_weightage": 3,
+      "topics": [
+        { "id": "conventional_sources", "title": "Conventional Sources of Energy", "board_weightage": 0.25 },
+        { "id": "solar_energy", "title": "Solar Energy", "board_weightage": 0.20 },
+        { "id": "wind_energy", "title": "Wind Energy", "board_weightage": 0.15 },
+        { "id": "biomass_energy", "title": "Biomass & Biogas", "board_weightage": 0.15 },
+        { "id": "nuclear_energy", "title": "Nuclear Energy", "board_weightage": 0.15 },
+        { "id": "environmental_impact", "title": "Environmental Impact", "board_weightage": 0.10 }
+      ]
+    }
+  ]
+}
