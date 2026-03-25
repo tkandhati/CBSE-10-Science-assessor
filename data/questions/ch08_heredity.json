@@ -1,0 +1,2264 @@
+{
+  "chapter_id": "ch08_heredity",
+  "chapter_title": "Heredity",
+  "questions": [
+    {
+      "id": "chap8_aov_mcq_001",
+      "use_for": "test",
+      "text": "If a trait A exists in 10% of a population of an asexually reproducing species and a trait B exists in 60% of the same population, which trait is likely to have arisen earlier?",
+      "options": [
+        {
+          "text": "Trait A",
+          "is_correct": false
+        },
+        {
+          "text": "Trait B",
+          "is_correct": true
+        },
+        {
+          "text": "Both arose at the same time",
+          "is_correct": false
+        },
+        {
+          "text": "Cannot be determined",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "asexual",
+          "earlier",
+          "frequency",
+          "population"
+        ],
+        "key_points": [
+          "In asexual reproduction, traits spread by clonal propagation.",
+          "A trait present in higher percentage has had more time to accumulate, hence arose earlier."
+        ],
+        "formula": null,
+        "expected_answer": "Trait B, because in asexual reproduction a trait present in a larger proportion of the population is likely to have arisen earlier and spread through successive generations.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_mcq_002",
+      "use_for": "test",
+      "text": "Which of the following contributes the most to generating variations in a population?",
+      "options": [
+        {
+          "text": "Asexual reproduction",
+          "is_correct": false
+        },
+        {
+          "text": "Sexual reproduction",
+          "is_correct": true
+        },
+        {
+          "text": "Binary fission",
+          "is_correct": false
+        },
+        {
+          "text": "Budding",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "sexual reproduction",
+          "variation",
+          "genetic recombination"
+        ],
+        "key_points": [
+          "Sexual reproduction involves fusion of gametes from two parents.",
+          "Genetic recombination during meiosis and fertilization creates maximum diversity."
+        ],
+        "formula": null,
+        "expected_answer": "Sexual reproduction contributes most to variation because it involves genetic recombination from two different parents during meiosis and fertilization.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_sa_001",
+      "use_for": "test",
+      "text": "How does the creation of variations in a species promote survival?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "variation",
+          "survival",
+          "environment",
+          "advantage",
+          "natural selection"
+        ],
+        "key_points": [
+          "Variations allow some individuals to have advantages in changed environments.",
+          "For example, bacteria that can withstand heat survive better in a heat wave.",
+          "Without variation, entire population could be wiped out by a single environmental change."
+        ],
+        "formula": null,
+        "expected_answer": "Variations in a species ensure that some individuals possess traits suited to survive drastic environmental changes. For example, if temperature rises, heat-resistant variants in a bacterial population will survive while others perish. This prevents complete extinction and promotes species survival.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States that variation gives survival advantage",
+          "2 marks": "Explains with example how variation helps in changed environment"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_sa_002",
+      "use_for": "test",
+      "text": "Why is the amount of variation different in organisms that reproduce asexually compared to those that reproduce sexually?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "asexual",
+          "sexual",
+          "DNA copying",
+          "variation",
+          "single parent",
+          "two parents"
+        ],
+        "key_points": [
+          "Asexual reproduction involves only one parent and DNA copying with minor errors.",
+          "Sexual reproduction involves two parents, meiosis, and genetic recombination.",
+          "More variation is produced in sexual reproduction."
+        ],
+        "formula": null,
+        "expected_answer": "In asexual reproduction, only one parent is involved and variation arises only from small inaccuracies in DNA copying. In sexual reproduction, two parents contribute genetic material, and processes like meiosis and recombination create significantly more variation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Explains asexual has less variation",
+          "2 marks": "Compares both with reasons"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_sa_003",
+      "use_for": "test",
+      "text": "If one bacterium divides and the resultant two bacteria divide again, will the four bacteria generated be exactly identical? Justify your answer.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "DNA copying",
+          "inaccuracies",
+          "similar",
+          "not identical",
+          "minor differences"
+        ],
+        "key_points": [
+          "The four bacteria would be very similar but not exactly identical.",
+          "Small inaccuracies in DNA copying introduce minor variations."
+        ],
+        "formula": null,
+        "expected_answer": "No, the four bacteria will not be exactly identical. Although they are very similar since they arose from asexual reproduction, small inaccuracies in DNA copying during each division introduce minor differences between them.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States not identical",
+          "2 marks": "Explains DNA copying errors as reason"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_sa_004",
+      "use_for": "test",
+      "text": "Selection of variants by environmental factors forms the basis for evolutionary processes. Explain this statement with a suitable example.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "environment",
+          "selection",
+          "survival",
+          "advantage",
+          "evolution"
+        ],
+        "key_points": [
+          "Not all variations have equal survival chances.",
+          "Environmental conditions select variants with advantages.",
+          "Example: heat-resistant bacteria survive heat waves."
+        ],
+        "formula": null,
+        "expected_answer": "Variations in a species give different individuals different advantages. When environmental conditions change, individuals with suitable variations survive and reproduce while others perish. For example, in a bacterial population, those variants that can withstand heat will survive a heat wave while others die. Over time, this selection of favourable variants drives evolutionary change.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Mentions that environment selects variants",
+          "2 marks": "Explains with logical reasoning",
+          "3 marks": "Includes a suitable example"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): Variation is useful for the survival of a species over time.\nReason (R): The process of DNA copying will have variation each time because biochemical reactions are not perfectly reliable.\n\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "variation",
+          "DNA copying",
+          "survival",
+          "biochemical"
+        ],
+        "key_points": [
+          "Both statements are true.",
+          "DNA copying errors cause variation (R is true).",
+          "Variation helps survival by providing environmental adaptation (A is true).",
+          "But R is not the direct explanation for A; variation helps survival due to environmental selection, not just because DNA copying is imperfect."
+        ],
+        "formula": null,
+        "expected_answer": "(b) Both A and R are true but R is not the correct explanation of A. Variation is useful for survival because it allows some individuals to survive changed environments (natural selection). DNA copying errors do produce variation, but that mechanism is not the direct reason variation aids survival.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_la_001",
+      "use_for": "test",
+      "text": "Explain how the accumulation of variations over generations leads to diversity in a population. Use a suitable example to illustrate your answer.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "accumulation",
+          "generations",
+          "diversity",
+          "inheritance",
+          "variation"
+        ],
+        "key_points": [
+          "Each generation inherits traits from previous generation plus acquires new variations.",
+          "In asexual reproduction, variations accumulate through DNA copying errors.",
+          "In sexual reproduction, additional variation through recombination.",
+          "Over many generations, subtle differences accumulate creating significant diversity.",
+          "Example: As in Fig 8.1, one organism produces two slightly different offspring; each of those produces two more, resulting in four individuals all different from each other."
+        ],
+        "formula": null,
+        "expected_answer": "When an organism reproduces, it passes on its traits along with small variations to the next generation. The second generation inherits differences from the first generation and also acquires newly created differences. In asexual reproduction, one bacterium dividing produces two similar but not identical bacteria due to DNA copying errors. When these two divide again, four bacteria are produced, each slightly different. In sexual reproduction, even greater diversity is generated because two parents contribute different gene combinations. Over successive generations, these small variations accumulate, leading to significant diversity within the population. This diversity is important because different variants have different survival advantages in changing environments.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Defines variation",
+          "2 marks": "Explains inheritance of variation",
+          "3 marks": "Explains accumulation mechanism",
+          "4 marks": "Differentiates asexual and sexual",
+          "5 marks": "Complete answer with example"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_mcq_001",
+      "use_for": "test",
+      "text": "A Mendelian experiment consisted of breeding tall pea plants bearing violet flowers with short pea plants bearing white flowers. The progeny all bore violet flowers, but almost half of them were short. This suggests that the genetic make-up of the tall parent can be depicted as",
+      "options": [
+        {
+          "text": "TTWW",
+          "is_correct": false
+        },
+        {
+          "text": "TTww",
+          "is_correct": false
+        },
+        {
+          "text": "TtWW",
+          "is_correct": true
+        },
+        {
+          "text": "TtWw",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "genotype",
+          "tall",
+          "violet",
+          "heterozygous",
+          "Tt",
+          "WW"
+        ],
+        "key_points": [
+          "All progeny have violet flowers → both parents must carry at least one W allele; short parent is ww, so for all violet, tall parent must be WW.",
+          "Half progeny are short → tall parent must be Tt (heterozygous for height).",
+          "Therefore tall parent is TtWW."
+        ],
+        "formula": null,
+        "expected_answer": "(c) TtWW. Since all progeny have violet flowers, the tall parent must be homozygous for flower colour (WW). Since half the progeny are short, the tall parent must be heterozygous for height (Tt).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_mcq_002",
+      "use_for": "test",
+      "text": "In a cross between pure tall pea plants (TT) and pure dwarf pea plants (tt), the F2 generation offspring will have genotypic combinations in the ratio:",
+      "options": [
+        {
+          "text": "1 TT : 2 Tt : 1 tt",
+          "is_correct": true
+        },
+        {
+          "text": "3 TT : 1 tt",
+          "is_correct": false
+        },
+        {
+          "text": "1 TT : 1 Tt : 1 tt",
+          "is_correct": false
+        },
+        {
+          "text": "3 Tt : 1 tt",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "genotypic ratio",
+          "1:2:1",
+          "F2",
+          "monohybrid"
+        ],
+        "key_points": [
+          "F1 generation: all Tt (tall).",
+          "F1 × F1 (Tt × Tt) → F2: TT, Tt, Tt, tt = 1:2:1 genotypic ratio."
+        ],
+        "formula": null,
+        "expected_answer": "1 TT : 2 Tt : 1 tt. When F1 heterozygous plants (Tt) are self-pollinated, the F2 genotypic ratio is 1 TT : 2 Tt : 1 tt.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_mcq_003",
+      "use_for": "test",
+      "text": "If a round green-seeded pea plant (RRyy) is crossed with a wrinkled yellow-seeded pea plant (rrYY), the seeds produced in F1 generation will be:",
+      "options": [
+        {
+          "text": "Round and yellow",
+          "is_correct": true
+        },
+        {
+          "text": "Round and green",
+          "is_correct": false
+        },
+        {
+          "text": "Wrinkled and yellow",
+          "is_correct": false
+        },
+        {
+          "text": "Wrinkled and green",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "dihybrid",
+          "F1",
+          "dominant",
+          "round",
+          "yellow"
+        ],
+        "key_points": [
+          "R (round) is dominant over r (wrinkled).",
+          "Y (yellow) is dominant over y (green).",
+          "F1: RrYy → Round and Yellow (both dominant traits expressed)."
+        ],
+        "formula": null,
+        "expected_answer": "Round and yellow. F1 genotype is RrYy. Since R (round) is dominant over r (wrinkled) and Y (yellow) is dominant over y (green), all F1 seeds will be round and yellow.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_001",
+      "use_for": "test",
+      "text": "How do Mendel's experiments show that traits may be dominant or recessive?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "monohybrid",
+          "F1",
+          "F2",
+          "3:1",
+          "dominant",
+          "recessive",
+          "tall",
+          "short"
+        ],
+        "key_points": [
+          "Mendel crossed pure tall (TT) with pure short (tt) pea plants.",
+          "F1 generation: all plants were tall (no medium height).",
+          "F2 generation (F1 self-pollinated): 3 tall : 1 short ratio.",
+          "Trait expressed in F1 is dominant (tallness); trait hidden in F1 but appearing in F2 is recessive (shortness)."
+        ],
+        "formula": null,
+        "expected_answer": "Mendel crossed pure tall plants (TT) with pure short plants (tt). In F1, all plants were tall, showing that tallness is dominant over shortness. When F1 plants were self-pollinated, F2 showed both tall and short plants in a 3:1 ratio. This proved that the recessive trait (shortness) was inherited but not expressed in F1, only appearing in F2 when present in homozygous form (tt).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Describes the cross",
+          "2 marks": "Mentions F1 and F2 results",
+          "3 marks": "Explains dominant/recessive concept from results"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_002",
+      "use_for": "test",
+      "text": "How do Mendel's experiments show that traits are inherited independently?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "dihybrid",
+          "independent inheritance",
+          "9:3:3:1",
+          "new combinations",
+          "F2"
+        ],
+        "key_points": [
+          "Mendel crossed plants differing in two traits (e.g., round-green × wrinkled-yellow).",
+          "F1: all round yellow (dominant traits).",
+          "F2: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.",
+          "New combinations (round green, wrinkled yellow) prove traits assort independently."
+        ],
+        "formula": null,
+        "expected_answer": "Mendel crossed pea plants with two different characteristics (e.g., round green seeds with wrinkled yellow seeds). F1 progeny were all round and yellow. In F2, besides the parental combinations, new combinations appeared: round green and wrinkled yellow, in a 9:3:3:1 ratio. The appearance of new trait combinations proves that the two traits are inherited independently of each other.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Describes the dihybrid cross",
+          "2 marks": "Mentions F2 ratio and new combinations",
+          "3 marks": "Concludes independent inheritance"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_003",
+      "use_for": "test",
+      "text": "A man with blood group A marries a woman with blood group O and their daughter has blood group O. Is this information enough to tell you which of the traits — blood group A or O — is dominant? Why or why not?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "blood group",
+          "dominant",
+          "heterozygous",
+          "genotype",
+          "insufficient information"
+        ],
+        "key_points": [
+          "No, this information is not sufficient.",
+          "Father could be heterozygous (I^A i), contributing i allele to daughter.",
+          "Mother is ii (blood group O).",
+          "Daughter being O (ii) means father must be I^A i, but we cannot conclude dominance solely from this cross without further analysis.",
+          "We need to know that both A and O can appear in offspring to confirm A is dominant over O."
+        ],
+        "formula": null,
+        "expected_answer": "No, this information alone is not enough. For the daughter to have blood group O, her genotype must be ii. The mother (group O) is ii. The father (group A) must be I^A i (heterozygous). While this suggests A could be dominant over O (since father expresses A despite carrying i), we would need data from more offspring or additional crosses to confirm dominance conclusively, as this is just one observation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States not enough information",
+          "2 marks": "Explains possible genotypes",
+          "3 marks": "Provides complete reasoning"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_004",
+      "use_for": "test",
+      "text": "A study found that children with light-coloured eyes are likely to have parents with light-coloured eyes. On this basis, can we say anything about whether the light eye colour trait is dominant or recessive? Why or why not?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "dominant",
+          "recessive",
+          "eye colour",
+          "cannot determine"
+        ],
+        "key_points": [
+          "We cannot conclusively determine dominance from this information alone.",
+          "If light colour were recessive, both parents and children having it is expected (homozygous recessive).",
+          "If light colour were dominant, parents could pass it to children too.",
+          "Both scenarios are consistent with the observation."
+        ],
+        "formula": null,
+        "expected_answer": "No, we cannot determine whether light eye colour is dominant or recessive from this information alone. If light eye colour is recessive, parents with light eyes (homozygous recessive) would naturally have children with light eyes. If light eye colour is dominant, parents carrying the trait would also pass it on. Both possibilities are consistent with the given observation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States cannot determine",
+          "2 marks": "Explains why both possibilities exist"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_005",
+      "use_for": "test",
+      "text": "In pea plants, round seed shape (R) is dominant over wrinkled seed shape (r). If a cross is carried out between a heterozygous round-seeded plant and a wrinkled-seeded plant, what will be the phenotypic ratio and genotypic ratio of the offspring?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Rr",
+          "rr",
+          "test cross",
+          "1:1",
+          "phenotypic",
+          "genotypic"
+        ],
+        "key_points": [
+          "Cross: Rr × rr",
+          "Gametes: R, r from Rr; r from rr",
+          "Offspring: Rr (round), rr (wrinkled)",
+          "Phenotypic ratio: 1 round : 1 wrinkled",
+          "Genotypic ratio: 1 Rr : 1 rr"
+        ],
+        "formula": null,
+        "expected_answer": "Cross: Rr × rr. Offspring genotypes: Rr and rr in 1:1 ratio. Phenotypic ratio: 1 round : 1 wrinkled. Genotypic ratio: 1 Rr : 1 rr.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Identifies the cross correctly",
+          "2 marks": "Shows offspring genotypes",
+          "3 marks": "States both ratios correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_num_001",
+      "use_for": "test",
+      "text": "In a monohybrid cross between tall (Tt) and short (tt) pea plants, if a total of 200 offspring are produced, how many are expected to be tall and how many short?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Tt",
+          "tt",
+          "1:1",
+          "100",
+          "tall",
+          "short"
+        ],
+        "key_points": [
+          "Cross Tt × tt gives 1:1 ratio (Tt : tt).",
+          "Tall = 100, Short = 100."
+        ],
+        "formula": "tall = total * (1/2); short = total * (1/2)",
+        "expected_answer": "Cross: Tt × tt → Offspring: Tt (tall) and tt (short) in 1:1 ratio. Out of 200 offspring: Tall = 200 × 1/2 = 100; Short = 200 × 1/2 = 100.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Identifies the 1:1 ratio",
+          "2 marks": "Calculates correctly"
+        }
+      },
+      "template_params": {
+        "variables": {
+          "total_offspring": {
+            "min": 100,
+            "max": 400,
+            "step": 20
+          }
+        },
+        "formula_expression": "total_offspring / 2",
+        "units": "plants",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_num_002",
+      "use_for": "test",
+      "text": "In a dihybrid cross, 556 seeds were obtained in the F2 generation. Using Mendel's 9:3:3:1 ratio, calculate the expected number of seeds with each phenotype: (i) round yellow, (ii) round green, (iii) wrinkled yellow, (iv) wrinkled green.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "9:3:3:1",
+          "dihybrid",
+          "556",
+          "round",
+          "yellow",
+          "wrinkled",
+          "green"
+        ],
+        "key_points": [
+          "Total parts = 9+3+3+1 = 16",
+          "Round yellow = 556 × 9/16 ≈ 313",
+          "Round green = 556 × 3/16 ≈ 104",
+          "Wrinkled yellow = 556 × 3/16 ≈ 104",
+          "Wrinkled green = 556 × 1/16 ≈ 35"
+        ],
+        "formula": "phenotype_count = total × (ratio_part / 16)",
+        "expected_answer": "Total ratio parts = 16. (i) Round yellow = 556 × 9/16 ≈ 313; (ii) Round green = 556 × 3/16 ≈ 104; (iii) Wrinkled yellow = 556 × 3/16 ≈ 104; (iv) Wrinkled green = 556 × 1/16 ≈ 35.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Identifies 9:3:3:1 ratio",
+          "2 marks": "Calculates 2-3 correctly",
+          "3 marks": "All four correct"
+        }
+      },
+      "template_params": {
+        "variables": {
+          "total_seeds": {
+            "value": 556,
+            "unit": "seeds",
+            "locked": true
+          }
+        },
+        "formula_expression": "total_seeds * ratio_part / 16",
+        "units": "seeds",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_la_001",
+      "use_for": "test",
+      "text": "Explain Mendel's dihybrid cross experiment with pea plants, showing the inheritance of two traits (seed shape and seed colour). Include the cross, F1 and F2 generations, the phenotypic ratio obtained, and the conclusion drawn.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "dihybrid",
+          "RRyy",
+          "rrYY",
+          "RrYy",
+          "9:3:3:1",
+          "independent assortment"
+        ],
+        "key_points": [
+          "Cross: Round green (RRyy) × Wrinkled yellow (rrYY)",
+          "F1: All RrYy (round yellow) — dominant traits expressed",
+          "F1 self-pollinated: F2 shows 9:3:3:1 ratio",
+          "9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green",
+          "New combinations prove independent assortment of traits"
+        ],
+        "formula": null,
+        "expected_answer": "Mendel crossed round green-seeded plants (RRyy) with wrinkled yellow-seeded plants (rrYY). F1 generation: All seeds were round and yellow (RrYy), as round and yellow are dominant. When F1 plants were self-pollinated, F2 generation showed four phenotypes in the ratio 9:3:3:1 — 9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green. The appearance of new combinations (round green, wrinkled yellow) that were not present in either parent proved that seed shape and seed colour are inherited independently of each other (Law of Independent Assortment).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States the cross",
+          "2 marks": "Describes F1",
+          "3 marks": "Describes F2 with ratio",
+          "4 marks": "Shows Punnett square or gamete combinations",
+          "5 marks": "States conclusion of independent assortment"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_la_002",
+      "use_for": "test",
+      "text": "A red-eyed individual is crossed with a white-eyed individual to produce F1 progeny with red eyes. When F1 individuals are intercrossed, F2 progeny is formed with both red-eyed as well as white-eyed individuals.\n(a) How is the dominant trait identified?\n(b) What are recessive traits?\n(c) If 12 individuals are produced in the F2 generation, what will be the number of red-eyed and white-eyed individuals respectively?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "dominant",
+          "recessive",
+          "F1",
+          "F2",
+          "3:1",
+          "red-eyed",
+          "white-eyed"
+        ],
+        "key_points": [
+          "(a) Dominant trait is the one expressed in F1 generation — red eye.",
+          "(b) Recessive traits are those that are suppressed in F1 but appear in F2 when homozygous — white eye.",
+          "(c) F2 ratio is 3:1. Out of 12: 9 red-eyed, 3 white-eyed."
+        ],
+        "formula": "red = total × 3/4; white = total × 1/4",
+        "expected_answer": "(a) The dominant trait is identified as the trait that appears in all F1 offspring. Here, red eye is dominant since all F1 have red eyes. (b) Recessive traits are those hidden in F1 but appearing in F2 generation; white eye is recessive. (c) F2 ratio = 3 red : 1 white. Out of 12 individuals: Red-eyed = 12 × 3/4 = 9; White-eyed = 12 × 1/4 = 3.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Identifies dominant trait correctly",
+          "2 marks": "Defines recessive correctly",
+          "3 marks": "Calculates F2 numbers correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_tex_mcq_001",
+      "use_for": "test",
+      "text": "A section of DNA that provides information for one protein is called:",
+      "options": [
+        {
+          "text": "Chromosome",
+          "is_correct": false
+        },
+        {
+          "text": "Gene",
+          "is_correct": true
+        },
+        {
+          "text": "Trait",
+          "is_correct": false
+        },
+        {
+          "text": "Allele",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "gene",
+          "DNA",
+          "protein",
+          "information"
+        ],
+        "key_points": [
+          "A gene is a section of DNA that codes for a specific protein."
+        ],
+        "formula": null,
+        "expected_answer": "Gene. A section of DNA that provides information for one protein is called the gene for that protein.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_tex_sa_001",
+      "use_for": "test",
+      "text": "How do genes control characteristics or traits? Explain with the example of plant height.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "gene",
+          "enzyme",
+          "hormone",
+          "protein",
+          "tall",
+          "short"
+        ],
+        "key_points": [
+          "Genes code for proteins (enzymes).",
+          "Enzymes control biochemical processes like hormone production.",
+          "Efficient enzyme → more growth hormone → tall plant.",
+          "Altered gene → less efficient enzyme → less hormone → short plant."
+        ],
+        "formula": null,
+        "expected_answer": "Cellular DNA provides information for making proteins. Genes code for specific enzymes. For plant height: an enzyme is needed to produce growth hormone. If the gene makes an efficient enzyme, plenty of hormone is produced and the plant is tall. If the gene has an alteration making the enzyme less efficient, less hormone is produced and the plant is short. Thus, genes control traits through protein synthesis.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States genes code for proteins",
+          "2 marks": "Explains enzyme-hormone link",
+          "3 marks": "Connects to tall/short plant example"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_tex_sa_002",
+      "use_for": "test",
+      "text": "Why does each germ cell have only one gene set although all other cells in the body have two copies?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "germ cell",
+          "haploid",
+          "fertilization",
+          "diploid",
+          "chromosome"
+        ],
+        "key_points": [
+          "Germ cells are haploid (one gene set) so that when two germ cells fuse during fertilization, the normal diploid number is restored in the progeny.",
+          "This ensures each generation has the same chromosome number."
+        ],
+        "formula": null,
+        "expected_answer": "Germ cells have only one gene set (are haploid) so that when two germ cells combine during fertilization, they restore the normal two copies (diploid number) in the offspring. This mechanism ensures the stability of chromosome number across generations.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Mentions restoration of chromosome number",
+          "2 marks": "Complete explanation with haploid-diploid logic"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_tex_sa_003",
+      "use_for": "test",
+      "text": "What are chromosomes? How do they ensure independent inheritance of traits?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "chromosome",
+          "independent",
+          "DNA",
+          "gene set",
+          "separate"
+        ],
+        "key_points": [
+          "Chromosomes are separate independent pieces of DNA carrying gene sets.",
+          "Each cell has two copies of each chromosome (one from each parent).",
+          "Since genes are on separate chromosomes, they can be inherited independently."
+        ],
+        "formula": null,
+        "expected_answer": "Chromosomes are separate independent pieces of DNA that carry genes. Each cell has two copies of each chromosome, one from each parent. Since different genes are located on different chromosomes, they can be sorted independently during germ cell formation, allowing independent inheritance of traits as demonstrated in Mendel's dihybrid cross.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Defines chromosomes",
+          "2 marks": "Explains how they enable independent inheritance"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_mcq_001",
+      "use_for": "test",
+      "text": "In human beings, the sex of the child is determined by:",
+      "options": [
+        {
+          "text": "The chromosome of the mother",
+          "is_correct": false
+        },
+        {
+          "text": "The chromosome of the father",
+          "is_correct": true
+        },
+        {
+          "text": "The nutrition of the mother",
+          "is_correct": false
+        },
+        {
+          "text": "The age of the father",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "sex determination",
+          "father",
+          "X",
+          "Y",
+          "chromosome"
+        ],
+        "key_points": [
+          "Mother always contributes X chromosome.",
+          "Father contributes either X or Y.",
+          "If sperm carries X → girl (XX); if Y → boy (XY)."
+        ],
+        "formula": null,
+        "expected_answer": "The chromosome of the father. Since mothers always contribute X, the sex depends on whether father's sperm carries X (girl) or Y (boy).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_mcq_002",
+      "use_for": "test",
+      "text": "How many pairs of chromosomes are present in human beings?",
+      "options": [
+        {
+          "text": "22 pairs",
+          "is_correct": false
+        },
+        {
+          "text": "23 pairs",
+          "is_correct": true
+        },
+        {
+          "text": "44 pairs",
+          "is_correct": false
+        },
+        {
+          "text": "46 pairs",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "23 pairs",
+          "22 autosomes",
+          "1 sex chromosome pair"
+        ],
+        "key_points": [
+          "Humans have 23 pairs of chromosomes: 22 autosomal pairs + 1 pair of sex chromosomes."
+        ],
+        "formula": null,
+        "expected_answer": "23 pairs (22 pairs of autosomes + 1 pair of sex chromosomes).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_001",
+      "use_for": "test",
+      "text": "How is the sex of the child determined in human beings?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "XX",
+          "XY",
+          "father",
+          "mother",
+          "sperm",
+          "sex chromosome"
+        ],
+        "key_points": [
+          "Women are XX, men are XY.",
+          "All children inherit X from mother.",
+          "If father contributes X → daughter (XX).",
+          "If father contributes Y → son (XY)."
+        ],
+        "formula": null,
+        "expected_answer": "In humans, women have XX sex chromosomes and men have XY. All children inherit an X from the mother. The sex depends on the father's contribution: if sperm carries X, the child is a girl (XX); if it carries Y, the child is a boy (XY).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States XX/XY system",
+          "2 marks": "Explains father determines sex"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_002",
+      "use_for": "test",
+      "text": "Explain why approximately equal numbers of boys and girls are born.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "50%",
+          "equal",
+          "X sperm",
+          "Y sperm",
+          "probability"
+        ],
+        "key_points": [
+          "Father produces two types of sperm: 50% carry X and 50% carry Y.",
+          "Probability of X-bearing sperm fertilizing egg = 50% (girl).",
+          "Probability of Y-bearing sperm fertilizing egg = 50% (boy).",
+          "Hence approximately equal numbers of boys and girls."
+        ],
+        "formula": null,
+        "expected_answer": "The father produces two types of sperm in equal proportions: half carry X chromosome and half carry Y. Since fertilization by an X-bearing sperm produces a girl (XX) and by a Y-bearing sperm produces a boy (XY), and both events are equally likely, approximately equal numbers of boys and girls are born.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Mentions two types of sperm",
+          "2 marks": "Explains equal probability"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_003",
+      "use_for": "test",
+      "text": "How is the equal genetic contribution of male and female parents ensured in the progeny?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "gamete",
+          "haploid",
+          "equal",
+          "chromosome",
+          "fertilization"
+        ],
+        "key_points": [
+          "Both parents produce haploid gametes (with half the chromosome number).",
+          "During fertilization, gametes fuse to restore the diploid number.",
+          "Each parent contributes one set of chromosomes, ensuring equal contribution."
+        ],
+        "formula": null,
+        "expected_answer": "Each parent produces haploid germ cells containing one set of chromosomes. During fertilization, the male gamete (sperm) and female gamete (egg) fuse to form a diploid zygote. Since each parent contributes exactly one chromosome from each pair, equal genetic contribution is ensured in the progeny.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Mentions haploid gametes",
+          "2 marks": "Explains fusion restoring diploid with equal contribution"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_004",
+      "use_for": "test",
+      "text": "Name the two types of gametes produced by human males. State which one determines the sex of the child and why.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "X-bearing",
+          "Y-bearing",
+          "sperm",
+          "sex",
+          "father"
+        ],
+        "key_points": [
+          "Human males produce two types of sperm: X-bearing and Y-bearing.",
+          "X-bearing sperm + egg (X) → XX (female child).",
+          "Y-bearing sperm + egg (X) → XY (male child).",
+          "Father's sperm determines the sex because mothers can only contribute X."
+        ],
+        "formula": null,
+        "expected_answer": "Human males produce two types of gametes: (i) X-bearing sperm and (ii) Y-bearing sperm. The type of sperm that fertilizes the egg determines the sex of the child. If X-bearing sperm fertilizes the egg, the child is female (XX). If Y-bearing sperm fertilizes the egg, the child is male (XY). Since the mother always contributes an X chromosome, it is the father's gamete that determines the sex.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Names two types of gametes",
+          "2 marks": "States which determines sex",
+          "3 marks": "Explains why with XX/XY logic"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_005",
+      "use_for": "test",
+      "text": "\"A woman is responsible for the sex of her child.\" Justify whether this statement is correct or incorrect.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "incorrect",
+          "father",
+          "X",
+          "Y",
+          "sperm",
+          "mother XX"
+        ],
+        "key_points": [
+          "This statement is incorrect.",
+          "Women are XX — can only contribute X to all children.",
+          "Men are XY — contribute either X or Y.",
+          "The father's sperm (X or Y) determines the sex, not the mother."
+        ],
+        "formula": null,
+        "expected_answer": "This statement is scientifically incorrect. The mother (XX) can only provide X chromosomes to all her children. It is the father (XY) who determines the sex of the child: if his sperm carries X, the child is female (XX); if it carries Y, the child is male (XY). Therefore, the father is responsible for determining the sex of the child, not the mother.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States incorrect",
+          "2 marks": "Provides scientific reasoning"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): XX chromosomes give rise to a female child whereas XY chromosomes give rise to a male child.\nReason (R): The Y chromosome in males is shorter than the X chromosome.\n\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "XX",
+          "XY",
+          "Y shorter",
+          "sex determination"
+        ],
+        "key_points": [
+          "A is true: XX = female, XY = male.",
+          "R is true: Y chromosome is shorter than X.",
+          "But the size difference is not the reason for sex determination; the presence of Y chromosome itself determines maleness."
+        ],
+        "formula": null,
+        "expected_answer": "(b) Both A and R are true but R is not the correct explanation of A. The Y chromosome being shorter than X is a factual observation, but it is not the reason why XY gives male and XX gives female. Sex is determined by the presence or absence of the Y chromosome, not its size.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_dia_001",
+      "use_for": "test",
+      "text": "Draw a diagram showing sex determination in human beings. Clearly label the sex chromosomes of both parents, the gametes, and the offspring.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "diagram",
+          "sex determination",
+          "XX",
+          "XY",
+          "gametes"
+        ],
+        "key_points": [
+          "Father (XY) produces X-bearing and Y-bearing sperm.",
+          "Mother (XX) produces only X-bearing eggs.",
+          "Possible combinations: XX (girl) and XY (boy).",
+          "50% probability for each sex."
+        ],
+        "formula": null,
+        "expected_answer": "Diagram should show: Father (XY) → Gametes: X, Y; Mother (XX) → Gametes: X, X; Offspring: XX (Female) and XY (Male) with 50:50 ratio.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Father labeled XY",
+          "Mother labeled XX",
+          "Gametes shown correctly",
+          "Offspring XX and XY shown",
+          "Sex of offspring labeled"
+        ],
+        "partial_marks": {
+          "1 mark": "Basic structure drawn",
+          "2 marks": "Correct gametes and combinations",
+          "3 marks": "Complete with all labels"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_dia_002",
+      "use_for": "test",
+      "text": "Draw a Punnett square showing a monohybrid cross between a heterozygous tall pea plant (Tt) and a homozygous short pea plant (tt). Show the gametes, genotypes of offspring, and state the phenotypic ratio.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Punnett square",
+          "Tt",
+          "tt",
+          "1:1",
+          "gametes"
+        ],
+        "key_points": [
+          "Gametes from Tt: T and t",
+          "Gametes from tt: t and t",
+          "Offspring: Tt (tall), Tt (tall), tt (short), tt (short)",
+          "Phenotypic ratio: 1 tall : 1 short"
+        ],
+        "formula": null,
+        "expected_answer": "Punnett square: Tt × tt → Offspring: 2 Tt (tall) + 2 tt (short) → Phenotypic ratio 1:1 (tall : short).",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Punnett square drawn correctly",
+          "Gametes labeled",
+          "All 4 offspring genotypes shown",
+          "Phenotypic ratio stated"
+        ],
+        "partial_marks": {
+          "1 mark": "Punnett square structure",
+          "2 marks": "Correct offspring genotypes",
+          "3 marks": "Ratio stated correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_num_001",
+      "use_for": "test",
+      "text": "In a family, there are 8 children. Based on the mechanism of sex determination in humans, what is the expected number of boys and girls?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "50%",
+          "4 boys",
+          "4 girls",
+          "probability"
+        ],
+        "key_points": [
+          "Probability of boy = 1/2 (Y-bearing sperm), girl = 1/2 (X-bearing sperm).",
+          "Expected: 8 × 1/2 = 4 boys and 4 girls."
+        ],
+        "formula": "boys = total × 0.5; girls = total × 0.5",
+        "expected_answer": "Since the probability of a boy is 1/2 and a girl is 1/2, the expected number out of 8 children is: Boys = 8 × 1/2 = 4; Girls = 8 × 1/2 = 4.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States 50% probability",
+          "2 marks": "Correct calculation"
+        }
+      },
+      "template_params": {
+        "variables": {
+          "total_children": {
+            "min": 4,
+            "max": 20,
+            "step": 2
+          }
+        },
+        "formula_expression": "total_children / 2",
+        "units": "children",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_mcq_101",
+      "use_for": "understanding",
+      "text": "The process that maximises the number of successful variations in a population is:",
+      "options": [
+        {
+          "text": "Binary fission",
+          "is_correct": false
+        },
+        {
+          "text": "Budding",
+          "is_correct": false
+        },
+        {
+          "text": "Sexual reproduction",
+          "is_correct": true
+        },
+        {
+          "text": "Fragmentation",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "sexual reproduction",
+          "variation"
+        ],
+        "key_points": [
+          "Sexual reproduction maximises variation through genetic recombination."
+        ],
+        "formula": null,
+        "expected_answer": "Sexual reproduction, because it involves genetic recombination from two parents.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_mcq_102",
+      "use_for": "understanding",
+      "text": "In a field of sugarcane plants (which reproduce asexually), the variation among individual plants will be:",
+      "options": [
+        {
+          "text": "Very high",
+          "is_correct": false
+        },
+        {
+          "text": "Very little",
+          "is_correct": true
+        },
+        {
+          "text": "Moderate",
+          "is_correct": false
+        },
+        {
+          "text": "Zero (no variation)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "asexual",
+          "sugarcane",
+          "little variation"
+        ],
+        "key_points": [
+          "Asexual reproduction produces very little variation."
+        ],
+        "formula": null,
+        "expected_answer": "Very little, because sugarcane reproduces asexually with only minor DNA copying errors.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_mcq_103",
+      "use_for": "understanding",
+      "text": "Variations in asexual reproduction arise due to:",
+      "options": [
+        {
+          "text": "Genetic recombination",
+          "is_correct": false
+        },
+        {
+          "text": "Small inaccuracies in DNA copying",
+          "is_correct": true
+        },
+        {
+          "text": "Crossing over during meiosis",
+          "is_correct": false
+        },
+        {
+          "text": "Fusion of gametes from two parents",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "DNA copying",
+          "inaccuracies",
+          "asexual"
+        ],
+        "key_points": [
+          "In asexual reproduction, variation arises only from errors in DNA replication."
+        ],
+        "formula": null,
+        "expected_answer": "Small inaccuracies in DNA copying during cell division.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_sa_101",
+      "use_for": "understanding",
+      "text": "What is the source of variation in organisms that reproduce asexually?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "DNA copying",
+          "errors",
+          "inaccuracies"
+        ],
+        "key_points": [
+          "Small inaccuracies in DNA copying are the source of variation."
+        ],
+        "formula": null,
+        "expected_answer": "Small inaccuracies (errors) in DNA copying during reproduction.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_sa_102",
+      "use_for": "understanding",
+      "text": "Why do sexually reproducing organisms show more variation than asexually reproducing ones?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "two parents",
+          "recombination",
+          "meiosis",
+          "genetic diversity"
+        ],
+        "key_points": [
+          "Sexual reproduction involves two parents with different gene sets.",
+          "Meiosis and fertilization create new gene combinations."
+        ],
+        "formula": null,
+        "expected_answer": "Sexual reproduction involves two parents contributing different genetic material. During meiosis and fertilization, genes from both parents recombine in new ways, generating much more variation than the minor DNA copying errors in asexual reproduction.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Mentions two parents",
+          "2 marks": "Explains recombination"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_sa_103",
+      "use_for": "understanding",
+      "text": "Give one example to show how variation helps a species survive in changing environments.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "bacteria",
+          "heat",
+          "survive",
+          "environment"
+        ],
+        "key_points": [
+          "In a bacterial population, some variants can withstand heat.",
+          "During a heat wave, heat-resistant bacteria survive while others perish."
+        ],
+        "formula": null,
+        "expected_answer": "In a bacterial population, some bacteria may have heat-resistant variations. If the temperature of the environment increases drastically (heat wave), these heat-resistant bacteria survive and reproduce while the non-resistant ones die. This ensures the species does not go extinct.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Gives an example",
+          "2 marks": "Explains survival advantage"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_aov_sa_104",
+      "use_for": "understanding",
+      "text": "What provides both a common basic body design and subtle changes in it for the next generation?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "inheritance",
+          "previous generation"
+        ],
+        "key_points": [
+          "Inheritance from the previous generation provides both."
+        ],
+        "formula": null,
+        "expected_answer": "Inheritance from the previous generation provides both a common basic body design and subtle changes in it for the next generation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_mcq_101",
+      "use_for": "understanding",
+      "text": "What is the phenotypic ratio obtained in the F2 generation of a monohybrid cross?",
+      "options": [
+        {
+          "text": "1 : 1",
+          "is_correct": false
+        },
+        {
+          "text": "3 : 1",
+          "is_correct": true
+        },
+        {
+          "text": "9 : 3 : 3 : 1",
+          "is_correct": false
+        },
+        {
+          "text": "1 : 2 : 1",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "3:1",
+          "monohybrid",
+          "phenotypic ratio"
+        ],
+        "key_points": [
+          "F2 of monohybrid cross gives 3:1 phenotypic ratio (3 dominant : 1 recessive)."
+        ],
+        "formula": null,
+        "expected_answer": "3 : 1 (three dominant : one recessive).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_mcq_102",
+      "use_for": "understanding",
+      "text": "Which of the following is a dominant trait in Mendel's pea plant experiments?",
+      "options": [
+        {
+          "text": "Short plant",
+          "is_correct": false
+        },
+        {
+          "text": "Wrinkled seed",
+          "is_correct": false
+        },
+        {
+          "text": "White flower",
+          "is_correct": false
+        },
+        {
+          "text": "Tall plant",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "dominant",
+          "tall",
+          "Mendel"
+        ],
+        "key_points": [
+          "Tall plant, round seed, and violet flower are dominant traits in Mendel's experiments."
+        ],
+        "formula": null,
+        "expected_answer": "Tall plant is a dominant trait in Mendel's pea plant experiments.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_mcq_103",
+      "use_for": "understanding",
+      "text": "The genotypic ratio of the F2 generation in a monohybrid cross is:",
+      "options": [
+        {
+          "text": "3 : 1",
+          "is_correct": false
+        },
+        {
+          "text": "1 : 2 : 1",
+          "is_correct": true
+        },
+        {
+          "text": "9 : 3 : 3 : 1",
+          "is_correct": false
+        },
+        {
+          "text": "1 : 1",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "1:2:1",
+          "genotypic",
+          "monohybrid"
+        ],
+        "key_points": [
+          "Genotypic ratio of F2 in monohybrid cross: 1 TT : 2 Tt : 1 tt = 1:2:1."
+        ],
+        "formula": null,
+        "expected_answer": "1 : 2 : 1 (1 homozygous dominant : 2 heterozygous : 1 homozygous recessive).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_mcq_104",
+      "use_for": "understanding",
+      "text": "Mendel selected garden peas for his experiments because:",
+      "options": [
+        {
+          "text": "They have well-defined contrasting characters and short life cycle",
+          "is_correct": true
+        },
+        {
+          "text": "They have only one trait to study",
+          "is_correct": false
+        },
+        {
+          "text": "They cannot self-pollinate",
+          "is_correct": false
+        },
+        {
+          "text": "They produce very few seeds",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "pea plants",
+          "contrasting characters",
+          "short life cycle",
+          "many seeds"
+        ],
+        "key_points": [
+          "Pea plants have well-defined contrasting traits, short life cycle, and produce many seeds."
+        ],
+        "formula": null,
+        "expected_answer": "Pea plants possess well-defined contrasting characters, have a short life cycle, and produce many seeds per generation, making them ideal for genetic studies.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_101",
+      "use_for": "understanding",
+      "text": "What are dominant and recessive traits? Give one example of each from Mendel's experiments.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "dominant",
+          "recessive",
+          "expressed",
+          "suppressed",
+          "tall",
+          "short"
+        ],
+        "key_points": [
+          "Dominant trait: expressed when even one copy is present (e.g., tall).",
+          "Recessive trait: expressed only when both copies are recessive (e.g., short)."
+        ],
+        "formula": null,
+        "expected_answer": "Dominant trait: The trait that is expressed even when only one copy of the allele is present. Example: Tallness in pea plants (T). Recessive trait: The trait that is expressed only when both copies of the allele are recessive. Example: Shortness in pea plants (tt).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Defines both",
+          "2 marks": "Gives correct examples"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_102",
+      "use_for": "understanding",
+      "text": "What is the difference between genotype and phenotype?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "genotype",
+          "phenotype",
+          "genetic makeup",
+          "physical appearance"
+        ],
+        "key_points": [
+          "Genotype: genetic composition (e.g., TT, Tt, tt).",
+          "Phenotype: observable characteristic (e.g., tall, short)."
+        ],
+        "formula": null,
+        "expected_answer": "Genotype is the genetic makeup or allele combination of an organism (e.g., TT, Tt, or tt). Phenotype is the observable physical characteristic expressed by the genotype (e.g., tall or short plant).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Defines one correctly",
+          "2 marks": "Defines both correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_103",
+      "use_for": "understanding",
+      "text": "In a pea plant, find the contrasting trait if (i) the flower is white in colour, (ii) the shape of the pod is constricted, (iii) the position of the flower is terminal.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "contrasting",
+          "violet",
+          "full",
+          "axial"
+        ],
+        "key_points": [
+          "(i) White flower → contrasting: Violet flower (dominant).",
+          "(ii) Constricted pod → contrasting: Full/inflated pod (dominant).",
+          "(iii) Terminal flower → contrasting: Axial flower (dominant)."
+        ],
+        "formula": null,
+        "expected_answer": "(i) Violet flower (dominant), (ii) Full/inflated pod (dominant), (iii) Axial flower position (dominant).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "One correct",
+          "2 marks": "Two correct",
+          "3 marks": "All three correct"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_104",
+      "use_for": "understanding",
+      "text": "What will be the genotype and phenotype of the F1 generation when a pure tall (TT) pea plant is crossed with a pure short (tt) pea plant?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Tt",
+          "tall",
+          "heterozygous",
+          "F1"
+        ],
+        "key_points": [
+          "F1 genotype: all Tt (heterozygous).",
+          "F1 phenotype: all tall (tallness is dominant)."
+        ],
+        "formula": null,
+        "expected_answer": "Genotype: All Tt (heterozygous). Phenotype: All tall, because tallness (T) is dominant over shortness (t).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Correct genotype",
+          "2 marks": "Correct genotype and phenotype with reason"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_num_101",
+      "use_for": "understanding",
+      "text": "In a monohybrid cross between Tt and Tt pea plants, if 120 offspring are produced, calculate the expected number of (i) tall plants and (ii) short plants.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "3:1",
+          "90",
+          "30",
+          "tall",
+          "short"
+        ],
+        "key_points": [
+          "Tt × Tt → F2 ratio 3 tall : 1 short.",
+          "Tall = 120 × 3/4 = 90.",
+          "Short = 120 × 1/4 = 30."
+        ],
+        "formula": "tall = total × 3/4; short = total × 1/4",
+        "expected_answer": "F2 phenotypic ratio = 3:1. (i) Tall = 120 × 3/4 = 90 plants. (ii) Short = 120 × 1/4 = 30 plants.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Identifies 3:1 ratio",
+          "2 marks": "Correct calculation"
+        }
+      },
+      "template_params": {
+        "variables": {
+          "total_offspring": {
+            "min": 40,
+            "max": 200,
+            "step": 20
+          }
+        },
+        "formula_expression": "total_offspring * 3 / 4",
+        "units": "plants",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_men_sa_105",
+      "use_for": "understanding",
+      "text": "Outline a project which aims to find the dominant coat colour in dogs.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "cross",
+          "pure breed",
+          "F1",
+          "F2",
+          "dominant",
+          "coat colour"
+        ],
+        "key_points": [
+          "Select two pure-breeding dogs with contrasting coat colours (e.g., black and white).",
+          "Cross them and observe F1 generation coat colour (the expressed colour is dominant).",
+          "Self-cross or intercross F1 to get F2 and check for 3:1 ratio to confirm."
+        ],
+        "formula": null,
+        "expected_answer": "Step 1: Select pure-breeding dogs with two contrasting coat colours (e.g., black and white). Step 2: Cross a black-coated dog with a white-coated dog. Step 3: Observe F1 offspring — the coat colour expressed in all F1 is the dominant trait. Step 4: Cross F1 individuals among themselves. Step 5: In F2, if a 3:1 ratio is obtained (3 dominant colour : 1 recessive colour), this confirms which coat colour is dominant.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Suggests crossing pure breeds",
+          "2 marks": "Describes F1 observation",
+          "3 marks": "Mentions F2 ratio confirmation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_tex_mcq_101",
+      "use_for": "understanding",
+      "text": "The information source for making proteins in the cell is:",
+      "options": [
+        {
+          "text": "Mitochondria",
+          "is_correct": false
+        },
+        {
+          "text": "Cellular DNA",
+          "is_correct": true
+        },
+        {
+          "text": "Cell membrane",
+          "is_correct": false
+        },
+        {
+          "text": "Cytoplasm",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "DNA",
+          "protein",
+          "information"
+        ],
+        "key_points": [
+          "Cellular DNA is the information source for making proteins."
+        ],
+        "formula": null,
+        "expected_answer": "Cellular DNA is the information source for making proteins in the cell.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_tex_sa_101",
+      "use_for": "understanding",
+      "text": "What is a gene? How does a gene control a trait?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "gene",
+          "DNA section",
+          "protein",
+          "enzyme",
+          "trait"
+        ],
+        "key_points": [
+          "A gene is a section of DNA that provides information for one protein.",
+          "The protein (enzyme) produced controls biochemical processes that determine traits."
+        ],
+        "formula": null,
+        "expected_answer": "A gene is a section of DNA that provides information for making one protein. The gene controls a trait through the protein it codes for. For example, a gene coding for an enzyme that produces growth hormone determines whether a plant is tall or short.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Defines gene",
+          "2 marks": "Explains how it controls trait"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_mcq_101",
+      "use_for": "understanding",
+      "text": "The sex chromosomes in a human female are:",
+      "options": [
+        {
+          "text": "XY",
+          "is_correct": false
+        },
+        {
+          "text": "XX",
+          "is_correct": true
+        },
+        {
+          "text": "YY",
+          "is_correct": false
+        },
+        {
+          "text": "XO",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "XX",
+          "female"
+        ],
+        "key_points": [
+          "Human females have XX sex chromosomes."
+        ],
+        "formula": null,
+        "expected_answer": "XX. Human females have a pair of X chromosomes.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_mcq_102",
+      "use_for": "understanding",
+      "text": "A child who inherits a Y chromosome from his father will be:",
+      "options": [
+        {
+          "text": "A girl",
+          "is_correct": false
+        },
+        {
+          "text": "A boy",
+          "is_correct": true
+        },
+        {
+          "text": "Could be either",
+          "is_correct": false
+        },
+        {
+          "text": "Depends on mother's chromosome",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Y",
+          "boy",
+          "XY"
+        ],
+        "key_points": [
+          "Y from father + X from mother = XY = boy."
+        ],
+        "formula": null,
+        "expected_answer": "A boy (XY), because Y from father + X from mother = XY.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_mcq_103",
+      "use_for": "understanding",
+      "text": "How many pairs of autosomes are present in humans?",
+      "options": [
+        {
+          "text": "23 pairs",
+          "is_correct": false
+        },
+        {
+          "text": "22 pairs",
+          "is_correct": true
+        },
+        {
+          "text": "44 pairs",
+          "is_correct": false
+        },
+        {
+          "text": "21 pairs",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "22",
+          "autosomes",
+          "pairs"
+        ],
+        "key_points": [
+          "Humans have 22 pairs of autosomes and 1 pair of sex chromosomes = 23 pairs total."
+        ],
+        "formula": null,
+        "expected_answer": "22 pairs of autosomes.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_mcq_104",
+      "use_for": "understanding",
+      "text": "In which of the following organisms is sex NOT genetically determined?",
+      "options": [
+        {
+          "text": "Human beings",
+          "is_correct": false
+        },
+        {
+          "text": "Snails",
+          "is_correct": true
+        },
+        {
+          "text": "Dogs",
+          "is_correct": false
+        },
+        {
+          "text": "Cats",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "snails",
+          "change sex",
+          "not genetic"
+        ],
+        "key_points": [
+          "Snails can change sex, indicating sex is not genetically determined in them."
+        ],
+        "formula": null,
+        "expected_answer": "Snails. The textbook states that in snails, individuals can change sex, indicating that sex is not genetically determined.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_101",
+      "use_for": "understanding",
+      "text": "What are sex chromosomes? How are they different in human males and females?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sex chromosomes",
+          "XX",
+          "XY",
+          "male",
+          "female"
+        ],
+        "key_points": [
+          "Sex chromosomes are the pair of chromosomes that determine sex.",
+          "Females have XX (matched pair).",
+          "Males have XY (mismatched pair, Y is shorter)."
+        ],
+        "formula": null,
+        "expected_answer": "Sex chromosomes are the pair of chromosomes that determine the sex of an individual. In human females, both sex chromosomes are the same — XX (a perfect pair). In human males, the sex chromosomes are mismatched — XY (one normal X and one shorter Y).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "Defines sex chromosomes",
+          "2 marks": "Differentiates male and female"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_102",
+      "use_for": "understanding",
+      "text": "Why is it that all children will inherit an X chromosome from their mother regardless of whether they are boys or girls?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "XX",
+          "mother",
+          "only X",
+          "gamete"
+        ],
+        "key_points": [
+          "The mother has XX sex chromosomes.",
+          "She can only produce X-bearing eggs.",
+          "Therefore all children receive X from mother."
+        ],
+        "formula": null,
+        "expected_answer": "Because the mother has XX sex chromosomes, all her eggs will carry an X chromosome. She has no Y chromosome to contribute. Therefore, every child — whether boy or girl — inherits an X from the mother.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States mother is XX",
+          "2 marks": "Explains she can only give X"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_103",
+      "use_for": "understanding",
+      "text": "Mention two strategies used by different species for sex determination other than genetic determination.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "temperature",
+          "environment",
+          "reptiles",
+          "snails",
+          "change sex"
+        ],
+        "key_points": [
+          "(1) Temperature-dependent: In some reptiles, the incubation temperature determines sex.",
+          "(2) Sequential hermaphroditism: In snails, individuals can change sex."
+        ],
+        "formula": null,
+        "expected_answer": "(1) Environmental cues: In some reptiles, the temperature at which fertilised eggs are kept determines whether the developing animal will be male or female. (2) Sex change: In snails, individuals can change sex, indicating sex is not genetically fixed.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "One strategy",
+          "2 marks": "Both strategies with examples"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_num_101",
+      "use_for": "understanding",
+      "text": "In a cross between a male (XY) and a female (XX), what percentage of offspring are expected to be male?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "50%",
+          "male",
+          "XY"
+        ],
+        "key_points": [
+          "Two possible combinations: XX (female) and XY (male).",
+          "50% expected to be male."
+        ],
+        "formula": "male_percentage = 50",
+        "expected_answer": "50%. Out of four possible offspring (XX, XX, XY, XY), two are male (XY), giving 50%.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "male_parent": {
+            "value": "XY",
+            "unit": "",
+            "locked": true
+          },
+          "female_parent": {
+            "value": "XX",
+            "unit": "",
+            "locked": true
+          }
+        },
+        "formula_expression": "50",
+        "units": "%",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_num_102",
+      "use_for": "understanding",
+      "text": "If 200 offspring are produced from a cross between normal human parents, how many are expected to be girls based on the mechanism of sex determination?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "100",
+          "girls",
+          "50%"
+        ],
+        "key_points": [
+          "50% of offspring expected to be girls.",
+          "200 × 0.5 = 100 girls."
+        ],
+        "formula": "girls = total × 0.5",
+        "expected_answer": "Expected number of girls = 200 × 50/100 = 100.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "total_offspring": {
+            "min": 50,
+            "max": 500,
+            "step": 50
+          }
+        },
+        "formula_expression": "total_offspring / 2",
+        "units": "children",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap8_sxd_sa_104",
+      "use_for": "understanding",
+      "text": "Does a male child inherit the X chromosome from his father? Justify your answer.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "no",
+          "Y chromosome",
+          "father",
+          "mother",
+          "X"
+        ],
+        "key_points": [
+          "No, a male child does not inherit X from his father.",
+          "A male child inherits Y from his father and X from his mother.",
+          "His genotype is XY: X from mother, Y from father."
+        ],
+        "formula": null,
+        "expected_answer": "No. A male child has genotype XY. He inherits the Y chromosome from his father and the X chromosome from his mother. The father's X chromosome is passed only to daughters (who are XX).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "States No with basic reason",
+          "2 marks": "Complete justification with XX/XY logic"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

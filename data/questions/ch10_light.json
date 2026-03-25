@@ -1,0 +1,1371 @@
+{
+  "chapter_id": "ch10_light",
+  "chapter_title": "Light — Reflection and Refraction",
+  "questions": [
+    {
+      "id": "T_CH09_001",
+      "use_for": "test",
+      "text": "Which of the following mirrors is used as a rear-view mirror in vehicles?",
+      "options": {
+        "A": "Concave mirror",
+        "B": "Convex mirror",
+        "C": "Plane mirror",
+        "D": "Parabolic mirror"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nConvex mirrors give a wider field of view and always form a virtual, erect, diminished image — ideal for rear-view mirrors.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_002",
+      "use_for": "test",
+      "text": "The angle of reflection is measured from:",
+      "options": {
+        "A": "The reflecting surface",
+        "B": "The normal at the point of incidence",
+        "C": "The incident ray",
+        "D": "The principal axis"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nBy the first law of reflection, both the angle of incidence and angle of reflection are measured from the normal to the surface at the point of incidence.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_003",
+      "use_for": "test",
+      "text": "A concave mirror produces a magnification of –1. The object is placed:",
+      "options": {
+        "A": "At the focus",
+        "B": "At infinity",
+        "C": "At the centre of curvature",
+        "D": "Between F and C"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "C"
+        ],
+        "formula": null,
+        "expected_answer": "C\nm = –v/u = –1 ⟹ v = u. Using the mirror formula with v = u gives 2/u = 1/f ⟹ u = 2f = R. So the object is at C.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_004",
+      "use_for": "test",
+      "text": "A ray of light passes from medium 1 (n₁ = 1.5) into medium 2 (n₂ = 1.0). The ray will:",
+      "options": {
+        "A": "Bend towards the normal",
+        "B": "Travel without bending",
+        "C": "Bend away from the normal",
+        "D": "Be totally reflected always"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "C"
+        ],
+        "formula": null,
+        "expected_answer": "C\nLight going from a denser to a rarer medium (n₁ > n₂) bends away from the normal (angle of refraction > angle of incidence).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_005",
+      "use_for": "test",
+      "text": "The SI unit of power of a lens is:",
+      "options": {
+        "A": "Metre",
+        "B": "Dioptre",
+        "C": "Candela",
+        "D": "Watt"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nPower P = 1/f (f in metres). The unit is dioptre (D). 1 D = 1 m⁻¹.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_006",
+      "use_for": "test",
+      "text": "A convex lens of focal length 20 cm and a concave lens of focal length 30 cm are placed in contact. The power of the combination is:",
+      "options": {
+        "A": "+1.67 D",
+        "B": "–1.67 D",
+        "C": "+8.33 D",
+        "D": "–8.33 D"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "A"
+        ],
+        "formula": null,
+        "expected_answer": "A\nP = P₁ + P₂ = 1/0.20 + (–1/0.30) = 5 – 3.33 = +1.67 D.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_007",
+      "use_for": "test",
+      "text": "The absolute refractive index of a medium is defined as:",
+      "options": {
+        "A": "speed of light in medium / speed of light in vacuum",
+        "B": "speed of light in vacuum / speed of light in medium",
+        "C": "wavelength in vacuum / wavelength in medium",
+        "D": "Both B and C"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "D"
+        ],
+        "formula": null,
+        "expected_answer": "D\nn = c/v (speed ratio) = λ_vacuum/λ_medium. Both expressions are correct definitions.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_008",
+      "use_for": "test",
+      "text": "For a concave mirror, the focal length is +15 cm under the New Cartesian Sign Convention. This statement is:",
+      "options": {
+        "A": "Correct — concave mirrors always have positive focal length",
+        "B": "Incorrect — concave mirrors have negative focal length",
+        "C": "Correct only when the object is virtual",
+        "D": "Depends on the position of the object"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nUnder NCSC, distances measured opposite to the incident ray direction are negative. The focus of a concave mirror lies in front of the mirror (negative side), so f is negative.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_009",
+      "use_for": "test",
+      "text": "A lens has power –2 D. Its focal length and nature are:",
+      "options": {
+        "A": "f = +50 cm, convex",
+        "B": "f = –50 cm, concave",
+        "C": "f = –2 cm, concave",
+        "D": "f = +2 cm, convex"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nP = 1/f ⟹ f = 1/P = 1/(–2) = –0.50 m = –50 cm. Negative focal length → concave (diverging) lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_010",
+      "use_for": "test",
+      "text": "State the two laws of reflection of light.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "1. The angle of incidence equals the angle of reflection (∠i = ∠r).\n2. The incident ray, the reflected ray, and the normal to the reflecting surface at the point of incidence all lie in the same plane."
+        ],
+        "formula": null,
+        "expected_answer": "1. The angle of incidence equals the angle of reflection (∠i = ∠r).\n2. The incident ray, the reflected ray, and the normal to the reflecting surface at the point of incidence all lie in the same plane.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_011",
+      "use_for": "test",
+      "text": "Define the following terms for a spherical mirror: (i) Pole, (ii) Centre of curvature, (iii) Principal focus.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) Pole (P): The midpoint of the reflecting surface of a spherical mirror.\n(ii) Centre of curvature (C): The centre of the sphere of which the mirror is a part. It lies at a distance R (radius of curvature) from the pole.\n(iii) Principal focus (F): The point on the principal axis where rays parallel to the axis converge (concave) or appear to diverge from (convex) after reflection. Distance PF = f (focal length)."
+        ],
+        "formula": null,
+        "expected_answer": "(i) Pole (P): The midpoint of the reflecting surface of a spherical mirror.\n(ii) Centre of curvature (C): The centre of the sphere of which the mirror is a part. It lies at a distance R (radius of curvature) from the pole.\n(iii) Principal focus (F): The point on the principal axis where rays parallel to the axis converge (concave) or appear to diverge from (convex) after reflection. Distance PF = f (focal length).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_012",
+      "use_for": "test",
+      "text": "State the New Cartesian Sign Convention for spherical mirrors.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "1. All distances are measured from the pole P of the mirror.\n2. Distances measured in the direction of incident light (positive x-axis, i.e., from right to left for a mirror) are positive.\n3. Distances measured against the direction of incident light are negative.\n4. Heights above the principal axis are positive; heights below are negative.\nConsequences: u is always negative (real object); f and R are negative for concave mirrors, positive for convex mirrors."
+        ],
+        "formula": null,
+        "expected_answer": "1. All distances are measured from the pole P of the mirror.\n2. Distances measured in the direction of incident light (positive x-axis, i.e., from right to left for a mirror) are positive.\n3. Distances measured against the direction of incident light are negative.\n4. Heights above the principal axis are positive; heights below are negative.\nConsequences: u is always negative (real object); f and R are negative for concave mirrors, positive for convex mirrors.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_013",
+      "use_for": "test",
+      "text": "An object 5 cm tall is placed 30 cm in front of a concave mirror of focal length 15 cm. Find the position, size, and nature of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Given: u = –30 cm, f = –15 cm, h = +5 cm\nMirror formula: 1/v + 1/u = 1/f\n1/v = 1/f – 1/u = 1/(–15) – 1/(–30) = –1/15 + 1/30 = –2/30 + 1/30 = –1/30\n∴ v = –30 cm\nm = –v/u = –(–30)/(–30) = –1\nImage height = m × h = –1 × 5 = –5 cm\nImage: 30 cm in front of mirror, same size as object, real and inverted."
+        ],
+        "formula": null,
+        "expected_answer": "Given: u = –30 cm, f = –15 cm, h = +5 cm\nMirror formula: 1/v + 1/u = 1/f\n1/v = 1/f – 1/u = 1/(–15) – 1/(–30) = –1/15 + 1/30 = –2/30 + 1/30 = –1/30\n∴ v = –30 cm\nm = –v/u = –(–30)/(–30) = –1\nImage height = m × h = –1 × 5 = –5 cm\nImage: 30 cm in front of mirror, same size as object, real and inverted.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_014",
+      "use_for": "test",
+      "text": "State Snell's law of refraction. Write its mathematical form.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Snell's Law: For a given pair of media, the ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant.\n\nMathematically: sin i / sin r = n₂₁ (constant = refractive index of medium 2 w.r.t. medium 1)\nor: n₁ sin i = n₂ sin r  (general form)\nThe incident ray, refracted ray, and normal at the point of incidence are coplanar."
+        ],
+        "formula": null,
+        "expected_answer": "Snell's Law: For a given pair of media, the ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant.\n\nMathematically: sin i / sin r = n₂₁ (constant = refractive index of medium 2 w.r.t. medium 1)\nor: n₁ sin i = n₂ sin r  (general form)\nThe incident ray, refracted ray, and normal at the point of incidence are coplanar.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_015",
+      "use_for": "test",
+      "text": "The refractive index of glass is 1.5. What is the speed of light in glass? (Speed of light in vacuum = 3 × 10⁸ m/s)",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "n = c/v  ⟹  v = c/n = (3 × 10⁸) / 1.5 = 2 × 10⁸ m/s\nThe speed of light in glass is 2 × 10⁸ m/s."
+        ],
+        "formula": null,
+        "expected_answer": "n = c/v  ⟹  v = c/n = (3 × 10⁸) / 1.5 = 2 × 10⁸ m/s\nThe speed of light in glass is 2 × 10⁸ m/s.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_016",
+      "use_for": "test",
+      "text": "Distinguish between a convex lens and a concave lens on the basis of: (i) shape, (ii) effect on a parallel beam of light.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) Shape: A convex (converging) lens is thicker at the centre than at the edges. A concave (diverging) lens is thinner at the centre than at the edges.\n(ii) Effect on parallel beam: A convex lens converges (brings together) parallel rays at the principal focus on the other side. A concave lens diverges (spreads out) parallel rays; they appear to come from the principal focus on the same side as the incident light."
+        ],
+        "formula": null,
+        "expected_answer": "(i) Shape: A convex (converging) lens is thicker at the centre than at the edges. A concave (diverging) lens is thinner at the centre than at the edges.\n(ii) Effect on parallel beam: A convex lens converges (brings together) parallel rays at the principal focus on the other side. A concave lens diverges (spreads out) parallel rays; they appear to come from the principal focus on the same side as the incident light.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_017",
+      "use_for": "test",
+      "text": "An object is placed 15 cm from a convex lens of focal length 10 cm. Find the position and nature of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Given: u = –15 cm, f = +10 cm\nLens formula: 1/v – 1/u = 1/f\n1/v = 1/f + 1/u = 1/10 + 1/(–15) = 3/30 – 2/30 = 1/30\n∴ v = +30 cm\nm = v/u = 30/(–15) = –2\nImage is 30 cm on the other side of the lens, real, inverted, and magnified (×2)."
+        ],
+        "formula": null,
+        "expected_answer": "Given: u = –15 cm, f = +10 cm\nLens formula: 1/v – 1/u = 1/f\n1/v = 1/f + 1/u = 1/10 + 1/(–15) = 3/30 – 2/30 = 1/30\n∴ v = +30 cm\nm = v/u = 30/(–15) = –2\nImage is 30 cm on the other side of the lens, real, inverted, and magnified (×2).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_018",
+      "use_for": "test",
+      "text": "Define power of a lens. A doctor prescribes a corrective lens of power +1.5 D. What is the focal length of this lens and what type of lens is it?",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Power (P) of a lens is the reciprocal of its focal length in metres: P = 1/f.\nGiven: P = +1.5 D\nf = 1/P = 1/1.5 = 0.667 m ≈ 66.7 cm\nPositive power → convex (converging) lens. It is used to correct hypermetropia (far-sightedness)."
+        ],
+        "formula": null,
+        "expected_answer": "Power (P) of a lens is the reciprocal of its focal length in metres: P = 1/f.\nGiven: P = +1.5 D\nf = 1/P = 1/1.5 = 0.667 m ≈ 66.7 cm\nPositive power → convex (converging) lens. It is used to correct hypermetropia (far-sightedness).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_019",
+      "use_for": "test",
+      "text": "A convex mirror used for rear-view has a radius of curvature of 3.00 m. If a bus is located 5.00 m from this mirror, find the position and magnification of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "f = +R/2 = +1.50 m (convex mirror → +ve), u = –5.00 m\n1/v = 1/f – 1/u = 1/1.5 – 1/(–5) = 0.667 + 0.200 = 0.867\nv = +1.15 m (image behind mirror → virtual, erect)\nm = –v/u = –1.15/(–5) = +0.23\nMagnification = +0.23 (erect and diminished image)."
+        ],
+        "formula": null,
+        "expected_answer": "f = +R/2 = +1.50 m (convex mirror → +ve), u = –5.00 m\n1/v = 1/f – 1/u = 1/1.5 – 1/(–5) = 0.667 + 0.200 = 0.867\nv = +1.15 m (image behind mirror → virtual, erect)\nm = –v/u = –1.15/(–5) = +0.23\nMagnification = +0.23 (erect and diminished image).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_020",
+      "use_for": "test",
+      "text": "A ray of light travelling in air enters a glass slab of refractive index 1.5 at an angle of 30° to the normal. Find the angle of refraction inside the glass.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Using Snell's law: n₁ sin i = n₂ sin r\n1.0 × sin 30° = 1.5 × sin r\n0.5 = 1.5 sin r\nsin r = 0.5/1.5 = 0.333\nr = sin⁻¹(0.333) ≈ 19.5°\nThe angle of refraction inside the glass is approximately 19.5°."
+        ],
+        "formula": null,
+        "expected_answer": "Using Snell's law: n₁ sin i = n₂ sin r\n1.0 × sin 30° = 1.5 × sin r\n0.5 = 1.5 sin r\nsin r = 0.5/1.5 = 0.333\nr = sin⁻¹(0.333) ≈ 19.5°\nThe angle of refraction inside the glass is approximately 19.5°.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_021",
+      "use_for": "test",
+      "text": "Explain why the image formed by a convex mirror is always virtual and erect, irrespective of the position of the object.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "For a convex mirror f > 0. For a real object u < 0. From the mirror formula: 1/v = 1/f – 1/u = 1/f + 1/|u|. Both terms are positive, so v > 0 always — meaning the image forms behind the mirror → virtual.\nMagnification m = –v/u. Since v > 0 and u < 0, m = –(+)/(–) = positive → erect.\nTherefore, the image is always virtual and erect, regardless of object position."
+        ],
+        "formula": null,
+        "expected_answer": "For a convex mirror f > 0. For a real object u < 0. From the mirror formula: 1/v = 1/f – 1/u = 1/f + 1/|u|. Both terms are positive, so v > 0 always — meaning the image forms behind the mirror → virtual.\nMagnification m = –v/u. Since v > 0 and u < 0, m = –(+)/(–) = positive → erect.\nTherefore, the image is always virtual and erect, regardless of object position.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_022",
+      "use_for": "test",
+      "text": "A student performed an experiment with a convex lens and recorded the following data:\n\n| Experiment | u (cm) | v (cm) |\n|---|---|---|\n| 1 | –50 | +33 |\n| 2 | –30 | +60 |\n| 3 | –25 | +100 |\n\nUsing any one set of readings, calculate the focal length of the lens. Comment on the consistency of the results.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Using row 1: u = –50 cm, v = +33 cm\n1/f = 1/v – 1/u = 1/33 – 1/(–50) = 1/33 + 1/50 = 0.0303 + 0.020 = 0.0503 cm⁻¹\nf ≈ 19.9 cm ≈ 20 cm\n\nUsing row 2: 1/f = 1/60 + 1/30 = 1/60 + 2/60 = 3/60 = 1/20 → f = 20 cm ✓\nUsing row 3: 1/f = 1/100 + 1/25 = 1/100 + 4/100 = 5/100 = 1/20 → f = 20 cm ✓\n\nAll experiments give f ≈ 20 cm → results are consistent. The lens has focal length 20 cm."
+        ],
+        "formula": null,
+        "expected_answer": "Using row 1: u = –50 cm, v = +33 cm\n1/f = 1/v – 1/u = 1/33 – 1/(–50) = 1/33 + 1/50 = 0.0303 + 0.020 = 0.0503 cm⁻¹\nf ≈ 19.9 cm ≈ 20 cm\n\nUsing row 2: 1/f = 1/60 + 1/30 = 1/60 + 2/60 = 3/60 = 1/20 → f = 20 cm ✓\nUsing row 3: 1/f = 1/100 + 1/25 = 1/100 + 4/100 = 5/100 = 1/20 → f = 20 cm ✓\n\nAll experiments give f ≈ 20 cm → results are consistent. The lens has focal length 20 cm.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_023",
+      "use_for": "test",
+      "text": "List any four uses of concave mirrors.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "1. Torch lights and vehicle headlights — concave mirror behind the bulb produces a parallel beam.\n2. Shaving/make-up mirrors — object placed between F and P gives erect, magnified virtual image.\n3. Dentist's mirrors — to see an enlarged view of teeth.\n4. Solar furnaces — large concave mirrors concentrate sunlight at the focus to generate high temperatures.\n5. Satellite dish (parabolic type) — similar principle."
+        ],
+        "formula": null,
+        "expected_answer": "1. Torch lights and vehicle headlights — concave mirror behind the bulb produces a parallel beam.\n2. Shaving/make-up mirrors — object placed between F and P gives erect, magnified virtual image.\n3. Dentist's mirrors — to see an enlarged view of teeth.\n4. Solar furnaces — large concave mirrors concentrate sunlight at the focus to generate high temperatures.\n5. Satellite dish (parabolic type) — similar principle.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_024",
+      "use_for": "test",
+      "text": "A 10 cm tall object is placed at a distance of 40 cm in front of a concave mirror of focal length 20 cm. Determine: (i) the image distance, (ii) the height of the image, and (iii) the nature of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "u = –40 cm, f = –20 cm, h_o = +10 cm\n1/v = 1/f – 1/u = –1/20 + 1/40 = –2/40 + 1/40 = –1/40\n(i) v = –40 cm  (image 40 cm in front of mirror)\nm = –v/u = –(–40)/(–40) = –1\n(ii) h_i = m × h_o = –1 × 10 = –10 cm  (same size, inverted)\n(iii) Real, inverted, same size as object (at C)."
+        ],
+        "formula": null,
+        "expected_answer": "u = –40 cm, f = –20 cm, h_o = +10 cm\n1/v = 1/f – 1/u = –1/20 + 1/40 = –2/40 + 1/40 = –1/40\n(i) v = –40 cm  (image 40 cm in front of mirror)\nm = –v/u = –(–40)/(–40) = –1\n(ii) h_i = m × h_o = –1 × 10 = –10 cm  (same size, inverted)\n(iii) Real, inverted, same size as object (at C).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_025",
+      "use_for": "test",
+      "text": "An object 4 cm high is placed at 20 cm in front of a concave lens of focal length 15 cm. Find the position, size, and nature of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "u = –20 cm, f = –15 cm (concave → negative)\n1/v = 1/f + 1/u = 1/(–15) + 1/(–20) = –4/60 – 3/60 = –7/60\nv = –60/7 ≈ –8.57 cm\nm = v/u = (–8.57)/(–20) = +0.43\nh_i = m × h_o = 0.43 × 4 = 1.72 cm\nImage: ~8.57 cm in front of lens, virtual, erect, diminished (1.72 cm tall)."
+        ],
+        "formula": null,
+        "expected_answer": "u = –20 cm, f = –15 cm (concave → negative)\n1/v = 1/f + 1/u = 1/(–15) + 1/(–20) = –4/60 – 3/60 = –7/60\nv = –60/7 ≈ –8.57 cm\nm = v/u = (–8.57)/(–20) = +0.43\nh_i = m × h_o = 0.43 × 4 = 1.72 cm\nImage: ~8.57 cm in front of lens, virtual, erect, diminished (1.72 cm tall).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_026",
+      "use_for": "test",
+      "text": "Two lenses of focal lengths +25 cm and –50 cm are placed in contact with each other. Calculate: (i) the power of each lens, (ii) the power of the combination, (iii) the focal length of the combination.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) P₁ = 1/f₁ = 1/0.25 = +4.0 D;  P₂ = 1/f₂ = 1/(–0.50) = –2.0 D\n(ii) P = P₁ + P₂ = 4 – 2 = +2.0 D\n(iii) f = 1/P = 1/2.0 = 0.50 m = +50 cm  (convex combination)"
+        ],
+        "formula": null,
+        "expected_answer": "(i) P₁ = 1/f₁ = 1/0.25 = +4.0 D;  P₂ = 1/f₂ = 1/(–0.50) = –2.0 D\n(ii) P = P₁ + P₂ = 4 – 2 = +2.0 D\n(iii) f = 1/P = 1/2.0 = 0.50 m = +50 cm  (convex combination)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_027",
+      "use_for": "test",
+      "text": "Draw ray diagrams to show the position, size, and nature of the image formed by a concave mirror when the object is placed: (i) at infinity, (ii) between F and the mirror (P). State one practical use for each case.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) Object at infinity:\n• Rays parallel to principal axis; reflected ray passes through F.\n• Image: At focus F, highly diminished (point-sized), real, inverted.\n• Use: Concave mirror in a torch/headlamp — filament placed at F produces a parallel beam.\n\n(ii) Object between P and F:\n• Rays diverge after reflection; on extending behind mirror they meet.\n• Image: Behind the mirror, virtual, erect, magnified.\n• Use: Shaving mirror / dentist's mirror."
+        ],
+        "formula": null,
+        "expected_answer": "(i) Object at infinity:\n• Rays parallel to principal axis; reflected ray passes through F.\n• Image: At focus F, highly diminished (point-sized), real, inverted.\n• Use: Concave mirror in a torch/headlamp — filament placed at F produces a parallel beam.\n\n(ii) Object between P and F:\n• Rays diverge after reflection; on extending behind mirror they meet.\n• Image: Behind the mirror, virtual, erect, magnified.\n• Use: Shaving mirror / dentist's mirror.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_028",
+      "use_for": "test",
+      "text": "A ray of light entering a rectangular glass slab (n = 1.5) at an angle of 45° emerges parallel to the incident ray from the opposite face. (i) Find the angle of refraction at the first face. (ii) Explain why the emergent ray is parallel to the incident ray. (iii) Draw the ray path through the slab.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) At first face: n₁ sin 45° = n₂ sin r₂\n1.0 × (1/√2) = 1.5 × sin r₂\nsin r₂ = 0.4714 ⟹ r₂ ≈ 28.1°\n\n(ii) At the second face the geometry is reversed — angle of incidence inside = 28.1°, n changes from 1.5 → 1.0, so emergent angle = 45° again. Since the two refracting surfaces are parallel, the incident and emergent rays are parallel (but laterally displaced).\n\n(iii) Diagram: Show incident ray at 45°, refracted ray inside slab at ~28°, emergent ray at 45° — all three in the same plane, with lateral displacement labelled."
+        ],
+        "formula": null,
+        "expected_answer": "(i) At first face: n₁ sin 45° = n₂ sin r₂\n1.0 × (1/√2) = 1.5 × sin r₂\nsin r₂ = 0.4714 ⟹ r₂ ≈ 28.1°\n\n(ii) At the second face the geometry is reversed — angle of incidence inside = 28.1°, n changes from 1.5 → 1.0, so emergent angle = 45° again. Since the two refracting surfaces are parallel, the incident and emergent rays are parallel (but laterally displaced).\n\n(iii) Diagram: Show incident ray at 45°, refracted ray inside slab at ~28°, emergent ray at 45° — all three in the same plane, with lateral displacement labelled.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_029",
+      "use_for": "test",
+      "text": "Derive the lens formula 1/v – 1/u = 1/f for a convex lens, using a ray diagram. State the sign convention used.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Sign convention (NCSC): all distances from optical centre O; distances along incident light direction are positive.\n\nDerivation:\nLet object AB be at distance u (negative, real). Rays from B:\n• Ray 1: Parallel to axis → refracts through focus F₂ on other side.\n• Ray 2: Through optical centre O → passes undeviated.\nImage A'B' forms at distance v.\n\nTriangles ABО and A'B'О are similar (by AA):\n  A'B'/AB = OA'/OA  ⟹  v/u (with signs)\n\nTriangles OA'B' and OF₂F' are similar:\n  A'B'/OF = OA'/OF₂\n  ⟹  (–v)/(f) = (–v – (–f))/(–f)   [applying sign convention carefully]\n\nAfter algebraic manipulation:\n  1/v – 1/u = 1/f  ✓\n\nThis is the thin lens formula."
+        ],
+        "formula": null,
+        "expected_answer": "Sign convention (NCSC): all distances from optical centre O; distances along incident light direction are positive.\n\nDerivation:\nLet object AB be at distance u (negative, real). Rays from B:\n• Ray 1: Parallel to axis → refracts through focus F₂ on other side.\n• Ray 2: Through optical centre O → passes undeviated.\nImage A'B' forms at distance v.\n\nTriangles ABО and A'B'О are similar (by AA):\n  A'B'/AB = OA'/OA  ⟹  v/u (with signs)\n\nTriangles OA'B' and OF₂F' are similar:\n  A'B'/OF = OA'/OF₂\n  ⟹  (–v)/(f) = (–v – (–f))/(–f)   [applying sign convention carefully]\n\nAfter algebraic manipulation:\n  1/v – 1/u = 1/f  ✓\n\nThis is the thin lens formula.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_030",
+      "use_for": "test",
+      "text": "Derive the mirror formula 1/v + 1/u = 1/f for a concave mirror forming a real image of a real object. State the sign convention and the assumptions made.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Assumptions: (i) Mirror is small (aperture << R), (ii) object is a point on the principal axis, (iii) paraxial rays only.\n\nSign convention: Distances measured from pole P; direction of incident light is negative x.\n\nDerivation:\nObject AB at distance u (negative) in front of concave mirror (f negative).\nRay from B parallel to axis reflects through F.\nRay through C reflects back on itself.\nImage A'B' forms at v (negative for real image).\n\nTriangles ABP and A'B'P are similar:\n  A'B'/AB = PA'/PA = v/u\n\nTriangles ABF and FPM (where M is on mirror) are similar:\n  A'B'/MP = FA'/FP\n  But MP = AB, FA' = PA' – PF = v – f\n  ⟹  v/u = (v – f)/f\n  ⟹  vf = u(v – f) = uv – uf\n  Divide throughout by uvf:\n  1/u + 1/v = 1/f  ✓\n\nRelation between f and R: f = R/2."
+        ],
+        "formula": null,
+        "expected_answer": "Assumptions: (i) Mirror is small (aperture << R), (ii) object is a point on the principal axis, (iii) paraxial rays only.\n\nSign convention: Distances measured from pole P; direction of incident light is negative x.\n\nDerivation:\nObject AB at distance u (negative) in front of concave mirror (f negative).\nRay from B parallel to axis reflects through F.\nRay through C reflects back on itself.\nImage A'B' forms at v (negative for real image).\n\nTriangles ABP and A'B'P are similar:\n  A'B'/AB = PA'/PA = v/u\n\nTriangles ABF and FPM (where M is on mirror) are similar:\n  A'B'/MP = FA'/FP\n  But MP = AB, FA' = PA' – PF = v – f\n  ⟹  v/u = (v – f)/f\n  ⟹  vf = u(v – f) = uv – uf\n  Divide throughout by uvf:\n  1/u + 1/v = 1/f  ✓\n\nRelation between f and R: f = R/2.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_031",
+      "use_for": "test",
+      "text": "Study the ray diagram below showing image formation by a concave mirror. (i) Identify the position of the object. (ii) State the nature, size, and position of the image formed. (iii) Name one device that uses this configuration.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) Object is placed beyond the centre of curvature C.\n(ii) Image is real, inverted, diminished; formed between F and C (closer to F).\n(iii) This configuration is used in astronomical reflecting telescopes (primary mirror)."
+        ],
+        "formula": null,
+        "expected_answer": "(i) Object is placed beyond the centre of curvature C.\n(ii) Image is real, inverted, diminished; formed between F and C (closer to F).\n(iii) This configuration is used in astronomical reflecting telescopes (primary mirror).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_032",
+      "use_for": "test",
+      "text": "The diagram shows experimental data (u–v table and graph) for a convex lens. (i) Use the data to determine the focal length. (ii) At what object distance will the image be formed at the same distance as the object? (iii) What is the magnification at that position?",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) From any row: 1/f = 1/v – 1/u ≈ 1/20 → f = 20 cm.\n(ii) For image at same distance as object (|v| = |u|, real): 2/u = 1/f ⟹ u = 2f = 40 cm, so u = –40 cm.\n(iii) m = v/u = (+40)/(–40) = –1. Magnification = –1 (real, inverted, same size)."
+        ],
+        "formula": null,
+        "expected_answer": "(i) From any row: 1/f = 1/v – 1/u ≈ 1/20 → f = 20 cm.\n(ii) For image at same distance as object (|v| = |u|, real): 2/u = 1/f ⟹ u = 2f = 40 cm, so u = –40 cm.\n(iii) m = v/u = (+40)/(–40) = –1. Magnification = –1 (real, inverted, same size).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_033",
+      "use_for": "test",
+      "text": "A ray of light XY travels from water (n = 1.33) to air and strikes the water surface at an angle. Draw the path of the refracted ray in air. Label the angle of incidence, angle of refraction, and the normal. State what happens if the angle of incidence is increased beyond the critical angle.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Refracted ray in air bends away from the normal (angle of refraction > angle of incidence) since n_water > n_air.\nWhen angle of incidence > critical angle: total internal reflection occurs — no refracted ray, ray reflects back into water obeying laws of reflection."
+        ],
+        "formula": null,
+        "expected_answer": "Refracted ray in air bends away from the normal (angle of refraction > angle of incidence) since n_water > n_air.\nWhen angle of incidence > critical angle: total internal reflection occurs — no refracted ray, ray reflects back into water obeying laws of reflection.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_034",
+      "use_for": "test",
+      "text": "Assertion (A): A convex mirror is used as a rear-view mirror in vehicles.\nReason (R): A convex mirror always forms a virtual, erect, and diminished image for any position of the object.\n\nChoose the correct option:\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": {
+        "a": "Both A and R are true and R is the correct explanation of A.",
+        "b": "Both A and R are true but R is not the correct explanation of A.",
+        "c": "A is true but R is false.",
+        "d": "A is false but R is true."
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "a"
+        ],
+        "formula": null,
+        "expected_answer": "a\nThe convex mirror gives a wider field of view precisely because it forms diminished, erect, virtual images. R correctly explains A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "T_CH09_035",
+      "use_for": "test",
+      "text": "Assertion (A): A concave lens always forms a virtual image for a real object.\nReason (R): The focal length of a concave lens is negative, so the lens formula always gives a negative value of v for a real object.\n\nChoose the correct option:\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": {
+        "a": "Both A and R are true and R is the correct explanation of A.",
+        "b": "Both A and R are true but R is not the correct explanation of A.",
+        "c": "A is true but R is false.",
+        "d": "A is false but R is true."
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "a"
+        ],
+        "formula": null,
+        "expected_answer": "a\nFor concave lens f < 0, u < 0 (real object). 1/v = 1/f + 1/u — both terms negative → v < 0 always → virtual image. R correctly explains A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_001",
+      "use_for": "understanding",
+      "text": "When a ray of light strikes a plane mirror at 90° to the mirror surface, it:",
+      "options": {
+        "A": "Is absorbed by the mirror",
+        "B": "Reflects back along the same path",
+        "C": "Refracts into the mirror",
+        "D": "Reflects at 45° to the surface"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\n90° to the mirror surface = 0° to the normal. Angle of incidence = 0°, so angle of reflection = 0° — ray returns on itself.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_002",
+      "use_for": "understanding",
+      "text": "The focal length of a concave mirror is 10 cm. Its radius of curvature is:",
+      "options": {
+        "A": "5 cm",
+        "B": "10 cm",
+        "C": "20 cm",
+        "D": "40 cm"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "C"
+        ],
+        "formula": null,
+        "expected_answer": "C\nR = 2f = 2 × 10 = 20 cm.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_003",
+      "use_for": "understanding",
+      "text": "An object placed 10 cm in front of a mirror gives a virtual, erect image twice as large. The mirror is:",
+      "options": {
+        "A": "Convex, f = +20 cm",
+        "B": "Concave, f = –20 cm",
+        "C": "Plane, no focal length",
+        "D": "Concave, f = +20 cm"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nm = +2 (virtual, erect) → –v/u = 2 → v = –2u = +20 cm (behind mirror). u = –10 cm. 1/f = 1/v + 1/u = 1/20 + 1/(–10) = –1/20. f = –20 cm → concave.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_004",
+      "use_for": "understanding",
+      "text": "Light travels from glass (n = 1.5) to water (n = 1.33). The light ray will:",
+      "options": {
+        "A": "Bend away from the normal",
+        "B": "Bend towards the normal",
+        "C": "Not change direction",
+        "D": "Be totally internally reflected always"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "A"
+        ],
+        "formula": null,
+        "expected_answer": "A\nGlass (denser, n=1.5) to water (less dense, n=1.33): ray bends away from normal.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_005",
+      "use_for": "understanding",
+      "text": "A ray of light falls on the boundary between two media of refractive indices n₁ and n₂ (n₁ < n₂). Total internal reflection will occur when:",
+      "options": {
+        "A": "Light travels from medium 1 to medium 2 beyond critical angle",
+        "B": "Light travels from medium 2 to medium 1 beyond critical angle",
+        "C": "Light travels normally to the surface",
+        "D": "n₁ = n₂"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nTIR occurs when light goes from denser (n₂) to rarer (n₁) medium AND the angle of incidence exceeds the critical angle.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_006",
+      "use_for": "understanding",
+      "text": "An object is placed at the focus of a convex lens. The image formed is:",
+      "options": {
+        "A": "At 2F, real, inverted, same size",
+        "B": "At infinity, real, highly magnified",
+        "C": "At F on same side, virtual",
+        "D": "At the optical centre, diminished"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nu = –f. 1/v = 1/f + 1/u = 1/f – 1/f = 0 → v = ∞. Image at infinity, real, highly magnified.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_007",
+      "use_for": "understanding",
+      "text": "Which of the following graphs correctly represents the relationship between image distance (v) and object distance (u) for a convex lens (real image only)?",
+      "options": {
+        "A": "A straight line through the origin",
+        "B": "A hyperbola in the second quadrant (u negative, v positive)",
+        "C": "A parabola opening upward",
+        "D": "A straight line parallel to the v-axis"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\n1/v – 1/u = 1/f → 1/v = 1/f + 1/u: for u < –f (real object beyond focus), v is positive and decreases as |u| increases. The locus is a rectangular hyperbola in the quadrant where u < 0 and v > 0.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_008",
+      "use_for": "understanding",
+      "text": "A person uses a lens of power +3.5 D to read a book. The minimum distance from the lens at which the book can be read clearly (near point) is approximately:",
+      "options": {
+        "A": "25 cm",
+        "B": "28.6 cm",
+        "C": "35 cm",
+        "D": "3.5 cm"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "B"
+        ],
+        "formula": null,
+        "expected_answer": "B\nf = 1/P = 1/3.5 = 0.286 m = 28.6 cm. The focal length gives the minimum distance for parallel rays (object at ∞ → image at f). For a reading lens this is approximate.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_009",
+      "use_for": "understanding",
+      "text": "In a concave mirror experiment, when the object distance equals the focal length, the image is at infinity. Which formula confirms this?",
+      "options": {
+        "A": "1/v + 1/u = 1/f;  substituting u = f gives 1/v = 0 → v = ∞",
+        "B": "1/v – 1/u = 1/f;  substituting u = –f gives v = –f",
+        "C": "m = –v/u → m = 1 when u = f",
+        "D": "f = R/2 only holds for small apertures"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "A"
+        ],
+        "formula": null,
+        "expected_answer": "A\nWith u = –f (concave, f negative): 1/v = 1/f – 1/u = 1/f – 1/(–f) = 2/f — wait, recalculate: 1/v = 1/f – 1/u = (–1/|f|) – (–1/|f|) = 0, confirming v → ∞.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_010",
+      "use_for": "understanding",
+      "text": "The phenomenon responsible for the formation of a rainbow is:",
+      "options": {
+        "A": "Reflection only",
+        "B": "Refraction only",
+        "C": "Dispersion (differential refraction) and internal reflection",
+        "D": "Diffraction"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "C"
+        ],
+        "formula": null,
+        "expected_answer": "C\nRainbows form by dispersion (different wavelengths refract at different angles) combined with total internal reflection inside raindrops.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_011",
+      "use_for": "understanding",
+      "text": "The net power of two lenses in contact is zero. This means:",
+      "options": {
+        "A": "Both lenses are plane glass",
+        "B": "The lenses have equal focal lengths",
+        "C": "One lens is convex, the other concave with equal magnitude focal lengths",
+        "D": "The combination acts like a concave mirror"
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "C"
+        ],
+        "formula": null,
+        "expected_answer": "C\nP = P₁ + P₂ = 0 → P₁ = –P₂ → lenses have equal magnitude but opposite sign focal lengths: one convex (+f), one concave (–f).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_012",
+      "use_for": "understanding",
+      "text": "A student states: 'For a real image formed by a concave mirror, magnification is always negative.' Is this correct?",
+      "options": {
+        "A": "Yes — real images from concave mirrors are always inverted.",
+        "B": "No — real images can be erect if the object is virtual.",
+        "C": "No — magnification is positive for all real images.",
+        "D": "Yes — but only when the object is beyond C."
+      },
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "A"
+        ],
+        "formula": null,
+        "expected_answer": "A\nFor a concave mirror forming a real image, both u and v are negative (real object, real image in front of mirror), so m = –v/u = –(negative)/(negative) = negative. Real images are always inverted → m < 0. Option A is correct.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_013",
+      "use_for": "understanding",
+      "text": "Why does a concave mirror produce both real and virtual images whereas a convex mirror always produces a virtual image? Explain in terms of ray geometry.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Concave mirror: The reflecting surface curves inward — it can converge reflected rays to a real focus (when object is beyond F), or if the object is between P and F, the reflected rays diverge and only appear to meet behind the mirror (virtual image). So the nature of image depends on object position.\n\nConvex mirror: The reflecting surface curves outward — reflected rays always diverge. Extending them behind the mirror gives a virtual focus. For any real object, the reflected rays are always diverging, so the image is always virtual, erect, and diminished behind the mirror."
+        ],
+        "formula": null,
+        "expected_answer": "Concave mirror: The reflecting surface curves inward — it can converge reflected rays to a real focus (when object is beyond F), or if the object is between P and F, the reflected rays diverge and only appear to meet behind the mirror (virtual image). So the nature of image depends on object position.\n\nConvex mirror: The reflecting surface curves outward — reflected rays always diverge. Extending them behind the mirror gives a virtual focus. For any real object, the reflected rays are always diverging, so the image is always virtual, erect, and diminished behind the mirror.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_014",
+      "use_for": "understanding",
+      "text": "A coin is placed at the bottom of a container filled with water (n = 1.33) to a depth of 20 cm. What is the apparent depth of the coin as seen from above?",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Apparent depth = Real depth / n = 20 / 1.33 ≈ 15.0 cm\nThe coin appears to be only 15 cm below the surface (not 20 cm) due to refraction at the water–air interface."
+        ],
+        "formula": null,
+        "expected_answer": "Apparent depth = Real depth / n = 20 / 1.33 ≈ 15.0 cm\nThe coin appears to be only 15 cm below the surface (not 20 cm) due to refraction at the water–air interface.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_015",
+      "use_for": "understanding",
+      "text": "Draw a ray diagram to show image formation by a convex lens when the object is placed between F and 2F. State the nature, position, and size of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Ray diagram: Two rays from tip of object — (1) parallel to axis → passes through F₂ after refraction; (2) through optical centre → undeviated. These rays meet beyond 2F₂ on the other side.\n\nImage: Real, inverted, magnified (|v| > 2f). Positioned beyond 2F₂ on the transmission side."
+        ],
+        "formula": null,
+        "expected_answer": "Ray diagram: Two rays from tip of object — (1) parallel to axis → passes through F₂ after refraction; (2) through optical centre → undeviated. These rays meet beyond 2F₂ on the other side.\n\nImage: Real, inverted, magnified (|v| > 2f). Positioned beyond 2F₂ on the transmission side.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_016",
+      "use_for": "understanding",
+      "text": "An optometrist prescribes –3.0 D for a patient's left eye and +1.5 D for the right eye. What is the focal length for each eye? What defects are being corrected?",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Left eye: f = 1/(–3.0) = –0.333 m = –33.3 cm → concave lens → corrects myopia (short-sightedness).\nRight eye: f = 1/(+1.5) = +0.667 m = +66.7 cm → convex lens → corrects hypermetropia (long-sightedness/far-sightedness)."
+        ],
+        "formula": null,
+        "expected_answer": "Left eye: f = 1/(–3.0) = –0.333 m = –33.3 cm → concave lens → corrects myopia (short-sightedness).\nRight eye: f = 1/(+1.5) = +0.667 m = +66.7 cm → convex lens → corrects hypermetropia (long-sightedness/far-sightedness).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_017",
+      "use_for": "understanding",
+      "text": "An object moves from infinity towards a concave mirror of focal length f. Describe qualitatively how the image position and nature change as the object moves from ∞ to the pole P.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Object at ∞: image at F (real, inverted, point)\nObject beyond C: image between F and C (real, inverted, diminished)\nObject at C: image at C (real, inverted, same size as object)\nObject between C and F: image beyond C (real, inverted, magnified)\nObject at F: image at ∞ (no image formed / image at infinity)\nObject between F and P: image behind mirror (virtual, erect, magnified)\n\nSummary: As object approaches from ∞, real image starts at F, moves away, reaches C, then goes to ∞; when object crosses F, image flips to virtual behind mirror and then virtual image also moves to ∞ as object approaches P."
+        ],
+        "formula": null,
+        "expected_answer": "Object at ∞: image at F (real, inverted, point)\nObject beyond C: image between F and C (real, inverted, diminished)\nObject at C: image at C (real, inverted, same size as object)\nObject between C and F: image beyond C (real, inverted, magnified)\nObject at F: image at ∞ (no image formed / image at infinity)\nObject between F and P: image behind mirror (virtual, erect, magnified)\n\nSummary: As object approaches from ∞, real image starts at F, moves away, reaches C, then goes to ∞; when object crosses F, image flips to virtual behind mirror and then virtual image also moves to ∞ as object approaches P.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_018",
+      "use_for": "understanding",
+      "text": "In an experiment to find the focal length of a concave mirror, a student places a bright object and a screen such that a sharp image is formed on the screen. The object distance is 60 cm and the image distance is 60 cm. Calculate the focal length and state at which position of the mirror formula this corresponds.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "u = –60 cm, v = –60 cm (real image on screen in front of mirror)\n1/f = 1/v + 1/u = –1/60 + (–1/60) = –2/60 = –1/30\nf = –30 cm\nThis corresponds to the object at C (u = 2f = –60 cm), giving a real, inverted, same-size image at C."
+        ],
+        "formula": null,
+        "expected_answer": "u = –60 cm, v = –60 cm (real image on screen in front of mirror)\n1/f = 1/v + 1/u = –1/60 + (–1/60) = –2/60 = –1/30\nf = –30 cm\nThis corresponds to the object at C (u = 2f = –60 cm), giving a real, inverted, same-size image at C.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_019",
+      "use_for": "understanding",
+      "text": "Light of wavelength 600 nm in air enters water (n = 1.33). Find: (i) the speed of light in water, (ii) the wavelength of light in water, (iii) whether the frequency changes.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) v = c/n = (3×10⁸)/1.33 = 2.26×10⁸ m/s\n(ii) λ_water = λ_air/n = 600/1.33 ≈ 451 nm\n(iii) Frequency does NOT change (f = c/λ = v/λ_water — both ratios give same f). Frequency is determined by the source and remains constant in all media."
+        ],
+        "formula": null,
+        "expected_answer": "(i) v = c/n = (3×10⁸)/1.33 = 2.26×10⁸ m/s\n(ii) λ_water = λ_air/n = 600/1.33 ≈ 451 nm\n(iii) Frequency does NOT change (f = c/λ = v/λ_water — both ratios give same f). Frequency is determined by the source and remains constant in all media.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_020",
+      "use_for": "understanding",
+      "text": "Compare the image formed by a convex lens for an object placed (i) at 2F and (ii) between F and 2F. Tabulate position, size, nature.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "| Object position | Image position | Size | Nature |\n|---|---|---|---|\n| At 2F | At 2F (other side) | Same size | Real, inverted |\n| Between F & 2F | Beyond 2F (other side) | Magnified | Real, inverted |\n\nAs object moves from 2F towards F, image moves from 2F towards infinity and becomes progressively more magnified."
+        ],
+        "formula": null,
+        "expected_answer": "| Object position | Image position | Size | Nature |\n|---|---|---|---|\n| At 2F | At 2F (other side) | Same size | Real, inverted |\n| Between F & 2F | Beyond 2F (other side) | Magnified | Real, inverted |\n\nAs object moves from 2F towards F, image moves from 2F towards infinity and becomes progressively more magnified.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_021",
+      "use_for": "understanding",
+      "text": "The magnification produced by a plane mirror is +1. Explain what this tells us about the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "m = +1 means: (i) |m| = 1 → image is the same size as the object; (ii) m > 0 (positive) → image is virtual and erect.\nTherefore the image in a plane mirror is virtual, erect, and of the same size as the object, located as far behind the mirror as the object is in front."
+        ],
+        "formula": null,
+        "expected_answer": "m = +1 means: (i) |m| = 1 → image is the same size as the object; (ii) m > 0 (positive) → image is virtual and erect.\nTherefore the image in a plane mirror is virtual, erect, and of the same size as the object, located as far behind the mirror as the object is in front.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_022",
+      "use_for": "understanding",
+      "text": "A student claims that a concave lens can form a real image. Justify whether this claim is correct or incorrect.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "The claim is INCORRECT for a real object.\nFor a concave lens, f < 0 and u < 0. Lens formula: 1/v = 1/f + 1/u — both terms negative → v < 0 always. Negative v means image on same side as object → virtual image.\n\nA concave lens can theoretically form a real image only if the object is virtual (u > 0), but in standard CBSE Class 10 scope, only real objects are considered. Therefore the claim is incorrect."
+        ],
+        "formula": null,
+        "expected_answer": "The claim is INCORRECT for a real object.\nFor a concave lens, f < 0 and u < 0. Lens formula: 1/v = 1/f + 1/u — both terms negative → v < 0 always. Negative v means image on same side as object → virtual image.\n\nA concave lens can theoretically form a real image only if the object is virtual (u > 0), but in standard CBSE Class 10 scope, only real objects are considered. Therefore the claim is incorrect.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_023",
+      "use_for": "understanding",
+      "text": "Three lenses of powers +5 D, –3 D, and +2 D are placed in contact. Find the equivalent focal length of the combination.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "P_total = P₁ + P₂ + P₃ = 5 + (–3) + 2 = +4 D\nf = 1/P = 1/4 = 0.25 m = +25 cm\nThe combination acts as a converging lens of focal length 25 cm."
+        ],
+        "formula": null,
+        "expected_answer": "P_total = P₁ + P₂ + P₃ = 5 + (–3) + 2 = +4 D\nf = 1/P = 1/4 = 0.25 m = +25 cm\nThe combination acts as a converging lens of focal length 25 cm.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_024",
+      "use_for": "understanding",
+      "text": "A candle flame is placed 30 cm in front of a concave mirror. The image of the flame is formed on a screen placed 30 cm on the other side of the mirror. (i) Is this possible? (ii) Find the focal length. (iii) Describe the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "(i) No — for mirrors, image and object are on the same side (in front). If screen is placed behind the mirror, that is behind the reflecting surface → not physically valid for a standard concave mirror setup.\n\nCorrected interpretation: screen 30 cm in front of mirror on same side:\nu = –30 cm, v = –30 cm\n1/f = –1/30 + (–1/30) = –2/30 → f = –15 cm\n(ii) Focal length = –15 cm (concave, as expected)\n(iii) Image is real, inverted, same size as object (object is at C = 2f = 30 cm)."
+        ],
+        "formula": null,
+        "expected_answer": "(i) No — for mirrors, image and object are on the same side (in front). If screen is placed behind the mirror, that is behind the reflecting surface → not physically valid for a standard concave mirror setup.\n\nCorrected interpretation: screen 30 cm in front of mirror on same side:\nu = –30 cm, v = –30 cm\n1/f = –1/30 + (–1/30) = –2/30 → f = –15 cm\n(ii) Focal length = –15 cm (concave, as expected)\n(iii) Image is real, inverted, same size as object (object is at C = 2f = 30 cm).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_025",
+      "use_for": "understanding",
+      "text": "Explain why a pencil appears bent when placed in a glass of water.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "The pencil appears bent because of refraction at the water–air interface. Light from the submerged part of the pencil travels from water (denser, n≈1.33) to air (rarer, n=1.0) and bends away from the normal. Our eye/brain assumes light travels in straight lines, so it extrapolates the rays back and perceives the submerged part at a position different from its actual position — making the pencil appear bent at the interface."
+        ],
+        "formula": null,
+        "expected_answer": "The pencil appears bent because of refraction at the water–air interface. Light from the submerged part of the pencil travels from water (denser, n≈1.33) to air (rarer, n=1.0) and bends away from the normal. Our eye/brain assumes light travels in straight lines, so it extrapolates the rays back and perceives the submerged part at a position different from its actual position — making the pencil appear bent at the interface.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_026",
+      "use_for": "understanding",
+      "text": "List the four uses of convex lenses and three uses of concave lenses.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "Convex lens uses:\n1. Magnifying glass\n2. Camera lens (converging lens system)\n3. Spectacles for hypermetropia\n4. Projector/microscope objective\n5. Eye (crystalline lens is convex)\n\nConcave lens uses:\n1. Spectacles for myopia\n2. Wide-angle peephole in doors\n3. Galilean telescope eyepiece"
+        ],
+        "formula": null,
+        "expected_answer": "Convex lens uses:\n1. Magnifying glass\n2. Camera lens (converging lens system)\n3. Spectacles for hypermetropia\n4. Projector/microscope objective\n5. Eye (crystalline lens is convex)\n\nConcave lens uses:\n1. Spectacles for myopia\n2. Wide-angle peephole in doors\n3. Galilean telescope eyepiece",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_027",
+      "use_for": "understanding",
+      "text": "A concave mirror has a radius of curvature of 30 cm. An object 2 cm tall is placed 45 cm in front of it. Find: (i) image distance, (ii) image height, (iii) nature of image.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "f = –R/2 = –15 cm, u = –45 cm, h_o = +2 cm\n1/v = 1/f – 1/u = –1/15 – (–1/45) = –3/45 + 1/45 = –2/45\nv = –22.5 cm\nm = –v/u = –(–22.5)/(–45) = –0.5\nh_i = –0.5 × 2 = –1 cm\nImage: 22.5 cm in front of mirror, real, inverted, diminished (1 cm tall)."
+        ],
+        "formula": null,
+        "expected_answer": "f = –R/2 = –15 cm, u = –45 cm, h_o = +2 cm\n1/v = 1/f – 1/u = –1/15 – (–1/45) = –3/45 + 1/45 = –2/45\nv = –22.5 cm\nm = –v/u = –(–22.5)/(–45) = –0.5\nh_i = –0.5 × 2 = –1 cm\nImage: 22.5 cm in front of mirror, real, inverted, diminished (1 cm tall).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_028",
+      "use_for": "understanding",
+      "text": "An object is placed 25 cm in front of a convex lens of focal length 20 cm. Find image distance, magnification, and state if the image is real or virtual.",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "u = –25 cm, f = +20 cm\n1/v = 1/f + 1/u = 1/20 + 1/(–25) = 5/100 – 4/100 = 1/100\nv = +100 cm\nm = v/u = 100/(–25) = –4\nImage is 100 cm on the other side of lens, real, inverted, magnified 4×."
+        ],
+        "formula": null,
+        "expected_answer": "u = –25 cm, f = +20 cm\n1/v = 1/f + 1/u = 1/20 + 1/(–25) = 5/100 – 4/100 = 1/100\nv = +100 cm\nm = v/u = 100/(–25) = –4\nImage is 100 cm on the other side of lens, real, inverted, magnified 4×.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "U_CH09_029",
+      "use_for": "understanding",
+      "text": "Light travels from glass (n = 1.5) to water (n = 1.33) with an angle of incidence of 40°. Find the angle of refraction. (sin 40° = 0.643)",
+      "options": null,
+      "rubric": {
+        "keywords": [],
+        "key_points": [
+          "n₁ sin i = n₂ sin r\n1.5 × sin 40° = 1.33 × sin r\n1.5 × 0.643 = 1.33 × sin r\n0.9645 = 1.33 sin r\nsin r = 0.9645/1.33 = 0.7252\nr = sin⁻¹(0.7252) ≈ 46.5°\nThe ray bends away from the normal (46.5° > 40°) as it goes from denser glass to less dense water."
+        ],
+        "formula": null,
+        "expected_answer": "n₁ sin i = n₂ sin r\n1.5 × sin 40° = 1.33 × sin r\n1.5 × 0.643 = 1.33 × sin r\n0.9645 = 1.33 sin r\nsin r = 0.9645/1.33 = 0.7252\nr = sin⁻¹(0.7252) ≈ 46.5°\nThe ray bends away from the normal (46.5° > 40°) as it goes from denser glass to less dense water.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "light_cb_001",
+      "text": "Riya tries to see a coin at the bottom of an empty bowl but cannot see it from her seat. Her friend slowly pours water into the bowl, and the coin becomes visible without Riya moving.\n\n(a) Name the phenomenon responsible for this observation. [1]\n(b) In which direction does light bend when it enters water from air? [1]\n(c) Draw a labelled ray diagram showing how light from the coin reaches Riya's eye. [2]",
+      "type": "case_based",
+      "marks": 4,
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "refraction",
+          "refractive index",
+          "bending",
+          "normal",
+          "denser"
+        ],
+        "key_points": [
+          "Refraction of light is the phenomenon responsible",
+          "Light bends towards the normal when entering denser medium (water)",
+          "Ray diagram shows light bending at water-air interface from coin to eye",
+          "Correct labelling: incident ray, refracted ray, normal, interface"
+        ],
+        "expected_answer": "(a) Refraction of light. (b) Towards the normal — water is denser than air. (c) Ray diagram showing light from coin bending at water surface towards Riya's eye.",
+        "formula": null,
+        "diagram_required": true,
+        "diagram_checklist": [
+          "incident ray",
+          "refracted ray",
+          "normal",
+          "interface"
+        ],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

@@ -1,0 +1,2307 @@
+{
+  "chapter_id": "ch11_human_eye",
+  "chapter_title": "The Human Eye and the Colourful World",
+  "questions": [
+    {
+      "id": "humaneye10_test_001",
+      "use_for": "test",
+      "text": "A person suffering from myopia cannot see distant objects clearly. Which type of corrective lens should be prescribed?",
+      "options": [
+        {
+          "text": "Convex (converging) lens",
+          "is_correct": false
+        },
+        {
+          "text": "Concave (diverging) lens",
+          "is_correct": true
+        },
+        {
+          "text": "Bifocal lens",
+          "is_correct": false
+        },
+        {
+          "text": "Plano-convex lens",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "concave",
+          "diverging"
+        ],
+        "key_points": [
+          "In myopia image forms in front of retina",
+          "Concave lens diverges rays so image shifts back onto retina"
+        ],
+        "formula": null,
+        "expected_answer": "Concave (diverging) lens. In myopia the far point is nearer than infinity; a concave lens of suitable negative power brings the image of a distant object onto the retina.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_002",
+      "use_for": "test",
+      "text": "A student sitting at the back of the classroom cannot read the text on the blackboard but can read her textbook clearly. Which defect of vision is she most likely suffering from?",
+      "options": [
+        {
+          "text": "Hypermetropia",
+          "is_correct": false
+        },
+        {
+          "text": "Presbyopia",
+          "is_correct": false
+        },
+        {
+          "text": "Myopia",
+          "is_correct": true
+        },
+        {
+          "text": "Cataract",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "myopia",
+          "near-sightedness"
+        ],
+        "key_points": [
+          "Cannot see distant objects",
+          "Can see nearby objects — hallmark of myopia"
+        ],
+        "formula": null,
+        "expected_answer": "Myopia (near-sightedness). The student sees nearby objects clearly but cannot see distant objects.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_003",
+      "use_for": "test",
+      "text": "State two causes of myopia. How can this defect be corrected? Name the type and sign of power of the corrective lens.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "excessive curvature",
+          "elongation",
+          "concave",
+          "negative power"
+        ],
+        "key_points": [
+          "Cause 1: excessive curvature of the eye lens",
+          "Cause 2: elongation of the eyeball",
+          "Correction: concave lens, negative power"
+        ],
+        "formula": null,
+        "expected_answer": "Causes: (i) Excessive curvature of the crystalline lens. (ii) Elongation of the eyeball. Correction: A concave (diverging) lens of suitable negative power is used to diverge incoming parallel rays so they converge onto the retina.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "causes": 1,
+          "correction": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_004",
+      "use_for": "test",
+      "text": "Distinguish between myopia and hypermetropia with respect to: (a) which objects are seen clearly, (b) where the image forms in the uncorrected eye, (c) the type of corrective lens used.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "nearby",
+          "distant",
+          "in front of retina",
+          "behind retina",
+          "concave",
+          "convex"
+        ],
+        "key_points": [
+          "Myopia: nearby clear; distant blurred; image in front of retina; concave lens",
+          "Hypermetropia: distant clear; nearby blurred; image behind retina; convex lens"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Myopia: nearby clear, distant blurred. Hypermetropia: distant clear, nearby blurred. (b) Myopia: image in front of retina. Hypermetropia: image behind retina. (c) Myopia: concave lens. Hypermetropia: convex lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "myopia": 1,
+          "hypermetropia": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_005",
+      "use_for": "test",
+      "text": "The far point of a myopic person is 80 cm in front of the eye. Find the nature and power of the lens required to correct this defect.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "concave",
+          "-1.25 D",
+          "far point",
+          "80 cm"
+        ],
+        "key_points": [
+          "v = -0.8 m (far point), u = -infinity",
+          "1/f = 1/v - 1/u = -1.25",
+          "P = -1.25 D; concave lens"
+        ],
+        "formula": "P = 1/v - 1/u",
+        "expected_answer": "Far point = 80 cm = 0.8 m. Corrective lens must form image of distant object (u = -inf) at far point: v = -0.8 m. 1/f = 1/(-0.8) - 0 = -1.25 m^-1. Power P = -1.25 D. Nature: concave (diverging) lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_setup": 1,
+          "substitution": 1,
+          "final_answer": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "far_point": {
+            "value": 0.8,
+            "unit": "m",
+            "locked": true
+          }
+        },
+        "formula_expression": "-1/far_point",
+        "units": "D",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_006",
+      "use_for": "test",
+      "text": "The near point of a hypermetropic person is 1 m. What is the power of the corrective lens required? (Assume normal near point = 25 cm.)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "convex",
+          "+3.0 D",
+          "near point",
+          "1 m"
+        ],
+        "key_points": [
+          "u = -0.25 m, v = -1.0 m",
+          "1/f = 1/(-1) - 1/(-0.25) = -1 + 4 = +3",
+          "P = +3.0 D; convex lens"
+        ],
+        "formula": "P = 1/v - 1/u",
+        "expected_answer": "u = -0.25 m (object at normal near point), v = -1.0 m (virtual image at hypermetropic near point). 1/f = 1/(-1.0) - 1/(-0.25) = -1 + 4 = +3.0 D. Power = +3.0 D. Nature: convex (converging) lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_setup": 1,
+          "substitution": 1,
+          "final_answer": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "near_point": {
+            "value": 1.0,
+            "unit": "m",
+            "locked": true
+          },
+          "normal_near": {
+            "value": 0.25,
+            "unit": "m",
+            "locked": true
+          }
+        },
+        "formula_expression": "1/(-near_point) - 1/(-normal_near)",
+        "units": "D",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_007",
+      "use_for": "test",
+      "text": "A person requires a lens of power -5.5 dioptres for correcting distant vision and +1.5 dioptres for near vision. Calculate the focal length of the lens required for (i) distant vision and (ii) near vision.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "f = 1/P",
+          "-0.18 m",
+          "0.67 m"
+        ],
+        "key_points": [
+          "f = 1/P",
+          "Distant: f = 1/(-5.5) = -0.18 m = -18 cm",
+          "Near: f = 1/(+1.5) = +0.67 m = +67 cm"
+        ],
+        "formula": "f = 1/P",
+        "expected_answer": "(i) Distant: P = -5.5 D. f = 1/(-5.5) = -0.18 m = -18 cm. Concave lens. (ii) Near: P = +1.5 D. f = 1/(1.5) = +0.67 m = +67 cm. Convex lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula": 1,
+          "distant": 1,
+          "near": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "P_distant": {
+            "value": -5.5,
+            "unit": "D",
+            "locked": true
+          },
+          "P_near": {
+            "value": 1.5,
+            "unit": "D",
+            "locked": true
+          }
+        },
+        "formula_expression": "1/P",
+        "units": "m",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_008",
+      "use_for": "test",
+      "text": "What is presbyopia? State its two causes. Explain how it is corrected. How does it differ from hypermetropia?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "presbyopia",
+          "ciliary muscles",
+          "flexibility",
+          "bifocal",
+          "ageing"
+        ],
+        "key_points": [
+          "Definition: age-related loss of accommodation",
+          "Cause 1: weakening of ciliary muscles",
+          "Cause 2: diminishing flexibility of crystalline lens",
+          "Correction: bifocal lenses",
+          "Difference: hypermetropia is structural (any age); presbyopia is age-related loss of flexibility"
+        ],
+        "formula": null,
+        "expected_answer": "Presbyopia: gradual decrease in power of accommodation with ageing, making it difficult to see nearby objects. Causes: (1) Weakening of ciliary muscles. (2) Diminishing flexibility of crystalline lens. Correction: Bifocal lenses — upper concave portion for distant vision, lower convex portion for near vision. Difference from hypermetropia: Hypermetropia is a structural refractive defect (eyeball too small or lens focal length too long) that can occur at any age; presbyopia is specifically due to age-related loss of lens flexibility and ciliary muscle weakness.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "causes": 1,
+          "correction": 1,
+          "symptoms": 1,
+          "difference": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_009",
+      "use_for": "test",
+      "text": "(a) Draw labeled ray diagrams showing (i) the defect of hypermetropia and (ii) its correction using a suitable lens.\n(b) A person cannot see objects placed closer than 1.5 m. Find the power of corrective lens. (Normal near point = 25 cm.)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "convex lens",
+          "image behind retina",
+          "+3.33 D"
+        ],
+        "key_points": [
+          "Diagram: image behind retina in hypermetropic eye; convex lens corrects",
+          "u = -0.25 m, v = -1.5 m",
+          "P = 1/(-1.5) - 1/(-0.25) = -0.67 + 4 = +3.33 D"
+        ],
+        "formula": "P = 1/v - 1/u",
+        "expected_answer": "(a)(i) Rays converge behind retina in hypermetropic eye. (ii) Convex lens in front brings image forward onto retina. (b) u = -0.25 m, v = -1.5 m. P = 1/(-1.5) - 1/(-0.25) = +3.33 D. Convex lens of power +3.33 D.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "hypermetropic eye — image behind retina",
+          "convex corrective lens",
+          "corrected image on retina",
+          "N and N' labels"
+        ],
+        "partial_marks": {
+          "defect_diagram": 1,
+          "correction_diagram": 1,
+          "formula": 1,
+          "substitution": 1,
+          "answer": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_010",
+      "use_for": "test",
+      "text": "Assertion (A): A person suffering from both myopia and hypermetropia is prescribed bifocal lenses.\nReason (R): The upper portion of a bifocal lens is concave and the lower portion is convex.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "bifocal",
+          "concave upper",
+          "convex lower"
+        ],
+        "key_points": [
+          "A true: bifocal for both defects",
+          "R true: upper concave (distant), lower convex (near)",
+          "R explains A"
+        ],
+        "formula": null,
+        "expected_answer": "Both A and R are true and R correctly explains A. Upper concave corrects myopia; lower convex corrects hypermetropia.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_011",
+      "use_for": "test",
+      "text": "The human eye forms the image of an object at its",
+      "options": [
+        {
+          "text": "Cornea",
+          "is_correct": false
+        },
+        {
+          "text": "Iris",
+          "is_correct": false
+        },
+        {
+          "text": "Pupil",
+          "is_correct": false
+        },
+        {
+          "text": "Retina",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "retina"
+        ],
+        "key_points": [
+          "Retina is the light-sensitive screen; image is formed here"
+        ],
+        "formula": null,
+        "expected_answer": "Retina. The eye lens system forms a real, inverted image on the retina.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_012",
+      "use_for": "test",
+      "text": "Which part of the human eye controls the size of the pupil to regulate the amount of light entering the eye?",
+      "options": [
+        {
+          "text": "Cornea",
+          "is_correct": false
+        },
+        {
+          "text": "Iris",
+          "is_correct": true
+        },
+        {
+          "text": "Retina",
+          "is_correct": false
+        },
+        {
+          "text": "Optic nerve",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "iris",
+          "muscular diaphragm",
+          "pupil"
+        ],
+        "key_points": [
+          "Iris is a dark muscular diaphragm that controls the size of the pupil"
+        ],
+        "formula": null,
+        "expected_answer": "Iris. The iris is a dark muscular diaphragm that controls the size of the pupil, regulating light entering the eye.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_013",
+      "use_for": "test",
+      "text": "State the function of each of the following parts of the human eye: (a) Cornea (b) Iris (c) Crystalline lens (d) Retina.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "cornea",
+          "refraction",
+          "iris",
+          "pupil",
+          "lens",
+          "accommodation",
+          "retina",
+          "electrical signals"
+        ],
+        "key_points": [
+          "Cornea: most refraction",
+          "Iris: controls pupil",
+          "Crystalline lens: accommodation",
+          "Retina: light to electrical signals"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Cornea: transparent front membrane; provides most of the refraction. (b) Iris: muscular diaphragm; controls pupil size to regulate light. (c) Crystalline lens: adjusts focal length via ciliary muscles (accommodation). (d) Retina: light-sensitive; rods and cones generate electrical signals sent via optic nerve to brain.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "2_correct": 1,
+          "4_correct": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_014",
+      "use_for": "test",
+      "text": "Describe the structure of the human eye with the help of a labeled diagram. Explain how an image is formed on the retina.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "cornea",
+          "iris",
+          "crystalline lens",
+          "ciliary muscles",
+          "retina",
+          "optic nerve",
+          "2.3 cm",
+          "real inverted image"
+        ],
+        "key_points": [
+          "Spherical eyeball ~2.3 cm",
+          "Cornea: most refraction",
+          "Iris+Pupil: regulate light",
+          "Crystalline lens+ciliary muscles: accommodation",
+          "Retina: rods and cones, electrical signals",
+          "Optic nerve: to brain",
+          "Image: real, inverted on retina"
+        ],
+        "formula": null,
+        "expected_answer": "The eyeball is spherical (~2.3 cm diameter). Cornea: transparent front; most refraction. Iris: muscular diaphragm; controls pupil. Crystalline lens: converging; ciliary muscles change its curvature. Aqueous humour (front) and vitreous humour (back) are fluids. Retina: light-sensitive; rods (dim light) and cones (colour) produce electrical signals. Optic nerve: transmits signals to brain. Image: light refracts at cornea and lens; forms real, inverted image on retina; brain interprets as upright.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "cornea",
+          "iris",
+          "pupil",
+          "crystalline lens",
+          "ciliary muscles",
+          "retina",
+          "optic nerve",
+          "aqueous humour",
+          "vitreous humour"
+        ],
+        "partial_marks": {
+          "labeled_diagram": 2,
+          "structure": 2,
+          "image_formation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_015",
+      "use_for": "test",
+      "text": "In what ways is the human eye similar to a camera? State two important differences between the two in terms of focus adjustment and image recording.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "lens",
+          "real inverted image",
+          "aperture",
+          "accommodation",
+          "retina",
+          "film"
+        ],
+        "key_points": [
+          "Similarity 1: both form real inverted image using converging lens",
+          "Similarity 2: both have aperture to regulate light",
+          "Difference 1: camera fixed focal length; eye adjusts by accommodation",
+          "Difference 2: camera records on film/sensor; eye uses living retina"
+        ],
+        "formula": null,
+        "expected_answer": "Similarities: (1) Both use a converging lens to form a real, inverted image. (2) Both have an adjustable aperture (camera diaphragm vs. iris and pupil). Differences: (1) A camera lens has a fixed focal length; the human eye adjusts its focal length via accommodation (ciliary muscles). (2) A camera records on film or electronic sensor; the human eye uses a living retina that sends electrical signals to the brain.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "similarities": 1,
+          "differences": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_016",
+      "use_for": "test",
+      "text": "The change in focal length of the crystalline lens of the human eye is caused by the action of the",
+      "options": [
+        {
+          "text": "Pupil",
+          "is_correct": false
+        },
+        {
+          "text": "Retina",
+          "is_correct": false
+        },
+        {
+          "text": "Ciliary muscles",
+          "is_correct": true
+        },
+        {
+          "text": "Iris",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ciliary muscles",
+          "curvature",
+          "focal length"
+        ],
+        "key_points": [
+          "Ciliary muscles change lens curvature and hence focal length"
+        ],
+        "formula": null,
+        "expected_answer": "Ciliary muscles. Contraction increases curvature (shorter focal length); relaxation decreases curvature (longer focal length).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_017",
+      "use_for": "test",
+      "text": "What is meant by the power of accommodation of the human eye? State the near point and far point of a normal human eye.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "accommodation",
+          "focal length",
+          "25 cm",
+          "infinity"
+        ],
+        "key_points": [
+          "Power of accommodation: ability to adjust focal length",
+          "Near point = 25 cm",
+          "Far point = infinity"
+        ],
+        "formula": null,
+        "expected_answer": "Power of accommodation: the ability of the crystalline lens to adjust its focal length (via ciliary muscles) so objects at different distances are clearly seen on the retina. Near point of normal eye = 25 cm. Far point of normal eye = infinity.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "points": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_018",
+      "use_for": "test",
+      "text": "Describe the changes in (a) ciliary muscles, (b) curvature of the eye lens, and (c) focal length of the eye lens, when you shift your gaze from a distant object to a nearby object.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ciliary muscles contract",
+          "curvature increases",
+          "focal length decreases",
+          "thicker"
+        ],
+        "key_points": [
+          "(a) Ciliary muscles contract",
+          "(b) Curvature increases — lens thickens",
+          "(c) Focal length decreases — enables near vision"
+        ],
+        "formula": null,
+        "expected_answer": "When shifting from distant to nearby: (a) Ciliary muscles contract. (b) Curvature of lens increases — lens becomes thicker and more convex. (c) Focal length decreases. The greater converging power focuses the nearby object's diverging rays onto the retina.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "muscles": 0.5,
+          "curvature": 0.75,
+          "focal_length": 0.75
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_019",
+      "use_for": "test",
+      "text": "Why is a normal eye not able to see clearly objects placed closer than 25 cm? What would happen if you tried to read text held just 5 cm from your eyes?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "minimum focal length",
+          "25 cm",
+          "strain",
+          "blurred",
+          "ciliary muscles"
+        ],
+        "key_points": [
+          "Focal length cannot decrease below minimum even with full contraction",
+          "At < 25 cm image falls behind retina causing blur",
+          "Eye strain results from excessive effort"
+        ],
+        "formula": null,
+        "expected_answer": "The focal length of the eye lens cannot be decreased below a minimum limit even with full ciliary muscle contraction. For objects closer than 25 cm, the required focal length is smaller than this minimum; the image forms behind the retina producing a blurred image and eye strain. At 5 cm: the image would be severely blurred and significant eye strain would result.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "limit_explanation": 1,
+          "strain_effect": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_020",
+      "use_for": "test",
+      "text": "When white light passes through a triangular glass prism, which colour is deviated the most and which is deviated the least?",
+      "options": [
+        {
+          "text": "Most: Red; Least: Violet",
+          "is_correct": false
+        },
+        {
+          "text": "Most: Violet; Least: Red",
+          "is_correct": true
+        },
+        {
+          "text": "Most: Yellow; Least: Green",
+          "is_correct": false
+        },
+        {
+          "text": "Most: Blue; Least: Orange",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "violet maximum",
+          "red minimum"
+        ],
+        "key_points": [
+          "Violet: shortest wavelength — most deviation",
+          "Red: longest wavelength — least deviation"
+        ],
+        "formula": null,
+        "expected_answer": "Most deviated: Violet (shortest wavelength). Least deviated: Red (longest wavelength).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_021",
+      "use_for": "test",
+      "text": "What is dispersion of light? Write the full sequence of colours in the visible spectrum and give the acronym. Which scientist first demonstrated this with sunlight?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "dispersion",
+          "VIBGYOR",
+          "Newton"
+        ],
+        "key_points": [
+          "Dispersion: splitting of white light into component colours",
+          "VIBGYOR: Violet Indigo Blue Green Yellow Orange Red",
+          "Isaac Newton first demonstrated this"
+        ],
+        "formula": null,
+        "expected_answer": "Dispersion: splitting of white light into its component colours by a glass prism. Spectrum colours: Violet, Indigo, Blue, Green, Yellow, Orange, Red — acronym VIBGYOR (violet most deviated, red least). First demonstrated by Isaac Newton.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "VIBGYOR_Newton": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_022",
+      "use_for": "test",
+      "text": "State two conditions necessary to observe a rainbow. Explain the role of water droplets in rainbow formation with the help of a diagram.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sunlight",
+          "rain",
+          "opposite",
+          "refraction",
+          "internal reflection",
+          "dispersion"
+        ],
+        "key_points": [
+          "Condition 1: sunlight must be present",
+          "Condition 2: rain/water droplets in atmosphere; observer with sun behind",
+          "Droplet: refracts+disperses on entry, total internal reflection, refracts on exit"
+        ],
+        "formula": null,
+        "expected_answer": "Conditions: (1) Bright sunlight. (2) Rain or water droplets in atmosphere opposite to the Sun from the observer. Role of droplets: Each raindrop acts as a tiny prism — sunlight refracts and disperses on entering, undergoes internal reflection inside, refracts again on exiting. Different colours emerge at different angles, creating the rainbow arc.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "raindrop",
+          "incident sunlight",
+          "refraction at entry",
+          "internal reflection",
+          "refraction at exit",
+          "VIBGYOR emerging"
+        ],
+        "partial_marks": {
+          "conditions": 1,
+          "droplet_role": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_023",
+      "use_for": "test",
+      "text": "Describe Newton's experiment to show that sunlight consists of seven colours. What did he observe when a second identical prism was placed in an inverted position? What conclusion did he draw?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "first prism",
+          "VIBGYOR",
+          "second prism",
+          "inverted",
+          "white light",
+          "recombination",
+          "seven colours"
+        ],
+        "key_points": [
+          "First prism: white light splits into VIBGYOR",
+          "Tried splitting colours further — could not",
+          "Second inverted prism: all colours recombined into white light",
+          "Conclusion: white light made of seven colours"
+        ],
+        "formula": null,
+        "expected_answer": "Experiment: Newton passed sunlight through a glass prism and obtained a VIBGYOR spectrum. He tried to split individual colours with another prism but could not. He then placed a second identical prism in an inverted position; all spectrum colours passed through it and a beam of white light emerged from the other side. Conclusion: sunlight (white light) is composed of seven colour components that can be separated (dispersion) and recombined. Any light giving this spectrum is called white light.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "first prism",
+          "VIBGYOR",
+          "second inverted prism",
+          "white light emerging"
+        ],
+        "partial_marks": {
+          "first_prism": 1,
+          "no_further_split": 1,
+          "second_prism": 1,
+          "white_light_emerges": 1,
+          "conclusion": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_024",
+      "use_for": "test",
+      "text": "Draw a labeled diagram showing the dispersion of white light by a glass prism. Identify which colour suffers (a) maximum deviation and (b) minimum deviation. Name the acronym for the sequence of colours.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "VIBGYOR",
+          "violet maximum",
+          "red minimum",
+          "spectrum"
+        ],
+        "key_points": [
+          "Diagram: prism with white light in, VIBGYOR out",
+          "Violet: max deviation; Red: min deviation",
+          "Acronym: VIBGYOR"
+        ],
+        "formula": null,
+        "expected_answer": "Diagram: triangular prism with white light beam incident on one face; VIBGYOR emerging from second face (violet most deviated, red least). (a) Maximum deviation: Violet. (b) Minimum deviation: Red. Acronym: VIBGYOR.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "triangular prism",
+          "white light beam",
+          "VIBGYOR spectrum labelled",
+          "red at least-deviation end",
+          "violet at most-deviation end",
+          "screen"
+        ],
+        "partial_marks": {
+          "diagram": 1,
+          "max_min": 1,
+          "acronym": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_025",
+      "use_for": "test",
+      "text": "The angle between the direction of the incident ray and the direction of the emergent ray after passing through a triangular glass prism is called the",
+      "options": [
+        {
+          "text": "Angle of incidence",
+          "is_correct": false
+        },
+        {
+          "text": "Angle of refraction",
+          "is_correct": false
+        },
+        {
+          "text": "Angle of deviation",
+          "is_correct": true
+        },
+        {
+          "text": "Angle of the prism",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "angle of deviation"
+        ],
+        "key_points": [
+          "Angle of deviation (angle D) is between incident ray direction and emergent ray direction"
+        ],
+        "formula": null,
+        "expected_answer": "Angle of deviation (angle D). It is the angle through which the incident ray is deflected by the prism.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_026",
+      "use_for": "test",
+      "text": "A ray of light passes through a triangular glass prism. (a) Why is the emergent ray not parallel to the incident ray? (b) How is this different from what happens in a rectangular glass slab?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "inclined surfaces",
+          "angle of deviation",
+          "glass slab",
+          "parallel",
+          "lateral displacement"
+        ],
+        "key_points": [
+          "Prism: inclined surfaces; both refractions deviate in same direction; angle of deviation",
+          "Slab: parallel surfaces; refractions cancel; emergent ray parallel, only lateral displacement"
+        ],
+        "formula": null,
+        "expected_answer": "(a) The two refracting surfaces of a prism are inclined to each other. At each surface the ray bends in the same direction; the cumulative bending produces an angle of deviation between incident and emergent rays. (b) In a glass slab the surfaces are parallel; bending at surface 1 is reversed at surface 2; emergent ray is parallel to incident ray (only lateral displacement occurs).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "prism": 1,
+          "slab": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_027",
+      "use_for": "test",
+      "text": "Draw a labeled diagram showing the refraction of light through a triangular glass prism. Label: incident ray (PE), refracted ray (EF), emergent ray (FS), angle of incidence (i), angle of refraction (r), angle of emergence (e), angle of prism (A), and angle of deviation (D).",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "PE",
+          "EF",
+          "FS",
+          "angle D",
+          "angle A",
+          "normals"
+        ],
+        "key_points": [
+          "Prism ABC; ray PE on AB; refracted EF; emergent FS from AC",
+          "Normals at E and F",
+          "All five angles correctly marked"
+        ],
+        "formula": null,
+        "expected_answer": "Diagram: triangular prism with apex A. Incident ray PE on face AB at E; refracted ray EF inside prism; emergent ray FS exiting face AC at F. Normals at E and F. Angle i (incident with normal at E), r (refracted with normal at E), e (emergent with normal at F), A (prism apex), D (between extended PE direction and FS direction).",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "triangular prism",
+          "PE incident",
+          "EF refracted",
+          "FS emergent",
+          "normal at E",
+          "normal at F",
+          "angle i",
+          "angle r",
+          "angle e",
+          "angle A",
+          "angle D"
+        ],
+        "partial_marks": {
+          "diagram": 1,
+          "rays_labelled": 1,
+          "angles_marked": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_028",
+      "use_for": "test",
+      "text": "Assertion (A): When a ray of light passes through a glass prism, the emergent ray is not parallel to the incident ray.\nReason (R): The two refracting surfaces of a prism are inclined to each other (not parallel).",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "inclined surfaces",
+          "angle of deviation"
+        ],
+        "key_points": [
+          "A true: angle of deviation exists",
+          "R true: non-parallel surfaces",
+          "R explains A: inclined surfaces cause both refractions to add — angle of deviation"
+        ],
+        "formula": null,
+        "expected_answer": "Both A and R are true and R correctly explains A. The inclined surfaces cause both refractions to deviate the ray in the same direction, resulting in the angle of deviation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_029",
+      "use_for": "test",
+      "text": "The twinkling of stars is due to",
+      "options": [
+        {
+          "text": "Scattering of starlight by atmospheric dust",
+          "is_correct": false
+        },
+        {
+          "text": "Dispersion of starlight by water vapour",
+          "is_correct": false
+        },
+        {
+          "text": "Atmospheric refraction of starlight",
+          "is_correct": true
+        },
+        {
+          "text": "Reflection of starlight by clouds",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "atmospheric refraction",
+          "twinkling"
+        ],
+        "key_points": [
+          "Twinkling is due to atmospheric refraction"
+        ],
+        "formula": null,
+        "expected_answer": "Atmospheric refraction of starlight. The continuously changing refractive index of the atmosphere causes the apparent position to fluctuate, making starlight entering the eye flicker.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_030",
+      "use_for": "test",
+      "text": "Stars twinkle but planets do not. Give a scientific explanation for this difference.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "point source",
+          "extended source",
+          "average out"
+        ],
+        "key_points": [
+          "Stars: point sources; atmospheric refraction causes fluctuating light — twinkling",
+          "Planets: extended sources; individual point fluctuations average to zero — no twinkling"
+        ],
+        "formula": null,
+        "expected_answer": "Stars are very far away and appear as point-sized sources. Atmospheric refraction causes their apparent position to fluctuate; the amount of light reaching the eye flickers — twinkling. Planets are closer and appear as extended sources (collection of many point sources); individual fluctuations average to zero — no twinkling.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "stars": 1,
+          "planets": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_031",
+      "use_for": "test",
+      "text": "Explain how atmospheric refraction causes (a) advance sunrise and (b) delayed sunset. By approximately how many minutes does each occur?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2 minutes",
+          "apparent position",
+          "horizon",
+          "actual sunrise"
+        ],
+        "key_points": [
+          "Atmosphere bends light towards normal",
+          "Apparent position of Sun above actual position near horizon",
+          "Sun visible ~2 min before actual sunrise and ~2 min after actual sunset"
+        ],
+        "formula": null,
+        "expected_answer": "The atmosphere has increasing refractive index towards the Earth's surface. It bends the Sun's light towards the normal, making the apparent position slightly above the actual position near the horizon. (a) Advance sunrise: Sun visible ~2 minutes before it actually crosses the horizon. (b) Delayed sunset: Sun visible ~2 minutes after it has actually set. Atmospheric refraction also causes flattening of the Sun's disc at sunrise/sunset.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "mechanism": 1,
+          "2_minutes": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_032",
+      "use_for": "test",
+      "text": "Explain in detail the phenomenon of twinkling of stars due to atmospheric refraction. Why does the apparent position of a star differ from its actual position? Why do planets not show this effect?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "atmospheric refraction",
+          "refractive index",
+          "apparent position",
+          "point source",
+          "flicker",
+          "extended source"
+        ],
+        "key_points": [
+          "Atmosphere: gradually changing refractive index",
+          "Continuous refraction bends starlight — apparent position above actual",
+          "Changing conditions — apparent position keeps shifting",
+          "Stars are point sources — light flickers — twinkling",
+          "Planets extended sources — variations average to zero — no twinkling"
+        ],
+        "formula": null,
+        "expected_answer": "The Earth's atmosphere has a medium of gradually increasing refractive index from top to bottom. As starlight enters the atmosphere, it undergoes continuous refraction and bends towards the normal. This makes the apparent position of the star slightly higher than its actual position. Since the atmosphere is not stationary (temperature, density change), the refractive index varies, causing the apparent position to keep changing. Stars are very distant and appear as point-sized sources; as their apparent position fluctuates, the light entering the eye flickers (brighter/fainter) — this is twinkling. Planets are much closer; they appear as extended sources. Each point on the planet's disc fluctuates independently, but their collective variations average out to zero — planets do not twinkle.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "star (actual position)",
+          "apparent position (shown higher)",
+          "ray path bending through atmosphere",
+          "atmosphere layers",
+          "observer"
+        ],
+        "partial_marks": {
+          "refraction_mechanism": 1,
+          "apparent_vs_actual": 1,
+          "changing_conditions": 1,
+          "point_source_twinkling": 1,
+          "planets_extended": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_033",
+      "use_for": "test",
+      "text": "Danger signal lights are red in colour. What is the main scientific reason for this?",
+      "options": [
+        {
+          "text": "Red light is absorbed most by fog",
+          "is_correct": false
+        },
+        {
+          "text": "Red light is scattered least and travels farthest through fog or smoke",
+          "is_correct": true
+        },
+        {
+          "text": "Red light has the highest intensity",
+          "is_correct": false
+        },
+        {
+          "text": "Red is internationally recognised as a warning colour",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "least scattered",
+          "red",
+          "longest wavelength"
+        ],
+        "key_points": [
+          "Red has longest wavelength — scattered least",
+          "Travels farthest through fog/smoke retaining colour"
+        ],
+        "formula": null,
+        "expected_answer": "Red light has the longest wavelength in the visible spectrum and is scattered the least by fog, smoke, or dust particles. Therefore it can be seen from the greatest distance, making it ideal for danger signals.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_034",
+      "use_for": "test",
+      "text": "Explain why the sky appears blue on a clear day. What would the sky look like to an astronaut at very high altitude? Give a scientific reason.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "scattering",
+          "shorter wavelength",
+          "blue",
+          "dark sky",
+          "astronaut"
+        ],
+        "key_points": [
+          "Air molecules scatter shorter (blue) wavelengths more than longer (red)",
+          "Scattered blue light enters eyes from all directions — sky appears blue",
+          "At high altitude: thin atmosphere, negligible scattering — sky appears dark"
+        ],
+        "formula": null,
+        "expected_answer": "Air molecules and fine particles scatter shorter wavelengths (blue) much more strongly than longer wavelengths (red). Scattered blue light reaches our eyes from all directions of the sky — the sky appears blue. At very high altitude the atmosphere is extremely thin and scattering is negligible; the sky appears dark to astronauts.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "blue_sky": 1,
+          "astronaut_dark": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_test_035",
+      "use_for": "test",
+      "text": "What is the Tyndall effect? Give two everyday examples. Why is this effect not visible in a true solution?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Tyndall effect",
+          "colloidal",
+          "scatter",
+          "visible path",
+          "molecular size"
+        ],
+        "key_points": [
+          "Tyndall: scattering of light by colloidal/fine particles making beam visible",
+          "Ex 1: sunlight in smoke-filled room",
+          "Ex 2: sunlight through forest canopy (mist)",
+          "True solution: dissolved particles too small to scatter"
+        ],
+        "formula": null,
+        "expected_answer": "Tyndall effect: when a beam of light strikes fine colloidal or suspended particles, they scatter light in all directions, making the beam's path visible. Examples: (1) Sunlight entering a dark room through a hole becomes visible as a shaft due to scattering by dust/smoke. (2) Sunlight filtering through a dense forest canopy is visible due to scattering by fine water droplets in mist. Not in true solution: dissolved particles are of molecular size — too small to scatter light significantly.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "examples_distinction": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_001",
+      "use_for": "understanding",
+      "text": "The image of a distant object forms in front of the retina in a person's eye. Which defect of vision does this indicate?",
+      "options": [
+        {
+          "text": "Hypermetropia",
+          "is_correct": false
+        },
+        {
+          "text": "Presbyopia",
+          "is_correct": false
+        },
+        {
+          "text": "Myopia",
+          "is_correct": true
+        },
+        {
+          "text": "Cataract",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "myopia",
+          "in front of retina"
+        ],
+        "key_points": [
+          "In myopia distant image forms in front of retina"
+        ],
+        "formula": null,
+        "expected_answer": "Myopia (near-sightedness). In myopia the image of a distant object forms in front of the retina.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_002",
+      "use_for": "understanding",
+      "text": "Which of the following is NOT a cause of myopia?",
+      "options": [
+        {
+          "text": "Excessive curvature of the eye lens",
+          "is_correct": false
+        },
+        {
+          "text": "Elongation of the eyeball",
+          "is_correct": false
+        },
+        {
+          "text": "Weakening of ciliary muscles due to age",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and B cause myopia",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "presbyopia",
+          "ciliary muscles",
+          "myopia"
+        ],
+        "key_points": [
+          "Myopia causes: excessive lens curvature or eyeball elongation",
+          "Weakening ciliary muscles cause presbyopia, not myopia"
+        ],
+        "formula": null,
+        "expected_answer": "Weakening of ciliary muscles due to age is a cause of presbyopia, not myopia. Myopia is caused by (i) excessive curvature of the eye lens or (ii) elongation of the eyeball.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_003",
+      "use_for": "understanding",
+      "text": "Presbyopia is usually corrected by",
+      "options": [
+        {
+          "text": "Concave lens only",
+          "is_correct": false
+        },
+        {
+          "text": "Convex lens only",
+          "is_correct": false
+        },
+        {
+          "text": "Bifocal lenses",
+          "is_correct": true
+        },
+        {
+          "text": "Cylindrical lens",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "bifocal",
+          "presbyopia"
+        ],
+        "key_points": [
+          "Presbyopia corrected by bifocal lenses"
+        ],
+        "formula": null,
+        "expected_answer": "Bifocal lenses (upper concave for distance, lower convex for near vision).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_004",
+      "use_for": "understanding",
+      "text": "A person can read clearly only at a distance of 1 m or more. Name the defect and identify the type of lens used to correct it.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "hypermetropia",
+          "convex lens"
+        ],
+        "key_points": [
+          "Cannot see nearby objects — hypermetropia",
+          "Corrected by convex lens"
+        ],
+        "formula": null,
+        "expected_answer": "The person suffers from hypermetropia (far-sightedness). The near point has shifted far beyond 25 cm. It is corrected by a convex (converging) lens of suitable positive power.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "defect": 1,
+          "lens": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_005",
+      "use_for": "understanding",
+      "text": "What is a bifocal lens? Who commonly needs to use one?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "bifocal",
+          "concave upper",
+          "convex lower",
+          "presbyopia",
+          "both myopia hypermetropia"
+        ],
+        "key_points": [
+          "Bifocal: upper concave + lower convex",
+          "Used by people with presbyopia or both myopia and hypermetropia"
+        ],
+        "formula": null,
+        "expected_answer": "A bifocal lens consists of two portions: the upper portion is a concave lens (for distant vision) and the lower portion is a convex lens (for near vision). It is commonly prescribed for people suffering from presbyopia or for those who have both myopia and hypermetropia.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "structure": 1,
+          "who_uses": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_006",
+      "use_for": "understanding",
+      "text": "A myopic person's far point is {{far_point}} m from the eye. Calculate the power of the corrective lens needed.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "concave",
+          "P = -1/far_point"
+        ],
+        "key_points": [
+          "P = -1/far_point (in metres)",
+          "Result is negative — concave lens"
+        ],
+        "formula": "P = -1/far_point",
+        "expected_answer": "For myopia with far point = {{far_point}} m: P = -1/{{far_point}} D. The lens is concave with negative power.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula": 1,
+          "substitution": 1,
+          "answer": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "far_point": {
+            "min": 0.5,
+            "max": 2.0,
+            "step": 0.25
+          }
+        },
+        "formula_expression": "-1/far_point",
+        "units": "D",
+        "answer_precision": 2
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_007",
+      "use_for": "understanding",
+      "text": "A hypermetropic person's near point is {{near_point}} m. Find the power of the corrective lens. (Normal near point = 25 cm.)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "convex",
+          "P = 1/0.25 - 1/near_point"
+        ],
+        "key_points": [
+          "u = -0.25 m, v = -near_point",
+          "P = 1/v - 1/u = 1/(-near_point) - 1/(-0.25)"
+        ],
+        "formula": "P = 1/v - 1/u  [v = -near_point, u = -0.25]",
+        "expected_answer": "P = 1/(-{{near_point}}) - 1/(-0.25) = -1/{{near_point}} + 4. Positive result → convex lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula": 1,
+          "substitution": 1,
+          "answer": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "near_point": {
+            "min": 0.5,
+            "max": 2.0,
+            "step": 0.25
+          }
+        },
+        "formula_expression": "-1/near_point + 1/0.25",
+        "units": "D",
+        "answer_precision": 2
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_008",
+      "use_for": "understanding",
+      "text": "A corrective lens has power {{power}} D. Find its focal length (in cm) and state whether it is concave or convex.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "f = 1/P",
+          "concave if negative",
+          "convex if positive"
+        ],
+        "key_points": [
+          "f = 1/P (result in metres; multiply by 100 for cm)",
+          "Negative f → concave; Positive f → convex"
+        ],
+        "formula": "f = 1/P",
+        "expected_answer": "f = 1/{{power}} m = (100/{{power}}) cm. If f < 0: concave lens. If f > 0: convex lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula": 1,
+          "calculation": 1,
+          "type": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "power": {
+            "min": -5,
+            "max": 5,
+            "step": 0.5
+          }
+        },
+        "formula_expression": "100/power",
+        "units": "cm",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_009",
+      "use_for": "understanding",
+      "text": "The approximate diameter of the human eyeball is",
+      "options": [
+        {
+          "text": "1.3 cm",
+          "is_correct": false
+        },
+        {
+          "text": "2.3 cm",
+          "is_correct": true
+        },
+        {
+          "text": "3.3 cm",
+          "is_correct": false
+        },
+        {
+          "text": "4.3 cm",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "2.3 cm",
+          "eyeball"
+        ],
+        "key_points": [
+          "Eyeball diameter approximately 2.3 cm"
+        ],
+        "formula": null,
+        "expected_answer": "2.3 cm",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_010",
+      "use_for": "understanding",
+      "text": "Most of the refraction of light entering the human eye occurs at the",
+      "options": [
+        {
+          "text": "Crystalline lens",
+          "is_correct": false
+        },
+        {
+          "text": "Outer surface of the cornea",
+          "is_correct": true
+        },
+        {
+          "text": "Retina",
+          "is_correct": false
+        },
+        {
+          "text": "Iris",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "cornea",
+          "most refraction"
+        ],
+        "key_points": [
+          "Most refraction occurs at outer surface of cornea; crystalline lens only fine-tunes"
+        ],
+        "formula": null,
+        "expected_answer": "The outer surface of the cornea. The cornea provides most of the refraction; the crystalline lens provides fine adjustment.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_011",
+      "use_for": "understanding",
+      "text": "State the functions of (a) the pupil and (b) the optic nerve in the human eye.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "pupil",
+          "light entry",
+          "optic nerve",
+          "electrical signals",
+          "brain"
+        ],
+        "key_points": [
+          "Pupil: opening that allows light to enter the eye; size controlled by iris",
+          "Optic nerve: carries electrical signals from retina to brain"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Pupil: the dark circular opening in the centre of the iris through which light enters the eye. Its size is regulated by the iris to control the amount of light admitted. (b) Optic nerve: carries electrical signals generated by the retina's light-sensitive cells to the brain for interpretation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "pupil": 1,
+          "optic_nerve": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_012",
+      "use_for": "understanding",
+      "text": "What is cataract? Is it treatable? State one method of treatment.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "cataract",
+          "milky",
+          "cloudy",
+          "crystalline lens",
+          "surgery"
+        ],
+        "key_points": [
+          "Cataract: crystalline lens becomes milky and cloudy at old age",
+          "Causes partial or complete loss of vision",
+          "Treatable by cataract surgery"
+        ],
+        "formula": null,
+        "expected_answer": "Cataract: a condition in which the crystalline lens of the eye gradually becomes milky and cloudy at old age, causing partial or complete loss of vision. Yes, it is treatable. Treatment: cataract surgery, in which the clouded lens is removed and replaced with an artificial lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "treatment": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_013",
+      "use_for": "understanding",
+      "text": "The near point (least distance of distinct vision) for a normal young adult with normal vision is",
+      "options": [
+        {
+          "text": "2.5 cm",
+          "is_correct": false
+        },
+        {
+          "text": "25 cm",
+          "is_correct": true
+        },
+        {
+          "text": "25 m",
+          "is_correct": false
+        },
+        {
+          "text": "2.5 m",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "25 cm",
+          "near point"
+        ],
+        "key_points": [
+          "Near point for normal young adult = 25 cm"
+        ],
+        "formula": null,
+        "expected_answer": "25 cm. Objects closer than this cannot be seen clearly without strain.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_014",
+      "use_for": "understanding",
+      "text": "When the ciliary muscles of the eye contract, the focal length of the eye lens",
+      "options": [
+        {
+          "text": "Increases (lens flattens)",
+          "is_correct": false
+        },
+        {
+          "text": "Decreases (lens thickens)",
+          "is_correct": true
+        },
+        {
+          "text": "Remains the same",
+          "is_correct": false
+        },
+        {
+          "text": "First increases then decreases",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ciliary muscles contract",
+          "curvature increases",
+          "focal length decreases",
+          "near vision"
+        ],
+        "key_points": [
+          "Contraction → curvature increases → lens thickens → focal length decreases → near vision"
+        ],
+        "formula": null,
+        "expected_answer": "Decreases. Ciliary muscle contraction increases the curvature of the lens (it thickens), decreasing its focal length to enable clear near vision.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_015",
+      "use_for": "understanding",
+      "text": "Define the least distance of distinct vision. Why is this value 25 cm for a normal young adult?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "least distance",
+          "distinct vision",
+          "25 cm",
+          "focal length minimum",
+          "strain"
+        ],
+        "key_points": [
+          "Least distance of distinct vision: minimum distance at which eye sees clearly without strain",
+          "25 cm because that is the distance at which the eye's minimum focal length can still form a sharp image on the retina without causing strain"
+        ],
+        "formula": null,
+        "expected_answer": "The least distance of distinct vision (near point) is the minimum distance at which the eye can see objects clearly and comfortably without strain. For a normal young adult it is 25 cm because the eye lens can decrease its focal length to a minimum value that corresponds to focusing an object at 25 cm onto the retina. Closer than this, the ciliary muscles would be fully contracted and cannot reduce the focal length further.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_016",
+      "use_for": "understanding",
+      "text": "What is the far point of a normal eye? How does it change in a person with myopia?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "far point",
+          "infinity",
+          "nearer than infinity",
+          "myopia"
+        ],
+        "key_points": [
+          "Far point of normal eye: infinity (can see objects as far as infinity)",
+          "In myopia: far point is nearer than infinity (a finite distance in front of the eye)"
+        ],
+        "formula": null,
+        "expected_answer": "Far point of normal eye: infinity — the eye can see objects clearly up to infinite distance when the ciliary muscles are fully relaxed. In a person with myopia: the far point is nearer than infinity — it is at a finite distance in front of the eye (e.g., 80 cm, 1 m, etc.). Objects beyond this far point appear blurred.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "normal_far_point": 1,
+          "myopia_change": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_017",
+      "use_for": "understanding",
+      "text": "In the VIBGYOR sequence, which colour has the shortest wavelength?",
+      "options": [
+        {
+          "text": "Red",
+          "is_correct": false
+        },
+        {
+          "text": "Green",
+          "is_correct": false
+        },
+        {
+          "text": "Blue",
+          "is_correct": false
+        },
+        {
+          "text": "Violet",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "violet",
+          "shortest wavelength"
+        ],
+        "key_points": [
+          "Violet has shortest wavelength and maximum deviation"
+        ],
+        "formula": null,
+        "expected_answer": "Violet has the shortest wavelength in the visible spectrum and is therefore deviated the most by a glass prism.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_018",
+      "use_for": "understanding",
+      "text": "A rainbow is formed due to",
+      "options": [
+        {
+          "text": "Reflection of sunlight by clouds",
+          "is_correct": false
+        },
+        {
+          "text": "Dispersion of sunlight by water droplets acting as prisms",
+          "is_correct": true
+        },
+        {
+          "text": "Scattering of sunlight by atmospheric dust",
+          "is_correct": false
+        },
+        {
+          "text": "Refraction of sunlight by ice crystals",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "dispersion",
+          "water droplets",
+          "rainbow"
+        ],
+        "key_points": [
+          "Rainbow: dispersion of sunlight by tiny water droplets (act as prisms)"
+        ],
+        "formula": null,
+        "expected_answer": "Dispersion of sunlight by water droplets acting as prisms. Each droplet refracts, disperses, internally reflects, and refracts again.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_019",
+      "use_for": "understanding",
+      "text": "Write the correct order of colours in the spectrum of white light from most deviated to least deviated. Which colour bends the most and which bends the least?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "VIBGYOR",
+          "violet most",
+          "red least"
+        ],
+        "key_points": [
+          "Order: Violet, Indigo, Blue, Green, Yellow, Orange, Red (VIBGYOR)",
+          "Most deviated: Violet; Least deviated: Red"
+        ],
+        "formula": null,
+        "expected_answer": "Order from most to least deviated: Violet, Indigo, Blue, Green, Yellow, Orange, Red (VIBGYOR). Most deviated: Violet (shortest wavelength). Least deviated: Red (longest wavelength).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "sequence": 1,
+          "most_least": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_020",
+      "use_for": "understanding",
+      "text": "Why is a rainbow always observed in the direction opposite to the Sun? Explain in one or two sentences.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "opposite direction",
+          "refraction",
+          "internal reflection",
+          "sunlight enters",
+          "exits opposite side"
+        ],
+        "key_points": [
+          "Light enters raindrops on the side facing the Sun",
+          "After internal reflection it exits on the side facing the observer — opposite to Sun"
+        ],
+        "formula": null,
+        "expected_answer": "The rainbow is seen opposite to the Sun because sunlight enters the front face of a raindrop, undergoes internal reflection inside, and exits towards the observer (who must have their back to the Sun). The dispersion and reflection mechanism directs the coloured light back towards the observer, i.e., away from the Sun.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "opposite_reason": 1,
+          "mechanism": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_021",
+      "use_for": "understanding",
+      "text": "After passing through a triangular glass prism, the emergent ray is _________ to the incident ray.",
+      "options": [
+        {
+          "text": "Parallel",
+          "is_correct": false
+        },
+        {
+          "text": "At an angle (not parallel)",
+          "is_correct": true
+        },
+        {
+          "text": "Perpendicular",
+          "is_correct": false
+        },
+        {
+          "text": "At 180 degrees (reversed)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "not parallel",
+          "angle of deviation"
+        ],
+        "key_points": [
+          "In prism emergent ray is NOT parallel to incident — angle of deviation"
+        ],
+        "formula": null,
+        "expected_answer": "Not parallel (at an angle). The angle between them is called the angle of deviation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_022",
+      "use_for": "understanding",
+      "text": "Define the angle of deviation in a prism. In which direction (towards which base) does the emergent ray deviate?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "angle of deviation",
+          "incident",
+          "emergent",
+          "base"
+        ],
+        "key_points": [
+          "Angle of deviation: angle between incident ray direction and emergent ray direction",
+          "Emergent ray deviates towards the base of the prism"
+        ],
+        "formula": null,
+        "expected_answer": "Angle of deviation: the angle between the original direction of the incident ray and the direction of the emergent ray after passing through the prism. The emergent ray deviates towards the base (the broader face) of the prism.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "direction": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_023",
+      "use_for": "understanding",
+      "text": "A ray of light enters a glass prism from air at the first surface and exits into air at the second surface. At which surface does it bend towards the normal and at which does it bend away? Explain why.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "towards normal",
+          "air to glass",
+          "away from normal",
+          "glass to air",
+          "denser",
+          "rarer"
+        ],
+        "key_points": [
+          "Surface 1 (air to glass — denser medium): ray bends towards normal",
+          "Surface 2 (glass to air — rarer medium): ray bends away from normal"
+        ],
+        "formula": null,
+        "expected_answer": "At the first surface (air to glass): the ray is going from a rarer medium (air) to a denser medium (glass) and bends towards the normal. At the second surface (glass to air): the ray is going from a denser medium (glass) to a rarer medium (air) and bends away from the normal.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "surface1": 1,
+          "surface2": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_024",
+      "use_for": "understanding",
+      "text": "The Sun is visible to us about 2 minutes before actual sunrise. This is caused by",
+      "options": [
+        {
+          "text": "Reflection of sunlight from clouds",
+          "is_correct": false
+        },
+        {
+          "text": "Scattering of sunlight by atmosphere",
+          "is_correct": false
+        },
+        {
+          "text": "Atmospheric refraction of sunlight",
+          "is_correct": true
+        },
+        {
+          "text": "Dispersion of sunlight by water vapour",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "atmospheric refraction",
+          "2 minutes",
+          "advance sunrise"
+        ],
+        "key_points": [
+          "Advance sunrise due to atmospheric refraction bending Sun's light"
+        ],
+        "formula": null,
+        "expected_answer": "Atmospheric refraction. The atmosphere bends sunlight towards the Earth, making the apparent position of the Sun above its actual position near the horizon, allowing us to see it ~2 minutes before actual sunrise.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_025",
+      "use_for": "understanding",
+      "text": "What causes the apparent twinkling of stars? Why does this not happen to the extent observed on a calm clear night when you look at the same star through a telescope from the Moon?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "atmospheric refraction",
+          "no atmosphere on Moon",
+          "no twinkling"
+        ],
+        "key_points": [
+          "Twinkling: atmospheric refraction causes fluctuating apparent position",
+          "Moon has no atmosphere: no refraction, no twinkling"
+        ],
+        "formula": null,
+        "expected_answer": "Twinkling is caused by atmospheric refraction — the continuously changing refractive conditions of Earth's atmosphere cause the apparent position of a star to fluctuate, making the light reaching the eye flicker. From the Moon there is no atmosphere; there is no atmospheric refraction, so stars would appear as steady, non-twinkling point sources.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "earth_twinkling": 1,
+          "moon_no_twinkling": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_026",
+      "use_for": "understanding",
+      "text": "If the Earth suddenly had no atmosphere, what two changes would you observe in the apparent behaviour of (a) stars and (b) the Sun at sunrise?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "no twinkling",
+          "actual sunrise",
+          "no advance sunrise",
+          "sky dark"
+        ],
+        "key_points": [
+          "Stars: no twinkling (no atmospheric refraction to cause fluctuation)",
+          "Sun at sunrise: no advance sunrise — visible exactly when it crosses the horizon; also sky would appear dark (no scattering)"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Stars: they would not twinkle. Without atmosphere there is no atmospheric refraction, so the apparent position of stars would not fluctuate — stars would appear as steady, non-twinkling points of light. (b) Sun at sunrise: there would be no advance sunrise — the Sun would be visible precisely when it actually crosses the horizon (no earlier). Additionally the sky would appear dark blue/black even during daytime (no scattering of sunlight).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "stars": 1,
+          "sun_sunrise": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_027",
+      "use_for": "understanding",
+      "text": "The Tyndall effect is commonly observed in",
+      "options": [
+        {
+          "text": "A true solution like salt dissolved in water",
+          "is_correct": false
+        },
+        {
+          "text": "A colloidal solution like milk or smoke in air",
+          "is_correct": true
+        },
+        {
+          "text": "Pure water",
+          "is_correct": false
+        },
+        {
+          "text": "A metallic conductor",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Tyndall",
+          "colloidal",
+          "visible path"
+        ],
+        "key_points": [
+          "Tyndall effect in colloidal solutions — fine suspended particles scatter light"
+        ],
+        "formula": null,
+        "expected_answer": "A colloidal solution (like milk or smoke in air). Fine suspended particles scatter light making the beam visible. In true solutions, dissolved molecules are too small to scatter light.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_028",
+      "use_for": "understanding",
+      "text": "Why does the sky appear dark instead of blue to astronauts flying at very high altitudes?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "no scattering",
+          "thin atmosphere",
+          "dark sky"
+        ],
+        "key_points": [
+          "At very high altitude atmosphere is extremely thin",
+          "Scattering of sunlight is negligible — no blue light scattered to eyes",
+          "Sky appears dark"
+        ],
+        "formula": null,
+        "expected_answer": "At very high altitudes the atmosphere is extremely thin and there are very few air molecules to scatter sunlight. Since the blue colour of the sky results from scattering of sunlight by atmospheric molecules, the near absence of atmosphere means negligible scattering. Therefore no scattered blue light reaches the astronaut's eyes and the sky appears dark (black).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "reason": 1,
+          "conclusion": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "humaneye10_und_029",
+      "use_for": "understanding",
+      "text": "Why is red light used for danger signals? Relate your answer to the scattering of light.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "red",
+          "least scattered",
+          "longest wavelength",
+          "fog",
+          "distance"
+        ],
+        "key_points": [
+          "Red has longest wavelength — scattered least by fog or smoke",
+          "Can be seen from greatest distance retaining its colour"
+        ],
+        "formula": null,
+        "expected_answer": "Red light has the longest wavelength in the visible spectrum. Scattering intensity is inversely related to the wavelength (shorter wavelengths scatter much more). Therefore red light is scattered the least by fog, smoke, or dust particles. This allows red light to travel the farthest through foggy or smoky conditions and still be clearly seen at a distance — making it ideal for danger and stop signals.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "wavelength_scattering": 1,
+          "distance_visibility": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "human_eye_cb_001",
+      "text": "Suresh (60 yrs) holds his newspaper at arm's length to read it. His doctor prescribes +2.5 D lenses. His grandson Rahul (14 yrs) cannot see the blackboard clearly but reads books without difficulty.\n\n(a) Name the defect Suresh suffers from. [1]\n(b) Name Rahul's defect and the corrective lens used. [1]\n(c) Compare where the image forms on the retina in each case for distance vision. [2]",
+      "type": "case_based",
+      "marks": 4,
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "presbyopia",
+          "hypermetropia",
+          "myopia",
+          "concave",
+          "convex",
+          "retina",
+          "focal"
+        ],
+        "key_points": [
+          "Suresh has presbyopia (or hypermetropia) — corrected by convex lens",
+          "Rahul has myopia — corrected by concave lens",
+          "In hypermetropia image forms behind retina",
+          "In myopia image forms in front of retina"
+        ],
+        "expected_answer": "(a) Presbyopia. (b) Myopia; concave lens. (c) In hypermetropia, parallel rays focus behind the retina; in myopia they focus in front of the retina.",
+        "formula": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

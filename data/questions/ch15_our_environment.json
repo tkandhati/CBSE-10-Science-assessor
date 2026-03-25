@@ -1,0 +1,1403 @@
+{
+  "chapter_id": "ch15_our_environment",
+  "chapter_title": "Our Environment",
+  "questions": [
+    {
+      "id": "ch15_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following is NOT a natural ecosystem?",
+      "options": [
+        {
+          "text": "Cropland",
+          "is_correct": true
+        },
+        {
+          "text": "Forest",
+          "is_correct": false
+        },
+        {
+          "text": "Grassland",
+          "is_correct": false
+        },
+        {
+          "text": "Pond",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "artificial",
+          "human-made",
+          "cropland"
+        ],
+        "key_points": [
+          "Cropland is a human-made ecosystem; others are natural."
+        ],
+        "formula": null,
+        "expected_answer": "Cropland",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_sht_001",
+      "use_for": "test",
+      "text": "What is an ecosystem? Give one example each of (i) a natural ecosystem and (ii) a human-made ecosystem.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ecosystem",
+          "biotic",
+          "abiotic",
+          "natural",
+          "human-made"
+        ],
+        "key_points": [
+          "Definition: all interacting organisms in an area together with non-living constituents.",
+          "Natural example: forest / pond / lake.",
+          "Human-made example: garden / crop-field / aquarium."
+        ],
+        "formula": null,
+        "expected_answer": "An ecosystem is all interacting organisms in an area together with non-living constituents. (i) Natural: forest / pond / lake; (ii) Human-made: garden / crop-field / aquarium.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "examples": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_sht_002",
+      "use_for": "test",
+      "text": "Distinguish between biotic and abiotic components of an ecosystem. Give two examples of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "biotic",
+          "abiotic",
+          "living",
+          "non-living",
+          "temperature",
+          "rainfall"
+        ],
+        "key_points": [
+          "Biotic: living organisms — e.g., plants, animals, bacteria, fungi.",
+          "Abiotic: physical/chemical factors — e.g., temperature, rainfall, wind, soil, minerals."
+        ],
+        "formula": null,
+        "expected_answer": "Biotic components: living organisms (e.g., plants, animals, bacteria, fungi). Abiotic components: physical and chemical factors (e.g., temperature, rainfall, wind, soil, minerals).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "biotic_definition+examples": 1,
+          "abiotic_definition+examples": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_lng_001",
+      "use_for": "test",
+      "text": "Explain the role of producers, consumers and decomposers in maintaining the balance of an ecosystem. What would happen if decomposers were absent from the environment?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "producers",
+          "consumers",
+          "decomposers",
+          "solar energy",
+          "chemical energy",
+          "nutrient recycling",
+          "bacteria",
+          "fungi",
+          "soil fertility"
+        ],
+        "key_points": [
+          "Producers (green plants) capture solar energy and convert it to chemical energy via photosynthesis.",
+          "Consumers (herbivores, carnivores, omnivores) feed directly or indirectly on producers.",
+          "Decomposers (bacteria, fungi) break complex organic matter into simple inorganic substances returned to soil.",
+          "Without decomposers: dead organic matter accumulates, nutrients are not recycled, soil fertility drops.",
+          "Consequence: producers cannot grow, entire ecosystem collapses."
+        ],
+        "formula": null,
+        "expected_answer": "Producers (green plants) convert solar energy to chemical energy via photosynthesis. Consumers feed directly (herbivores) or indirectly (carnivores) on producers. Decomposers (bacteria/fungi) break complex organics into simple inorganic substances which are returned to the soil, making them available to plants again. Without decomposers: dead organic matter would accumulate, nutrients would not be recycled, soil fertility would drop, producers would die, and the entire ecosystem would collapse.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "role_of_producers": 1,
+          "role_of_consumers": 1,
+          "role_of_decomposers": 1,
+          "absence_of_decomposers_effects": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_mcq_001",
+      "use_for": "test",
+      "text": "10,000 J of solar energy falls on green plants in a terrestrial ecosystem. How much energy (in J) will be available to the primary consumers?",
+      "options": [
+        {
+          "text": "10,000 J",
+          "is_correct": false
+        },
+        {
+          "text": "1,000 J",
+          "is_correct": false
+        },
+        {
+          "text": "100 J",
+          "is_correct": false
+        },
+        {
+          "text": "10 J",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "1%",
+          "10%",
+          "solar energy",
+          "food energy",
+          "primary consumer"
+        ],
+        "key_points": [
+          "Plants capture 1% of 10,000 J = 100 J (food energy at producer level).",
+          "10% of 100 J = 10 J reaches primary consumers."
+        ],
+        "formula": null,
+        "expected_answer": "10 J",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_sht_001",
+      "use_for": "test",
+      "text": "What are trophic levels? Give an example of a food chain from a grassland ecosystem and state the different trophic levels in it.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "trophic level",
+          "food chain",
+          "producer",
+          "consumer",
+          "grassland"
+        ],
+        "key_points": [
+          "Trophic levels: successive steps/levels in a food chain.",
+          "Example: Grass → Grasshopper → Frog → Snake → Eagle.",
+          "Grass = T1 (Producer); Grasshopper = T2 (Primary consumer); Frog = T3 (Secondary consumer); Snake = T4 (Tertiary consumer); Eagle = T5."
+        ],
+        "formula": null,
+        "expected_answer": "Trophic levels are the successive steps/levels in a food chain at which energy transfer occurs. Example: Grass → Grasshopper → Frog → Snake → Eagle. Grass = T1 (Producer), Grasshopper = T2 (Primary consumer), Frog = T3 (Secondary consumer), Snake = T4 (Tertiary consumer), Eagle = T5.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "food_chain_with_levels": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_sht_002",
+      "use_for": "test",
+      "text": "Explain why food chains generally have only 3 to 4 trophic levels. What is the significance of the 10% energy law?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "10% law",
+          "energy transfer",
+          "heat loss",
+          "metabolism",
+          "trophic levels"
+        ],
+        "key_points": [
+          "Only ~10% of energy is transferred to the next trophic level; rest lost as heat/metabolism.",
+          "After 3–4 levels, so little energy remains it cannot sustain another level.",
+          "10% law determines the maximum number of trophic levels and explains the energy pyramid."
+        ],
+        "formula": null,
+        "expected_answer": "Only about 10% of energy at one trophic level is transferred to the next; the remaining 90% is lost as heat, used in metabolism, or lost in excretion. After 3–4 trophic levels the energy available is so small that it cannot sustain a viable population at the next level, which is why food chains are short. The 10% energy law (Lindemann's law) determines the maximum number of trophic levels in any food chain and is the basis for the energy pyramid.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "reason_for_short_chains": 1,
+          "significance_of_10pct_law": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_arn_001",
+      "use_for": "test",
+      "text": "Assertion (A): Energy flow in a food chain is unidirectional.\nReason (R): The energy captured by autotrophs does not revert back to the solar input.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "unidirectional",
+          "energy flow",
+          "autotrophs",
+          "solar input"
+        ],
+        "key_points": [
+          "A is true: energy flows in one direction from producers to consumers.",
+          "R is true and correctly explains A: once energy is used by autotrophs it cannot revert to solar form; it moves forward and is lost as heat."
+        ],
+        "formula": null,
+        "expected_answer": "Both A and R are true and R is the correct explanation of A. Energy flow in an ecosystem is always unidirectional — from producers to consumers — and it cannot cycle back to the sun.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_diag_001",
+      "use_for": "test",
+      "text": "Study the energy pyramid shown in Figure A. (a) Identify the trophic levels I, II, III and IV. (b) If 10,000 J of solar energy is available to producers, how much energy will be available to the tertiary consumer? (c) What happens to the remaining energy at each trophic level?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "energy pyramid",
+          "trophic level",
+          "10% law",
+          "heat loss",
+          "producers",
+          "consumers"
+        ],
+        "key_points": [
+          "(a) T-I: Producers (green plants); T-II: Primary consumers (herbivores); T-III: Secondary consumers; T-IV: Tertiary consumers.",
+          "(b) Producers get 1% of 10,000 J = 100 J; T-II = 10 J; T-III = 1 J; T-IV = 0.1 J.",
+          "(c) ~90% of energy at each level is lost as heat, used in respiration/metabolism, or in excretion."
+        ],
+        "formula": null,
+        "expected_answer": "(a) Trophic Level I = Producers (green plants); II = Primary consumers (herbivores); III = Secondary consumers (carnivores); IV = Tertiary consumers (top carnivores). (b) Producers receive 1% of 10,000 J = 100 J; Primary consumers = 10 J; Secondary consumers = 1 J; Tertiary consumers = 0.1 J. (c) At each trophic level ~90% of energy is lost as heat during metabolic activities such as respiration; only ~10% is transferred to the next level.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "trophic_level_identification": 1,
+          "energy_calculation": 1,
+          "explanation_of_energy_loss": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap13_fcw_diag_001.png"
+    },
+    {
+      "id": "ch15_fcw_diag_002",
+      "use_for": "test",
+      "text": "Study the food web shown in Figure B. (a) Name the organisms at the first trophic level. (b) How many food chains can be identified in this food web? Write any one complete food chain. (c) Which organism acts as both secondary and tertiary consumer?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "food web",
+          "trophic level",
+          "producer",
+          "consumer",
+          "food chain"
+        ],
+        "key_points": [
+          "(a) Organisms at the first trophic level are the producers (green plants/grass) shown at the base of the food web.",
+          "(b) Count all possible pathways from producers to top consumers; write one complete food chain from the web.",
+          "(c) The organism that feeds on both primary and secondary consumers occupies both T-III and T-IV positions."
+        ],
+        "formula": null,
+        "expected_answer": "Answers depend on the specific food web in Figure B. (a) First trophic level: producers (e.g., grass/green plants). (b) Multiple food chains exist in a food web; one example: Grass → Grasshopper → Frog → Snake → Eagle. (c) The organism appearing at both secondary and tertiary consumer levels (e.g., snake or hawk, as labelled in the figure).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "first_trophic_level": 1,
+          "food_chain_count_and_example": 1,
+          "dual_consumer_identification": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap13_fcw_diag_002.png"
+    },
+    {
+      "id": "ch15_fcw_num_001",
+      "use_for": "test",
+      "text": "In a food chain: Grass → Grasshopper → Frog → Snake, if the energy available at the grass level is 100,000 J, calculate: (a) the energy available to the grasshopper, (b) the energy available to the frog, (c) the energy available to the snake.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "10% law",
+          "energy transfer",
+          "trophic level",
+          "Joules"
+        ],
+        "key_points": [
+          "(a) Grasshopper (T2) = 10% of 100,000 = 10,000 J.",
+          "(b) Frog (T3) = 10% of 10,000 = 1,000 J.",
+          "(c) Snake (T4) = 10% of 1,000 = 100 J."
+        ],
+        "formula": "E_next = E_current × 0.10",
+        "expected_answer": "(a) Grasshopper: 10,000 J  (b) Frog: 1,000 J  (c) Snake: 100 J",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "grasshopper_energy": 0.5,
+          "frog_energy": 0.75,
+          "snake_energy": 0.75
+        }
+      },
+      "template_params": {
+        "variables": {
+          "E0": {
+            "value": 100000,
+            "unit": "J",
+            "locked": true
+          }
+        },
+        "formula_expression": "E0 * 0.1, E0 * 0.01, E0 * 0.001",
+        "units": "J",
+        "answer_precision": 0,
+        "fixed": true,
+        "expected_values": {
+          "grasshopper_J": 10000,
+          "frog_J": 1000,
+          "snake_J": 100
+        }
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_bio_sht_001",
+      "use_for": "test",
+      "text": "What is biological magnification? Will the levels of this magnification be different at different levels of the ecosystem? Explain with an example.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "biological magnification",
+          "DDT",
+          "pesticides",
+          "non-degradable",
+          "trophic level",
+          "concentration"
+        ],
+        "key_points": [
+          "Definition: progressive increase in concentration of non-degradable harmful chemicals at each successive trophic level.",
+          "Yes — concentration is lowest at producers and highest at top consumers.",
+          "Example: pesticides sprayed → absorbed by plants → grasshoppers eat plants → frogs eat grasshoppers → humans eat frogs; concentration multiplies at each step."
+        ],
+        "formula": null,
+        "expected_answer": "Biological magnification is the progressive increase in concentration of non-degradable harmful chemicals (e.g., DDT, pesticides) at each successive trophic level of a food chain. Yes, levels differ: concentration is least at producers and greatest at top consumers. Example: DDT sprayed on crops is absorbed in small amounts by plants; grasshoppers eating many plants accumulate more; frogs eating many grasshoppers accumulate even more; birds/humans at the top accumulate the highest concentration.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "increasing_concentration_explanation": 1,
+          "example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_bio_mcq_001",
+      "use_for": "test",
+      "text": "In a food chain: Grass → Deer → Tiger, pesticide concentration is 0.1 ppm in grass. Which organism will have the HIGHEST concentration of pesticide?",
+      "options": [
+        {
+          "text": "Grass",
+          "is_correct": false
+        },
+        {
+          "text": "Deer",
+          "is_correct": false
+        },
+        {
+          "text": "Tiger",
+          "is_correct": true
+        },
+        {
+          "text": "Equal in all",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "biological magnification",
+          "top consumer",
+          "non-degradable",
+          "concentration"
+        ],
+        "key_points": [
+          "Non-degradable pesticides accumulate at each trophic level.",
+          "Top consumers (Tiger) accumulate the highest concentration.",
+          "This is the opposite of energy flow — matter/chemicals increase up the chain."
+        ],
+        "formula": null,
+        "expected_answer": "Tiger",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_ozo_mcq_001",
+      "use_for": "test",
+      "text": "The United Nations Environment Programme (UNEP) forged an agreement in 1987 to:",
+      "options": [
+        {
+          "text": "Control water pollution",
+          "is_correct": false
+        },
+        {
+          "text": "Reduce CFC production",
+          "is_correct": true
+        },
+        {
+          "text": "Control CO₂ emissions",
+          "is_correct": false
+        },
+        {
+          "text": "Conserve biodiversity",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "UNEP",
+          "1987",
+          "Montreal Protocol",
+          "CFC",
+          "ozone"
+        ],
+        "key_points": [
+          "UNEP 1987 agreement (Montreal Protocol) aimed to freeze and reduce CFC production to protect the ozone layer."
+        ],
+        "formula": null,
+        "expected_answer": "Reduce CFC production",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_ozo_sht_001",
+      "use_for": "test",
+      "text": "(a) Explain the role of UV radiation in producing ozone in the upper atmosphere. (b) Write the chemical reactions involved.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "UV radiation",
+          "O₂",
+          "oxygen atoms",
+          "ozone",
+          "O₃",
+          "upper atmosphere"
+        ],
+        "key_points": [
+          "UV radiation splits O₂ molecules into free oxygen atoms: O₂ →(UV) O + O.",
+          "Free O atoms combine with O₂ to form ozone: O + O₂ → O₃."
+        ],
+        "formula": "O₂ →(UV) O + O;  O + O₂ → O₃",
+        "expected_answer": "(a) UV radiation splits O₂ molecules into free oxygen atoms. These reactive atoms combine with more O₂ molecules to form ozone (O₃). Thus UV radiation is responsible for ozone formation in the upper atmosphere. (b) O₂ →(UV) O + O;  O + O₂ → O₃.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "explanation": 1,
+          "reactions": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_ozo_sht_002",
+      "use_for": "test",
+      "text": "Why is damage to the ozone layer a cause for concern? What steps are being taken to limit this damage?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "UV radiation",
+          "skin cancer",
+          "cataracts",
+          "CFC",
+          "Montreal Protocol",
+          "ozone depletion",
+          "ecosystem harm"
+        ],
+        "key_points": [
+          "Ozone shields the earth from harmful UV-B and UV-C radiation.",
+          "Without it: skin cancer, cataracts, harm to aquatic and terrestrial ecosystems.",
+          "Steps: UNEP 1987 (Montreal Protocol) to freeze CFC production at 1986 levels; mandatory use of CFC-free refrigerants globally; reducing aerosols containing CFCs."
+        ],
+        "formula": null,
+        "expected_answer": "Ozone (O₃) in the upper atmosphere shields all life from harmful UV-B and UV-C radiation. Its depletion allows UV radiation to reach the earth's surface causing: skin cancer, cataracts, suppression of immune systems, reduced plant productivity, and disruption of marine food chains. Steps being taken: (1) UNEP 1987 agreement (Montreal Protocol) to freeze and reduce CFC production; (2) mandatory switch to CFC-free refrigerators globally; (3) reduction in the use of aerosol sprays containing CFCs.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "why_concerned": 1,
+          "health_effects": 1,
+          "steps_taken": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_ozo_lng_001",
+      "use_for": "test",
+      "text": "Describe the structure and function of the ozone layer. Explain the mechanism by which CFCs cause depletion of the ozone layer and the consequences for living organisms.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ozone",
+          "O₃",
+          "stratosphere",
+          "UV-B",
+          "UV-C",
+          "CFC",
+          "chlorine atoms",
+          "catalytic",
+          "skin cancer",
+          "cataracts"
+        ],
+        "key_points": [
+          "Ozone (O₃) layer is in the stratosphere (upper atmosphere) at ~15–35 km altitude.",
+          "Formed: UV splits O₂ → O + O; O + O₂ → O₃.",
+          "Function: absorbs harmful UV-B and UV-C radiation, preventing it from reaching earth.",
+          "CFCs from refrigerants and aerosols rise to the stratosphere; UV breaks them, releasing Cl atoms.",
+          "Cl atoms catalytically destroy O₃: Cl + O₃ → ClO + O₂; ClO + O → Cl + O₂ (Cl is regenerated, destroying thousands of O₃ molecules).",
+          "Consequences: UV reaches earth → skin cancer, cataracts, reduced plant productivity, disruption of marine food chains, suppressed immune systems."
+        ],
+        "formula": "Cl + O₃ → ClO + O₂;  ClO + O → Cl + O₂  (catalytic cycle)",
+        "expected_answer": "Structure: Ozone (O₃) is a molecule of three oxygen atoms present in the stratosphere (15–35 km above earth). Formation: O₂ →(UV) O + O; O + O₂ → O₃. Function: Ozone absorbs harmful UV-B and UV-C radiation, acting as a shield for all life. CFC depletion mechanism: CFCs (chlorofluorocarbons) from refrigerants and aerosols are chemically stable and rise to the stratosphere. UV radiation there breaks CFC bonds, releasing highly reactive Cl atoms. These Cl atoms catalytically destroy O₃: Cl + O₃ → ClO + O₂; ClO + O → Cl + O₂. Since Cl is regenerated, one Cl atom can destroy thousands of O₃ molecules. Consequences: increased UV-B reaches earth causing skin cancer, cataracts, reduced immune function, lower crop yields, damage to phytoplankton in oceans, and disruption of marine food chains.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "structure_and_formation": 1,
+          "function_of_ozone_layer": 1,
+          "CFC_mechanism": 2,
+          "consequences": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_wst_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following groups contains ONLY non-biodegradable items?",
+      "options": [
+        {
+          "text": "Grass, flowers and leather",
+          "is_correct": false
+        },
+        {
+          "text": "Polythene, detergent and PVC",
+          "is_correct": true
+        },
+        {
+          "text": "Fruit-peels, cake and lime-juice",
+          "is_correct": false
+        },
+        {
+          "text": "Cake, wood and grass",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "non-biodegradable",
+          "polythene",
+          "PVC",
+          "detergent",
+          "plastic"
+        ],
+        "key_points": [
+          "Polythene, detergent and PVC are all non-biodegradable — microorganisms cannot break them down.",
+          "Grass, flowers, fruit-peels, cake, lime-juice and wood are biodegradable.",
+          "Leather may be partially biodegradable; polythene/PVC/detergent are clearly not."
+        ],
+        "formula": null,
+        "expected_answer": "Polythene, detergent and PVC",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_wst_sht_001",
+      "use_for": "test",
+      "text": "Why are some substances biodegradable and some non-biodegradable? Give one example of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "microorganisms",
+          "enzymes",
+          "biodegradable",
+          "non-biodegradable",
+          "decompose",
+          "persist"
+        ],
+        "key_points": [
+          "Biodegradable: specific enzymes in microorganisms can break them down into simpler substances (e.g., vegetable peels, paper, wood).",
+          "Non-biodegradable: microorganisms lack the specific enzymes required; these persist unchanged in the environment (e.g., plastic, glass, DDT, PVC)."
+        ],
+        "formula": null,
+        "expected_answer": "Biodegradable substances can be broken down by microorganisms because the enzymes needed to decompose them exist in nature (e.g., vegetable peels, paper). Non-biodegradable substances cannot be broken down because microorganisms lack the specific enzymes required; they persist in the environment for long periods (e.g., plastic, glass, DDT).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "biodegradable_explanation+example": 1,
+          "non_biodegradable_explanation+example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_wst_sht_002",
+      "use_for": "test",
+      "text": "What are the problems caused by non-biodegradable wastes? Give any three.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "accumulate",
+          "biological magnification",
+          "pollution",
+          "soil",
+          "water",
+          "air",
+          "landfill",
+          "animals"
+        ],
+        "key_points": [
+          "1. Do not decompose; accumulate in the environment causing landscape/soil pollution.",
+          "2. Enter food chains causing biological magnification (e.g., DDT in organisms).",
+          "3. Cause soil, water and air pollution.",
+          "4. Animals accidentally consume them and can die.",
+          "5. Persist in landfills for hundreds of years."
+        ],
+        "formula": null,
+        "expected_answer": "Three problems caused by non-biodegradable wastes: 1. They do not decompose and accumulate in the environment, polluting soil and water. 2. They enter food chains causing biological magnification — harmful chemicals concentrate at higher trophic levels. 3. Animals accidentally consume plastic waste, which can block their digestive system and cause death.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "problem_1": 1,
+          "problem_2": 1,
+          "problem_3": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_wst_diag_001",
+      "use_for": "test",
+      "text": "Study the waste management diagram shown in Figure C. (a) Identify the type of waste management strategy shown (Refuse / Reduce / Reuse / Repurpose / Recycle). (b) Give one example for each category shown. (c) Which strategy is most effective in reducing waste generation and why?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "5R",
+          "refuse",
+          "reduce",
+          "reuse",
+          "repurpose",
+          "recycle",
+          "waste management",
+          "hierarchy"
+        ],
+        "key_points": [
+          "(a) The diagram shows the 5R strategy of waste management: Refuse, Reduce, Reuse, Repurpose, Recycle.",
+          "(b) Examples: Refuse = reject plastic bags; Reduce = use less electricity; Reuse = refill glass bottles; Repurpose = use old tyres as planters; Recycle = send paper to recycling plant.",
+          "(c) Refuse is the most effective — it prevents waste from being generated in the first place, eliminating all downstream impacts."
+        ],
+        "formula": null,
+        "expected_answer": "(a) The 5R strategy of waste management: Refuse, Reduce, Reuse, Repurpose, Recycle. (b) Refuse: avoid single-use plastics; Reduce: use less water/electricity; Reuse: refill glass bottles; Repurpose: use old tyres as garden planters; Recycle: send paper, metal and glass to recycling facilities. (c) Refuse is the most effective strategy because it prevents waste from being created at all — no waste generated means no disposal problem at all.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "identification_of_5R": 1,
+          "examples_for_each_R": 1,
+          "most_effective_with_reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap13_wst_diag_001.png"
+    },
+    {
+      "id": "ch15_mcq_und_001",
+      "use_for": "understanding",
+      "text": "Which of the following constitutes a food chain?\n(a) Grass, wheat and mango\n(b) Grass, goat and human\n(c) Goat, cow and elephant\n(d) Grass, fish and goat",
+      "options": [
+        {
+          "text": "Grass, wheat and mango",
+          "is_correct": false
+        },
+        {
+          "text": "Grass, goat and human",
+          "is_correct": true
+        },
+        {
+          "text": "Goat, cow and elephant",
+          "is_correct": false
+        },
+        {
+          "text": "Grass, fish and goat",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "food chain",
+          "producer",
+          "consumer",
+          "linear sequence"
+        ],
+        "key_points": [
+          "A food chain must have a producer (plant) as the first link and show a feeding relationship.",
+          "Grass → Goat → Human is the only valid food chain among the options.",
+          "(a) has no feeding relationship; (c) has no producer; (d) grass-fish-goat is not a realistic feeding chain."
+        ],
+        "formula": null,
+        "expected_answer": "Grass, goat and human",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_mcq_und_002",
+      "use_for": "understanding",
+      "text": "Which of the following are environment-friendly practices?\n(a) Carrying cloth-bags to the market while shopping\n(b) Switching off unnecessary lights and fans\n(c) Walking to school instead of taking a vehicle\n(d) All of the above",
+      "options": [
+        {
+          "text": "Carrying cloth-bags to the market while shopping",
+          "is_correct": false
+        },
+        {
+          "text": "Switching off unnecessary lights and fans",
+          "is_correct": false
+        },
+        {
+          "text": "Walking to school instead of taking a vehicle",
+          "is_correct": false
+        },
+        {
+          "text": "All of the above",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "environment-friendly",
+          "reduce",
+          "reuse",
+          "conservation",
+          "sustainable"
+        ],
+        "key_points": [
+          "All three practices are environment-friendly: cloth bags reduce plastic waste; switching off lights saves energy; walking reduces carbon emissions."
+        ],
+        "formula": null,
+        "expected_answer": "All of the above",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_sht_und_001",
+      "use_for": "understanding",
+      "text": "What is the role of decomposers in the ecosystem?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "decomposers",
+          "bacteria",
+          "fungi",
+          "organic matter",
+          "inorganic",
+          "nutrient recycling",
+          "soil"
+        ],
+        "key_points": [
+          "Decomposers (bacteria and fungi) break down dead organic matter into simple inorganic substances.",
+          "These inorganic substances are returned to the soil and made available to plants again, completing the nutrient cycle."
+        ],
+        "formula": null,
+        "expected_answer": "Decomposers (e.g., bacteria and fungi) break down complex dead organic matter into simple inorganic substances such as CO₂, water and mineral salts. These are returned to the soil and atmosphere, making them available to plants, thus completing the nutrient cycle and maintaining soil fertility.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "decomposers_action": 1,
+          "nutrient_recycling": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_sht_und_002",
+      "use_for": "understanding",
+      "text": "Explain the difference between a food chain and a food web. Why is a food web more realistic than a food chain?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "food chain",
+          "food web",
+          "linear",
+          "interconnected",
+          "multiple feeding",
+          "realistic"
+        ],
+        "key_points": [
+          "Food chain: linear sequence of organisms where each feeds on the preceding one.",
+          "Food web: interconnected network of multiple food chains in an ecosystem.",
+          "More realistic: organisms rarely eat only one species; most have multiple food sources/predators, forming a web rather than a chain."
+        ],
+        "formula": null,
+        "expected_answer": "A food chain is a linear sequence showing who eats whom (e.g., Grass → Grasshopper → Frog → Snake). A food web is an interconnected network of multiple food chains in an ecosystem, showing that most organisms have more than one food source. A food web is more realistic because in nature organisms feed on multiple species and are preyed upon by multiple predators simultaneously.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "food_chain_vs_web_definition": 1,
+          "reason_web_is_realistic": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_mcq_und_001",
+      "use_for": "understanding",
+      "text": "If Ravi is eating curd (made from milk), which trophic level does he occupy?\n(a) First  (b) Second  (c) Third  (d) Fourth",
+      "options": [
+        {
+          "text": "First",
+          "is_correct": false
+        },
+        {
+          "text": "Second",
+          "is_correct": false
+        },
+        {
+          "text": "Third",
+          "is_correct": true
+        },
+        {
+          "text": "Fourth",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "trophic level",
+          "curd",
+          "milk",
+          "cow",
+          "grass"
+        ],
+        "key_points": [
+          "Food chain: Grass (T1) → Cow (T2) → Milk/Curd → Ravi.",
+          "Ravi eating curd (a product of cow, T2) occupies T3 = Third trophic level."
+        ],
+        "formula": null,
+        "expected_answer": "Third",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_mcq_und_002",
+      "use_for": "understanding",
+      "text": "The flow of energy in an ecosystem is:\n(a) Bidirectional  (b) Circular  (c) Unidirectional  (d) Multidirectional",
+      "options": [
+        {
+          "text": "Bidirectional",
+          "is_correct": false
+        },
+        {
+          "text": "Circular",
+          "is_correct": false
+        },
+        {
+          "text": "Unidirectional",
+          "is_correct": true
+        },
+        {
+          "text": "Multidirectional",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "unidirectional",
+          "energy flow",
+          "producers",
+          "consumers",
+          "heat loss"
+        ],
+        "key_points": [
+          "Energy flows in one direction only — from producers to consumers — and cannot be reversed or recycled."
+        ],
+        "formula": null,
+        "expected_answer": "Unidirectional",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_mcq_und_003",
+      "use_for": "understanding",
+      "text": "Which of the following limits the number of trophic levels in a food chain?\n(a) Decrease in energy at higher trophic levels\n(b) Less availability of food\n(c) Polluted air\n(d) Temperature",
+      "options": [
+        {
+          "text": "Decrease in energy at higher trophic levels",
+          "is_correct": true
+        },
+        {
+          "text": "Less availability of food",
+          "is_correct": false
+        },
+        {
+          "text": "Polluted air",
+          "is_correct": false
+        },
+        {
+          "text": "Temperature",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "energy loss",
+          "trophic level",
+          "10% law",
+          "food chain length"
+        ],
+        "key_points": [
+          "Only ~10% of energy is transferred at each trophic level; after 3–4 levels the energy is too little to sustain another level."
+        ],
+        "formula": null,
+        "expected_answer": "Decrease in energy at higher trophic levels",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_sht_und_001",
+      "use_for": "understanding",
+      "text": "What will happen if we kill all the organisms in one trophic level?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "trophic level",
+          "food chain",
+          "imbalance",
+          "population",
+          "overpopulation",
+          "extinction"
+        ],
+        "key_points": [
+          "Removing a trophic level disrupts the entire food chain above and below it.",
+          "Organisms at the level above starve (no food source); organisms at the level below multiply uncontrollably (no predators).",
+          "The ecosystem loses balance, leading to possible collapse."
+        ],
+        "formula": null,
+        "expected_answer": "If all organisms in one trophic level are killed: (1) The organisms at the trophic level above will have no food source and may starve and die out. (2) The organisms at the trophic level below will face no predation and may overpopulate, depleting their own food source. This cascading effect disrupts the entire ecosystem and can lead to its collapse.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "effect_on_level_above": 1,
+          "effect_on_level_below": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_num_und_001",
+      "use_for": "understanding",
+      "text": "In a terrestrial ecosystem, 10,000 J of solar energy falls on green plants. (a) How much energy (in J) will be available as food energy at the producer level? (b) How much energy will be available to the secondary consumers?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "1%",
+          "10%",
+          "solar energy",
+          "producer",
+          "secondary consumer"
+        ],
+        "key_points": [
+          "(a) Producers capture 1% of solar energy: 1% of 10,000 = 100 J.",
+          "(b) Primary consumers = 10% of 100 = 10 J; Secondary consumers = 10% of 10 = 1 J."
+        ],
+        "formula": "Producer energy = solar × 0.01; Secondary consumer = solar × 0.01 × 0.1 × 0.1",
+        "expected_answer": "(a) 100 J  (b) 1 J",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "producer_energy": 1,
+          "secondary_consumer_energy": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "solar": {
+            "min": 5000,
+            "max": 50000,
+            "step": 5000,
+            "unit": "J"
+          }
+        },
+        "formula_expression": "solar * 0.01, solar * 0.01 * 0.1 * 0.1",
+        "units": "J",
+        "answer_precision": 0,
+        "fixed": false,
+        "example_values": {
+          "solar": 10000,
+          "producer_J": 100,
+          "secondary_consumer_J": 1
+        }
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_fcw_num_und_002",
+      "use_for": "understanding",
+      "text": "If 50 KJ of energy is available at the third trophic level in a food chain, calculate the energy available at: (a) the producer level and (b) the second trophic level.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "10% law",
+          "reverse calculation",
+          "trophic level",
+          "energy"
+        ],
+        "key_points": [
+          "T3 = 50 KJ; T2 = T3 / 0.10 = 500 KJ; T1 (producers) = T2 / 0.10 = 5000 KJ."
+        ],
+        "formula": "E_prev = E_current / 0.10",
+        "expected_answer": "(a) Producer level = 5000 KJ  (b) Second trophic level = 500 KJ",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "producer_level": 1,
+          "second_trophic_level": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "E3": {
+            "min": 10,
+            "max": 100,
+            "step": 10,
+            "unit": "KJ"
+          }
+        },
+        "formula_expression": "E3 / 0.01, E3 / 0.1",
+        "units": "KJ",
+        "answer_precision": 0,
+        "fixed": false,
+        "example_values": {
+          "E3": 50,
+          "producer_KJ": 5000,
+          "second_trophic_KJ": 500
+        }
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_bio_sht_und_001",
+      "use_for": "understanding",
+      "text": "Give any two ways in which biodegradable substances would affect the environment.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "biodegradable",
+          "decompose",
+          "eutrophication",
+          "methane",
+          "water pollution",
+          "soil"
+        ],
+        "key_points": [
+          "1. In large quantities they may cause water pollution (e.g., sewage leading to eutrophication — excessive algal growth depleting oxygen).",
+          "2. Decomposition of organic waste produces methane and other gases, contributing to air pollution and greenhouse effect.",
+          "3. They temporarily make the soil too rich in one nutrient, disturbing balance."
+        ],
+        "formula": null,
+        "expected_answer": "Two ways biodegradable substances affect the environment: 1. In large amounts they cause water pollution — when dumped in water bodies they promote eutrophication (excessive algal growth) which depletes dissolved oxygen and kills aquatic life. 2. Their decomposition produces methane and CO₂ gases, contributing to the greenhouse effect and air pollution.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "effect_1": 1,
+          "effect_2": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_bio_sht_und_002",
+      "use_for": "understanding",
+      "text": "Give any two ways in which non-biodegradable substances would affect the environment.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "non-biodegradable",
+          "biological magnification",
+          "persist",
+          "soil pollution",
+          "water pollution",
+          "accumulate"
+        ],
+        "key_points": [
+          "1. They persist in the environment for hundreds of years, causing long-term pollution.",
+          "2. They enter food chains and cause biological magnification, harming top consumers including humans."
+        ],
+        "formula": null,
+        "expected_answer": "Two ways non-biodegradable substances affect the environment: 1. They accumulate in the environment (soil, water) for hundreds of years, causing persistent pollution and harming ecosystems. 2. They enter food chains and undergo biological magnification — concentrating at each trophic level and causing serious harm to top consumers (e.g., DDT causing thinning of bird egg shells, health effects in humans).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "effect_1": 1,
+          "effect_2": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_ozo_mcq_und_001",
+      "use_for": "understanding",
+      "text": "Ozone is formed in the upper atmosphere when:\n(a) UV radiation splits N₂ into atoms\n(b) UV radiation splits O₂ into free oxygen atoms that combine with O₂\n(c) CFCs react with O₂\n(d) UV radiation splits CO₂",
+      "options": [
+        {
+          "text": "UV radiation splits N₂ into atoms",
+          "is_correct": false
+        },
+        {
+          "text": "UV radiation splits O₂ into free oxygen atoms that combine with O₂",
+          "is_correct": true
+        },
+        {
+          "text": "CFCs react with O₂",
+          "is_correct": false
+        },
+        {
+          "text": "UV radiation splits CO₂",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "UV radiation",
+          "O₂",
+          "free oxygen atoms",
+          "ozone",
+          "O₃"
+        ],
+        "key_points": [
+          "O₂ →(UV) O + O;  O + O₂ → O₃.",
+          "UV radiation splits O₂, and free O atoms combine with O₂ to form O₃."
+        ],
+        "formula": null,
+        "expected_answer": "UV radiation splits O₂ into free oxygen atoms that combine with O₂",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_ozo_sht_und_001",
+      "use_for": "understanding",
+      "text": "What is ozone and how does it affect the ecosystem?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ozone",
+          "O₃",
+          "stratosphere",
+          "UV",
+          "shield",
+          "ecosystem",
+          "skin cancer",
+          "aquatic life"
+        ],
+        "key_points": [
+          "Ozone (O₃): a molecule of three oxygen atoms; found in the stratosphere.",
+          "Function: absorbs harmful UV radiation, shielding the earth.",
+          "Effect on ecosystem: without it UV reaches earth causing skin cancer, cataracts, harming plant productivity and aquatic life."
+        ],
+        "formula": null,
+        "expected_answer": "Ozone (O₃) is a molecule consisting of three oxygen atoms. It is present in the stratosphere (upper atmosphere) and acts as a shield, absorbing harmful UV-B and UV-C radiation from the sun. Effect on ecosystem: The ozone layer protects all life on earth. Its depletion allows UV radiation to reach the earth's surface, causing skin cancer and cataracts in humans, reducing crop yields in plants, and harming phytoplankton and other aquatic organisms, disrupting food chains.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition_and_location": 1,
+          "effect_on_ecosystem": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_wst_mcq_und_001",
+      "use_for": "understanding",
+      "text": "Which of the following groups contains ONLY biodegradable items?\n(a) Grass, flowers and leather\n(b) Grass, wood and plastic\n(c) Fruit-peels, cake and lime-juice\n(d) Cake, wood and grass",
+      "options": [
+        {
+          "text": "Grass, flowers and leather",
+          "is_correct": false
+        },
+        {
+          "text": "Grass, wood and plastic",
+          "is_correct": false
+        },
+        {
+          "text": "Fruit-peels, cake and lime-juice",
+          "is_correct": true
+        },
+        {
+          "text": "Cake, wood and grass",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "biodegradable",
+          "fruit-peels",
+          "cake",
+          "lime-juice",
+          "decompose"
+        ],
+        "key_points": [
+          "(c) Fruit-peels, cake and lime-juice are all biodegradable organic items.",
+          "(a) Leather decomposes very slowly and is sometimes classified as non-biodegradable.",
+          "(b) Plastic is non-biodegradable.",
+          "(d) Wood and cake are biodegradable, but this is not the cleanest answer; (c) is most clearly all-biodegradable."
+        ],
+        "formula": null,
+        "expected_answer": "Fruit-peels, cake and lime-juice",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_wst_sht_und_001",
+      "use_for": "understanding",
+      "text": "How can you help in reducing the problem of waste disposal? Give any two methods.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "reduce",
+          "reuse",
+          "recycle",
+          "refuse",
+          "compost",
+          "segregation",
+          "biodegradable"
+        ],
+        "key_points": [
+          "Any two valid methods from: reduce consumption, reuse containers/bags, recycle paper/glass/metal, refuse single-use plastics, compost organic waste, segregate biodegradable and non-biodegradable waste."
+        ],
+        "formula": null,
+        "expected_answer": "Two methods to reduce the problem of waste disposal: 1. Reduce and Reuse: carry cloth bags instead of plastic bags; reuse glass bottles and containers to reduce waste generation. 2. Segregate and Recycle: separate biodegradable waste (for composting) from non-biodegradable waste (for recycling), so less ends up in landfills.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "method_1": 1,
+          "method_2": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "ch15_cb_001",
+      "text": "A village installs a 500 kW solar plant generating power 9 AM–5 PM. Output drops 80% on cloudy days. They also use a biogas plant fed with cattle dung.\n\n(a) State one advantage and one limitation of solar energy. [2]\n(b) Write the overall reaction in a biogas plant. [1]\n(c) Why is biogas a cleaner fuel than directly burning dung cakes? [1]",
+      "type": "case_based",
+      "marks": 4,
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "solar",
+          "renewable",
+          "biogas",
+          "methane",
+          "CH4",
+          "anaerobic",
+          "clean",
+          "smoke"
+        ],
+        "key_points": [
+          "Advantage: renewable/inexhaustible, non-polluting",
+          "Limitation: intermittent (unavailable at night, reduced on cloudy days)",
+          "Biogas: organic matter → CH4 + CO2 + H2O (anaerobic decomposition)",
+          "Biogas burns completely; dung cakes produce smoke/toxic gases causing pollution"
+        ],
+        "expected_answer": "(a) Advantage: renewable, no pollution. Limitation: intermittent—unavailable at night and reduced on cloudy days. (b) Organic matter (dung) undergoes anaerobic decomposition: complex organics → CH4 + CO2 + H2O. (c) Biogas burns completely producing CO2 and water; burning dung cakes produces smoke, soot and CO causing air pollution.",
+        "formula": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

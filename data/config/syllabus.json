@@ -1,0 +1,195 @@
+{
+  "subject": "Science",
+  "class": 10,
+  "board": "CBSE",
+  "total_marks": 84,
+  "chapters": [
+    {
+      "id": "ch01_chemical_reactions",
+      "title": "Chemical Reactions and Equations",
+      "subject": "Chemistry",
+      "ncert_chapter": 1,
+      "board_weightage": 7,
+      "topics": [
+        { "id": "chemical_equations",  "title": "Chemical Equations",                "board_weightage": 0.20 },
+        { "id": "types_of_reactions",  "title": "Types of Chemical Reactions",       "board_weightage": 0.30 },
+        { "id": "oxidation_reduction", "title": "Oxidation and Reduction",           "board_weightage": 0.30 },
+        { "id": "corrosion_rancidity", "title": "Corrosion and Rancidity",           "board_weightage": 0.20 }
+      ]
+    },
+    {
+      "id": "ch02_acids_bases_salts",
+      "title": "Acids, Bases and Salts",
+      "subject": "Chemistry",
+      "ncert_chapter": 2,
+      "board_weightage": 6,
+      "topics": [
+        { "id": "properties_acids_bases", "title": "Properties of Acids and Bases",  "board_weightage": 0.25 },
+        { "id": "ph_scale",               "title": "pH Scale",                       "board_weightage": 0.20 },
+        { "id": "salts",                  "title": "Salts",                          "board_weightage": 0.20 },
+        { "id": "sodium_hydroxide",       "title": "Sodium Hydroxide",               "board_weightage": 0.10 },
+        { "id": "baking_soda",            "title": "Baking Soda and Bleaching Powder","board_weightage": 0.15 },
+        { "id": "plaster_of_paris",       "title": "Plaster of Paris",               "board_weightage": 0.10 }
+      ]
+    },
+    {
+      "id": "ch03_metals_non_metals",
+      "title": "Metals and Non-Metals",
+      "subject": "Chemistry",
+      "ncert_chapter": 3,
+      "board_weightage": 7,
+      "topics": [
+        { "id": "physical_properties",  "title": "Physical Properties of Metals and Non-Metals", "board_weightage": 0.20 },
+        { "id": "chemical_properties",  "title": "Chemical Properties of Metals",    "board_weightage": 0.25 },
+        { "id": "reactivity_series",    "title": "Reactivity Series",                "board_weightage": 0.25 },
+        { "id": "ionic_compounds",      "title": "Ionic Compounds",                  "board_weightage": 0.20 },
+        { "id": "corrosion",            "title": "Corrosion and Its Prevention",     "board_weightage": 0.10 }
+      ]
+    },
+    {
+      "id": "ch04_carbon_compounds",
+      "title": "Carbon and its Compounds",
+      "subject": "Chemistry",
+      "ncert_chapter": 4,
+      "board_weightage": 7,
+      "topics": [
+        { "id": "covalent_bonding",      "title": "Covalent Bonding",                "board_weightage": 0.20 },
+        { "id": "carbon_compounds",      "title": "Versatile Nature of Carbon",      "board_weightage": 0.15 },
+        { "id": "homologous_series",     "title": "Homologous Series",               "board_weightage": 0.20 },
+        { "id": "nomenclature",          "title": "Nomenclature of Carbon Compounds","board_weightage": 0.15 },
+        { "id": "ethanol_ethanoic_acid", "title": "Ethanol and Ethanoic Acid",       "board_weightage": 0.15 },
+        { "id": "soaps_detergents",      "title": "Soaps and Detergents",            "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "ch05_life_processes",
+      "title": "Life Processes",
+      "subject": "Biology",
+      "ncert_chapter": 6,
+      "board_weightage": 7,
+      "topics": [
+        { "id": "nutrition",      "title": "Nutrition",       "board_weightage": 0.30 },
+        { "id": "respiration",    "title": "Respiration",     "board_weightage": 0.25 },
+        { "id": "transportation", "title": "Transportation",  "board_weightage": 0.25 },
+        { "id": "excretion",      "title": "Excretion",       "board_weightage": 0.20 }
+      ]
+    },
+    {
+      "id": "ch06_control_coordination",
+      "title": "Control and Coordination",
+      "subject": "Biology",
+      "ncert_chapter": 7,
+      "board_weightage": 6,
+      "topics": [
+        { "id": "nervous_system",   "title": "Nervous System",                 "board_weightage": 0.25 },
+        { "id": "reflex_action",    "title": "Reflex Action",                  "board_weightage": 0.20 },
+        { "id": "human_brain",      "title": "Human Brain",                    "board_weightage": 0.25 },
+        { "id": "hormones",         "title": "Hormones in Animals",            "board_weightage": 0.15 },
+        { "id": "plant_hormones",   "title": "Plant Hormones",                 "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "ch07_reproduction",
+      "title": "How do Organisms Reproduce?",
+      "subject": "Biology",
+      "ncert_chapter": 8,
+      "board_weightage": 5,
+      "topics": [
+        { "id": "asexual_reproduction",      "title": "Asexual Reproduction",           "board_weightage": 0.25 },
+        { "id": "sexual_reproduction",       "title": "Sexual Reproduction",            "board_weightage": 0.30 },
+        { "id": "human_reproductive_system", "title": "Human Reproductive System",     "board_weightage": 0.30 },
+        { "id": "contraception",             "title": "Contraception",                  "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "ch08_heredity",
+      "title": "Heredity and Evolution",
+      "subject": "Biology",
+      "ncert_chapter": 9,
+      "board_weightage": 9,
+      "topics": [
+        { "id": "heredity",          "title": "Heredity",                      "board_weightage": 0.20 },
+        { "id": "mendels_laws",      "title": "Mendel's Laws of Inheritance",  "board_weightage": 0.25 },
+        { "id": "sex_determination", "title": "Sex Determination",             "board_weightage": 0.15 },
+        { "id": "evolution",         "title": "Evolution",                     "board_weightage": 0.20 },
+        { "id": "speciation",        "title": "Speciation",                    "board_weightage": 0.10 },
+        { "id": "human_evolution",   "title": "Human Evolution",               "board_weightage": 0.10 }
+      ]
+    },
+    {
+      "id": "ch10_light",
+      "title": "Light -- Reflection and Refraction",
+      "subject": "Physics",
+      "ncert_chapter": 10,
+      "board_weightage": 7,
+      "topics": [
+        { "id": "laws_of_reflection",    "title": "Laws of Reflection",                  "board_weightage": 0.10 },
+        { "id": "spherical_mirrors",     "title": "Spherical Mirrors",                   "board_weightage": 0.20 },
+        { "id": "mirror_formula",        "title": "Mirror Formula and Magnification",    "board_weightage": 0.20 },
+        { "id": "refraction",            "title": "Refraction of Light",                 "board_weightage": 0.15 },
+        { "id": "refraction_glass_slab", "title": "Refraction through Glass Slab",       "board_weightage": 0.10 },
+        { "id": "spherical_lenses",      "title": "Spherical Lenses",                    "board_weightage": 0.15 },
+        { "id": "lens_formula",          "title": "Lens Formula and Magnification",      "board_weightage": 0.10 }
+      ]
+    },
+    {
+      "id": "ch11_human_eye",
+      "title": "The Human Eye and the Colourful World",
+      "subject": "Physics",
+      "ncert_chapter": 11,
+      "board_weightage": 5,
+      "topics": [
+        { "id": "human_eye_structure",   "title": "Human Eye -- Structure and Function", "board_weightage": 0.20 },
+        { "id": "defects_of_vision",     "title": "Defects of Vision and Correction",   "board_weightage": 0.35 },
+        { "id": "refraction_atmosphere", "title": "Atmospheric Refraction",              "board_weightage": 0.15 },
+        { "id": "dispersion_prism",      "title": "Dispersion through Prism",            "board_weightage": 0.15 },
+        { "id": "scattering_light",      "title": "Scattering of Light",                 "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "ch12_electricity",
+      "title": "Electricity",
+      "subject": "Physics",
+      "ncert_chapter": 12,
+      "board_weightage": 8,
+      "topics": [
+        { "id": "electric_current_circuit", "title": "Electric Current and Circuit",             "board_weightage": 0.10 },
+        { "id": "potential_difference",     "title": "Potential Difference",                     "board_weightage": 0.10 },
+        { "id": "ohms_law",                 "title": "Ohm's Law",                               "board_weightage": 0.15 },
+        { "id": "resistance_factors",       "title": "Resistance and Factors Affecting It",     "board_weightage": 0.15 },
+        { "id": "series_parallel",          "title": "Series and Parallel Circuits",            "board_weightage": 0.20 },
+        { "id": "heating_effect",           "title": "Heating Effect of Electric Current",      "board_weightage": 0.15 },
+        { "id": "electric_power_energy",    "title": "Electric Power and Energy",               "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "ch13_magnetic_effects",
+      "title": "Magnetic Effects of Current",
+      "subject": "Physics",
+      "ncert_chapter": 13,
+      "board_weightage": 7,
+      "topics": [
+        { "id": "magnetic_field_lines",        "title": "Magnetic Field and Field Lines",                      "board_weightage": 0.15 },
+        { "id": "field_due_to_conductor",      "title": "Magnetic Field due to Current-Carrying Conductor",   "board_weightage": 0.15 },
+        { "id": "solenoid",                    "title": "Solenoid and Bar Magnet",                            "board_weightage": 0.10 },
+        { "id": "force_on_conductor",          "title": "Force on Current-Carrying Conductor",                "board_weightage": 0.15 },
+        { "id": "electric_motor",              "title": "Electric Motor",                                     "board_weightage": 0.15 },
+        { "id": "electromagnetic_induction",   "title": "Electromagnetic Induction",                          "board_weightage": 0.15 },
+        { "id": "electric_generator",          "title": "Electric Generator",                                 "board_weightage": 0.15 }
+      ]
+    },
+    {
+      "id": "ch15_our_environment",
+      "title": "Our Environment",
+      "subject": "Environmental Science",
+      "ncert_chapter": 15,
+      "board_weightage": 3,
+      "topics": [
+        { "id": "ecosystem",        "title": "Ecosystem",                 "board_weightage": 0.30 },
+        { "id": "food_chains",      "title": "Food Chains and Food Webs", "board_weightage": 0.25 },
+        { "id": "ozone_layer",      "title": "Ozone Layer Depletion",     "board_weightage": 0.20 },
+        { "id": "waste_management", "title": "Waste Management",          "board_weightage": 0.25 }
+      ]
+    }
+  ]
+}

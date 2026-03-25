@@ -1,0 +1,2215 @@
+{
+  "chapter_id": "ch07_reproduction",
+  "chapter_title": "How do Organisms Reproduce?",
+  "questions": [
+    {
+      "id": "chap7_dcv_mcq_001",
+      "use_for": "test",
+      "text": "DNA copying is essential during reproduction because:",
+      "options": [
+        {
+          "text": "It helps organisms grow larger",
+          "is_correct": false
+        },
+        {
+          "text": "It ensures transfer of characters and generates variations",
+          "is_correct": true
+        },
+        {
+          "text": "It provides energy for cell division",
+          "is_correct": false
+        },
+        {
+          "text": "It produces proteins for the organism",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "DNA",
+          "copying",
+          "variation",
+          "inheritance"
+        ],
+        "key_points": [
+          "DNA copying transfers genetic information to the next generation",
+          "Variations generated during copying are basis for evolution"
+        ],
+        "formula": null,
+        "expected_answer": "(b) It ensures transfer of characters and generates variations.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_dcv_sa_001",
+      "use_for": "test",
+      "text": "Why is variation beneficial to the species but not necessarily for the individual?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "variation",
+          "species",
+          "survival",
+          "niche",
+          "population"
+        ],
+        "key_points": [
+          "Variations allow some individuals in a population to survive changing environments",
+          "A particular variation may not benefit a specific individual but helps the species survive as a whole",
+          "Example: heat-resistant bacteria surviving if water temperature rises"
+        ],
+        "formula": null,
+        "expected_answer": "Variations are beneficial to the species because they enable some individuals to survive in changed environmental conditions, thus ensuring species survival. However, for an individual organism, a variation may or may not be useful — for example, heat-resistant bacteria survive warming water, but the variation is useless if temperatures remain normal.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "Mentions species survival benefit only"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_dcv_num_001",
+      "use_for": "test",
+      "text": "If the somatic (body) cells of an organism contain 48 chromosomes, how many chromosomes will be present in each gamete (reproductive cell) produced after meiosis?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "meiosis",
+          "gamete",
+          "haploid",
+          "chromosomes"
+        ],
+        "key_points": [
+          "Meiosis reduces chromosome number to half",
+          "Gametes are haploid cells"
+        ],
+        "formula": "somatic_chromosomes / 2",
+        "expected_answer": "Number of chromosomes in each gamete = 48 / 2 = 24 chromosomes. During meiosis, the chromosome number is halved so that when two gametes fuse during fertilisation, the original diploid number is restored.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "somatic_chromosomes": {
+            "min": 20,
+            "max": 60,
+            "step": 2
+          }
+        },
+        "formula_expression": "somatic_chromosomes / 2",
+        "units": "chromosomes",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_mcq_001",
+      "use_for": "test",
+      "text": "Asexual reproduction takes place through budding in:",
+      "options": [
+        {
+          "text": "Amoeba",
+          "is_correct": false
+        },
+        {
+          "text": "Yeast",
+          "is_correct": true
+        },
+        {
+          "text": "Plasmodium",
+          "is_correct": false
+        },
+        {
+          "text": "Leishmania",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "budding",
+          "yeast"
+        ],
+        "key_points": [
+          "Yeast reproduces asexually by budding"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Yeast",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_mcq_002",
+      "use_for": "test",
+      "text": "Multiple fission is the mode of asexual reproduction observed in:",
+      "options": [
+        {
+          "text": "Hydra",
+          "is_correct": false
+        },
+        {
+          "text": "Spirogyra",
+          "is_correct": false
+        },
+        {
+          "text": "Plasmodium",
+          "is_correct": true
+        },
+        {
+          "text": "Bryophyllum",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "multiple fission",
+          "Plasmodium"
+        ],
+        "key_points": [
+          "Plasmodium (malarial parasite) divides into many daughter cells simultaneously by multiple fission"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Plasmodium",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_sa_001",
+      "use_for": "test",
+      "text": "How does binary fission differ from multiple fission?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "binary fission",
+          "multiple fission",
+          "two",
+          "many"
+        ],
+        "key_points": [
+          "In binary fission, the parent cell splits into two equal daughter cells (e.g., Amoeba)",
+          "In multiple fission, the parent cell divides into many daughter cells simultaneously (e.g., Plasmodium)"
+        ],
+        "formula": null,
+        "expected_answer": "In binary fission, the parent organism splits into two daughter cells (e.g., Amoeba, Leishmania). In multiple fission, the parent cell divides into many daughter cells simultaneously (e.g., Plasmodium). Binary fission produces two offspring while multiple fission produces many offspring at once.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "Defines only one type correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_sa_002",
+      "use_for": "test",
+      "text": "How will an organism be benefited if it reproduces through spores?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "spores",
+          "thick wall",
+          "protection",
+          "germination"
+        ],
+        "key_points": [
+          "Spores are covered by thick walls that protect them until favourable conditions",
+          "Spores are light and can be carried by wind/water for dispersal",
+          "A single organism can produce many spores, increasing chances of survival"
+        ],
+        "formula": null,
+        "expected_answer": "Spores are protected by thick walls that allow them to survive unfavourable conditions. They are light and produced in large numbers, which aids wide dispersal by wind and water. When conditions become favourable (moist surface), they germinate and grow into new individuals.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_sa_003",
+      "use_for": "test",
+      "text": "Differentiate between binary fission in Amoeba and Leishmania. How does Plasmodium reproduce asexually?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Amoeba",
+          "Leishmania",
+          "Plasmodium",
+          "any plane",
+          "definite orientation",
+          "multiple fission"
+        ],
+        "key_points": [
+          "In Amoeba, binary fission can occur in any plane as it has no fixed body shape",
+          "In Leishmania, binary fission occurs in a definite orientation (longitudinal) due to the whip-like flagellum",
+          "Plasmodium reproduces by multiple fission — divides into many daughter cells simultaneously"
+        ],
+        "formula": null,
+        "expected_answer": "In Amoeba, binary fission can take place in any plane since the organism has no fixed shape. In Leishmania, binary fission occurs in a definite orientation (along the longitudinal axis) because of its whip-like structure (flagellum) at one end. Plasmodium reproduces by multiple fission, where the parent cell divides into many daughter cells simultaneously.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "Any one organism explained correctly",
+          "2": "Any two organisms explained correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_sa_004",
+      "use_for": "test",
+      "text": "Can you think of reasons why more complex organisms cannot give rise to new individuals through regeneration?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "complex",
+          "specialised",
+          "tissues",
+          "organs",
+          "cell-by-cell"
+        ],
+        "key_points": [
+          "Complex organisms have highly specialised and organised tissues/organs",
+          "They cannot simply divide cell-by-cell — specific cell types must be arranged in definite positions",
+          "Regeneration requires specialised cells that can dedifferentiate, which complex organisms lack in sufficient numbers"
+        ],
+        "formula": null,
+        "expected_answer": "Complex multi-cellular organisms have specialised cells organised into tissues and organs placed at definite positions. They cannot regenerate from cut pieces because their body design requires specific organisation that cannot be recreated by simple cell division. Unlike Hydra or Planaria, they lack enough specialised regenerative cells to rebuild the entire body plan.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_la_001",
+      "use_for": "test",
+      "text": "Explain fission as a mode of reproduction in organisms. Describe with examples how binary fission occurs differently in Amoeba and Leishmania, and how multiple fission occurs in Plasmodium.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "fission",
+          "binary",
+          "multiple",
+          "Amoeba",
+          "Leishmania",
+          "Plasmodium",
+          "any plane",
+          "definite orientation",
+          "daughter cells"
+        ],
+        "key_points": [
+          "Fission is division of parent cell into daughter cells",
+          "Binary fission: parent splits into two equal daughter cells",
+          "Amoeba: fission in any plane (no fixed body shape)",
+          "Leishmania: fission in definite longitudinal orientation due to flagellum",
+          "Multiple fission: Plasmodium divides into many daughter cells simultaneously",
+          "Cyst formation may occur in unfavourable conditions before multiple fission"
+        ],
+        "formula": null,
+        "expected_answer": "Fission is a mode of asexual reproduction in unicellular organisms where the parent cell divides into daughter cells. In binary fission, the cell splits into two equal halves. In Amoeba, this can occur in any plane since it has no fixed body shape. In Leishmania, which has a whip-like flagellum at one end, binary fission occurs in a definite longitudinal orientation. In multiple fission, as seen in Plasmodium (malarial parasite), the parent cell divides into many daughter cells simultaneously. Under unfavourable conditions, Plasmodium forms a cyst and upon return of favourable conditions, undergoes multiple fission to produce many daughter cells at once.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "2": "Any two organisms explained",
+          "3": "All three organisms but lacking detail",
+          "4": "Complete but without diagrams/examples"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_dia_001",
+      "use_for": "test",
+      "text": "Draw a neat labelled diagram showing budding in Hydra. Briefly explain the process.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "budding",
+          "Hydra",
+          "outgrowth",
+          "bud",
+          "detach"
+        ],
+        "key_points": [
+          "A bud develops as an outgrowth due to repeated cell division at one specific site",
+          "The bud develops into a tiny individual",
+          "When fully mature, it detaches from the parent body and becomes an independent individual"
+        ],
+        "formula": null,
+        "expected_answer": "In Hydra, budding occurs when a bud develops as an outgrowth due to repeated cell division at a specific site on the body. The bud gradually grows, develops tentacles, and forms a tiny individual. When fully mature, it detaches from the parent body and becomes a new independent organism.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Parent Hydra body shown",
+          "Bud emerging from body wall",
+          "Developing bud with tentacles",
+          "Labels: parent body, bud, tentacles"
+        ],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): Regeneration is not the same as reproduction.\nReason (R): Most organisms do not normally depend on being cut up to be able to reproduce.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "regeneration",
+          "reproduction",
+          "cut"
+        ],
+        "key_points": [
+          "Regeneration and reproduction are different processes",
+          "Regeneration occurs when an organism is cut, but organisms don't rely on being cut to reproduce"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true and R is the correct explanation of A. Regeneration is the ability to regrow from body parts when cut, but it is not a normal reproductive strategy. Organisms reproduce through other dedicated mechanisms.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_vgp_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following is an example of vegetative propagation?",
+      "options": [
+        {
+          "text": "Spore formation in Rhizopus",
+          "is_correct": false
+        },
+        {
+          "text": "Budding in Hydra",
+          "is_correct": false
+        },
+        {
+          "text": "Leaf buds in Bryophyllum",
+          "is_correct": true
+        },
+        {
+          "text": "Binary fission in Amoeba",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "vegetative propagation",
+          "Bryophyllum",
+          "leaf buds"
+        ],
+        "key_points": [
+          "Bryophyllum reproduces vegetatively through buds on leaf margins"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Leaf buds in Bryophyllum. Buds produced in the notches along the leaf margin of Bryophyllum fall on the soil and develop into new plants — this is vegetative propagation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_vgp_sa_001",
+      "use_for": "test",
+      "text": "Why is vegetative propagation practised for growing some types of plants?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "vegetative propagation",
+          "genetically similar",
+          "faster",
+          "seedless"
+        ],
+        "key_points": [
+          "Plants raised by vegetative propagation bear flowers and fruits earlier than those from seeds",
+          "It enables propagation of plants that have lost the capacity to produce seeds (banana, orange, rose)",
+          "All plants produced are genetically similar to the parent plant, preserving desirable characteristics"
+        ],
+        "formula": null,
+        "expected_answer": "Vegetative propagation is practised because: (1) Plants bear flowers and fruits earlier than those grown from seeds. (2) It allows propagation of plants that have lost the capacity to produce seeds, such as banana, orange, and jasmine. (3) All plants produced are genetically identical to the parent, ensuring desirable characteristics are maintained.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "Any one advantage stated correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_mcq_001",
+      "use_for": "test",
+      "text": "The anther contains:",
+      "options": [
+        {
+          "text": "sepals",
+          "is_correct": false
+        },
+        {
+          "text": "ovules",
+          "is_correct": false
+        },
+        {
+          "text": "pistil",
+          "is_correct": false
+        },
+        {
+          "text": "pollen grains",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "anther",
+          "pollen grains"
+        ],
+        "key_points": [
+          "The anther is part of the stamen and produces pollen grains"
+        ],
+        "formula": null,
+        "expected_answer": "(d) Pollen grains. The anther is the top part of the stamen and produces yellowish pollen grains containing male germ-cells.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_mcq_002",
+      "use_for": "test",
+      "text": "After fertilisation in a flower, the ovary develops into:",
+      "options": [
+        {
+          "text": "seed",
+          "is_correct": false
+        },
+        {
+          "text": "fruit",
+          "is_correct": true
+        },
+        {
+          "text": "embryo",
+          "is_correct": false
+        },
+        {
+          "text": "pollen tube",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ovary",
+          "fruit",
+          "fertilisation"
+        ],
+        "key_points": [
+          "After fertilisation, the ovary grows rapidly and ripens to form a fruit"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Fruit. After fertilisation, the ovary grows rapidly and ripens to form a fruit, while the ovule develops into a seed.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_sa_001",
+      "use_for": "test",
+      "text": "How is the process of pollination different from fertilisation?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "pollination",
+          "fertilisation",
+          "pollen",
+          "stigma",
+          "fusion",
+          "gametes"
+        ],
+        "key_points": [
+          "Pollination is the transfer of pollen grains from anther to stigma of a flower",
+          "Fertilisation is the fusion of male germ-cell (from pollen) with female gamete (egg) in the ovule",
+          "Pollination precedes fertilisation"
+        ],
+        "formula": null,
+        "expected_answer": "Pollination is the transfer of pollen grains from the anther to the stigma of a flower. It can be self-pollination (same flower) or cross-pollination (different flower). Fertilisation is the fusion of the male germ-cell (from pollen grain) with the female gamete (egg cell) present in the ovule. Pollination is a prerequisite for fertilisation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_sa_002",
+      "use_for": "test",
+      "text": "What changes occur in a flower after fertilisation? Explain the formation of seed and fruit.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "zygote",
+          "embryo",
+          "ovule",
+          "seed",
+          "ovary",
+          "fruit",
+          "petals",
+          "sepals"
+        ],
+        "key_points": [
+          "Zygote divides several times to form an embryo within the ovule",
+          "Ovule develops a tough coat and is converted into a seed",
+          "Ovary grows rapidly and ripens to form a fruit",
+          "Petals, sepals, stamens, style and stigma may shrivel and fall off"
+        ],
+        "formula": null,
+        "expected_answer": "After fertilisation: (1) The zygote divides repeatedly to form an embryo within the ovule. (2) The ovule develops a tough coat and gradually converts into a seed containing the embryo. (3) The ovary grows rapidly and ripens to form a fruit. (4) The petals, sepals, stamens, style and stigma usually shrivel and fall off.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "Any two changes mentioned",
+          "2": "Seed or fruit formation explained"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_sa_003",
+      "use_for": "test",
+      "text": "Differentiate between self-pollination and cross-pollination. Name two agents of pollination.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "self-pollination",
+          "cross-pollination",
+          "wind",
+          "water",
+          "animals",
+          "insects"
+        ],
+        "key_points": [
+          "Self-pollination: transfer of pollen from anther to stigma of the same flower",
+          "Cross-pollination: transfer of pollen from one flower to another flower",
+          "Agents: wind, water, animals/insects"
+        ],
+        "formula": null,
+        "expected_answer": "Self-pollination is the transfer of pollen grains from the anther to the stigma of the same flower. Cross-pollination is the transfer of pollen grains from the anther of one flower to the stigma of another flower. Two agents of pollination are wind and insects.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_la_001",
+      "use_for": "test",
+      "text": "Describe the process of sexual reproduction in flowering plants, starting from the structure of a flower to the formation of a seed. Include the roles of pollination, pollen tube growth, and fertilisation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "stamen",
+          "pistil",
+          "anther",
+          "pollen",
+          "stigma",
+          "style",
+          "ovary",
+          "ovule",
+          "pollen tube",
+          "fertilisation",
+          "zygote",
+          "embryo",
+          "seed",
+          "fruit"
+        ],
+        "key_points": [
+          "Flower has stamen (male) with anther producing pollen, and pistil (female) with stigma, style, and ovary",
+          "Ovary contains ovules with egg cells",
+          "Pollination transfers pollen from anther to stigma (self or cross)",
+          "Pollen grain germinates on stigma, pollen tube grows through style to reach ovary",
+          "Male germ-cell fuses with female gamete in ovule — fertilisation",
+          "Zygote divides to form embryo; ovule becomes seed; ovary becomes fruit"
+        ],
+        "formula": null,
+        "expected_answer": "A flower contains stamens (male) and pistil (female) as reproductive parts. The anther of the stamen produces pollen grains. The pistil consists of stigma, style, and ovary. The ovary contains ovules, each with an egg cell. During pollination, pollen is transferred from anther to stigma by wind, water, or animals. The pollen grain germinates on the stigma, and a pollen tube grows through the style to reach the ovary. The male germ-cell travels through the pollen tube and fuses with the female gamete in the ovule — this is fertilisation. The resulting zygote divides to form an embryo. The ovule develops into a seed (with embryo and food store), and the ovary ripens into a fruit.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "2": "Flower structure described",
+          "3": "Pollination and fertilisation explained",
+          "4": "Complete but lacking seed/fruit formation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_dia_001",
+      "use_for": "test",
+      "text": "Study the diagram of the longitudinal section of a flower shown in the figure. Identify the parts labelled A, B, C and D. State the function of part A and part D.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "stigma",
+          "style",
+          "ovary",
+          "anther",
+          "petal",
+          "sepal",
+          "stamen",
+          "pistil"
+        ],
+        "key_points": [
+          "Identification of labelled parts (A=Anther, B=Stigma, C=Style, D=Ovary with ovules)",
+          "Function of A (Anther): produces pollen grains containing male germ-cells",
+          "Function of D (Ovary): contains ovules with egg cells; develops into fruit after fertilisation"
+        ],
+        "formula": null,
+        "expected_answer": "A = Anther (produces pollen grains containing male germ-cells), B = Stigma (sticky surface that receives pollen grains), C = Style (elongated tube connecting stigma to ovary), D = Ovary (contains ovules with egg cells; develops into fruit after fertilisation).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "Any two parts identified",
+          "2": "All parts identified but functions missing"
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap7_srp_dia_001.png"
+    },
+    {
+      "id": "chap7_srp_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): Cross-pollination introduces greater genetic variation than self-pollination.\nReason (R): Cross-pollination involves transfer of pollen from one flower to the stigma of another flower on a different plant.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "cross-pollination",
+          "variation",
+          "different plant"
+        ],
+        "key_points": [
+          "Cross-pollination brings pollen from a different plant, combining different genetic material, thus creating more variation"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true and R is the correct explanation of A. Cross-pollination brings genetic material from a different plant, leading to greater genetic variation in offspring compared to self-pollination.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following is not a part of the female reproductive system in human beings?",
+      "options": [
+        {
+          "text": "Ovary",
+          "is_correct": false
+        },
+        {
+          "text": "Uterus",
+          "is_correct": false
+        },
+        {
+          "text": "Vas deferens",
+          "is_correct": true
+        },
+        {
+          "text": "Fallopian tube",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "vas deferens",
+          "male",
+          "female reproductive system"
+        ],
+        "key_points": [
+          "Vas deferens is part of the male reproductive system, not female"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Vas deferens. Vas deferens is part of the male reproductive system through which sperms are delivered.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_mcq_002",
+      "use_for": "test",
+      "text": "In human beings, the fertilisation of the ovum by the sperm takes place in the:",
+      "options": [
+        {
+          "text": "Uterus",
+          "is_correct": false
+        },
+        {
+          "text": "Ovary",
+          "is_correct": false
+        },
+        {
+          "text": "Fallopian tube (oviduct)",
+          "is_correct": true
+        },
+        {
+          "text": "Cervix",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "fertilisation",
+          "fallopian tube",
+          "oviduct"
+        ],
+        "key_points": [
+          "Fertilisation occurs in the fallopian tube (oviduct)"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Fallopian tube (oviduct). Sperms travel upwards and reach the oviduct where they may encounter the egg. Fertilisation takes place in the fallopian tube.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_sa_001",
+      "use_for": "test",
+      "text": "What is the role of the seminal vesicles and the prostate gland?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "seminal vesicles",
+          "prostate gland",
+          "fluid",
+          "nutrition",
+          "transport"
+        ],
+        "key_points": [
+          "Seminal vesicles and prostate gland add their secretions to the sperms",
+          "The fluid makes transport of sperms easier",
+          "The fluid also provides nutrition to the sperms"
+        ],
+        "formula": null,
+        "expected_answer": "The seminal vesicles and prostate gland add their secretions to the sperms along the path of the vas deferens. This fluid makes the transport of sperms easier and also provides nutrition to them.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_sa_002",
+      "use_for": "test",
+      "text": "Describe the sequence of events that occur from the fertilisation of the egg to the birth of the child in humans.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "fertilisation",
+          "zygote",
+          "embryo",
+          "implantation",
+          "uterus",
+          "placenta",
+          "foetus",
+          "birth"
+        ],
+        "key_points": [
+          "Fertilised egg (zygote) starts dividing to form a ball of cells (embryo)",
+          "Embryo is implanted in the lining of the uterus",
+          "Embryo develops organs and becomes a foetus",
+          "Placenta provides nutrition and oxygen from mother's blood",
+          "Development takes approximately nine months",
+          "Child is born by rhythmic contractions of uterine muscles"
+        ],
+        "formula": null,
+        "expected_answer": "After fertilisation in the fallopian tube, the zygote divides to form a ball of cells (embryo). The embryo is implanted in the thickened, blood-rich lining of the uterus. The placenta, a disc-like tissue embedded in the uterine wall with villi, provides a large surface area for exchange of glucose, oxygen, and waste between mother and embryo. The embryo develops organs to become a foetus over approximately nine months. Birth occurs through rhythmic contractions of the uterine muscles.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "Any two events mentioned",
+          "2": "Sequence correct but incomplete"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_sa_003",
+      "use_for": "test",
+      "text": "How does the embryo get nourishment inside the mother's body? Explain the role of the placenta.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "placenta",
+          "villi",
+          "blood spaces",
+          "glucose",
+          "oxygen",
+          "waste"
+        ],
+        "key_points": [
+          "Placenta is a disc-like tissue embedded in the uterine wall",
+          "Contains villi on the embryo's side and blood spaces on the mother's side",
+          "Provides large surface area for glucose and oxygen to pass from mother to embryo",
+          "Also allows removal of waste from embryo to mother's blood"
+        ],
+        "formula": null,
+        "expected_answer": "The embryo gets nourishment from the mother's blood through the placenta. The placenta is a disc-like special tissue embedded in the uterine wall. It contains villi on the embryo's side and blood spaces on the mother's side, providing a large surface area for glucose and oxygen to pass from the mother to the embryo. Waste substances from the embryo are also transferred to the mother's blood through the placenta.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_num_001",
+      "use_for": "test",
+      "text": "A woman has a regular menstrual cycle of 28 days. If her last menstrual period started on Day 1, on approximately which day of the cycle is ovulation most likely to occur? Show your reasoning.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "menstrual cycle",
+          "ovulation",
+          "day 14",
+          "28 days"
+        ],
+        "key_points": [
+          "Ovulation typically occurs about 14 days before the next menstruation",
+          "For a 28-day cycle: Day 28 - 14 = Day 14"
+        ],
+        "formula": "cycle_length - 14",
+        "expected_answer": "Ovulation typically occurs approximately 14 days before the start of the next menstrual period. For a 28-day cycle: 28 - 14 = Day 14. So ovulation most likely occurs around Day 14 of the cycle.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "cycle_length": {
+            "min": 26,
+            "max": 32,
+            "step": 1
+          }
+        },
+        "formula_expression": "cycle_length - 14",
+        "units": "day of cycle",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_la_001",
+      "use_for": "test",
+      "text": "Describe the male reproductive system in human beings. State the function of each part. Why are the testes located outside the abdominal cavity?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "testes",
+          "scrotum",
+          "vas deferens",
+          "urethra",
+          "prostate",
+          "seminal vesicles",
+          "penis",
+          "sperms",
+          "temperature"
+        ],
+        "key_points": [
+          "Testes: produce sperms and secrete testosterone",
+          "Scrotum: holds testes outside body for lower temperature required for sperm formation",
+          "Vas deferens: tube that carries sperms from testes",
+          "Prostate gland and seminal vesicles: add secretions that provide nutrition and make transport easier",
+          "Urethra: common passage for sperms and urine",
+          "Penis: delivers sperms into the female reproductive tract",
+          "Testes are outside because sperm formation requires lower temperature than normal body temperature"
+        ],
+        "formula": null,
+        "expected_answer": "The male reproductive system consists of: (1) Testes — produce sperms and secrete hormone testosterone; (2) Scrotum — sac that holds testes outside the abdominal cavity; (3) Vas deferens — tubes that carry sperms from testes; (4) Seminal vesicles and prostate gland — add secretions providing nutrition and easier transport; (5) Urethra — common passage for sperms and urine; (6) Penis — organ for delivering sperms. The testes are located outside the abdominal cavity in the scrotum because sperm formation requires a temperature lower than normal body temperature (37°C).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "2": "Three parts listed with functions",
+          "3": "Five parts with functions",
+          "4": "Complete parts but missing scrotum explanation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_dia_001",
+      "use_for": "test",
+      "text": "Study the diagram of the human female reproductive system shown in the figure. Identify and label the parts marked A, B, C, and D. Where does fertilisation take place?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ovary",
+          "fallopian tube",
+          "uterus",
+          "vagina",
+          "fertilisation"
+        ],
+        "key_points": [
+          "A = Ovary (produces eggs and hormones)",
+          "B = Fallopian tube / Oviduct (carries egg from ovary to uterus)",
+          "C = Uterus (where embryo implants and develops)",
+          "D = Vagina (birth canal)",
+          "Fertilisation takes place in the fallopian tube"
+        ],
+        "formula": null,
+        "expected_answer": "A = Ovary (produces eggs/ova and female hormones), B = Fallopian tube/Oviduct (carries egg from ovary to uterus; site of fertilisation), C = Uterus (embryo implants and develops here), D = Vagina (birth canal). Fertilisation takes place in the fallopian tube (B).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "Any two parts identified",
+          "2": "All parts identified but fertilisation site missing"
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap7_hre_dia_001.png"
+    },
+    {
+      "id": "chap7_rph_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following is a mechanical barrier method of contraception?",
+      "options": [
+        {
+          "text": "Oral pills",
+          "is_correct": false
+        },
+        {
+          "text": "Copper-T",
+          "is_correct": false
+        },
+        {
+          "text": "Condom",
+          "is_correct": true
+        },
+        {
+          "text": "Vasectomy",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "condom",
+          "mechanical barrier",
+          "contraception"
+        ],
+        "key_points": [
+          "Condom is a mechanical/physical barrier method that prevents sperm from reaching the egg"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Condom. A condom is a mechanical barrier placed on the penis (or worn in the vagina) that prevents sperms from reaching the egg.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_rph_sa_001",
+      "use_for": "test",
+      "text": "What are the different methods of contraception? Explain any three categories with one example each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "barrier",
+          "hormonal",
+          "IUCD",
+          "surgical",
+          "condom",
+          "pills",
+          "copper-T",
+          "vasectomy",
+          "tubectomy"
+        ],
+        "key_points": [
+          "Barrier methods: condoms — physical barrier preventing sperm from reaching egg",
+          "Hormonal methods: oral pills — change hormonal balance so eggs are not released",
+          "IUCD methods: copper-T — placed in uterus to prevent pregnancy",
+          "Surgical methods: vasectomy (male) / tubectomy (female) — block vas deferens or fallopian tube"
+        ],
+        "formula": null,
+        "expected_answer": "Contraceptive methods fall into several categories: (1) Barrier methods — condoms on penis or vaginal coverings create a physical barrier preventing sperm from reaching the egg; (2) Hormonal methods — oral contraceptive pills change hormonal balance so eggs are not released; (3) Intrauterine devices — copper-T placed in uterus prevents pregnancy; (4) Surgical methods — vasectomy (blocking vas deferens in males) or tubectomy (blocking fallopian tubes in females) prevents gamete transport.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "One category explained",
+          "2": "Two categories explained"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_rph_sa_002",
+      "use_for": "test",
+      "text": "If a woman is using a copper-T, will it help in protecting her from sexually transmitted diseases? Justify your answer.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "copper-T",
+          "STD",
+          "no protection",
+          "uterus",
+          "barrier"
+        ],
+        "key_points": [
+          "No, copper-T will not protect against STDs",
+          "Copper-T is placed in the uterus and only prevents pregnancy",
+          "It does not prevent the transmission of infections during sexual contact",
+          "Condoms provide protection against STDs"
+        ],
+        "formula": null,
+        "expected_answer": "No, a copper-T will not help protect against sexually transmitted diseases. The copper-T is placed in the uterus and only prevents pregnancy by blocking implantation. It does not act as a barrier against the transmission of infections during sexual contact. For protection against STDs, barrier methods like condoms should be used.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_rph_la_001",
+      "use_for": "test",
+      "text": "Discuss the importance of reproductive health in a society. Explain the need for adopting contraceptive methods and the significance of the legal ban on prenatal sex determination in India.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "reproductive health",
+          "contraception",
+          "population",
+          "STD",
+          "sex determination",
+          "female foeticide",
+          "sex ratio"
+        ],
+        "key_points": [
+          "Sexual maturation does not mean the body/mind is ready for having children",
+          "STDs can be transmitted during sexual act — prevention is important",
+          "Contraception needed to avoid unwanted pregnancies affecting women's health",
+          "Population control is important for improving living standards",
+          "Prenatal sex determination banned to prevent illegal sex-selective abortion of female foetuses",
+          "Female foeticide leads to declining child sex ratio — harmful to society"
+        ],
+        "formula": null,
+        "expected_answer": "Reproductive health is crucial for a society. The sexual act can lead to STDs (gonorrhoea, syphilis, HIV-AIDS), so awareness and prevention (condoms) are important. Unwanted pregnancies adversely affect women's health, necessitating contraceptive methods (barrier, hormonal, IUCD, surgical). Population control through contraception helps improve living standards. The legal ban on prenatal sex determination is significant because sex-selective abortion of female foetuses (female foeticide) was causing an alarming decline in the child sex ratio. A balanced female-male sex ratio is essential for a healthy society.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "2": "STDs and contraception discussed",
+          "3": "Adds population concern",
+          "4": "Complete but prenatal sex determination not covered"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_rph_num_001",
+      "use_for": "test",
+      "text": "The normal gestation period in humans is approximately 40 weeks. Calculate the approximate number of days of pregnancy.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "gestation",
+          "weeks",
+          "days",
+          "280"
+        ],
+        "key_points": [
+          "Multiply weeks by 7 to get days",
+          "40 x 7 = 280 days"
+        ],
+        "formula": "weeks * 7",
+        "expected_answer": "Number of days = 40 weeks x 7 days/week = 280 days. The normal gestation period in humans is approximately 280 days (about 9 months).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "weeks": {
+            "min": 38,
+            "max": 42,
+            "step": 1
+          }
+        },
+        "formula_expression": "weeks * 7",
+        "units": "days",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_dcv_mcq_101",
+      "use_for": "understanding",
+      "text": "The process of DNA copying during reproduction ensures:",
+      "options": [
+        {
+          "text": "Organisms become exactly identical",
+          "is_correct": false
+        },
+        {
+          "text": "Transfer of characters with some variations",
+          "is_correct": true
+        },
+        {
+          "text": "Only proteins are synthesised",
+          "is_correct": false
+        },
+        {
+          "text": "No changes occur in offspring",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "DNA",
+          "copying",
+          "characters",
+          "variations"
+        ],
+        "key_points": [
+          "DNA copying transfers characters from parent to offspring with minor variations"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Transfer of characters with some variations.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_dcv_sa_101",
+      "use_for": "understanding",
+      "text": "What is the importance of DNA copying in reproduction? Give an example to show how variations can be useful for a species.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "DNA",
+          "copying",
+          "blueprints",
+          "variation",
+          "survival",
+          "bacteria"
+        ],
+        "key_points": [
+          "DNA copying is important because it transmits genetic information to next generation",
+          "It creates the blueprint for body design of offspring",
+          "Example: heat-resistant bacteria surviving global warming when others die"
+        ],
+        "formula": null,
+        "expected_answer": "DNA copying is essential because it transfers genetic information (blueprints for body design) from parent to offspring. Minor variations during copying ensure species survival in changed environments. For example, if water temperature increases due to global warming, most bacteria would die, but heat-resistant variants would survive and reproduce, ensuring species survival.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_mcq_101",
+      "use_for": "understanding",
+      "text": "Which organism reproduces by multiple fission?",
+      "options": [
+        {
+          "text": "Amoeba",
+          "is_correct": false
+        },
+        {
+          "text": "Hydra",
+          "is_correct": false
+        },
+        {
+          "text": "Plasmodium",
+          "is_correct": true
+        },
+        {
+          "text": "Spirogyra",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "multiple fission",
+          "Plasmodium"
+        ],
+        "key_points": [
+          "Plasmodium reproduces by multiple fission"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Plasmodium",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_mcq_102",
+      "use_for": "understanding",
+      "text": "Regeneration in organisms is carried out by:",
+      "options": [
+        {
+          "text": "Only differentiated cells",
+          "is_correct": false
+        },
+        {
+          "text": "Specialised cells that can proliferate and differentiate",
+          "is_correct": true
+        },
+        {
+          "text": "Only germ cells",
+          "is_correct": false
+        },
+        {
+          "text": "Only nerve cells",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "regeneration",
+          "specialised cells",
+          "proliferate",
+          "differentiate"
+        ],
+        "key_points": [
+          "Regeneration is carried out by specialised cells that proliferate and form different cell types through development"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Specialised cells that can proliferate and differentiate.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_mcq_103",
+      "use_for": "understanding",
+      "text": "Spore formation is a mode of asexual reproduction observed in:",
+      "options": [
+        {
+          "text": "Yeast",
+          "is_correct": false
+        },
+        {
+          "text": "Rhizopus (bread mould)",
+          "is_correct": true
+        },
+        {
+          "text": "Hydra",
+          "is_correct": false
+        },
+        {
+          "text": "Planaria",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "spore formation",
+          "Rhizopus",
+          "bread mould"
+        ],
+        "key_points": [
+          "Rhizopus (bread mould) reproduces by spore formation using sporangia"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Rhizopus (bread mould).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_sa_101",
+      "use_for": "understanding",
+      "text": "What is binary fission? Name two organisms that reproduce by binary fission.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "binary fission",
+          "parent cell",
+          "two daughter cells",
+          "Amoeba",
+          "Leishmania"
+        ],
+        "key_points": [
+          "Binary fission is a mode of asexual reproduction where the parent cell divides into two equal daughter cells",
+          "Examples: Amoeba and Leishmania (or any correct organisms)"
+        ],
+        "formula": null,
+        "expected_answer": "Binary fission is a type of asexual reproduction in which the parent cell splits into two equal daughter cells. Two organisms that reproduce by binary fission are Amoeba and Leishmania.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_sa_102",
+      "use_for": "understanding",
+      "text": "Differentiate between fragmentation and regeneration with one example each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "fragmentation",
+          "regeneration",
+          "Spirogyra",
+          "Planaria",
+          "Hydra",
+          "breaks",
+          "cut"
+        ],
+        "key_points": [
+          "Fragmentation: organism breaks into fragments upon maturation, each growing into a new individual (e.g., Spirogyra)",
+          "Regeneration: if cut/broken, specialised cells regrow the complete organism from pieces (e.g., Planaria, Hydra)"
+        ],
+        "formula": null,
+        "expected_answer": "Fragmentation: A simple multi-cellular organism breaks into smaller fragments upon maturation, and each fragment grows into a new individual. Example: Spirogyra. Regeneration: When an organism is cut or broken into pieces, specialised cells in each piece can proliferate and develop into a complete organism. Example: Planaria or Hydra.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_sa_103",
+      "use_for": "understanding",
+      "text": "Why is regeneration not considered the same as reproduction? Explain.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "regeneration",
+          "reproduction",
+          "cut",
+          "normal"
+        ],
+        "key_points": [
+          "Regeneration requires the organism to be cut/broken into pieces — it's not a normal process",
+          "Most organisms do not depend on being cut up to reproduce",
+          "Reproduction is a biological process specifically meant for producing new offspring"
+        ],
+        "formula": null,
+        "expected_answer": "Regeneration is not the same as reproduction because most organisms do not normally depend on being cut up to be able to reproduce. Regeneration is the ability to regrow from body parts when cut, but it is not a deliberate reproductive strategy. Reproduction is a dedicated biological process for producing new offspring without requiring the parent to be damaged.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_asr_num_101",
+      "use_for": "understanding",
+      "text": "If an Amoeba divides by binary fission once every 30 minutes, starting from a single cell, how many Amoeba cells will be present after 3 hours?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "binary fission",
+          "Amoeba",
+          "doubling",
+          "64"
+        ],
+        "key_points": [
+          "Number of fission events in 3 hours = 6 (one every 30 min)",
+          "Cells after n divisions = 2^n = 2^6 = 64"
+        ],
+        "formula": "2 ** (hours / 0.5)",
+        "expected_answer": "Number of divisions in 3 hours = 3 x 60 / 30 = 6. Number of cells = 2^6 = 64 Amoeba cells.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "hours": {
+            "min": 1,
+            "max": 5,
+            "step": 0.5
+          }
+        },
+        "formula_expression": "2 ** (hours * 2)",
+        "units": "cells",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_vgp_mcq_101",
+      "use_for": "understanding",
+      "text": "Buds produced on the leaf margins of Bryophyllum can grow into new plants. This is an example of:",
+      "options": [
+        {
+          "text": "Budding",
+          "is_correct": false
+        },
+        {
+          "text": "Vegetative propagation",
+          "is_correct": true
+        },
+        {
+          "text": "Spore formation",
+          "is_correct": false
+        },
+        {
+          "text": "Fragmentation",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "vegetative propagation",
+          "Bryophyllum",
+          "leaf buds"
+        ],
+        "key_points": [
+          "Bryophyllum leaf buds developing into new plants is vegetative propagation"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Vegetative propagation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_vgp_sa_101",
+      "use_for": "understanding",
+      "text": "What is vegetative propagation? Give two examples and list two advantages of this method.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "vegetative propagation",
+          "roots",
+          "stems",
+          "leaves",
+          "Bryophyllum",
+          "potato",
+          "sugarcane",
+          "faster",
+          "genetically similar"
+        ],
+        "key_points": [
+          "Vegetative propagation is reproduction through vegetative parts (root, stem, leaves) developing into new plants",
+          "Examples: Bryophyllum (leaf buds), potato (eyes/notches), sugarcane (stem cuttings)",
+          "Advantages: faster fruiting, genetically identical to parent, can propagate seedless plants"
+        ],
+        "formula": null,
+        "expected_answer": "Vegetative propagation is a mode of asexual reproduction in plants where parts like roots, stems, or leaves develop into new plants. Examples: (1) Bryophyllum — buds on leaf margins grow into new plants; (2) Potato — eyes on potato tubers sprout into new plants. Advantages: (1) Plants bear flowers and fruits earlier; (2) All offspring are genetically identical to the parent, preserving desirable traits.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_mcq_101",
+      "use_for": "understanding",
+      "text": "The female reproductive part of a flower is the:",
+      "options": [
+        {
+          "text": "Stamen",
+          "is_correct": false
+        },
+        {
+          "text": "Petal",
+          "is_correct": false
+        },
+        {
+          "text": "Pistil",
+          "is_correct": true
+        },
+        {
+          "text": "Sepal",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "pistil",
+          "female",
+          "reproductive"
+        ],
+        "key_points": [
+          "The pistil is the female reproductive part of a flower, consisting of stigma, style and ovary"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Pistil.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_mcq_102",
+      "use_for": "understanding",
+      "text": "After fertilisation, the ovule in a flower develops into a:",
+      "options": [
+        {
+          "text": "Fruit",
+          "is_correct": false
+        },
+        {
+          "text": "Seed",
+          "is_correct": true
+        },
+        {
+          "text": "Embryo",
+          "is_correct": false
+        },
+        {
+          "text": "Pollen grain",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ovule",
+          "seed",
+          "fertilisation"
+        ],
+        "key_points": [
+          "After fertilisation, the ovule develops a tough coat and converts into a seed"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Seed. The ovule develops into a seed after fertilisation, while the ovary develops into a fruit.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_mcq_103",
+      "use_for": "understanding",
+      "text": "Pollen grains are produced by the:",
+      "options": [
+        {
+          "text": "Pistil",
+          "is_correct": false
+        },
+        {
+          "text": "Ovary",
+          "is_correct": false
+        },
+        {
+          "text": "Stigma",
+          "is_correct": false
+        },
+        {
+          "text": "Anther",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "pollen grains",
+          "anther"
+        ],
+        "key_points": [
+          "The anther (part of stamen) produces pollen grains"
+        ],
+        "formula": null,
+        "expected_answer": "(d) Anther.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_sa_101",
+      "use_for": "understanding",
+      "text": "Name the three parts of the pistil in a flower and state the function of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "stigma",
+          "style",
+          "ovary",
+          "sticky",
+          "pollen",
+          "ovules"
+        ],
+        "key_points": [
+          "Stigma: terminal sticky part that receives pollen grains",
+          "Style: middle elongated part connecting stigma to ovary",
+          "Ovary: swollen bottom part containing ovules with egg cells"
+        ],
+        "formula": null,
+        "expected_answer": "The three parts of the pistil are: (1) Stigma — the terminal sticky part that receives pollen grains; (2) Style — the middle elongated tube connecting stigma to ovary; (3) Ovary — the swollen bottom part containing ovules, each with an egg cell.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_sa_102",
+      "use_for": "understanding",
+      "text": "What is pollination? How does self-pollination differ from cross-pollination?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "pollination",
+          "pollen",
+          "anther",
+          "stigma",
+          "self",
+          "cross"
+        ],
+        "key_points": [
+          "Pollination is the transfer of pollen grains from anther to stigma",
+          "Self-pollination: pollen transferred within the same flower",
+          "Cross-pollination: pollen transferred from one flower to another (by wind, water, animals)"
+        ],
+        "formula": null,
+        "expected_answer": "Pollination is the transfer of pollen grains from the anther to the stigma of a flower. In self-pollination, pollen is transferred within the same flower. In cross-pollination, pollen is transferred from the anther of one flower to the stigma of another flower, aided by agents like wind, water, or animals.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_sa_103",
+      "use_for": "understanding",
+      "text": "Trace the path of a pollen grain from the time it lands on the stigma to the formation of a zygote in a flowering plant.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "pollen",
+          "stigma",
+          "pollen tube",
+          "style",
+          "ovary",
+          "ovule",
+          "male germ-cell",
+          "female gamete",
+          "zygote",
+          "fertilisation"
+        ],
+        "key_points": [
+          "Pollen grain lands on stigma and germinates",
+          "Pollen tube grows through the style towards the ovary",
+          "Male germ-cell travels through the pollen tube",
+          "Male germ-cell fuses with female gamete (egg) in the ovule — fertilisation",
+          "The fused cell is the zygote"
+        ],
+        "formula": null,
+        "expected_answer": "After landing on the stigma, the pollen grain germinates and a pollen tube grows out, travelling through the style to reach the ovary. The male germ-cell from the pollen grain moves through this tube. In the ovary, it reaches the ovule where the male germ-cell fuses with the female gamete (egg cell). This fusion is called fertilisation, and the resulting cell is the zygote.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_srp_num_101",
+      "use_for": "understanding",
+      "text": "A flower has 3 carpels and each carpel contains 5 ovules. If all ovules are fertilised and each produces one seed, what is the maximum number of seeds this flower can produce?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "carpels",
+          "ovules",
+          "seeds"
+        ],
+        "key_points": [
+          "Total seeds = number of carpels x ovules per carpel"
+        ],
+        "formula": "carpels * ovules_per_carpel",
+        "expected_answer": "Maximum number of seeds = 3 carpels x 5 ovules per carpel = 15 seeds.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "carpels": {
+            "min": 2,
+            "max": 5,
+            "step": 1
+          },
+          "ovules_per_carpel": {
+            "min": 2,
+            "max": 8,
+            "step": 1
+          }
+        },
+        "formula_expression": "carpels * ovules_per_carpel",
+        "units": "seeds",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_mcq_101",
+      "use_for": "understanding",
+      "text": "Sperms in human males are produced in the:",
+      "options": [
+        {
+          "text": "Seminal vesicles",
+          "is_correct": false
+        },
+        {
+          "text": "Prostate gland",
+          "is_correct": false
+        },
+        {
+          "text": "Testes",
+          "is_correct": true
+        },
+        {
+          "text": "Vas deferens",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "sperms",
+          "testes"
+        ],
+        "key_points": [
+          "Sperms are produced in the testes"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Testes.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_mcq_102",
+      "use_for": "understanding",
+      "text": "The embryo in the uterus gets nourishment from the mother's blood through the:",
+      "options": [
+        {
+          "text": "Uterus wall directly",
+          "is_correct": false
+        },
+        {
+          "text": "Placenta",
+          "is_correct": true
+        },
+        {
+          "text": "Fallopian tube",
+          "is_correct": false
+        },
+        {
+          "text": "Cervix",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "embryo",
+          "nourishment",
+          "placenta"
+        ],
+        "key_points": [
+          "The placenta provides the embryo with glucose and oxygen from mother's blood"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Placenta.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_sa_101",
+      "use_for": "understanding",
+      "text": "What is menstruation? Why does it occur?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "menstruation",
+          "uterus lining",
+          "blood",
+          "mucous",
+          "unfertilised",
+          "egg"
+        ],
+        "key_points": [
+          "Menstruation is the breakdown and discharge of the thickened uterus lining as blood and mucous through the vagina",
+          "It occurs because the egg was not fertilised, so the thickened lining prepared for nourishing the embryo is no longer needed",
+          "Cycle takes about 28 days and lasts 2-8 days"
+        ],
+        "formula": null,
+        "expected_answer": "Menstruation is the periodic discharge of the thickened uterus lining along with blood and mucous through the vagina. It occurs when the egg released by the ovary is not fertilised. Since no embryo needs to be nourished, the thickened, blood-rich uterus lining breaks down and is shed. This cycle occurs roughly every 28 days and lasts 2 to 8 days.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_sa_102",
+      "use_for": "understanding",
+      "text": "Why are the testes located outside the abdominal cavity in the scrotal sac in humans?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "testes",
+          "scrotum",
+          "temperature",
+          "sperm formation"
+        ],
+        "key_points": [
+          "Sperm formation requires a temperature lower than normal body temperature (37°C)",
+          "The scrotum provides this lower temperature by being located outside the body cavity"
+        ],
+        "formula": null,
+        "expected_answer": "The testes are located outside the abdominal cavity in the scrotal sac because the formation of sperms requires a temperature that is lower than the normal body temperature (~37°C). The scrotum provides this cooler environment necessary for proper sperm production.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_sa_103",
+      "use_for": "understanding",
+      "text": "List the changes that are seen in girls at the time of puberty.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "puberty",
+          "breast",
+          "menstruation",
+          "hair",
+          "skin",
+          "oily"
+        ],
+        "key_points": [
+          "Breast size begins to increase",
+          "Darkening of skin of nipples",
+          "Menstruation begins",
+          "Thick hair growth in armpits and genital area",
+          "Skin may become oily and pimples may develop",
+          "Growth of thinner hair on arms and legs"
+        ],
+        "formula": null,
+        "expected_answer": "Changes in girls at puberty include: (1) Breast size begins to increase with darkening of skin of the nipples; (2) Menstruation starts; (3) Thick hair grows in armpits and genital area; (4) Skin may become oily with pimples; (5) Thinner hair may appear on arms and legs; (6) Awareness of own body increases.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_sa_104",
+      "use_for": "understanding",
+      "text": "What is the role of the placenta in the development of the embryo? Explain its structure briefly.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "placenta",
+          "villi",
+          "blood spaces",
+          "glucose",
+          "oxygen",
+          "waste",
+          "disc"
+        ],
+        "key_points": [
+          "Placenta is a disc-like tissue embedded in the uterine wall",
+          "Has villi on embryo's side and blood spaces on mother's side",
+          "Provides large surface area for exchange of nutrients and oxygen",
+          "Also removes waste from embryo to mother's blood"
+        ],
+        "formula": null,
+        "expected_answer": "The placenta is a disc-like special tissue embedded in the uterine wall. It has villi on the embryo's side and blood spaces on the mother's side, providing a large surface area. Its role is to: (1) Allow glucose and oxygen to pass from mother's blood to the embryo for nourishment; (2) Remove waste substances from the embryo into the mother's blood for excretion.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_hre_num_101",
+      "use_for": "understanding",
+      "text": "A human body cell contains 46 chromosomes. After meiosis, how many chromosomes will be present in each sperm or egg cell?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "chromosomes",
+          "meiosis",
+          "haploid",
+          "23"
+        ],
+        "key_points": [
+          "Meiosis halves the chromosome number",
+          "46 / 2 = 23"
+        ],
+        "formula": "somatic_chromosomes / 2",
+        "expected_answer": "Each sperm or egg cell will contain 46 / 2 = 23 chromosomes. Meiosis is a type of cell division that reduces the chromosome number to half, producing haploid gametes.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "somatic_chromosomes": {
+            "value": 46,
+            "unit": "chromosomes",
+            "locked": true
+          }
+        },
+        "formula_expression": "somatic_chromosomes / 2",
+        "units": "chromosomes",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_rph_mcq_101",
+      "use_for": "understanding",
+      "text": "Which of the following is a sexually transmitted disease?",
+      "options": [
+        {
+          "text": "Typhoid",
+          "is_correct": false
+        },
+        {
+          "text": "Cholera",
+          "is_correct": false
+        },
+        {
+          "text": "Gonorrhoea",
+          "is_correct": true
+        },
+        {
+          "text": "Tuberculosis",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "STD",
+          "gonorrhoea",
+          "sexually transmitted"
+        ],
+        "key_points": [
+          "Gonorrhoea is a bacterial sexually transmitted disease"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Gonorrhoea. It is a bacterial infection that is transmitted through sexual contact.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_rph_mcq_102",
+      "use_for": "understanding",
+      "text": "Copper-T, an intrauterine device for contraception, is placed in the:",
+      "options": [
+        {
+          "text": "Fallopian tube",
+          "is_correct": false
+        },
+        {
+          "text": "Uterus",
+          "is_correct": true
+        },
+        {
+          "text": "Vagina",
+          "is_correct": false
+        },
+        {
+          "text": "Ovary",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "copper-T",
+          "uterus",
+          "intrauterine"
+        ],
+        "key_points": [
+          "Copper-T is placed in the uterus to prevent pregnancy"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Uterus. The copper-T is an intrauterine device placed in the uterus.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_rph_sa_101",
+      "use_for": "understanding",
+      "text": "Name two sexually transmitted diseases — one caused by bacteria and one caused by a virus. How can their transmission be prevented?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "gonorrhoea",
+          "syphilis",
+          "HIV-AIDS",
+          "warts",
+          "condom",
+          "bacterial",
+          "viral"
+        ],
+        "key_points": [
+          "Bacterial STDs: gonorrhoea, syphilis",
+          "Viral STDs: warts, HIV-AIDS",
+          "Prevention: using condoms during sexual intercourse"
+        ],
+        "formula": null,
+        "expected_answer": "Bacterial STD: Gonorrhoea (or Syphilis). Viral STD: HIV-AIDS (or Warts). Transmission can be prevented by using condoms during sexual intercourse, which act as a barrier to prevent the spread of infections.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap7_rph_sa_102",
+      "use_for": "understanding",
+      "text": "List three categories of contraceptive methods. Give one example of each and explain how it prevents pregnancy.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "barrier",
+          "hormonal",
+          "surgical",
+          "condom",
+          "pills",
+          "vasectomy",
+          "tubectomy"
+        ],
+        "key_points": [
+          "Barrier method: condom — physically prevents sperm from reaching egg",
+          "Hormonal method: oral pills — change hormonal balance so eggs are not released",
+          "Surgical method: vasectomy/tubectomy — blocks vas deferens or fallopian tube to prevent gamete transfer"
+        ],
+        "formula": null,
+        "expected_answer": "Three categories: (1) Barrier method — condom creates a physical barrier preventing sperm from reaching the egg; (2) Hormonal method — oral contraceptive pills alter hormonal balance so eggs are not released from the ovary; (3) Surgical method — vasectomy (blocking vas deferens in males) or tubectomy (blocking fallopian tubes in females) permanently prevents gamete transport.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1": "One category explained correctly",
+          "2": "Two categories explained correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

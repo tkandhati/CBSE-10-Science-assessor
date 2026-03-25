@@ -1,0 +1,2188 @@
+{
+  "chapter_id": "ch01_chemical_reactions",
+  "chapter_title": "Chemical Reactions and Equations",
+  "questions": [
+    {
+      "id": "chap01_ceq_mcq_001",
+      "use_for": "test",
+      "text": "In a chemical equation, what does the arrow (→) placed between reactants and products represent?",
+      "options": [
+        {
+          "text": "It shows that reactants and products are equal in mass",
+          "is_correct": false
+        },
+        {
+          "text": "It indicates the direction of the reaction",
+          "is_correct": true
+        },
+        {
+          "text": "It means the reaction is reversible",
+          "is_correct": false
+        },
+        {
+          "text": "It shows that only the left side contains elements",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "direction",
+          "reaction"
+        ],
+        "key_points": [
+          "Arrow points from reactants to products",
+          "Shows direction of chemical change"
+        ],
+        "formula": null,
+        "expected_answer": "It indicates the direction of the reaction",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_ceq_short_001",
+      "use_for": "test",
+      "text": "What is a chemical equation? What information does it convey about a chemical reaction?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "reactants",
+          "products",
+          "symbols",
+          "formulae",
+          "physical state"
+        ],
+        "key_points": [
+          "A chemical equation represents a chemical reaction using chemical formulae and symbols",
+          "It shows reactants on the LHS and products on the RHS separated by an arrow",
+          "It can convey physical states using (s), (l), (g), (aq)",
+          "It conveys reaction conditions (temperature, pressure, catalyst) above/below the arrow"
+        ],
+        "formula": null,
+        "expected_answer": "A chemical equation is a symbolic representation of a chemical reaction in which reactants on the left-hand side are converted to products on the right-hand side. It shows the chemical formulae of all reactants and products, may include physical states, and can indicate reaction conditions.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "defines chemical equation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_ceq_short_002",
+      "use_for": "test",
+      "text": "Write the word equation and the balanced chemical equation (with state symbols) for burning of magnesium ribbon in air.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "magnesium",
+          "oxygen",
+          "magnesium oxide",
+          "MgO",
+          "balanced"
+        ],
+        "key_points": [
+          "Word equation: Magnesium + Oxygen → Magnesium oxide",
+          "Balanced: 2Mg(s) + O₂(g) → 2MgO(s)",
+          "White powder (MgO) formed with dazzling flame"
+        ],
+        "formula": "2Mg(s) + O₂(g) → 2MgO(s)",
+        "expected_answer": "Word equation: Magnesium + Oxygen → Magnesium oxide\nBalanced chemical equation: 2Mg(s) + O₂(g) → 2MgO(s)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "correct balanced equation with state symbols"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_ceq_short_003",
+      "use_for": "test",
+      "text": "What is a skeletal chemical equation? Why is it considered an incomplete representation of a chemical reaction? Illustrate with an example.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "skeletal",
+          "unbalanced",
+          "conservation of mass",
+          "atoms"
+        ],
+        "key_points": [
+          "A skeletal equation uses chemical formulae but may not have equal atoms on both sides",
+          "It is incomplete because it does not obey the law of conservation of mass",
+          "Example: Mg + O₂ → MgO is skeletal; balanced form is 2Mg + O₂ → 2MgO"
+        ],
+        "formula": "Mg + O₂ → MgO  (skeletal)  →  2Mg + O₂ → 2MgO  (balanced)",
+        "expected_answer": "A skeletal chemical equation is one in which only the formulae of reactants and products are written but atoms of each element are not balanced. It is incomplete because it violates the law of conservation of mass. Example: Mg + O₂ → MgO is skeletal; the correct balanced form is 2Mg(s) + O₂(g) → 2MgO(s).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "correct example with comparison"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following equations is correctly balanced?\n(Atomic masses: Fe=56, H=1, O=16)",
+      "options": [
+        {
+          "text": "Fe + H₂O → Fe₃O₄ + H₂",
+          "is_correct": false
+        },
+        {
+          "text": "2Fe + 3H₂O → Fe₃O₄ + H₂",
+          "is_correct": false
+        },
+        {
+          "text": "3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g)",
+          "is_correct": true
+        },
+        {
+          "text": "Fe + 4H₂O → Fe₃O₄ + H₂",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "balanced",
+          "equal atoms",
+          "Fe",
+          "H",
+          "O"
+        ],
+        "key_points": [
+          "Option (c): 3Fe + 4H₂O → Fe₃O₄ + 4H₂ has Fe=3, H=8, O=4 on both sides"
+        ],
+        "formula": "3Fe + 4H₂O → Fe₃O₄ + 4H₂",
+        "expected_answer": "3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_mcq_002",
+      "use_for": "test",
+      "text": "When balancing the equation: _Fe + _H₂O → Fe₃O₄ + _H₂, what are the correct coefficients (in order)?",
+      "options": [
+        {
+          "text": "1, 4, 4",
+          "is_correct": false
+        },
+        {
+          "text": "3, 4, 4",
+          "is_correct": true
+        },
+        {
+          "text": "3, 3, 4",
+          "is_correct": false
+        },
+        {
+          "text": "2, 4, 2",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "3",
+          "4",
+          "4",
+          "coefficients"
+        ],
+        "key_points": [
+          "3Fe + 4H₂O → Fe₃O₄ + 4H₂; Fe=3, O=4, H=8 balanced on both sides"
+        ],
+        "formula": "3Fe + 4H₂O → Fe₃O₄ + 4H₂",
+        "expected_answer": "3, 4, 4",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_short_001",
+      "use_for": "test",
+      "text": "Balance the following chemical equation:\nHNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + H₂O",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2HNO₃",
+          "Ca(OH)₂",
+          "Ca(NO₃)₂",
+          "2H₂O"
+        ],
+        "key_points": [
+          "Count N: 1 on LHS → 2 on RHS, so place coefficient 2 before HNO₃",
+          "H: 2+2=4 on LHS; 4 on RHS with 2H₂O",
+          "2HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + 2H₂O"
+        ],
+        "formula": "2HNO₃(aq) + Ca(OH)₂(aq) → Ca(NO₃)₂(aq) + 2H₂O(l)",
+        "expected_answer": "2HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + 2H₂O",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "state symbols"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_short_002",
+      "use_for": "test",
+      "text": "Translate the following statement into a balanced chemical equation with state symbols:\n\"Potassium metal reacts with water to give potassium hydroxide and hydrogen gas.\"",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2K",
+          "2H₂O",
+          "2KOH",
+          "H₂",
+          "state symbols"
+        ],
+        "key_points": [
+          "K + H₂O → KOH + H₂  (skeletal)",
+          "Balance K: 2K; balance H: 2H₂O on left, 2KOH + H₂ on right",
+          "2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g)"
+        ],
+        "formula": "2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g)",
+        "expected_answer": "2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "correct state symbols"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_num_001",
+      "use_for": "test",
+      "text": "In the balanced equation 3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g), verify that the number of each type of atom is conserved. How many oxygen atoms are there on each side?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "4",
+          "oxygen",
+          "equal",
+          "conservation"
+        ],
+        "key_points": [
+          "LHS: 4H₂O contributes 4 oxygen atoms",
+          "RHS: Fe₃O₄ contributes 4 oxygen atoms",
+          "Oxygen is conserved: 4 = 4"
+        ],
+        "formula": "O atoms LHS = 4×1 = 4; O atoms RHS = 4 (in Fe₃O₄)",
+        "expected_answer": "4 oxygen atoms on each side",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "O_count": {
+            "value": 4,
+            "unit": "atoms",
+            "locked": true
+          }
+        },
+        "formula_expression": "4",
+        "units": "atoms",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_long_001",
+      "use_for": "test",
+      "text": "Translate the following statements into balanced chemical equations (with state symbols):\n(a) Hydrogen gas combines with nitrogen to form ammonia.\n(b) Hydrogen sulphide gas burns in air to give water and sulphur dioxide.\n(c) Barium chloride reacts with aluminium sulphate to give aluminium chloride and a precipitate of barium sulphate.\n(d) Zinc + Silver nitrate → Zinc nitrate + Silver",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "3H₂+N₂→2NH₃",
+          "2H₂S+3O₂→2H₂O+2SO₂",
+          "3BaCl₂+Al₂(SO₄)₃→3BaSO₄+2AlCl₃",
+          "Zn+2AgNO₃→Zn(NO₃)₂+2Ag"
+        ],
+        "key_points": [
+          "(a) 3H₂(g) + N₂(g) → 2NH₃(g)",
+          "(b) 2H₂S(g) + 3O₂(g) → 2H₂O(l) + 2SO₂(g)",
+          "(c) 3BaCl₂(aq) + Al₂(SO₄)₃(aq) → 3BaSO₄(s) + 2AlCl₃(aq)",
+          "(d) Zn(s) + 2AgNO₃(aq) → Zn(NO₃)₂(aq) + 2Ag(s)"
+        ],
+        "formula": null,
+        "expected_answer": "(a) 3H₂(g)+N₂(g)→2NH₃(g)  (b) 2H₂S(g)+3O₂(g)→2H₂O(l)+2SO₂(g)  (c) 3BaCl₂(aq)+Al₂(SO₄)₃(aq)→3BaSO₄(s)+2AlCl₃(aq)  (d) Zn(s)+2AgNO₃(aq)→Zn(NO₃)₂(aq)+2Ag(s)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark each": "each correct balanced equation (a–d)"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): A chemical equation must always be balanced.\nReason (R): According to the law of conservation of mass, the total mass of reactants must equal the total mass of products in a chemical reaction.\n\nChoose the correct option:\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is NOT the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is NOT the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "conservation of mass",
+          "balanced",
+          "equal atoms",
+          "total mass"
+        ],
+        "key_points": [
+          "A is true: equations must be balanced to obey conservation of mass",
+          "R is true and correctly explains A: atoms cannot be created/destroyed"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following is an example of a combination reaction?",
+      "options": [
+        {
+          "text": "2H₂O → 2H₂ + O₂",
+          "is_correct": false
+        },
+        {
+          "text": "CaO + H₂O → Ca(OH)₂",
+          "is_correct": true
+        },
+        {
+          "text": "Fe + CuSO₄ → FeSO₄ + Cu",
+          "is_correct": false
+        },
+        {
+          "text": "2AgCl → 2Ag + Cl₂",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "combination",
+          "single product",
+          "two reactants",
+          "CaO"
+        ],
+        "key_points": [
+          "CaO + H₂O → Ca(OH)₂ — two reactants combine to form one product"
+        ],
+        "formula": "CaO(s) + H₂O(l) → Ca(OH)₂(aq)",
+        "expected_answer": "CaO + H₂O → Ca(OH)₂",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_mcq_002",
+      "use_for": "test",
+      "text": "The decomposition of silver chloride (2AgCl → 2Ag + Cl₂) is an example of:",
+      "options": [
+        {
+          "text": "Thermal decomposition",
+          "is_correct": false
+        },
+        {
+          "text": "Electrolytic decomposition",
+          "is_correct": false
+        },
+        {
+          "text": "Photochemical decomposition",
+          "is_correct": true
+        },
+        {
+          "text": "Catalytic decomposition",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "photochemical",
+          "sunlight",
+          "light energy",
+          "AgCl"
+        ],
+        "key_points": [
+          "AgCl decomposes in sunlight — energy supplied is light (photochemical)"
+        ],
+        "formula": "2AgCl(s) →(sunlight) 2Ag(s) + Cl₂(g)",
+        "expected_answer": "Photochemical decomposition",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_short_001",
+      "use_for": "test",
+      "text": "Define exothermic and endothermic reactions. Give one example of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "heat released",
+          "exothermic",
+          "heat absorbed",
+          "endothermic"
+        ],
+        "key_points": [
+          "Exothermic: reactions in which heat is released along with products; e.g., CH₄ + 2O₂ → CO₂ + 2H₂O + heat",
+          "Endothermic: reactions in which energy is absorbed; e.g., CaCO₃ → CaO + CO₂ (requires heat)"
+        ],
+        "formula": null,
+        "expected_answer": "Exothermic reactions release heat: e.g., CH₄(g)+2O₂(g)→CO₂(g)+2H₂O(g)+heat. Endothermic reactions absorb energy: e.g., CaCO₃(s)→CaO(s)+CO₂(g) (requires heat supply).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "correct definition and example of endothermic"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_diagram_001",
+      "use_for": "test",
+      "text": "Draw a well-labelled diagram of the electrolysis of water apparatus used in Activity 1.7. Label the electrodes, the gases collected in each test tube, and write the balanced equation for the reaction.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "electrolysis",
+          "cathode",
+          "anode",
+          "hydrogen",
+          "oxygen",
+          "2H₂O",
+          "2H₂",
+          "O₂"
+        ],
+        "key_points": [
+          "Correct diagram: electrolytic cell, two electrodes in dilute H₂SO₄",
+          "Test tube A (cathode) collects H₂ — double volume",
+          "Test tube B (anode) collects O₂ — half volume",
+          "Balanced equation: 2H₂O(l) →(electricity) 2H₂(g) + O₂(g)"
+        ],
+        "formula": "2H₂O(l) → 2H₂(g) + O₂(g)",
+        "expected_answer": "Diagram with labelled electrodes; H₂ at cathode (2 volumes), O₂ at anode (1 volume); 2H₂O(l)→2H₂(g)+O₂(g)",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "two electrodes labelled cathode/anode",
+          "two inverted test tubes",
+          "H₂ labelled at cathode",
+          "O₂ labelled at anode",
+          "H₂ volume double O₂",
+          "balanced equation written"
+        ],
+        "partial_marks": {
+          "1 mark": "balanced equation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_short_002",
+      "use_for": "test",
+      "text": "Why is respiration considered an exothermic reaction? Explain with the help of a balanced chemical equation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "glucose",
+          "oxygen",
+          "CO₂",
+          "H₂O",
+          "energy",
+          "exothermic"
+        ],
+        "key_points": [
+          "Respiration releases energy for body functions — heat is produced",
+          "C₆H₁₂O₆(aq) + 6O₂(aq) → 6CO₂(aq) + 6H₂O(l) + energy",
+          "Energy of reactants > energy of products → exothermic"
+        ],
+        "formula": "C₆H₁₂O₆(aq) + 6O₂(aq) → 6CO₂(aq) + 6H₂O(l) + energy",
+        "expected_answer": "Respiration is exothermic because glucose is broken down by reaction with oxygen to release energy needed for life processes. Equation: C₆H₁₂O₆(aq)+6O₂(aq)→6CO₂(aq)+6H₂O(l)+energy.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "balanced equation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_num_001",
+      "use_for": "test",
+      "text": "In the electrolysis of water, 6 mL of hydrogen gas is collected at the cathode. What volume of oxygen gas will be collected at the anode? Justify your answer using the balanced equation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "3 mL",
+          "2:1",
+          "ratio",
+          "2H₂O",
+          "H₂",
+          "O₂"
+        ],
+        "key_points": [
+          "2H₂O → 2H₂ + O₂  shows H₂:O₂ = 2:1 by volume",
+          "If 6 mL H₂ collected → 6/2 = 3 mL O₂"
+        ],
+        "formula": "V(O₂) = V(H₂) / 2",
+        "expected_answer": "3 mL of O₂",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "H2_vol": {
+            "min": 2,
+            "max": 20,
+            "step": 2
+          }
+        },
+        "formula_expression": "H2_vol / 2",
+        "units": "mL",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_long_001",
+      "use_for": "test",
+      "text": "Compare combination reactions and decomposition reactions. State how they are opposite to each other. Write two equations for each type, including one exothermic and one endothermic example where applicable.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "single product",
+          "two reactants",
+          "single reactant",
+          "two products",
+          "opposite",
+          "exothermic",
+          "endothermic"
+        ],
+        "key_points": [
+          "Combination: two/more reactants → one product (e.g., 2H₂+O₂→2H₂O; CaO+H₂O→Ca(OH)₂)",
+          "Decomposition: one reactant → two/more products (e.g., 2H₂O→2H₂+O₂; CaCO₃→CaO+CO₂)",
+          "They are opposite: combination builds up, decomposition breaks down",
+          "Combination is often exothermic; decomposition often requires energy input (endothermic)"
+        ],
+        "formula": null,
+        "expected_answer": "Combination: A+B→AB (single product). Decomposition: AB→A+B (breaks into simpler substances). Equations: Combination: 2H₂(g)+O₂(g)→2H₂O(l)+heat; CaO(s)+H₂O(l)→Ca(OH)₂(aq)+heat. Decomposition: CaCO₃(s)→CaO(s)+CO₂(g) [heat]; 2AgCl(s)→2Ag(s)+Cl₂(g) [light].",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "labelling exothermic/endothermic"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following is a displacement reaction?",
+      "options": [
+        {
+          "text": "CaO + H₂O → Ca(OH)₂",
+          "is_correct": false
+        },
+        {
+          "text": "2H₂O → 2H₂ + O₂",
+          "is_correct": false
+        },
+        {
+          "text": "Zn + CuSO₄ → ZnSO₄ + Cu",
+          "is_correct": true
+        },
+        {
+          "text": "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "displacement",
+          "Zn",
+          "CuSO4",
+          "more reactive"
+        ],
+        "key_points": [
+          "Zn displaces Cu from CuSO₄ because Zn is more reactive than Cu"
+        ],
+        "formula": "Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)",
+        "expected_answer": "Zn + CuSO₄ → ZnSO₄ + Cu",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_mcq_002",
+      "use_for": "test",
+      "text": "In the reaction Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s) + 2NaCl(aq), the white precipitate formed is:",
+      "options": [
+        {
+          "text": "Sodium chloride",
+          "is_correct": false
+        },
+        {
+          "text": "Barium sulphate",
+          "is_correct": true
+        },
+        {
+          "text": "Sodium sulphate",
+          "is_correct": false
+        },
+        {
+          "text": "Barium chloride",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "BaSO₄",
+          "barium sulphate",
+          "insoluble",
+          "precipitate"
+        ],
+        "key_points": [
+          "BaSO₄ is insoluble in water and forms white precipitate"
+        ],
+        "formula": "Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s) + 2NaCl(aq)",
+        "expected_answer": "Barium sulphate",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_short_001",
+      "use_for": "test",
+      "text": "When an iron nail is dipped in copper sulphate solution, why does the blue colour of the solution fade and the nail become brownish? Write the balanced chemical equation for the reaction.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "iron",
+          "copper",
+          "displacement",
+          "more reactive",
+          "FeSO₄",
+          "Fe + CuSO₄"
+        ],
+        "key_points": [
+          "Iron is more reactive than copper and displaces Cu from CuSO₄",
+          "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s)",
+          "Blue CuSO₄ → pale green FeSO₄; Cu deposits on nail making it brownish"
+        ],
+        "formula": "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s)",
+        "expected_answer": "Iron is more reactive than copper. It displaces copper from copper sulphate solution (displacement reaction). The blue colour fades as CuSO₄ is consumed and pale green FeSO₄ forms. Copper deposits on the nail making it brownish. Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "balanced equation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_short_002",
+      "use_for": "test",
+      "text": "Differentiate between a displacement reaction and a double displacement reaction with one balanced equation each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "one element",
+          "ion exchange",
+          "precipitate",
+          "displacement",
+          "double displacement"
+        ],
+        "key_points": [
+          "Displacement: more reactive element displaces less reactive element; e.g., Fe + CuSO₄ → FeSO₄ + Cu",
+          "Double displacement: ions from two compounds exchange; e.g., Na₂SO₄ + BaCl₂ → BaSO₄↓ + 2NaCl"
+        ],
+        "formula": null,
+        "expected_answer": "Displacement: one element displaces another from its compound. E.g., Fe(s)+CuSO₄(aq)→FeSO₄(aq)+Cu(s). Double displacement: two compounds react by exchanging ions. E.g., Na₂SO₄(aq)+BaCl₂(aq)→BaSO₄(s)+2NaCl(aq).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "both equations correct"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_short_003",
+      "use_for": "test",
+      "text": "What is a precipitation reaction? Explain with the help of a balanced chemical equation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "insoluble",
+          "precipitate",
+          "BaSO₄",
+          "ion exchange"
+        ],
+        "key_points": [
+          "A precipitation reaction produces an insoluble salt (precipitate) from two aqueous solutions",
+          "Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s)↓ + 2NaCl(aq)"
+        ],
+        "formula": "Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s) + 2NaCl(aq)",
+        "expected_answer": "When two solutions react to form an insoluble product (precipitate), it is a precipitation reaction. E.g., Na₂SO₄(aq)+BaCl₂(aq)→BaSO₄(s)+2NaCl(aq). The white precipitate is BaSO₄.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "balanced equation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_diagram_001",
+      "use_for": "test",
+      "text": "Study Figure 1.8 shown above, which depicts iron nails and copper sulphate solutions before and after the experiment.\n(i) Identify the type of chemical reaction taking place.\n(ii) Write the balanced chemical equation for this reaction.\n(iii) Explain why test tube B shows a colour change compared to test tube A.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "displacement",
+          "Fe",
+          "CuSO₄",
+          "FeSO₄",
+          "Cu",
+          "blue",
+          "green",
+          "brownish"
+        ],
+        "key_points": [
+          "(i) Displacement reaction — iron displaces copper from CuSO₄",
+          "(ii) Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s)",
+          "(iii) Blue CuSO₄ is consumed → pale green FeSO₄ forms in test tube B; Cu deposits on nail"
+        ],
+        "formula": "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s)",
+        "expected_answer": "(i) Displacement reaction. (ii) Fe(s)+CuSO₄(aq)→FeSO₄(aq)+Cu(s). (iii) Iron displaces copper; blue CuSO₄ → pale green FeSO₄, so test tube B (with iron nail) loses blue colour.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "explanation of colour change"
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap01_disp_diagram_001.png"
+    },
+    {
+      "id": "chap01_disp_long_001",
+      "use_for": "test",
+      "text": "Elements P, Q and R undergo chemical reactions as follows:\n  P + Q-sulphate → P-sulphate + Q\n  P + R-sulphate → No reaction\n  Q + R-sulphate → Q-sulphate + R\nArrange P, Q and R in increasing order of their reactivity. Which element cannot displace any other? Give reasons.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "P most reactive",
+          "Q",
+          "R least reactive",
+          "activity series",
+          "displacement"
+        ],
+        "key_points": [
+          "P displaces Q → P is more reactive than Q",
+          "P does NOT displace R → R is more reactive than P",
+          "Q displaces R → Q is more reactive than R",
+          "Order: R > P > Q (decreasing reactivity) → Increasing: Q < P < R",
+          "R cannot displace P or Q (no reactions given where R displaces others)"
+        ],
+        "formula": null,
+        "expected_answer": "From P+Q-sulphate→P-sulphate+Q: P>Q. From no reaction of P with R-sulphate: R>P. From Q+R-sulphate→Q-sulphate+R: Q>R. So reactivity order (increasing): Q < P < R. R is most reactive; it cannot be displaced by P or Q so R never appears as the displaced element.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "identifying R cannot displace others"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_mcq_001",
+      "use_for": "test",
+      "text": "In terms of oxygen, which of the following correctly defines 'oxidation'?",
+      "options": [
+        {
+          "text": "Loss of oxygen by a substance",
+          "is_correct": false
+        },
+        {
+          "text": "Gain of hydrogen by a substance",
+          "is_correct": false
+        },
+        {
+          "text": "Gain of oxygen by a substance",
+          "is_correct": true
+        },
+        {
+          "text": "Loss of electrons by a substance",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "gain",
+          "oxygen",
+          "oxidation"
+        ],
+        "key_points": [
+          "Oxidation = gain of oxygen (or loss of hydrogen)"
+        ],
+        "formula": null,
+        "expected_answer": "Gain of oxygen by a substance",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): In the reaction CuO + H₂ → Cu + H₂O, copper oxide is reduced.\nReason (R): CuO loses oxygen in this reaction and is therefore reduced.\n\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is NOT the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is NOT the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CuO",
+          "loses oxygen",
+          "reduced",
+          "reduction"
+        ],
+        "key_points": [
+          "A is true: CuO is reduced to Cu",
+          "R is true: CuO loses oxygen — that is the definition of reduction",
+          "R correctly explains A"
+        ],
+        "formula": "CuO(s) + H₂(g) → Cu(s) + H₂O(l)",
+        "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_short_001",
+      "use_for": "test",
+      "text": "Define oxidation and reduction in terms of gain or loss of oxygen. Give two examples for each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "gain of oxygen",
+          "loss of oxygen",
+          "oxidation",
+          "reduction"
+        ],
+        "key_points": [
+          "Oxidation: gain of oxygen; e.g., 2Cu+O₂→2CuO; C+O₂→CO₂",
+          "Reduction: loss of oxygen; e.g., CuO+H₂→Cu+H₂O; ZnO+C→Zn+CO"
+        ],
+        "formula": null,
+        "expected_answer": "Oxidation: gain of oxygen. Examples: 2Cu+O₂→2CuO; C+O₂→CO₂. Reduction: loss of oxygen. Examples: CuO+H₂→Cu+H₂O; ZnO+C→Zn+CO.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "at least one example each"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_short_002",
+      "use_for": "test",
+      "text": "For the reaction: 2PbO(s) + C(s) → 2Pb(s) + CO₂(g)\n(a) Identify what is oxidised and what is reduced.\n(b) Which statement about this reaction is INCORRECT: (i) Lead is getting reduced, (ii) Carbon dioxide is getting oxidised, (iii) Carbon is getting oxidised, (iv) Lead oxide is getting reduced?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "PbO reduced",
+          "C oxidised",
+          "CO₂ not oxidised",
+          "incorrect"
+        ],
+        "key_points": [
+          "(a) Carbon (C) is oxidised (gains oxygen → CO₂); PbO is reduced (loses oxygen → Pb)",
+          "(b) Statement (ii) is incorrect: CO₂ is a product, it is not getting oxidised during the reaction"
+        ],
+        "formula": "2PbO(s) + C(s) → 2Pb(s) + CO₂(g)",
+        "expected_answer": "(a) C is oxidised; PbO is reduced. (b) Statement (ii) 'Carbon dioxide is getting oxidised' is incorrect — CO₂ is the oxidised product of carbon, but CO₂ itself is not being oxidised.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "correctly identifies incorrect statement"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_short_003",
+      "use_for": "test",
+      "text": "A shiny brown-coloured element 'X' on heating in air becomes black in colour.\n(a) Identify element X and name the black compound formed.\n(b) Write the balanced chemical equation for the reaction.\n(c) What happens if hydrogen gas is passed over the heated black substance?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "copper",
+          "Cu",
+          "CuO",
+          "copper oxide",
+          "black",
+          "oxidation"
+        ],
+        "key_points": [
+          "(a) X = Copper (Cu); Black compound = Copper(II) oxide (CuO)",
+          "(b) 2Cu(s) + O₂(g) → 2CuO(s)",
+          "(c) CuO + H₂ → Cu + H₂O; CuO is reduced back to Cu (black → shiny brown)"
+        ],
+        "formula": "2Cu(s) + O₂(g) → 2CuO(s);  CuO(s) + H₂(g) → Cu(s) + H₂O(l)",
+        "expected_answer": "(a) X = Copper (Cu); Black compound = CuO. (b) 2Cu(s)+O₂(g)→2CuO(s). (c) CuO(s)+H₂(g)→Cu(s)+H₂O(l); the black coating turns brown as CuO is reduced to Cu.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "equation and explanation (c)"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_corr_mcq_001",
+      "use_for": "test",
+      "text": "The process of slow conversion of iron into iron oxide in the presence of moist air is commonly called:",
+      "options": [
+        {
+          "text": "Rancidity",
+          "is_correct": false
+        },
+        {
+          "text": "Reduction",
+          "is_correct": false
+        },
+        {
+          "text": "Rusting",
+          "is_correct": true
+        },
+        {
+          "text": "Combustion",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "rusting",
+          "iron",
+          "iron oxide",
+          "moist air"
+        ],
+        "key_points": [
+          "Rusting is the corrosion of iron to form hydrated iron(III) oxide"
+        ],
+        "formula": null,
+        "expected_answer": "Rusting",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_corr_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): Chips manufacturers flush bags with nitrogen gas before sealing.\nReason (R): Nitrogen is an inert gas that prevents oxidation of oils and fats in the chips, thus preventing rancidity.\n\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is NOT the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is NOT the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "nitrogen",
+          "inert",
+          "oxidation",
+          "rancidity",
+          "fats",
+          "oils"
+        ],
+        "key_points": [
+          "A is true: bags are flushed with N₂",
+          "R is true: N₂ being inert prevents oxidation hence rancidity"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_corr_short_001",
+      "use_for": "test",
+      "text": "Explain the terms corrosion and rancidity with one example each. How are they similar?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "corrosion",
+          "rancidity",
+          "oxidation",
+          "metals",
+          "fats"
+        ],
+        "key_points": [
+          "Corrosion: slow destruction of metals by reaction with moist air/acids; e.g., rusting of iron",
+          "Rancidity: oxidation of fats/oils in food causing change in smell and taste; e.g., stale butter",
+          "Both involve oxidation reactions"
+        ],
+        "formula": null,
+        "expected_answer": "Corrosion: deterioration of metals due to reaction with environment (moisture, oxygen). E.g., iron + moist air → rust. Rancidity: oxidation of fats/oils changing smell/taste. E.g., old cooking oil smells bad. Both are oxidation processes.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "rancidity definition and example"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_corr_short_002",
+      "use_for": "test",
+      "text": "Why are oil and fat-containing food items flushed with nitrogen gas before sealing? What would happen if they were sealed in air?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "nitrogen",
+          "inert",
+          "oxidation",
+          "rancidity",
+          "oxygen",
+          "fats"
+        ],
+        "key_points": [
+          "N₂ is inert and does not react with fats/oils, preventing oxidation",
+          "If sealed in air, O₂ would oxidise fats → rancidity (unpleasant smell/taste)",
+          "N₂ flushes out O₂, extending shelf life"
+        ],
+        "formula": null,
+        "expected_answer": "Nitrogen is an inert gas that does not react with fats or oils. Flushing with N₂ removes oxygen, preventing oxidation of fats and oils (rancidity). If sealed in air, oxygen would oxidise the fats making the food rancid with bad smell and taste.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "consequence if sealed in air"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_corr_num_001",
+      "use_for": "test",
+      "text": "Carbon burns completely in oxygen to form carbon dioxide. Molecular mass of C = 12 u, O₂ = 32 u, CO₂ = 44 u.\n(a) Write the balanced equation.\n(b) If 6 g of carbon reacts with excess oxygen, what mass of CO₂ is produced?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "C+O₂→CO₂",
+          "12g C",
+          "44g CO₂",
+          "0.5 mol",
+          "22g"
+        ],
+        "key_points": [
+          "(a) C(s) + O₂(g) → CO₂(g)",
+          "(b) 12 g C → 44 g CO₂; so 6 g C → (6/12)×44 = 22 g CO₂"
+        ],
+        "formula": "mass_CO2 = (carbon_mass / 12) * 44",
+        "expected_answer": "(a) C(s)+O₂(g)→CO₂(g). (b) 6 g C = 0.5 mol → 0.5 mol CO₂ = 22 g CO₂.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "correct mass calculation = 22g"
+        }
+      },
+      "template_params": {
+        "variables": {
+          "carbon_mass": {
+            "min": 3,
+            "max": 24,
+            "step": 3
+          }
+        },
+        "formula_expression": "(carbon_mass / 12) * 44",
+        "units": "g",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_ceq_und_mcq_001",
+      "use_for": "understanding",
+      "text": "In the chemical equation: Zn + H₂SO₄ → ZnSO₄ + H₂\nWhat are the reactants?",
+      "options": [
+        {
+          "text": "ZnSO₄ and H₂",
+          "is_correct": false
+        },
+        {
+          "text": "Zn and H₂",
+          "is_correct": false
+        },
+        {
+          "text": "Zn and H₂SO₄",
+          "is_correct": true
+        },
+        {
+          "text": "H₂SO₄ and ZnSO₄",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Zn",
+          "H₂SO₄",
+          "LHS",
+          "reactants"
+        ],
+        "key_points": [
+          "Reactants are on the left-hand side (LHS) of the equation"
+        ],
+        "formula": null,
+        "expected_answer": "Zn and H₂SO₄",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_ceq_und_mcq_002",
+      "use_for": "understanding",
+      "text": "What does the symbol '(aq)' after a chemical formula in a chemical equation indicate?",
+      "options": [
+        {
+          "text": "The substance is in aqueous solution (dissolved in water)",
+          "is_correct": true
+        },
+        {
+          "text": "The substance is in gaseous state",
+          "is_correct": false
+        },
+        {
+          "text": "The substance is in liquid state",
+          "is_correct": false
+        },
+        {
+          "text": "The substance is in solid state",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "aqueous",
+          "water",
+          "solution",
+          "(aq)"
+        ],
+        "key_points": [
+          "(aq) = aqueous — the substance is dissolved in water"
+        ],
+        "formula": null,
+        "expected_answer": "The substance is in aqueous solution (dissolved in water)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_und_mcq_001",
+      "use_for": "understanding",
+      "text": "Which symbol represents a substance in the solid state in a chemical equation?",
+      "options": [
+        {
+          "text": "(g)",
+          "is_correct": false
+        },
+        {
+          "text": "(l)",
+          "is_correct": false
+        },
+        {
+          "text": "(s)",
+          "is_correct": true
+        },
+        {
+          "text": "(aq)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "solid",
+          "(s)"
+        ],
+        "key_points": [
+          "(s) = solid state"
+        ],
+        "formula": null,
+        "expected_answer": "(s)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_und_mcq_002",
+      "use_for": "understanding",
+      "text": "In the balanced equation: 3Fe + 4H₂O → Fe₃O₄ + 4H₂\nHow many hydrogen atoms are present on the LEFT-hand side?",
+      "options": [
+        {
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "text": "8",
+          "is_correct": true
+        },
+        {
+          "text": "2",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "8",
+          "4H₂O",
+          "2H per molecule",
+          "H atoms"
+        ],
+        "key_points": [
+          "4 molecules of H₂O × 2 H per molecule = 8 H atoms on LHS"
+        ],
+        "formula": null,
+        "expected_answer": "8",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_und_mcq_003",
+      "use_for": "understanding",
+      "text": "Which law is the basis for balancing chemical equations?",
+      "options": [
+        {
+          "text": "Law of multiple proportions",
+          "is_correct": false
+        },
+        {
+          "text": "Law of conservation of mass",
+          "is_correct": true
+        },
+        {
+          "text": "Law of constant composition",
+          "is_correct": false
+        },
+        {
+          "text": "Avogadro's law",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "conservation of mass",
+          "atoms conserved"
+        ],
+        "key_points": [
+          "Equations are balanced because mass cannot be created or destroyed"
+        ],
+        "formula": null,
+        "expected_answer": "Law of conservation of mass",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_und_short_001",
+      "use_for": "understanding",
+      "text": "What is the 'hit-and-trial' method of balancing chemical equations? List the steps.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "coefficient",
+          "trial",
+          "equal atoms",
+          "balanced"
+        ],
+        "key_points": [
+          "Place whole number coefficients before formulae by trial",
+          "Select compound with maximum atoms, balance that element first",
+          "Adjust coefficients (never change formulae) until all atoms balance",
+          "Verify by counting all atoms on both sides"
+        ],
+        "formula": null,
+        "expected_answer": "Hit-and-trial: (1) Draw boxes around each formula. (2) List atom counts. (3) Start with element having maximum atoms. (4) Place coefficients to equalise; do not alter formulae. (5) Verify final counts on both sides.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "steps listed correctly"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_und_short_002",
+      "use_for": "understanding",
+      "text": "Balance the following equation step by step and write the balanced form:\nNaOH + H₂SO₄ → Na₂SO₄ + H₂O",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2NaOH",
+          "H₂SO₄",
+          "Na₂SO₄",
+          "2H₂O"
+        ],
+        "key_points": [
+          "Na: 1 LHS vs 2 RHS → put 2 before NaOH",
+          "H: 2+2=4 LHS, but 2 in H₂O → put 2 before H₂O",
+          "2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O"
+        ],
+        "formula": "2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l)",
+        "expected_answer": "2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "correct balanced equation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_beq_und_num_001",
+      "use_for": "understanding",
+      "text": "The formula of iron(II,III) oxide is Fe₃O₄. How many total atoms are present in one formula unit of Fe₃O₄?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "7",
+          "3 Fe",
+          "4 O",
+          "total 7"
+        ],
+        "key_points": [
+          "Fe₃O₄: 3 Fe atoms + 4 O atoms = 7 total atoms"
+        ],
+        "formula": "total = 3 + 4 = 7",
+        "expected_answer": "7 atoms (3 Fe + 4 O)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "Fe_count": {
+            "value": 3,
+            "unit": "atoms",
+            "locked": true
+          },
+          "O_count": {
+            "value": 4,
+            "unit": "atoms",
+            "locked": true
+          }
+        },
+        "formula_expression": "Fe_count + O_count",
+        "units": "atoms",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_und_mcq_001",
+      "use_for": "understanding",
+      "text": "Burning of coal (C + O₂ → CO₂) is an example of which type of reaction?",
+      "options": [
+        {
+          "text": "Decomposition reaction",
+          "is_correct": false
+        },
+        {
+          "text": "Displacement reaction",
+          "is_correct": false
+        },
+        {
+          "text": "Combination reaction",
+          "is_correct": true
+        },
+        {
+          "text": "Double displacement reaction",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "combination",
+          "two reactants",
+          "one product",
+          "coal"
+        ],
+        "key_points": [
+          "C + O₂ → CO₂: two reactants combine to form one product"
+        ],
+        "formula": "C(s) + O₂(g) → CO₂(g)",
+        "expected_answer": "Combination reaction",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_und_mcq_002",
+      "use_for": "understanding",
+      "text": "Which of the following processes is endothermic?",
+      "options": [
+        {
+          "text": "Burning of natural gas (CH₄ + 2O₂ → CO₂ + 2H₂O)",
+          "is_correct": false
+        },
+        {
+          "text": "Decomposition of limestone (CaCO₃ → CaO + CO₂)",
+          "is_correct": true
+        },
+        {
+          "text": "Slaking of lime (CaO + H₂O → Ca(OH)₂ + heat)",
+          "is_correct": false
+        },
+        {
+          "text": "Respiration (C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "endothermic",
+          "CaCO₃",
+          "energy absorbed",
+          "heat required"
+        ],
+        "key_points": [
+          "CaCO₃ decomposition requires heat → endothermic"
+        ],
+        "formula": "CaCO₃(s) → CaO(s) + CO₂(g) (heat required)",
+        "expected_answer": "Decomposition of limestone (CaCO₃ → CaO + CO₂)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_und_mcq_003",
+      "use_for": "understanding",
+      "text": "The decomposition of water by passing electric current (2H₂O → 2H₂ + O₂) is called:",
+      "options": [
+        {
+          "text": "Thermal decomposition",
+          "is_correct": false
+        },
+        {
+          "text": "Photochemical decomposition",
+          "is_correct": false
+        },
+        {
+          "text": "Electrolytic decomposition",
+          "is_correct": true
+        },
+        {
+          "text": "Catalytic decomposition",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "electrolytic",
+          "electricity",
+          "electrolysis",
+          "H₂O"
+        ],
+        "key_points": [
+          "Decomposition by electric current = electrolytic decomposition"
+        ],
+        "formula": "2H₂O(l) → 2H₂(g) + O₂(g)",
+        "expected_answer": "Electrolytic decomposition",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_und_short_001",
+      "use_for": "understanding",
+      "text": "What is a combination reaction? Write the balanced equation for the reaction of calcium oxide with water and name the products.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "single product",
+          "two reactants",
+          "CaO",
+          "H₂O",
+          "Ca(OH)₂",
+          "slaked lime",
+          "exothermic"
+        ],
+        "key_points": [
+          "Combination: two or more substances combine to form a single product",
+          "CaO(s) + H₂O(l) → Ca(OH)₂(aq) + heat; product = calcium hydroxide (slaked lime)"
+        ],
+        "formula": "CaO(s) + H₂O(l) → Ca(OH)₂(aq)",
+        "expected_answer": "Combination reaction: two or more reactants combine to give one product. CaO(s)+H₂O(l)→Ca(OH)₂(aq)+heat. Product: calcium hydroxide (slaked lime). It is exothermic.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "equation and product name"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_und_short_002",
+      "use_for": "understanding",
+      "text": "Write the balanced chemical equation for the decomposition of ferrous sulphate on heating. State the colour change observed.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "FeSO₄",
+          "Fe₂O₃",
+          "SO₂",
+          "SO₃",
+          "green to reddish brown",
+          "thermal"
+        ],
+        "key_points": [
+          "2FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g)",
+          "Green ferrous sulphate → reddish brown ferric oxide",
+          "Thermal decomposition (heat required)"
+        ],
+        "formula": "2FeSO₄(s) →(heat) Fe₂O₃(s) + SO₂(g) + SO₃(g)",
+        "expected_answer": "2FeSO₄(s)→Fe₂O₃(s)+SO₂(g)+SO₃(g). Colour change: green (FeSO₄) → reddish brown (Fe₂O₃). This is thermal decomposition.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "colour change stated"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_comdec_und_num_001",
+      "use_for": "understanding",
+      "text": "In the reaction CaCO₃(s) → CaO(s) + CO₂(g), calculate the mass of CaO produced when 50 g of CaCO₃ completely decomposes.\n(Molecular masses: CaCO₃ = 100 u, CaO = 56 u)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "50g",
+          "0.5 mol",
+          "56g",
+          "CaO",
+          "28g"
+        ],
+        "key_points": [
+          "100 g CaCO₃ → 56 g CaO (1:1 mole ratio)",
+          "50 g CaCO₃ = 50/100 = 0.5 mol → 0.5 mol CaO = 0.5 × 56 = 28 g"
+        ],
+        "formula": "mass_CaO = (CaCO3_mass / 100) * 56",
+        "expected_answer": "28 g of CaO",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "correct mass = 28g"
+        }
+      },
+      "template_params": {
+        "variables": {
+          "CaCO3_mass": {
+            "min": 50,
+            "max": 200,
+            "step": 50
+          }
+        },
+        "formula_expression": "(CaCO3_mass / 100) * 56",
+        "units": "g",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_und_mcq_001",
+      "use_for": "understanding",
+      "text": "In the reaction Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s), this is an example of:",
+      "options": [
+        {
+          "text": "Double displacement reaction",
+          "is_correct": false
+        },
+        {
+          "text": "Combination reaction",
+          "is_correct": false
+        },
+        {
+          "text": "Single displacement reaction",
+          "is_correct": true
+        },
+        {
+          "text": "Decomposition reaction",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "single displacement",
+          "Fe",
+          "CuSO4",
+          "more reactive"
+        ],
+        "key_points": [
+          "Iron displaces copper → single displacement reaction"
+        ],
+        "formula": null,
+        "expected_answer": "Single displacement reaction",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_und_mcq_002",
+      "use_for": "understanding",
+      "text": "Which of the following metals can displace copper from copper sulphate solution?",
+      "options": [
+        {
+          "text": "Gold (Au)",
+          "is_correct": false
+        },
+        {
+          "text": "Silver (Ag)",
+          "is_correct": false
+        },
+        {
+          "text": "Zinc (Zn)",
+          "is_correct": true
+        },
+        {
+          "text": "Mercury (Hg)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Zn",
+          "zinc",
+          "more reactive",
+          "activity series"
+        ],
+        "key_points": [
+          "Zn is more reactive than Cu in the activity series and displaces Cu"
+        ],
+        "formula": "Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)",
+        "expected_answer": "Zinc (Zn)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_und_mcq_003",
+      "use_for": "understanding",
+      "text": "In the reaction Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s) + 2NaCl(aq), BaSO₄ forms because:",
+      "options": [
+        {
+          "text": "Ba and Na displace each other",
+          "is_correct": false
+        },
+        {
+          "text": "BaSO₄ is insoluble in water",
+          "is_correct": true
+        },
+        {
+          "text": "The reaction is exothermic",
+          "is_correct": false
+        },
+        {
+          "text": "Sodium and barium exchange electrons",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "insoluble",
+          "BaSO₄",
+          "precipitate"
+        ],
+        "key_points": [
+          "BaSO₄ is insoluble in water — it separates as precipitate"
+        ],
+        "formula": null,
+        "expected_answer": "BaSO₄ is insoluble in water",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_und_short_001",
+      "use_for": "understanding",
+      "text": "What is a precipitation reaction? Give one example with a balanced equation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "insoluble",
+          "precipitate",
+          "ion exchange",
+          "BaSO₄"
+        ],
+        "key_points": [
+          "Precipitation: reaction producing insoluble product from mixing two solutions",
+          "Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s)↓ + 2NaCl(aq)"
+        ],
+        "formula": "Na₂SO₄(aq) + BaCl₂(aq) → BaSO₄(s) + 2NaCl(aq)",
+        "expected_answer": "Precipitation reaction produces an insoluble salt (precipitate). Example: Na₂SO₄(aq)+BaCl₂(aq)→BaSO₄(s)+2NaCl(aq).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "equation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_und_short_002",
+      "use_for": "understanding",
+      "text": "Write the balanced chemical equation for the reaction of zinc with copper sulphate solution. Identify the type of reaction and explain why it occurs.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Zn",
+          "CuSO₄",
+          "ZnSO₄",
+          "Cu",
+          "displacement",
+          "more reactive"
+        ],
+        "key_points": [
+          "Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)",
+          "Displacement reaction; Zn is more reactive than Cu"
+        ],
+        "formula": "Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)",
+        "expected_answer": "Zn(s)+CuSO₄(aq)→ZnSO₄(aq)+Cu(s). This is a single displacement reaction. Zinc is more reactive than copper so it displaces copper from its salt solution.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "reaction type + explanation"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_und_short_003",
+      "use_for": "understanding",
+      "text": "State two differences between a displacement reaction and a double displacement reaction.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "one element",
+          "two compounds",
+          "ion exchange",
+          "precipitate"
+        ],
+        "key_points": [
+          "Displacement: one element displaces another element (element vs compound)",
+          "Double displacement: two compounds exchange ions with each other",
+          "Displacement products include a free element; double displacement produces two new compounds (often a precipitate)"
+        ],
+        "formula": null,
+        "expected_answer": "1. Displacement: reactant is an element + compound; double displacement: two compounds react. 2. Displacement: one element replaces another (e.g., Fe+CuSO₄); double displacement: ion exchange between two compounds (e.g., Na₂SO₄+BaCl₂→BaSO₄+NaCl).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark each": "each correct difference"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_disp_und_num_001",
+      "use_for": "understanding",
+      "text": "In the reaction: 2AgNO₃(aq) + Cu(s) → Cu(NO₃)₂(aq) + 2Ag(s)\nIf 1 mole of copper reacts completely, how many moles of silver are produced?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2 moles",
+          "Ag",
+          "1 mole Cu",
+          "stoichiometry"
+        ],
+        "key_points": [
+          "From equation: 1 mol Cu → 2 mol Ag",
+          "1 mole Cu gives 2 moles Ag"
+        ],
+        "formula": "moles_Ag = moles_Cu * 2",
+        "expected_answer": "2 moles of silver",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "Cu_moles": {
+            "value": 1,
+            "unit": "mol",
+            "locked": true
+          }
+        },
+        "formula_expression": "Cu_moles * 2",
+        "units": "mol",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_und_mcq_001",
+      "use_for": "understanding",
+      "text": "In the reaction 2Cu(s) + O₂(g) → 2CuO(s), what happens to copper?",
+      "options": [
+        {
+          "text": "Copper is reduced",
+          "is_correct": false
+        },
+        {
+          "text": "Copper is oxidised",
+          "is_correct": true
+        },
+        {
+          "text": "Copper acts as a reducing agent",
+          "is_correct": false
+        },
+        {
+          "text": "Copper gains hydrogen",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "oxidised",
+          "gains oxygen",
+          "Cu → CuO"
+        ],
+        "key_points": [
+          "Cu gains oxygen → CuO; this is oxidation"
+        ],
+        "formula": null,
+        "expected_answer": "Copper is oxidised",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_und_short_001",
+      "use_for": "understanding",
+      "text": "In the reaction ZnO(s) + C(s) → Zn(s) + CO(g), identify which substance is oxidised and which is reduced. Justify your answer.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "C oxidised",
+          "ZnO reduced",
+          "gains oxygen",
+          "loses oxygen"
+        ],
+        "key_points": [
+          "C → CO: carbon gains oxygen → oxidised",
+          "ZnO → Zn: zinc oxide loses oxygen → reduced",
+          "This is a redox (simultaneous oxidation-reduction) reaction"
+        ],
+        "formula": "ZnO(s) + C(s) → Zn(s) + CO(g)",
+        "expected_answer": "Carbon (C) is oxidised: it gains oxygen to form CO. ZnO is reduced: it loses oxygen to form Zn. This is a redox reaction.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "ZnO reduced correctly identified with reason"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_und_short_002",
+      "use_for": "understanding",
+      "text": "Identify the oxidised and reduced substances in each of the following:\n(a) 4Na(s) + O₂(g) → 2Na₂O(s)\n(b) CuO(s) + H₂(g) → Cu(s) + H₂O(l)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Na oxidised",
+          "O₂ reduced",
+          "CuO reduced",
+          "H₂ oxidised"
+        ],
+        "key_points": [
+          "(a) Na is oxidised (gains O); O₂ is reduced (gains electrons/forms oxide)",
+          "(b) H₂ is oxidised (gains O → H₂O); CuO is reduced (loses O → Cu)"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Na is oxidised, O₂ is reduced. (b) H₂ is oxidised; CuO is reduced.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "0.5 mark each": "each correct identification (4 total)"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_redox_und_short_003",
+      "use_for": "understanding",
+      "text": "What is a redox reaction? Write one example of a redox reaction showing which substance is oxidised and which is reduced.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "simultaneous",
+          "oxidation",
+          "reduction",
+          "redox",
+          "one substance loses O",
+          "other gains O"
+        ],
+        "key_points": [
+          "Redox: oxidation and reduction occur simultaneously in the same reaction",
+          "e.g., CuO + H₂ → Cu + H₂O: CuO reduced (loses O), H₂ oxidised (gains O)"
+        ],
+        "formula": "CuO(s) + H₂(g) → Cu(s) + H₂O(l)",
+        "expected_answer": "A redox reaction is one in which one reactant gets oxidised and another gets reduced simultaneously. E.g., CuO(s)+H₂(g)→Cu(s)+H₂O(l): CuO is reduced (loses O), H₂ is oxidised (gains O).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "example with identification"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_corr_und_short_001",
+      "use_for": "understanding",
+      "text": "What is corrosion? Give two examples of corrosion observed in everyday life.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "corrosion",
+          "metal",
+          "oxidation",
+          "rusting",
+          "tarnishing"
+        ],
+        "key_points": [
+          "Corrosion: deterioration of metals due to attack by substances in the environment (moisture, O₂, acids)",
+          "Examples: (1) Rusting of iron (Fe → Fe₂O₃·nH₂O, reddish brown); (2) Tarnishing of silver (Ag → Ag₂S, black coating)"
+        ],
+        "formula": null,
+        "expected_answer": "Corrosion: slow destruction of a metal surface due to reaction with environment. Examples: (1) Iron rusts in moist air — reddish brown coating. (2) Silver tarnishes with hydrogen sulphide — black coating.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "two examples"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_corr_und_short_002",
+      "use_for": "understanding",
+      "text": "What is rancidity? State three methods used to prevent rancidity of food.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "rancidity",
+          "oxidation",
+          "fats",
+          "oils",
+          "antioxidants",
+          "airtight",
+          "nitrogen",
+          "refrigeration"
+        ],
+        "key_points": [
+          "Rancidity: oxidation of fats/oils in food causing unpleasant smell and taste",
+          "Prevention: (1) Add antioxidants (BHA); (2) Store in airtight containers; (3) Flush with nitrogen; (4) Refrigerate"
+        ],
+        "formula": null,
+        "expected_answer": "Rancidity: spoilage of food containing fats/oils due to oxidation. Prevention: (1) Adding antioxidants. (2) Storing in airtight containers. (3) Flushing with nitrogen gas.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "two/three methods"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap01_corr_und_short_003",
+      "use_for": "understanding",
+      "text": "Why do we apply paint on iron articles? Why does whitewashing a wall cause it to shine after 2–3 days?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "paint",
+          "rusting",
+          "corrosion",
+          "Ca(OH)₂",
+          "CaCO₃",
+          "CO₂",
+          "shiny"
+        ],
+        "key_points": [
+          "Paint on iron: forms protective layer preventing contact with moist air/O₂ → prevents rusting",
+          "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O; thin CaCO₃ layer forms after 2-3 days giving shiny finish"
+        ],
+        "formula": "Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l)",
+        "expected_answer": "Paint prevents contact of iron with moisture and oxygen, stopping corrosion. Whitewashing: Ca(OH)₂ slowly reacts with CO₂ in air to form CaCO₃ (marble-like) giving a shiny finish after 2–3 days.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 mark": "CaCO₃ formation from whitewash"
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

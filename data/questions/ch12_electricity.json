@@ -1,0 +1,2390 @@
+{
+  "chapter_id": "ch12_electricity",
+  "chapter_title": "Electricity",
+  "questions": [
+    {
+      "id": "chap11_ecpd_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following constitutes electric current in metallic conductors?",
+      "options": [
+        {
+          "text": "Flow of protons",
+          "is_correct": false
+        },
+        {
+          "text": "Flow of neutrons",
+          "is_correct": false
+        },
+        {
+          "text": "Flow of electrons",
+          "is_correct": true
+        },
+        {
+          "text": "Flow of positive ions only",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "electrons",
+          "metallic",
+          "current"
+        ],
+        "key_points": [
+          "In metallic conductors, free electrons are the charge carriers"
+        ],
+        "formula": "I = Q/t",
+        "expected_answer": "(c) Flow of electrons",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_mcq_002",
+      "use_for": "test",
+      "text": "The potential difference between two points is 1 V. This means:",
+      "options": [
+        {
+          "text": "1 J of work moves 2 C of charge",
+          "is_correct": false
+        },
+        {
+          "text": "1 C of charge gains 1 J of energy",
+          "is_correct": true
+        },
+        {
+          "text": "2 J of work moves 1 C of charge",
+          "is_correct": false
+        },
+        {
+          "text": "1 C of charge loses 2 J of energy",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "potential difference",
+          "1 volt",
+          "work",
+          "charge"
+        ],
+        "key_points": [
+          "V = W/Q; when V=1V and Q=1C, W=1J"
+        ],
+        "formula": "V = W/Q",
+        "expected_answer": "(b) 1 C of charge gains 1 J of energy",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_sa_001",
+      "use_for": "test",
+      "text": "Define electric current. Write the formula relating charge, current and time. State the SI unit of current and define it.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "rate",
+          "flow",
+          "charge",
+          "ampere",
+          "coulomb",
+          "second"
+        ],
+        "key_points": [
+          "Electric current is the rate of flow of electric charge through a cross-section of a conductor",
+          "Formula: I = Q/t",
+          "SI unit is ampere (A)",
+          "1 A = flow of 1 C charge per second"
+        ],
+        "formula": "I = Q/t",
+        "expected_answer": "Electric current is defined as the amount of electric charge (Q) flowing through a conductor in unit time (t). I = Q/t. SI unit is ampere (A). 1 ampere = 1 coulomb per second (1 A = 1 C/s).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition_only": 1,
+          "formula_and_unit": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_sa_002",
+      "use_for": "test",
+      "text": "What is meant by potential difference between two points in a circuit? Define 1 volt.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "work done",
+          "unit charge",
+          "volt",
+          "joule",
+          "coulomb"
+        ],
+        "key_points": [
+          "PD between two points = work done to move unit positive charge from one point to the other",
+          "V = W/Q",
+          "1 volt = 1 joule per coulomb (1 V = 1 J C⁻¹)"
+        ],
+        "formula": "V = W/Q",
+        "expected_answer": "Potential difference between two points is the work done in moving a unit positive charge from one point to the other. V = W/Q. 1 volt is the PD when 1 joule of work is done to move 1 coulomb of charge from one point to the other.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition_only": 1,
+          "1_volt_definition": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_num_001",
+      "use_for": "test",
+      "text": "A current of 0.5 A is drawn by a filament of an electric bulb for 10 minutes. Find the amount of electric charge that flows through the circuit.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Q",
+          "I",
+          "t",
+          "300",
+          "coulomb"
+        ],
+        "key_points": [
+          "Given: I = 0.5 A, t = 10 min = 600 s",
+          "Q = I × t = 0.5 × 600 = 300 C"
+        ],
+        "formula": "Q = I × t",
+        "expected_answer": "Q = I × t = 0.5 A × 600 s = 300 C",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_correct": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "I": {
+            "value": 0.5,
+            "unit": "A",
+            "locked": true
+          },
+          "t": {
+            "value": 600,
+            "unit": "s",
+            "locked": true
+          }
+        },
+        "formula_expression": "I * t",
+        "units": "C",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): In an electric circuit, the direction of conventional current is from the positive terminal to the negative terminal of the cell through the external circuit.\nReason (R): Electrons, being negatively charged, flow from the negative terminal to the positive terminal of the cell.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "conventional current",
+          "electrons",
+          "positive terminal",
+          "negative terminal"
+        ],
+        "key_points": [
+          "Conventional current flows from + to - externally, opposite to electron flow",
+          "Electron flow (- to + externally) causes conventional current (+ to - externally)"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true and R is the correct explanation of A. Electrons flow from - to + terminal; conventional current is defined as opposite, i.e., + to - through external circuit.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_mcq_001",
+      "use_for": "test",
+      "text": "According to Ohm's law (at constant temperature), the potential difference V across a conductor is:",
+      "options": [
+        {
+          "text": "Inversely proportional to current I",
+          "is_correct": false
+        },
+        {
+          "text": "Directly proportional to current I",
+          "is_correct": true
+        },
+        {
+          "text": "Equal to current I",
+          "is_correct": false
+        },
+        {
+          "text": "Independent of current I",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "directly proportional",
+          "constant temperature",
+          "V proportional to I"
+        ],
+        "key_points": [
+          "Ohm's law: V ∝ I at constant temperature, i.e., V = IR"
+        ],
+        "formula": "V = IR",
+        "expected_answer": "(b) Directly proportional to current I",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_mcq_002",
+      "use_for": "test",
+      "text": "The resistance of a wire is doubled and simultaneously the potential difference across it is also doubled. The current through the wire:",
+      "options": [
+        {
+          "text": "Becomes four times",
+          "is_correct": false
+        },
+        {
+          "text": "Becomes half",
+          "is_correct": false
+        },
+        {
+          "text": "Remains the same",
+          "is_correct": true
+        },
+        {
+          "text": "Doubles",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "I = V/R",
+          "remains same",
+          "ratio unchanged"
+        ],
+        "key_points": [
+          "I = V/R; if both V and R double, I = 2V/2R = V/R — unchanged"
+        ],
+        "formula": "I = V/R",
+        "expected_answer": "(c) Remains the same. I_new = 2V/2R = V/R = I_original",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_sa_001",
+      "use_for": "test",
+      "text": "State Ohm's law. Write its mathematical expression and define resistance. State the SI unit of resistance.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "potential difference",
+          "directly proportional",
+          "current",
+          "constant temperature",
+          "ohm",
+          "resistance"
+        ],
+        "key_points": [
+          "Statement: V across a conductor ∝ I through it, at constant temperature",
+          "V = IR; R = V/I",
+          "SI unit of resistance is ohm (Ω)",
+          "1 Ω = 1 V / 1 A"
+        ],
+        "formula": "V = IR",
+        "expected_answer": "Ohm's law: The potential difference across the ends of a metallic conductor is directly proportional to the current through it, provided temperature remains constant. Mathematically: V = IR, where R is resistance. SI unit of resistance is ohm (Ω). 1 Ω = 1 V / 1 A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "statement": 1,
+          "formula_and_unit": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_sa_002",
+      "use_for": "test",
+      "text": "List the factors on which the resistance of a conductor depends. Write the expression R = ρl/A and define each term with its SI unit.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "length",
+          "area of cross-section",
+          "material",
+          "temperature",
+          "resistivity",
+          "rho",
+          "ohm metre"
+        ],
+        "key_points": [
+          "Resistance depends on: (i) length l — directly proportional",
+          "(ii) area of cross-section A — inversely proportional",
+          "(iii) nature of material (resistivity ρ)",
+          "(iv) temperature",
+          "R = ρl/A; ρ = resistivity (Ω m); l = length (m); A = area (m²)"
+        ],
+        "formula": "R = ρl/A",
+        "expected_answer": "Resistance depends on (i) length l: R ∝ l (ii) area A: R ∝ 1/A (iii) nature of material: characterised by resistivity ρ (iv) temperature. Combined: R = ρl/A, where ρ = electrical resistivity (SI unit Ω m), l = length (m), A = cross-sectional area (m²).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "two_factors": 1,
+          "formula_correct": 1,
+          "definitions": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_sa_003",
+      "use_for": "test",
+      "text": "Why are coils of electric toasters and electric irons made of an alloy rather than a pure metal? Give two reasons.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "high resistivity",
+          "high melting point",
+          "oxidise",
+          "alloy",
+          "nichrome"
+        ],
+        "key_points": [
+          "Alloys have higher resistivity than pure metals — produce more heat for same current",
+          "Alloys do not oxidise (burn) readily at high temperatures — more durable",
+          "Alloys have high melting point — do not melt easily under high temperatures"
+        ],
+        "formula": "H = I²Rt",
+        "expected_answer": "Alloys are preferred because: (1) They have higher resistivity than pure metals, so they produce more heat for the same current. (2) They do not oxidise (corrode) readily at high temperatures and have high melting points, making them more durable. Example: Nichrome (alloy of Ni, Cr, Mn, Fe).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one_reason": 1,
+          "both_reasons": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_sa_004",
+      "use_for": "test",
+      "text": "The potential difference between the terminals of an electric heater is 60 V when it draws a current of 4 A from the source. What current will the heater draw if the potential difference is increased to 120 V?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "R = V/I",
+          "15 ohm",
+          "8 A"
+        ],
+        "key_points": [
+          "R = V/I = 60/4 = 15 Ω",
+          "New current I = V/R = 120/15 = 8 A"
+        ],
+        "formula": "V = IR",
+        "expected_answer": "R = V/I = 60 V / 4 A = 15 Ω. When V = 120 V: I = V/R = 120/15 = 8 A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "R_correct": 1,
+          "new_I_correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_diagram_001",
+      "use_for": "test",
+      "text": "Study the V–I graph in Figure A showing two metallic wires A and B connected in the same circuit at different times.\n(a) Which wire has greater resistance? Give reason.\n(b) Calculate the resistance of wire A from the graph.\n(c) State what happens to the current through wire B if the potential difference across it is doubled.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "steeper slope",
+          "greater resistance",
+          "R = V/I",
+          "wire B",
+          "slope",
+          "doubles"
+        ],
+        "key_points": [
+          "(a) Wire B has greater resistance — steeper slope means more V per unit I, i.e., greater R",
+          "(b) R_A = V/I = 8.0 V / 2.0 A = 4 Ω (reading from graph at any point on line A)",
+          "(c) Current through B doubles — Ohm's law: I ∝ V at constant R"
+        ],
+        "formula": "R = V/I",
+        "expected_answer": "(a) Wire B. Steeper slope on V-I graph → higher R = V/I. (b) From graph, at I=2A, V_A=8V → R_A = 8/2 = 4 Ω. (c) Current doubles, since I = V/R and R is constant.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "part_a": 1,
+          "part_b": 1,
+          "part_c": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap11_ohm_diagram_001.png"
+    },
+    {
+      "id": "chap11_ohm_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): The resistivity of an alloy is generally higher than that of its constituent pure metals.\nReason (R): Alloys are used in heating elements because they do not oxidise readily at high temperatures.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "Both A and R are true but R is not the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "both true",
+          "not correct explanation",
+          "resistivity",
+          "oxidise"
+        ],
+        "key_points": [
+          "A is TRUE — alloys like nichrome have higher resistivity than pure metals",
+          "R is TRUE — alloys resist oxidation at high temperatures",
+          "R is NOT the explanation for A — high resistivity and resistance to oxidation are independent properties of alloys"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Both A and R are true but R is not the correct explanation of A. The higher resistivity is a separate property from oxidation resistance.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_mcq_001",
+      "use_for": "test",
+      "text": "A piece of wire of resistance R is cut into five equal parts. These parts are then connected in parallel. If the equivalent resistance of this combination is R′, then the ratio R/R′ is:",
+      "options": [
+        {
+          "text": "1/25",
+          "is_correct": false
+        },
+        {
+          "text": "1/5",
+          "is_correct": false
+        },
+        {
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "text": "25",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "R/5",
+          "five parts",
+          "parallel",
+          "25"
+        ],
+        "key_points": [
+          "Each part has resistance R/5",
+          "5 parts in parallel: 1/R' = 5×(5/R) = 25/R → R' = R/25",
+          "R/R' = 25"
+        ],
+        "formula": "1/Rp = n/R_each",
+        "expected_answer": "(d) 25. Each piece = R/5; five in parallel: R' = (R/5)/5 = R/25; R/R' = 25.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_mcq_002",
+      "use_for": "test",
+      "text": "When several resistors are connected in series in a circuit, which physical quantity remains the same through all resistors?",
+      "options": [
+        {
+          "text": "Voltage",
+          "is_correct": false
+        },
+        {
+          "text": "Power",
+          "is_correct": false
+        },
+        {
+          "text": "Current",
+          "is_correct": true
+        },
+        {
+          "text": "Resistance",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "current",
+          "same",
+          "series"
+        ],
+        "key_points": [
+          "In series, current I is the same through every component"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Current. In a series circuit, there is only one path for current flow.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_sa_001",
+      "use_for": "test",
+      "text": "When three resistors R₁, R₂ and R₃ are connected in series, derive the expression for their equivalent resistance Rs using Ohm's law.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "same current",
+          "V1 + V2 + V3",
+          "I R1",
+          "I R2",
+          "I R3",
+          "Rs = R1 + R2 + R3"
+        ],
+        "key_points": [
+          "Same current I flows through all",
+          "Total PD: V = V1 + V2 + V3 = IR1 + IR2 + IR3 = I(R1+R2+R3)",
+          "Rs = R1 + R2 + R3"
+        ],
+        "formula": "Rs = R1 + R2 + R3",
+        "expected_answer": "In series, same current I flows through all resistors. V = V1+V2+V3 = IR1+IR2+IR3 = I(R1+R2+R3). Since V = I·Rs, we get Rs = R1+R2+R3.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "V_equation": 1,
+          "final_formula": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_sa_002",
+      "use_for": "test",
+      "text": "State two advantages of connecting electrical devices in parallel rather than in series in household circuits.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "independent",
+          "same voltage",
+          "failure",
+          "equivalent resistance decreases",
+          "different current"
+        ],
+        "key_points": [
+          "Each device operates at the same (full) voltage",
+          "Each device can be switched on/off independently",
+          "Failure of one device does not affect others",
+          "Each device can draw the current it needs"
+        ],
+        "formula": null,
+        "expected_answer": "(1) Each device gets the same full supply voltage and can be operated independently. (2) If one device fails/is switched off, others continue to work unaffected.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one_advantage": 1,
+          "two_advantages": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_sa_003",
+      "use_for": "test",
+      "text": "Show how you would connect three resistors, each of resistance 6 Ω, so that the combination has a resistance of (i) 9 Ω and (ii) 4 Ω. Justify your answer with calculations.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "two in series",
+          "one in parallel",
+          "two in parallel",
+          "one in series",
+          "9 ohm",
+          "4 ohm"
+        ],
+        "key_points": [
+          "(i) 9 Ω: Two resistors (6+6=12Ω) in parallel with third (6Ω) gives: 1/R = 1/12 + 1/6 = 3/12 → R=4Ω — NO",
+          "(i) 9 Ω: Two in parallel (3Ω) in series with one (6Ω) = 9 Ω ✓",
+          "(ii) 4 Ω: Two in parallel (3Ω) in series with one (6Ω) = 9Ω — NO",
+          "(i) 9 Ω: Correct: two 6Ω in parallel = 3Ω; 3Ω + 6Ω in series = 9Ω",
+          "(ii) 4 Ω: Correct: one 6Ω in series with another 6Ω gives 12Ω; 12Ω in parallel with 6Ω: 1/R=1/12+1/6=3/12 → R=4Ω"
+        ],
+        "formula": "Rs = R1+R2; 1/Rp = 1/R1+1/R2",
+        "expected_answer": "(i) 9 Ω: Connect two 6Ω resistors in parallel (Rp = 6×6/(6+6) = 3Ω), then connect this combination in series with the third 6Ω resistor. R = 3+6 = 9Ω. (ii) 4Ω: Connect two 6Ω in series (Rs=12Ω), then connect this in parallel with the third 6Ω: 1/R=1/12+1/6=3/12, R=4Ω.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "part_i_correct": 1.5,
+          "part_ii_correct": 1.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_num_001",
+      "use_for": "test",
+      "text": "An electric lamp whose resistance is 20 Ω, and a conductor of 4 Ω resistance are connected to a 6 V battery in series. Calculate: (a) the total resistance of the circuit, (b) the current through the circuit, and (c) the potential difference across the electric lamp and across the conductor.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "24 ohm",
+          "0.25 A",
+          "5 V",
+          "1 V"
+        ],
+        "key_points": [
+          "(a) Rs = 20 + 4 = 24 Ω",
+          "(b) I = V/Rs = 6/24 = 0.25 A",
+          "(c) V_lamp = I×R1 = 0.25×20 = 5 V; V_conductor = 0.25×4 = 1 V"
+        ],
+        "formula": "Rs = R1+R2; I = V/Rs; V = IR",
+        "expected_answer": "(a) Rs = 24 Ω (b) I = 0.25 A (c) V_lamp = 5 V, V_conductor = 1 V",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "part_a": 1,
+          "part_b": 1,
+          "part_c": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "R1": {
+            "value": 20,
+            "unit": "Ω",
+            "locked": true
+          },
+          "R2": {
+            "value": 4,
+            "unit": "Ω",
+            "locked": true
+          },
+          "V": {
+            "value": 6,
+            "unit": "V",
+            "locked": true
+          }
+        },
+        "formula_expression": "R1 + R2",
+        "units": "Ω",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_diagram_001",
+      "use_for": "test",
+      "text": "Study Figure A, which shows three resistors R₁ = 2 Ω, R₂ = 3 Ω and R₃ = 6 Ω connected in parallel to a 6 V battery.\n(a) Calculate the equivalent resistance of the parallel combination.\n(b) Find the current through each resistor.\n(c) Find the total current drawn from the battery.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "1/Rp",
+          "1 ohm",
+          "3 A",
+          "2 A",
+          "1 A",
+          "6 A"
+        ],
+        "key_points": [
+          "1/Rp = 1/2 + 1/3 + 1/6 = 3/6+2/6+1/6 = 6/6 = 1 → Rp = 1 Ω",
+          "I1 = 6/2 = 3 A; I2 = 6/3 = 2 A; I3 = 6/6 = 1 A",
+          "Total I = 3+2+1 = 6 A (also: I = V/Rp = 6/1 = 6 A)"
+        ],
+        "formula": "1/Rp = 1/R1 + 1/R2 + 1/R3; I = V/R",
+        "expected_answer": "(a) Rp = 1 Ω (b) I1=3A, I2=2A, I3=1A (c) Total I=6A",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "part_a": 1,
+          "part_b": 1,
+          "part_c": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap11_sp_diagram_001.png"
+    },
+    {
+      "id": "chap11_sp_diagram_002",
+      "use_for": "test",
+      "text": "Study Figure B, which shows R₁ = 5 Ω connected in series with a parallel combination of R₂ = 10 Ω and R₃ = 20 Ω, all connected to a 12 V battery.\n(a) Find the equivalent resistance of the parallel combination of R₂ and R₃.\n(b) Find the total resistance of the circuit.\n(c) Find the total current from the battery.\n(d) Find the current through R₂.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "20/3 ohm",
+          "6.67 ohm",
+          "11.67",
+          "total R",
+          "1.03 A",
+          "R2 current"
+        ],
+        "key_points": [
+          "(a) 1/Rp = 1/10 + 1/20 = 3/20 → Rp = 20/3 ≈ 6.67 Ω",
+          "(b) R_total = 5 + 20/3 = 15/3+20/3 = 35/3 ≈ 11.67 Ω",
+          "(c) I_total = V/R_total = 12/(35/3) = 36/35 ≈ 1.03 A",
+          "(d) PD across parallel = I_total × Rp = (36/35)×(20/3) = 240/35 ≈ 6.86 V; I_R2 = 6.86/10 ≈ 0.686 A"
+        ],
+        "formula": "1/Rp = 1/R2+1/R3; R_total = R1+Rp; I = V/R",
+        "expected_answer": "(a) Rp = 20/3 ≈ 6.67 Ω (b) R_total ≈ 11.67 Ω (c) I ≈ 1.03 A (d) V_parallel ≈ 6.86 V; I_R2 ≈ 0.69 A",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "part_a": 1,
+          "part_b": 1,
+          "part_c": 1,
+          "part_d": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap11_sp_diagram_002.png"
+    },
+    {
+      "id": "chap11_sp_la_001",
+      "use_for": "test",
+      "text": "Derive the expression for the equivalent resistance when three resistors R₁, R₂ and R₃ are connected in parallel. Draw a labelled circuit diagram. Show that the equivalent resistance is less than the smallest individual resistance.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "same voltage",
+          "I = I1+I2+I3",
+          "V/R1",
+          "V/R2",
+          "V/R3",
+          "1/Rp",
+          "less than"
+        ],
+        "key_points": [
+          "In parallel: same PD (V) across each resistor",
+          "Total current I = I1+I2+I3 = V/R1+V/R2+V/R3",
+          "Since I = V/Rp: V/Rp = V(1/R1+1/R2+1/R3)",
+          "Therefore: 1/Rp = 1/R1+1/R2+1/R3",
+          "Diagram: battery, 3 parallel branches each with Ri",
+          "Rp < R1, R2, R3 individually (since 1/Rp > 1/Ri for each i)"
+        ],
+        "formula": "1/Rp = 1/R1 + 1/R2 + 1/R3",
+        "expected_answer": "Derivation with diagram. In parallel: V same across all. I=I1+I2+I3. I1=V/R1, I2=V/R2, I3=V/R3. V/Rp = V/R1+V/R2+V/R3 → 1/Rp=1/R1+1/R2+1/R3. Since 1/Rp > 1/R1 (adding positive terms), Rp < R1.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Three resistors in parallel branches",
+          "Battery symbol",
+          "Ammeter in main branch",
+          "Voltmeter across parallel combination",
+          "Labels R1, R2, R3"
+        ],
+        "partial_marks": {
+          "diagram": 1,
+          "derivation_steps": 2,
+          "final_formula": 1,
+          "proof_Rp_less": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_sa_004",
+      "use_for": "test",
+      "text": "An electric lamp of 100 Ω, a toaster of resistance 50 Ω and a water filter of resistance 500 Ω are connected in parallel to a 220 V source. Find: (a) the equivalent resistance of the combination, (b) the total current drawn from the source.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "1/R",
+          "500/16",
+          "31.25 ohm",
+          "6.4 A",
+          "220"
+        ],
+        "key_points": [
+          "1/R = 1/100 + 1/50 + 1/500 = 5/500 + 10/500 + 1/500 = 16/500",
+          "R = 500/16 = 31.25 Ω",
+          "I = V/R = 220/31.25 = 7.04 A"
+        ],
+        "formula": "1/Rp = 1/R1+1/R2+1/R3; I = V/Rp",
+        "expected_answer": "1/Rp = 1/100+1/50+1/500 = 16/500 → Rp = 31.25 Ω. I = 220/31.25 = 7.04 A",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "Rp_correct": 1.5,
+          "I_correct": 1.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_mcq_001",
+      "use_for": "test",
+      "text": "Two conducting wires of the same material, equal lengths and equal diameters are first connected in series and then in parallel in a circuit across the same potential difference. The ratio of heat produced in the series combination to that in the parallel combination is:",
+      "options": [
+        {
+          "text": "1:2",
+          "is_correct": false
+        },
+        {
+          "text": "2:1",
+          "is_correct": false
+        },
+        {
+          "text": "1:4",
+          "is_correct": true
+        },
+        {
+          "text": "4:1",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "1:4",
+          "series",
+          "parallel",
+          "H = V²t/R"
+        ],
+        "key_points": [
+          "Let each wire = R. Series: Rs = 2R; H_s = V²t/(2R)",
+          "Parallel: Rp = R/2; H_p = V²t/(R/2) = 2V²t/R",
+          "H_s/H_p = [V²t/2R] / [2V²t/R] = 1/4"
+        ],
+        "formula": "H = V²t/R",
+        "expected_answer": "(c) 1:4",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_sa_001",
+      "use_for": "test",
+      "text": "State Joule's law of heating. Write the mathematical expression H = I²Rt, explaining the meaning of each symbol and the three relationships implied by the law.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "H proportional I²",
+          "H proportional R",
+          "H proportional t",
+          "joule",
+          "ampere",
+          "ohm",
+          "second"
+        ],
+        "key_points": [
+          "H = I²Rt",
+          "H ∝ I² (for given R, t)",
+          "H ∝ R (for given I, t)",
+          "H ∝ t (for given I, R)",
+          "H in joules (J), I in amperes (A), R in ohms (Ω), t in seconds (s)"
+        ],
+        "formula": "H = I²Rt",
+        "expected_answer": "Joule's law: The heat produced in a resistor is (i) directly proportional to the square of current (H∝I²), (ii) directly proportional to resistance (H∝R), and (iii) directly proportional to time (H∝t). Combined: H = I²Rt (J = A²·Ω·s).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_with_symbols": 1,
+          "three_relationships": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_sa_002",
+      "use_for": "test",
+      "text": "Why does the cord of an electric heater not glow while the heating element does? What properties should a good heating element possess?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "high resistance",
+          "low resistance",
+          "cord",
+          "nichrome",
+          "tungsten",
+          "high melting point",
+          "resistivity"
+        ],
+        "key_points": [
+          "Cord has very low resistance (copper/aluminium) — less heat produced",
+          "Heating element has high resistance (alloy like nichrome) — more heat",
+          "Good heating element: high resistivity, high melting point, does not oxidise"
+        ],
+        "formula": "H = I²Rt",
+        "expected_answer": "The cord has low resistance so very little heat is produced (H=I²Rt, small R). The heating element (nichrome) has high resistance and produces large heat. A good heating element needs: (1) high resistivity, (2) high melting point, (3) resistance to oxidation at high temperatures.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "cord_vs_element": 1,
+          "properties_heating_element": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_sa_003",
+      "use_for": "test",
+      "text": "Explain the working of an electric fuse. Why is it connected in series in a circuit? If an electric iron of 1 kW is operated at 220 V, what current rating fuse should be used?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "low melting point",
+          "series",
+          "excess current",
+          "melts",
+          "breaks circuit",
+          "4.54 A",
+          "5 A fuse"
+        ],
+        "key_points": [
+          "Fuse wire has low melting point alloy",
+          "In series — all current passes through it",
+          "Excess current heats fuse → melts → breaks circuit → protects appliance",
+          "I = P/V = 1000/220 = 4.54 A → use 5 A fuse"
+        ],
+        "formula": "I = P/V",
+        "expected_answer": "Fuse: low-melting alloy wire in series with circuit. Excess current raises temperature, melts fuse, breaks circuit. Must be in series so all current flows through it. For 1kW at 220V: I = 1000/220 = 4.54A → 5A fuse required.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "working_principle": 1,
+          "why_series": 1,
+          "fuse_rating_correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_num_001",
+      "use_for": "test",
+      "text": "An electric iron of resistance 20 Ω takes a current of 5 A. Calculate the heat developed in 30 seconds.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "H = I²Rt",
+          "15000 J",
+          "15 kJ"
+        ],
+        "key_points": [
+          "H = I²Rt = (5)² × 20 × 30 = 25 × 20 × 30 = 15000 J"
+        ],
+        "formula": "H = I²Rt",
+        "expected_answer": "H = I²Rt = (5)² × 20 × 30 = 15,000 J = 15 kJ",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_applied": 1,
+          "answer": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "I": {
+            "value": 5,
+            "unit": "A",
+            "locked": true
+          },
+          "R": {
+            "value": 20,
+            "unit": "Ω",
+            "locked": true
+          },
+          "t": {
+            "value": 30,
+            "unit": "s",
+            "locked": true
+          }
+        },
+        "formula_expression": "I**2 * R * t",
+        "units": "J",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_la_001",
+      "use_for": "test",
+      "text": "(a) Derive Joule's law of heating (H = I²Rt) from energy considerations.\n(b) An electric iron consumes energy at a rate of 840 W when heating is at the maximum rate and 360 W when at minimum. The voltage is 220 V. Find the current and resistance in each case.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "H = VIt",
+          "V = IR",
+          "H = I²Rt",
+          "3.82 A",
+          "57.6 Ω",
+          "1.64 A",
+          "134.15 Ω"
+        ],
+        "key_points": [
+          "Derivation: Work done = VQ = V(It) = VIt; by Ohm's law V=IR, H=I²Rt",
+          "Max: I = P/V = 840/220 = 3.82 A; R = V/I = 220/3.82 = 57.6 Ω",
+          "Min: I = 360/220 = 1.64 A; R = 220/1.64 = 134.15 Ω"
+        ],
+        "formula": "H = I²Rt; P = VI; I = P/V; R = V/I",
+        "expected_answer": "(a) Source does work W=VQ=VIt on charge Q=It. Since V=IR, W=I²Rt. This appears as heat H=I²Rt. (b) I_max=3.82A, R_max=57.6Ω; I_min=1.64A, R_min=134.15Ω.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "derivation": 2,
+          "max_I_and_R": 1.5,
+          "min_I_and_R": 1.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following does NOT represent electrical power in a circuit?",
+      "options": [
+        {
+          "text": "I²R",
+          "is_correct": false
+        },
+        {
+          "text": "IR²",
+          "is_correct": true
+        },
+        {
+          "text": "VI",
+          "is_correct": false
+        },
+        {
+          "text": "V²/R",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "IR²",
+          "not power",
+          "dimensions",
+          "P = VI = I²R = V²/R"
+        ],
+        "key_points": [
+          "P = VI = I²R = V²/R. IR² has dimensions of V·Ω = V²/A which is not watts"
+        ],
+        "formula": "P = VI = I²R = V²/R",
+        "expected_answer": "(b) IR². The correct expressions for power are VI, I²R and V²/R. IR² does not have units of power.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_mcq_002",
+      "use_for": "test",
+      "text": "An electric bulb is rated 220 V and 100 W. When it is operated on 110 V, the power consumed will be:",
+      "options": [
+        {
+          "text": "100 W",
+          "is_correct": false
+        },
+        {
+          "text": "75 W",
+          "is_correct": false
+        },
+        {
+          "text": "50 W",
+          "is_correct": false
+        },
+        {
+          "text": "25 W",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "R = V²/P",
+          "484 ohm",
+          "P = V²/R",
+          "25 W"
+        ],
+        "key_points": [
+          "Resistance R = V²/P = (220)²/100 = 484 Ω",
+          "At 110V: P = V²/R = (110)²/484 = 12100/484 = 25 W"
+        ],
+        "formula": "P = V²/R",
+        "expected_answer": "(d) 25 W. R = 220²/100 = 484 Ω; P at 110V = 110²/484 = 25 W.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_sa_001",
+      "use_for": "test",
+      "text": "Define electric power. Write three equivalent expressions for electric power in terms of V, I, and R. State the SI unit and define it. What is 1 kWh?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "rate",
+          "consumption",
+          "watt",
+          "VI",
+          "I²R",
+          "V²/R",
+          "kilowatt hour",
+          "3.6×10⁶ J"
+        ],
+        "key_points": [
+          "Power = rate of electrical energy consumption",
+          "P = VI = I²R = V²/R",
+          "SI unit: watt (W); 1 W = 1 V × 1 A",
+          "1 kWh = 1000W × 3600s = 3.6×10⁶ J (commercial unit of energy)"
+        ],
+        "formula": "P = VI = I²R = V²/R",
+        "expected_answer": "Electric power is the rate at which electrical energy is consumed. P = VI = I²R = V²/R. SI unit is watt (W); 1W = 1J/s. 1 kWh = 3.6×10⁶ J is the commercial unit (unit of electricity).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition_and_formulas": 1,
+          "unit_and_kWh": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_sa_002",
+      "use_for": "test",
+      "text": "An electric refrigerator rated 400 W operates 8 hours per day. Calculate: (a) the energy consumed in 30 days in kWh, and (b) the cost of this energy at Rs 3.00 per kWh.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "96 kWh",
+          "Rs 288",
+          "400 W",
+          "8 hours",
+          "30 days"
+        ],
+        "key_points": [
+          "Energy = Power × time = 400 W × 8 h/day × 30 days = 96,000 Wh = 96 kWh",
+          "Cost = 96 kWh × Rs3 = Rs 288"
+        ],
+        "formula": "E = P × t (in kWh)",
+        "expected_answer": "(a) E = 400W × 8h × 30 = 96,000 Wh = 96 kWh. (b) Cost = 96 × Rs3 = Rs 288.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "energy_correct": 1.5,
+          "cost_correct": 1.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_la_001",
+      "use_for": "test",
+      "text": "Two lamps, one rated 100 W at 220 V and the other 60 W at 220 V, are connected in parallel to a 220 V mains supply.\n(a) Calculate the resistance of each lamp.\n(b) Find the current through each lamp.\n(c) Which lamp glows brighter and why?\n(d) Find the total current drawn from the supply.\n(e) Find the energy consumed by each lamp in 8 hours.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "484 ohm",
+          "806.7 ohm",
+          "0.455 A",
+          "0.273 A",
+          "100W brighter",
+          "0.727 A",
+          "800 Wh",
+          "480 Wh"
+        ],
+        "key_points": [
+          "(a) R₁ = V²/P₁ = 220²/100 = 484 Ω; R₂ = 220²/60 ≈ 806.7 Ω",
+          "(b) I₁ = P₁/V = 100/220 ≈ 0.455 A; I₂ = 60/220 ≈ 0.273 A",
+          "(c) 100W lamp glows brighter as it consumes more power",
+          "(d) I_total = 0.455+0.273 ≈ 0.727 A (= 160/220)",
+          "(e) E₁ = 100W×8h = 800 Wh = 0.8 kWh; E₂ = 60×8 = 480 Wh = 0.48 kWh"
+        ],
+        "formula": "R=V²/P; I=P/V; E=Pt",
+        "expected_answer": "(a) R1=484Ω, R2≈806.7Ω (b) I1≈0.455A, I2≈0.273A (c) 100W brighter (d) I=0.727A (e) E1=800Wh, E2=480Wh",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "part_a": 1,
+          "part_b": 1,
+          "part_c": 1,
+          "part_d_and_e": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_und_mcq_001",
+      "use_for": "understanding",
+      "text": "A charge of 180 C passes through a wire in 1 minute. The current in the wire is:",
+      "options": [
+        {
+          "text": "180 A",
+          "is_correct": false
+        },
+        {
+          "text": "3 A",
+          "is_correct": true
+        },
+        {
+          "text": "0.33 A",
+          "is_correct": false
+        },
+        {
+          "text": "10800 A",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "I = Q/t",
+          "180/60",
+          "3 A"
+        ],
+        "key_points": [
+          "I = Q/t = 180 C / 60 s = 3 A"
+        ],
+        "formula": "I = Q/t",
+        "expected_answer": "(b) 3 A. I = 180/60 = 3 A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_und_mcq_002",
+      "use_for": "understanding",
+      "text": "The potential difference between two points in a circuit is 1 V. This means:",
+      "options": [
+        {
+          "text": "1 J of work is done to move 1 C of charge between the points",
+          "is_correct": true
+        },
+        {
+          "text": "1 C of charge moves between the points in 1 second",
+          "is_correct": false
+        },
+        {
+          "text": "1 A of current flows between the points",
+          "is_correct": false
+        },
+        {
+          "text": "1 W of power is dissipated between the points",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "V = W/Q",
+          "1 J per coulomb"
+        ],
+        "key_points": [
+          "V = W/Q. If V = 1 V, then W = 1 J per coulomb."
+        ],
+        "formula": "V = W/Q",
+        "expected_answer": "(a). 1 volt means 1 joule of work per coulomb of charge.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_und_sa_001",
+      "use_for": "understanding",
+      "text": "Define electric current. What is its SI unit? Name and state the device used to measure it.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "rate of flow of charge",
+          "ampere",
+          "ammeter",
+          "series"
+        ],
+        "key_points": [
+          "Electric current = rate of flow of electric charge; I = Q/t",
+          "SI unit: ampere (A)",
+          "Measured by ammeter connected in series"
+        ],
+        "formula": "I = Q/t",
+        "expected_answer": "Electric current is the rate of flow of electric charge through a conductor. I = Q/t. SI unit is ampere (A). It is measured by an ammeter connected in series in the circuit.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "unit_and_instrument": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_und_num_001",
+      "use_for": "understanding",
+      "text": "Calculate the charge that flows through a wire when a current of {I} A is maintained for {t} seconds. Also find the number of electrons that pass through the cross-section. (charge on electron = 1.6 × 10⁻¹⁹ C)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Q = It",
+          "n = Q/e",
+          "1.6e-19"
+        ],
+        "key_points": [
+          "Q = I × t",
+          "n = Q / (1.6 × 10⁻¹⁹)"
+        ],
+        "formula": "Q = It; n = Q/e",
+        "expected_answer": "Q = {I} × {t} = {Q} C; n = {Q}/(1.6×10⁻¹⁹) = {n} electrons.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "charge": 1,
+          "electrons": 1
+        }
+      },
+      "template_params": {
+        "fixed": false,
+        "variables": {
+          "I": {
+            "min": 0.5,
+            "max": 5.0,
+            "step": 0.5,
+            "unit": "A"
+          },
+          "t": {
+            "min": 60,
+            "max": 600,
+            "step": 60,
+            "unit": "s"
+          }
+        },
+        "derived": {
+          "Q": "I*t",
+          "n": "Q/1.6e-19"
+        }
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ecpd_und_sa_002",
+      "use_for": "understanding",
+      "text": "Why do we use a voltmeter in parallel and an ammeter in series in a circuit? What would happen if their positions were interchanged?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "high resistance voltmeter",
+          "low resistance ammeter",
+          "measure PD",
+          "no current change",
+          "short circuit",
+          "open circuit"
+        ],
+        "key_points": [
+          "Voltmeter has very high resistance → negligible current drawn → measures PD without disturbing circuit",
+          "Ammeter has very low resistance → negligible voltage drop across it → measures current without disturbing circuit",
+          "If interchanged: voltmeter in series → circuit nearly broken (very high R, no significant current); ammeter in parallel → nearly short circuits the component"
+        ],
+        "formula": null,
+        "expected_answer": "Voltmeter in parallel: its high resistance ensures it draws negligible current. Ammeter in series: its low resistance causes negligible voltage drop. If interchanged, voltmeter in series would block current (near open circuit); ammeter in parallel would short the component.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "voltmeter_reason": 1,
+          "ammeter_reason": 1,
+          "interchange_consequence": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_und_mcq_001",
+      "use_for": "understanding",
+      "text": "The graph between voltage (V) and current (I) for a metallic conductor at constant temperature is:",
+      "options": [
+        {
+          "text": "A straight line through the origin",
+          "is_correct": true
+        },
+        {
+          "text": "A parabola",
+          "is_correct": false
+        },
+        {
+          "text": "An exponential curve",
+          "is_correct": false
+        },
+        {
+          "text": "A straight line not through the origin",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "straight line",
+          "origin",
+          "Ohm's law",
+          "V ∝ I"
+        ],
+        "key_points": [
+          "By Ohm's law V = IR ⇒ V ∝ I at constant T, so the V-I graph is a straight line through the origin."
+        ],
+        "formula": "V = IR",
+        "expected_answer": "(a) A straight line through the origin.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_und_mcq_002",
+      "use_for": "understanding",
+      "text": "If the length of a wire is doubled and its cross-sectional area is halved, its resistance becomes:",
+      "options": [
+        {
+          "text": "Same as before",
+          "is_correct": false
+        },
+        {
+          "text": "Doubled",
+          "is_correct": false
+        },
+        {
+          "text": "4 times",
+          "is_correct": true
+        },
+        {
+          "text": "Halved",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "R = ρL/A",
+          "4 times",
+          "length doubled",
+          "area halved"
+        ],
+        "key_points": [
+          "R = ρL/A. New R = ρ(2L)/(A/2) = 4ρL/A = 4R."
+        ],
+        "formula": "R = ρL/A",
+        "expected_answer": "(c) 4 times. R ∝ L/A ⇒ R′ = ρ(2L)/(A/2) = 4R.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_und_sa_001",
+      "use_for": "understanding",
+      "text": "State Ohm's law. Under what conditions does a conductor obey Ohm's law?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "V = IR",
+          "constant temperature",
+          "physical conditions unchanged",
+          "directly proportional"
+        ],
+        "key_points": [
+          "Ohm's law: V ∝ I, i.e., V = IR, at constant temperature and unchanged physical conditions",
+          "Conditions: temperature constant, material unchanged"
+        ],
+        "formula": "V = IR",
+        "expected_answer": "Ohm's law: The current through a conductor is directly proportional to the potential difference across it, provided temperature and other physical conditions remain constant. V = IR.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "statement": 1,
+          "conditions": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_und_sa_002",
+      "use_for": "understanding",
+      "text": "On what factors does the resistance of a conductor depend? Write the formula relating resistance to these factors.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "length",
+          "cross-sectional area",
+          "resistivity",
+          "material",
+          "temperature",
+          "R = ρL/A"
+        ],
+        "key_points": [
+          "R ∝ L (directly proportional to length)",
+          "R ∝ 1/A (inversely proportional to cross-sectional area)",
+          "R depends on material (resistivity ρ)",
+          "R = ρL/A where ρ is resistivity of the material"
+        ],
+        "formula": "R = ρL/A",
+        "expected_answer": "Resistance depends on: (1) length L (R ∝ L), (2) area of cross-section A (R ∝ 1/A), (3) material (ρ). Formula: R = ρL/A where ρ is resistivity (unit: Ω·m).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "length_factor": 1,
+          "area_factor": 1,
+          "resistivity": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_und_sa_003",
+      "use_for": "understanding",
+      "text": "A student draws a V-I graph for two wires P and Q. Wire P has a steeper slope than wire Q. Which wire has higher resistance? How do you know from the graph?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "steeper slope",
+          "R = V/I",
+          "higher resistance",
+          "slope = R"
+        ],
+        "key_points": [
+          "In a V-I graph, slope = V/I = R",
+          "Steeper slope → higher R",
+          "Wire P has higher resistance"
+        ],
+        "formula": "R = V/I = slope of V-I graph",
+        "expected_answer": "Wire P has higher resistance. In a V-I graph, the slope = V/I = R. A steeper slope means higher resistance.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct_wire": 1,
+          "reasoning": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_und_sa_004",
+      "use_for": "understanding",
+      "text": "Why are alloys such as nichrome, manganin, and constantan preferred for making resistance wires in heating elements and standard resistors?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "high resistivity",
+          "does not oxidise",
+          "stable",
+          "low temperature coefficient"
+        ],
+        "key_points": [
+          "High resistivity → short length needed for desired resistance",
+          "Do not oxidise (corrode) readily at high temperatures",
+          "Low temperature coefficient of resistance → resistance stays stable"
+        ],
+        "formula": null,
+        "expected_answer": "Alloys like nichrome have (1) high resistivity, so short lengths give desired R; (2) do not oxidise at high temperatures; (3) low temperature coefficient, so resistance is stable over temperature changes.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "high_resistivity": 1,
+          "other_property": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_ohm_und_num_001",
+      "use_for": "understanding",
+      "text": "A potential difference of {V} V is applied across a resistor of {R} Ω. Calculate (a) the current through the resistor, (b) the charge that flows through it in {t} seconds.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "I = V/R",
+          "Q = It"
+        ],
+        "key_points": [
+          "I = V/R",
+          "Q = I × t"
+        ],
+        "formula": "I = V/R; Q = It",
+        "expected_answer": "(a) I = {V}/{R} = {I} A; (b) Q = {I} × {t} = {Q} C.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "current": 1,
+          "charge": 1
+        }
+      },
+      "template_params": {
+        "fixed": false,
+        "variables": {
+          "V": {
+            "min": 2,
+            "max": 24,
+            "step": 2,
+            "unit": "V"
+          },
+          "R": {
+            "min": 2,
+            "max": 20,
+            "step": 2,
+            "unit": "Ω"
+          },
+          "t": {
+            "min": 10,
+            "max": 120,
+            "step": 10,
+            "unit": "s"
+          }
+        },
+        "derived": {
+          "I": "V/R",
+          "Q": "I*t"
+        }
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_und_mcq_001",
+      "use_for": "understanding",
+      "text": "Three resistors of 3 Ω, 6 Ω and 9 Ω are connected in series. Their equivalent resistance is:",
+      "options": [
+        {
+          "text": "1.636 Ω",
+          "is_correct": false
+        },
+        {
+          "text": "6 Ω",
+          "is_correct": false
+        },
+        {
+          "text": "18 Ω",
+          "is_correct": true
+        },
+        {
+          "text": "9 Ω",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Rs = R1+R2+R3",
+          "3+6+9",
+          "18 Ω"
+        ],
+        "key_points": [
+          "Rs = 3+6+9 = 18 Ω"
+        ],
+        "formula": "Rs = R1+R2+R3",
+        "expected_answer": "(c) 18 Ω. Rs = 3+6+9 = 18 Ω.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_und_mcq_002",
+      "use_for": "understanding",
+      "text": "Three identical resistors each of resistance R are connected in parallel. The equivalent resistance of the combination is:",
+      "options": [
+        {
+          "text": "3R",
+          "is_correct": false
+        },
+        {
+          "text": "R/3",
+          "is_correct": true
+        },
+        {
+          "text": "R",
+          "is_correct": false
+        },
+        {
+          "text": "3/R",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "1/Rp = 3/R",
+          "Rp = R/3"
+        ],
+        "key_points": [
+          "1/Rp = 1/R+1/R+1/R = 3/R ⇒ Rp = R/3"
+        ],
+        "formula": "1/Rp = 1/R1 + 1/R2 + 1/R3",
+        "expected_answer": "(b) R/3. 1/Rp = 3/R ⇒ Rp = R/3.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_und_mcq_003",
+      "use_for": "understanding",
+      "text": "In a parallel circuit, if one branch is disconnected, the current in the remaining branches:",
+      "options": [
+        {
+          "text": "Increases",
+          "is_correct": false
+        },
+        {
+          "text": "Decreases",
+          "is_correct": false
+        },
+        {
+          "text": "Remains unchanged",
+          "is_correct": true
+        },
+        {
+          "text": "Becomes zero",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "same voltage",
+          "independent",
+          "unchanged"
+        ],
+        "key_points": [
+          "In parallel, each branch has the same PD. Disconnecting one branch does not change the PD across others, so their currents are unchanged."
+        ],
+        "formula": "I = V/R",
+        "expected_answer": "(c) Remains unchanged. Each branch independently has the same supply voltage, so disconnecting one does not affect others.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_und_sa_001",
+      "use_for": "understanding",
+      "text": "Distinguish between series and parallel combinations of resistors: give one similarity and two differences.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "same current",
+          "different voltage",
+          "same voltage",
+          "different current",
+          "Rs > individual",
+          "Rp < smallest"
+        ],
+        "key_points": [
+          "Similarity: total resistance can be calculated in both cases using standard formulas",
+          "Series: same current; PD divides; Rs = R1+R2+... (Rs > any individual R)",
+          "Parallel: same PD; current divides; Rp < smallest individual R"
+        ],
+        "formula": "Rs = R1+R2; 1/Rp = 1/R1+1/R2",
+        "expected_answer": "Similarity: both obey Ohm's law as a combination. Differences: (1) Series — same current, PD divides; Parallel — same PD, current divides. (2) In series Rs > any single R; in parallel Rp < smallest R.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "similarity": 1,
+          "difference_1": 1,
+          "difference_2": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_und_sa_002",
+      "use_for": "understanding",
+      "text": "In the given circuit, three resistors R1 = 2 Ω, R2 = 3 Ω and R3 = 6 Ω are connected in parallel across a 6 V battery. Find: (a) the equivalent resistance, (b) the current through each resistor, (c) the total current from the battery.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "1/Rp = 1/2+1/3+1/6",
+          "Rp = 1 Ω",
+          "I1=3A",
+          "I2=2A",
+          "I3=1A",
+          "total 6A"
+        ],
+        "key_points": [
+          "(a) 1/Rp = 1/2+1/3+1/6 = 3/6+2/6+1/6 = 6/6 = 1 ⇒ Rp = 1 Ω",
+          "(b) I1=6/2=3A; I2=6/3=2A; I3=6/6=1A",
+          "(c) I_total = 3+2+1 = 6A (or V/Rp = 6/1 = 6A)"
+        ],
+        "formula": "1/Rp = 1/R1+1/R2+1/R3; I = V/R",
+        "expected_answer": "(a) Rp = 1 Ω (b) I1=3A, I2=2A, I3=1A (c) I_total=6A",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equiv_R": 1,
+          "branch_currents": 1,
+          "total_current": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap11_sp_diagram_001.png"
+    },
+    {
+      "id": "chap11_sp_und_sa_003",
+      "use_for": "understanding",
+      "text": "Explain why household electrical appliances are connected in parallel and not in series.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "same voltage",
+          "independent",
+          "failure",
+          "individual switch",
+          "full voltage 220V"
+        ],
+        "key_points": [
+          "In parallel each device gets the full supply voltage (220 V)",
+          "Each device can be switched on/off independently",
+          "Failure of one device does not affect others",
+          "In series voltage would be divided and one failure stops all"
+        ],
+        "formula": null,
+        "expected_answer": "In parallel: (1) each device gets full 220 V, (2) can be operated independently, (3) failure of one does not stop others. In series voltage divides and one break stops the whole circuit.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "full_voltage": 1,
+          "independence": 1,
+          "failure_argument": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_sp_und_sa_004",
+      "use_for": "understanding",
+      "text": "In the circuit shown, R1 = 5 Ω is connected in series with a parallel combination of R2 = 10 Ω and R3 = 20 Ω. The supply is 12 V. Find the total resistance and the current drawn from the supply.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Rp = 10×20/(10+20)",
+          "Rp = 6.67 Ω",
+          "R_total = 5+6.67",
+          "11.67 Ω",
+          "I = 12/11.67",
+          "1.03 A"
+        ],
+        "key_points": [
+          "Rp = (10×20)/(10+20) = 200/30 = 6.67 Ω",
+          "R_total = 5 + 6.67 = 11.67 Ω",
+          "I = 12/11.67 ≈ 1.03 A"
+        ],
+        "formula": "Rp = R2R3/(R2+R3); R_total = R1+Rp; I = V/R_total",
+        "expected_answer": "Rp = (10×20)/30 ≈ 6.67 Ω; R_total = 5+6.67 = 11.67 Ω; I = 12/11.67 ≈ 1.03 A",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "parallel_R": 1,
+          "total_R": 1,
+          "current": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap11_sp_diagram_002.png"
+    },
+    {
+      "id": "chap11_sp_und_num_001",
+      "use_for": "understanding",
+      "text": "Two resistors of {R1} Ω and {R2} Ω are connected (a) in series and (b) in parallel across a {V} V supply. Find the equivalent resistance and current drawn from the supply in each case.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Rs = R1+R2",
+          "Rp = R1R2/(R1+R2)",
+          "Is = V/Rs",
+          "Ip = V/Rp"
+        ],
+        "key_points": [
+          "Series: Rs = R1+R2; Is = V/Rs",
+          "Parallel: Rp = R1R2/(R1+R2); Ip = V/Rp"
+        ],
+        "formula": "Rs = R1+R2; Rp = R1R2/(R1+R2)",
+        "expected_answer": "(a) Rs={Rs}Ω, Is={Is}A (b) Rp={Rp}Ω, Ip={Ip}A",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "series_part": 1.5,
+          "parallel_part": 1.5
+        }
+      },
+      "template_params": {
+        "fixed": false,
+        "variables": {
+          "R1": {
+            "min": 2,
+            "max": 20,
+            "step": 2,
+            "unit": "Ω"
+          },
+          "R2": {
+            "min": 2,
+            "max": 20,
+            "step": 2,
+            "unit": "Ω"
+          },
+          "V": {
+            "min": 6,
+            "max": 24,
+            "step": 6,
+            "unit": "V"
+          }
+        },
+        "derived": {
+          "Rs": "R1+R2",
+          "Rp": "R1*R2/(R1+R2)",
+          "Is": "V/Rs",
+          "Ip": "V/Rp"
+        }
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_und_mcq_001",
+      "use_for": "understanding",
+      "text": "An electric heater draws 2 A from a 220 V supply. If it is used for 30 minutes, the heat produced is:",
+      "options": [
+        {
+          "text": "13,200 J",
+          "is_correct": false
+        },
+        {
+          "text": "792,000 J",
+          "is_correct": true
+        },
+        {
+          "text": "6,600 J",
+          "is_correct": false
+        },
+        {
+          "text": "26,400 J",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "H = VIt",
+          "220×2×1800",
+          "792000 J"
+        ],
+        "key_points": [
+          "H = VIt = 220 × 2 × (30×60) = 220 × 2 × 1800 = 792,000 J"
+        ],
+        "formula": "H = VIt = I²Rt",
+        "expected_answer": "(b) 792,000 J. H = 220 × 2 × 1800 = 792,000 J.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_und_mcq_002",
+      "use_for": "understanding",
+      "text": "Which of the following characteristics is NOT required for the material of a fuse wire?",
+      "options": [
+        {
+          "text": "Low melting point",
+          "is_correct": false
+        },
+        {
+          "text": "Low resistivity",
+          "is_correct": true
+        },
+        {
+          "text": "High resistivity",
+          "is_correct": false
+        },
+        {
+          "text": "Appropriate thickness",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "low melting point",
+          "high resistivity",
+          "fuse",
+          "melts quickly"
+        ],
+        "key_points": [
+          "Fuse wire needs: low melting point (melts at small excess current), high resistivity (significant heating at lower currents), appropriate thin cross-section",
+          "Low resistivity is NOT desired — the fuse must heat up quickly"
+        ],
+        "formula": "H = I²Rt",
+        "expected_answer": "(b) Low resistivity. Fuse needs HIGH resistivity to generate enough heat to melt at fault current.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_und_sa_001",
+      "use_for": "understanding",
+      "text": "State Joule’s law of heating. On which factors does the heat produced in a conductor depend?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "H = I²Rt",
+          "current",
+          "resistance",
+          "time",
+          "directly proportional"
+        ],
+        "key_points": [
+          "H = I²Rt",
+          "H ∝ I² (square of current)",
+          "H ∝ R (resistance of conductor)",
+          "H ∝ t (time for which current flows)"
+        ],
+        "formula": "H = I²Rt",
+        "expected_answer": "Joule’s law: H = I²Rt. Heat depends on (1) square of current I, (2) resistance R, (3) time t.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_statement": 1,
+          "three_factors": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_und_sa_002",
+      "use_for": "understanding",
+      "text": "Why is the filament of an electric bulb made of tungsten, while the connecting lead wires are made of copper?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "high melting point",
+          "high resistivity",
+          "low resistivity",
+          "copper conductor"
+        ],
+        "key_points": [
+          "Tungsten: very high melting point (~3380°C), can withstand temperature; high resistivity so it glows at the operating current",
+          "Copper: very low resistivity, negligible heat generated in lead wires, so energy is not wasted"
+        ],
+        "formula": "H = I²Rt",
+        "expected_answer": "Tungsten: high melting point and high resistivity → glows at high temp without melting. Copper: low resistivity → negligible heat in lead wires (no energy waste).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "tungsten_reason": 1,
+          "copper_reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_heat_und_sa_003",
+      "use_for": "understanding",
+      "text": "An electric iron is rated 750 W at 220 V. Calculate its resistance and the current it draws. How much heat energy is produced if it is used for 2 hours?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "R = V²/P",
+          "64.53 Ω",
+          "I = P/V",
+          "3.41 A",
+          "H = Pt",
+          "5,400,000 J",
+          "5.4 MJ"
+        ],
+        "key_points": [
+          "R = V²/P = 220²/750 = 48400/750 ≈ 64.53 Ω",
+          "I = P/V = 750/220 ≈ 3.41 A",
+          "H = P×t = 750 × 7200 = 5,400,000 J = 5.4 MJ"
+        ],
+        "formula": "R = V²/P; I = P/V; H = Pt",
+        "expected_answer": "R ≈ 64.53 Ω; I ≈ 3.41 A; H = 750 × 7200 = 5,400,000 J.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "resistance": 1,
+          "current": 1,
+          "heat_energy": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_und_mcq_001",
+      "use_for": "understanding",
+      "text": "A 100 W bulb and a 40 W bulb are both designed for 220 V operation. When connected in series to a 220 V supply, which bulb will glow brighter?",
+      "options": [
+        {
+          "text": "100 W bulb",
+          "is_correct": false
+        },
+        {
+          "text": "40 W bulb",
+          "is_correct": true
+        },
+        {
+          "text": "Both glow equally bright",
+          "is_correct": false
+        },
+        {
+          "text": "Neither glows",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "R = V²/P",
+          "100W has lower R",
+          "40W has higher R",
+          "series same current",
+          "P = I²R",
+          "40W brighter"
+        ],
+        "key_points": [
+          "R_100 = 220²/100 = 484 Ω; R_40 = 220²/40 = 1210 Ω",
+          "In series, same current flows; P = I²R ⇒ higher R ⇒ more power",
+          "40 W bulb has higher resistance ⇒ dissipates more power in series ⇒ glows brighter"
+        ],
+        "formula": "R = V²/P; P = I²R (in series)",
+        "expected_answer": "(b) 40 W bulb. In series, same I; P=I²R. R_40 > R_100, so 40W bulb dissipates more power.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_und_mcq_002",
+      "use_for": "understanding",
+      "text": "The SI unit of electrical energy consumed is:",
+      "options": [
+        {
+          "text": "Watt (W)",
+          "is_correct": false
+        },
+        {
+          "text": "Joule (J)",
+          "is_correct": true
+        },
+        {
+          "text": "Kilowatt-hour (kWh)",
+          "is_correct": false
+        },
+        {
+          "text": "Volt (V)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "joule",
+          "SI unit",
+          "energy"
+        ],
+        "key_points": [
+          "SI unit of energy is joule (J). kWh is a commercial/practical unit, not the SI unit."
+        ],
+        "formula": "E = Pt (in joules when P in W, t in s)",
+        "expected_answer": "(b) Joule (J). kWh is a commercial unit; the SI unit of energy is joule.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_und_sa_001",
+      "use_for": "understanding",
+      "text": "Define electric power. Write the three equivalent expressions for power in terms of V, I, and R. Give the SI unit.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "rate of doing work",
+          "P = VI",
+          "P = I²R",
+          "P = V²/R",
+          "watt"
+        ],
+        "key_points": [
+          "Electric power = rate at which electrical energy is consumed/dissipated",
+          "P = VI = I²R = V²/R",
+          "SI unit: watt (W) = joule per second"
+        ],
+        "formula": "P = VI = I²R = V²/R",
+        "expected_answer": "Electric power is the rate of consumption of electrical energy. P = VI = I²R = V²/R. SI unit: watt (W).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 0.5,
+          "three_formulas": 1,
+          "unit": 0.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap11_power_und_sa_002",
+      "use_for": "understanding",
+      "text": "A household uses the following appliances daily: one 1000 W geyser for 1 hour, four 60 W bulbs for 5 hours, and one 500 W TV for 3 hours. If electricity costs Rs 5 per kWh, find the total daily energy consumed and daily cost.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "1000×1",
+          "4×60×5",
+          "500×3",
+          "3700 Wh",
+          "3.7 kWh",
+          "Rs 18.5"
+        ],
+        "key_points": [
+          "Geyser: 1000 W × 1 h = 1000 Wh",
+          "Bulbs: 4 × 60 W × 5 h = 1200 Wh",
+          "TV: 500 W × 3 h = 1500 Wh",
+          "Total: 3700 Wh = 3.7 kWh",
+          "Cost: 3.7 × Rs 5 = Rs 18.50"
+        ],
+        "formula": "E = P × t (kWh); Cost = E × rate",
+        "expected_answer": "Geyser 1000 Wh + Bulbs 1200 Wh + TV 1500 Wh = 3700 Wh = 3.7 kWh. Cost = 3.7 × 5 = Rs 18.50.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "individual_energies": 1.5,
+          "total_energy": 0.5,
+          "cost": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "electricity_cb_001",
+      "text": "Three resistors of 6 Ω, 3 Ω, and 2 Ω are connected in parallel across a 12 V battery. The wire connecting the 2 Ω resistor feels hotter than the others after a few minutes.\n\n(a) Calculate the equivalent resistance of the combination. [1]\n(b) Find the current through the 2 Ω resistor. [1]\n(c) Explain why the 2 Ω wire heats up more than the 6 Ω wire. [2]",
+      "type": "case_based",
+      "marks": 4,
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "parallel",
+          "equivalent resistance",
+          "Ohm",
+          "current",
+          "heating",
+          "H = I2Rt",
+          "power"
+        ],
+        "key_points": [
+          "1/Req = 1/6 + 1/3 + 1/2 = 1 Ω",
+          "Current through 2 Ω = 12/2 = 6 A",
+          "Current through 6 Ω = 12/6 = 2 A; higher current in 2 Ω",
+          "H = I²Rt — greater current produces more heat in same time"
+        ],
+        "expected_answer": "(a) Req = 1 Ω. (b) I = 12/2 = 6 A. (c) In parallel all have same voltage (12 V); 2 Ω carries 6 A vs 2 A through 6 Ω. Since H = I²Rt, the 2 Ω wire dissipates more heat.",
+        "formula": "1/Req = 1/R1 + 1/R2 + 1/R3",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

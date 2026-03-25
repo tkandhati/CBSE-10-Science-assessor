@@ -1,0 +1,2994 @@
+{
+  "chapter_id": "ch04_carbon_compounds",
+  "chapter_title": "Carbon and its Compounds",
+  "questions": [
+    {
+      "id": "chap4_bon_mcq_001",
+      "use_for": "test",
+      "text": "Carbon atoms form bonds with other atoms by sharing electrons. This type of chemical bond is called:",
+      "options": [
+        {
+          "text": "Ionic bond",
+          "is_correct": false
+        },
+        {
+          "text": "Covalent bond",
+          "is_correct": true
+        },
+        {
+          "text": "Metallic bond",
+          "is_correct": false
+        },
+        {
+          "text": "Hydrogen bond",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "covalent",
+          "sharing",
+          "electrons"
+        ],
+        "key_points": [
+          "Carbon achieves stability by sharing electrons, forming covalent bonds."
+        ],
+        "formula": null,
+        "expected_answer": "Covalent bond",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_mcq_002",
+      "use_for": "test",
+      "text": "The valency of carbon is 4 because it has __ electrons in its outermost shell and requires __ more electrons to complete its octet.",
+      "options": [
+        {
+          "text": "4, 4",
+          "is_correct": true
+        },
+        {
+          "text": "6, 2",
+          "is_correct": false
+        },
+        {
+          "text": "2, 6",
+          "is_correct": false
+        },
+        {
+          "text": "4, 8",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "4 valence electrons",
+          "octet",
+          "4 bonds"
+        ],
+        "key_points": [
+          "Carbon has 4 valence electrons; needs 4 more to complete octet, so valency = 4."
+        ],
+        "formula": null,
+        "expected_answer": "4, 4",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_sa_001",
+      "use_for": "test",
+      "text": "Carbon forms covalent compounds rather than ionic compounds. Give two reasons for this.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "gain 4 electrons",
+          "lose 4 electrons",
+          "energy",
+          "covalent",
+          "sharing"
+        ],
+        "key_points": [
+          "Gaining 4 electrons would require enormous energy and create a highly charged C⁴⁻ ion.",
+          "Losing 4 electrons would also require enormous energy and create a C⁴⁺ ion.",
+          "Sharing of electrons (covalent bonding) is energetically more favourable for carbon."
+        ],
+        "formula": null,
+        "expected_answer": "Carbon has 4 valence electrons. To form an ionic bond it would need to either gain 4 electrons (forming C⁴⁻, requiring very high energy) or lose 4 electrons (forming C⁴⁺, also requiring very high energy). Neither is energetically feasible, so carbon achieves stability by sharing electrons, forming covalent bonds.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 reason correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_sa_002",
+      "use_for": "test",
+      "text": "Draw the electron dot structure of (i) methane (CH₄) and (ii) carbon dioxide (CO₂). Show all shared electron pairs.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "shared pair",
+          "electron dot",
+          "double bond",
+          "single bond"
+        ],
+        "key_points": [
+          "CH₄: carbon in centre with 4 C–H single bonds, each H shares one electron pair with C.",
+          "CO₂: carbon in centre with two C=O double bonds; each O forms 2 shared pairs with C.",
+          "Lone pairs on oxygen atoms shown (2 lone pairs each on O in CO₂)."
+        ],
+        "formula": null,
+        "expected_answer": "CH₄: C has 4 valence electrons; each of 4 H atoms contributes 1 electron → 4 single covalent bonds, all octets/duplets complete. CO₂: C has 4 valence electrons; each O has 6 → two double bonds (C=O=C), carbon octet and oxygen octets satisfied.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Carbon at centre in both structures",
+          "4 single bonds in CH₄, each H has 2 electrons shared",
+          "2 double bonds in CO₂",
+          "Lone pairs shown on O atoms in CO₂"
+        ],
+        "partial_marks": {
+          "correct CH4 only": 1,
+          "correct CO2 only": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_num_001",
+      "use_for": "test",
+      "text": "Ethane has the molecular formula C₂H₆. Calculate the total number of covalent bonds present in one molecule of ethane. Show your working.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "C–C bond",
+          "C–H bond",
+          "7 bonds"
+        ],
+        "key_points": [
+          "1 C–C single bond between the two carbon atoms.",
+          "6 C–H single bonds (3 per carbon atom).",
+          "Total = 1 + 6 = 7 covalent bonds."
+        ],
+        "formula": "bonds = (C atoms – 1) + (H atoms) = 1 + 6 = 7",
+        "expected_answer": "7 covalent bonds (1 C–C + 6 C–H)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "C": {
+            "value": 2,
+            "unit": "atoms",
+            "locked": true
+          },
+          "H": {
+            "value": 6,
+            "unit": "atoms",
+            "locked": true
+          }
+        },
+        "formula_expression": "(C - 1) + H",
+        "units": "bonds",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): Diamond is the hardest naturally occurring substance.\nReason (R): In diamond, each carbon atom is bonded to four other carbon atoms in a rigid three-dimensional network by strong covalent bonds.\n\nChoose the correct option:\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is NOT the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is NOT the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "three-dimensional",
+          "tetrahedral",
+          "covalent network",
+          "hardness"
+        ],
+        "key_points": [
+          "Diamond's extreme hardness results from its 3-D covalent network structure.",
+          "Each C is sp3 hybridised, bonded tetrahedrally to 4 others — this is the reason for hardness."
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_mcq_001",
+      "use_for": "test",
+      "text": "The property of carbon by which it can form long chains, branches, and rings by bonding with other carbon atoms is called:",
+      "options": [
+        {
+          "text": "Tetravalency",
+          "is_correct": false
+        },
+        {
+          "text": "Catenation",
+          "is_correct": true
+        },
+        {
+          "text": "Isomerism",
+          "is_correct": false
+        },
+        {
+          "text": "Polymerisation",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "catenation",
+          "self-linking",
+          "carbon chains"
+        ],
+        "key_points": [
+          "Catenation is carbon's ability to bond with other carbon atoms to form long chains, branches, and rings."
+        ],
+        "formula": null,
+        "expected_answer": "Catenation",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_mcq_002",
+      "use_for": "test",
+      "text": "What is the IUPAC name of the compound with structural formula CH₃—CH₂—CH₂—OH?",
+      "options": [
+        {
+          "text": "Propan-1-ol",
+          "is_correct": true
+        },
+        {
+          "text": "Propan-2-ol",
+          "is_correct": false
+        },
+        {
+          "text": "Butan-1-ol",
+          "is_correct": false
+        },
+        {
+          "text": "Ethanol",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "propan-1-ol",
+          "3 carbons",
+          "OH at C-1"
+        ],
+        "key_points": [
+          "3-carbon chain with –OH at carbon 1 → propan-1-ol."
+        ],
+        "formula": null,
+        "expected_answer": "Propan-1-ol",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_mcq_003",
+      "use_for": "test",
+      "text": "Which of the following pairs of compounds belongs to the SAME homologous series?",
+      "options": [
+        {
+          "text": "CH₃OH and CH₃COOH",
+          "is_correct": false
+        },
+        {
+          "text": "CH₃CH₂OH and CH₃CH₂CH₂OH",
+          "is_correct": true
+        },
+        {
+          "text": "CH₄ and C₂H₄",
+          "is_correct": false
+        },
+        {
+          "text": "HCOOH and CH₃CHO",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "same functional group",
+          "differ by CH2",
+          "homologous"
+        ],
+        "key_points": [
+          "Ethanol (C₂H₅OH) and propan-1-ol (C₃H₇OH) both have –OH group and differ by one CH₂ unit.",
+          "They belong to the alcohol homologous series."
+        ],
+        "formula": null,
+        "expected_answer": "CH₃CH₂OH and CH₃CH₂CH₂OH",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_sa_001",
+      "use_for": "test",
+      "text": "Define homologous series. State any two characteristics of a homologous series.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "same functional group",
+          "differ by CH2",
+          "14 mass units",
+          "similar chemical properties"
+        ],
+        "key_points": [
+          "Homologous series: a series of compounds with the same functional group and similar chemical properties, where successive members differ by –CH₂– (14 mass units).",
+          "Characteristic 1: Same general formula (e.g., CnH2n+2 for alkanes).",
+          "Characteristic 2: Successive members differ by CH₂ group (14 u) in molecular formula.",
+          "Characteristic 3: All members have similar chemical properties.",
+          "(Any two of these characteristics acceptable.)"
+        ],
+        "formula": null,
+        "expected_answer": "A homologous series is a series of organic compounds having the same functional group, same general formula, and similar chemical properties, with each successive member differing by a –CH₂– unit (14 u). Characteristics: (i) same functional group, (ii) same general formula, (iii) successive members differ by CH₂, (iv) similar chemical properties, (v) gradual variation in physical properties.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition only": 1,
+          "one characteristic": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_sa_002",
+      "use_for": "test",
+      "text": "Distinguish between saturated and unsaturated hydrocarbons. Give one example of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "single bond",
+          "double bond",
+          "triple bond",
+          "alkane",
+          "alkene",
+          "saturated",
+          "unsaturated"
+        ],
+        "key_points": [
+          "Saturated: contain only single (C–C) bonds; general formula CnH2n+2; e.g., ethane.",
+          "Unsaturated: contain one or more double (C=C) or triple (C≡C) bonds; e.g., ethene (C=C) or ethyne (C≡C).",
+          "Unsaturated compounds are more reactive and decolourise bromine water; saturated do not."
+        ],
+        "formula": null,
+        "expected_answer": "Saturated hydrocarbons (alkanes) contain only single C–C bonds (e.g., ethane C₂H₆). Unsaturated hydrocarbons contain C=C double bonds (alkenes, e.g., ethene C₂H₄) or C≡C triple bonds (alkynes, e.g., ethyne C₂H₂).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "saturated definition + example": 1,
+          "unsaturated definition + example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_sa_003",
+      "use_for": "test",
+      "text": "Write the IUPAC name and draw the structural formula of the compound: CH₃–CH(CH₃)–CH₂–OH.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2-methylpropan-1-ol",
+          "OH at C-1",
+          "methyl branch at C-2"
+        ],
+        "key_points": [
+          "Parent chain: longest chain containing –OH = 3 carbons (propan-1-ol).",
+          "Methyl group at C-2 → 2-methylpropan-1-ol.",
+          "Structural formula shows branched chain with OH at terminal carbon."
+        ],
+        "formula": null,
+        "expected_answer": "IUPAC name: 2-methylpropan-1-ol. Structure: CH₃–CH(CH₃)–CH₂–OH (or equivalent expanded structural formula showing the branch at C-2 and –OH at C-1).",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "3-carbon main chain shown",
+          "Methyl branch at C-2 shown",
+          "–OH at C-1 (terminal carbon)",
+          "All bonds explicitly drawn"
+        ],
+        "partial_marks": {
+          "correct IUPAC name only": 1,
+          "correct structure only": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_sa_004",
+      "use_for": "test",
+      "text": "What is isomerism? Draw the structural formulas of any two structural isomers of butane (C₄H₁₀).",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "isomerism",
+          "same molecular formula",
+          "different structural formula",
+          "n-butane",
+          "isobutane"
+        ],
+        "key_points": [
+          "Isomerism: compounds with the same molecular formula but different structural arrangements.",
+          "n-Butane: CH₃–CH₂–CH₂–CH₃ (straight chain).",
+          "Isobutane (2-methylpropane): CH₃–CH(CH₃)–CH₃ (branched)."
+        ],
+        "formula": null,
+        "expected_answer": "Isomerism: phenomenon where compounds have the same molecular formula but different structural formulas. Isomers of C₄H₁₀: (i) n-butane: CH₃CH₂CH₂CH₃; (ii) 2-methylpropane (isobutane): CH₃CH(CH₃)CH₃.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Both structures show C₄H₁₀",
+          "n-butane: 4-carbon straight chain",
+          "isobutane: 3-carbon chain with methyl branch at C-2"
+        ],
+        "partial_marks": {
+          "definition only": 1,
+          "one correct isomer": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_num_001",
+      "use_for": "test",
+      "text": "Write the molecular formula of the 4th member of the alkene homologous series. The general formula of alkenes is CnH2n. Show your working.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "C4H8",
+          "but-1-ene",
+          "n=4",
+          "CnH2n"
+        ],
+        "key_points": [
+          "General formula of alkene: CnH2n.",
+          "4th member: n = 4 → C₄H₈.",
+          "Name: but-1-ene (or 1-butene)."
+        ],
+        "formula": "CnH2n; n=4 → C₄H₈",
+        "expected_answer": "C₄H₈ (but-1-ene)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct formula only": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "n": {
+            "min": 2,
+            "max": 7,
+            "step": 1
+          }
+        },
+        "formula_expression": "f'C{n}H{2*n}'",
+        "units": "molecular formula",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_dia_001",
+      "use_for": "test",
+      "text": "Study the structural formulas of six organic compounds labeled P to U shown in Figure A.\n(i) Identify any TWO pairs of compounds that belong to the same homologous series.\n(ii) State the functional group present in each pair you identified.\n(iii) Write the general formula for one of the series you identified.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "alcohol",
+          "aldehyde",
+          "carboxylic acid",
+          "homologous",
+          "functional group",
+          "OH",
+          "CHO",
+          "COOH"
+        ],
+        "key_points": [
+          "Pair 1: P (CH₃OH) and Q (C₂H₅OH) — both alcohols (–OH functional group).",
+          "Pair 2: R (CH₃CHO) and S (C₂H₅CHO) — both aldehydes (–CHO functional group).",
+          "Pair 3: T (CH₃COOH) and U (C₂H₅COOH) — both carboxylic acids (–COOH functional group).",
+          "General formula for alcohols: CnH(2n+1)OH or CnH(2n+2)O.",
+          "(Any two correct pairs with correct functional groups for full marks.)"
+        ],
+        "formula": "Alcohols: CnH(2n+2)O; Aldehydes: CnH2nO; Carboxylic acids: CnH2nO2",
+        "expected_answer": "Pair 1: P and Q (alcohols, –OH group). Pair 2: T and U (carboxylic acids, –COOH group). General formula for alcohols: CnH(2n+2)O.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one correct pair + functional group": 2,
+          "two correct pairs, wrong general formula": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap4_ver_dia_001.png"
+    },
+    {
+      "id": "chap4_ver_la_001",
+      "use_for": "test",
+      "text": "Explain the concept of a homologous series. State its four important characteristics. Write the IUPAC names and molecular formulas of the first four members of (a) the alkanol series and (b) the alkanal (aldehyde) series.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "functional group",
+          "CH2 unit",
+          "14 u",
+          "general formula",
+          "physical properties",
+          "chemical properties"
+        ],
+        "key_points": [
+          "Definition: series of organic compounds with same functional group, similar chemical properties, each successive member differing by –CH₂– (14 u).",
+          "Characteristic 1: Same general formula.",
+          "Characteristic 2: Successive members differ by –CH₂– group.",
+          "Characteristic 3: Similar chemical properties due to same functional group.",
+          "Characteristic 4: Gradual variation in physical properties (boiling point, density, etc.).",
+          "Alkanols: methanol (CH₃OH), ethanol (C₂H₅OH), propan-1-ol (C₃H₇OH), butan-1-ol (C₄H₉OH).",
+          "Alkanals: methanal (HCHO), ethanal (CH₃CHO), propanal (C₂H₅CHO), butanal (C₃H₇CHO)."
+        ],
+        "formula": "Alkanols CnH(2n+2)O; Alkanals CnH2nO",
+        "expected_answer": "See key points. Full 5-mark answer requires definition, 4 characteristics, and both series with correct IUPAC names.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition + 2 characteristics": 2,
+          "alkanols series correct": 1,
+          "alkanals series correct": 1,
+          "4 characteristics": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): Carbon can form an extremely large number of organic compounds compared to most other elements.\nReason (R): Carbon exhibits the property of catenation and has a valency of four, allowing it to form long chains, branches, and multiple bonds.\n\n(a) Both A and R are true and R is the correct explanation of A.\n(b) Both A and R are true but R is NOT the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is NOT the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "catenation",
+          "tetravalency",
+          "large number of compounds"
+        ],
+        "key_points": [
+          "Carbon forms more compounds than any other element due to catenation + tetravalency.",
+          "Both A and R are correct; R correctly explains A."
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_mcq_001",
+      "use_for": "test",
+      "text": "When ethene (CH₂=CH₂) reacts with hydrogen in the presence of a nickel catalyst, the product formed is:",
+      "options": [
+        {
+          "text": "Ethanol",
+          "is_correct": false
+        },
+        {
+          "text": "Ethane",
+          "is_correct": true
+        },
+        {
+          "text": "Ethyne",
+          "is_correct": false
+        },
+        {
+          "text": "Methane",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ethane",
+          "addition reaction",
+          "hydrogenation",
+          "Ni catalyst"
+        ],
+        "key_points": [
+          "CH₂=CH₂ + H₂ → CH₃–CH₃ (ethane). Addition of H₂ across double bond with Ni/Pd catalyst."
+        ],
+        "formula": "CH₂=CH₂ + H₂ —Ni→ CH₃CH₃",
+        "expected_answer": "Ethane",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_mcq_002",
+      "use_for": "test",
+      "text": "Which of the following statements correctly describes the combustion of carbon compounds in excess oxygen?",
+      "options": [
+        {
+          "text": "CO₂ and H₂O are produced and heat energy is released.",
+          "is_correct": true
+        },
+        {
+          "text": "CO and H₂ are produced and heat energy is absorbed.",
+          "is_correct": false
+        },
+        {
+          "text": "Only CO₂ is produced; no water is formed.",
+          "is_correct": false
+        },
+        {
+          "text": "The reaction only occurs if a catalyst is present.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CO2",
+          "H2O",
+          "exothermic",
+          "complete combustion"
+        ],
+        "key_points": [
+          "Complete combustion of carbon compounds in excess O₂ produces CO₂ + H₂O + heat."
+        ],
+        "formula": "CxHy + O₂ → CO₂ + H₂O + heat",
+        "expected_answer": "CO₂ and H₂O are produced and heat energy is released.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_sa_001",
+      "use_for": "test",
+      "text": "What is meant by oxidation in carbon compounds? Write a balanced chemical equation to show oxidation of ethanol to ethanoic acid using an oxidising agent.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "addition of oxygen",
+          "removal of hydrogen",
+          "alkaline KMnO4",
+          "acidified K2Cr2O7",
+          "ethanol",
+          "ethanoic acid"
+        ],
+        "key_points": [
+          "Oxidation of carbon compounds: addition of oxygen or removal of hydrogen.",
+          "CH₃CH₂OH + [O] (alk. KMnO₄ or acid. K₂Cr₂O₇) → CH₃COOH + H₂O"
+        ],
+        "formula": "CH₃CH₂OH —[O]→ CH₃COOH",
+        "expected_answer": "Oxidation of carbon compounds involves addition of oxygen or removal of hydrogen. Example: Ethanol is oxidised to ethanoic acid by alkaline KMnO₄ or acidified K₂Cr₂O₇: CH₃CH₂OH + [O] → CH₃COOH + H₂O.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition only": 1,
+          "equation only": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_sa_002",
+      "use_for": "test",
+      "text": "How can you test whether a given hydrocarbon is saturated or unsaturated? Describe the test and state the expected observation for each type.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "bromine water",
+          "decolourises",
+          "orange/brown",
+          "colourless",
+          "unsaturated",
+          "saturated"
+        ],
+        "key_points": [
+          "Test: add bromine water (orange-brown) to the hydrocarbon.",
+          "Unsaturated: bromine water is decolourised (turns colourless) due to addition reaction across C=C or C≡C.",
+          "Saturated: no decolourisation; bromine water remains orange-brown."
+        ],
+        "formula": null,
+        "expected_answer": "Bromine water test: add bromine water to the hydrocarbon. If unsaturated (alkene/alkyne), the orange-brown colour is discharged (decolourised) because Br₂ adds across the double/triple bond. If saturated (alkane), no change — bromine water remains orange-brown.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "test identified": 1,
+          "observation for one type": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_sa_003",
+      "use_for": "test",
+      "text": "Write the balanced chemical equation for the complete combustion of butane (C₄H₁₀). Why is butane used as LPG fuel?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2C4H10",
+          "13O2",
+          "8CO2",
+          "10H2O",
+          "clean combustion",
+          "high calorific value"
+        ],
+        "key_points": [
+          "2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O",
+          "Butane used as LPG because: high calorific value, clean combustion (no smoke/soot in excess O₂), easily liquefied under pressure for storage and transport."
+        ],
+        "formula": "2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O",
+        "expected_answer": "2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O. Butane is used as LPG fuel because it has a high calorific value, burns cleanly in excess oxygen, and can be easily liquefied under pressure for safe storage in cylinders.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "balanced equation only": 2,
+          "reasons only (no equation)": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_sa_004",
+      "use_for": "test",
+      "text": "A student has two colourless liquid compounds X and Y. Compound X decolourises bromine water, but compound Y does not. (i) What can you infer about X and Y? (ii) Which compound would undergo an addition reaction with H₂? (iii) Which would undergo substitution with Cl₂ in the presence of sunlight?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "X is unsaturated",
+          "Y is saturated",
+          "addition reaction",
+          "X",
+          "substitution",
+          "Y",
+          "sunlight"
+        ],
+        "key_points": [
+          "(i) X is unsaturated (contains C=C or C≡C); Y is saturated (contains only C–C single bonds).",
+          "(ii) X would undergo addition reaction with H₂ (hydrogenation of double/triple bond).",
+          "(iii) Y would undergo substitution reaction with Cl₂ in sunlight (e.g., alkane + Cl₂ → chloroalkane + HCl)."
+        ],
+        "formula": null,
+        "expected_answer": "(i) X is unsaturated; Y is saturated. (ii) X undergoes addition with H₂. (iii) Y undergoes substitution with Cl₂ in sunlight.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "inference correct": 1,
+          "addition reaction correct": 1,
+          "substitution correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_num_001",
+      "use_for": "test",
+      "text": "In the combustion reaction: CH₄ + 2O₂ → CO₂ + 2H₂O, calculate the number of moles of water produced when 3 moles of methane undergo complete combustion.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "3 mol",
+          "6 mol",
+          "stoichiometry",
+          "mole ratio"
+        ],
+        "key_points": [
+          "From the equation: 1 mol CH₄ produces 2 mol H₂O.",
+          "3 mol CH₄ produces 3 × 2 = 6 mol H₂O."
+        ],
+        "formula": "moles H₂O = 2 × moles CH₄",
+        "expected_answer": "6 moles of water",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct method, arithmetic error": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "moles_CH4": {
+            "min": 1,
+            "max": 5,
+            "step": 1
+          }
+        },
+        "formula_expression": "2 * moles_CH4",
+        "units": "mol",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_la_001",
+      "use_for": "test",
+      "text": "Describe the substitution reaction of methane with chlorine. Write the balanced equation, state the conditions required, and explain why this reaction is called a substitution reaction. Give two more examples of reactions that alkanes can undergo.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "CH4 + Cl2",
+          "CH3Cl",
+          "HCl",
+          "sunlight",
+          "substitution",
+          "one H replaced",
+          "combustion",
+          "chloromethane"
+        ],
+        "key_points": [
+          "CH₄ + Cl₂ —sunlight→ CH₃Cl + HCl (chloromethane + hydrogen chloride)",
+          "Condition: sunlight (UV light) or diffused light — photochemical reaction.",
+          "Substitution: one H atom of methane is replaced by one Cl atom.",
+          "Further substitution possible: CH₃Cl + Cl₂ → CH₂Cl₂ + HCl, etc.",
+          "Other reactions of alkanes: (i) combustion (e.g., CH₄ + 2O₂ → CO₂ + 2H₂O); (ii) reaction with other halogens (Br₂, I₂ similarly, though I₂ is slow)."
+        ],
+        "formula": "CH₄ + Cl₂ —hν→ CH₃Cl + HCl",
+        "expected_answer": "Methane reacts with chlorine in the presence of sunlight: CH₄ + Cl₂ → CH₃Cl + HCl. Called substitution because one H is replaced by Cl. Further: CH₃Cl + Cl₂ → CH₂Cl₂ + HCl. Alkanes also undergo (i) combustion and (ii) reactions with other halogens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equation + condition": 2,
+          "explanation of substitution": 1,
+          "further substitution": 1,
+          "two other reactions": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_dia_001",
+      "use_for": "test",
+      "text": "Draw a labelled diagram of the experimental setup used to demonstrate the addition of bromine to ethene (bromine water test for unsaturation). Describe the observation and write the balanced equation for the reaction.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "bromine water",
+          "decolourised",
+          "colourless",
+          "CH2BrCH2Br",
+          "1,2-dibromoethane",
+          "addition"
+        ],
+        "key_points": [
+          "Diagram: test tube/flask with bromine water; ethene gas bubbled in.",
+          "Observation: orange-brown bromine water becomes colourless.",
+          "Equation: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br (1,2-dibromoethane).",
+          "Reaction type: addition."
+        ],
+        "formula": "CH₂=CH₂ + Br₂ → BrCH₂CH₂Br",
+        "expected_answer": "Diagram shows ethene bubbling through bromine water in a test tube; bromine water decolourises. Equation: CH₂=CH₂ + Br₂ → BrCH₂CH₂Br.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Test tube / conical flask shown",
+          "Bromine water labelled (orange-brown)",
+          "Ethene gas input shown",
+          "Colour change indicated",
+          "Equation correct and balanced"
+        ],
+        "partial_marks": {
+          "correct diagram only": 2,
+          "correct equation only": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_mcq_001",
+      "use_for": "test",
+      "text": "The functional group present in ethanol is:",
+      "options": [
+        {
+          "text": "–COOH (carboxyl group)",
+          "is_correct": false
+        },
+        {
+          "text": "–OH (hydroxyl group)",
+          "is_correct": true
+        },
+        {
+          "text": "–CHO (aldehyde group)",
+          "is_correct": false
+        },
+        {
+          "text": "–NH₂ (amino group)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "–OH",
+          "hydroxyl",
+          "alcohol"
+        ],
+        "key_points": [
+          "Ethanol (CH₃CH₂OH) contains the hydroxyl (–OH) functional group."
+        ],
+        "formula": null,
+        "expected_answer": "–OH (hydroxyl group)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_mcq_002",
+      "use_for": "test",
+      "text": "What is the IUPAC name of the compound CH₃COOH?",
+      "options": [
+        {
+          "text": "Methanoic acid",
+          "is_correct": false
+        },
+        {
+          "text": "Ethanoic acid",
+          "is_correct": true
+        },
+        {
+          "text": "Propanoic acid",
+          "is_correct": false
+        },
+        {
+          "text": "Ethanol",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ethanoic acid",
+          "2-carbon",
+          "carboxylic acid"
+        ],
+        "key_points": [
+          "CH₃COOH has 2 carbons and a –COOH group → ethanoic acid (acetic acid)."
+        ],
+        "formula": null,
+        "expected_answer": "Ethanoic acid",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_mcq_003",
+      "use_for": "test",
+      "text": "When ethanoic acid reacts with sodium hydrogen carbonate (NaHCO₃), the gas evolved is:",
+      "options": [
+        {
+          "text": "H₂ (hydrogen)",
+          "is_correct": false
+        },
+        {
+          "text": "CO₂ (carbon dioxide)",
+          "is_correct": true
+        },
+        {
+          "text": "SO₂ (sulphur dioxide)",
+          "is_correct": false
+        },
+        {
+          "text": "O₂ (oxygen)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CO2",
+          "brisk effervescence",
+          "limewater turns milky"
+        ],
+        "key_points": [
+          "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂",
+          "CO₂ turns lime water milky — test for the gas."
+        ],
+        "formula": "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂",
+        "expected_answer": "CO₂ (carbon dioxide)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_001",
+      "use_for": "test",
+      "text": "Write the balanced equations for the reactions of ethanol with (i) sodium metal and (ii) an oxidising agent (alkaline KMnO₄). Name the products in each case.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sodium ethoxide",
+          "H2",
+          "ethanoic acid",
+          "H2O",
+          "oxidation"
+        ],
+        "key_points": [
+          "(i) 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑ (sodium ethoxide + hydrogen gas)",
+          "(ii) CH₃CH₂OH + [O] —alk. KMnO₄→ CH₃COOH + H₂O (ethanoic acid)"
+        ],
+        "formula": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; CH₃CH₂OH + [O] → CH₃COOH",
+        "expected_answer": "(i) 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑. Products: sodium ethoxide and hydrogen gas. (ii) CH₃CH₂OH + [O] → CH₃COOH + H₂O. Product: ethanoic acid.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "reaction (i) correct": 1,
+          "reaction (ii) correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_002",
+      "use_for": "test",
+      "text": "List any two physical properties that help you distinguish between ethanol and ethanoic acid (one property each that is different between them).",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "odour",
+          "taste",
+          "boiling point",
+          "melting point",
+          "vinegar",
+          "smell",
+          "pH"
+        ],
+        "key_points": [
+          "Property 1: Odour — ethanol has a pleasant, spirituous odour; ethanoic acid has a sharp, vinegar-like (pungent) odour.",
+          "Property 2: Boiling point — ethanol b.p. ~78 °C; ethanoic acid b.p. ~118 °C.",
+          "Property 3: Melting point — ethanoic acid freezes at ~16.6 °C (glacial acetic acid), ethanol remains liquid.",
+          "(Any two distinguishing properties accepted.)"
+        ],
+        "formula": null,
+        "expected_answer": "(i) Smell: ethanol has a pleasant alcoholic odour; ethanoic acid smells like vinegar (pungent). (ii) Boiling point: ethanol 78 °C; ethanoic acid 118 °C.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one correct property": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_003",
+      "use_for": "test",
+      "text": "How would you distinguish between ethanol and ethanoic acid using two different chemical tests in the laboratory? State the reagent used, the observation, and the inference for each test.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "litmus",
+          "NaHCO3",
+          "CO2",
+          "blue turns red",
+          "effervescence",
+          "no reaction ethanol"
+        ],
+        "key_points": [
+          "Test 1: Litmus paper — ethanoic acid turns blue litmus red; ethanol has no effect.",
+          "Test 2: NaHCO₃ solution — ethanoic acid produces brisk effervescence (CO₂); ethanol has no reaction.",
+          "Inference: ethanoic acid is acidic; ethanol is neutral."
+        ],
+        "formula": "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂",
+        "expected_answer": "Test 1 — Blue litmus: ethanoic acid → turns red (acidic); ethanol → no change. Test 2 — NaHCO₃: ethanoic acid → brisk effervescence, CO₂ turns lime water milky; ethanol → no reaction.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one test complete": 2,
+          "both tests observation only": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_004",
+      "use_for": "test",
+      "text": "Write the equation for the esterification reaction between ethanol and ethanoic acid. State the conditions, name the catalyst, and identify the products. What is the smell of the ester formed?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ethyl ethanoate",
+          "water",
+          "concentrated H2SO4",
+          "acid catalyst",
+          "fruity",
+          "ester"
+        ],
+        "key_points": [
+          "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (reversible reaction)",
+          "Condition: concentrated H₂SO₄ as catalyst; heat.",
+          "Products: ethyl ethanoate (ester) + water.",
+          "Ethyl ethanoate has a pleasant fruity smell."
+        ],
+        "formula": "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O",
+        "expected_answer": "CH₃COOH + C₂H₅OH ⇌ (conc. H₂SO₄, heat) CH₃COOC₂H₅ + H₂O. Catalyst: conc. H₂SO₄. Products: ethyl ethanoate (fruity smell) and water.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct equation": 2,
+          "catalyst + product names": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_005",
+      "use_for": "test",
+      "text": "Ethanol is consumed as a beverage but can also be used as fuel. (i) What is denatured alcohol? Why is alcohol denatured? (ii) State one harmful effect of drinking ethanol on the human body.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "denatured",
+          "methanol",
+          "pyridine",
+          "poisonous",
+          "unfit for drinking",
+          "nervous system",
+          "liver"
+        ],
+        "key_points": [
+          "Denatured alcohol: industrial ethanol made unfit for drinking by adding poisonous substances (methanol, pyridine, copper sulfate) to it.",
+          "Purpose: to prevent misuse of industrial alcohol as a beverage; sold at lower tax.",
+          "Harmful effect: slows down metabolic processes, affects brain and nervous system; can cause liver damage, coma, or death with excessive intake."
+        ],
+        "formula": null,
+        "expected_answer": "(i) Denatured alcohol: ethanol to which poisonous substances (e.g. methanol, pyridine) are added to make it unfit for drinking, so it can be sold cheaply for industrial use without misuse. (ii) Ethanol slows metabolic activity, impairs nervous system/brain function, can cause liver cirrhosis with chronic use.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "denatured alcohol definition": 2,
+          "harmful effect": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_num_001",
+      "use_for": "test",
+      "text": "Calculate the molecular mass of ethanoic acid (CH₃COOH). Given: C = 12 u, H = 1 u, O = 16 u.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "60 u",
+          "C2H4O2",
+          "molecular mass"
+        ],
+        "key_points": [
+          "CH₃COOH = C₂H₄O₂",
+          "Mass = 2(12) + 4(1) + 2(16) = 24 + 4 + 32 = 60 u"
+        ],
+        "formula": "M = 2×12 + 4×1 + 2×16 = 60 u",
+        "expected_answer": "60 u (g/mol)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct atoms counted, arithmetic error": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "C": {
+            "value": 2,
+            "unit": "atoms",
+            "locked": true
+          },
+          "H": {
+            "value": 4,
+            "unit": "atoms",
+            "locked": true
+          },
+          "O": {
+            "value": 2,
+            "unit": "atoms",
+            "locked": true
+          }
+        },
+        "formula_expression": "C*12 + H*1 + O*16",
+        "units": "u",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_dia_001",
+      "use_for": "test",
+      "text": "The structural formulas of two compounds A and B are shown in Figure B.\n(i) Name the functional group present in compound A and in compound B.\n(ii) Identify the heteroatom present in each compound.\n(iii) Write the IUPAC name of each compound.\n(iv) Which compound would react with NaHCO₃ to give CO₂ gas? Write the equation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "hydroxyl",
+          "carboxyl",
+          "oxygen",
+          "ethanol",
+          "ethanoic acid",
+          "NaHCO3",
+          "CO2"
+        ],
+        "key_points": [
+          "(i) A: –OH (hydroxyl); B: –COOH (carboxyl).",
+          "(ii) Both contain oxygen (O) as heteroatom.",
+          "(iii) A: ethanol; B: ethanoic acid.",
+          "(iv) B (ethanoic acid): CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂."
+        ],
+        "formula": "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂",
+        "expected_answer": "(i) A: hydroxyl (–OH); B: carboxyl (–COOH). (ii) Oxygen in both. (iii) A: ethanol; B: ethanoic acid. (iv) B reacts with NaHCO₃: CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "(i) and (ii) correct": 1,
+          "(iii) correct": 1,
+          "(iv) equation correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap4_eth_dia_001.png"
+    },
+    {
+      "id": "chap4_eth_la_001",
+      "use_for": "test",
+      "text": "Describe the important chemical properties of ethanoic acid. Write balanced equations for its reactions with: (i) sodium metal, (ii) sodium carbonate, (iii) sodium hydrogen carbonate, and (iv) ethanol. Name all products formed.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sodium ethanoate",
+          "H2",
+          "Na2CO3",
+          "CO2",
+          "NaHCO3",
+          "ester",
+          "ethyl ethanoate",
+          "H2SO4"
+        ],
+        "key_points": [
+          "(i) 2CH₃COOH + 2Na → 2CH₃COONa + H₂↑ (sodium ethanoate + hydrogen)",
+          "(ii) 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑",
+          "(iii) CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂↑",
+          "(iv) CH₃COOH + C₂H₅OH ⇌ (H₂SO₄) CH₃COOC₂H₅ + H₂O (ethyl ethanoate + water)"
+        ],
+        "formula": "See key points for all four equations.",
+        "expected_answer": "Full answer requires all 4 balanced equations with correct product names. See key points.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct equation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_mcq_001",
+      "use_for": "test",
+      "text": "When soap is added to water and agitated, clusters of soap molecules form with their hydrophobic tails pointing inward and hydrophilic heads pointing outward. These structures are called:",
+      "options": [
+        {
+          "text": "Emulsions",
+          "is_correct": false
+        },
+        {
+          "text": "Micelles",
+          "is_correct": true
+        },
+        {
+          "text": "Colloids",
+          "is_correct": false
+        },
+        {
+          "text": "Suspensions",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "micelles",
+          "hydrophobic",
+          "hydrophilic",
+          "spherical cluster"
+        ],
+        "key_points": [
+          "Micelles: spherical clusters of soap molecules with hydrophobic tails inside and hydrophilic heads outside, formed in water."
+        ],
+        "formula": null,
+        "expected_answer": "Micelles",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_mcq_002",
+      "use_for": "test",
+      "text": "Soap forms a scum (insoluble precipitate) in hard water because:",
+      "options": [
+        {
+          "text": "Soap reacts with dissolved Ca²⁺ and Mg²⁺ salts to form insoluble calcium/magnesium soaps.",
+          "is_correct": true
+        },
+        {
+          "text": "Soap evaporates in hard water before it can clean.",
+          "is_correct": false
+        },
+        {
+          "text": "Hard water has a high pH that breaks down soap molecules.",
+          "is_correct": false
+        },
+        {
+          "text": "Soap reacts with the oxygen dissolved in hard water.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Ca2+",
+          "Mg2+",
+          "insoluble calcium soap",
+          "hard water",
+          "scum"
+        ],
+        "key_points": [
+          "Ca²⁺ and Mg²⁺ ions in hard water react with soap anions to form insoluble calcium/magnesium soaps (scum), wasting soap."
+        ],
+        "formula": "2RCOONa + CaCl₂ → (RCOO)₂Ca↓ + 2NaCl",
+        "expected_answer": "Soap reacts with dissolved Ca²⁺ and Mg²⁺ salts to form insoluble calcium/magnesium soaps.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_001",
+      "use_for": "test",
+      "text": "What are soaps? State the chemical nature of soaps and name the process by which they are made.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sodium salt",
+          "potassium salt",
+          "fatty acid",
+          "saponification",
+          "alkaline"
+        ],
+        "key_points": [
+          "Soaps are sodium or potassium salts of long-chain fatty acids (carboxylic acids).",
+          "Chemical nature: alkaline (basic) in aqueous solution.",
+          "Prepared by saponification: heating fat/oil with NaOH or KOH."
+        ],
+        "formula": "Fat/oil + NaOH → Soap + Glycerol (saponification)",
+        "expected_answer": "Soaps are sodium or potassium salts of long-chain fatty acids. Chemical nature: basic/alkaline. They are made by saponification — heating animal fats or vegetable oils with sodium hydroxide (NaOH).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition only": 1,
+          "process named": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_002",
+      "use_for": "test",
+      "text": "Distinguish between soaps and detergents. Give two points of difference.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "hard water",
+          "biodegradable",
+          "synthetic",
+          "natural fat",
+          "Ca2+",
+          "scum",
+          "sulphonate"
+        ],
+        "key_points": [
+          "Soaps: sodium/potassium salts of fatty acids; made from natural fats/oils; ineffective in hard water (form scum); generally biodegradable.",
+          "Detergents: synthetic cleaning agents; ammonium or sulphonate salts; effective in hard water (do not form scum); may be non-biodegradable."
+        ],
+        "formula": null,
+        "expected_answer": "Soaps: from natural fats + NaOH; ineffective in hard water (form scum). Detergents: synthetic; work in hard and soft water; may be non-biodegradable.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one correct point": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_003",
+      "use_for": "test",
+      "text": "Why are soaps ineffective in hard water? What happens to the soap used? What advantage do detergents have over soaps in this context?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Ca2+",
+          "Mg2+",
+          "insoluble precipitate",
+          "scum",
+          "wasted",
+          "detergent",
+          "sulphonate"
+        ],
+        "key_points": [
+          "Hard water contains Ca²⁺ and Mg²⁺ ions; these react with soap to form insoluble scum, wasting soap.",
+          "The soap molecules are used up forming scum rather than cleaning.",
+          "Detergents have sulphonate/sulphate groups whose Ca²⁺/Mg²⁺ salts are soluble → no scum formed."
+        ],
+        "formula": null,
+        "expected_answer": "Hard water has Ca²⁺/Mg²⁺ ions that react with soap forming insoluble scum, wasting the soap. Detergents have charged groups that remain soluble with Ca²⁺/Mg²⁺, so they lather and clean effectively in hard water.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "hard water explanation": 1,
+          "detergent advantage": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_004",
+      "use_for": "test",
+      "text": "Explain the cleaning action of soap. How does a micelle help in removing an oily stain from cloth? What role does agitation (rubbing) play?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "hydrophobic tail",
+          "hydrophilic head",
+          "oil droplet",
+          "micelle",
+          "emulsification",
+          "agitation",
+          "rinsed away"
+        ],
+        "key_points": [
+          "Soap molecule: one end hydrophilic (ionic –COO⁻), other end hydrophobic (long carbon chain).",
+          "Hydrophobic tails dissolve in oil/grease; hydrophilic heads remain in water.",
+          "Soap molecules surround oil droplet forming a micelle (oil droplet at centre, ionic heads outside).",
+          "Micelle is suspended in water and washed away with rinsing.",
+          "Agitation (rubbing) helps break up the oily stain and allows more soap molecules to surround oil droplets."
+        ],
+        "formula": null,
+        "expected_answer": "Soap molecules have a hydrophobic carbon tail and a hydrophilic ionic head. When cloth is washed, hydrophobic tails embed in the oil/grease while hydrophilic heads remain in water. Soap molecules cluster around oil forming a micelle. Agitation breaks the stain into smaller droplets, increasing surface area for more micelle formation. The micelles are then rinsed away with water.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "hydrophobic/hydrophilic explanation": 1,
+          "micelle formation": 1,
+          "role of agitation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_005",
+      "use_for": "test",
+      "text": "Why do detergents produce better lather and clean more effectively than soaps in hard water? Give a chemical reason.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sulphonate",
+          "calcium sulphonate",
+          "soluble",
+          "no scum",
+          "branched chain",
+          "hard water"
+        ],
+        "key_points": [
+          "Detergents have sulphonate or sulphate groups (–SO₃⁻ or –OSO₃⁻).",
+          "Calcium and magnesium salts of these groups are soluble in water (unlike calcium soaps which are insoluble).",
+          "So detergents do not form scum in hard water and are free to lather and clean.",
+          "All detergent molecules remain available for cleaning, none wasted forming precipitate."
+        ],
+        "formula": null,
+        "expected_answer": "Detergents contain sulphonate/sulphate groups. Their Ca²⁺ and Mg²⁺ salts are soluble in water, unlike insoluble calcium soaps. Therefore, detergents do not precipitate in hard water, lather readily, and all molecules are available for cleaning.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct chemical group named": 1,
+          "solubility explanation": 1,
+          "comparison to soap": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_006",
+      "use_for": "test",
+      "text": "(HOTS) A researcher wants to design a new cleaning agent that (a) works effectively in hard water, (b) is fully biodegradable, and (c) does not harm aquatic life. Based on your understanding of soaps and detergents, suggest the key structural features such a molecule should have. Justify each feature.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "unbranched chain",
+          "sulphonate",
+          "biodegradable",
+          "Ca2+ soluble",
+          "non-toxic",
+          "straight chain"
+        ],
+        "key_points": [
+          "(a) Works in hard water: must have a head group (e.g., sulphonate) whose Ca²⁺/Mg²⁺ salt is soluble.",
+          "(b) Biodegradable: the hydrophobic tail must be a straight/unbranched carbon chain (branched chains resist microbial breakdown).",
+          "(c) Non-toxic to aquatic life: avoid toxic additives; choose natural-origin fatty acid chain; ensure breakdown products are harmless."
+        ],
+        "formula": null,
+        "expected_answer": "Key features: (a) Sulphonate head group for effectiveness in hard water. (b) Straight (unbranched) alkyl chain for biodegradability by microorganisms. (c) Non-toxic tail (e.g., bio-sourced fatty acid chain) to minimise aquatic harm. These features together give a molecule that is both effective and environmentally safe.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "any one justified feature": 1,
+          "two justified features": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_la_001",
+      "use_for": "test",
+      "text": "What are soaps and how are they made? Describe in detail the mechanism by which soap removes grease and dirt from clothes, including the formation and role of micelles. Draw a labelled diagram of a micelle. Why cannot soaps be used with hard water?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "saponification",
+          "fatty acid",
+          "micelle",
+          "hydrophobic tail",
+          "hydrophilic head",
+          "emulsification",
+          "hard water",
+          "Ca2+",
+          "scum"
+        ],
+        "key_points": [
+          "Definition: sodium/potassium salts of long-chain fatty acids; made by saponification (fat + NaOH → soap + glycerol).",
+          "Mechanism: hydrophobic tail dissolves in grease; hydrophilic head in water; micelle forms with grease trapped inside.",
+          "Agitation disperses grease as micelles in water; rinsed away.",
+          "Labelled micelle diagram: cross-section showing tail pointing inward (into oil), head pointing outward (into water).",
+          "Hard water: Ca²⁺/Mg²⁺ react with soap → insoluble scum; soap wasted."
+        ],
+        "formula": "Fat/oil + NaOH → Soap (RCOONa) + Glycerol",
+        "expected_answer": "Full 5-mark answer. See key points. Diagram must show labelled micelle with hydrophobic tails inside, hydrophilic heads outside, oil droplet at centre.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Circular micelle structure shown",
+          "Hydrophobic tails pointing inward (labelled)",
+          "Hydrophilic heads pointing outward (labelled)",
+          "Oil droplet at centre (labelled)",
+          "Water molecules outside indicated"
+        ],
+        "partial_marks": {
+          "saponification + definition": 1,
+          "mechanism (2 steps)": 2,
+          "micelle diagram": 1,
+          "hard water reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_mcq_u001",
+      "use_for": "understanding",
+      "text": "In the electron dot structure of methane (CH₄), how many shared electron pairs surround the carbon atom?",
+      "options": [
+        {
+          "text": "2",
+          "is_correct": false
+        },
+        {
+          "text": "4",
+          "is_correct": true
+        },
+        {
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "text": "8",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "4 shared pairs",
+          "4 C-H bonds",
+          "octet"
+        ],
+        "key_points": [
+          "Carbon forms 4 single covalent bonds with 4 H atoms; 4 shared pairs surround C."
+        ],
+        "formula": null,
+        "expected_answer": "4",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_mcq_u002",
+      "use_for": "understanding",
+      "text": "Carbon dioxide (CO₂) contains:",
+      "options": [
+        {
+          "text": "Two single bonds (C–O)",
+          "is_correct": false
+        },
+        {
+          "text": "Two double bonds (C=O)",
+          "is_correct": true
+        },
+        {
+          "text": "One double and one triple bond",
+          "is_correct": false
+        },
+        {
+          "text": "One single and one double bond",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "two double bonds",
+          "C=O"
+        ],
+        "key_points": [
+          "O=C=O; carbon forms two double bonds, one with each oxygen."
+        ],
+        "formula": null,
+        "expected_answer": "Two double bonds (C=O)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_sa_u001",
+      "use_for": "understanding",
+      "text": "Name the two allotropes of carbon mentioned in your textbook. State one important property of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "diamond",
+          "graphite",
+          "hardest",
+          "lubricant"
+        ],
+        "key_points": [
+          "Diamond: hardest natural substance; 3-D covalent network.",
+          "Graphite: soft, slippery; used as lubricant; good conductor of electricity."
+        ],
+        "formula": null,
+        "expected_answer": "Diamond (hardest, cutting tools) and Graphite (soft, lubricant, pencils, conducts electricity).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one allotrope + property": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_sa_u002",
+      "use_for": "understanding",
+      "text": "Carbon has atomic number 6. Using its electronic configuration, explain why it always forms 4 covalent bonds.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2,4",
+          "4 valence electrons",
+          "octet"
+        ],
+        "key_points": [
+          "Config of C: 2,4. 4 valence electrons → needs 4 more for octet → forms 4 covalent bonds."
+        ],
+        "formula": null,
+        "expected_answer": "Carbon (Z=6) has config 2,4. It has 4 valence electrons, needs 4 more to complete octet, so it shares 4 electrons forming 4 covalent bonds.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct config": 1,
+          "bonding reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_bon_sa_u003",
+      "use_for": "understanding",
+      "text": "Compare diamond and graphite in terms of: (i) structure, (ii) hardness, and (iii) electrical conductivity.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "3D tetrahedral",
+          "layered",
+          "hard",
+          "soft",
+          "non-conductor",
+          "conductor",
+          "free electrons"
+        ],
+        "key_points": [
+          "(i) Diamond: 3-D tetrahedral network; Graphite: layered hexagonal.",
+          "(ii) Diamond: hardest; Graphite: soft and slippery.",
+          "(iii) Diamond: non-conductor; Graphite: good conductor (delocalised electrons)."
+        ],
+        "formula": null,
+        "expected_answer": "Diamond: 3D covalent network; hardest; non-conductor. Graphite: layered; soft; conductor.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct row": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_mcq_u001",
+      "use_for": "understanding",
+      "text": "What is the functional group present in ethanoic acid (CH₃COOH)?",
+      "options": [
+        {
+          "text": "–OH",
+          "is_correct": false
+        },
+        {
+          "text": "–COOH",
+          "is_correct": true
+        },
+        {
+          "text": "–CHO",
+          "is_correct": false
+        },
+        {
+          "text": "–NH₂",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "carboxyl",
+          "COOH"
+        ],
+        "key_points": [
+          "Carboxylic acids contain the –COOH functional group."
+        ],
+        "formula": null,
+        "expected_answer": "–COOH",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_mcq_u002",
+      "use_for": "understanding",
+      "text": "The general formula of alkanes is CnH(2n+2). How many hydrogen atoms are present in the 3rd member?",
+      "options": [
+        {
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "text": "8",
+          "is_correct": true
+        },
+        {
+          "text": "10",
+          "is_correct": false
+        },
+        {
+          "text": "4",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "propane",
+          "C3H8",
+          "8 H atoms",
+          "n=3"
+        ],
+        "key_points": [
+          "n=3: H = 2(3)+2 = 8. Propane C₃H₈."
+        ],
+        "formula": "CnH(2n+2); n=3 → C₃H₈",
+        "expected_answer": "8",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_mcq_u003",
+      "use_for": "understanding",
+      "text": "Which of the following belongs to the same homologous series as ethanol (CH₃CH₂OH)?",
+      "options": [
+        {
+          "text": "CH₃COOH",
+          "is_correct": false
+        },
+        {
+          "text": "CH₃CH₂CH₂OH",
+          "is_correct": true
+        },
+        {
+          "text": "CH₃CHO",
+          "is_correct": false
+        },
+        {
+          "text": "CH₃OCH₃",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "propan-1-ol",
+          "–OH group",
+          "alcohol"
+        ],
+        "key_points": [
+          "Propan-1-ol has –OH group, same as ethanol, differs by CH₂."
+        ],
+        "formula": null,
+        "expected_answer": "CH₃CH₂CH₂OH",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_mcq_u004",
+      "use_for": "understanding",
+      "text": "What is the general formula of the alkene series?",
+      "options": [
+        {
+          "text": "CnH(2n+2)",
+          "is_correct": false
+        },
+        {
+          "text": "CnH2n",
+          "is_correct": true
+        },
+        {
+          "text": "CnH(2n-2)",
+          "is_correct": false
+        },
+        {
+          "text": "CnHn",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CnH2n",
+          "alkene"
+        ],
+        "key_points": [
+          "Alkenes: CnH2n."
+        ],
+        "formula": "CnH2n",
+        "expected_answer": "CnH2n",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_sa_u001",
+      "use_for": "understanding",
+      "text": "Define catenation. Why is catenation more common in carbon than in other elements?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "self-linking",
+          "C-C bond strength",
+          "stable",
+          "small size"
+        ],
+        "key_points": [
+          "Catenation: self-linking of atoms of same element to form chains.",
+          "Carbon shows it most due to strong, stable C–C bonds (small atom size)."
+        ],
+        "formula": null,
+        "expected_answer": "Catenation: self-linking property to form chains/rings. Carbon shows it extensively because C–C bonds are very strong due to small atomic size.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_sa_u002",
+      "use_for": "understanding",
+      "text": "Name the functional groups: (i) –OH (ii) –CHO (iii) –COOH. Give one example compound for each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "hydroxyl",
+          "aldehyde",
+          "carboxyl",
+          "ethanol",
+          "ethanal",
+          "ethanoic acid"
+        ],
+        "key_points": [
+          "(i) –OH: hydroxyl; ethanol.",
+          "(ii) –CHO: aldehyde; ethanal.",
+          "(iii) –COOH: carboxyl; ethanoic acid."
+        ],
+        "formula": null,
+        "expected_answer": "(i) Hydroxyl/ethanol (ii) Aldehyde/ethanal (iii) Carboxyl/ethanoic acid.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct name+example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_sa_u003",
+      "use_for": "understanding",
+      "text": "Write the IUPAC names of: (i) CH₃–CH₂–CH₂–CH₃ (ii) CH₂=CH–CH₂–CH₃ (iii) CH₃–CH₂–COOH",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "butane",
+          "but-1-ene",
+          "propanoic acid"
+        ],
+        "key_points": [
+          "(i) butane (ii) but-1-ene (iii) propanoic acid."
+        ],
+        "formula": null,
+        "expected_answer": "(i) Butane (ii) But-1-ene (iii) Propanoic acid.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct name": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_sa_u004",
+      "use_for": "understanding",
+      "text": "Write the names and molecular formulas of the first three members of: (i) alkane (ii) alkene (iii) alkyne series.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "methane",
+          "ethane",
+          "propane",
+          "ethene",
+          "propene",
+          "ethyne",
+          "propyne"
+        ],
+        "key_points": [
+          "Alkanes: CH₄, C₂H₆, C₃H₈.",
+          "Alkenes: C₂H₄, C₃H₆, C₄H₈.",
+          "Alkynes: C₂H₂, C₃H₄, C₄H₆."
+        ],
+        "formula": null,
+        "expected_answer": "Alkanes: CH₄,C₂H₆,C₃H₈. Alkenes: C₂H₄,C₃H₆,C₄H₈. Alkynes: C₂H₂,C₃H₄,C₄H₆.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each series correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_ver_num_u001",
+      "use_for": "understanding",
+      "text": "Write the molecular formula of the nth member of the alkene series (CnH2n) for n = 5. Name the compound.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "C5H10",
+          "pent-1-ene",
+          "n=5"
+        ],
+        "key_points": [
+          "n=5: C₅H₁₀ (pent-1-ene)."
+        ],
+        "formula": "CnH2n; n=5 → C₅H₁₀",
+        "expected_answer": "C₅H₁₀ (pent-1-ene)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "n": {
+            "min": 2,
+            "max": 8,
+            "step": 1
+          }
+        },
+        "formula_expression": "f'C{n}H{2*n}'",
+        "units": "molecular formula",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_mcq_u001",
+      "use_for": "understanding",
+      "text": "The complete combustion of any carbon compound in excess oxygen always produces:",
+      "options": [
+        {
+          "text": "CO and H₂",
+          "is_correct": false
+        },
+        {
+          "text": "CO₂ and H₂O",
+          "is_correct": true
+        },
+        {
+          "text": "C and H₂O",
+          "is_correct": false
+        },
+        {
+          "text": "CO₂ and H₂",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CO2",
+          "H2O",
+          "complete combustion"
+        ],
+        "key_points": [
+          "Complete combustion of C-H compounds: CO₂ + H₂O."
+        ],
+        "formula": "CxHy + O₂ → CO₂ + H₂O",
+        "expected_answer": "CO₂ and H₂O",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_mcq_u002",
+      "use_for": "understanding",
+      "text": "Which type of reaction does ethene undergo when reacted with H₂ in the presence of a Ni catalyst?",
+      "options": [
+        {
+          "text": "Substitution reaction",
+          "is_correct": false
+        },
+        {
+          "text": "Addition reaction",
+          "is_correct": true
+        },
+        {
+          "text": "Combustion reaction",
+          "is_correct": false
+        },
+        {
+          "text": "Oxidation reaction",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "addition",
+          "double bond",
+          "hydrogenation"
+        ],
+        "key_points": [
+          "H₂ adds across C=C → addition reaction (hydrogenation)."
+        ],
+        "formula": "CH₂=CH₂+H₂—Ni→CH₃CH₃",
+        "expected_answer": "Addition reaction",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_mcq_u003",
+      "use_for": "understanding",
+      "text": "Which of the following will decolourise bromine water?",
+      "options": [
+        {
+          "text": "Ethane (C₂H₆)",
+          "is_correct": false
+        },
+        {
+          "text": "Propane (C₃H₈)",
+          "is_correct": false
+        },
+        {
+          "text": "Ethene (C₂H₄)",
+          "is_correct": true
+        },
+        {
+          "text": "Methane (CH₄)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ethene",
+          "unsaturated",
+          "decolourise"
+        ],
+        "key_points": [
+          "Ethene (C=C) decolourises bromine water by addition; alkanes do not."
+        ],
+        "formula": null,
+        "expected_answer": "Ethene (C₂H₄)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_sa_u001",
+      "use_for": "understanding",
+      "text": "Define oxidation in carbon compounds. Give one example with a balanced equation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "addition of oxygen",
+          "removal of hydrogen",
+          "ethanol",
+          "ethanoic acid"
+        ],
+        "key_points": [
+          "Oxidation = addition of O or removal of H.",
+          "CH₃CH₂OH + [O] → CH₃COOH + H₂O"
+        ],
+        "formula": "CH₃CH₂OH + [O] → CH₃COOH",
+        "expected_answer": "Addition of O / removal of H. Example: ethanol → ethanoic acid with alk. KMnO₄.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_sa_u002",
+      "use_for": "understanding",
+      "text": "Write the balanced equation for complete combustion of methane. State the reaction type and why carbon compounds are useful fuels.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "CH4+2O2",
+          "CO2+2H2O",
+          "exothermic",
+          "high calorific value"
+        ],
+        "key_points": [
+          "CH₄ + 2O₂ → CO₂ + 2H₂O + heat. Exothermic; high calorific value."
+        ],
+        "formula": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+        "expected_answer": "CH₄ + 2O₂ → CO₂ + 2H₂O. Exothermic; high calorific value.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equation": 1,
+          "reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_sa_u003",
+      "use_for": "understanding",
+      "text": "Differentiate between addition and substitution reactions in carbon compounds. Give one equation for each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "addition",
+          "unsaturated",
+          "double bond",
+          "substitution",
+          "saturated",
+          "H replaced"
+        ],
+        "key_points": [
+          "Addition: reagent adds across C=C/C≡C; e.g. CH₂=CH₂ + H₂ → CH₃CH₃.",
+          "Substitution: one H replaced by another atom; e.g. CH₄ + Cl₂ —hν→ CH₃Cl + HCl."
+        ],
+        "formula": "Addition: CH2=CH2+H2→CH3CH3; Sub: CH4+Cl2→CH3Cl+HCl",
+        "expected_answer": "Addition (unsaturated, adds across double bond) vs Substitution (saturated, H replaced). Equations as in key points.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "addition with equation": 1,
+          "substitution with equation": 1,
+          "both distinctions": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_sa_u004",
+      "use_for": "understanding",
+      "text": "Write the balanced equation for the substitution reaction of ethane (C₂H₆) with Cl₂ in sunlight. Name the products.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "C2H5Cl",
+          "chloroethane",
+          "HCl",
+          "sunlight"
+        ],
+        "key_points": [
+          "C₂H₆ + Cl₂ —hν→ C₂H₅Cl + HCl. Products: chloroethane + hydrogen chloride."
+        ],
+        "formula": "C₂H₆ + Cl₂ —sunlight→ C₂H₅Cl + HCl",
+        "expected_answer": "C₂H₆ + Cl₂ → C₂H₅Cl + HCl (sunlight). Chloroethane + HCl.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equation correct": 1,
+          "products named": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_chm_num_u001",
+      "use_for": "understanding",
+      "text": "Propane undergoes combustion: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. Calculate moles of CO₂ when 2 mol propane burns completely.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "6 mol CO2",
+          "stoichiometry",
+          "3:1 ratio"
+        ],
+        "key_points": [
+          "1 mol propane → 3 mol CO₂. 2 mol → 6 mol CO₂."
+        ],
+        "formula": "moles CO₂ = 3 × moles propane",
+        "expected_answer": "6 mol CO₂",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct method, arithmetic error": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "moles_propane": {
+            "min": 1,
+            "max": 4,
+            "step": 1
+          }
+        },
+        "formula_expression": "3 * moles_propane",
+        "units": "mol",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_mcq_u001",
+      "use_for": "understanding",
+      "text": "Which of the following is a physical property of ethanol?",
+      "options": [
+        {
+          "text": "It is a solid at room temperature.",
+          "is_correct": false
+        },
+        {
+          "text": "It is miscible with water in all proportions.",
+          "is_correct": true
+        },
+        {
+          "text": "It turns blue litmus red.",
+          "is_correct": false
+        },
+        {
+          "text": "It reacts with NaHCO₃ to give CO₂.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "miscible",
+          "water",
+          "liquid",
+          "neutral"
+        ],
+        "key_points": [
+          "Ethanol is a liquid at RT, miscible with water in all proportions."
+        ],
+        "formula": null,
+        "expected_answer": "It is miscible with water in all proportions.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_mcq_u002",
+      "use_for": "understanding",
+      "text": "The product formed when ethanol reacts with ethanoic acid (conc. H₂SO₄) is called:",
+      "options": [
+        {
+          "text": "Soap",
+          "is_correct": false
+        },
+        {
+          "text": "Ester",
+          "is_correct": true
+        },
+        {
+          "text": "Aldehyde",
+          "is_correct": false
+        },
+        {
+          "text": "Sodium ethanoate",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ester",
+          "esterification",
+          "ethyl ethanoate"
+        ],
+        "key_points": [
+          "Esterification: acid + alcohol → ester + water."
+        ],
+        "formula": null,
+        "expected_answer": "Ester",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_mcq_u003",
+      "use_for": "understanding",
+      "text": "Liquid P turns blue litmus red; Liquid Q does not. Which is ethanoic acid?",
+      "options": [
+        {
+          "text": "Liquid P",
+          "is_correct": true
+        },
+        {
+          "text": "Liquid Q",
+          "is_correct": false
+        },
+        {
+          "text": "Both P and Q",
+          "is_correct": false
+        },
+        {
+          "text": "Neither",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "acidic",
+          "blue litmus red",
+          "ethanoic acid"
+        ],
+        "key_points": [
+          "Ethanoic acid is acidic → turns blue litmus red. Ethanol is neutral."
+        ],
+        "formula": null,
+        "expected_answer": "Liquid P",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_u001",
+      "use_for": "understanding",
+      "text": "Write the structural formula and molecular formula of (i) ethanol and (ii) ethanoic acid.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "CH3CH2OH",
+          "C2H5OH",
+          "CH3COOH",
+          "C2H4O2"
+        ],
+        "key_points": [
+          "(i) Ethanol: CH₃CH₂OH; C₂H₆O.",
+          "(ii) Ethanoic acid: CH₃COOH; C₂H₄O₂."
+        ],
+        "formula": null,
+        "expected_answer": "(i) CH₃–CH₂–OH; C₂H₆O. (ii) CH₃–COOH; C₂H₄O₂.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Structural formula drawn for both",
+          "All bonds shown"
+        ],
+        "partial_marks": {
+          "one correct structure+formula": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_u002",
+      "use_for": "understanding",
+      "text": "Write the balanced equation for reaction of ethanoic acid with Na₂CO₃. State observation and name all products.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sodium ethanoate",
+          "CO2",
+          "H2O",
+          "effervescence",
+          "2CH3COOH"
+        ],
+        "key_points": [
+          "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑",
+          "Obs: brisk effervescence; CO₂ turns lime water milky.",
+          "Products: sodium ethanoate, water, CO₂."
+        ],
+        "formula": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂",
+        "expected_answer": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂. Effervescence; products: sodium ethanoate, water, CO₂.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equation correct": 1,
+          "obs+products": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_u003",
+      "use_for": "understanding",
+      "text": "What are the effects of drinking ethanol on the human body? Why is it harmful?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "nervous system",
+          "brain",
+          "liver",
+          "metabolism",
+          "addiction"
+        ],
+        "key_points": [
+          "Slows metabolic reactions; depresses CNS.",
+          "Chronic: liver damage, brain damage, addiction. Large doses fatal."
+        ],
+        "formula": null,
+        "expected_answer": "Ethanol depresses CNS, impairs coordination/judgment. Chronic use: liver cirrhosis, addiction. Can be fatal in large doses.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one correct effect": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_u004",
+      "use_for": "understanding",
+      "text": "Write balanced equations for ethanoic acid reacting with: (i) sodium metal (Na) (ii) NaHCO₃. Name the products.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sodium ethanoate",
+          "H2",
+          "NaHCO3",
+          "CO2",
+          "H2O"
+        ],
+        "key_points": [
+          "(i) 2CH₃COOH + 2Na → 2CH₃COONa + H₂↑",
+          "(ii) CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂↑"
+        ],
+        "formula": "(i) 2CH3COOH+2Na→2CH3COONa+H2 (ii) CH3COOH+NaHCO3→CH3COONa+H2O+CO2",
+        "expected_answer": "(i) 2CH₃COOH+2Na→2CH₃COONa+H₂. Sodium ethanoate+H₂. (ii) CH₃COOH+NaHCO₃→CH₃COONa+H₂O+CO₂.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct equation+products": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_sa_u005",
+      "use_for": "understanding",
+      "text": "What is esterification? Write the balanced equation for ethanol + ethanoic acid. Name the ester formed, state its smell, and explain how the ester can be converted back.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "esterification",
+          "ethyl ethanoate",
+          "fruity",
+          "saponification",
+          "NaOH",
+          "reversible"
+        ],
+        "key_points": [
+          "CH₃COOH + C₂H₅OH ⇌ (conc. H₂SO₄, heat) CH₃COOC₂H₅ + H₂O",
+          "Product: ethyl ethanoate (fruity smell). Reversed by saponification (NaOH, heat)."
+        ],
+        "formula": "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O",
+        "expected_answer": "Acid+alcohol→ester+water. Eq above. Ethyl ethanoate, fruity. Reversed by NaOH (saponification).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition+equation": 2,
+          "smell+reverse": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_eth_num_u001",
+      "use_for": "understanding",
+      "text": "Calculate the molecular mass of ethanol (C₂H₅OH). [C=12 u, H=1 u, O=16 u]",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "46 u",
+          "C2H6O"
+        ],
+        "key_points": [
+          "C₂H₆O: 2(12)+6(1)+16 = 46 u"
+        ],
+        "formula": "M = 2×12+6×1+16 = 46 u",
+        "expected_answer": "46 u",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct atoms, arithmetic error": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "C": {
+            "value": 2,
+            "unit": "atoms",
+            "locked": true
+          },
+          "H": {
+            "value": 6,
+            "unit": "atoms",
+            "locked": true
+          },
+          "O": {
+            "value": 1,
+            "unit": "atoms",
+            "locked": true
+          }
+        },
+        "formula_expression": "C*12 + H*1 + O*16",
+        "units": "u",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_mcq_u001",
+      "use_for": "understanding",
+      "text": "The end of a soap molecule that interacts with water is called:",
+      "options": [
+        {
+          "text": "Hydrophobic end",
+          "is_correct": false
+        },
+        {
+          "text": "Hydrophilic end",
+          "is_correct": true
+        },
+        {
+          "text": "Lipophilic end",
+          "is_correct": false
+        },
+        {
+          "text": "Non-polar end",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "hydrophilic",
+          "ionic head"
+        ],
+        "key_points": [
+          "Hydrophilic (ionic) end interacts with water."
+        ],
+        "formula": null,
+        "expected_answer": "Hydrophilic end",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_mcq_u002",
+      "use_for": "understanding",
+      "text": "The process of making soap by heating fat with NaOH is called:",
+      "options": [
+        {
+          "text": "Esterification",
+          "is_correct": false
+        },
+        {
+          "text": "Saponification",
+          "is_correct": true
+        },
+        {
+          "text": "Hydrogenation",
+          "is_correct": false
+        },
+        {
+          "text": "Polymerisation",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "saponification",
+          "NaOH",
+          "fat",
+          "soap",
+          "glycerol"
+        ],
+        "key_points": [
+          "Saponification: alkaline hydrolysis of fat with NaOH → soap + glycerol."
+        ],
+        "formula": null,
+        "expected_answer": "Saponification",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_mcq_u003",
+      "use_for": "understanding",
+      "text": "Detergents work effectively in hard water because:",
+      "options": [
+        {
+          "text": "Detergents have lower surface tension than soaps.",
+          "is_correct": false
+        },
+        {
+          "text": "The Ca²⁺/Mg²⁺ salts of detergents are soluble in water.",
+          "is_correct": true
+        },
+        {
+          "text": "Detergents are acidic and neutralise hard water.",
+          "is_correct": false
+        },
+        {
+          "text": "Detergents evaporate Ca²⁺/Mg²⁺ ions from water.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Ca2+",
+          "Mg2+",
+          "soluble",
+          "sulphonate",
+          "no scum"
+        ],
+        "key_points": [
+          "Ca²⁺/Mg²⁺ salts of detergent groups are soluble → no scum."
+        ],
+        "formula": null,
+        "expected_answer": "The Ca²⁺/Mg²⁺ salts of detergents are soluble.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_u001",
+      "use_for": "understanding",
+      "text": "What is saponification? Write the word equation and name the products.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "fat",
+          "NaOH",
+          "soap",
+          "glycerol",
+          "alkaline hydrolysis"
+        ],
+        "key_points": [
+          "Saponification: fat + NaOH → soap + glycerol."
+        ],
+        "formula": "Fat + NaOH → Soap + Glycerol",
+        "expected_answer": "Saponification: heating fat/oil with NaOH. Products: soap (sodium salt of fatty acid) + glycerol.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "products named": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_u002",
+      "use_for": "understanding",
+      "text": "Explain why soaps cannot be used effectively in hard water. What is the insoluble material that forms?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Ca2+",
+          "Mg2+",
+          "scum",
+          "insoluble",
+          "calcium soap",
+          "wasted"
+        ],
+        "key_points": [
+          "Hard water has Ca²⁺/Mg²⁺ that react with soap forming insoluble scum, wasting soap."
+        ],
+        "formula": null,
+        "expected_answer": "Hard water Ca²⁺/Mg²⁺ react with soap → insoluble scum (calcium/magnesium soap). Soap wasted.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "reason": 1,
+          "name of precipitate": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_u003",
+      "use_for": "understanding",
+      "text": "What are biodegradable detergents? Why is biodegradability important? Give an example of a non-biodegradable detergent problem.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "biodegradable",
+          "microorganisms",
+          "branched chain",
+          "water pollution",
+          "foam"
+        ],
+        "key_points": [
+          "Biodegradable: broken down by microorganisms.",
+          "Non-biodegradable detergents persist in rivers, cause foam, harm aquatic life.",
+          "Example: branched-chain detergents."
+        ],
+        "formula": null,
+        "expected_answer": "Biodegradable detergents are broken down by microorganisms. Non-biodegradable ones pollute water bodies. Branched-chain detergents: non-biodegradable, cause river foam.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "environmental impact": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_u004",
+      "use_for": "understanding",
+      "text": "Describe micelle formation by soap. Draw a labelled diagram of a micelle. Why do micelles not settle out?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "hydrophobic tail",
+          "hydrophilic head",
+          "spherical",
+          "colloidal",
+          "stable"
+        ],
+        "key_points": [
+          "Hydrophobic tails cluster inside; hydrophilic heads face water → micelle.",
+          "Diagram: sphere with ionic heads outside, tails inside.",
+          "Don't precipitate: outer ionic surface stabilised by water → stable colloid."
+        ],
+        "formula": null,
+        "expected_answer": "Soap molecules orient in water (hydrophobic in, hydrophilic out) → micelles. Stable colloidal dispersion because ionic outer surface held by water.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Circle shape",
+          "Ionic heads on outside labelled",
+          "Hydrophobic tails inside labelled",
+          "Water outside indicated"
+        ],
+        "partial_marks": {
+          "formation described": 1,
+          "diagram correct": 1,
+          "stability reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap4_soa_sa_u005",
+      "use_for": "understanding",
+      "text": "Compare soaps and detergents on: (i) raw material (ii) hard water effectiveness (iii) biodegradability (iv) industrial use.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "fat/oil",
+          "synthetic",
+          "hard water",
+          "biodegradable",
+          "textile",
+          "scum"
+        ],
+        "key_points": [
+          "(i) Soaps: natural fats+NaOH. Detergents: synthetic petrochemicals.",
+          "(ii) Soaps: ineffective (scum). Detergents: effective.",
+          "(iii) Soaps: biodegradable. Detergents: may not be.",
+          "(iv) Soaps: domestic. Detergents: industrial, textile, hospital."
+        ],
+        "formula": null,
+        "expected_answer": "Tabular comparison with all four rows as in key points.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct row": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

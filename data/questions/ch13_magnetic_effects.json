@@ -1,0 +1,2309 @@
+{
+  "chapter_id": "ch13_magnetic_effects",
+  "chapter_title": "Magnetic Effects of Electric Current",
+  "questions": [
+    {
+      "id": "chap12_mfl_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following correctly describes the magnetic field near a long straight wire carrying current?",
+      "options": [
+        {
+          "text": "Straight lines perpendicular to the wire",
+          "is_correct": false
+        },
+        {
+          "text": "Straight lines parallel to the wire",
+          "is_correct": false
+        },
+        {
+          "text": "Radial lines originating from the wire",
+          "is_correct": false
+        },
+        {
+          "text": "Concentric circles centred on the wire",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "concentric circles",
+          "centred on wire"
+        ],
+        "key_points": [
+          "Magnetic field lines around a straight current-carrying conductor are concentric circles in a plane perpendicular to the wire"
+        ],
+        "formula": null,
+        "expected_answer": "(d) Concentric circles centred on the wire",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_mcq_002",
+      "use_for": "test",
+      "text": "In the Right-Hand Thumb Rule for a straight current-carrying conductor, the curled fingers of the right hand represent the direction of:",
+      "options": [
+        {
+          "text": "Current in the conductor",
+          "is_correct": false
+        },
+        {
+          "text": "Magnetic field around the conductor",
+          "is_correct": true
+        },
+        {
+          "text": "Force on the conductor",
+          "is_correct": false
+        },
+        {
+          "text": "Electric field around the conductor",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "curled fingers",
+          "magnetic field",
+          "right-hand thumb rule"
+        ],
+        "key_points": [
+          "Thumb points in direction of current; curled fingers show direction of magnetic field lines"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Magnetic field around the conductor",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_mcq_003",
+      "use_for": "test",
+      "text": "The force experienced by a current-carrying conductor placed in a magnetic field is LARGEST when:",
+      "options": [
+        {
+          "text": "The conductor is parallel to the magnetic field",
+          "is_correct": false
+        },
+        {
+          "text": "The conductor makes a 45° angle with the magnetic field",
+          "is_correct": false
+        },
+        {
+          "text": "The conductor is perpendicular to the magnetic field",
+          "is_correct": true
+        },
+        {
+          "text": "The conductor is at 30° to the magnetic field",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "perpendicular",
+          "maximum force",
+          "90 degrees"
+        ],
+        "key_points": [
+          "Force F = BIL sinθ; maximum when θ = 90°, i.e. conductor perpendicular to B"
+        ],
+        "formula": "F = BIL sinθ",
+        "expected_answer": "(c) The conductor is perpendicular to the magnetic field",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_mcq_004",
+      "use_for": "test",
+      "text": "At the time of short circuit, the current in the circuit:",
+      "options": [
+        {
+          "text": "Reduces substantially",
+          "is_correct": false
+        },
+        {
+          "text": "Does not change",
+          "is_correct": false
+        },
+        {
+          "text": "Increases heavily",
+          "is_correct": true
+        },
+        {
+          "text": "Varies continuously",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "increases heavily",
+          "short circuit",
+          "low resistance"
+        ],
+        "key_points": [
+          "In a short circuit the resistance drops to near zero; by Ohm's law I = V/R, current surges to a very large value"
+        ],
+        "formula": "I = V/R",
+        "expected_answer": "(c) Increases heavily",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_mcq_005",
+      "use_for": "test",
+      "text": "The magnetic field inside a long straight solenoid carrying current is:",
+      "options": [
+        {
+          "text": "Zero",
+          "is_correct": false
+        },
+        {
+          "text": "Decreasing as we move towards its end",
+          "is_correct": false
+        },
+        {
+          "text": "Increasing as we move towards its end",
+          "is_correct": false
+        },
+        {
+          "text": "The same at all points (uniform)",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "uniform",
+          "same at all points",
+          "solenoid"
+        ],
+        "key_points": [
+          "Inside a solenoid the field lines are parallel and equally spaced, indicating a uniform magnetic field"
+        ],
+        "formula": null,
+        "expected_answer": "(d) The same at all points (uniform)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_mcq_006",
+      "use_for": "test",
+      "text": "A device that works on the principle of the force experienced by a current-carrying conductor in a magnetic field is:",
+      "options": [
+        {
+          "text": "Electric generator",
+          "is_correct": false
+        },
+        {
+          "text": "Transformer",
+          "is_correct": false
+        },
+        {
+          "text": "Electric motor",
+          "is_correct": true
+        },
+        {
+          "text": "Galvanometer only",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "electric motor",
+          "force on conductor",
+          "magnetic field"
+        ],
+        "key_points": [
+          "Electric motor converts electrical energy to mechanical energy using the force on a current-carrying conductor in a magnetic field"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Electric motor",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_mcq_007",
+      "use_for": "test",
+      "text": "Two magnetic field lines can never intersect each other because:",
+      "options": [
+        {
+          "text": "Field lines always travel in straight paths",
+          "is_correct": false
+        },
+        {
+          "text": "At any given point the magnetic field has a unique direction, so two lines meeting would imply two directions",
+          "is_correct": true
+        },
+        {
+          "text": "Magnetic fields are always parallel",
+          "is_correct": false
+        },
+        {
+          "text": "Field lines can only originate from the north pole",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "unique direction",
+          "cannot intersect",
+          "two directions impossible"
+        ],
+        "key_points": [
+          "At any point in space the magnetic field has one definite direction; if two field lines crossed, a compass needle placed there would point in two directions simultaneously — which is physically impossible"
+        ],
+        "formula": null,
+        "expected_answer": "(b) At any given point the magnetic field has a unique direction, so two lines meeting would imply two directions",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_mcq_008",
+      "use_for": "test",
+      "text": "A circular coil has 20 turns and carries the same current as a single-turn circular coil of the same radius. The magnetic field at the centre of the 20-turn coil compared to the single-turn coil is:",
+      "options": [
+        {
+          "text": "The same",
+          "is_correct": false
+        },
+        {
+          "text": "Twice as large",
+          "is_correct": false
+        },
+        {
+          "text": "20 times as large",
+          "is_correct": true
+        },
+        {
+          "text": "400 times as large",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "20 times",
+          "number of turns",
+          "proportional"
+        ],
+        "key_points": [
+          "The magnetic field at the centre of a circular coil is directly proportional to the number of turns; B ∝ n"
+        ],
+        "formula": "B ∝ n",
+        "expected_answer": "(c) 20 times as large",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_mcq_009",
+      "use_for": "test",
+      "text": "In domestic electric circuits, the wire with GREEN insulation is the:",
+      "options": [
+        {
+          "text": "Live wire",
+          "is_correct": false
+        },
+        {
+          "text": "Neutral wire",
+          "is_correct": false
+        },
+        {
+          "text": "Earth wire",
+          "is_correct": true
+        },
+        {
+          "text": "Phase wire",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "earth wire",
+          "green insulation"
+        ],
+        "key_points": [
+          "Live = red insulation; Neutral = black insulation; Earth = green insulation"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Earth wire",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_sa_010",
+      "use_for": "test",
+      "text": "List THREE properties of magnetic field lines.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "closed loops",
+          "north pole",
+          "south pole",
+          "never intersect",
+          "crowded",
+          "strong field",
+          "direction"
+        ],
+        "key_points": [
+          "Field lines emerge from the north pole and enter the south pole outside the magnet; they form closed loops inside",
+          "The tangent to a field line at any point gives the direction of the magnetic field at that point",
+          "Two magnetic field lines never intersect each other",
+          "Where field lines are closer (crowded) the magnetic field is stronger; where they are farther apart the field is weaker"
+        ],
+        "formula": null,
+        "expected_answer": "Any three from: (1) They form closed continuous loops from N to S outside and S to N inside the magnet. (2) The tangent at any point on a field line gives the direction of B at that point. (3) Two field lines never cross each other. (4) Closer field lines indicate a stronger field.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "1 property correct": 1,
+          "2 properties correct": 2,
+          "3 properties correct": 3
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_sa_011",
+      "use_for": "test",
+      "text": "State the Right-Hand Thumb Rule used to determine the direction of the magnetic field around a straight current-carrying conductor.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "right hand",
+          "thumb",
+          "current",
+          "curled fingers",
+          "magnetic field"
+        ],
+        "key_points": [
+          "Hold the conductor in the right hand such that the thumb points in the direction of current flow",
+          "The curled (wrapped) fingers indicate the direction of the magnetic field around the conductor"
+        ],
+        "formula": null,
+        "expected_answer": "Imagine holding the current-carrying conductor in the right hand so that the thumb points in the direction of the current. Then the fingers wrapped around the conductor give the direction of the magnetic field lines around it.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "thumb = current direction": 1,
+          "fingers = field direction": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_sa_012",
+      "use_for": "test",
+      "text": "State Fleming's Left-Hand Rule.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "forefinger",
+          "middle finger",
+          "thumb",
+          "magnetic field",
+          "current",
+          "force",
+          "mutually perpendicular"
+        ],
+        "key_points": [
+          "Stretch the forefinger, middle finger, and thumb of the left hand mutually perpendicular to each other",
+          "Forefinger → direction of magnetic field (B)",
+          "Middle finger → direction of current (I)",
+          "Thumb → direction of force/motion on the conductor"
+        ],
+        "formula": null,
+        "expected_answer": "Stretch the forefinger, middle finger, and thumb of the left hand so that they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the middle finger points in the direction of the current, then the thumb gives the direction of the force (motion) on the conductor.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct fingers mentioned": 1,
+          "correct assignments of field/current/force": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_sa_013",
+      "use_for": "test",
+      "text": "What is the function of an earth wire in domestic electric circuits? Why is it necessary to earth metallic appliances?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "earth wire",
+          "low resistance path",
+          "ground",
+          "electric shock",
+          "safety",
+          "metallic body"
+        ],
+        "key_points": [
+          "Earth wire provides a low-resistance conducting path to the ground for any leakage current",
+          "If a live wire accidentally touches the metallic casing of an appliance, the current is safely discharged to earth, preventing electric shock to the user"
+        ],
+        "formula": null,
+        "expected_answer": "The earth wire connects the metallic body of an appliance directly to the earth (ground). Its function is to provide a low-resistance path so that any leakage current due to a fault flows harmlessly to the earth. This prevents the metallic casing from becoming live and protects the user from electric shock.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "function of earth wire": 1,
+          "reason for earthing metallic appliances": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_sa_014",
+      "use_for": "test",
+      "text": "Why does a compass needle get deflected when brought near a bar magnet?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "magnetic force",
+          "exerts force",
+          "compass needle",
+          "magnetic field",
+          "bar magnet",
+          "aligns"
+        ],
+        "key_points": [
+          "A bar magnet has a magnetic field around it",
+          "The compass needle is itself a small magnet; the magnetic force exerted by the bar magnet on the needle causes it to align along the local field direction, making it deflect"
+        ],
+        "formula": null,
+        "expected_answer": "A bar magnet produces a magnetic field in the region surrounding it. A compass needle is a small freely pivoted magnet. When brought near the bar magnet, the magnetic force exerted by the bar magnet's field acts on the poles of the compass needle, causing it to rotate and align along the direction of the local magnetic field — hence it gets deflected.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "bar magnet has field": 1,
+          "force acts on compass needle / needle aligns": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_sa_015",
+      "use_for": "test",
+      "text": "How does the magnetic field produced by a straight current-carrying conductor change with (i) increasing distance from the conductor and (ii) increasing magnitude of current?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "decreases",
+          "distance",
+          "increases",
+          "current",
+          "inversely proportional",
+          "directly proportional"
+        ],
+        "key_points": [
+          "(i) The magnetic field decreases as distance from the conductor increases (B ∝ 1/r)",
+          "(ii) The magnetic field increases as the current in the conductor increases (B ∝ I)"
+        ],
+        "formula": "B ∝ I/r",
+        "expected_answer": "(i) The magnetic field strength decreases as the distance from the conductor increases — the field lines spread out and become less dense farther away. (ii) The magnetic field strength increases as the current through the conductor increases — a larger current produces a stronger field.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "(i) correct": 1,
+          "(ii) correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_sa_016",
+      "use_for": "test",
+      "text": "Imagine you are sitting in a chamber with your back to one wall. An electron beam moving horizontally from the back wall towards the front wall is deflected to your right side by a strong magnetic field. What is the direction of the magnetic field?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "vertically downward",
+          "downward",
+          "Fleming",
+          "conventional current opposite electron motion"
+        ],
+        "key_points": [
+          "Electrons move from back to front, so conventional current direction is from front to back (opposite to electron motion)",
+          "Force on the beam is towards the right (given)",
+          "Using Fleming's Left-Hand Rule: forefinger (B) pointing downward, middle finger (current: front→back), thumb (force: rightward) — B is vertically downward"
+        ],
+        "formula": null,
+        "expected_answer": "The electron beam moves from back to front, so the conventional current direction is from front to back. The force is directed to the right. Applying Fleming's Left-Hand Rule (middle finger = current direction front-to-back; thumb = force to the right), the forefinger (direction of B) points vertically downward. Therefore, the magnetic field is directed vertically downward.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "identifies conventional current opposite": 1,
+          "correct direction vertically downward": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_sa_017",
+      "use_for": "test",
+      "text": "When does an electric short circuit occur? Name TWO safety devices used in domestic electric circuits to prevent damage from excessive current.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "live wire",
+          "neutral wire",
+          "direct contact",
+          "resistance zero",
+          "fuse",
+          "MCB",
+          "circuit breaker"
+        ],
+        "key_points": [
+          "Short circuit occurs when the live wire and the neutral wire come into direct contact, causing resistance to drop to nearly zero and current to surge",
+          "Safety devices: (1) Electric fuse (2) Miniature Circuit Breaker (MCB)"
+        ],
+        "formula": null,
+        "expected_answer": "A short circuit occurs when the live wire and the neutral wire come into direct contact (e.g., due to damaged insulation). The resistance drops to nearly zero, causing current to increase suddenly to a very high value. Two safety devices: (1) Electric fuse — melts and breaks the circuit when current exceeds its rated value. (2) MCB (Miniature Circuit Breaker) — automatically trips the circuit on overload or short circuit.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "short circuit definition": 1,
+          "two safety devices named": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_sa_018",
+      "use_for": "test",
+      "text": "How is the magnetic field produced by a current-carrying solenoid similar to that of a bar magnet? Explain with reference to the magnetic field pattern.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "north pole",
+          "south pole",
+          "field lines",
+          "outside solenoid",
+          "inside uniform",
+          "bar magnet",
+          "similar pattern"
+        ],
+        "key_points": [
+          "The magnetic field lines of a solenoid outside it closely resemble those of a bar magnet — they emerge from one end (N-pole) and enter the other end (S-pole)",
+          "Inside the solenoid the field is uniform (parallel lines) just as inside a bar magnet",
+          "One end of the solenoid acts as a north pole (field lines emerge) and the other as a south pole (field lines enter)"
+        ],
+        "formula": null,
+        "expected_answer": "A current-carrying solenoid produces a magnetic field pattern very similar to a bar magnet: (1) Outside — the field lines emerge from one end (acting as N-pole) and curve around to re-enter the other end (acting as S-pole), identical to a bar magnet's external field. (2) Inside — the field lines are parallel and equally spaced, indicating a strong, uniform magnetic field, analogous to the uniform field inside a bar magnet. (3) The polarity (N or S) of each end depends on the direction of current flow.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "field pattern similarity mentioned": 1,
+          "N and S poles identified": 1,
+          "uniform field inside noted": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_sa_019",
+      "use_for": "test",
+      "text": "In an experiment, a current-carrying rod AB placed between the poles of a horseshoe magnet is displaced towards the left. Predict how the displacement of rod AB will be affected if: (i) current in AB is increased, (ii) a stronger horseshoe magnet is used, (iii) the direction of current through AB is reversed.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "greater displacement",
+          "stronger force",
+          "reversed direction"
+        ],
+        "key_points": [
+          "(i) Displacement increases — greater current → greater force on the conductor",
+          "(ii) Displacement increases — stronger magnet → stronger field → greater force",
+          "(iii) Displacement reverses direction (rod moves to the right) — reversing current reverses the direction of force"
+        ],
+        "formula": "F = BIL",
+        "expected_answer": "(i) The displacement (and force) increases because force is directly proportional to current (F ∝ I). (ii) The displacement increases because force is proportional to the strength of the magnetic field (F ∝ B). (iii) The displacement reverses — the rod now moves to the right — because reversing the current reverses the direction of the force (Fleming's LHR).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "(i) correct": 1,
+          "(ii) correct": 1,
+          "(iii) correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_sa_020",
+      "use_for": "test",
+      "text": "State the rule used to determine the direction of current induced in a coil due to its rotation in a magnetic field. How is this rule applied?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Fleming right-hand rule",
+          "forefinger",
+          "middle finger",
+          "thumb",
+          "induced current",
+          "motion",
+          "field"
+        ],
+        "key_points": [
+          "Fleming's Right-Hand Rule is used",
+          "Stretch the thumb, forefinger, and middle finger of the right hand mutually perpendicular",
+          "Forefinger → direction of magnetic field; Thumb → direction of motion of conductor; Middle finger → direction of induced current"
+        ],
+        "formula": null,
+        "expected_answer": "Fleming's Right-Hand Rule: Stretch the thumb, forefinger, and middle finger of the right hand so they are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the thumb points in the direction of motion of the conductor, then the middle finger points in the direction of the induced current.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "rule named correctly": 1,
+          "correct application described": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_sa_021",
+      "use_for": "test",
+      "text": "A current through a horizontal power line flows in the east-to-west direction. What is the direction of the magnetic field at a point (i) directly below the wire and (ii) directly above the wire?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "south to north",
+          "north to south",
+          "right-hand thumb rule",
+          "below",
+          "above"
+        ],
+        "key_points": [
+          "Current flows east to west; apply Right-Hand Thumb Rule",
+          "At a point directly below the wire: magnetic field is directed from south to north (towards north)",
+          "At a point directly above the wire: magnetic field is directed from north to south (towards south)"
+        ],
+        "formula": null,
+        "expected_answer": "Current is directed east to west. By the Right-Hand Thumb Rule (thumb east→west, fingers curl): (i) At a point directly below the wire — the field is directed from south to north (i.e., towards north). (ii) At a point directly above the wire — the field is directed from north to south (i.e., towards south). The field circles the wire; at the bottom it goes northward and at the top it goes southward.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "correct rule applied": 1,
+          "(i) correct": 1,
+          "(ii) correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_sa_022",
+      "use_for": "test",
+      "text": "List TWO methods by which a magnetic field can be produced.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "current-carrying conductor",
+          "permanent magnet",
+          "electric current",
+          "bar magnet"
+        ],
+        "key_points": [
+          "(1) By passing an electric current through a conductor (Oersted's discovery)",
+          "(2) By using a permanent bar magnet"
+        ],
+        "formula": null,
+        "expected_answer": "(1) A magnetic field is produced around a current-carrying conductor when current flows through it. (2) A permanent bar magnet produces a magnetic field in the region surrounding it.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "method 1": 1,
+          "method 2": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_sa_023",
+      "use_for": "test",
+      "text": "A positively charged alpha-particle is projected towards the west and is deflected towards the north by a magnetic field. What is the direction of the magnetic field? Justify your answer using Fleming's rule.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "upward",
+          "vertically upward",
+          "Fleming left-hand rule",
+          "positive charge",
+          "force north",
+          "current west"
+        ],
+        "key_points": [
+          "Alpha particle is positively charged and moves west → conventional current direction is west (same as motion for positive charge)",
+          "Force is towards north",
+          "Using Fleming's LHR: middle finger (current) → west; thumb (force) → north; forefinger (B) → vertically upward"
+        ],
+        "formula": null,
+        "expected_answer": "The alpha particle is positive and moves west, so the conventional current direction is westward. The magnetic force on it is northward. Applying Fleming's Left-Hand Rule: middle finger = west (current), thumb = north (force) — the forefinger must point vertically upward. Therefore the magnetic field is directed vertically upward.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "identifies current direction = west": 1,
+          "applies Fleming's LHR correctly": 1,
+          "correct answer: upward": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_num_024",
+      "use_for": "test",
+      "text": "An electric oven of 2 kW power rating is operated in a domestic electric circuit (220 V) that has a current rating of 5 A. Calculate the current drawn by the oven. Will the fuse of 5 A rating blow? Justify your answer.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "9.09 A",
+          "fuse blows",
+          "I = P/V",
+          "current exceeds rating"
+        ],
+        "key_points": [
+          "Current = Power / Voltage = 2000 W / 220 V ≈ 9.09 A",
+          "This current (9.09 A) exceeds the fuse rating of 5 A",
+          "Therefore the fuse will blow / melt, disconnecting the circuit"
+        ],
+        "formula": "I = P / V",
+        "expected_answer": "I = P/V = 2000/220 ≈ 9.09 A. Since 9.09 A > 5 A (fuse rating), the fuse will blow to protect the circuit.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula written": 1,
+          "correct current calculated": 1,
+          "conclusion about fuse": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "P": {
+            "value": 2000,
+            "unit": "W",
+            "locked": true
+          },
+          "V": {
+            "value": 220,
+            "unit": "V",
+            "locked": true
+          }
+        },
+        "formula_expression": "P / V",
+        "units": "A",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_num_025",
+      "use_for": "test",
+      "text": "A circular coil consists of 15 turns. The magnetic field at its centre due to a single turn carrying the same current is B₀. What is the total magnetic field at the centre of the 15-turn coil?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "15B₀",
+          "proportional to n",
+          "number of turns"
+        ],
+        "key_points": [
+          "Magnetic field at the centre of a circular coil is proportional to the number of turns: B = n × B₀",
+          "For n = 15: B = 15B₀"
+        ],
+        "formula": "B = n × B₀",
+        "expected_answer": "B = 15 × B₀ = 15B₀",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula stated": 1,
+          "correct answer 15B₀": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "n": {
+            "value": 15,
+            "unit": "turns",
+            "locked": true
+          },
+          "B0": {
+            "value": 1,
+            "unit": "T",
+            "locked": true
+          }
+        },
+        "formula_expression": "n * B0",
+        "units": "T",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_num_026",
+      "use_for": "test",
+      "text": "A room heater rated 1500 W is connected to a 220 V domestic supply. (i) Calculate the current drawn by the heater. (ii) Will a 5 A fuse be sufficient, or is a 10 A fuse needed? Justify.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "6.82 A",
+          "10 A fuse",
+          "5 A insufficient",
+          "I = P/V"
+        ],
+        "key_points": [
+          "I = P/V = 1500/220 ≈ 6.82 A",
+          "6.82 A > 5 A, so a 5 A fuse will blow",
+          "A 10 A fuse is needed (rated above the operating current with a safety margin)"
+        ],
+        "formula": "I = P / V",
+        "expected_answer": "(i) I = 1500/220 ≈ 6.82 A. (ii) A 5 A fuse is insufficient (6.82 A > 5 A and it would blow during normal operation). A 10 A fuse is needed.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula and current calculated": 1,
+          "5A insufficient explained": 1,
+          "10A fuse recommended": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "P": {
+            "value": 1500,
+            "unit": "W",
+            "locked": true
+          },
+          "V": {
+            "value": 220,
+            "unit": "V",
+            "locked": true
+          }
+        },
+        "formula_expression": "P / V",
+        "units": "A",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_la_027",
+      "use_for": "test",
+      "text": "With the help of a labeled diagram, explain the magnetic field pattern due to a current flowing through a solenoid. How does a current-carrying solenoid behave like a bar magnet?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "solenoid",
+          "uniform field",
+          "bar magnet",
+          "north pole",
+          "south pole",
+          "field lines",
+          "parallel inside",
+          "electromagnet"
+        ],
+        "key_points": [
+          "A solenoid is a long cylindrical coil of insulated copper wire; when current flows, each turn contributes to the magnetic field",
+          "Inside the solenoid: field is uniform — parallel, equally spaced field lines along the axis",
+          "Outside the solenoid: field lines form closed loops from one end to the other, resembling a bar magnet",
+          "One end becomes N-pole (field lines emerge) and the other S-pole (field lines enter) depending on current direction",
+          "Diagram must show: solenoid coil, current direction, field lines inside (parallel) and outside (looping), N and S poles labeled"
+        ],
+        "formula": null,
+        "expected_answer": "A solenoid consists of many turns of insulated wire wound in a cylindrical form. On passing current: (1) Each turn produces a small magnetic field; these add up to produce a strong, uniform field along the axis inside the solenoid. (2) The field lines inside are parallel straight lines, indicating uniform field. (3) Outside, the field lines emerge from one end and enter the other, exactly like a bar magnet. (4) The end from which lines emerge is the N-pole; the end into which they enter is the S-pole. Thus a current-carrying solenoid acts as a bar magnet.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Solenoid coil drawn with multiple turns",
+          "Current direction shown on wires",
+          "Parallel field lines inside",
+          "Field lines looping outside",
+          "N-pole and S-pole labeled"
+        ],
+        "partial_marks": {
+          "diagram correct": 2,
+          "uniform field inside explained": 1,
+          "bar magnet analogy": 1,
+          "N/S poles explained": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_la_028",
+      "use_for": "test",
+      "text": "Explain the force experienced by a current-carrying conductor placed in a magnetic field. State and explain Fleming's Left-Hand Rule with a diagram. Why is the force maximum when the current is perpendicular to the magnetic field?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Fleming left-hand rule",
+          "forefinger",
+          "middle finger",
+          "thumb",
+          "force",
+          "current",
+          "magnetic field",
+          "perpendicular",
+          "maximum",
+          "F=BIL"
+        ],
+        "key_points": [
+          "A current-carrying conductor in a magnetic field experiences a mechanical force (Ampere's force)",
+          "The force is perpendicular to both the current direction and the magnetic field direction",
+          "Fleming's LHR: forefinger = B direction, middle finger = I direction, thumb = force direction (all mutually perpendicular)",
+          "F = BIL sinθ; when θ = 90° (current ⊥ B), sinθ = 1 → force is maximum",
+          "When current is parallel to B (θ = 0°), force = 0"
+        ],
+        "formula": "F = BIL sinθ",
+        "expected_answer": "A current-carrying conductor in an external magnetic field experiences a force due to the interaction of the conductor's own magnetic field with the external field. The direction is given by Fleming's LHR: hold the left hand with forefinger (B), middle finger (I), and thumb (Force) mutually perpendicular — the thumb shows the direction of force. The magnitude is F = BIL sinθ. When θ = 90° (current ⊥ B), sinθ = 1 and force is maximum. When θ = 0° (current ∥ B), force is zero.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Conductor between magnet poles",
+          "Current direction labeled",
+          "B direction (N→S) labeled",
+          "Force direction labeled",
+          "Fleming's LHR hand sketch or description"
+        ],
+        "partial_marks": {
+          "force concept explained": 1,
+          "Fleming LHR correctly stated": 2,
+          "diagram correct": 1,
+          "F = BILsinθ with θ=90 explained": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_la_029",
+      "use_for": "test",
+      "text": "What is a magnetic field? Draw the magnetic field lines around a bar magnet. List FOUR properties of magnetic field lines.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "magnetic field",
+          "force experienced",
+          "field lines",
+          "north pole",
+          "south pole",
+          "closed loops",
+          "never intersect",
+          "tangent gives direction",
+          "crowded = stronger"
+        ],
+        "key_points": [
+          "Magnetic field: the region around a magnet where a magnetic force is experienced; represented by field lines",
+          "Diagram: closed loops from N to S outside the magnet, S to N inside; arrows showing direction",
+          "Property 1: Field lines emerge from N-pole and enter S-pole (outside)",
+          "Property 2: They form closed continuous loops",
+          "Property 3: Two field lines never intersect",
+          "Property 4: Closer/denser lines indicate stronger field; sparser lines indicate weaker field"
+        ],
+        "formula": null,
+        "expected_answer": "Magnetic field is the region around a magnet where a magnetic force can be detected. It is represented by magnetic field lines. Diagram: field lines emerge from N, curve around, and re-enter at S outside the magnet; they continue inside from S to N forming closed loops. Four properties: (1) Outside the magnet, lines go from N to S; inside from S to N (closed loops). (2) The tangent at any point gives the direction of B. (3) Two field lines never intersect. (4) Denser lines = stronger field; sparse lines = weaker field.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Bar magnet labeled N and S",
+          "At least 4 field lines shown",
+          "Arrows on lines showing N→S direction outside",
+          "Lines denser near poles",
+          "Lines continuous (closed loops)"
+        ],
+        "partial_marks": {
+          "definition of magnetic field": 1,
+          "diagram correct": 2,
+          "4 properties listed (0.5 each)": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_ar_030",
+      "use_for": "test",
+      "text": "Assertion (A): Two magnetic field lines never intersect each other.\nReason (R): If two field lines were to intersect, it would imply that the magnetic field has two different directions at the point of intersection, which is physically impossible.\n\nChoose the correct option:\n(a) Both A and R are true, and R is the correct explanation of A.\n(b) Both A and R are true, but R is not the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true, and R is the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true, but R is not the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "unique direction",
+          "two directions impossible",
+          "intersect"
+        ],
+        "key_points": [
+          "Both A and R are true; R correctly explains A — intersection implies two directions of B at one point"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true, and R is the correct explanation of A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_ar_031",
+      "use_for": "test",
+      "text": "Assertion (A): Electric fuse is an important safety device used in domestic circuits.\nReason (R): Fuse wire is made of a material with high resistance and low melting point, so it melts and breaks the circuit when current exceeds the rated value.\n\nChoose the correct option:\n(a) Both A and R are true, and R is the correct explanation of A.\n(b) Both A and R are true, but R is not the correct explanation of A.\n(c) A is true but R is false.\n(d) A is false but R is true.",
+      "options": [
+        {
+          "text": "Both A and R are true, and R is the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true, but R is not the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "high resistance",
+          "low melting point",
+          "fuse wire",
+          "melts",
+          "overload",
+          "safety"
+        ],
+        "key_points": [
+          "Both A and R are true; R correctly explains the working principle of a fuse"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Both A and R are true, and R is the correct explanation of A.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_dia_032",
+      "use_for": "test",
+      "text": "Draw the magnetic field lines around a bar magnet. Label the north pole, south pole, and indicate the direction of the field lines. Show at least four field lines and indicate where the field is strongest.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "N pole",
+          "S pole",
+          "field lines",
+          "closed loops",
+          "arrows",
+          "denser near poles"
+        ],
+        "key_points": [
+          "Bar magnet drawn and labeled N, S",
+          "At least 4 field lines drawn as closed loops",
+          "Arrows indicating direction from N to S outside",
+          "Lines denser near poles (stronger field indicated)"
+        ],
+        "formula": null,
+        "expected_answer": "A bar magnet with N on left, S on right; smooth curved field lines emerging from N, curving around in space, and entering S; arrows on lines; lines bunched close together near poles showing strong field, spread out farther away showing weaker field.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Bar magnet drawn",
+          "N and S poles labeled",
+          "Minimum 4 field lines",
+          "Arrows in correct direction (N→S outside)",
+          "Lines denser near poles"
+        ],
+        "partial_marks": {
+          "magnet labeled correctly": 0.5,
+          "4+ field lines": 1,
+          "arrows correct": 0.5,
+          "lines denser near poles": 0.5,
+          "closed loops": 0.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_dia_033",
+      "use_for": "test",
+      "text": "Draw a neat diagram showing the magnetic field pattern around a current-carrying solenoid. On the diagram, mark: (i) the direction of current in the wires, (ii) the N-pole end, (iii) the S-pole end, and (iv) the region where the magnetic field is uniform.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "solenoid",
+          "current direction",
+          "N-pole",
+          "S-pole",
+          "uniform field",
+          "parallel lines inside"
+        ],
+        "key_points": [
+          "Solenoid shape drawn correctly",
+          "Current direction marked on turns",
+          "Parallel field lines inside (uniform field region labeled)",
+          "Curved field lines outside looping from N to S",
+          "N and S poles correctly identified at ends"
+        ],
+        "formula": null,
+        "expected_answer": "Solenoid with multiple turns; current shown going in (×) on one side and out (•) on the other; parallel straight field lines inside labeled 'uniform field'; curved closed field lines outside; left end labeled N-pole and right end S-pole (or vice versa, consistent with current direction).",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Solenoid shape drawn",
+          "Current direction shown on turns",
+          "Parallel field lines inside",
+          "Uniform field region labeled",
+          "N-pole and S-pole labeled",
+          "External curved field lines"
+        ],
+        "partial_marks": {
+          "solenoid shape": 0.5,
+          "current direction": 0.5,
+          "internal uniform field": 0.5,
+          "N/S poles labeled": 0.5,
+          "external field lines": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_dia_034",
+      "use_for": "test",
+      "text": "Draw a labeled diagram of a simple electric motor. The diagram must include and label: the armature coil (ABCD), the permanent magnet (N and S poles), the split-ring commutator, the carbon brushes (X and Y), the battery, and indicate the direction of rotation of the coil.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "armature coil",
+          "ABCD",
+          "permanent magnet",
+          "N pole",
+          "S pole",
+          "split-ring commutator",
+          "carbon brushes",
+          "battery",
+          "rotation"
+        ],
+        "key_points": [
+          "Rectangular coil ABCD placed between magnetic poles",
+          "Split-ring commutator attached to coil ends",
+          "Carbon brushes (X and Y) in contact with commutator",
+          "Battery connected through brushes",
+          "All six components labeled",
+          "Rotation direction indicated"
+        ],
+        "formula": null,
+        "expected_answer": "Labeled diagram showing: rectangular coil ABCD between N and S poles of permanent magnet; two half-rings (split-ring commutator) attached to ends A and D of coil; two carbon brushes X and Y pressing on commutator; battery connected to brushes; arrow showing direction of rotation of coil.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Rectangular coil ABCD drawn",
+          "Magnet poles N and S labeled",
+          "Split-ring commutator drawn",
+          "Carbon brushes X and Y labeled",
+          "Battery shown in circuit",
+          "Rotation direction arrow"
+        ],
+        "partial_marks": {
+          "coil ABCD": 1,
+          "magnet N/S": 0.5,
+          "commutator": 1,
+          "brushes": 0.5,
+          "battery": 0.5,
+          "rotation arrow": 0.5,
+          "all labels present": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_mcq_und_001",
+      "use_for": "understanding",
+      "text": "A bar magnet is cut into two equal halves perpendicular to its length. Each half:",
+      "options": [
+        {
+          "text": "Becomes an independent complete magnet with both N and S poles",
+          "is_correct": true
+        },
+        {
+          "text": "Has only a north pole",
+          "is_correct": false
+        },
+        {
+          "text": "Has only a south pole",
+          "is_correct": false
+        },
+        {
+          "text": "Loses its magnetism completely",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "both poles",
+          "complete magnet",
+          "N and S"
+        ],
+        "key_points": [
+          "A magnet cannot be isolated into monopoles; each half becomes a complete magnet with both N and S poles"
+        ],
+        "formula": null,
+        "expected_answer": "(a) Becomes an independent complete magnet with both N and S poles",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_mcq_und_002",
+      "use_for": "understanding",
+      "text": "In a diagram of magnetic field lines, the lines are drawn closer together at a certain region. This indicates that:",
+      "options": [
+        {
+          "text": "The magnetic field is weaker there",
+          "is_correct": false
+        },
+        {
+          "text": "The magnetic field is stronger there",
+          "is_correct": true
+        },
+        {
+          "text": "The field lines are about to intersect",
+          "is_correct": false
+        },
+        {
+          "text": "There is no magnetic force in that region",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "closer lines",
+          "stronger field",
+          "denser"
+        ],
+        "key_points": [
+          "Denser (closer) field lines represent a stronger magnetic field"
+        ],
+        "formula": null,
+        "expected_answer": "(b) The magnetic field is stronger there",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_mcq_und_003",
+      "use_for": "understanding",
+      "text": "If the current through a long straight conductor is doubled, the magnetic field at a fixed distance from the conductor:",
+      "options": [
+        {
+          "text": "Remains unchanged",
+          "is_correct": false
+        },
+        {
+          "text": "Becomes half",
+          "is_correct": false
+        },
+        {
+          "text": "Doubles",
+          "is_correct": true
+        },
+        {
+          "text": "Becomes four times",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "doubles",
+          "proportional to current",
+          "B ∝ I"
+        ],
+        "key_points": [
+          "B ∝ I for a straight conductor; doubling I doubles B"
+        ],
+        "formula": "B ∝ I",
+        "expected_answer": "(c) Doubles",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_mcq_und_004",
+      "use_for": "understanding",
+      "text": "In the Right-Hand Thumb Rule, the thumb of the right hand points in the direction of:",
+      "options": [
+        {
+          "text": "Magnetic field",
+          "is_correct": false
+        },
+        {
+          "text": "Current flow",
+          "is_correct": true
+        },
+        {
+          "text": "Force on conductor",
+          "is_correct": false
+        },
+        {
+          "text": "Electric field",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "current",
+          "thumb",
+          "RHTR"
+        ],
+        "key_points": [
+          "Thumb = current direction; curled fingers = magnetic field direction"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Current flow",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_mcq_und_005",
+      "use_for": "understanding",
+      "text": "A current-carrying conductor is placed parallel to a uniform magnetic field. The force experienced by the conductor is:",
+      "options": [
+        {
+          "text": "Maximum",
+          "is_correct": false
+        },
+        {
+          "text": "Half of maximum",
+          "is_correct": false
+        },
+        {
+          "text": "Zero",
+          "is_correct": true
+        },
+        {
+          "text": "Equal to BIL",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "zero",
+          "parallel",
+          "sinθ = 0",
+          "θ = 0"
+        ],
+        "key_points": [
+          "F = BIL sinθ; when conductor is parallel to B, θ = 0°, sin0° = 0, so force = 0"
+        ],
+        "formula": "F = BIL sinθ; θ=0 → F=0",
+        "expected_answer": "(c) Zero",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_mcq_und_006",
+      "use_for": "understanding",
+      "text": "In Fleming's Left-Hand Rule, the middle finger of the left hand points in the direction of:",
+      "options": [
+        {
+          "text": "Magnetic field",
+          "is_correct": false
+        },
+        {
+          "text": "Force on conductor",
+          "is_correct": false
+        },
+        {
+          "text": "Direction of current",
+          "is_correct": true
+        },
+        {
+          "text": "Direction of induced current",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "middle finger",
+          "current",
+          "Fleming LHR"
+        ],
+        "key_points": [
+          "Forefinger = B; Middle finger = current; Thumb = force"
+        ],
+        "formula": null,
+        "expected_answer": "(c) Direction of current",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_mcq_und_007",
+      "use_for": "understanding",
+      "text": "In a household electric circuit, all appliances are connected in:",
+      "options": [
+        {
+          "text": "Series",
+          "is_correct": false
+        },
+        {
+          "text": "Parallel",
+          "is_correct": true
+        },
+        {
+          "text": "Series-parallel combination",
+          "is_correct": false
+        },
+        {
+          "text": "None of the above",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "parallel",
+          "same voltage",
+          "independent switching"
+        ],
+        "key_points": [
+          "Domestic appliances are in parallel so each operates at the same 220 V and can be switched independently"
+        ],
+        "formula": null,
+        "expected_answer": "(b) Parallel",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_mcq_und_008",
+      "use_for": "understanding",
+      "text": "The potential difference between the live wire and the neutral wire in an Indian domestic electric supply is:",
+      "options": [
+        {
+          "text": "110 V",
+          "is_correct": false
+        },
+        {
+          "text": "220 V",
+          "is_correct": true
+        },
+        {
+          "text": "440 V",
+          "is_correct": false
+        },
+        {
+          "text": "12 V",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "220 V",
+          "live",
+          "neutral"
+        ],
+        "key_points": [
+          "In India, domestic AC supply is 220 V at 50 Hz"
+        ],
+        "formula": null,
+        "expected_answer": "(b) 220 V",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_mcq_und_009",
+      "use_for": "understanding",
+      "text": "A proton moves in a direction parallel to a magnetic field. The force on the proton due to the magnetic field is:",
+      "options": [
+        {
+          "text": "Maximum and perpendicular to motion",
+          "is_correct": false
+        },
+        {
+          "text": "Equal to qvB",
+          "is_correct": false
+        },
+        {
+          "text": "Zero",
+          "is_correct": true
+        },
+        {
+          "text": "Along the direction of motion",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "zero",
+          "parallel to field",
+          "sin0 = 0"
+        ],
+        "key_points": [
+          "F = qvB sinθ; when motion is parallel to B, θ = 0°, F = 0"
+        ],
+        "formula": "F = qvB sinθ",
+        "expected_answer": "(c) Zero",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_mcq_und_010",
+      "use_for": "understanding",
+      "text": "Which of the following correctly describes how the magnetic field at the centre of a circular current-carrying loop changes when the radius is halved (current kept constant)?",
+      "options": [
+        {
+          "text": "The field halves",
+          "is_correct": false
+        },
+        {
+          "text": "The field doubles",
+          "is_correct": true
+        },
+        {
+          "text": "The field remains unchanged",
+          "is_correct": false
+        },
+        {
+          "text": "The field becomes four times",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "doubles",
+          "B ∝ 1/r",
+          "inversely proportional to radius"
+        ],
+        "key_points": [
+          "B ∝ I/r; if r is halved, B doubles (with I constant)"
+        ],
+        "formula": "B ∝ I/r",
+        "expected_answer": "(b) The field doubles",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_mcq_und_011",
+      "use_for": "understanding",
+      "text": "Which of the following statements about AC and DC generators is CORRECT?",
+      "options": [
+        {
+          "text": "AC generator uses a split-ring commutator; DC generator uses slip rings",
+          "is_correct": false
+        },
+        {
+          "text": "AC generator uses slip rings; DC generator uses a split-ring commutator",
+          "is_correct": true
+        },
+        {
+          "text": "Both use slip rings",
+          "is_correct": false
+        },
+        {
+          "text": "Both use split-ring commutators",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "slip rings",
+          "split-ring commutator",
+          "AC",
+          "DC"
+        ],
+        "key_points": [
+          "AC generator → slip rings (output alternates); DC generator → split-ring commutator (output is unidirectional)"
+        ],
+        "formula": null,
+        "expected_answer": "(b) AC generator uses slip rings; DC generator uses a split-ring commutator",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_sa_und_012",
+      "use_for": "understanding",
+      "text": "State any FOUR properties of magnetic field lines.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "closed loops",
+          "tangent gives direction",
+          "never intersect",
+          "denser = stronger",
+          "emerge from N",
+          "enter S"
+        ],
+        "key_points": [
+          "1. Field lines are closed continuous curves — outside the magnet from N to S; inside from S to N",
+          "2. The tangent at any point on a field line gives the direction of B at that point",
+          "3. Two field lines never intersect each other",
+          "4. Where lines are close together (dense) the field is strong; where they are far apart the field is weak"
+        ],
+        "formula": null,
+        "expected_answer": "Any four: (1) Closed loops from N to S outside, S to N inside. (2) Tangent at any point = direction of B. (3) Never intersect. (4) Denser lines = stronger field.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct property": 0.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_sa_und_013",
+      "use_for": "understanding",
+      "text": "What is a solenoid? Explain how it can be used as an electromagnet.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "solenoid",
+          "cylindrical coil",
+          "insulated wire",
+          "iron core",
+          "electromagnet",
+          "current",
+          "magnetic field"
+        ],
+        "key_points": [
+          "A solenoid is a long cylindrical coil of insulated copper wire wound in a helix",
+          "When current flows, it produces a strong magnetic field inside",
+          "Inserting a soft iron core greatly enhances the field — forming a powerful electromagnet"
+        ],
+        "formula": null,
+        "expected_answer": "A solenoid is a coil of insulated copper wire wound in the form of a long cylinder. When current passes through it, it produces a magnetic field similar to a bar magnet. To use it as an electromagnet, a soft iron rod is inserted as the core — the iron rod gets strongly magnetised, greatly increasing the magnetic field. The magnetism disappears when the current is switched off.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "solenoid defined": 1,
+          "electromagnet explained": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_sa_und_014",
+      "use_for": "understanding",
+      "text": "What is electromagnetic induction? State ONE practical application of electromagnetic induction.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "changing magnetic field",
+          "induced current",
+          "coil",
+          "electromagnetic induction",
+          "generator",
+          "transformer"
+        ],
+        "key_points": [
+          "Electromagnetic induction: the phenomenon of producing an electric current in a conductor/coil by changing the magnetic field linked with it",
+          "Practical application: electric generator (converts mechanical energy into electrical energy)"
+        ],
+        "formula": null,
+        "expected_answer": "Electromagnetic induction is the process of generating an electric current in a circuit by a changing magnetic field passing through it. One practical application is the electric generator, which uses electromagnetic induction to convert mechanical energy (rotation of a coil in a magnetic field) into electrical energy.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "application": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_sa_und_015",
+      "use_for": "understanding",
+      "text": "Differentiate between an electric fuse and an MCB (Miniature Circuit Breaker) as safety devices in domestic circuits.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "fuse",
+          "MCB",
+          "melts",
+          "trips",
+          "reusable",
+          "replaced",
+          "automatic"
+        ],
+        "key_points": [
+          "Fuse: wire melts (destroyed) when excess current flows; must be replaced after use; works on Joule heating",
+          "MCB: automatically trips (switches off) the circuit on overload; can be reset (reused) by flipping a switch"
+        ],
+        "formula": null,
+        "expected_answer": "Electric fuse: the fuse wire melts when current exceeds the rated value, permanently breaking the circuit; must be replaced after blowing. MCB: automatically switches off when excess current flows; can be reset by pushing a button/switch after the fault is fixed — it is reusable.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "fuse described": 1,
+          "MCB described": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_sa_und_016",
+      "use_for": "understanding",
+      "text": "How is the direction of a magnetic field at a point determined using a compass needle?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "compass needle",
+          "north pole",
+          "direction of field",
+          "aligns",
+          "tangent"
+        ],
+        "key_points": [
+          "A compass needle is placed at the point of interest",
+          "The needle aligns along the local magnetic field; the direction pointed by the north pole of the needle gives the direction of the magnetic field at that point"
+        ],
+        "formula": null,
+        "expected_answer": "A small compass needle is placed at the point where the magnetic field direction is to be found. The needle aligns itself along the magnetic field. The direction pointed by the north pole of the compass needle indicates the direction of the magnetic field at that point.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "compass placed at point": 1,
+          "N-pole direction = field direction": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_sa_und_017",
+      "use_for": "understanding",
+      "text": "State any TWO differences between a bar magnet and an electromagnet.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "permanent",
+          "temporary",
+          "current required",
+          "polarity reversed",
+          "strength varied"
+        ],
+        "key_points": [
+          "Bar magnet: permanent magnet; magnetism cannot be switched off or varied",
+          "Electromagnet: temporary magnet; requires electric current; magnetism can be switched on/off and its strength can be varied by changing current or number of turns"
+        ],
+        "formula": null,
+        "expected_answer": "(1) A bar magnet is a permanent magnet; an electromagnet is temporary and works only when current flows. (2) The strength of a bar magnet is fixed; the strength of an electromagnet can be increased or decreased by changing the current or number of turns. (Bonus: polarity of an electromagnet can be reversed by reversing the current.)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "difference 1": 1,
+          "difference 2": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_sa_und_018",
+      "use_for": "understanding",
+      "text": "Name the device that converts mechanical energy into electrical energy. State the principle on which it works.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "electric generator",
+          "electromagnetic induction",
+          "mechanical to electrical"
+        ],
+        "key_points": [
+          "Device: Electric Generator",
+          "Principle: Electromagnetic induction — when a coil rotates in a magnetic field, a changing flux induces an EMF/current in the coil"
+        ],
+        "formula": null,
+        "expected_answer": "Device: Electric Generator. Principle: It works on electromagnetic induction. When a coil is rotated in a magnetic field (or a magnetic field is varied around a coil), the magnetic flux through the coil changes, which induces an electromotive force (EMF) and hence an electric current in the circuit.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "generator named": 1,
+          "principle stated": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_sa_und_019",
+      "use_for": "understanding",
+      "text": "Why should the metallic casing of an electric iron be connected to the earth wire?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "earth wire",
+          "live wire fault",
+          "casing becomes live",
+          "electric shock",
+          "safe path",
+          "ground"
+        ],
+        "key_points": [
+          "If the live wire accidentally touches the metallic casing of the electric iron, the casing becomes live",
+          "Earth wire provides a low-resistance path so the fault current flows safely to ground, preventing electric shock to the user"
+        ],
+        "formula": null,
+        "expected_answer": "If a fault develops and the live wire touches the metal casing of the electric iron, the casing becomes live and anyone touching it would receive a severe electric shock. By connecting the casing to the earth wire, any stray current flows through the low-resistance earth wire to the ground rather than through the user's body, thereby preventing electric shock.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "fault scenario mentioned": 1,
+          "earth wire provides safe path": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_sa_und_020",
+      "use_for": "understanding",
+      "text": "Why is it physically impossible for two magnetic field lines to cross each other?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "unique direction",
+          "two directions",
+          "impossible",
+          "intersection",
+          "tangent"
+        ],
+        "key_points": [
+          "The tangent to a field line at any point gives the direction of the magnetic field at that point",
+          "At any given point the magnetic field can have only one direction",
+          "If two lines crossed, there would be two tangents at the crossing point, implying two different field directions — which is physically impossible"
+        ],
+        "formula": null,
+        "expected_answer": "The tangent to a magnetic field line at any point gives the direction of the field at that point. At any point in space, the magnetic field has exactly one direction. If two field lines were to intersect at a point, there would be two different tangents (two different directions) at that point — which is physically impossible for a field that has a unique direction at every point.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "tangent = direction argument": 1,
+          "unique direction argument": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_sa_und_021",
+      "use_for": "understanding",
+      "text": "What happens to the magnetic field inside a solenoid when the number of turns per unit length is increased, keeping the current constant?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "increases",
+          "proportional to n",
+          "stronger",
+          "more turns"
+        ],
+        "key_points": [
+          "The magnetic field inside a solenoid is proportional to the number of turns per unit length (n)",
+          "Increasing n increases the field strength"
+        ],
+        "formula": "B ∝ nI",
+        "expected_answer": "The magnetic field inside a solenoid is directly proportional to the number of turns per unit length (B ∝ nI). If the number of turns is increased while current is kept constant, the magnetic field inside increases proportionally — each additional turn contributes to the total field.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "field increases": 1,
+          "B ∝ n stated or implied": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_foc_sa_und_022",
+      "use_for": "understanding",
+      "text": "In an experiment, a current-carrying rod placed between magnet poles is displaced. Explain why the displacement increases when a stronger magnet is used.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "F = BIL",
+          "stronger B",
+          "greater force",
+          "displacement increases"
+        ],
+        "key_points": [
+          "The force on a current-carrying conductor is F = BIL",
+          "A stronger magnet has a larger magnetic field B",
+          "Since F ∝ B, a larger B produces a greater force, which results in a larger displacement"
+        ],
+        "formula": "F = BIL",
+        "expected_answer": "The force on a current-carrying conductor in a magnetic field is given by F = BIL, where B is the magnetic field strength. A stronger magnet produces a larger value of B. Since force is directly proportional to B (F ∝ B), a stronger magnet exerts a greater force on the conductor, causing a larger displacement.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "F = BIL stated": 1,
+          "F ∝ B explanation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_sa_und_023",
+      "use_for": "understanding",
+      "text": "State THREE precautions that should be taken to avoid overloading in domestic electric circuits.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "do not connect too many appliances",
+          "use correct fuse rating",
+          "separate circuits",
+          "high-power appliances",
+          "overloading"
+        ],
+        "key_points": [
+          "1. Do not connect too many high-power appliances to a single socket or circuit simultaneously",
+          "2. Use separate circuits for high-power appliances (e.g., AC, geyser, oven) rather than a single shared circuit",
+          "3. Always use the correct fuse/MCB with an appropriate current rating for each circuit"
+        ],
+        "formula": null,
+        "expected_answer": "(1) Do not plug too many appliances into a single socket/circuit at the same time. (2) Use separate circuits with appropriate ratings for high-power appliances. (3) Always fit the correct rated fuse or MCB — do not replace a blown fuse with one of higher rating.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "precaution 1": 1,
+          "precaution 2": 1,
+          "precaution 3": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_sa_und_024",
+      "use_for": "understanding",
+      "text": "Using the Right-Hand Thumb Rule, determine the direction of the magnetic field at a point to the east of a vertical wire in which current flows upward. Explain your reasoning step by step.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "south",
+          "towards south",
+          "right-hand thumb rule",
+          "current upward",
+          "point east"
+        ],
+        "key_points": [
+          "Thumb points upward (current direction)",
+          "Fingers curl around the wire: on the east side, fingers point towards south",
+          "Therefore the magnetic field at a point to the east of the wire is directed towards south"
+        ],
+        "formula": null,
+        "expected_answer": "Step 1: Hold the wire in the right hand with thumb pointing upward (direction of current). Step 2: The curled fingers wrap around the wire — on the east side of the wire, the fingers point towards the south direction. Step 3: Therefore, the magnetic field at a point to the east of the wire is directed towards south (from east looking at wire, field goes southward).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "RHTR applied": 1,
+          "thumb upward": 1,
+          "correct direction (south)": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_mfl_sa_und_025",
+      "use_for": "understanding",
+      "text": "A student claims: 'Magnetic field lines are open curves — they start from the north pole and end at the south pole.' Is this claim correct? Justify your answer with the complete behaviour of field lines.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "closed loops",
+          "not open",
+          "inside magnet",
+          "S to N inside",
+          "N to S outside"
+        ],
+        "key_points": [
+          "The claim is PARTIALLY correct but incomplete and therefore incorrect",
+          "Outside the magnet: field lines go from N-pole to S-pole — this part is correct",
+          "Inside the magnet: field lines continue from S-pole back to N-pole",
+          "Therefore field lines form complete CLOSED LOOPS; they do not start or end anywhere"
+        ],
+        "formula": null,
+        "expected_answer": "The claim is incorrect. While it is true that outside the magnet the field lines appear to go from N to S, inside the magnet they continue from S back to N, forming complete closed loops. Magnetic field lines have no beginning and no end — they are continuous closed curves. Unlike electric field lines (which start on positive and end on negative charges), magnetic field lines have no isolated poles where they terminate.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "claim identified as incorrect/incomplete": 1,
+          "outside N→S mentioned": 0.5,
+          "inside S→N mentioned": 0.5,
+          "closed loops conclusion": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_num_und_026",
+      "use_for": "understanding",
+      "text": "An electric appliance of power P watts is connected to a supply of V volts. Calculate the current drawn by the appliance.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "I = P/V",
+          "current",
+          "power",
+          "voltage"
+        ],
+        "key_points": [
+          "I = P / V"
+        ],
+        "formula": "I = P / V",
+        "expected_answer": "Current I = P / V amperes",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula written": 1,
+          "answer computed correctly": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "P": {
+            "min": 500,
+            "max": 3000,
+            "step": 100
+          },
+          "V": {
+            "min": 110,
+            "max": 240,
+            "step": 10
+          }
+        },
+        "formula_expression": "P / V",
+        "units": "A",
+        "answer_precision": 2
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_fdc_num_und_027",
+      "use_for": "understanding",
+      "text": "A circular coil has n turns. The magnetic field at its centre due to a single turn carrying current I is B₀. Find the total magnetic field at the centre of the n-turn coil.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "n times B0",
+          "B = n × B₀",
+          "proportional to n"
+        ],
+        "key_points": [
+          "Total field = n × B₀"
+        ],
+        "formula": "B = n × B₀",
+        "expected_answer": "B = n × B₀",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula stated": 1,
+          "correct answer n×B₀": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "n": {
+            "min": 5,
+            "max": 50,
+            "step": 5
+          },
+          "B0": {
+            "min": 1,
+            "max": 1,
+            "step": 0
+          }
+        },
+        "formula_expression": "n * B0",
+        "units": "T",
+        "answer_precision": 0
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap12_dom_num_und_028",
+      "use_for": "understanding",
+      "text": "An appliance of power P watts is connected to V volts. A fuse of rating I_f amperes is installed. Calculate whether the fuse will blow under normal operating conditions.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "I = P/V",
+          "compare with fuse rating",
+          "blows if I > I_f"
+        ],
+        "key_points": [
+          "Calculate operating current: I = P / V",
+          "If I > I_f, the fuse will blow",
+          "If I ≤ I_f, the fuse will not blow"
+        ],
+        "formula": "I = P / V",
+        "expected_answer": "I = P/V. If I > I_f: fuse blows. If I ≤ I_f: fuse does not blow.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "I = P/V formula and calculation": 1,
+          "comparison with fuse rating": 1,
+          "correct conclusion": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "P": {
+            "min": 500,
+            "max": 3000,
+            "step": 250
+          },
+          "V": {
+            "min": 220,
+            "max": 220,
+            "step": 0
+          },
+          "I_f": {
+            "min": 5,
+            "max": 15,
+            "step": 5
+          }
+        },
+        "formula_expression": "P / V",
+        "units": "A",
+        "answer_precision": 2
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "magnetic_effects_cb_001",
+      "text": "An electric motor in a mixer grinder is protected by a 5 A circuit breaker. The motor spins in reverse when the battery terminals are swapped.\n\n(a) State the principle on which an electric motor works. [1]\n(b) Name the rule that determines the direction of motion of the motor coil. [1]\n(c) State two ways to increase the rotational speed of the motor. [2]",
+      "type": "case_based",
+      "marks": 4,
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Fleming left hand rule",
+          "magnetic force",
+          "current",
+          "coil",
+          "commutator",
+          "speed"
+        ],
+        "key_points": [
+          "Motor works on: current-carrying conductor in magnetic field experiences mechanical force",
+          "Fleming's Left Hand Rule gives direction of force/motion",
+          "Increase speed: increase current OR increase magnetic field strength OR increase number of coil turns",
+          "Commutator reverses current direction every half turn to maintain continuous rotation"
+        ],
+        "expected_answer": "(a) A current-carrying conductor placed in a magnetic field experiences a force. (b) Fleming's Left Hand Rule. (c) Increase current; increase strength of magnetic field (use stronger magnets); increase number of turns in the armature coil.",
+        "formula": "F = BIL",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    }
+  ]
+}

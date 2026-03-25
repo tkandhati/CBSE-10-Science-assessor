@@ -1,0 +1,2153 @@
+{
+  "chapter_id": "ch06_control_coordination",
+  "chapter_title": "Control and Coordination",
+  "questions": [
+    {
+      "id": "chap6_ns_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following is the functional unit of the nervous system?",
+      "options": [
+        {
+          "text": "Nephron",
+          "is_correct": false
+        },
+        {
+          "text": "Neuron",
+          "is_correct": true
+        },
+        {
+          "text": "Alveolus",
+          "is_correct": false
+        },
+        {
+          "text": "Sarcomere",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "neuron"
+        ],
+        "key_points": [
+          "Neuron is the structural and functional unit of the nervous system"
+        ],
+        "formula": null,
+        "expected_answer": "Neuron",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_mcq_002",
+      "use_for": "test",
+      "text": "The chemical released at the end of an axon tip crosses the synapse and starts a similar electrical impulse in the dendrite of the next neuron. What is this junction called?",
+      "options": [
+        {
+          "text": "Dendrite",
+          "is_correct": false
+        },
+        {
+          "text": "Synapse",
+          "is_correct": true
+        },
+        {
+          "text": "Axon terminal",
+          "is_correct": false
+        },
+        {
+          "text": "Cell body",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "synapse"
+        ],
+        "key_points": [
+          "Synapse is the gap between two neurons where chemical transmission occurs"
+        ],
+        "formula": null,
+        "expected_answer": "Synapse",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_sa_003",
+      "use_for": "test",
+      "text": "Define the term 'synapse'. What happens at the synapse between two neurons?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "synapse",
+          "gap",
+          "chemical",
+          "electrical impulse"
+        ],
+        "key_points": [
+          "Synapse is the gap/junction between two neurons",
+          "At synapse, electrical impulse triggers release of chemicals",
+          "Chemicals cross the gap and start a similar impulse in next neuron"
+        ],
+        "formula": null,
+        "expected_answer": "A synapse is the microscopic gap between the axon terminal of one neuron and the dendrite of the next neuron. When an electrical impulse reaches the end of the axon, it triggers the release of chemicals (neurotransmitters). These chemicals diffuse across the synapse and generate a similar electrical impulse in the dendrite of the next neuron, thus allowing information to pass from one neuron to another.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition_only": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_sa_004",
+      "use_for": "test",
+      "text": "What is the function of receptors in our body? Think of situations where receptors do not work properly. What problems are likely to arise?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "receptors",
+          "sense organs",
+          "detect",
+          "stimuli",
+          "environment"
+        ],
+        "key_points": [
+          "Receptors are specialised tips of nerve cells that detect information from the environment",
+          "Located in sense organs (eyes, ears, nose, tongue, skin)",
+          "If receptors are damaged, the organism will not be able to detect environmental changes",
+          "Example: damage to photoreceptors leads to inability to see"
+        ],
+        "formula": null,
+        "expected_answer": "Receptors are specialised nerve endings located in sense organs that detect changes in the environment. Gustatory receptors detect taste, olfactory receptors detect smell, photoreceptors detect light, etc. If receptors do not work properly, the person will not be able to sense the particular stimulus. For example, if photoreceptors in the eyes are damaged, the person cannot see. If gustatory receptors malfunction, the person cannot perceive taste.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "function_only": 1,
+          "one_example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_dia_006",
+      "use_for": "test",
+      "text": "Study the diagram of a neuron shown in the figure. Identify the parts labelled A, B, C and D. Also state the function of parts A and C.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "dendrite",
+          "cell body",
+          "axon",
+          "axon terminal",
+          "nerve ending"
+        ],
+        "key_points": [
+          "A = Dendrite: acquires information from environment",
+          "B = Cell body (cyton): contains nucleus, integrates signals",
+          "C = Axon: transmits electrical impulse away from cell body",
+          "D = Axon terminal / nerve ending: releases neurotransmitters"
+        ],
+        "formula": null,
+        "expected_answer": "A – Dendrite (receives information/stimuli), B – Cell body/Cyton, C – Axon (conducts electrical impulses away from cell body to axon terminal), D – Axon terminal/Nerve ending.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "identification_only": 2,
+          "functions": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap6_ns_dia_006.png"
+    },
+    {
+      "id": "chap6_ns_la_007",
+      "use_for": "test",
+      "text": "Draw the structure of a neuron and explain its function.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "dendrite",
+          "cell body",
+          "axon",
+          "synapse",
+          "impulse",
+          "neuron"
+        ],
+        "key_points": [
+          "Diagram showing dendrite, cell body, nucleus, axon, myelin sheath, axon terminal",
+          "Dendrite receives stimuli and converts to electrical impulse",
+          "Cell body contains nucleus and integrates information",
+          "Axon carries impulse away from cell body",
+          "Axon terminal releases neurotransmitters at synapse"
+        ],
+        "formula": null,
+        "expected_answer": "A neuron consists of: (1) Dendrite – branched projections that receive stimuli and generate electrical impulse, (2) Cell body (cyton) – contains nucleus and cytoplasm, integrates incoming signals, (3) Axon – long fibre that transmits impulse away from cell body, often covered by myelin sheath, (4) Axon terminal – releases neurotransmitters at synaptic junction. Function: Neurons receive information from receptors, convert it to electrical impulses, transmit along the axon, and pass to the next neuron or effector organ via chemical signals at the synapse.",
+        "diagram_required": true,
+        "diagram_checklist": [
+          "dendrite",
+          "cell body",
+          "nucleus",
+          "axon",
+          "myelin sheath",
+          "axon terminal"
+        ],
+        "partial_marks": {
+          "diagram_only": 2,
+          "explanation_only": 2,
+          "both_complete": 5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_mcq_008",
+      "use_for": "test",
+      "text": "Which type of receptor detects smell?",
+      "options": [
+        {
+          "text": "Gustatory receptor",
+          "is_correct": false
+        },
+        {
+          "text": "Olfactory receptor",
+          "is_correct": true
+        },
+        {
+          "text": "Photoreceptor",
+          "is_correct": false
+        },
+        {
+          "text": "Thermoreceptor",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "olfactory"
+        ],
+        "key_points": [
+          "Olfactory receptors detect smell"
+        ],
+        "formula": null,
+        "expected_answer": "Olfactory receptor",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ra_mcq_001",
+      "use_for": "test",
+      "text": "Reflex arcs are formed in which part of the nervous system?",
+      "options": [
+        {
+          "text": "Brain",
+          "is_correct": false
+        },
+        {
+          "text": "Spinal cord",
+          "is_correct": true
+        },
+        {
+          "text": "Cerebellum",
+          "is_correct": false
+        },
+        {
+          "text": "Medulla",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "spinal cord"
+        ],
+        "key_points": [
+          "Reflex arcs are formed in the spinal cord"
+        ],
+        "formula": null,
+        "expected_answer": "Spinal cord",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ra_sa_002",
+      "use_for": "test",
+      "text": "What is the difference between a reflex action and walking?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "reflex",
+          "involuntary",
+          "voluntary",
+          "spinal cord",
+          "brain"
+        ],
+        "key_points": [
+          "Reflex action is an involuntary, automatic, rapid response controlled by the spinal cord",
+          "Walking is a voluntary action controlled by the brain (cerebrum)"
+        ],
+        "formula": null,
+        "expected_answer": "A reflex action is a sudden, involuntary, and automatic response to a stimulus that is controlled by the spinal cord without involvement of the brain (e.g., pulling hand away from a hot object). Walking is a voluntary action that is consciously controlled by the brain (cerebrum). It requires thinking and coordination.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one_difference": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ra_sa_003",
+      "use_for": "test",
+      "text": "Trace the sequence of events that occur when you accidentally touch a hot object. Name the type of response involved.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "receptor",
+          "sensory neuron",
+          "spinal cord",
+          "motor neuron",
+          "effector",
+          "reflex"
+        ],
+        "key_points": [
+          "Receptor in skin detects heat stimulus",
+          "Sensory neuron carries impulse to spinal cord",
+          "Spinal cord processes and sends response via motor neuron",
+          "Effector (muscle) pulls hand away",
+          "This is a reflex action"
+        ],
+        "formula": null,
+        "expected_answer": "When we touch a hot object: (1) Heat receptors in skin detect the stimulus, (2) Sensory neurons carry the electrical impulse to the spinal cord, (3) The spinal cord processes the information and generates a response, (4) Motor neurons carry the impulse to the effector (muscle), (5) The muscle contracts and pulls the hand away. This is a reflex action — an involuntary, rapid response mediated through the reflex arc in the spinal cord.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "sequence_partial": 1,
+          "naming_reflex": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ra_ar_004",
+      "use_for": "test",
+      "text": "Assertion (A): Reflex actions are very quick responses.\nReason (R): In a reflex action, the signal passes through the spinal cord and does not go to the brain for processing.",
+      "options": [
+        {
+          "text": "Both A and R are true, and R is the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true, but R is not the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "reflex",
+          "spinal cord",
+          "quick"
+        ],
+        "key_points": [
+          "Reflex actions are quick because they are processed by spinal cord, bypassing the brain"
+        ],
+        "formula": null,
+        "expected_answer": "Both A and R are true, and R is the correct explanation of A. Reflex actions are quick because the nerve impulse is processed in the spinal cord itself without going to the brain, reducing the response time.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_mcq_001",
+      "use_for": "test",
+      "text": "Which part of the brain is responsible for maintaining posture and balance of the body?",
+      "options": [
+        {
+          "text": "Cerebrum",
+          "is_correct": false
+        },
+        {
+          "text": "Cerebellum",
+          "is_correct": true
+        },
+        {
+          "text": "Medulla",
+          "is_correct": false
+        },
+        {
+          "text": "Pons",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "cerebellum"
+        ],
+        "key_points": [
+          "Cerebellum maintains posture and balance"
+        ],
+        "formula": null,
+        "expected_answer": "Cerebellum",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_mcq_002",
+      "use_for": "test",
+      "text": "Involuntary actions like blood pressure, salivation and vomiting are controlled by which part of the brain?",
+      "options": [
+        {
+          "text": "Cerebrum",
+          "is_correct": false
+        },
+        {
+          "text": "Cerebellum",
+          "is_correct": false
+        },
+        {
+          "text": "Medulla in the hind-brain",
+          "is_correct": true
+        },
+        {
+          "text": "Hypothalamus",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "medulla",
+          "hind-brain"
+        ],
+        "key_points": [
+          "Medulla in hind-brain controls involuntary actions"
+        ],
+        "formula": null,
+        "expected_answer": "Medulla in the hind-brain",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_sa_003",
+      "use_for": "test",
+      "text": "Name the three major regions of the human brain. State one function of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "fore-brain",
+          "mid-brain",
+          "hind-brain"
+        ],
+        "key_points": [
+          "Fore-brain: main thinking part, receives and processes sensory impulses",
+          "Mid-brain: controls some involuntary actions",
+          "Hind-brain: includes cerebellum (balance) and medulla (involuntary actions like heartbeat)"
+        ],
+        "formula": null,
+        "expected_answer": "The three major regions are: (1) Fore-brain – the main thinking part, it has areas for hearing, smell, sight, and association areas for interpreting sensory information. (2) Mid-brain – controls certain involuntary actions. (3) Hind-brain – contains cerebellum (precision of voluntary actions, posture and balance) and medulla (controls involuntary actions like blood pressure, salivation, vomiting).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one_region_with_function": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_sa_004",
+      "use_for": "test",
+      "text": "How is the brain protected in our body?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "bony box",
+          "cranium",
+          "skull",
+          "cerebrospinal fluid",
+          "fluid-filled balloon"
+        ],
+        "key_points": [
+          "Brain is enclosed in a bony box (cranium/skull)",
+          "Inside the skull, brain is surrounded by cerebrospinal fluid which provides shock absorption"
+        ],
+        "formula": null,
+        "expected_answer": "The brain is protected by: (1) A bony box called the cranium (skull), and (2) A fluid-filled membrane (cerebrospinal fluid) inside the skull that acts as a shock absorber and protects the brain from mechanical injuries.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one_protection": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_sa_005",
+      "use_for": "test",
+      "text": "Which signals will get disrupted in case of a spinal cord injury?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "reflex",
+          "voluntary",
+          "peripheral",
+          "brain"
+        ],
+        "key_points": [
+          "Reflex actions will be disrupted as reflex arcs are in the spinal cord",
+          "Signals between the brain and body parts below the injury will be disrupted",
+          "Both sensory and motor signals passing through the spinal cord will be affected"
+        ],
+        "formula": null,
+        "expected_answer": "In case of a spinal cord injury: (1) Reflex actions will be disrupted since reflex arcs are formed in the spinal cord. (2) Signals travelling between the brain and the parts of the body below the point of injury will be disrupted, affecting both voluntary movements and sensory perception in those areas. The brain will not be able to send or receive signals through the injured part.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one_type": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_dia_006",
+      "use_for": "test",
+      "text": "Study the diagram of the human brain shown in the figure. Identify the parts labelled A, B, and C. Write one function of each part.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "cerebrum",
+          "cerebellum",
+          "medulla"
+        ],
+        "key_points": [
+          "A = Cerebrum: thinking, memory, sensory processing",
+          "B = Cerebellum: balance and posture",
+          "C = Medulla: involuntary actions (heartbeat, breathing)"
+        ],
+        "formula": null,
+        "expected_answer": "A – Cerebrum (fore-brain): main thinking part, processes sensory information and controls voluntary actions. B – Cerebellum (hind-brain): responsible for precision of voluntary actions and maintaining posture and balance. C – Medulla oblongata (hind-brain): controls involuntary actions like heartbeat, breathing, blood pressure, salivation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "identification_only": 1.5,
+          "functions": 1.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap6_hb_dia_006.png"
+    },
+    {
+      "id": "chap6_hb_la_007",
+      "use_for": "test",
+      "text": "How are involuntary actions and reflex actions different from each other? Give one example of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "involuntary",
+          "reflex",
+          "medulla",
+          "spinal cord"
+        ],
+        "key_points": [
+          "Involuntary actions are controlled by mid-brain and hind-brain (medulla)",
+          "Reflex actions are controlled by spinal cord",
+          "Involuntary actions are ongoing (e.g., heartbeat, breathing)",
+          "Reflex actions are sudden responses to stimuli (e.g., pulling hand from hot object)",
+          "Both do not involve conscious thinking"
+        ],
+        "formula": null,
+        "expected_answer": "Involuntary actions: (1) Controlled by medulla in the hind-brain, (2) Continuous and not in response to a specific stimulus, (3) Example: heartbeat, peristalsis. Reflex actions: (1) Controlled by spinal cord, (2) Sudden, quick response to a specific stimulus, (3) Example: pulling hand away from a hot object, knee-jerk reflex. Both are not under conscious control.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "differences_only": 2,
+          "examples": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following is a plant hormone?",
+      "options": [
+        {
+          "text": "Insulin",
+          "is_correct": false
+        },
+        {
+          "text": "Thyroxin",
+          "is_correct": false
+        },
+        {
+          "text": "Oestrogen",
+          "is_correct": false
+        },
+        {
+          "text": "Cytokinin",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "cytokinin"
+        ],
+        "key_points": [
+          "Cytokinin is a plant hormone that promotes cell division"
+        ],
+        "formula": null,
+        "expected_answer": "Cytokinin",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_mcq_002",
+      "use_for": "test",
+      "text": "The growth of a pollen tube towards the ovule is an example of:",
+      "options": [
+        {
+          "text": "Phototropism",
+          "is_correct": false
+        },
+        {
+          "text": "Geotropism",
+          "is_correct": false
+        },
+        {
+          "text": "Chemotropism",
+          "is_correct": true
+        },
+        {
+          "text": "Hydrotropism",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "chemotropism"
+        ],
+        "key_points": [
+          "Growth of pollen tube towards ovule is chemotropism — response to chemical stimulus"
+        ],
+        "formula": null,
+        "expected_answer": "Chemotropism",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_sa_003",
+      "use_for": "test",
+      "text": "What are plant hormones? Name four types of plant hormones and state one function of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "auxin",
+          "gibberellin",
+          "cytokinin",
+          "abscisic acid"
+        ],
+        "key_points": [
+          "Plant hormones are chemical compounds that coordinate growth, development and responses",
+          "Auxin: promotes cell elongation, phototropism",
+          "Gibberellin: promotes stem growth",
+          "Cytokinin: promotes cell division",
+          "Abscisic acid: inhibits growth, causes wilting"
+        ],
+        "formula": null,
+        "expected_answer": "Plant hormones are chemical substances produced in one part of the plant that help coordinate growth, development, and responses to the environment. Four types: (1) Auxin – promotes cell elongation, causes phototropism. (2) Gibberellin – promotes growth of stem. (3) Cytokinin – promotes cell division, present in fruits and seeds. (4) Abscisic acid – inhibits growth, causes wilting of leaves.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "two_hormones": 1,
+          "all_four": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_sa_004",
+      "use_for": "test",
+      "text": "How is the movement of leaves of the sensitive plant different from the movement of a shoot towards light?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sensitive plant",
+          "nastic",
+          "phototropism",
+          "growth",
+          "water"
+        ],
+        "key_points": [
+          "Sensitive plant: movement is independent of growth; caused by changes in water content of cells; rapid; nondirectional (touch response)",
+          "Shoot towards light: movement is due to growth; caused by auxin-driven cell elongation; slow; directional (phototropism)"
+        ],
+        "formula": null,
+        "expected_answer": "Movement in sensitive plant: (1) Not growth-dependent, (2) Caused by change in water content of cells (swelling/shrinking), (3) Rapid response to touch, (4) Nondirectional — nastic movement. Movement of shoot towards light: (1) Growth-dependent, (2) Caused by unequal distribution of auxin leading to differential cell elongation, (3) Slow response, (4) Directional — phototropism.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one_difference": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_sa_005",
+      "use_for": "test",
+      "text": "How does phototropism occur in plants?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "auxin",
+          "light",
+          "shady side",
+          "cell elongation",
+          "bend"
+        ],
+        "key_points": [
+          "When light comes from one side, auxin diffuses towards the shady side",
+          "Higher auxin concentration on shady side stimulates cells to grow longer",
+          "Unequal growth causes the shoot to bend towards the light source"
+        ],
+        "formula": null,
+        "expected_answer": "When light falls on one side of a plant, the hormone auxin (synthesised at the shoot tip) diffuses towards the shady side of the shoot. This higher concentration of auxin on the shady side stimulates the cells there to grow longer than those on the lit side. This unequal growth on the two sides causes the shoot to bend towards the light. This directional growth movement in response to light is called phototropism.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "auxin_role": 1,
+          "mechanism": 1,
+          "bending": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_sa_006",
+      "use_for": "test",
+      "text": "How do auxins promote the growth of a tendril around a support?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "auxin",
+          "tendril",
+          "contact",
+          "growth",
+          "differential"
+        ],
+        "key_points": [
+          "When tendril contacts support, auxin moves away from contact side",
+          "Side away from support grows faster than contact side",
+          "Differential growth causes tendril to coil around the support"
+        ],
+        "formula": null,
+        "expected_answer": "When a tendril comes in contact with a support, auxin diffuses to the side of the tendril away from the support. The cells on the side away from the support grow longer (due to higher auxin concentration) compared to the cells on the side in contact with the support. This differential growth causes the tendril to curve and coil around the support.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "auxin_movement": 1,
+          "coiling": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_la_007",
+      "use_for": "test",
+      "text": "How does chemical coordination occur in plants? Describe the role of any two plant hormones with examples.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "plant hormones",
+          "chemical coordination",
+          "auxin",
+          "gibberellin",
+          "cytokinin",
+          "abscisic acid"
+        ],
+        "key_points": [
+          "Plants use chemical compounds (hormones) for coordination since they lack nervous system",
+          "Hormones are synthesised at one site and act at another",
+          "Auxin: promotes cell elongation, causes phototropism",
+          "Gibberellin: promotes stem growth",
+          "Cytokinin: promotes cell division in fruits and seeds",
+          "Abscisic acid: inhibits growth, causes wilting"
+        ],
+        "formula": null,
+        "expected_answer": "Plants lack a nervous system, so they use chemical compounds called hormones for coordination. These hormones are synthesised at one place and diffuse to the area of action. (1) Auxin: Synthesised at shoot tip, promotes cell elongation. When light comes from one side, auxin moves to the shady side causing cells to elongate more, making the shoot bend towards light (phototropism). (2) Gibberellin: Helps in growth of the stem, similar to auxin. (3) Cytokinin: Promotes cell division, present in greater concentration in rapidly dividing areas like fruits and seeds. (4) Abscisic acid: Inhibits growth and causes wilting of leaves — acts as a growth inhibitor.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "general_mechanism": 2,
+          "each_hormone": 1.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_mcq_001",
+      "use_for": "test",
+      "text": "Which hormone regulates blood sugar level in the body?",
+      "options": [
+        {
+          "text": "Adrenaline",
+          "is_correct": false
+        },
+        {
+          "text": "Thyroxin",
+          "is_correct": false
+        },
+        {
+          "text": "Insulin",
+          "is_correct": true
+        },
+        {
+          "text": "Growth hormone",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "insulin"
+        ],
+        "key_points": [
+          "Insulin regulates blood sugar level"
+        ],
+        "formula": null,
+        "expected_answer": "Insulin",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_sa_002",
+      "use_for": "test",
+      "text": "Why is the use of iodised salt advisable?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "iodine",
+          "thyroid",
+          "thyroxin",
+          "goitre"
+        ],
+        "key_points": [
+          "Iodine is necessary for thyroid gland to make thyroxin",
+          "Thyroxin regulates carbohydrate, protein and fat metabolism for growth",
+          "Iodine deficiency can cause goitre (swollen neck)"
+        ],
+        "formula": null,
+        "expected_answer": "Iodised salt is advisable because iodine is essential for the thyroid gland to produce the hormone thyroxin. Thyroxin regulates carbohydrate, protein and fat metabolism in the body, providing the best balance for growth. If iodine is deficient in the diet, the person may suffer from goitre, a condition characterised by swelling of the neck (enlarged thyroid gland).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "iodine_thyroid_link": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_sa_003",
+      "use_for": "test",
+      "text": "How does our body respond when adrenaline is secreted into the blood?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "adrenaline",
+          "heart",
+          "breathing",
+          "blood",
+          "muscles"
+        ],
+        "key_points": [
+          "Heart beats faster, supplying more oxygen to muscles",
+          "Blood supply to digestive system and skin is reduced",
+          "Blood is diverted to skeletal muscles",
+          "Breathing rate increases due to contraction of diaphragm and rib muscles",
+          "Body prepares for fight or flight"
+        ],
+        "formula": null,
+        "expected_answer": "When adrenaline is secreted into the blood from adrenal glands: (1) Heart beats faster, resulting in supply of more oxygen to muscles. (2) Blood to the digestive system and skin is reduced due to contraction of muscles around small arteries. (3) Blood is diverted to skeletal muscles. (4) Breathing rate increases due to contractions of diaphragm and rib muscles. All these responses together prepare the body for a fight-or-flight response.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "two_responses": 1,
+          "three_responses": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_sa_004",
+      "use_for": "test",
+      "text": "Why are some patients of diabetes treated by giving injections of insulin?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "insulin",
+          "pancreas",
+          "blood sugar",
+          "diabetes"
+        ],
+        "key_points": [
+          "Insulin is produced by pancreas and regulates blood sugar levels",
+          "In diabetes, insulin is not secreted in proper amounts",
+          "Blood sugar rises causing harmful effects",
+          "Insulin injections help regulate blood sugar externally"
+        ],
+        "formula": null,
+        "expected_answer": "Insulin is a hormone produced by the pancreas that helps regulate blood sugar levels. In diabetic patients, the pancreas does not produce sufficient insulin, causing blood sugar levels to rise abnormally. This leads to many harmful effects. Therefore, these patients are given insulin injections externally to help regulate their blood sugar levels.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "insulin_function": 1,
+          "diabetes_link": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_dia_005",
+      "use_for": "test",
+      "text": "Study the diagram of endocrine glands in the human body shown in the figure. Identify the glands labelled A, B, and C. Name the hormone secreted by each and state its function.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "thyroid",
+          "adrenal",
+          "pancreas",
+          "thyroxin",
+          "adrenaline",
+          "insulin"
+        ],
+        "key_points": [
+          "A = Thyroid gland: secretes thyroxin, regulates metabolism",
+          "B = Adrenal gland: secretes adrenaline, prepares body for fight/flight",
+          "C = Pancreas: secretes insulin, regulates blood sugar"
+        ],
+        "formula": null,
+        "expected_answer": "A – Thyroid gland: secretes thyroxin which regulates carbohydrate, protein and fat metabolism for growth. B – Adrenal gland: secretes adrenaline which prepares the body for emergency (fight or flight) by increasing heart rate, breathing rate and blood supply to muscles. C – Pancreas: secretes insulin which regulates blood sugar levels.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each_gland_complete": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": "Questions/Images/chap6_ha_dia_005.png"
+    },
+    {
+      "id": "chap6_ha_la_006",
+      "use_for": "test",
+      "text": "Compare and contrast nervous and hormonal mechanisms for control and coordination in animals.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "nervous",
+          "hormonal",
+          "electrical",
+          "chemical",
+          "fast",
+          "slow"
+        ],
+        "key_points": [
+          "Nervous: uses electrical impulses; fast transmission; reaches only connected cells; short-lived effect",
+          "Hormonal: uses chemical signals (hormones via blood); slow transmission; reaches all cells; longer-lasting effect",
+          "Nervous: point-to-point; Hormonal: broad, widespread",
+          "Nervous: controlled by brain/spinal cord; Hormonal: endocrine glands",
+          "Both work together for complete coordination"
+        ],
+        "formula": null,
+        "expected_answer": "Nervous mechanism: (1) Uses electrical impulses for transmission, (2) Fast response, (3) Reaches only cells connected by nervous tissue, (4) Short-lived, precise effect, (5) Controlled by brain and spinal cord. Hormonal mechanism: (1) Uses chemical compounds (hormones) secreted into blood, (2) Slower response, (3) Can reach all cells via blood, (4) Longer-lasting, widespread effect, (5) Controlled by endocrine glands. Both mechanisms work together — e.g., in a fight-or-flight response, nervous system triggers adrenaline release (hormonal) for a coordinated body-wide response.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "nervous_only": 2,
+          "hormonal_only": 2,
+          "comparison": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_ar_007",
+      "use_for": "test",
+      "text": "Assertion (A): Iodine deficiency in the diet can cause goitre.\nReason (R): One of the symptoms of goitre is swelling of the neck.",
+      "options": [
+        {
+          "text": "Both A and R are true, and R is the correct explanation of A.",
+          "is_correct": false
+        },
+        {
+          "text": "Both A and R are true, but R is not the correct explanation of A.",
+          "is_correct": true
+        },
+        {
+          "text": "A is true but R is false.",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true.",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "iodine",
+          "goitre",
+          "thyroxin",
+          "neck"
+        ],
+        "key_points": [
+          "Both statements are true",
+          "But R does not explain A — swelling is a symptom, not the cause",
+          "The correct explanation would be: iodine is needed for thyroxin production by thyroid gland"
+        ],
+        "formula": null,
+        "expected_answer": "Both A and R are true, but R is not the correct explanation of A. Iodine deficiency causes goitre because iodine is essential for the thyroid gland to synthesise thyroxin. Swelling of the neck is indeed a symptom of goitre but it does not explain why iodine deficiency causes the disease.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_num_001",
+      "use_for": "test",
+      "text": "In an experiment, a student measures the reaction time for catching a dropped ruler. The ruler falls a distance of 'd' cm before being caught. Using the formula t = sqrt(2d/980), calculate the reaction time (in seconds) if the ruler falls 15 cm.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "reaction time",
+          "formula",
+          "sqrt"
+        ],
+        "key_points": [
+          "t = sqrt(2 * 15 / 980)",
+          "t = sqrt(30/980)",
+          "t = sqrt(0.03061)",
+          "t ≈ 0.175 seconds"
+        ],
+        "formula": "t = sqrt(2d/980)",
+        "expected_answer": "t = sqrt(2 * 15 / 980) = sqrt(0.03061) ≈ 0.175 seconds",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_substitution": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "d": {
+            "min": 10.0,
+            "max": 30.0,
+            "step": 1.0
+          }
+        },
+        "formula_expression": "(2 * d / 980) ** 0.5",
+        "units": "s",
+        "answer_precision": 3
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_num_002",
+      "use_for": "test",
+      "text": "A patient's fasting blood sugar level is measured as 180 mg/dL. If the normal fasting blood sugar range is 70-100 mg/dL, by what percentage does the patient's blood sugar exceed the upper limit of the normal range?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "percentage",
+          "blood sugar",
+          "normal range"
+        ],
+        "key_points": [
+          "Excess = 180 - 100 = 80 mg/dL",
+          "Percentage excess = (80/100) x 100 = 80%"
+        ],
+        "formula": "((measured - upper_limit) / upper_limit) * 100",
+        "expected_answer": "Excess = 180 - 100 = 80 mg/dL. Percentage excess = (80/100) × 100 = 80%",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "excess_calculation": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "measured": {
+            "min": 130.0,
+            "max": 250.0,
+            "step": 10.0
+          }
+        },
+        "formula_expression": "((measured - 100) / 100) * 100",
+        "units": "%",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_num_003",
+      "use_for": "test",
+      "text": "A nerve impulse travels at a speed of 120 m/s along a myelinated neuron. If the distance from the fingertip to the spinal cord is 0.9 m, calculate the time taken for the impulse to travel this distance.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "speed",
+          "distance",
+          "time"
+        ],
+        "key_points": [
+          "Time = Distance / Speed",
+          "t = 0.9 / 120 = 0.0075 s = 7.5 milliseconds"
+        ],
+        "formula": "t = d / v",
+        "expected_answer": "t = 0.9 / 120 = 0.0075 s = 7.5 ms",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "d": {
+            "min": 0.5,
+            "max": 1.5,
+            "step": 0.1
+          },
+          "v": {
+            "min": 100.0,
+            "max": 150.0,
+            "step": 10.0
+          }
+        },
+        "formula_expression": "d / v",
+        "units": "s",
+        "answer_precision": 4
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_umcq_001",
+      "use_for": "understanding",
+      "text": "Which part of the neuron acquires information from the environment?",
+      "options": [
+        {
+          "text": "Axon",
+          "is_correct": false
+        },
+        {
+          "text": "Cell body",
+          "is_correct": false
+        },
+        {
+          "text": "Dendrite",
+          "is_correct": true
+        },
+        {
+          "text": "Synapse",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "dendrite"
+        ],
+        "key_points": [
+          "Dendritic tip acquires information"
+        ],
+        "formula": null,
+        "expected_answer": "Dendrite",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_umcq_002",
+      "use_for": "understanding",
+      "text": "Gustatory receptors detect:",
+      "options": [
+        {
+          "text": "Smell",
+          "is_correct": false
+        },
+        {
+          "text": "Taste",
+          "is_correct": true
+        },
+        {
+          "text": "Light",
+          "is_correct": false
+        },
+        {
+          "text": "Sound",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "gustatory",
+          "taste"
+        ],
+        "key_points": [
+          "Gustatory receptors detect taste"
+        ],
+        "formula": null,
+        "expected_answer": "Taste",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_usa_003",
+      "use_for": "understanding",
+      "text": "What is the function of the axon in a neuron?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "axon",
+          "impulse",
+          "transmit"
+        ],
+        "key_points": [
+          "Axon transmits electrical impulse from cell body to axon terminal"
+        ],
+        "formula": null,
+        "expected_answer": "The axon carries/transmits the electrical impulse away from the cell body to the axon terminal, where it is passed to the next neuron or effector.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_usa_004",
+      "use_for": "understanding",
+      "text": "How do we detect the smell of an agarbatti (incense stick)?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "olfactory",
+          "nose",
+          "nerve impulse",
+          "fore-brain"
+        ],
+        "key_points": [
+          "Smell molecules reach olfactory receptors in nose",
+          "Electrical impulse is generated and sent to fore-brain for processing"
+        ],
+        "formula": null,
+        "expected_answer": "The smell of an agarbatti reaches the olfactory receptors in our nose. These receptors detect the chemical molecules and generate an electrical impulse. This impulse is transmitted via sensory neurons to the olfactory area in the fore-brain, where it is interpreted as smell.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "receptor": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_umcq_005",
+      "use_for": "understanding",
+      "text": "Nervous tissue is made up of an organised network of:",
+      "options": [
+        {
+          "text": "Muscle cells",
+          "is_correct": false
+        },
+        {
+          "text": "Neurons",
+          "is_correct": true
+        },
+        {
+          "text": "Epithelial cells",
+          "is_correct": false
+        },
+        {
+          "text": "Blood cells",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "neurons"
+        ],
+        "key_points": [
+          "Nervous tissue is made up of neurons"
+        ],
+        "formula": null,
+        "expected_answer": "Neurons",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_usa_006",
+      "use_for": "understanding",
+      "text": "Name the two components that make up the central nervous system.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "brain",
+          "spinal cord"
+        ],
+        "key_points": [
+          "Brain and spinal cord constitute the CNS"
+        ],
+        "formula": null,
+        "expected_answer": "The central nervous system (CNS) consists of the brain and the spinal cord.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ra_umcq_001",
+      "use_for": "understanding",
+      "text": "Which of the following is an example of a reflex action?",
+      "options": [
+        {
+          "text": "Writing an essay",
+          "is_correct": false
+        },
+        {
+          "text": "Pulling hand away from a flame",
+          "is_correct": true
+        },
+        {
+          "text": "Walking to school",
+          "is_correct": false
+        },
+        {
+          "text": "Solving a math problem",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "reflex",
+          "flame"
+        ],
+        "key_points": [
+          "Pulling hand from flame is involuntary reflex action"
+        ],
+        "formula": null,
+        "expected_answer": "Pulling hand away from a flame",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ra_usa_002",
+      "use_for": "understanding",
+      "text": "What is a reflex arc? Name its components in the correct order.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "reflex arc",
+          "receptor",
+          "sensory",
+          "spinal cord",
+          "motor",
+          "effector"
+        ],
+        "key_points": [
+          "Reflex arc is the pathway of nerve impulse during a reflex action",
+          "Receptor → Sensory neuron → Spinal cord → Motor neuron → Effector"
+        ],
+        "formula": null,
+        "expected_answer": "A reflex arc is the pathway taken by nerve impulses during a reflex action. Its components in order are: Receptor → Sensory (afferent) neuron → Spinal cord (relay neuron) → Motor (efferent) neuron → Effector (muscle/gland).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ra_umcq_003",
+      "use_for": "understanding",
+      "text": "Why are reflex actions important for our survival?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "quick",
+          "protect",
+          "danger",
+          "spinal cord"
+        ],
+        "key_points": [
+          "Reflex actions are faster than brain-processed responses",
+          "Protect us from harm in emergency situations",
+          "Evolved because thinking process of brain is not fast enough"
+        ],
+        "formula": null,
+        "expected_answer": "Reflex actions are important because they provide very quick, automatic responses to dangerous stimuli (like touching a hot object), protecting us from injury. Since they are processed in the spinal cord without going to the brain first, the response time is much shorter than a conscious thought-out response.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "speed_point": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_umcq_001",
+      "use_for": "understanding",
+      "text": "The brain is responsible for:",
+      "options": [
+        {
+          "text": "Thinking only",
+          "is_correct": false
+        },
+        {
+          "text": "Regulating the heartbeat only",
+          "is_correct": false
+        },
+        {
+          "text": "Balancing the body only",
+          "is_correct": false
+        },
+        {
+          "text": "All of the above",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "all"
+        ],
+        "key_points": [
+          "Brain controls thinking, heartbeat regulation, and balance"
+        ],
+        "formula": null,
+        "expected_answer": "All of the above",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_umcq_002",
+      "use_for": "understanding",
+      "text": "Which part of the brain is the main thinking part?",
+      "options": [
+        {
+          "text": "Fore-brain (Cerebrum)",
+          "is_correct": true
+        },
+        {
+          "text": "Mid-brain",
+          "is_correct": false
+        },
+        {
+          "text": "Cerebellum",
+          "is_correct": false
+        },
+        {
+          "text": "Medulla",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "fore-brain",
+          "cerebrum"
+        ],
+        "key_points": [
+          "Fore-brain is the main thinking part"
+        ],
+        "formula": null,
+        "expected_answer": "Fore-brain (Cerebrum)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_usa_003",
+      "use_for": "understanding",
+      "text": "What is the function of the cerebellum?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "cerebellum",
+          "posture",
+          "balance",
+          "voluntary"
+        ],
+        "key_points": [
+          "Cerebellum is responsible for precision of voluntary actions and maintaining posture and balance"
+        ],
+        "formula": null,
+        "expected_answer": "The cerebellum is responsible for the precision of voluntary actions and for maintaining the posture and balance of the body.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_usa_004",
+      "use_for": "understanding",
+      "text": "What is the function of the medulla oblongata?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "medulla",
+          "involuntary",
+          "heartbeat",
+          "breathing"
+        ],
+        "key_points": [
+          "Medulla controls involuntary actions like heartbeat, breathing, blood pressure, salivation, vomiting"
+        ],
+        "formula": null,
+        "expected_answer": "The medulla oblongata (in the hind-brain) controls involuntary actions such as heartbeat, breathing, blood pressure, salivation and vomiting.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_usa_005",
+      "use_for": "understanding",
+      "text": "What protects the spinal cord in our body?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "vertebral column",
+          "backbone"
+        ],
+        "key_points": [
+          "Spinal cord is protected by the vertebral column (backbone)"
+        ],
+        "formula": null,
+        "expected_answer": "The spinal cord is protected by the vertebral column (backbone).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_hb_umcq_006",
+      "use_for": "understanding",
+      "text": "Voluntary actions such as writing and talking are controlled by the:",
+      "options": [
+        {
+          "text": "Cerebrum",
+          "is_correct": true
+        },
+        {
+          "text": "Cerebellum",
+          "is_correct": false
+        },
+        {
+          "text": "Medulla",
+          "is_correct": false
+        },
+        {
+          "text": "Spinal cord",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "cerebrum",
+          "voluntary"
+        ],
+        "key_points": [
+          "Cerebrum controls voluntary actions"
+        ],
+        "formula": null,
+        "expected_answer": "Cerebrum",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_umcq_001",
+      "use_for": "understanding",
+      "text": "The bending of a plant shoot towards light is called:",
+      "options": [
+        {
+          "text": "Geotropism",
+          "is_correct": false
+        },
+        {
+          "text": "Phototropism",
+          "is_correct": true
+        },
+        {
+          "text": "Hydrotropism",
+          "is_correct": false
+        },
+        {
+          "text": "Thigmotropism",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "phototropism"
+        ],
+        "key_points": [
+          "Bending towards light is phototropism"
+        ],
+        "formula": null,
+        "expected_answer": "Phototropism",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_umcq_002",
+      "use_for": "understanding",
+      "text": "Which plant hormone inhibits growth and causes wilting of leaves?",
+      "options": [
+        {
+          "text": "Auxin",
+          "is_correct": false
+        },
+        {
+          "text": "Gibberellin",
+          "is_correct": false
+        },
+        {
+          "text": "Cytokinin",
+          "is_correct": false
+        },
+        {
+          "text": "Abscisic acid",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "abscisic acid"
+        ],
+        "key_points": [
+          "Abscisic acid inhibits growth and causes wilting"
+        ],
+        "formula": null,
+        "expected_answer": "Abscisic acid",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_usa_003",
+      "use_for": "understanding",
+      "text": "Give an example of a plant hormone that promotes growth.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "auxin",
+          "gibberellin"
+        ],
+        "key_points": [
+          "Auxin promotes cell elongation",
+          "Gibberellin promotes stem growth"
+        ],
+        "formula": null,
+        "expected_answer": "Auxin is a plant hormone that promotes growth by stimulating cells to grow longer. Gibberellin is another example that promotes stem growth.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_usa_004",
+      "use_for": "understanding",
+      "text": "How do plants respond to gravity? What is this type of movement called?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "geotropism",
+          "gravity",
+          "roots",
+          "shoots"
+        ],
+        "key_points": [
+          "Roots grow downward (positive geotropism)",
+          "Shoots grow upward (negative geotropism)",
+          "This response to gravity is called geotropism"
+        ],
+        "formula": null,
+        "expected_answer": "Roots of a plant always grow downwards (positive geotropism) and shoots grow upwards (negative geotropism) in response to the pull of gravity. This directional growth movement in response to gravity is called geotropism.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "roots_direction": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_umcq_005",
+      "use_for": "understanding",
+      "text": "In the sensitive plant (Mimosa), the movement of leaves on touching is caused by:",
+      "options": [
+        {
+          "text": "Growth of cells on one side",
+          "is_correct": false
+        },
+        {
+          "text": "Change in water content of cells",
+          "is_correct": true
+        },
+        {
+          "text": "Auxin redistribution",
+          "is_correct": false
+        },
+        {
+          "text": "Cell division",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "water content",
+          "swelling",
+          "shrinking"
+        ],
+        "key_points": [
+          "Sensitive plant cells change shape by changing water content"
+        ],
+        "formula": null,
+        "expected_answer": "Change in water content of cells",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_usa_006",
+      "use_for": "understanding",
+      "text": "What is the need for a system of control and coordination in an organism?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "environment",
+          "response",
+          "controlled",
+          "movement",
+          "survival"
+        ],
+        "key_points": [
+          "Organisms need to respond to environmental changes for survival",
+          "Movements must be controlled and appropriate to the stimulus",
+          "Different organs must work together in a coordinated manner"
+        ],
+        "formula": null,
+        "expected_answer": "Living organisms need a system of control and coordination to: (1) detect and respond to changes in the environment appropriately, (2) ensure that the response matches the stimulus (controlled movement), (3) coordinate the activities of different organs and organ systems so they function together efficiently for survival.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one_reason": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_umcq_001",
+      "use_for": "understanding",
+      "text": "Which gland secretes growth hormone?",
+      "options": [
+        {
+          "text": "Thyroid gland",
+          "is_correct": false
+        },
+        {
+          "text": "Pituitary gland",
+          "is_correct": true
+        },
+        {
+          "text": "Adrenal gland",
+          "is_correct": false
+        },
+        {
+          "text": "Pancreas",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "pituitary"
+        ],
+        "key_points": [
+          "Pituitary gland secretes growth hormone"
+        ],
+        "formula": null,
+        "expected_answer": "Pituitary gland",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_umcq_002",
+      "use_for": "understanding",
+      "text": "Deficiency of which hormone leads to dwarfism?",
+      "options": [
+        {
+          "text": "Thyroxin",
+          "is_correct": false
+        },
+        {
+          "text": "Insulin",
+          "is_correct": false
+        },
+        {
+          "text": "Growth hormone",
+          "is_correct": true
+        },
+        {
+          "text": "Adrenaline",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "growth hormone",
+          "dwarfism"
+        ],
+        "key_points": [
+          "Deficiency of growth hormone in childhood leads to dwarfism"
+        ],
+        "formula": null,
+        "expected_answer": "Growth hormone",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_usa_003",
+      "use_for": "understanding",
+      "text": "How does chemical coordination take place in animals?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "endocrine",
+          "hormones",
+          "blood",
+          "target organ"
+        ],
+        "key_points": [
+          "Endocrine glands secrete hormones directly into blood",
+          "Hormones are carried to specific target organs",
+          "They bring about the desired effect/response"
+        ],
+        "formula": null,
+        "expected_answer": "Chemical coordination in animals takes place through hormones. Endocrine glands secrete hormones directly into the blood. The blood carries these hormones to specific target organs/tissues where they produce the desired effect. For example, adrenaline from adrenal glands prepares the body for fight-or-flight by increasing heart rate and breathing.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "mechanism": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_usa_004",
+      "use_for": "understanding",
+      "text": "What is a feedback mechanism? Explain with the example of insulin.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "feedback",
+          "insulin",
+          "blood sugar",
+          "pancreas"
+        ],
+        "key_points": [
+          "Feedback mechanism regulates the timing and amount of hormone released",
+          "When blood sugar rises, pancreas produces more insulin",
+          "As blood sugar falls, insulin secretion is reduced"
+        ],
+        "formula": null,
+        "expected_answer": "A feedback mechanism regulates the timing and amount of hormone released. Example: When blood sugar levels rise (e.g., after eating), cells of the pancreas detect this and respond by producing more insulin, which lowers blood sugar. As the blood sugar level falls to normal, the insulin secretion is automatically reduced. This self-regulating cycle is a feedback mechanism.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_umcq_005",
+      "use_for": "understanding",
+      "text": "Which hormones are responsible for the changes associated with puberty in males and females respectively?",
+      "options": [
+        {
+          "text": "Thyroxin and Insulin",
+          "is_correct": false
+        },
+        {
+          "text": "Testosterone and Oestrogen",
+          "is_correct": true
+        },
+        {
+          "text": "Adrenaline and Growth hormone",
+          "is_correct": false
+        },
+        {
+          "text": "Insulin and Thyroxin",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "testosterone",
+          "oestrogen",
+          "puberty"
+        ],
+        "key_points": [
+          "Testosterone in males and oestrogen in females cause puberty changes"
+        ],
+        "formula": null,
+        "expected_answer": "Testosterone and Oestrogen",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ha_unum_006",
+      "use_for": "understanding",
+      "text": "A person's blood sugar level was measured at different times during the day: 95 mg/dL (fasting), 160 mg/dL (1 hour after meal), and 110 mg/dL (2 hours after meal). Calculate the drop in blood sugar between 1 hour and 2 hours after the meal, and express it as a percentage of the 1-hour reading.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "drop",
+          "percentage"
+        ],
+        "key_points": [
+          "Drop = 160 - 110 = 50 mg/dL",
+          "Percentage = (50/160) x 100 = 31.25%"
+        ],
+        "formula": "((reading_1hr - reading_2hr) / reading_1hr) * 100",
+        "expected_answer": "Drop = 160 - 110 = 50 mg/dL. Percentage drop = (50/160) x 100 = 31.25%",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "drop_calc": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "reading_1hr": {
+            "min": 140.0,
+            "max": 200.0,
+            "step": 10.0
+          },
+          "reading_2hr": {
+            "min": 100.0,
+            "max": 130.0,
+            "step": 5.0
+          }
+        },
+        "formula_expression": "((reading_1hr - reading_2hr) / reading_1hr) * 100",
+        "units": "%",
+        "answer_precision": 2
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_ns_unum_001",
+      "use_for": "understanding",
+      "text": "If a nerve impulse travels at 100 m/s and the distance from the toe to the brain (via spinal cord) is 1.6 m, how long does the impulse take to reach the brain?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "speed",
+          "distance",
+          "time"
+        ],
+        "key_points": [
+          "Time = Distance/Speed = 1.6/100 = 0.016 s = 16 ms"
+        ],
+        "formula": "t = d/v",
+        "expected_answer": "t = 1.6/100 = 0.016 s = 16 milliseconds",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "d": {
+            "min": 1.0,
+            "max": 2.0,
+            "step": 0.1
+          },
+          "v": {
+            "min": 80.0,
+            "max": 120.0,
+            "step": 10.0
+          }
+        },
+        "formula_expression": "d / v",
+        "units": "s",
+        "answer_precision": 4
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap6_cp_unum_001",
+      "use_for": "understanding",
+      "text": "In an experiment on phototropism, a plant shoot bends 30 degrees towards the light source over 48 hours. What is the average rate of bending in degrees per hour?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "rate",
+          "degrees",
+          "hours"
+        ],
+        "key_points": [
+          "Rate = 30/48 = 0.625 degrees per hour"
+        ],
+        "formula": "rate = angle / time",
+        "expected_answer": "Rate = 30/48 = 0.625 degrees per hour",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "angle": {
+            "min": 15.0,
+            "max": 45.0,
+            "step": 5.0
+          },
+          "time": {
+            "min": 24.0,
+            "max": 72.0,
+            "step": 12.0
+          }
+        },
+        "formula_expression": "angle / time",
+        "units": "degrees/hour",
+        "answer_precision": 3
+      },
+      "diagram_path": null
+    }
+  ]
+}

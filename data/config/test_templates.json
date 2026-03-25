@@ -1,0 +1,66 @@
+{
+  "templates": {
+    "understanding": {
+      "id": "understanding",
+      "label": "Understanding Session",
+      "total_marks": null,
+      "duration_minutes": 25,
+      "chapter_scope": "single",
+      "question_count": { "min": 10, "max": 12 },
+      "difficulty_mix": { "L1": 0.25, "L2": 0.30, "L3": 0.30, "L4": 0.10, "L5": 0.05 },
+      "slots": [
+        { "type": "mcq",       "marks": 1, "count_min": 3, "count_max": 4 },
+        { "type": "short",     "marks": 2, "count_min": 4, "count_max": 5 },
+        { "type": "numerical", "marks": 3, "count_min": 1, "count_max": 2 },
+        { "type": "long",      "marks": 5, "count_min": 0, "count_max": 1 }
+      ]
+    },
+    "chapter_short": {
+      "id": "chapter_short",
+      "label": "Short Chapter Test",
+      "total_marks": 14,
+      "duration_minutes": 20,
+      "chapter_scope": "single",
+      "difficulty_mix": { "L1": 0.20, "L2": 0.30, "L3": 0.30, "L4": 0.15, "L5": 0.05 },
+      "slots": [
+        { "slot": 1, "type": "mcq",       "marks": 1, "count": 2, "total": 2 },
+        { "slot": 2, "type": "short",     "marks": 2, "count": 2, "total": 4 },
+        { "slot": 3, "type": "numerical", "marks": 3, "count": 1, "total": 3 },
+        { "slot": 4, "type": "long",      "marks": 5, "count": 1, "total": 5 }
+      ]
+    },
+    "chapter_regular": {
+      "id": "chapter_regular",
+      "label": "Regular Chapter Test",
+      "total_marks": 40,
+      "duration_minutes": 45,
+      "chapter_scope": "single",
+      "difficulty_mix": { "L1": 0.15, "L2": 0.25, "L3": 0.35, "L4": 0.20, "L5": 0.05 },
+      "slots": [
+        { "slot": 1, "type": "mcq",       "marks": 1, "count": 5, "total": 5  },
+        { "slot": 2, "type": "short",     "marks": 2, "count": 1, "total": 2  },
+        { "slot": 3, "type": "numerical", "marks": 3, "count": 3, "total": 9  },
+        { "slot": 4, "type": "short",     "marks": 3, "count": 3, "total": 9  },
+        { "slot": 5, "type": "long",      "marks": 5, "count": 3, "total": 15 }
+      ]
+    },
+    "mock": {
+      "id": "mock",
+      "label": "Full Mock Test",
+      "total_marks": 80,
+      "duration_minutes": 180,
+      "chapter_scope": "all",
+      "difficulty_mix": { "L1": 0.20, "L2": 0.30, "L3": 0.30, "L4": 0.15, "L5": 0.05 },
+      "sections": [
+        { "section": "A", "slots": [
+            { "type": "mcq",              "marks": 1, "count": 16, "total": 16 },
+            { "type": "assertion_reason", "marks": 1, "count": 4,  "total": 4  }
+        ]},
+        { "section": "B", "slots": [{ "type": "short", "marks": 2, "count": 6, "total": 12 }]},
+        { "section": "C", "slots": [{ "type": "short", "marks": 3, "count": 7, "total": 21 }]},
+        { "section": "D", "slots": [{ "type": "long",  "marks": 5, "count": 3, "total": 15 }]},
+        { "section": "E", "slots": [{ "type": "case_based", "marks": 4, "count": 3, "total": 12 }]}
+      ]
+    }
+  }
+}

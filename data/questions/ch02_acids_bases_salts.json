@@ -1,0 +1,2341 @@
+{
+  "chapter_id": "ch02_acids_bases_salts",
+  "chapter_title": "Acids, Bases and Salts",
+  "questions": [
+    {
+      "id": "chap2_ind_mcq_001",
+      "use_for": "test",
+      "text": "Which of the following correctly describes the colour change of litmus when an acid is added to it?",
+      "options": [
+        {
+          "text": "Blue litmus turns green",
+          "is_correct": false
+        },
+        {
+          "text": "Blue litmus turns red",
+          "is_correct": true
+        },
+        {
+          "text": "Red litmus turns blue",
+          "is_correct": false
+        },
+        {
+          "text": "Red litmus turns green",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "litmus",
+          "acid",
+          "blue",
+          "red"
+        ],
+        "key_points": [
+          "Acids turn blue litmus red; bases turn red litmus blue"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ind_short_001",
+      "use_for": "test",
+      "text": "Name two natural substances that can be used as acid-base indicators. State the colour change each shows in acidic and basic solutions.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "turmeric",
+          "litmus",
+          "red cabbage",
+          "hibiscus",
+          "indicator"
+        ],
+        "key_points": [
+          "Any two: turmeric (yellow in acid, red in base); red cabbage (red in acid, green/yellow in base); litmus (red in acid, blue in base)",
+          "Both colour changes stated"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "one correct natural indicator with one colour": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_mcq_001",
+      "use_for": "test",
+      "text": "What happens when zinc reacts with dilute sulphuric acid?",
+      "options": [
+        {
+          "text": "ZnSO4 and O2 are produced",
+          "is_correct": false
+        },
+        {
+          "text": "ZnO and H2S are produced",
+          "is_correct": false
+        },
+        {
+          "text": "ZnSO4 and H2 gas are produced",
+          "is_correct": true
+        },
+        {
+          "text": "Zn(OH)2 and SO2 are produced",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ZnSO4",
+          "H2",
+          "hydrogen"
+        ],
+        "key_points": [
+          "Metals + dilute acid → salt + hydrogen gas"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_mcq_002",
+      "use_for": "test",
+      "text": "Sodium hydroxide solution is added to ammonium sulphate solution and the mixture is heated. The gas evolved turns moist red litmus paper blue. The gas is:",
+      "options": [
+        {
+          "text": "Ammonia (NH3)",
+          "is_correct": true
+        },
+        {
+          "text": "Sulphur dioxide (SO2)",
+          "is_correct": false
+        },
+        {
+          "text": "Nitrogen dioxide (NO2)",
+          "is_correct": false
+        },
+        {
+          "text": "Hydrogen (H2)",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ammonia",
+          "NH3",
+          "blue litmus",
+          "base"
+        ],
+        "key_points": [
+          "Base reacts with ammonium salt to release NH3; NH3 is basic"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_mcq_003",
+      "use_for": "test",
+      "text": "Which of the following is NOT a characteristic property of acids?",
+      "options": [
+        {
+          "text": "They produce H+ ions in aqueous solution",
+          "is_correct": false
+        },
+        {
+          "text": "They react with metals to liberate hydrogen",
+          "is_correct": false
+        },
+        {
+          "text": "They turn blue litmus red",
+          "is_correct": false
+        },
+        {
+          "text": "They feel soapy and slippery to touch",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "soapy",
+          "slippery",
+          "base",
+          "alkali"
+        ],
+        "key_points": [
+          "Soapy/slippery feel is a property of bases, not acids"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_short_001",
+      "use_for": "test",
+      "text": "Write the balanced chemical equation for the reaction between hydrochloric acid and sodium hydroxide solution. Name the type of this reaction.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "neutralisation",
+          "NaCl",
+          "water",
+          "HCl",
+          "NaOH"
+        ],
+        "key_points": [
+          "HCl + NaOH → NaCl + H2O",
+          "Neutralisation reaction"
+        ],
+        "formula": null,
+        "expected_answer": "HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l); Neutralisation reaction",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equation only": 1,
+          "type only": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_short_002",
+      "use_for": "test",
+      "text": "A student adds dilute hydrochloric acid to sodium carbonate. (a) Write the balanced equation for the reaction. (b) What is the observation?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Na2CO3",
+          "NaCl",
+          "CO2",
+          "carbon dioxide",
+          "brisk effervescence"
+        ],
+        "key_points": [
+          "Na2CO3 + 2HCl → 2NaCl + H2O + CO2",
+          "Brisk effervescence of CO2 gas; gas turns lime water milky"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equation": 1,
+          "observation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_short_003",
+      "use_for": "test",
+      "text": "Explain why dry HCl gas does not turn blue litmus red, but HCl dissolved in water does. What does this tell us about the nature of HCl?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ions",
+          "H+",
+          "water",
+          "ionisation",
+          "dissociation",
+          "proton"
+        ],
+        "key_points": [
+          "Dry HCl has no water → cannot ionise → no H+ ions → no acidic properties",
+          "HCl in water: HCl → H+ + Cl- ; H+ (or H3O+) responsible for acidity",
+          "Shows water is required for ionisation; HCl itself is a covalent compound"
+        ],
+        "formula": null,
+        "expected_answer": "Dry HCl is a covalent compound and does not dissociate without water. When dissolved in water it produces H+ (H3O+) ions which cause acidic properties like turning litmus red.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "identifies need for water": 1,
+          "mentions ionisation/ions": 1,
+          "complete explanation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_num_001",
+      "use_for": "test",
+      "text": "10 mL of NaOH solution is exactly neutralised by 8 mL of a given HCl solution. How many mL of the same HCl solution will be required to neutralise 20 mL of the same NaOH solution?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "16 mL",
+          "proportion",
+          "neutralisation"
+        ],
+        "key_points": [
+          "Use proportion: V_HCl / V_NaOH = constant",
+          "8/10 = x/20 → x = 16 mL"
+        ],
+        "formula": "V_HCl2 = (V_HCl1 / V_NaOH1) × V_NaOH2",
+        "expected_answer": "16 mL",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "v_hcl_1": {
+            "value": 8,
+            "unit": "mL",
+            "locked": true
+          },
+          "v_naoh_1": {
+            "value": 10,
+            "unit": "mL",
+            "locked": true
+          },
+          "v_naoh_2": {
+            "value": 20,
+            "unit": "mL",
+            "locked": true
+          }
+        },
+        "formula_expression": "(v_hcl_1 / v_naoh_1) * v_naoh_2",
+        "units": "mL",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_long_001",
+      "use_for": "test",
+      "text": "What are the chemical properties of acids? Describe with balanced equations: (a) reaction with a metal, (b) reaction with a metal oxide, (c) reaction with a metal carbonate. Give one example each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "metal",
+          "hydrogen",
+          "salt",
+          "water",
+          "metal oxide",
+          "carbonate",
+          "CO2"
+        ],
+        "key_points": [
+          "(a) Metal + acid → salt + H2 e.g. Zn + H2SO4 → ZnSO4 + H2",
+          "(b) Metal oxide + acid → salt + water e.g. CuO + H2SO4 → CuSO4 + H2O (base-acid = neutralisation)",
+          "(c) Metal carbonate + acid → salt + water + CO2 e.g. Na2CO3 + 2HCl → 2NaCl + H2O + CO2",
+          "All three equations balanced; one example each"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct equation with example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): When excess CO2 is passed into lime water, the milky white precipitate dissolves and the solution becomes clear.\nReason (R): Calcium carbonate formed in the first step reacts with excess CO2 and water to form soluble calcium bicarbonate.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is NOT the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CaCO3",
+          "Ca(HCO3)2",
+          "soluble",
+          "calcium bicarbonate"
+        ],
+        "key_points": [
+          "CaCO3 + CO2 + H2O → Ca(HCO3)2 (soluble); both A and R correct"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_cprop_diag_001",
+      "use_for": "test",
+      "text": "Draw a labelled diagram to show the laboratory test for hydrogen gas produced when a metal reacts with a dilute acid. Label: flask, acid + metal, delivery tube, gas collected, burning splint test.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "flask",
+          "delivery tube",
+          "hydrogen",
+          "pop sound",
+          "splint"
+        ],
+        "key_points": [
+          "Flask labelled with metal + acid",
+          "Delivery tube shown",
+          "Collection vessel / gas jar labelled",
+          "Test: burning splint shows pop sound"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Flask with reactants",
+          "Delivery tube",
+          "Collection of H2",
+          "Pop-sound test"
+        ],
+        "partial_marks": {
+          "each correct label": 0.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ions_mcq_001",
+      "use_for": "test",
+      "text": "When hydrogen chloride gas is dissolved in water, what ions are produced?",
+      "options": [
+        {
+          "text": "H+ (H3O+) and Cl-",
+          "is_correct": true
+        },
+        {
+          "text": "H+ and OH-",
+          "is_correct": false
+        },
+        {
+          "text": "Na+ and Cl-",
+          "is_correct": false
+        },
+        {
+          "text": "H2 and Cl2",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "H+",
+          "Cl-",
+          "H3O+",
+          "ionisation"
+        ],
+        "key_points": [
+          "HCl → H+ + Cl-  (or HCl + H2O → H3O+ + Cl-)"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ions_short_001",
+      "use_for": "test",
+      "text": "What are Arrhenius definitions of acids and bases? Give one example of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "H+",
+          "OH-",
+          "ion",
+          "water",
+          "Arrhenius"
+        ],
+        "key_points": [
+          "Acid: substance that produces H+ ions in water (e.g. HCl, H2SO4)",
+          "Base: substance that produces OH- ions in water (e.g. NaOH, KOH)"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "acid definition+example": 1,
+          "base definition+example": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ions_short_002",
+      "use_for": "test",
+      "text": "Distinguish between a strong acid and a weak acid. Give one example of each. How do their degrees of ionisation differ?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "complete ionisation",
+          "partial ionisation",
+          "strong",
+          "weak",
+          "HCl",
+          "acetic acid"
+        ],
+        "key_points": [
+          "Strong acid: completely ionises in water (e.g. HCl, H2SO4)",
+          "Weak acid: partially ionises in water (e.g. acetic acid, carbonic acid)",
+          "Strong acid: degree of ionisation ≈ 1 (100%); weak acid << 1"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "strong acid": 1,
+          "weak acid": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ions_short_003",
+      "use_for": "test",
+      "text": "Why do solutions of acids and bases conduct electricity? What type of particles are responsible?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ions",
+          "H+",
+          "OH-",
+          "electrolyte",
+          "electricity",
+          "conduction"
+        ],
+        "key_points": [
+          "Acids and bases ionise in water to produce ions",
+          "Ions (H+, OH-, anions, cations) are mobile charged particles",
+          "Mobile ions carry electric charge through the solution"
+        ],
+        "formula": null,
+        "expected_answer": "Acids and bases are electrolytes. In water they dissociate into ions (e.g. H+ and Cl-). These mobile ions carry electric charge and thus the solution conducts electricity.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "ions present": 1,
+          "ions are mobile/charged": 1,
+          "complete explanation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ions_num_001",
+      "use_for": "test",
+      "text": "A sample of 12 mL of HCl solution exactly neutralises 15 mL of NaOH solution. What volume of the same HCl solution will be needed to neutralise 25 mL of the same NaOH solution? (Show your working.)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "20 mL",
+          "proportion",
+          "neutralisation"
+        ],
+        "key_points": [
+          "V_HCl / V_NaOH = 12/15 = 4/5",
+          "V_HCl2 = (12/15) × 25 = 20 mL"
+        ],
+        "formula": "V_HCl2 = (V_HCl1 / V_NaOH1) × V_NaOH2",
+        "expected_answer": "20 mL",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "v_hcl_1": {
+            "min": 8.0,
+            "max": 15.0,
+            "step": 1.0
+          },
+          "v_naoh_1": {
+            "min": 12.0,
+            "max": 20.0,
+            "step": 1.0
+          },
+          "v_naoh_2": {
+            "min": 20.0,
+            "max": 30.0,
+            "step": 5.0
+          }
+        },
+        "formula_expression": "(v_hcl_1 / v_naoh_1) * v_naoh_2",
+        "units": "mL",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ions_ar_001",
+      "use_for": "test",
+      "text": "Assertion (A): All acidic solutions conduct electricity.\nReason (R): All acids produce H+ ions in water and these ions carry electric current.",
+      "options": [
+        {
+          "text": "Both A and R are true and R is the correct explanation of A",
+          "is_correct": true
+        },
+        {
+          "text": "Both A and R are true but R is NOT the correct explanation of A",
+          "is_correct": false
+        },
+        {
+          "text": "A is true but R is false",
+          "is_correct": false
+        },
+        {
+          "text": "A is false but R is true",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ions",
+          "H+",
+          "conduction",
+          "electrolyte"
+        ],
+        "key_points": [
+          "Acids ionise to give H+ (and anion); ions conduct electricity; both A and R correct"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ph_mcq_001",
+      "use_for": "test",
+      "text": "The pH of a solution is 3. The solution is:",
+      "options": [
+        {
+          "text": "Strongly acidic",
+          "is_correct": true
+        },
+        {
+          "text": "Weakly acidic",
+          "is_correct": false
+        },
+        {
+          "text": "Neutral",
+          "is_correct": false
+        },
+        {
+          "text": "Basic",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "pH 3",
+          "acidic",
+          "below 7"
+        ],
+        "key_points": [
+          "pH < 7 → acidic; pH 3 is strongly acidic"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ph_mcq_002",
+      "use_for": "test",
+      "text": "A solution has a pH of 11. What will happen if you add a small amount of acid to it?",
+      "options": [
+        {
+          "text": "pH increases above 11",
+          "is_correct": false
+        },
+        {
+          "text": "pH decreases towards 7",
+          "is_correct": true
+        },
+        {
+          "text": "pH remains 11",
+          "is_correct": false
+        },
+        {
+          "text": "The solution becomes neutral immediately",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "decreases",
+          "towards 7",
+          "H+",
+          "neutralise"
+        ],
+        "key_points": [
+          "Adding acid increases H+; OH- concentration decreases; pH moves towards neutral"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ph_short_001",
+      "use_for": "test",
+      "text": "What is the pH scale? State the pH of (a) a neutral solution, (b) a strong acid, (c) a strong base.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "pH",
+          "0",
+          "14",
+          "neutral",
+          "7",
+          "acidic",
+          "basic"
+        ],
+        "key_points": [
+          "pH scale: 0–14; measures H+ concentration in a solution",
+          "(a) Neutral: pH 7  (b) Strong acid: pH < 7 (e.g. 1–2)  (c) Strong base: pH > 7 (e.g. 13–14)"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "three values": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ph_short_002",
+      "use_for": "test",
+      "text": "How does the pH of the soil affect plant growth? What is the ideal pH range for most crops?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "pH 6-7",
+          "neutral",
+          "slightly acidic",
+          "nutrients",
+          "crop growth"
+        ],
+        "key_points": [
+          "Most plants grow best in slightly acidic to neutral soil (pH 6–7)",
+          "Very acidic or very basic soil affects nutrient availability and root function",
+          "Farmers add lime (CaO) to correct acidic soil"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "ideal pH range": 1,
+          "effect on growth/nutrients": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ph_short_003",
+      "use_for": "test",
+      "text": "Why does the mouth become acidic after eating sugar-rich foods? How does toothpaste help? Relate your answer to pH.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "bacteria",
+          "acid",
+          "tooth decay",
+          "pH",
+          "below 5.5",
+          "toothpaste",
+          "basic",
+          "neutralise"
+        ],
+        "key_points": [
+          "Bacteria in mouth break down sugar to produce acids",
+          "pH in mouth drops below 5.5 → enamel corrodes (tooth decay)",
+          "Toothpaste is basic (alkaline); neutralises the acid; raises pH above 5.5"
+        ],
+        "formula": null,
+        "expected_answer": "Bacteria in the mouth degrade sugars to produce acids. This lowers the pH of the mouth below 5.5, causing dissolution of enamel (tooth decay). Toothpastes are basic in nature; they neutralise the acid and raise the pH, preventing tooth decay.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "acid production": 1,
+          "pH < 5.5 / enamel": 1,
+          "toothpaste basic/neutralise": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ph_long_001",
+      "use_for": "test",
+      "text": "Describe the importance of pH in everyday life with reference to: (a) digestion in the human body, (b) self-defence in animals and plants, (c) acid rain and its effects.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "pH",
+          "stomach",
+          "HCl",
+          "enzyme",
+          "sting",
+          "acid rain",
+          "SO2",
+          "NO2",
+          "marble"
+        ],
+        "key_points": [
+          "(a) Stomach secretes HCl (pH 1.5–2); enzymes work in this acidic medium for protein digestion; antacids neutralise excess acid",
+          "(b) Bee sting: formic/methanoic acid (acidic); wasp sting: alkaline; plants like nettle have formic acid",
+          "(c) Acid rain: SO2 + NO2 dissolve in rainwater → H2SO4/HNO3; pH < 5.6; corrodes buildings (marble/limestone), harms aquatic life, damages crops"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each point (a)(b)(c)": 1,
+          "all three complete": 2
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_ph_diag_001",
+      "use_for": "test",
+      "text": "Draw a pH scale from 0 to 14. Mark on it: (a) pH of gastric juice, (b) pH of blood, (c) pH of lemon juice, (d) pH of a neutral solution, (e) pH of household bleach (NaOCl).",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "0",
+          "14",
+          "7",
+          "gastric",
+          "blood",
+          "lemon",
+          "bleach"
+        ],
+        "key_points": [
+          "Scale drawn 0–14",
+          "Acidic region 0–7 labelled",
+          "Basic region 7–14 labelled",
+          "Five substances placed approximately correctly"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Scale 0-14",
+          "Neutral line at 7",
+          "Gastric juice <3",
+          "Blood ~7.4",
+          "Bleach >9"
+        ],
+        "partial_marks": {
+          "scale drawn": 1,
+          "each correct placement": 0.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_salt_mcq_001",
+      "use_for": "test",
+      "text": "What type of salt is formed when a strong acid reacts with a weak base?",
+      "options": [
+        {
+          "text": "Acidic salt (pH < 7)",
+          "is_correct": true
+        },
+        {
+          "text": "Basic salt (pH > 7)",
+          "is_correct": false
+        },
+        {
+          "text": "Neutral salt (pH = 7)",
+          "is_correct": false
+        },
+        {
+          "text": "Complex salt",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "acidic",
+          "strong acid",
+          "weak base",
+          "hydrolysis"
+        ],
+        "key_points": [
+          "Strong acid + weak base → acidic salt; e.g. NH4Cl"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_salt_short_001",
+      "use_for": "test",
+      "text": "What is a salt? Give the formula of the salt formed between (a) H2SO4 and KOH, (b) HNO3 and Ca(OH)2.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "salt",
+          "acid",
+          "base",
+          "K2SO4",
+          "Ca(NO3)2"
+        ],
+        "key_points": [
+          "Salt: ionic compound formed by neutralisation of acid by base",
+          "(a) H2SO4 + 2KOH → K2SO4 + 2H2O → K2SO4",
+          "(b) 2HNO3 + Ca(OH)2 → Ca(NO3)2 + 2H2O → Ca(NO3)2"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "each formula": 0.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_salt_short_002",
+      "use_for": "test",
+      "text": "What is the water of crystallisation? Name the compound that contains 10 water molecules of crystallisation. Write its formula and state one use.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "water of crystallisation",
+          "Na2CO3.10H2O",
+          "washing soda",
+          "10",
+          "hydrated"
+        ],
+        "key_points": [
+          "Water of crystallisation: fixed number of water molecules chemically bonded in a crystalline salt",
+          "Washing soda: Na2CO3.10H2O; used as cleansing agent / water softener"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "definition": 1,
+          "compound with formula + use": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_salt_short_003",
+      "use_for": "test",
+      "text": "Explain why aqueous solution of common salt (NaCl) is neutral, whereas aqueous solution of sodium carbonate (Na2CO3) is basic.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "NaCl",
+          "strong acid",
+          "strong base",
+          "Na2CO3",
+          "weak acid",
+          "hydrolysis",
+          "OH-"
+        ],
+        "key_points": [
+          "NaCl: strong acid (HCl) + strong base (NaOH); ions do not hydrolyse water → neutral",
+          "Na2CO3: strong base (NaOH) + weak acid (H2CO3); CO3(2-) hydrolyses water to give OH- → basic"
+        ],
+        "formula": null,
+        "expected_answer": "NaCl is formed from a strong acid (HCl) and a strong base (NaOH). Both ions are spectators and do not react with water, so the solution is neutral (pH 7). Na2CO3 is formed from NaOH (strong base) and H2CO3 (weak acid). The carbonate ion (CO3^2-) hydrolyses water to produce OH- ions, making the solution basic (pH > 7).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "NaCl explanation": 1,
+          "Na2CO3 explanation": 1,
+          "hydrolysis/OH-": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_salt_long_001",
+      "use_for": "test",
+      "text": "What is the importance of pH in everyday life with special reference to salts? Explain: (a) how washing soda (Na2CO3) is prepared from baking soda, (b) the use of baking powder in cooking.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "NaHCO3",
+          "Na2CO3",
+          "heating",
+          "baking powder",
+          "tartaric acid",
+          "CO2",
+          "leavening"
+        ],
+        "key_points": [
+          "(a) NaHCO3 heated → Na2CO3 + H2O + CO2; Na2CO3 rehydrated → washing soda",
+          "(b) Baking powder = NaHCO3 + edible acid (e.g. tartaric acid); on heating/moisture, CO2 released → dough rises; tartaric acid neutralises Na2CO3 taste"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "(a) equation and explanation": 2,
+          "(b) composition and mechanism": 2,
+          "clarity": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_chem_mcq_001",
+      "use_for": "test",
+      "text": "The process of electrolysis of brine produces which three important chemicals?",
+      "options": [
+        {
+          "text": "NaOH, H2SO4, O2",
+          "is_correct": false
+        },
+        {
+          "text": "Na, Cl2, H2O",
+          "is_correct": false
+        },
+        {
+          "text": "NaOH, Cl2, H2",
+          "is_correct": true
+        },
+        {
+          "text": "HCl, NaOH, NaCl",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "NaOH",
+          "Cl2",
+          "H2",
+          "electrolysis",
+          "brine",
+          "chlor-alkali"
+        ],
+        "key_points": [
+          "Chlor-alkali process: NaCl solution electrolysis → NaOH + Cl2 + H2"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_chem_short_001",
+      "use_for": "test",
+      "text": "State any two uses each of: (a) chlorine gas, (b) hydrogen gas, obtained from the chlor-alkali process.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "PVC",
+          "CFC",
+          "disinfectant",
+          "bleaching powder",
+          "HCl",
+          "margarine",
+          "hydrogen",
+          "chlorine"
+        ],
+        "key_points": [
+          "Cl2: (1) manufacture of PVC/pesticides (2) disinfection of water / bleaching agents",
+          "H2: (1) manufacture of NH3 (Haber process) (2) hydrogenation of oils → margarine / HCl production"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "two Cl2 uses": 1,
+          "two H2 uses": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_chem_short_002",
+      "use_for": "test",
+      "text": "Write the formula of bleaching powder and give two uses of bleaching powder.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Ca(OCl)Cl",
+          "CaOCl2",
+          "bleaching",
+          "disinfectant",
+          "cotton",
+          "linen"
+        ],
+        "key_points": [
+          "Formula: Ca(OCl)Cl (calcium oxychloride)",
+          "Uses: (1) bleaching cotton/linen/washed clothes (2) disinfecting drinking water"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula": 1,
+          "two uses": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_chem_long_001",
+      "use_for": "test",
+      "text": "Describe the chlor-alkali process. Draw a labelled diagram of the electrolytic cell. Write the electrode reactions and state the products obtained, and their uses.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "brine",
+          "NaCl",
+          "electrolysis",
+          "cathode",
+          "H2",
+          "anode",
+          "Cl2",
+          "NaOH",
+          "chlor-alkali"
+        ],
+        "key_points": [
+          "Brine (NaCl solution) is electrolysed",
+          "Cathode: 2H+ + 2e- → H2 (reduction); H2 collected at cathode",
+          "Anode: 2Cl- → Cl2 + 2e- (oxidation); Cl2 collected at anode",
+          "NaOH formed in solution around cathode",
+          "Diagram with cell, electrodes, products labelled",
+          "Uses: H2 (fuel, margarine), Cl2 (bleach, PVC), NaOH (soap, detergent)"
+        ],
+        "formula": "2NaCl(aq) + 2H2O(l) → 2NaOH(aq) + Cl2(g) + H2(g)",
+        "expected_answer": null,
+        "diagram_required": true,
+        "diagram_checklist": [
+          "Electrolytic cell",
+          "Cathode/Anode labelled",
+          "H2 at cathode",
+          "Cl2 at anode",
+          "NaOH"
+        ],
+        "partial_marks": {
+          "diagram": 1,
+          "reactions": 2,
+          "uses": 1,
+          "overall equation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_chem_mcq_002",
+      "use_for": "test",
+      "text": "Plaster of Paris is obtained by heating gypsum. What is the chemical formula of Plaster of Paris?",
+      "options": [
+        {
+          "text": "CaSO4.2H2O",
+          "is_correct": false
+        },
+        {
+          "text": "CaSO4",
+          "is_correct": false
+        },
+        {
+          "text": "CaSO4.0.5H2O",
+          "is_correct": true
+        },
+        {
+          "text": "Ca(OH)2",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CaSO4.1/2H2O",
+          "hemihydrate",
+          "Plaster of Paris",
+          "gypsum"
+        ],
+        "key_points": [
+          "Gypsum: CaSO4.2H2O; heated at 373 K → CaSO4.1/2H2O (Plaster of Paris)"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_salt_num_001",
+      "use_for": "test",
+      "text": "15 mL of H2SO4 solution exactly neutralises 30 mL of NaOH solution. How many mL of the same H2SO4 solution will be required to neutralise 12 mL of the same NaOH solution?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "6 mL",
+          "proportion"
+        ],
+        "key_points": [
+          "V_H2SO4 / V_NaOH = 15/30 = 0.5",
+          "V = 0.5 × 12 = 6 mL"
+        ],
+        "formula": "V_acid2 = (V_acid1 / V_base1) × V_base2",
+        "expected_answer": "6 mL",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "v_acid_1": {
+            "min": 10.0,
+            "max": 20.0,
+            "step": 1.0
+          },
+          "v_base_1": {
+            "min": 20.0,
+            "max": 40.0,
+            "step": 2.0
+          },
+          "v_base_2": {
+            "min": 8.0,
+            "max": 20.0,
+            "step": 2.0
+          }
+        },
+        "formula_expression": "(v_acid_1 / v_base_1) * v_base_2",
+        "units": "mL",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ind_mcq_001",
+      "use_for": "understanding",
+      "text": "Which indicator turns pink/red in acidic solution and colourless in basic solution?",
+      "options": [
+        {
+          "text": "Litmus",
+          "is_correct": false
+        },
+        {
+          "text": "Turmeric",
+          "is_correct": false
+        },
+        {
+          "text": "Phenolphthalein",
+          "is_correct": true
+        },
+        {
+          "text": "Methyl orange",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "phenolphthalein",
+          "colourless",
+          "pink",
+          "acidic",
+          "basic"
+        ],
+        "key_points": [
+          "Phenolphthalein: colourless in acid, pink in base"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ind_mcq_002",
+      "use_for": "understanding",
+      "text": "Olfactory indicators are substances that:",
+      "options": [
+        {
+          "text": "Change colour in acid/base",
+          "is_correct": false
+        },
+        {
+          "text": "Change their smell in acid or base",
+          "is_correct": true
+        },
+        {
+          "text": "Smell the same regardless of pH",
+          "is_correct": false
+        },
+        {
+          "text": "Produce a gas when added to acid",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "smell",
+          "odour",
+          "olfactory",
+          "onion",
+          "vanilla"
+        ],
+        "key_points": [
+          "Olfactory indicators change their smell/odour in acidic vs basic medium"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ind_short_001",
+      "use_for": "understanding",
+      "text": "How would you use red cabbage juice as an indicator? Describe what colour changes you would observe in an acid and in a base.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "red cabbage",
+          "red/pink",
+          "green/yellow",
+          "acidic",
+          "basic",
+          "anthocyanin"
+        ],
+        "key_points": [
+          "Extract red cabbage juice; add to test solutions",
+          "Acidic solution: red/pink colour; Basic solution: green/yellow colour"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "method": 1,
+          "both colour changes": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_cprop_mcq_001",
+      "use_for": "understanding",
+      "text": "A metal carbonate reacts with an acid. What gases are produced in this reaction?",
+      "options": [
+        {
+          "text": "H2 and SO2",
+          "is_correct": false
+        },
+        {
+          "text": "CO and H2",
+          "is_correct": false
+        },
+        {
+          "text": "CO2 and H2O (steam)",
+          "is_correct": true
+        },
+        {
+          "text": "O2 and CO2",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CO2",
+          "water",
+          "acid-carbonate"
+        ],
+        "key_points": [
+          "Metal carbonate + acid → salt + water + CO2"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_cprop_mcq_002",
+      "use_for": "understanding",
+      "text": "Which of the following is the correct equation for the reaction of CaO with water?",
+      "options": [
+        {
+          "text": "CaO + H2O → Ca(OH)2",
+          "is_correct": true
+        },
+        {
+          "text": "CaO + H2O → CaO2 + H2",
+          "is_correct": false
+        },
+        {
+          "text": "CaO + H2O → CaCO3",
+          "is_correct": false
+        },
+        {
+          "text": "CaO + 2H2O → Ca(OH)2 + H2O",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Ca(OH)2",
+          "slaked lime",
+          "exothermic"
+        ],
+        "key_points": [
+          "CaO + H2O → Ca(OH)2 (slaked lime); exothermic"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_cprop_short_001",
+      "use_for": "understanding",
+      "text": "What happens when a small piece of sodium is dropped into water? Write the equation and identify the products.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "NaOH",
+          "H2",
+          "hydroxide",
+          "hydrogen",
+          "exothermic",
+          "flame"
+        ],
+        "key_points": [
+          "2Na + 2H2O → 2NaOH + H2↑",
+          "Products: sodium hydroxide (NaOH) and hydrogen gas (H2)",
+          "Reaction is vigorous/exothermic; H2 may catch fire"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equation": 1,
+          "products + observation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_cprop_short_002",
+      "use_for": "understanding",
+      "text": "Explain with an equation how washing soda (Na2CO3) acts as a base.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Na2CO3",
+          "OH-",
+          "hydrolysis",
+          "basic",
+          "pH > 7"
+        ],
+        "key_points": [
+          "Na2CO3 is a salt of a strong base and a weak acid",
+          "CO3(2-) + H2O ⇌ HCO3- + OH-; OH- makes solution basic"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "identifies as basic": 1,
+          "hydrolysis/OH- explanation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_cprop_short_003",
+      "use_for": "understanding",
+      "text": "An antacid tablet contains NaHCO3. How does it relieve indigestion? Write the chemical equation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "NaHCO3",
+          "HCl",
+          "neutralise",
+          "CO2",
+          "stomach",
+          "excess acid"
+        ],
+        "key_points": [
+          "Stomach produces excess HCl causing indigestion",
+          "NaHCO3 + HCl → NaCl + H2O + CO2",
+          "NaHCO3 neutralises excess acid; CO2 released"
+        ],
+        "formula": null,
+        "expected_answer": "NaHCO3 is basic. It neutralises excess HCl in the stomach: NaHCO3 + HCl → NaCl + H2O + CO2. This reduces acidity and relieves indigestion.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "cause of indigestion": 1,
+          "equation": 1,
+          "mechanism": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_cprop_num_001",
+      "use_for": "understanding",
+      "text": "If 25 mL of HCl solution neutralises 20 mL of NaOH solution, what volume of HCl is needed to neutralise 35 mL of the same NaOH solution?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "43.75 mL",
+          "proportion"
+        ],
+        "key_points": [
+          "25/20 = x/35 → x = 43.75 mL"
+        ],
+        "formula": "V_HCl2 = (V_HCl1 / V_NaOH1) × V_NaOH2",
+        "expected_answer": "43.75 mL",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "v_hcl_1": {
+            "min": 15.0,
+            "max": 30.0,
+            "step": 5.0
+          },
+          "v_naoh_1": {
+            "min": 10.0,
+            "max": 25.0,
+            "step": 5.0
+          },
+          "v_naoh_2": {
+            "min": 25.0,
+            "max": 45.0,
+            "step": 5.0
+          }
+        },
+        "formula_expression": "(v_hcl_1 / v_naoh_1) * v_naoh_2",
+        "units": "mL",
+        "answer_precision": 2
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ions_mcq_001",
+      "use_for": "understanding",
+      "text": "When HCl gas is dissolved in toluene (a non-polar organic solvent), the solution does NOT conduct electricity. Why?",
+      "options": [
+        {
+          "text": "HCl gas is insoluble in toluene",
+          "is_correct": false
+        },
+        {
+          "text": "Toluene absorbs electricity",
+          "is_correct": false
+        },
+        {
+          "text": "The pressure prevents ionisation",
+          "is_correct": false
+        },
+        {
+          "text": "HCl does not ionise in toluene as there is no water",
+          "is_correct": true
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "ionisation",
+          "water",
+          "toluene",
+          "no ions",
+          "non-polar"
+        ],
+        "key_points": [
+          "No water → no ionisation → no ions → no conduction"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ions_short_001",
+      "use_for": "understanding",
+      "text": "Define the term 'ionisation'. Why is water necessary for acids and bases to show their properties?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "ionisation",
+          "dissociation",
+          "ions",
+          "water",
+          "H+",
+          "OH-"
+        ],
+        "key_points": [
+          "Ionisation: breaking of a compound into its constituent ions",
+          "Water provides medium for ionisation; H+ and OH- ions are only produced when dissolved in water"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "ionisation definition": 1,
+          "role of water": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ions_short_002",
+      "use_for": "understanding",
+      "text": "What is the difference between an acid and a base in terms of ions they produce in water? Give two examples of each.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "H+",
+          "H3O+",
+          "OH-",
+          "HCl",
+          "H2SO4",
+          "NaOH",
+          "KOH"
+        ],
+        "key_points": [
+          "Acid: produces H+ (or H3O+) ions in water; e.g. HCl, H2SO4",
+          "Base: produces OH- ions in water; e.g. NaOH, KOH"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "acid with examples": 1,
+          "base with examples": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ions_short_003",
+      "use_for": "understanding",
+      "text": "A student tested two solutions A and B with a conductivity apparatus. Solution A glowed brightly; solution B glowed dimly. What can you conclude about A and B? Relate to ionisation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "strong electrolyte",
+          "weak electrolyte",
+          "ions",
+          "complete",
+          "partial",
+          "ionisation"
+        ],
+        "key_points": [
+          "Bright glow → more ions → A is a strong electrolyte (e.g. strong acid/base; completely ionised)",
+          "Dim glow → fewer ions → B is a weak electrolyte (e.g. weak acid/base; partially ionised)",
+          "Relates to degree of ionisation"
+        ],
+        "formula": null,
+        "expected_answer": "Brightness ∝ ion concentration. A glows brightly → high ion concentration → A is a strong electrolyte (completely ionised, e.g. HCl). B glows dimly → fewer ions → B is a weak electrolyte (partially ionised, e.g. CH3COOH).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "A strong electrolyte": 1,
+          "B weak electrolyte": 1,
+          "ionisation reasoning": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ph_mcq_001",
+      "use_for": "understanding",
+      "text": "What is the pH of pure water at 25°C?",
+      "options": [
+        {
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "text": "7",
+          "is_correct": true
+        },
+        {
+          "text": "14",
+          "is_correct": false
+        },
+        {
+          "text": "5.6",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "pH 7",
+          "neutral",
+          "pure water"
+        ],
+        "key_points": [
+          "Pure water: [H+] = [OH-]; pH = 7"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ph_mcq_002",
+      "use_for": "understanding",
+      "text": "Acid rain has a pH less than:",
+      "options": [
+        {
+          "text": "7",
+          "is_correct": false
+        },
+        {
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "text": "5.6",
+          "is_correct": true
+        },
+        {
+          "text": "4",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "acid rain",
+          "5.6",
+          "pH",
+          "SO2",
+          "NO2"
+        ],
+        "key_points": [
+          "Normal rain: pH ~5.6 (dissolved CO2); pH < 5.6 → acid rain"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ph_short_001",
+      "use_for": "understanding",
+      "text": "How is pH of blood maintained in our body? What happens if pH of blood goes outside the normal range?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "7.35",
+          "7.45",
+          "buffer",
+          "enzymes",
+          "acidosis",
+          "alkalosis"
+        ],
+        "key_points": [
+          "Blood pH maintained between 7.35–7.45 by buffer systems",
+          "Outside this range: enzymes stop working; acidosis (pH < 7.35) or alkalosis (pH > 7.45) → fatal"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "normal range": 1,
+          "consequences": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ph_short_002",
+      "use_for": "understanding",
+      "text": "A farmer's soil has pH 4. What should the farmer do to make it suitable for growing most crops? Explain the chemistry.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "quicklime",
+          "CaO",
+          "slaked lime",
+          "Ca(OH)2",
+          "lime",
+          "neutralise",
+          "pH 6-7"
+        ],
+        "key_points": [
+          "pH 4 = strongly acidic; most crops need pH 6–7",
+          "Add quicklime (CaO) or slaked lime (Ca(OH)2) or chalk (CaCO3)",
+          "Basic substance neutralises excess acid, raising pH"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "what to add": 1,
+          "why / chemistry": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ph_short_003",
+      "use_for": "understanding",
+      "text": "Name two acids present in the human body and state where they are found and what role they play.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "HCl",
+          "stomach",
+          "digestion",
+          "amino acid",
+          "DNA",
+          "lactic acid",
+          "muscle"
+        ],
+        "key_points": [
+          "HCl: in stomach (gastric juice); pH 1.5–2; activates pepsin for protein digestion",
+          "Lactic acid: produced in muscles during anaerobic respiration; causes muscle fatigue/soreness",
+          "(Also accept: amino acids in proteins, nucleic acids in DNA/RNA)"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each acid with location and role": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_ph_num_001",
+      "use_for": "understanding",
+      "text": "A solution has [H+] concentration 10 times higher than pure water. What is its pH? Is it acidic or basic? (Note: pH of pure water = 7.)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "pH 6",
+          "acidic",
+          "log",
+          "10 times"
+        ],
+        "key_points": [
+          "Pure water [H+] = 10^-7 M; 10x higher = 10^-6 M",
+          "pH = -log[H+] = -log(10^-6) = 6",
+          "pH 6 < 7 → acidic"
+        ],
+        "formula": "pH = -log[H+]",
+        "expected_answer": "pH = 6; acidic",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "factor": {
+            "value": 10,
+            "unit": "times",
+            "locked": true
+          },
+          "ph_water": {
+            "value": 7,
+            "unit": "",
+            "locked": true
+          }
+        },
+        "formula_expression": "ph_water - log10(factor)",
+        "units": "",
+        "answer_precision": 0,
+        "fixed": true
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_salt_mcq_001",
+      "use_for": "understanding",
+      "text": "Gypsum has the formula CaSO4.2H2O. On strong heating, it loses water to form:",
+      "options": [
+        {
+          "text": "Ca(OH)2",
+          "is_correct": false
+        },
+        {
+          "text": "CaSO4.H2O",
+          "is_correct": false
+        },
+        {
+          "text": "CaSO4.0.5H2O (Plaster of Paris)",
+          "is_correct": true
+        },
+        {
+          "text": "CaSO3",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Plaster of Paris",
+          "CaSO4.1/2H2O",
+          "hemihydrate",
+          "heating"
+        ],
+        "key_points": [
+          "Gypsum heated at 373 K → Plaster of Paris (CaSO4.½H2O)"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_salt_short_001",
+      "use_for": "understanding",
+      "text": "What is the common name and formula of (a) baking soda, (b) washing soda, (c) bleaching powder?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "NaHCO3",
+          "Na2CO3.10H2O",
+          "Ca(OCl)Cl",
+          "sodium bicarbonate",
+          "sodium carbonate",
+          "calcium oxychloride"
+        ],
+        "key_points": [
+          "(a) Baking soda: NaHCO3 (sodium hydrogen carbonate)",
+          "(b) Washing soda: Na2CO3.10H2O (sodium carbonate decahydrate)",
+          "(c) Bleaching powder: Ca(OCl)Cl (calcium oxychloride)"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each correct": 0.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_salt_short_002",
+      "use_for": "understanding",
+      "text": "Plaster of Paris sets when mixed with water. Explain why with a chemical equation.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "CaSO4.1/2H2O",
+          "CaSO4.2H2O",
+          "gypsum",
+          "water",
+          "sets",
+          "hardens"
+        ],
+        "key_points": [
+          "CaSO4.½H2O + 1½H2O → CaSO4.2H2O (gypsum)",
+          "Takes up water of crystallisation → forms interlocking crystals → hard solid"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "equation": 1,
+          "explanation of hardening": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_salt_short_003",
+      "use_for": "understanding",
+      "text": "How would you test whether a given salt is acidic, basic or neutral without a pH meter? Describe two methods.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "litmus",
+          "phenolphthalein",
+          "indicator",
+          "red",
+          "blue",
+          "pH paper"
+        ],
+        "key_points": [
+          "Method 1: dissolve in water, test with litmus paper; red→acidic, blue→basic, no change→neutral",
+          "Method 2: use universal indicator/pH paper; match colour to pH chart",
+          "(Also: phenolphthalein: colourless in acid/neutral, pink in base)"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "each valid method": 1,
+          "correct interpretation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_salt_num_001",
+      "use_for": "understanding",
+      "text": "5 mL of an acid solution neutralises 10 mL of a base solution. What volume of acid is needed to neutralise 15 mL of the same base?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "7.5 mL",
+          "proportion"
+        ],
+        "key_points": [
+          "5/10 = x/15 → x = 7.5 mL"
+        ],
+        "formula": "V_acid2 = (V_acid1 / V_base1) × V_base2",
+        "expected_answer": "7.5 mL",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "v_acid_1": {
+            "min": 4.0,
+            "max": 8.0,
+            "step": 1.0
+          },
+          "v_base_1": {
+            "min": 8.0,
+            "max": 15.0,
+            "step": 1.0
+          },
+          "v_base_2": {
+            "min": 12.0,
+            "max": 25.0,
+            "step": 1.0
+          }
+        },
+        "formula_expression": "(v_acid_1 / v_base_1) * v_base_2",
+        "units": "mL",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_chem_mcq_001",
+      "use_for": "understanding",
+      "text": "Baking soda is used in fire extinguishers because on heating it produces:",
+      "options": [
+        {
+          "text": "H2 gas",
+          "is_correct": false
+        },
+        {
+          "text": "O2 gas",
+          "is_correct": false
+        },
+        {
+          "text": "CO2 gas",
+          "is_correct": true
+        },
+        {
+          "text": "SO2 gas",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "CO2",
+          "NaHCO3",
+          "fire extinguisher",
+          "non-combustible"
+        ],
+        "key_points": [
+          "2NaHCO3 → Na2CO3 + H2O + CO2; CO2 is non-combustible, smothers fire"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_chem_short_001",
+      "use_for": "understanding",
+      "text": "What is the full name of NaOH? State three industrial uses of sodium hydroxide.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "sodium hydroxide",
+          "soap",
+          "paper",
+          "textile",
+          "de-greasing",
+          "NaOH"
+        ],
+        "key_points": [
+          "NaOH = Sodium hydroxide (caustic soda)",
+          "Uses: (1) soap/detergent manufacture (2) paper industry (3) textile / de-greasing metals"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "full name": 0.5,
+          "three uses": 1.5
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_chem_short_002",
+      "use_for": "understanding",
+      "text": "Why is Plaster of Paris stored in moisture-proof containers? What happens if it absorbs moisture?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "water",
+          "gypsum",
+          "sets",
+          "hardens",
+          "CaSO4.2H2O",
+          "unusable"
+        ],
+        "key_points": [
+          "Plaster of Paris (CaSO4.½H2O) reacts with water to form gypsum (CaSO4.2H2O)",
+          "If it absorbs moisture it will set/harden and become unusable"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "reason": 1,
+          "consequence": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_chem_short_003",
+      "use_for": "understanding",
+      "text": "Describe one important use of bleaching powder in water treatment. Write the relevant chemical reaction.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "bleaching powder",
+          "Ca(OCl)Cl",
+          "Cl2",
+          "HClO",
+          "disinfect",
+          "kills bacteria"
+        ],
+        "key_points": [
+          "Bleaching powder releases Cl2 / HClO when dissolved in water",
+          "Ca(OCl)Cl + H2O → Ca(OH)2 + Cl2; or Ca(OCl)Cl + CO2 + H2O → CaCO3 + HClO + HCl",
+          "HClO / Cl2 kills pathogens → disinfects drinking water / swimming pools"
+        ],
+        "formula": null,
+        "expected_answer": null,
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "use": 1,
+          "equation": 1,
+          "mechanism": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null
+    },
+    {
+      "id": "chap2_u_chem_num_001",
+      "use_for": "understanding",
+      "text": "20 mL of NaOH solution is exactly neutralised by 16 mL of H2SO4 solution. What volume of the same H2SO4 solution will neutralise 30 mL of the same NaOH solution?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "24 mL",
+          "proportion"
+        ],
+        "key_points": [
+          "16/20 = x/30 → x = 24 mL"
+        ],
+        "formula": "V_acid2 = (V_acid1 / V_base1) × V_base2",
+        "expected_answer": "24 mL",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": {
+        "variables": {
+          "v_acid_1": {
+            "min": 12.0,
+            "max": 20.0,
+            "step": 2.0
+          },
+          "v_base_1": {
+            "min": 16.0,
+            "max": 25.0,
+            "step": 1.0
+          },
+          "v_base_2": {
+            "min": 25.0,
+            "max": 40.0,
+            "step": 5.0
+          }
+        },
+        "formula_expression": "(v_acid_1 / v_base_1) * v_base_2",
+        "units": "mL",
+        "answer_precision": 1
+      },
+      "diagram_path": null
+    }
+  ]
+}
