@@ -2,10 +2,16 @@
 title Science Assessor — Launcher
 color 0A
 
+REM ── Use the folder this .bat file lives in as the project root ───────────────
+set "ROOT=%~dp0"
+REM Strip trailing backslash
+if "%ROOT:~-1%"=="\" set "ROOT=%ROOT:~0,-1%"
+
 echo.
 echo  =========================================
 echo   Science Assessor — Starting up
 echo  =========================================
+echo  Root: %ROOT%
 echo.
 
 REM ── Check backend port is free ──────────────────────────────────────────────
@@ -21,7 +27,7 @@ if %errorlevel%==0 (
 
 REM ── Start backend in a new window ───────────────────────────────────────────
 echo  [1/2] Starting backend  ^(http://localhost:8000^)...
-start "Science Assessor — Backend" cmd /k "cd /d C:\CBSE10\science && .venv\Scripts\activate && uvicorn backend.main:app --reload --app-dir . && echo. && echo Backend stopped. Press any key to close. && pause > nul"
+start "Science Assessor — Backend" cmd /k "cd /d "%ROOT%" && .venv\Scripts\activate && uvicorn backend.main:app --reload --app-dir . && echo. && echo Backend stopped. Press any key to close. && pause > nul"
 
 REM ── Wait for backend to initialise ──────────────────────────────────────────
 echo        Waiting for backend to initialise...
@@ -29,7 +35,7 @@ timeout /t 4 /nobreak > nul
 
 REM ── Start frontend in a new window ──────────────────────────────────────────
 echo  [2/2] Starting frontend ^(http://localhost:5173^)...
-start "Science Assessor — Frontend" cmd /k "cd /d C:\CBSE10\science\frontend && npm run dev && echo. && echo Frontend stopped. Press any key to close. && pause > nul"
+start "Science Assessor — Frontend" cmd /k "cd /d "%ROOT%\frontend" && npm run dev && echo. && echo Frontend stopped. Press any key to close. && pause > nul"
 
 REM ── Open browser ────────────────────────────────────────────────────────────
 echo.
