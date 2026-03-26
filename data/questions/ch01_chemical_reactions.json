@@ -40,7 +40,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_equations"
     },
     {
       "id": "chap01_ceq_short_001",
@@ -70,7 +71,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_equations"
     },
     {
       "id": "chap01_ceq_short_002",
@@ -99,7 +101,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_equations"
     },
     {
       "id": "chap01_ceq_short_003",
@@ -127,7 +130,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_equations"
     },
     {
       "id": "chap01_beq_mcq_001",
@@ -169,7 +173,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_mcq_002",
@@ -210,7 +215,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_short_001",
@@ -238,7 +244,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_short_002",
@@ -267,7 +274,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_num_001",
@@ -305,7 +313,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_long_001",
@@ -334,7 +343,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_ar_001",
@@ -376,7 +386,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_comdec_mcq_001",
@@ -417,7 +428,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_mcq_002",
@@ -458,7 +470,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_short_001",
@@ -485,7 +498,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_diagram_001",
@@ -525,7 +539,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_short_002",
@@ -555,7 +570,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_num_001",
@@ -593,7 +609,8 @@
         "units": "mL",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_long_001",
@@ -625,7 +642,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_disp_mcq_001",
@@ -666,7 +684,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_mcq_002",
@@ -707,7 +726,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_short_001",
@@ -737,7 +757,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_short_002",
@@ -765,7 +786,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_short_003",
@@ -792,7 +814,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_diagram_001",
@@ -824,7 +847,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap01_disp_diagram_001.svg"
+      "diagram_path": "chap01_disp_diagram_001.svg",
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_long_001",
@@ -855,7 +879,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_redox_mcq_001",
@@ -895,7 +920,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_redox_ar_001",
@@ -938,7 +964,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_redox_short_001",
@@ -965,7 +992,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_redox_short_002",
@@ -992,7 +1020,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_redox_short_003",
@@ -1022,7 +1051,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_corr_mcq_001",
@@ -1063,7 +1093,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_rancidity"
     },
     {
       "id": "chap01_corr_ar_001",
@@ -1107,7 +1138,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_rancidity"
     },
     {
       "id": "chap01_corr_short_001",
@@ -1136,7 +1168,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_rancidity"
     },
     {
       "id": "chap01_corr_short_002",
@@ -1166,7 +1199,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_rancidity"
     },
     {
       "id": "chap01_corr_num_001",
@@ -1205,7 +1239,8 @@
         "units": "g",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_rancidity"
     },
     {
       "id": "chap01_ceq_und_mcq_001",
@@ -1246,7 +1281,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_equations"
     },
     {
       "id": "chap01_ceq_und_mcq_002",
@@ -1287,7 +1323,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_equations"
     },
     {
       "id": "chap01_beq_und_mcq_001",
@@ -1326,7 +1363,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_und_mcq_002",
@@ -1367,7 +1405,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_und_mcq_003",
@@ -1406,7 +1445,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_und_short_001",
@@ -1435,7 +1475,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_und_short_002",
@@ -1463,7 +1504,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_beq_und_num_001",
@@ -1504,7 +1546,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "balancing_equations"
     },
     {
       "id": "chap01_comdec_und_mcq_001",
@@ -1545,7 +1588,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_und_mcq_002",
@@ -1586,7 +1630,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_und_mcq_003",
@@ -1627,7 +1672,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_und_short_001",
@@ -1657,7 +1703,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_und_short_002",
@@ -1687,7 +1734,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_comdec_und_num_001",
@@ -1726,7 +1774,8 @@
         "units": "g",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "combination_decomposition"
     },
     {
       "id": "chap01_disp_und_mcq_001",
@@ -1767,7 +1816,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_und_mcq_002",
@@ -1808,7 +1858,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_und_mcq_003",
@@ -1848,7 +1899,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_und_short_001",
@@ -1875,7 +1927,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_und_short_002",
@@ -1904,7 +1957,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_und_short_003",
@@ -1932,7 +1986,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_disp_und_num_001",
@@ -1969,7 +2024,8 @@
         "answer_precision": 1,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "displacement_double"
     },
     {
       "id": "chap01_redox_und_mcq_001",
@@ -2009,7 +2065,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_redox_und_short_001",
@@ -2037,7 +2094,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_redox_und_short_002",
@@ -2064,7 +2122,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_redox_und_short_003",
@@ -2093,7 +2152,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "oxidation_reduction"
     },
     {
       "id": "chap01_corr_und_short_001",
@@ -2121,7 +2181,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_rancidity"
     },
     {
       "id": "chap01_corr_und_short_002",
@@ -2152,7 +2213,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_rancidity"
     },
     {
       "id": "chap01_corr_und_short_003",
@@ -2182,7 +2244,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_rancidity"
     }
   ]
 }

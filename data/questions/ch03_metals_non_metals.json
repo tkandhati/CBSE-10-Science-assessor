@@ -38,7 +38,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "physical_properties"
     },
     {
       "id": "chap3_phys_sa_001",
@@ -68,7 +69,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "physical_properties"
     },
     {
       "id": "chap3_phys_sa_002",
@@ -100,7 +102,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "physical_properties"
     },
     {
       "id": "chap3_chem_mcq_001",
@@ -143,7 +146,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_mcq_002",
@@ -188,7 +192,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_001",
@@ -221,7 +226,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_002",
@@ -254,7 +260,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_003",
@@ -292,7 +299,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_004",
@@ -326,7 +334,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_num_001",
@@ -370,7 +379,8 @@
         "units": "mol",
         "answer_precision": 2
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_la_001",
@@ -405,7 +415,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_ar_001",
@@ -450,7 +461,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_diag_001",
@@ -485,7 +497,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap3_chem_diag_001.svg"
+      "diagram_path": "chap3_chem_diag_001.svg",
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_005",
@@ -521,7 +534,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_ionic_mcq_001",
@@ -566,7 +580,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_sa_001",
@@ -601,7 +616,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_sa_002",
@@ -632,7 +648,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_sa_003",
@@ -669,7 +686,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_la_001",
@@ -708,7 +726,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_mcq_002",
@@ -751,7 +770,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_metal_mcq_001",
@@ -795,7 +815,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_mcq_002",
@@ -841,7 +862,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_001",
@@ -880,7 +902,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_002",
@@ -913,7 +936,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_003",
@@ -948,7 +972,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_004",
@@ -984,7 +1009,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_num_001",
@@ -1031,7 +1057,8 @@
         "answer_precision": 2,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_diag_001",
@@ -1069,7 +1096,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap3_metal_diag_001.svg"
+      "diagram_path": "chap3_metal_diag_001.svg",
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_ar_001",
@@ -1115,7 +1143,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_005",
@@ -1153,7 +1182,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_corr_mcq_001",
@@ -1199,7 +1229,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_alloys"
     },
     {
       "id": "chap3_corr_sa_001",
@@ -1232,7 +1263,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_alloys"
     },
     {
       "id": "chap3_corr_num_001",
@@ -1280,7 +1312,8 @@
         "units": "%",
         "answer_precision": 2
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_alloys"
     },
     {
       "id": "chap3_metal_la_001",
@@ -1327,7 +1360,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_corr_la_001",
@@ -1371,7 +1405,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_alloys"
     },
     {
       "id": "chap3_phys_mcq_u001",
@@ -1412,7 +1447,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "physical_properties"
     },
     {
       "id": "chap3_phys_mcq_u002",
@@ -1452,7 +1488,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "physical_properties"
     },
     {
       "id": "chap3_phys_sa_u001",
@@ -1481,7 +1518,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "physical_properties"
     },
     {
       "id": "chap3_chem_mcq_u001",
@@ -1520,7 +1558,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_mcq_u002",
@@ -1561,7 +1600,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_mcq_u003",
@@ -1602,7 +1642,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_u001",
@@ -1633,7 +1674,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_u002",
@@ -1662,7 +1704,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_u003",
@@ -1694,7 +1737,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_num_u001",
@@ -1735,7 +1779,8 @@
         "units": "mol",
         "answer_precision": 2
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_sa_u004",
@@ -1769,7 +1814,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_chem_mcq_u004",
@@ -1811,7 +1857,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap3_ionic_mcq_u001",
@@ -1852,7 +1899,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_mcq_u002",
@@ -1893,7 +1941,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_sa_u001",
@@ -1925,7 +1974,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_sa_u002",
@@ -1955,7 +2005,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_ionic_num_u001",
@@ -1998,7 +2049,8 @@
         "answer_precision": 2,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ionic_compounds"
     },
     {
       "id": "chap3_metal_mcq_u001",
@@ -2039,7 +2091,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_mcq_u002",
@@ -2079,7 +2132,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_u001",
@@ -2111,7 +2165,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_u002",
@@ -2142,7 +2197,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_u003",
@@ -2175,7 +2231,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_sa_u004",
@@ -2208,7 +2265,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_num_u001",
@@ -2252,7 +2310,8 @@
         "units": "mol",
         "answer_precision": 2
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_metal_mcq_u003",
@@ -2294,7 +2353,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "metallurgy"
     },
     {
       "id": "chap3_corr_mcq_u001",
@@ -2334,7 +2394,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_alloys"
     },
     {
       "id": "chap3_corr_sa_u001",
@@ -2366,7 +2427,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_alloys"
     },
     {
       "id": "chap3_corr_sa_u002",
@@ -2397,7 +2459,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_alloys"
     },
     {
       "id": "chap3_corr_num_u001",
@@ -2439,7 +2502,8 @@
         "answer_precision": 2,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "corrosion_alloys"
     }
   ]
 }

@@ -40,7 +40,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_mcq_002",
@@ -80,7 +81,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_sa_001",
@@ -109,7 +111,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_sa_002",
@@ -143,7 +146,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_num_001",
@@ -185,7 +189,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_ar_001",
@@ -227,7 +232,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_ver_mcq_001",
@@ -267,7 +273,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_mcq_002",
@@ -307,7 +314,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_mcq_003",
@@ -348,7 +356,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_sa_001",
@@ -379,7 +388,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_sa_002",
@@ -411,7 +421,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_sa_003",
@@ -444,7 +455,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_sa_004",
@@ -478,7 +490,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_num_001",
@@ -517,7 +530,8 @@
         "units": "molecular formula",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_dia_001",
@@ -552,7 +566,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap4_ver_dia_001.svg"
+      "diagram_path": "chap4_ver_dia_001.svg",
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_la_001",
@@ -589,7 +604,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_ar_001",
@@ -630,7 +646,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_chm_mcq_001",
@@ -671,7 +688,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_mcq_002",
@@ -712,7 +730,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_sa_001",
@@ -742,7 +761,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_sa_002",
@@ -773,7 +793,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_sa_003",
@@ -803,7 +824,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_sa_004",
@@ -836,7 +858,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_num_001",
@@ -874,7 +897,8 @@
         "units": "mol",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_la_001",
@@ -911,7 +935,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_dia_001",
@@ -949,7 +974,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_eth_mcq_001",
@@ -989,7 +1015,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_mcq_002",
@@ -1029,7 +1056,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_mcq_003",
@@ -1070,7 +1098,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_001",
@@ -1099,7 +1128,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_002",
@@ -1131,7 +1161,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_003",
@@ -1162,7 +1193,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_004",
@@ -1194,7 +1226,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_005",
@@ -1226,7 +1259,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_num_001",
@@ -1274,7 +1308,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_dia_001",
@@ -1308,7 +1343,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap4_eth_dia_001.svg"
+      "diagram_path": "chap4_eth_dia_001.svg",
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_la_001",
@@ -1341,7 +1377,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_soa_mcq_001",
@@ -1382,7 +1419,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_mcq_002",
@@ -1424,7 +1462,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_001",
@@ -1454,7 +1493,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_002",
@@ -1484,7 +1524,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_003",
@@ -1516,7 +1557,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_004",
@@ -1551,7 +1593,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_005",
@@ -1584,7 +1627,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_006",
@@ -1615,7 +1659,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_la_001",
@@ -1659,7 +1704,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_bon_mcq_u001",
@@ -1699,7 +1745,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_mcq_u002",
@@ -1738,7 +1785,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_sa_u001",
@@ -1765,7 +1813,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_sa_u002",
@@ -1791,7 +1840,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_bon_sa_u003",
@@ -1822,7 +1872,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "bonding_carbon"
     },
     {
       "id": "chap4_ver_mcq_u001",
@@ -1861,7 +1912,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_mcq_u002",
@@ -1902,7 +1954,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_mcq_u003",
@@ -1942,7 +1995,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_mcq_u004",
@@ -1981,7 +2035,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_sa_u001",
@@ -2009,7 +2064,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_sa_u002",
@@ -2039,7 +2095,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_sa_u003",
@@ -2064,7 +2121,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_sa_u004",
@@ -2095,7 +2153,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_ver_num_u001",
@@ -2129,7 +2188,8 @@
         "units": "molecular formula",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "versatile_nature"
     },
     {
       "id": "chap4_chm_mcq_u001",
@@ -2169,7 +2229,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_mcq_u002",
@@ -2209,7 +2270,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_mcq_u003",
@@ -2249,7 +2311,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_sa_u001",
@@ -2277,7 +2340,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_sa_u002",
@@ -2304,7 +2368,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_sa_u003",
@@ -2335,7 +2400,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_sa_u004",
@@ -2362,7 +2428,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_chm_num_u001",
@@ -2398,7 +2465,8 @@
         "units": "mol",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemical_properties"
     },
     {
       "id": "chap4_eth_mcq_u001",
@@ -2439,7 +2507,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_mcq_u002",
@@ -2479,7 +2548,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_mcq_u003",
@@ -2519,7 +2589,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_u001",
@@ -2549,7 +2620,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_u002",
@@ -2579,7 +2651,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_u003",
@@ -2607,7 +2680,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_u004",
@@ -2635,7 +2709,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_sa_u005",
@@ -2665,7 +2740,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_eth_num_u001",
@@ -2711,7 +2787,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ethanol_ethanoic_acid"
     },
     {
       "id": "chap4_soa_mcq_u001",
@@ -2750,7 +2827,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_mcq_u002",
@@ -2792,7 +2870,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_mcq_u003",
@@ -2834,7 +2913,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_u001",
@@ -2862,7 +2942,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_u002",
@@ -2891,7 +2972,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_u003",
@@ -2921,7 +3003,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_u004",
@@ -2957,7 +3040,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     },
     {
       "id": "chap4_soa_sa_u005",
@@ -2988,7 +3072,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "soaps_detergents"
     }
   ]
 }

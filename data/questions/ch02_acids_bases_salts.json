@@ -41,7 +41,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "indicators"
     },
     {
       "id": "chap2_ind_short_001",
@@ -69,7 +70,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "indicators"
     },
     {
       "id": "chap2_cprop_mcq_001",
@@ -109,7 +111,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_mcq_002",
@@ -150,7 +153,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_mcq_003",
@@ -191,7 +195,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_short_001",
@@ -220,7 +225,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_short_002",
@@ -249,7 +255,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_short_003",
@@ -281,7 +288,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_num_001",
@@ -327,7 +335,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_long_001",
@@ -359,7 +368,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_ar_001",
@@ -400,7 +410,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_cprop_diag_001",
@@ -435,7 +446,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_ions_mcq_001",
@@ -476,7 +488,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_ions_short_001",
@@ -505,7 +518,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_ions_short_002",
@@ -536,7 +550,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_ions_short_003",
@@ -568,7 +583,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_ions_num_001",
@@ -613,7 +629,8 @@
         "units": "mL",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_ions_ar_001",
@@ -654,7 +671,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_ph_mcq_001",
@@ -694,7 +712,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_ph_mcq_002",
@@ -735,7 +754,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_ph_short_001",
@@ -766,7 +786,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_ph_short_002",
@@ -796,7 +817,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_ph_short_003",
@@ -830,7 +852,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_ph_long_001",
@@ -864,7 +887,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_ph_diag_001",
@@ -903,7 +927,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_salt_mcq_001",
@@ -944,7 +969,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_salt_short_001",
@@ -974,7 +1000,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_salt_short_002",
@@ -1003,7 +1030,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_salt_short_003",
@@ -1035,7 +1063,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_salt_long_001",
@@ -1067,7 +1096,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_chem_mcq_001",
@@ -1110,7 +1140,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_chem_short_001",
@@ -1142,7 +1173,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_chem_short_002",
@@ -1172,7 +1204,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_chem_long_001",
@@ -1217,7 +1250,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_chem_mcq_002",
@@ -1258,7 +1292,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_salt_num_001",
@@ -1302,7 +1337,8 @@
         "units": "mL",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_u_ind_mcq_001",
@@ -1344,7 +1380,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "indicators"
     },
     {
       "id": "chap2_u_ind_mcq_002",
@@ -1386,7 +1423,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "indicators"
     },
     {
       "id": "chap2_u_ind_short_001",
@@ -1416,7 +1454,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "indicators"
     },
     {
       "id": "chap2_u_cprop_mcq_001",
@@ -1456,7 +1495,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_u_cprop_mcq_002",
@@ -1496,7 +1536,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_u_cprop_short_001",
@@ -1527,7 +1568,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_u_cprop_short_002",
@@ -1556,7 +1598,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_u_cprop_short_003",
@@ -1588,7 +1631,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_u_cprop_num_001",
@@ -1631,7 +1675,8 @@
         "units": "mL",
         "answer_precision": 2
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chem_properties"
     },
     {
       "id": "chap2_u_ions_mcq_001",
@@ -1673,7 +1718,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_u_ions_short_001",
@@ -1703,7 +1749,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_u_ions_short_002",
@@ -1734,7 +1781,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_u_ions_short_003",
@@ -1766,7 +1814,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ions_water"
     },
     {
       "id": "chap2_u_ph_mcq_001",
@@ -1806,7 +1855,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_u_ph_mcq_002",
@@ -1848,7 +1898,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_u_ph_short_001",
@@ -1878,7 +1929,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_u_ph_short_002",
@@ -1910,7 +1962,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_u_ph_short_003",
@@ -1941,7 +1994,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_u_ph_num_001",
@@ -1984,7 +2038,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "pH_scale"
     },
     {
       "id": "chap2_u_salt_mcq_001",
@@ -2025,7 +2080,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_u_salt_short_001",
@@ -2055,7 +2111,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_u_salt_short_002",
@@ -2085,7 +2142,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_u_salt_short_003",
@@ -2116,7 +2174,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_u_salt_num_001",
@@ -2159,7 +2218,8 @@
         "units": "mL",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "salts_properties"
     },
     {
       "id": "chap2_u_chem_mcq_001",
@@ -2200,7 +2260,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_u_chem_short_001",
@@ -2230,7 +2291,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_u_chem_short_002",
@@ -2260,7 +2322,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_u_chem_short_003",
@@ -2292,7 +2355,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     },
     {
       "id": "chap2_u_chem_num_001",
@@ -2335,7 +2399,8 @@
         "units": "mL",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "chemicals_from_salt"
     }
   ]
 }

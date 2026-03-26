@@ -42,7 +42,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_mcq_002",
@@ -83,7 +84,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_sa_001",
@@ -113,7 +115,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_sa_002",
@@ -144,7 +147,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_sa_003",
@@ -173,7 +177,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_sa_004",
@@ -204,7 +209,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_ar_001",
@@ -248,7 +254,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_la_001",
@@ -283,7 +290,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_men_mcq_001",
@@ -328,7 +336,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_mcq_002",
@@ -370,7 +379,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_mcq_003",
@@ -414,7 +424,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_001",
@@ -449,7 +460,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_002",
@@ -481,7 +493,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_003",
@@ -514,7 +527,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_004",
@@ -544,7 +558,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_005",
@@ -578,7 +593,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_num_001",
@@ -619,7 +635,8 @@
         "units": "plants",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_num_002",
@@ -666,7 +683,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_la_001",
@@ -702,7 +720,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_la_002",
@@ -735,7 +754,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_tex_mcq_001",
@@ -776,7 +796,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "trait_expression"
     },
     {
       "id": "chap8_tex_sa_001",
@@ -809,7 +830,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "trait_expression"
     },
     {
       "id": "chap8_tex_sa_002",
@@ -838,7 +860,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "trait_expression"
     },
     {
       "id": "chap8_tex_sa_003",
@@ -868,7 +891,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "trait_expression"
     },
     {
       "id": "chap8_sxd_mcq_001",
@@ -912,7 +936,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_mcq_002",
@@ -952,7 +977,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_001",
@@ -984,7 +1010,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_002",
@@ -1015,7 +1042,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_003",
@@ -1045,7 +1073,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_004",
@@ -1077,7 +1106,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_005",
@@ -1109,7 +1139,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_ar_001",
@@ -1152,7 +1183,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_dia_001",
@@ -1190,7 +1222,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_dia_002",
@@ -1227,7 +1260,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_sxd_num_001",
@@ -1266,7 +1300,8 @@
         "units": "children",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_aov_mcq_101",
@@ -1305,7 +1340,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_mcq_102",
@@ -1345,7 +1381,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_mcq_103",
@@ -1385,7 +1422,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_sa_101",
@@ -1408,7 +1446,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_sa_102",
@@ -1436,7 +1475,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_sa_103",
@@ -1464,7 +1504,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_aov_sa_104",
@@ -1486,7 +1527,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "accumulation_of_variation"
     },
     {
       "id": "chap8_men_mcq_101",
@@ -1526,7 +1568,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_mcq_102",
@@ -1566,7 +1609,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_mcq_103",
@@ -1606,7 +1650,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_mcq_104",
@@ -1647,7 +1692,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_101",
@@ -1677,7 +1723,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_102",
@@ -1705,7 +1752,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_103",
@@ -1735,7 +1783,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_104",
@@ -1763,7 +1812,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_num_101",
@@ -1804,7 +1854,8 @@
         "units": "plants",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_men_sa_105",
@@ -1836,7 +1887,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "mendels_laws"
     },
     {
       "id": "chap8_tex_mcq_101",
@@ -1876,7 +1928,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "trait_expression"
     },
     {
       "id": "chap8_tex_sa_101",
@@ -1905,7 +1958,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "trait_expression"
     },
     {
       "id": "chap8_sxd_mcq_101",
@@ -1944,7 +1998,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_mcq_102",
@@ -1984,7 +2039,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_mcq_103",
@@ -2024,7 +2080,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_mcq_104",
@@ -2064,7 +2121,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_101",
@@ -2094,7 +2152,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_102",
@@ -2123,7 +2182,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_103",
@@ -2152,7 +2212,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_num_101",
@@ -2193,7 +2254,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_num_102",
@@ -2228,7 +2290,8 @@
         "units": "children",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     },
     {
       "id": "chap8_sxd_sa_104",
@@ -2258,7 +2321,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sex_determination"
     }
   ]
 }

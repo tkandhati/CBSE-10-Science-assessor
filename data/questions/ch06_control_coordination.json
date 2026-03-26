@@ -38,7 +38,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_mcq_002",
@@ -76,7 +77,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_sa_003",
@@ -104,7 +106,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_sa_004",
@@ -135,7 +138,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_dia_006",
@@ -166,7 +170,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap6_ns_dia_006.svg"
+      "diagram_path": "chap6_ns_dia_006.svg",
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_la_007",
@@ -207,7 +212,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_mcq_008",
@@ -245,7 +251,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ra_mcq_001",
@@ -283,7 +290,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reflex_action"
     },
     {
       "id": "chap6_ra_sa_002",
@@ -311,7 +319,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reflex_action"
     },
     {
       "id": "chap6_ra_sa_003",
@@ -344,7 +353,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reflex_action"
     },
     {
       "id": "chap6_ra_ar_004",
@@ -384,7 +394,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reflex_action"
     },
     {
       "id": "chap6_hb_mcq_001",
@@ -422,7 +433,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_mcq_002",
@@ -461,7 +473,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_sa_003",
@@ -488,7 +501,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_sa_004",
@@ -516,7 +530,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_sa_005",
@@ -544,7 +559,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_dia_006",
@@ -572,7 +588,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap6_hb_dia_006.svg"
+      "diagram_path": "chap6_hb_dia_006.svg",
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_la_007",
@@ -603,7 +620,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_cp_mcq_001",
@@ -641,7 +659,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_mcq_002",
@@ -679,7 +698,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_sa_003",
@@ -711,7 +731,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_sa_004",
@@ -739,7 +760,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_sa_005",
@@ -770,7 +792,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_sa_006",
@@ -800,7 +823,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_la_007",
@@ -834,7 +858,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_ha_mcq_001",
@@ -872,7 +897,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_sa_002",
@@ -900,7 +926,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_sa_003",
@@ -932,7 +959,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_sa_004",
@@ -962,7 +990,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_dia_005",
@@ -992,7 +1021,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap6_ha_dia_005.svg"
+      "diagram_path": "chap6_ha_dia_005.svg",
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_la_006",
@@ -1026,7 +1056,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_ar_007",
@@ -1069,7 +1100,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ns_num_001",
@@ -1108,7 +1140,8 @@
         "units": "s",
         "answer_precision": 3
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ha_num_002",
@@ -1145,7 +1178,8 @@
         "units": "%",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_hb_num_003",
@@ -1187,7 +1221,8 @@
         "units": "s",
         "answer_precision": 4
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_ns_umcq_001",
@@ -1225,7 +1260,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_umcq_002",
@@ -1264,7 +1300,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_usa_003",
@@ -1287,7 +1324,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_usa_004",
@@ -1314,7 +1352,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_umcq_005",
@@ -1352,7 +1391,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ns_usa_006",
@@ -1374,7 +1414,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_ra_umcq_001",
@@ -1413,7 +1454,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reflex_action"
     },
     {
       "id": "chap6_ra_usa_002",
@@ -1442,7 +1484,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reflex_action"
     },
     {
       "id": "chap6_ra_umcq_003",
@@ -1470,7 +1513,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reflex_action"
     },
     {
       "id": "chap6_hb_umcq_001",
@@ -1508,7 +1552,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_umcq_002",
@@ -1547,7 +1592,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_usa_003",
@@ -1571,7 +1617,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_usa_004",
@@ -1595,7 +1642,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_usa_005",
@@ -1617,7 +1665,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_hb_umcq_006",
@@ -1656,7 +1705,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_brain"
     },
     {
       "id": "chap6_cp_umcq_001",
@@ -1694,7 +1744,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_umcq_002",
@@ -1732,7 +1783,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_usa_003",
@@ -1755,7 +1807,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_usa_004",
@@ -1783,7 +1836,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_umcq_005",
@@ -1823,7 +1877,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_cp_usa_006",
@@ -1852,7 +1907,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     },
     {
       "id": "chap6_ha_umcq_001",
@@ -1890,7 +1946,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_umcq_002",
@@ -1929,7 +1986,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_usa_003",
@@ -1957,7 +2015,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_usa_004",
@@ -1986,7 +2045,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_umcq_005",
@@ -2026,7 +2086,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ha_unum_006",
@@ -2067,7 +2128,8 @@
         "units": "%",
         "answer_precision": 2
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "hormones_in_animals"
     },
     {
       "id": "chap6_ns_unum_001",
@@ -2108,7 +2170,8 @@
         "units": "s",
         "answer_precision": 4
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "nervous_system"
     },
     {
       "id": "chap6_cp_unum_001",
@@ -2147,7 +2210,8 @@
         "units": "degrees/hour",
         "answer_precision": 3
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "coordination_in_plants"
     }
   ]
 }

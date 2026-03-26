@@ -40,7 +40,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_002",
@@ -80,7 +81,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_003",
@@ -109,7 +111,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_004",
@@ -139,7 +142,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_005",
@@ -181,7 +185,8 @@
         "answer_precision": 2,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_006",
@@ -228,7 +233,8 @@
         "answer_precision": 1,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_007",
@@ -274,7 +280,8 @@
         "answer_precision": 2,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_008",
@@ -309,7 +316,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_009",
@@ -345,7 +353,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_010",
@@ -387,7 +396,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_test_011",
@@ -425,7 +435,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_test_012",
@@ -465,7 +476,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_test_013",
@@ -499,7 +511,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_test_014",
@@ -547,7 +560,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_test_015",
@@ -579,7 +593,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_test_016",
@@ -619,7 +634,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "power_of_accommodation"
     },
     {
       "id": "humaneye10_test_017",
@@ -648,7 +664,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "power_of_accommodation"
     },
     {
       "id": "humaneye10_test_018",
@@ -678,7 +695,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "power_of_accommodation"
     },
     {
       "id": "humaneye10_test_019",
@@ -708,7 +726,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "power_of_accommodation"
     },
     {
       "id": "humaneye10_test_020",
@@ -748,7 +767,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_test_021",
@@ -776,7 +796,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_test_022",
@@ -814,7 +835,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_test_023",
@@ -855,7 +877,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_test_024",
@@ -892,7 +915,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_test_025",
@@ -930,7 +954,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "refraction_prism"
     },
     {
       "id": "humaneye10_test_026",
@@ -959,7 +984,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "refraction_prism"
     },
     {
       "id": "humaneye10_test_027",
@@ -1003,7 +1029,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "refraction_prism"
     },
     {
       "id": "humaneye10_test_028",
@@ -1044,7 +1071,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "refraction_prism"
     },
     {
       "id": "humaneye10_test_029",
@@ -1083,7 +1111,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "atmospheric_refraction"
     },
     {
       "id": "humaneye10_test_030",
@@ -1110,7 +1139,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "atmospheric_refraction"
     },
     {
       "id": "humaneye10_test_031",
@@ -1139,7 +1169,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "atmospheric_refraction"
     },
     {
       "id": "humaneye10_test_032",
@@ -1181,7 +1212,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "atmospheric_refraction"
     },
     {
       "id": "humaneye10_test_033",
@@ -1222,7 +1254,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "scattering"
     },
     {
       "id": "humaneye10_test_034",
@@ -1252,7 +1285,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "scattering"
     },
     {
       "id": "humaneye10_test_035",
@@ -1283,7 +1317,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "scattering"
     },
     {
       "id": "humaneye10_und_001",
@@ -1322,7 +1357,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_und_002",
@@ -1363,7 +1399,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_und_003",
@@ -1402,7 +1439,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_und_004",
@@ -1428,7 +1466,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_und_005",
@@ -1457,7 +1496,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_und_006",
@@ -1495,7 +1535,8 @@
         "units": "D",
         "answer_precision": 2
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_und_007",
@@ -1533,7 +1574,8 @@
         "units": "D",
         "answer_precision": 2
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_und_008",
@@ -1572,7 +1614,8 @@
         "units": "cm",
         "answer_precision": 1
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "defects_of_vision"
     },
     {
       "id": "humaneye10_und_009",
@@ -1611,7 +1654,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_und_010",
@@ -1650,7 +1694,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_und_011",
@@ -1679,7 +1724,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_und_012",
@@ -1709,7 +1755,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_eye_structure"
     },
     {
       "id": "humaneye10_und_013",
@@ -1748,7 +1795,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "power_of_accommodation"
     },
     {
       "id": "humaneye10_und_014",
@@ -1789,7 +1837,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "power_of_accommodation"
     },
     {
       "id": "humaneye10_und_015",
@@ -1818,7 +1867,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "power_of_accommodation"
     },
     {
       "id": "humaneye10_und_016",
@@ -1846,7 +1896,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "power_of_accommodation"
     },
     {
       "id": "humaneye10_und_017",
@@ -1885,7 +1936,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_und_018",
@@ -1925,7 +1977,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_und_019",
@@ -1952,7 +2005,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_und_020",
@@ -1981,7 +2035,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dispersion"
     },
     {
       "id": "humaneye10_und_021",
@@ -2020,7 +2075,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "refraction_prism"
     },
     {
       "id": "humaneye10_und_022",
@@ -2048,7 +2104,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "refraction_prism"
     },
     {
       "id": "humaneye10_und_023",
@@ -2078,7 +2135,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "refraction_prism"
     },
     {
       "id": "humaneye10_und_024",
@@ -2118,7 +2176,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "atmospheric_refraction"
     },
     {
       "id": "humaneye10_und_025",
@@ -2145,7 +2204,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "atmospheric_refraction"
     },
     {
       "id": "humaneye10_und_026",
@@ -2173,7 +2233,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "atmospheric_refraction"
     },
     {
       "id": "humaneye10_und_027",
@@ -2213,7 +2274,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "scattering"
     },
     {
       "id": "humaneye10_und_028",
@@ -2241,7 +2303,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "scattering"
     },
     {
       "id": "humaneye10_und_029",
@@ -2270,7 +2333,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "scattering"
     },
     {
       "id": "human_eye_cb_001",
@@ -2301,7 +2365,9 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "use_for": "test",
+      "topic": "defects_of_vision"
     }
   ]
 }

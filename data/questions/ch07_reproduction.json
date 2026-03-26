@@ -42,7 +42,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dna_copying_variation"
     },
     {
       "id": "chap7_dcv_sa_001",
@@ -71,7 +72,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dna_copying_variation"
     },
     {
       "id": "chap7_dcv_num_001",
@@ -107,7 +109,8 @@
         "units": "chromosomes",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dna_copying_variation"
     },
     {
       "id": "chap7_asr_mcq_001",
@@ -146,7 +149,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_mcq_002",
@@ -185,7 +189,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_sa_001",
@@ -212,7 +217,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_sa_002",
@@ -238,7 +244,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_sa_003",
@@ -269,7 +276,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_sa_004",
@@ -296,7 +304,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_la_001",
@@ -334,7 +343,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_dia_001",
@@ -366,7 +376,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_ar_001",
@@ -407,7 +418,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_vgp_mcq_001",
@@ -447,7 +459,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "vegetative_propagation"
     },
     {
       "id": "chap7_vgp_sa_001",
@@ -475,7 +488,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "vegetative_propagation"
     },
     {
       "id": "chap7_srp_mcq_001",
@@ -514,7 +528,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_mcq_002",
@@ -554,7 +569,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_sa_001",
@@ -582,7 +598,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_sa_002",
@@ -616,7 +633,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_sa_003",
@@ -644,7 +662,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_la_001",
@@ -687,7 +706,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_dia_001",
@@ -720,7 +740,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap7_srp_dia_001.svg"
+      "diagram_path": "chap7_srp_dia_001.svg",
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_ar_001",
@@ -760,7 +781,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_hre_mcq_001",
@@ -800,7 +822,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_mcq_002",
@@ -840,7 +863,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_sa_001",
@@ -867,7 +891,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_sa_002",
@@ -903,7 +928,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_sa_003",
@@ -932,7 +958,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_num_001",
@@ -968,7 +995,8 @@
         "units": "day of cycle",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_la_001",
@@ -1007,7 +1035,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_dia_001",
@@ -1039,7 +1068,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap7_hre_dia_001.svg"
+      "diagram_path": "chap7_hre_dia_001.svg",
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_rph_mcq_001",
@@ -1079,7 +1109,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     },
     {
       "id": "chap7_rph_sa_001",
@@ -1114,7 +1145,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     },
     {
       "id": "chap7_rph_sa_002",
@@ -1142,7 +1174,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     },
     {
       "id": "chap7_rph_la_001",
@@ -1178,7 +1211,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     },
     {
       "id": "chap7_rph_num_001",
@@ -1214,7 +1248,8 @@
         "units": "days",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     },
     {
       "id": "chap7_dcv_mcq_101",
@@ -1255,7 +1290,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dna_copying_variation"
     },
     {
       "id": "chap7_dcv_sa_101",
@@ -1283,7 +1319,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "dna_copying_variation"
     },
     {
       "id": "chap7_asr_mcq_101",
@@ -1322,7 +1359,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_mcq_102",
@@ -1363,7 +1401,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_mcq_103",
@@ -1403,7 +1442,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_sa_101",
@@ -1429,7 +1469,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_sa_102",
@@ -1457,7 +1498,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_sa_103",
@@ -1483,7 +1525,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_asr_num_101",
@@ -1519,7 +1562,8 @@
         "units": "cells",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "asexual_reproduction"
     },
     {
       "id": "chap7_vgp_mcq_101",
@@ -1559,7 +1603,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "vegetative_propagation"
     },
     {
       "id": "chap7_vgp_sa_101",
@@ -1590,7 +1635,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "vegetative_propagation"
     },
     {
       "id": "chap7_srp_mcq_101",
@@ -1630,7 +1676,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_mcq_102",
@@ -1670,7 +1717,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_mcq_103",
@@ -1709,7 +1757,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_sa_101",
@@ -1737,7 +1786,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_sa_102",
@@ -1765,7 +1815,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_sa_103",
@@ -1799,7 +1850,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_srp_num_101",
@@ -1838,7 +1890,8 @@
         "units": "seeds",
         "answer_precision": 0
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "sexual_reproduction_plants"
     },
     {
       "id": "chap7_hre_mcq_101",
@@ -1877,7 +1930,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_mcq_102",
@@ -1917,7 +1971,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_sa_101",
@@ -1945,7 +2000,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_sa_102",
@@ -1970,7 +2026,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_sa_103",
@@ -2001,7 +2058,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_sa_104",
@@ -2031,7 +2089,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_hre_num_101",
@@ -2068,7 +2127,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "human_reproduction"
     },
     {
       "id": "chap7_rph_mcq_101",
@@ -2108,7 +2168,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     },
     {
       "id": "chap7_rph_mcq_102",
@@ -2148,7 +2209,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     },
     {
       "id": "chap7_rph_sa_101",
@@ -2177,7 +2239,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     },
     {
       "id": "chap7_rph_sa_102",
@@ -2209,7 +2272,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "reproductive_health"
     }
   ]
 }

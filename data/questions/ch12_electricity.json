@@ -40,7 +40,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_mcq_002",
@@ -81,7 +82,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_sa_001",
@@ -113,7 +115,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_sa_002",
@@ -143,7 +146,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_num_001",
@@ -189,7 +193,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_ar_001",
@@ -231,7 +236,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ohm_mcq_001",
@@ -271,7 +277,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_mcq_002",
@@ -311,7 +318,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_sa_001",
@@ -343,7 +351,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_sa_002",
@@ -378,7 +387,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_sa_003",
@@ -408,7 +418,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_sa_004",
@@ -435,7 +446,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_diagram_001",
@@ -467,7 +479,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap11_ohm_diagram_001.svg"
+      "diagram_path": "chap11_ohm_diagram_001.svg",
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_ar_001",
@@ -510,7 +523,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_sp_mcq_001",
@@ -553,7 +567,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_mcq_002",
@@ -593,7 +608,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_sa_001",
@@ -624,7 +640,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_sa_002",
@@ -655,7 +672,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_sa_003",
@@ -688,7 +706,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_num_001",
@@ -740,7 +759,8 @@
         "answer_precision": 2,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_diagram_001",
@@ -772,7 +792,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap11_sp_diagram_001.svg"
+      "diagram_path": "chap11_sp_diagram_001.svg",
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_diagram_002",
@@ -806,7 +827,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap11_sp_diagram_002.svg"
+      "diagram_path": "chap11_sp_diagram_002.svg",
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_la_001",
@@ -849,7 +871,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_sa_004",
@@ -879,7 +902,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_heat_mcq_001",
@@ -922,7 +946,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_sa_001",
@@ -956,7 +981,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_sa_002",
@@ -988,7 +1014,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_sa_003",
@@ -1022,7 +1049,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_num_001",
@@ -1070,7 +1098,8 @@
         "answer_precision": 0,
         "fixed": true
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_la_001",
@@ -1103,7 +1132,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_power_mcq_001",
@@ -1144,7 +1174,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "chap11_power_mcq_002",
@@ -1186,7 +1217,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "chap11_power_sa_001",
@@ -1220,7 +1252,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "chap11_power_sa_002",
@@ -1249,7 +1282,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "chap11_power_la_001",
@@ -1286,7 +1320,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "chap11_ecpd_und_mcq_001",
@@ -1326,7 +1361,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_und_mcq_002",
@@ -1365,7 +1401,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_und_sa_001",
@@ -1394,7 +1431,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_und_num_001",
@@ -1441,7 +1479,8 @@
           "n": "Q/1.6e-19"
         }
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ecpd_und_sa_002",
@@ -1473,7 +1512,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_current_pd"
     },
     {
       "id": "chap11_ohm_und_mcq_001",
@@ -1514,7 +1554,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_und_mcq_002",
@@ -1555,7 +1596,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_und_sa_001",
@@ -1583,7 +1625,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_und_sa_002",
@@ -1616,7 +1659,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_und_sa_003",
@@ -1645,7 +1689,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_und_sa_004",
@@ -1674,7 +1719,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_ohm_und_num_001",
@@ -1726,7 +1772,8 @@
           "Q": "I*t"
         }
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "ohms_law_resistance"
     },
     {
       "id": "chap11_sp_und_mcq_001",
@@ -1766,7 +1813,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_und_mcq_002",
@@ -1805,7 +1853,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_und_mcq_003",
@@ -1845,7 +1894,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_und_sa_001",
@@ -1877,7 +1927,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_und_sa_002",
@@ -1909,7 +1960,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap11_sp_diagram_001.svg"
+      "diagram_path": "chap11_sp_diagram_001.svg",
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_und_sa_003",
@@ -1941,7 +1993,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_und_sa_004",
@@ -1973,7 +2026,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": "chap11_sp_diagram_002.svg"
+      "diagram_path": "chap11_sp_diagram_002.svg",
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_sp_und_num_001",
@@ -2029,7 +2083,8 @@
           "Ip": "V/Rp"
         }
       },
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "series_parallel"
     },
     {
       "id": "chap11_heat_und_mcq_001",
@@ -2069,7 +2124,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_und_mcq_002",
@@ -2111,7 +2167,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_und_sa_001",
@@ -2142,7 +2199,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_und_sa_002",
@@ -2170,7 +2228,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_heat_und_sa_003",
@@ -2203,7 +2262,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "heating_effect"
     },
     {
       "id": "chap11_power_und_mcq_001",
@@ -2248,7 +2308,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "chap11_power_und_mcq_002",
@@ -2288,7 +2349,8 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "chap11_power_und_sa_001",
@@ -2319,7 +2381,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "chap11_power_und_sa_002",
@@ -2353,7 +2416,8 @@
         }
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "topic": "electric_power"
     },
     {
       "id": "electricity_cb_001",
@@ -2384,7 +2448,9 @@
         "partial_marks": {}
       },
       "template_params": null,
-      "diagram_path": null
+      "diagram_path": null,
+      "use_for": "test",
+      "topic": "electric_current_pd"
     }
   ]
 }

@@ -107,20 +107,29 @@ def run_index():
             if not qid:
                 continue
 
-            qtype  = infer_type(q)
-            marks  = MARKS_BY_TYPE.get(qtype, 2)
-            rubric = q.get("rubric") or {}
+            qtype   = infer_type(q)
+            marks   = MARKS_BY_TYPE.get(qtype, 2)
+            rubric  = q.get("rubric") or {}
+            use_for = q.get("use_for", "")
+
+            # Infer use_for from ID if not set in JSON
+            if not use_for:
+                qid_lower = qid.lower()
+                if "_und_" in qid_lower or "und_" in qid_lower:
+                    use_for = "understanding"
+                elif "_test_" in qid_lower or qid_lower.startswith("t_"):
+                    use_for = "test"
 
             cur.execute("""
                 INSERT OR REPLACE INTO question_index
                 (id, chapter, topic, type, difficulty, marks, board_weightage,
                  source, board_years, has_diagram, has_template,
-                 times_served, last_served_at, approved, tags)
-                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+                 times_served, last_served_at, approved, tags, use_for)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
             """, (
                 qid,
                 chapter_id,
-                rubric.get("topic", ""),       # topic rarely in content JSON
+                q.get("topic", rubric.get("topic", "")),  # topic from question or rubric
                 qtype,
                 2,                             # default mid difficulty
                 marks,
@@ -133,6 +142,7 @@ def run_index():
                 None,
                 1,                             # approved
                 "",
+                use_for,
             ))
             count += 1
 

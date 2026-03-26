@@ -122,6 +122,8 @@ def init_db():
         "ALTER TABLE answers ADD COLUMN override_note  TEXT DEFAULT ''",
         # Phase 6
         "ALTER TABLE student_profile ADD COLUMN badges JSON DEFAULT '[]'",
+        # Phase 7 — add use_for to question_index for test/understanding filtering
+        "ALTER TABLE question_index ADD COLUMN use_for TEXT NOT NULL DEFAULT ''",
     ]
     for _m in _migrations:
         try:
