@@ -42,6 +42,8 @@ frontend/src/**/*.js
 # streaks, topic data, and student profile. Changes constantly — not suitable
 # for version control. Recreated via: python -m backend.scripts.import_questions
 data/*.db
+data/*.db-shm
+data/*.db-wal
 
 # ── Student uploads and generated PDFs ───────────────────────────────────────
 # Written at runtime when students upload answer sheets or generate test papers.
