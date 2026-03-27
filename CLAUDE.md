@@ -35,17 +35,22 @@ npm run dev
 | Table | Purpose |
 |---|---|
 | `question_index` | Metadata + usage stats for every question |
-| `assessments` | One row per session (Understanding / Chapter Test / Mock) |
+| `assessments` | One row per session (Understanding / Chapter Test / Mock / Spark) |
 | `answers` | One row per question answer within a session |
 | `student_profile` | Single row (id=1) — XP, streaks, topic scores, guidance cache |
+| `spark_history` | Question stems asked in past Spark sessions — used to prevent repetition |
+
+#### `assessments.spark_questions` (Spark only)
+Spark sessions store their AI-generated questions directly on the assessments row as JSON (`spark_questions` column). Spark does **not** use `question_index` or `answers` — questions are fully AI-generated and ephemeral.
 
 ### Key indexes on `question_index`
 - `(chapter, topic, type, difficulty, approved)` — fast paper generation queries
 - `(times_served, last_served_at)` — anti-repetition rotation
 
-### AI calls — strict 2-call budget per session
+### AI calls — strict 2-call budget per session (+ 1 for Spark)
 - **Understanding**: Call 1 = question selection + fresh numericals; Call 2 = evaluate subjective answers
 - **Chapter Test / Mock**: Call 1 = PDF OCR + intelligent split; Call 2 = score + improvement suggestions
+- **Daily Spark**: 1 AI call per session — generates all 10 MCQs + explanations upfront; outside the 2-call session budget
 - Paper generation (Chapter Test / Mock) is **deterministic — no AI**
 - All AI calls are stubbed in `backend/services/ai_stub.py` — replace stubs in Phase 2
 
@@ -75,6 +80,33 @@ Total board marks: 84 (Chemistry 27 + Biology 27 + Physics 27 + Env Science 3)
 
 ## Build phases
 - **Phase 1** (complete): folder structure, DB schema, JSON stubs, FastAPI skeleton, React skeleton, import script
-- **Phase 2**: Understanding Sessions — real AI question selection, session flow, auto-grading, feedback
-- **Phase 3**: Chapter Tests — balanced paper generation, PDF upload, Claude Vision OCR, evaluation
-- **Phase 4**: Full Mock Test — CBSE 2026 paper pattern, 3-hour session, comprehensive results
+- **Phase 2** (complete): Understanding Sessions — real AI question selection, session flow, auto-grading, feedback
+- **Phase 3** (complete): Chapter Tests — balanced paper generation, PDF upload, Claude Vision OCR, evaluation
+- **Phase 4** (complete): Full Mock Test — CBSE 2026 paper pattern, 3-hour session, comprehensive results
+- **Spark** (complete): Daily Spark micro-mode — 10 AI-generated MCQs, topic rotation by attempts, anti-repetition via stem history, day-based question mix
+
+## Daily Spark feature
+- Route: `GET /api/spark/today`, `POST /api/spark/start`, `POST /api/spark/{id}/complete`
+- Topic rotation: picks topic with fewest `topic_attempts`; tie-break by oldest `topic_last_tested`
+- Anti-repetition: last 30 question stems per topic stored in `spark_history` and passed to AI prompt
+- Question mix varies by day of week (7 different mixes — formula recall / conceptual / traps / mind-twisters / scenarios)
+- Fallback (no AI key): pulls real MCQs from `question_index` and converts them to Spark format
+- Completion credits streak + 10 XP per correct answer
+- Dashboard shows a Spark banner (green = done today, amber = not yet done)
+
+## Board Exam Countdown Widget
+- Route: `GET /api/student/countdown`
+- Exam date hardcoded: 2026-12-31
+- Projected score auto-calculated from `analytics.get_exam_readiness()` — out of 84 board marks, no student input
+- Pace label derived from session frequency over last 28 days: Getting Started / Behind / On Track / Ahead
+- Weekly targets: 2 Understanding Sessions + 1 Chapter Test (Mon–Sun window)
+- Weekly done count queries `assessments` table filtered by this week and type
+- Advice line tells exactly what's left to hit the weekly target
+- Shown as a slim card on the dashboard between the Spark banner and Quick Start
+
+## Understanding Session — diagram question exclusion
+- `question_selector.py`: `select_candidates()` passes `exclude_diagram=True` when `session_type="understanding"`
+- `get_eligible_questions()` adds `AND has_diagram=0` to the SQL query when `exclude_diagram=True`
+- `index_questions.py`: `requires_diagram()` detects both `diagram_path` presence AND draw/sketch keywords in question text
+- Re-run `python -m backend.scripts.index_questions` after any question data change to refresh flags
+- Chapter Tests and Mock Tests are unaffected — diagram questions remain eligible there

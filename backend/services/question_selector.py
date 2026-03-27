@@ -51,6 +51,7 @@ def get_eligible_questions(
     chapter: str,
     topic: Optional[str],
     recently_served: set[str],
+    exclude_diagram: bool = False,
 ) -> list[dict]:
     conn = get_db()
     params: list = [chapter]
@@ -58,6 +59,8 @@ def get_eligible_questions(
     if topic:
         query += " AND topic=?"
         params.append(topic)
+    if exclude_diagram:
+        query += " AND has_diagram=0"
     rows = conn.execute(query, params).fetchall()
     conn.close()
 
@@ -116,10 +119,11 @@ def select_candidates(
     recently_served = get_recently_served_ids(recent_ids)
     last_topics = get_last_session_topics(recent_ids)
 
-    eligible = get_eligible_questions(chapter, topic, recently_served)
+    no_diagram = (session_type == "understanding")
+    eligible = get_eligible_questions(chapter, topic, recently_served, exclude_diagram=no_diagram)
     if not eligible:
         # Fallback: ignore anti-repetition if pool is too small
-        eligible = get_eligible_questions(chapter, topic, set())
+        eligible = get_eligible_questions(chapter, topic, set(), exclude_diagram=no_diagram)
 
     weighted = compute_weights(eligible, topic_scores, last_topics)
     weighted.sort(key=lambda x: x[1], reverse=True)

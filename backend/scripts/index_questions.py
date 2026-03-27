@@ -48,6 +48,19 @@ MARKS_BY_TYPE = {
 }
 
 
+_DRAW_PATTERN = re.compile(
+    r'\b(draw|sketch|label|labelled diagram|ray diagram|circuit diagram|draw the)\b',
+    re.IGNORECASE,
+)
+
+def requires_diagram(q: dict) -> bool:
+    """True if question has a diagram image OR asks the student to draw/sketch."""
+    if q.get("diagram_path"):
+        return True
+    text = q.get("text") or ""
+    return bool(_DRAW_PATTERN.search(text))
+
+
 def infer_type(q: dict) -> str:
     """Infer question type from ID pattern and options presence."""
     qid = q.get("id", "").lower()
@@ -136,7 +149,7 @@ def run_index():
                 0.0,
                 "ncert",
                 "",
-                1 if q.get("diagram_path") else 0,
+                1 if requires_diagram(q) else 0,
                 1 if q.get("template_params") else 0,
                 0,
                 None,
