@@ -5,6 +5,7 @@ import StartSession    from './pages/StartSession'
 import TakeSession     from './pages/TakeSession'
 import UploadPDF       from './pages/UploadPDF'
 import Results         from './pages/Results'
+import SparkSession    from './pages/SparkSession'
 import AdminDashboard  from './pages/admin/AdminDashboard'
 import SessionDetail   from './pages/admin/SessionDetail'
 import QuestionBank    from './pages/admin/QuestionBank'
@@ -95,6 +96,7 @@ export default function App() {
         <Routes>
           {/* Student routes */}
           <Route path="/"                    element={<Dashboard />} />
+          <Route path="/spark"               element={<SparkSession />} />
           <Route path="/session/new"         element={<StartSession />} />
           <Route path="/session/:id"         element={<TakeSession />} />
           <Route path="/session/:id/upload"  element={<UploadPDF />} />

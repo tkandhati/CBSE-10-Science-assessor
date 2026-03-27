@@ -10,7 +10,7 @@ from contextlib import asynccontextmanager
 
 from backend.database import init_db, get_db
 from backend.services.question_loader import load_all_questions
-from backend.routers import session, admin, qbank, student
+from backend.routers import session, admin, qbank, student, spark
 
 
 def _expire_stale_sessions() -> int:
@@ -67,6 +67,7 @@ app.include_router(session.router)
 app.include_router(admin.router)
 app.include_router(qbank.router)
 app.include_router(student.router)
+app.include_router(spark.router)
 
 
 @app.get("/api/health")

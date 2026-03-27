@@ -91,6 +91,17 @@ def init_db():
         guidance_cached_at  DATETIME
     );
 
+    CREATE TABLE IF NOT EXISTS spark_history (
+        id            TEXT PRIMARY KEY,
+        chapter       TEXT NOT NULL,
+        topic         TEXT NOT NULL,
+        question_stem TEXT NOT NULL,
+        asked_on      DATE NOT NULL
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_spark_history_topic
+        ON spark_history (chapter, topic, asked_on);
+
     CREATE TABLE IF NOT EXISTS review_queue (
         id          TEXT PRIMARY KEY,
         chapter     TEXT NOT NULL,
@@ -124,6 +135,8 @@ def init_db():
         "ALTER TABLE student_profile ADD COLUMN badges JSON DEFAULT '[]'",
         # Phase 7 — add use_for to question_index for test/understanding filtering
         "ALTER TABLE question_index ADD COLUMN use_for TEXT NOT NULL DEFAULT ''",
+        # Spark feature — store AI-generated questions on the assessment row
+        "ALTER TABLE assessments ADD COLUMN spark_questions JSON DEFAULT '[]'",
     ]
     for _m in _migrations:
         try:

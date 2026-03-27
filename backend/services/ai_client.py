@@ -581,6 +581,171 @@ def _fallback_guidance(weak_topics: list, exam_readiness_score: float, days_unti
     }
 
 
+# ── Spark: Daily 10-Question Concept Check ────────────────────────────────────
+
+# Question mix by day of week (0=Mon … 6=Sun)
+_SPARK_DAY_MIXES: dict[int, dict[str, int]] = {
+    0: {"formula_recall": 4, "conceptual": 3, "trap": 3},
+    1: {"formula_recall": 2, "mind_twister": 4, "scenario": 4},
+    2: {"conceptual": 3, "true_false": 4, "close_call": 3},
+    3: {"formula_recall": 3, "conceptual": 4, "trap": 3},
+    4: {"formula_recall": 2, "mind_twister": 3, "scenario": 5},
+    5: {"conceptual": 4, "formula_recall": 3, "close_call": 3},
+    6: {"formula_recall": 2, "conceptual": 2, "mind_twister": 2, "trap": 2, "scenario": 2},
+}
+
+_SPARK_TYPE_GUIDE = {
+    "formula_recall":  "Test if the student remembers the right formula, unit, or definition.",
+    "conceptual":      "Test understanding of why/how something works — no calculation needed.",
+    "trap":            "Two options look very similar (e.g. differ only in units or sign) — test careful reading.",
+    "mind_twister":    "A fun, counterintuitive scenario that makes the student genuinely think.",
+    "true_false":      "Phrase as MCQ with True/False/Cannot determine style options — add a 'because…' clause.",
+    "scenario":        "Apply the concept to a real-world everyday situation.",
+    "close_call":      "Near-identical options — only one is exactly right (e.g. formula with a subtle sign error).",
+}
+
+
+def get_spark_day_mix() -> dict[str, int]:
+    """Return today's question-type mix (keyed by day of week)."""
+    from datetime import date
+    return _SPARK_DAY_MIXES[date.today().weekday()]
+
+
+def call_spark_generate(
+    chapter: str,
+    topic: str,
+    question_mix: dict[str, int],
+    history_stems: list[str],
+) -> list[dict]:
+    """
+    Generate 10 fresh MCQs for a Daily Spark session.
+    Each question: {type, question, options[4], correct_index, explanation}
+    Falls back to existing question_index MCQs when no AI provider is available.
+    """
+    if not _AVAILABLE:
+        return _fallback_spark(chapter, topic)
+
+    mix_desc = ", ".join(
+        f"{count} {qtype.replace('_', ' ')}" for qtype, count in question_mix.items()
+    )
+    type_guide = "\n".join(
+        f"- {k}: {v}" for k, v in _SPARK_TYPE_GUIDE.items() if k in question_mix
+    )
+    history_note = ""
+    if history_stems:
+        stems_list = "\n".join(f"- {s}" for s in history_stems)
+        history_note = (
+            f"\n\nIMPORTANT — do NOT repeat or closely paraphrase these "
+            f"{len(history_stems)} previously asked questions:\n{stems_list}"
+        )
+
+    prompt = f"""You are generating a Daily Spark — a 10-question MCQ concept check for a CBSE Class 10 Science student.
+
+Chapter: {chapter.replace('_', ' ').title()}
+Topic: {topic.replace('_', ' ').title()}
+
+Question mix today: {mix_desc}
+
+Question type definitions:
+{type_guide}
+
+Rules:
+- Exactly 10 questions, exactly 4 options each
+- Tone: engaging quiz, not an exam — make him want to answer the next one
+- Each explanation: state WHY the correct answer is right AND why the most tempting wrong option is wrong (1-2 sentences)
+- Difficulty: makes him think but doesn't panic him — no full calculations required
+- Do NOT number the questions in the text{history_note}
+
+Return ONLY valid JSON (no markdown, no commentary):
+{{
+  "questions": [
+    {{
+      "type": "conceptual",
+      "question": "Question text here",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "correct_index": 2,
+      "explanation": "Correct because... Option A is tempting but wrong because..."
+    }}
+  ]
+}}"""
+
+    try:
+        text = _call_text(prompt, max_tokens=3500)
+        result = _parse_json_response(text)
+        questions = result.get("questions", [])
+        # Validate each question has required fields
+        valid = [
+            q for q in questions
+            if q.get("question") and len(q.get("options", [])) == 4
+            and isinstance(q.get("correct_index"), int)
+        ]
+        if len(valid) >= 8:
+            return valid[:10]
+        print(f"[ai_client] call_spark_generate returned {len(valid)} valid questions — using fallback")
+        return _fallback_spark(chapter, topic)
+    except Exception as exc:
+        print(f"[ai_client] call_spark_generate failed ({_PROVIDER}): {exc} — using fallback")
+        return _fallback_spark(chapter, topic)
+
+
+def _fallback_spark(chapter: str, topic: str) -> list[dict]:
+    """
+    Fallback: pull existing approved MCQs from question_index + JSON store.
+    Converts them to spark format so the feature works without an AI key.
+    """
+    from backend.database import get_db
+    from backend.services import question_loader
+
+    conn = get_db()
+    rows = conn.execute(
+        """SELECT id FROM question_index
+           WHERE chapter=? AND topic=? AND type='mcq' AND approved=1
+           ORDER BY RANDOM() LIMIT 10""",
+        (chapter, topic),
+    ).fetchall()
+
+    # Widen to full chapter if not enough topic-specific questions
+    if len(rows) < 5:
+        rows = conn.execute(
+            """SELECT id FROM question_index
+               WHERE chapter=? AND type='mcq' AND approved=1
+               ORDER BY RANDOM() LIMIT 10""",
+            (chapter,),
+        ).fetchall()
+    conn.close()
+
+    questions = []
+    for row in rows:
+        q = question_loader._question_store.get(row["id"], {})
+        opts = q.get("options") or []
+        if len(opts) < 2:
+            continue
+        correct_index = next((i for i, o in enumerate(opts) if o.get("is_correct")), 0)
+        explanation = (
+            (q.get("rubric") or {}).get("expected_answer")
+            or "Review your notes for the correct answer."
+        )
+        questions.append({
+            "type": "conceptual",
+            "question": q.get("text", ""),
+            "options": [o.get("text", "") for o in opts[:4]],
+            "correct_index": correct_index,
+            "explanation": explanation,
+        })
+
+    # Pad to 10 if needed
+    while len(questions) < 10:
+        questions.append({
+            "type": "conceptual",
+            "question": f"[No AI key configured — add ANTHROPIC_API_KEY for fresh Spark questions on {topic.replace('_', ' ')}.]",
+            "options": ["True", "False", "Cannot determine", "Depends on context"],
+            "correct_index": 0,
+            "explanation": "Set ANTHROPIC_API_KEY in your environment to enable AI-generated Spark questions.",
+        })
+
+    return questions[:10]
+
+
 # ── PDF Question Extraction (qbank) ───────────────────────────────────────────
 
 def call_extract_questions_from_pdf(pdf_bytes: bytes) -> list:
