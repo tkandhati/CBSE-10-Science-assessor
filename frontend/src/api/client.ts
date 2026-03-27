@@ -79,6 +79,44 @@ export function getSyllabus() {
   )
 }
 
+// ── Countdown API ─────────────────────────────────────────────────────────────
+
+export interface CountdownData {
+  days_remaining: number
+  exam_date: string
+  projected_score: number
+  projected_max: number
+  pace_label: 'Getting Started' | 'Behind' | 'On Track' | 'Ahead'
+  weekly_target: { understanding: number; chapter_test: number }
+  weekly_done:   { understanding: number; chapter_test: number }
+  advice: string
+}
+
+export function getCountdown(): Promise<CountdownData> {
+  return request('/student/countdown')
+}
+
+// ── Daily Spark API ───────────────────────────────────────────────────────────
+
+export function sparkTodayStatus(): Promise<{ completed_today: boolean; session_id: string | null }> {
+  return request('/spark/today')
+}
+
+export function startSpark(): Promise<{ session_id: string; chapter: string; topic: string; questions: any[] }> {
+  return request('/spark/start', { method: 'POST' })
+}
+
+export function completeSpark(
+  sessionId: string,
+  correctCount: number,
+): Promise<{ status: string; xp_gained: number; current_streak: number; total_xp: number }> {
+  return request(`/spark/${sessionId}/complete`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ correct_count: correctCount }),
+  })
+}
+
 // ── Admin API ─────────────────────────────────────────────────────────────────
 
 export function getAdminDashboard(): Promise<AdminDashboardData> {

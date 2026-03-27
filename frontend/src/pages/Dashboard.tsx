@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { getAdminDashboard, getTopicStrengths, getAdminSessions, getActiveSession } from '../api/client'
+import { getAdminDashboard, getTopicStrengths, getAdminSessions, getActiveSession, sparkTodayStatus, getCountdown } from '../api/client'
 import type { AdminDashboardData, TopicStrengthsData } from '../types'
+import type { CountdownData } from '../api/client'
 
 interface StudentProfile {
   name: string
@@ -120,6 +121,82 @@ function formatDate(iso: string | null) {
   return new Date(iso).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })
 }
 
+const PACE_STYLE: Record<string, string> = {
+  'Getting Started': 'text-gray-600 bg-gray-100 border-gray-200',
+  'Behind':          'text-red-700   bg-red-50   border-red-200',
+  'On Track':        'text-green-700 bg-green-50 border-green-200',
+  'Ahead':           'text-blue-700  bg-blue-50  border-blue-200',
+}
+
+function CountdownWidget({ data }: { data: CountdownData }) {
+  const { days_remaining, projected_score, projected_max, pace_label,
+          weekly_target, weekly_done, advice } = data
+
+  const weeks = Math.floor(days_remaining / 7)
+  const scorePct = Math.round(projected_score / projected_max * 100)
+
+  function Pips({ done, total }: { done: number; total: number }) {
+    return (
+      <span className="inline-flex gap-0.5 ml-1">
+        {Array.from({ length: total }).map((_, i) => (
+          <span key={i} className={`inline-block w-2 h-2 rounded-full ${i < done ? 'bg-current' : 'bg-gray-300'}`} />
+        ))}
+      </span>
+    )
+  }
+
+  return (
+    <div className="mb-6 bg-white rounded-xl border px-5 py-4 flex flex-wrap items-center gap-x-6 gap-y-3">
+      {/* Days block */}
+      <div className="flex items-baseline gap-1.5 shrink-0">
+        <span className="text-3xl font-bold text-gray-800">{days_remaining}</span>
+        <span className="text-xs text-gray-400 leading-tight">days to<br />board exam</span>
+      </div>
+
+      <div className="w-px h-10 bg-gray-200 hidden sm:block" />
+
+      {/* Projected score */}
+      <div className="shrink-0">
+        <p className="text-xs text-gray-400 mb-0.5">Projected score</p>
+        <p className="text-sm font-semibold text-gray-700">
+          {projected_score} <span className="text-gray-400 font-normal">/ {projected_max}</span>
+          <span className="ml-1.5 text-xs text-gray-400">({scorePct}%)</span>
+        </p>
+      </div>
+
+      <div className="w-px h-10 bg-gray-200 hidden sm:block" />
+
+      {/* Pace + weeks */}
+      <div className="shrink-0">
+        <span className={`text-xs font-semibold px-2 py-0.5 rounded-full border ${PACE_STYLE[pace_label] ?? PACE_STYLE['On Track']}`}>
+          {pace_label}
+        </span>
+        <p className="text-xs text-gray-400 mt-1">{weeks} weeks left</p>
+      </div>
+
+      <div className="w-px h-10 bg-gray-200 hidden sm:block" />
+
+      {/* Weekly targets */}
+      <div className="shrink-0">
+        <p className="text-xs text-gray-400 mb-1">This week</p>
+        <div className="flex gap-4 text-xs text-gray-600">
+          <span>
+            Understanding
+            <Pips done={Math.min(weekly_done.understanding, weekly_target.understanding)} total={weekly_target.understanding} />
+          </span>
+          <span>
+            Chapter Test
+            <Pips done={Math.min(weekly_done.chapter_test, weekly_target.chapter_test)} total={weekly_target.chapter_test} />
+          </span>
+        </div>
+      </div>
+
+      {/* Advice */}
+      <p className="text-xs text-gray-500 italic w-full sm:w-auto sm:flex-1">{advice}</p>
+    </div>
+  )
+}
+
 export default function Dashboard() {
   const navigate = useNavigate()
   const [profile, setProfile]   = useState<StudentProfile | null>(null)
@@ -128,6 +205,8 @@ export default function Dashboard() {
   const [topics,  setTopics]    = useState<TopicStrengthsData | null>(null)
   const [recentSessions, setRecentSessions] = useState<any[]>([])
   const [activeTestId, setActiveTestId] = useState<string | null>(null)
+  const [sparkDone,    setSparkDone]    = useState(false)
+  const [countdown,    setCountdown]    = useState<CountdownData | null>(null)
   const [loading, setLoading]   = useState(true)
   const [error,   setError]     = useState('')
 
@@ -139,7 +218,9 @@ export default function Dashboard() {
       getTopicStrengths().catch(() => null),
       getAdminSessions({ limit: 5 }).catch(() => ({ sessions: [] })),
       getActiveSession().catch(() => ({ active_session_id: null })),
-    ]).then(([prof, bdg, d, t, sess, active]) => {
+      sparkTodayStatus().catch(() => ({ completed_today: false })),
+      getCountdown().catch(() => null),
+    ]).then(([prof, bdg, d, t, sess, active, spark, cd]) => {
       if (prof) setProfile(prof)
       setBadges((bdg?.badges ?? []) as BadgeInfo[])
       if (d) setDash(d)
@@ -148,6 +229,8 @@ export default function Dashboard() {
       if ((active as any)?.active_session_id) {
         setActiveTestId((active as any).active_session_id)
       }
+      setSparkDone((spark as any)?.completed_today ?? false)
+      if (cd) setCountdown(cd as CountdownData)
     }).catch(e => setError(e.message))
       .finally(() => setLoading(false))
   }, [])
@@ -203,6 +286,37 @@ export default function Dashboard() {
           </div>
         )}
       </div>
+
+      {/* Daily Spark banner */}
+      <div className={`mb-6 rounded-xl border-2 p-4 flex items-center justify-between gap-4
+        ${sparkDone
+          ? 'border-green-300 bg-green-50'
+          : 'border-amber-400 bg-amber-50'}`}>
+        <div className="flex items-center gap-3">
+          <span className="text-2xl">{sparkDone ? '✅' : '⚡'}</span>
+          <div>
+            <p className="font-semibold text-sm text-gray-800">
+              {sparkDone ? "Today's Spark done!" : "Daily Spark — 10 quick questions"}
+            </p>
+            <p className="text-xs text-gray-500 mt-0.5">
+              {sparkDone
+                ? 'Streak safe. Come back tomorrow!'
+                : '5 min · MCQ only · keeps your streak alive'}
+            </p>
+          </div>
+        </div>
+        {!sparkDone && (
+          <button
+            onClick={() => navigate('/spark')}
+            className="shrink-0 bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+          >
+            Start Spark
+          </button>
+        )}
+      </div>
+
+      {/* Board exam countdown */}
+      {countdown && <CountdownWidget data={countdown} />}
 
       {/* Quick start */}
       <div className="mb-6">
