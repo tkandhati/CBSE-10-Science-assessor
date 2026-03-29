@@ -1,5 +1,4 @@
 import { Routes, Route, NavLink, useLocation } from 'react-router-dom'
-import { useState, useEffect } from 'react'
 import Dashboard       from './pages/Dashboard'
 import StartSession    from './pages/StartSession'
 import TakeSession     from './pages/TakeSession'
@@ -11,7 +10,6 @@ import SessionDetail   from './pages/admin/SessionDetail'
 import QuestionBank    from './pages/admin/QuestionBank'
 import StudyGuidance   from './pages/admin/StudyGuidance'
 import TopicStrengths  from './pages/admin/TopicStrengths'
-import { getActiveSession } from './api/client'
 
 const adminLinks = [
   { to: '/admin',           label: 'Dashboard' },
@@ -24,23 +22,8 @@ const adminLinks = [
 function Nav() {
   const loc = useLocation()
   const isAdmin = loc.pathname.startsWith('/admin')
-  const [activeTestId, setActiveTestId] = useState<string | null>(null)
-
-  useEffect(() => {
-    getActiveSession()
-      .then(r => {
-        if (r.active_session_id && (r.status === 'in_progress' || r.status === 'awaiting_upload')) {
-          setActiveTestId(r.active_session_id)
-        } else {
-          setActiveTestId(null)
-        }
-      })
-      .catch(() => setActiveTestId(null))
-  }, [loc.pathname])
-
   const studentLinks = [
     { to: '/', label: 'Dashboard' },
-    ...(activeTestId ? [{ to: `/session/${activeTestId}`, label: 'Resume Test' }] : []),
   ]
 
   const activeClass = 'border-b-2 border-blue-600 text-blue-700 font-semibold'
