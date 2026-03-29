@@ -676,10 +676,9 @@ Return ONLY valid JSON (no markdown, no commentary):
 }}"""
 
     try:
-        text = _call_text(prompt, max_tokens=3500)
+        text = _call_text(prompt, max_tokens=6000)
         result = _parse_json_response(text)
         questions = result.get("questions", [])
-        # Validate each question has required fields
         # Backfill hint/solution_approach if AI omitted them (graceful degradation)
         for q in questions:
             if not q.get("hint"):
@@ -691,6 +690,8 @@ Return ONLY valid JSON (no markdown, no commentary):
             if q.get("question") and len(q.get("options", [])) == 4
             and isinstance(q.get("correct_index"), int)
         ]
+        hints_present = sum(1 for q in valid if q.get("hint"))
+        print(f"[ai_client] call_spark_generate: {len(valid)} questions, {hints_present} with hints")
         if len(valid) >= 8:
             return valid[:10]
         print(f"[ai_client] call_spark_generate returned {len(valid)} valid questions — using fallback")
