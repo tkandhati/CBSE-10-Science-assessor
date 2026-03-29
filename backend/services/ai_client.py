@@ -584,24 +584,25 @@ def _fallback_guidance(weak_topics: list, exam_readiness_score: float, days_unti
 # ── Spark: Daily 10-Question Concept Check ────────────────────────────────────
 
 # Question mix by day of week (0=Mon … 6=Sun)
+# Weighted toward application and reasoning — prepares for chapter tests and mocks
 _SPARK_DAY_MIXES: dict[int, dict[str, int]] = {
-    0: {"formula_recall": 4, "conceptual": 3, "trap": 3},
-    1: {"formula_recall": 2, "mind_twister": 4, "scenario": 4},
-    2: {"conceptual": 3, "true_false": 4, "close_call": 3},
-    3: {"formula_recall": 3, "conceptual": 4, "trap": 3},
-    4: {"formula_recall": 2, "mind_twister": 3, "scenario": 5},
-    5: {"conceptual": 4, "formula_recall": 3, "close_call": 3},
-    6: {"formula_recall": 2, "conceptual": 2, "mind_twister": 2, "trap": 2, "scenario": 2},
+    0: {"application": 3, "reasoning_chain": 3, "predict_outcome": 2, "exam_style": 2},
+    1: {"application": 3, "mind_twister": 3, "spot_the_error": 2, "connect_concepts": 2},
+    2: {"reasoning_chain": 3, "predict_outcome": 3, "application": 2, "exam_style": 2},
+    3: {"application": 4, "spot_the_error": 3, "mind_twister": 3},
+    4: {"exam_style": 4, "reasoning_chain": 3, "connect_concepts": 3},
+    5: {"application": 3, "predict_outcome": 3, "spot_the_error": 2, "mind_twister": 2},
+    6: {"application": 2, "reasoning_chain": 2, "predict_outcome": 2, "exam_style": 2, "mind_twister": 2},
 }
 
 _SPARK_TYPE_GUIDE = {
-    "formula_recall":  "Test if the student remembers the right formula, unit, or definition.",
-    "conceptual":      "Test understanding of why/how something works — no calculation needed.",
-    "trap":            "Two options look very similar (e.g. differ only in units or sign) — test careful reading.",
-    "mind_twister":    "A fun, counterintuitive scenario that makes the student genuinely think.",
-    "true_false":      "Phrase as MCQ with True/False/Cannot determine style options — add a 'because…' clause.",
-    "scenario":        "Apply the concept to a real-world everyday situation.",
-    "close_call":      "Near-identical options — only one is exactly right (e.g. formula with a subtle sign error).",
+    "application":      "Present a real situation or mini-problem — student applies the concept to figure out what happens or what's correct. Never 'what is X' — always 'given this setup, what occurs and why'.",
+    "reasoning_chain":  "Multi-step thinking in MCQ form — student must reason through 2-3 connected steps. The 4 options represent different points where the reasoning could go wrong, teaching the full chain.",
+    "predict_outcome":  "Describe a scenario then ask what happens next / what changes / what would be observed. Forces cause-and-effect thinking — exactly the skill needed in board exams.",
+    "spot_the_error":   "Give a student's statement, experiment setup, or explanation that has a flaw. Student must identify what's wrong and why — builds critical thinking.",
+    "connect_concepts": "Bridge two concepts from the topic — student must see the relationship between them, not recall each in isolation. Builds the mental map for the full chapter.",
+    "mind_twister":     "A counterintuitive scenario where the correct answer feels surprising — deeper understanding clicks when the student sees why.",
+    "exam_style":       "CBSE board exam style application question compressed into MCQ — the exact thinking pattern needed for chapter tests and mocks. Model it on real board paper style.",
 }
 
 
@@ -649,28 +650,34 @@ Question mix today: {mix_desc}
 Question type definitions:
 {type_guide}
 
-Rules:
-- Exactly 10 questions, exactly 4 options each
-- Tone: a favourite teacher running a fun quiz — warm, encouraging, a little playful. Make the student genuinely want to answer the next one. Never clinical or exam-like.
-- Difficulty: makes him think but never panics him — no full calculations required
-- Do NOT number the questions in the text{history_note}
+Spark has TWO objectives:
+1. PRIMARY — deep engagement and learning: every question makes him think and reason, not just recall a fact. He should feel the satisfaction of working something out.
+2. SECONDARY — builds exam readiness: the thinking patterns here directly transfer to chapter tests and board exam questions.
+
+Question design rules:
+- Frame every question as a MINI-PROBLEM, not a fact check. "Given this situation..." not "What is X?"
+- The 4 options must represent DIFFERENT REASONING PATHS — each wrong option should reflect a specific misconception or step where real students go wrong.
+- No full calculations — but logical reasoning with numbers is fine (e.g. "R doubles, V stays same — what happens to I?")
+- Difficulty: makes him think but never panics him
+- Tone: favourite teacher running a fun quiz — warm, encouraging, a little playful. Never clinical.
+- Do NOT number the questions{history_note}
 
 For each question provide THREE support fields:
-1. hint: A warm one-sentence nudge from a favourite teacher — specific to THIS question, activates the exact mental model needed to reason through it. Never generic ("think carefully", "remember the formula"). Must reference the actual concept, relationship, or mechanism in the question. E.g. for a resistance question: "Psst — what does the formula tell you happens to resistance when the wire gets longer?" For a photosynthesis question: "Hint: where exactly in the leaf does the light reaction happen — and why does that matter here?"
-2. solution_approach: Shown after answering — the favourite teacher explaining the thinking path in 2-3 sentences. If wrong: "Good try! Here's the cool part…". If right: reinforce WHY it's right and what insight it shows. Build the mental model, not just confirm the answer.
-3. explanation: One crisp sentence — why correct is correct, why the top wrong option tricks people.
+1. hint: One warm sentence — specific to THIS question. Must activate the exact mental model or reasoning start-point needed. Never generic. Reference the actual concept/relationship in the question. E.g. "Psst — if resistance doubles but voltage stays the same, what does Ohm's law say must happen to current?"
+2. solution_approach: Walk through the full reasoning chain in 2-3 sentences AFTER the answer — showing HOW a good thinker works through it step by step. This builds exam technique, not just answer confirmation.
+3. explanation: One crisp sentence — why the correct answer is right and why the most tempting wrong option misleads.
 
 Return ONLY valid JSON (no markdown, no commentary):
 {{
   "questions": [
     {{
-      "type": "conceptual",
-      "question": "Question text here",
-      "options": ["Option A", "Option B", "Option C", "Option D"],
-      "correct_index": 2,
-      "hint": "Think about which variable in the formula stays constant here.",
-      "solution_approach": "First identify what is given and what changes. Then apply the formula — notice that if X is fixed, increasing Y must decrease Z proportionally. That rules out two options immediately.",
-      "explanation": "Correct because... Option A is tempting but wrong because..."
+      "type": "application",
+      "question": "A student connects a 6V battery to two resistors of 2Ω and 4Ω in series, then removes the 2Ω resistor. What happens to the current through the 4Ω resistor?",
+      "options": ["It doubles", "It increases but does not double", "It stays the same", "It decreases"],
+      "correct_index": 1,
+      "hint": "First find total resistance before and after removing the resistor — then apply V=IR both times.",
+      "solution_approach": "Before: total R=6Ω, so I=6/6=1A. After removing 2Ω: total R=4Ω, so I=6/4=1.5A. Current increased by 50%, not doubled. The key move was calculating both states separately — that's exactly the method for any 'what changes' question in board exams.",
+      "explanation": "Current rises from 1A to 1.5A — an increase but not doubling. Students who pick 'doubles' are halving R mentally without checking the actual numbers."
     }}
   ]
 }}"""
