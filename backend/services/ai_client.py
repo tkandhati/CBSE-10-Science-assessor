@@ -31,7 +31,7 @@ _google_model     = None
 _openai_client    = None
 
 _ANTHROPIC_MODEL = "claude-sonnet-4-6"
-_GOOGLE_MODEL    = "gemini-2.0-flash"
+_GOOGLE_MODEL    = "gemini-2.5-flash-preview-04-17"
 _OPENAI_MODEL    = "gpt-4o"
 
 _ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
