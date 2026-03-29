@@ -288,6 +288,14 @@ def complete_spark(session_id: str, body: CompleteBody):
         )
         conn.commit()
 
+        # Purge all completed spark sessions except today's
+        conn.execute(
+            """DELETE FROM assessments
+               WHERE type='spark' AND status='completed'
+                 AND date(completed_at) != date('now')"""
+        )
+        conn.commit()
+
         return {
             "status":         "completed",
             "xp_gained":      xp_gained,

@@ -746,6 +746,18 @@ def submit_session(session_id: str, req: Optional[SubmitSessionRequest] = None):
     conn4.commit()
     conn4.close()
 
+    # ── Purge: keep only last 6 completed sessions ─────────────────────────
+    conn_purge = get_db()
+    old_ids = conn_purge.execute(
+        """SELECT id FROM assessments WHERE status IN ('scored','completed')
+           ORDER BY completed_at DESC LIMIT -1 OFFSET 6"""
+    ).fetchall()
+    for (old_id,) in old_ids:
+        conn_purge.execute("DELETE FROM answers WHERE assessment_id=?", [old_id])
+        conn_purge.execute("DELETE FROM assessments WHERE id=?", [old_id])
+    conn_purge.commit()
+    conn_purge.close()
+
     # ── Update student_profile ─────────────────────────────────────────────
     profile_update = update_profile(
         answers_data=answers_data,

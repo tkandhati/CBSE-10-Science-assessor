@@ -14,6 +14,8 @@ for /f "tokens=5" %%p in ('netstat -ano ^| findstr ":8000" ^| findstr "LISTENING
     echo         Killing PID %%p
     taskkill /PID %%p /F > nul 2>&1
 )
+REM Also kill all uvicorn processes (handles --reload parent+child)
+taskkill /IM uvicorn.exe /F > nul 2>&1
 
 REM ── Kill process on port 5173 (frontend) ────────────────────────────────────
 echo  [2/2] Stopping frontend (port 5173)...

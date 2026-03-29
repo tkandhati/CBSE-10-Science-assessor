@@ -216,7 +216,7 @@ export default function Dashboard() {
       fetch('/api/student/badges').then(r => r.ok ? r.json() : { badges: [] }),
       getAdminDashboard().catch(() => null),
       getTopicStrengths().catch(() => null),
-      getAdminSessions({ limit: 5 }).catch(() => ({ sessions: [] })),
+      getAdminSessions({ limit: 6 }).catch(() => ({ sessions: [] })),
       getActiveSession().catch(() => ({ active_session_id: null })),
       sparkTodayStatus().catch(() => ({ completed_today: false })),
       getCountdown().catch(() => null),
@@ -418,13 +418,13 @@ export default function Dashboard() {
                   <th className="text-left px-4 py-2 font-medium">Type</th>
                   <th className="text-left px-4 py-2 font-medium hidden sm:table-cell">Chapter</th>
                   <th className="text-right px-4 py-2 font-medium">Score</th>
+                  <th className="text-right px-4 py-2 font-medium"></th>
                 </tr>
               </thead>
               <tbody>
                 {recentSessions.map((s: any, i: number) => (
                   <tr key={s.id}
-                    className={`border-b last:border-0 hover:bg-blue-50 cursor-pointer transition-colors ${i % 2 === 0 ? '' : 'bg-gray-50/40'}`}
-                    onClick={() => navigate(`/session/${s.id}/results`)}>
+                    className={`border-b last:border-0 hover:bg-blue-50 transition-colors ${i % 2 === 0 ? '' : 'bg-gray-50/40'}`}>
                     <td className="px-4 py-2 text-gray-500">{formatDate(s.started_at)}</td>
                     <td className="px-4 py-2">
                       <span className="text-xs font-medium text-blue-700 bg-blue-50 px-2 py-0.5 rounded-full">
@@ -438,6 +438,14 @@ export default function Dashboard() {
                       <span className={`font-semibold ${s.percentage >= 80 ? 'text-green-700' : s.percentage >= 50 ? 'text-amber-600' : 'text-red-600'}`}>
                         {s.percentage}%
                       </span>
+                    </td>
+                    <td className="px-4 py-2 text-right">
+                      <button
+                        onClick={() => navigate(`/session/${s.id}/results`)}
+                        className="text-xs text-blue-600 hover:text-blue-800 font-medium underline underline-offset-2"
+                      >
+                        Review
+                      </button>
                     </td>
                   </tr>
                 ))}
