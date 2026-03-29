@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { getAdminDashboard, getTopicStrengths, getAdminSessions, getActiveSession, sparkTodayStatus, getCountdown } from '../api/client'
+import { getAdminDashboard, getTopicStrengths, getAdminSessions, sparkTodayStatus, getCountdown } from '../api/client'
 import type { AdminDashboardData, TopicStrengthsData } from '../types'
 import type { CountdownData } from '../api/client'
 
@@ -204,7 +204,6 @@ export default function Dashboard() {
   const [dash,    setDash]      = useState<AdminDashboardData | null>(null)
   const [topics,  setTopics]    = useState<TopicStrengthsData | null>(null)
   const [recentSessions, setRecentSessions] = useState<any[]>([])
-  const [activeTestId, setActiveTestId] = useState<string | null>(null)
   const [sparkDone,    setSparkDone]    = useState(false)
   const [countdown,    setCountdown]    = useState<CountdownData | null>(null)
   const [loading, setLoading]   = useState(true)
@@ -217,18 +216,14 @@ export default function Dashboard() {
       getAdminDashboard().catch(() => null),
       getTopicStrengths().catch(() => null),
       getAdminSessions({ limit: 6 }).catch(() => ({ sessions: [] })),
-      getActiveSession().catch(() => ({ active_session_id: null })),
       sparkTodayStatus().catch(() => ({ completed_today: false })),
       getCountdown().catch(() => null),
-    ]).then(([prof, bdg, d, t, sess, active, spark, cd]) => {
+    ]).then(([prof, bdg, d, t, sess, spark, cd]) => {
       if (prof) setProfile(prof)
       setBadges((bdg?.badges ?? []) as BadgeInfo[])
       if (d) setDash(d)
       if (t) setTopics(t)
       setRecentSessions(((sess as any)?.sessions ?? []).filter((s: any) => s.type !== 'spark'))
-      if ((active as any)?.active_session_id) {
-        setActiveTestId((active as any).active_session_id)
-      }
       setSparkDone((spark as any)?.completed_today ?? false)
       if (cd) setCountdown(cd as CountdownData)
     }).catch(e => setError(e.message))
@@ -319,26 +314,6 @@ export default function Dashboard() {
       {/* Board exam countdown */}
       {countdown && <CountdownWidget data={countdown} />}
 
-      {/* Quick start */}
-      <div className="mb-6">
-        <h2 className="text-base font-semibold text-gray-700 mb-3">Quick Start</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-          {[
-            { label: 'Understanding Session', sub: '10–12 Q · instant feedback', color: 'border-blue-500 bg-blue-50 text-blue-700', to: '/session/new' },
-            { label: 'Chapter Test', sub: '14–40 marks · write on paper', color: 'border-amber-500 bg-amber-50 text-amber-700', to: '/session/new' },
-            { label: 'Full Mock Test', sub: '80 marks · 3 hours', color: 'border-purple-500 bg-purple-50 text-purple-700', to: '/session/new' },
-          ].map(btn => (
-            <button
-              key={btn.label}
-              onClick={() => navigate(activeTestId ? `/session/${activeTestId}` : btn.to)}
-              className={`p-4 rounded-xl border-2 text-left transition-all hover:shadow-sm ${btn.color}`}
-            >
-              <p className="font-semibold text-sm">{activeTestId ? `▶ Resume Test` : btn.label}</p>
-              <p className="text-xs mt-0.5 opacity-70">{activeTestId ? 'An active test is in progress' : btn.sub}</p>
-            </button>
-          ))}
-        </div>
-      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
         {/* Chapter progress rings */}
@@ -402,12 +377,18 @@ export default function Dashboard() {
 
       {/* Recent sessions */}
       <div className="mb-6">
-        <h2 className="text-base font-semibold text-gray-700 mb-3">Recent Sessions</h2>
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-base font-semibold text-gray-700">Recent Sessions</h2>
+          <button
+            onClick={() => navigate('/session/new')}
+            className="text-sm font-semibold px-4 py-1.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+          >
+            + New Session
+          </button>
+        </div>
         {recentSessions.length === 0 ? (
           <div className="bg-white rounded-xl border p-8 text-center">
             <p className="text-gray-400 text-sm">No sessions yet — start your first session!</p>
-            <button onClick={() => navigate('/session/new')}
-              className="mt-3 text-blue-600 text-sm underline">Start a session →</button>
           </div>
         ) : (
           <div className="bg-white rounded-xl border overflow-hidden">
@@ -422,7 +403,9 @@ export default function Dashboard() {
                 </tr>
               </thead>
               <tbody>
-                {recentSessions.map((s: any, i: number) => (
+                {recentSessions.map((s: any, i: number) => {
+                  const isActive = s.status === 'in_progress' || s.status === 'awaiting_upload'
+                  return (
                   <tr key={s.id}
                     className={`border-b last:border-0 hover:bg-blue-50 transition-colors ${i % 2 === 0 ? '' : 'bg-gray-50/40'}`}>
                     <td className="px-4 py-2 text-gray-500">{formatDate(s.started_at)}</td>
@@ -435,20 +418,32 @@ export default function Dashboard() {
                       {s.chapter === 'all' ? 'All chapters' : (CHAPTER_LABELS[s.chapter] ?? s.chapter)}
                     </td>
                     <td className="px-4 py-2 text-right">
-                      <span className={`font-semibold ${s.percentage >= 80 ? 'text-green-700' : s.percentage >= 50 ? 'text-amber-600' : 'text-red-600'}`}>
-                        {s.percentage}%
-                      </span>
+                      {!isActive && (
+                        <span className={`font-semibold ${s.percentage >= 80 ? 'text-green-700' : s.percentage >= 50 ? 'text-amber-600' : 'text-red-600'}`}>
+                          {s.percentage}%
+                        </span>
+                      )}
                     </td>
                     <td className="px-4 py-2 text-right">
-                      <button
-                        onClick={() => navigate(`/session/${s.id}/results`)}
-                        className="text-xs text-blue-600 hover:text-blue-800 font-medium underline underline-offset-2"
-                      >
-                        Review
-                      </button>
+                      {isActive ? (
+                        <button
+                          onClick={() => navigate(`/session/${s.id}`)}
+                          className="text-xs text-amber-600 hover:text-amber-800 font-semibold underline underline-offset-2"
+                        >
+                          Resume
+                        </button>
+                      ) : (
+                        <button
+                          onClick={() => navigate(`/session/${s.id}/results`)}
+                          className="text-xs text-blue-600 hover:text-blue-800 font-medium underline underline-offset-2"
+                        >
+                          Review
+                        </button>
+                      )}
                     </td>
                   </tr>
-                ))}
+                  )
+                })}
               </tbody>
             </table>
           </div>
