@@ -4,7 +4,8 @@ import os
 from pathlib import Path
 
 from dotenv import load_dotenv
-load_dotenv()  # loads .env from repo root before any service reads os.environ
+from pathlib import Path
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")  # always finds repo root .env
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware

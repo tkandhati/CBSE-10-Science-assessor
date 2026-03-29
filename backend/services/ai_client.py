@@ -752,7 +752,7 @@ def _fallback_spark(chapter: str, topic: str) -> list[dict]:
     while len(questions) < 10:
         questions.append({
             "type": "conceptual",
-            "question": f"[No AI key configured — add ANTHROPIC_API_KEY for fresh Spark questions on {topic.replace('_', ' ')}.]",
+            "question": f"[No AI key configured — add ANTHROPIC_API_KEY / GOOGLE_API_KEY / OPENAI_API_KEY to .env for fresh Spark questions on {topic.replace('_', ' ')}.]",
             "options": ["True", "False", "Cannot determine", "Depends on context"],
             "correct_index": 0,
             "hint": "Set ANTHROPIC_API_KEY to enable AI-generated hints.",
