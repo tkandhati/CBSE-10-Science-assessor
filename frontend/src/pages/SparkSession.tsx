@@ -241,8 +241,8 @@ export default function SparkSession() {
         </div>
       </div>
 
-      {/* Hint (shown before answering, only if student asks) */}
-      {!answered && (
+      {/* Hint (shown before answering, only if question has one) */}
+      {!answered && q.hint && (
         <div className="mb-4">
           {hintShown ? (
             <div className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">

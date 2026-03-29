@@ -656,7 +656,7 @@ Rules:
 - Do NOT number the questions in the text{history_note}
 
 For each question provide THREE support fields:
-1. hint: A warm one-sentence nudge from a favourite teacher — points to the right mental model without giving the answer away. Friendly, not textbook. E.g. "Psst — think about what happens to the particles when temperature rises."
+1. hint: A warm one-sentence nudge from a favourite teacher — specific to THIS question, activates the exact mental model needed to reason through it. Never generic ("think carefully", "remember the formula"). Must reference the actual concept, relationship, or mechanism in the question. E.g. for a resistance question: "Psst — what does the formula tell you happens to resistance when the wire gets longer?" For a photosynthesis question: "Hint: where exactly in the leaf does the light reaction happen — and why does that matter here?"
 2. solution_approach: Shown after answering — the favourite teacher explaining the thinking path in 2-3 sentences. If wrong: "Good try! Here's the cool part…". If right: reinforce WHY it's right and what insight it shows. Build the mental model, not just confirm the answer.
 3. explanation: One crisp sentence — why correct is correct, why the top wrong option tricks people.
 
@@ -683,7 +683,7 @@ Return ONLY valid JSON (no markdown, no commentary):
         # Backfill hint/solution_approach if AI omitted them (graceful degradation)
         for q in questions:
             if not q.get("hint"):
-                q["hint"] = "Think carefully about the core concept behind this topic."
+                q["hint"] = ""          # empty = hide hint button in UI
             if not q.get("solution_approach"):
                 q["solution_approach"] = q.get("explanation", "")
         valid = [
@@ -742,7 +742,7 @@ def _fallback_spark(chapter: str, topic: str) -> list[dict]:
             "question": q.get("text", ""),
             "options": [o.get("text", "") for o in opts[:4]],
             "correct_index": correct_index,
-            "hint": "Think carefully about the core concept behind this topic.",
+            "hint": "",   # fallback questions have no AI-generated hint
             "solution_approach": explanation,
             "explanation": explanation,
         })
