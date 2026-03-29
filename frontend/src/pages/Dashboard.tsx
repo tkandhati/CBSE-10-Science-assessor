@@ -51,6 +51,7 @@ const SESSION_LABEL: Record<string, string> = {
   chapter_regular: 'Regular Test', mock: 'Mock Test',
 }
 
+
 function ProgressRing({ pct, band, size = 64 }: { pct: number; band: string; size?: number }) {
   const r = (size - 10) / 2
   const circ = 2 * Math.PI * r
@@ -363,7 +364,7 @@ export default function Dashboard() {
           {dash && (
             <div className="bg-white rounded-xl border p-4 text-sm">
               <div className="flex justify-between mb-2">
-                <span className="text-gray-500">Sessions</span>
+                <span className="text-gray-500">Tests</span>
                 <span className="font-semibold text-gray-700">{dash.total_sessions}</span>
               </div>
               <div className="flex justify-between">
@@ -378,17 +379,17 @@ export default function Dashboard() {
       {/* Recent sessions */}
       <div className="mb-6">
         <div className="flex items-center justify-between mb-3">
-          <h2 className="text-base font-semibold text-gray-700">Recent Sessions</h2>
+          <h2 className="text-base font-semibold text-gray-700">Recent Tests</h2>
           <button
             onClick={() => navigate('/session/new')}
             className="text-sm font-semibold px-4 py-1.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
           >
-            + New Session
+            + New Test
           </button>
         </div>
         {recentSessions.length === 0 ? (
           <div className="bg-white rounded-xl border p-8 text-center">
-            <p className="text-gray-400 text-sm">No sessions yet — start your first session!</p>
+            <p className="text-gray-400 text-sm">No tests yet — start your first test!</p>
           </div>
         ) : (
           <div className="bg-white rounded-xl border overflow-hidden">
