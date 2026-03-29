@@ -141,6 +141,16 @@ def score_keyword(question: dict, answer_text: str) -> Optional[dict]:
     pt_coverage = len(covered) / len(key_points) if key_points else kw_density
     coverage = (kw_density + pt_coverage) / 2
     score = round(coverage * max_marks, 1)
+
+    # If student got the right final answer but skipped steps, floor score at 35%
+    expected_answer = (rubric.get("expected_answer") or "").lower().strip()
+    answer_has_correct_result = bool(
+        expected_answer and len(expected_answer) > 2 and expected_answer in answer_lower
+    )
+    min_partial = round(max_marks * 0.35, 1)
+    if answer_has_correct_result and score < min_partial:
+        score = min_partial
+
     is_correct = score >= max_marks * 0.8
 
     if score >= max_marks:
@@ -148,6 +158,9 @@ def score_keyword(question: dict, answer_text: str) -> Optional[dict]:
     elif score >= max_marks * 0.6:
         hint = missed[0][:60] if missed else "some detail"
         comment = f"Good attempt. Also mention: {hint}."
+    elif answer_has_correct_result and missed:
+        hints = "; ".join(m[:40] for m in missed[:2])
+        comment = f"Correct answer, but show your steps. Missing: {hints}."
     else:
         hints = "; ".join(m[:40] for m in missed[:2])
         comment = f"Needs more detail. Key points missed: {hints}."

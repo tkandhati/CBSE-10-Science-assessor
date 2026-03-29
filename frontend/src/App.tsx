@@ -39,8 +39,7 @@ function Nav() {
   }, [loc.pathname])
 
   const studentLinks = [
-    { to: '/',            label: 'Dashboard' },
-    { to: '/session/new', label: 'New Session' },
+    { to: '/', label: 'Dashboard' },
     ...(activeTestId ? [{ to: `/session/${activeTestId}`, label: 'Resume Test' }] : []),
   ]
 
