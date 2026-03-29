@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Pre-push hook — updates documentation for changed files only.
+# Never blocks the push.
+python -m backend.scripts.update_docs || echo "[update_docs] skipped (check Python path)"
+exit 0

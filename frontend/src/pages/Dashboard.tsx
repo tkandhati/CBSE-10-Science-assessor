@@ -225,7 +225,7 @@ export default function Dashboard() {
       setBadges((bdg?.badges ?? []) as BadgeInfo[])
       if (d) setDash(d)
       if (t) setTopics(t)
-      setRecentSessions((sess as any)?.sessions ?? [])
+      setRecentSessions(((sess as any)?.sessions ?? []).filter((s: any) => s.type !== 'spark'))
       if ((active as any)?.active_session_id) {
         setActiveTestId((active as any).active_session_id)
       }
@@ -296,23 +296,24 @@ export default function Dashboard() {
           <span className="text-2xl">{sparkDone ? '✅' : '⚡'}</span>
           <div>
             <p className="font-semibold text-sm text-gray-800">
-              {sparkDone ? "Today's Spark done!" : "Daily Spark — 10 quick questions"}
+              {sparkDone ? "Spark done today!" : "Daily Spark — 10 quick questions"}
             </p>
             <p className="text-xs text-gray-500 mt-0.5">
               {sparkDone
-                ? 'Streak safe. Come back tomorrow!'
+                ? 'Streak safe. Want another round?'
                 : '5 min · MCQ only · keeps your streak alive'}
             </p>
           </div>
         </div>
-        {!sparkDone && (
-          <button
-            onClick={() => navigate('/spark')}
-            className="shrink-0 bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
-          >
-            Start Spark
-          </button>
-        )}
+        <button
+          onClick={() => navigate('/spark')}
+          className={`shrink-0 text-sm font-semibold px-4 py-2 rounded-lg transition-colors
+            ${sparkDone
+              ? 'bg-green-600 hover:bg-green-700 text-white'
+              : 'bg-amber-500 hover:bg-amber-600 text-white'}`}
+        >
+          {sparkDone ? 'Another Spark' : 'Start Spark'}
+        </button>
       </div>
 
       {/* Board exam countdown */}

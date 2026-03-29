@@ -7,6 +7,8 @@ interface SparkQuestion {
   question: string
   options: string[]
   correct_index: number
+  hint: string
+  solution_approach: string
   explanation: string
 }
 
@@ -44,6 +46,7 @@ export default function SparkSession() {
   const [done,       setDone]       = useState(false)
   const [result,     setResult]     = useState<{ xp_gained: number; current_streak: number } | null>(null)
   const [finishing,  setFinishing]  = useState(false)
+  const [hintShown,  setHintShown]  = useState(false)
 
   useEffect(() => {
     startSpark()
@@ -73,6 +76,7 @@ export default function SparkSession() {
       setCurrent(c => c + 1)
       setSelected(null)
       setState('unanswered')
+      setHintShown(false)
     }
   }
 
@@ -237,11 +241,37 @@ export default function SparkSession() {
         </div>
       </div>
 
-      {/* Explanation (shown after answering) */}
+      {/* Hint (shown before answering, only if student asks) */}
+      {!answered && (
+        <div className="mb-4">
+          {hintShown ? (
+            <div className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+              <span className="font-semibold">Hint: </span>{q.hint}
+            </div>
+          ) : (
+            <button
+              onClick={() => setHintShown(true)}
+              className="text-xs text-gray-400 hover:text-amber-600 transition-colors underline underline-offset-2"
+            >
+              Need a hint?
+            </button>
+          )}
+        </div>
+      )}
+
+      {/* Post-answer feedback */}
       {answered && (
-        <div className={`rounded-xl border p-4 mb-4 text-sm ${state === 'correct' ? 'bg-green-50 border-green-200 text-green-800' : 'bg-blue-50 border-blue-200 text-blue-800'}`}>
-          <p className="font-semibold mb-1">{state === 'correct' ? 'Correct!' : 'Not quite.'}</p>
-          <p className="leading-relaxed">{q.explanation}</p>
+        <div className="space-y-3 mb-4">
+          {/* Correct / wrong label */}
+          <div className={`rounded-xl border px-4 py-2 text-sm font-semibold ${state === 'correct' ? 'bg-green-50 border-green-200 text-green-700' : 'bg-red-50 border-red-200 text-red-700'}`}>
+            {state === 'correct' ? '✓ Correct!' : '✗ Not quite.'}
+          </div>
+
+          {/* Solution approach — how to think about it */}
+          <div className="rounded-xl border border-blue-200 bg-blue-50 p-4 text-sm text-blue-800">
+            <p className="font-semibold mb-1 text-blue-700">How to think about it</p>
+            <p className="leading-relaxed">{q.solution_approach || q.explanation}</p>
+          </div>
         </div>
       )}
 

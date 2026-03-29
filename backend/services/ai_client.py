@@ -651,10 +651,14 @@ Question type definitions:
 
 Rules:
 - Exactly 10 questions, exactly 4 options each
-- Tone: engaging quiz, not an exam — make him want to answer the next one
-- Each explanation: state WHY the correct answer is right AND why the most tempting wrong option is wrong (1-2 sentences)
-- Difficulty: makes him think but doesn't panic him — no full calculations required
+- Tone: a favourite teacher running a fun quiz — warm, encouraging, a little playful. Make the student genuinely want to answer the next one. Never clinical or exam-like.
+- Difficulty: makes him think but never panics him — no full calculations required
 - Do NOT number the questions in the text{history_note}
+
+For each question provide THREE support fields:
+1. hint: A warm one-sentence nudge from a favourite teacher — points to the right mental model without giving the answer away. Friendly, not textbook. E.g. "Psst — think about what happens to the particles when temperature rises."
+2. solution_approach: Shown after answering — the favourite teacher explaining the thinking path in 2-3 sentences. If wrong: "Good try! Here's the cool part…". If right: reinforce WHY it's right and what insight it shows. Build the mental model, not just confirm the answer.
+3. explanation: One crisp sentence — why correct is correct, why the top wrong option tricks people.
 
 Return ONLY valid JSON (no markdown, no commentary):
 {{
@@ -664,6 +668,8 @@ Return ONLY valid JSON (no markdown, no commentary):
       "question": "Question text here",
       "options": ["Option A", "Option B", "Option C", "Option D"],
       "correct_index": 2,
+      "hint": "Think about which variable in the formula stays constant here.",
+      "solution_approach": "First identify what is given and what changes. Then apply the formula — notice that if X is fixed, increasing Y must decrease Z proportionally. That rules out two options immediately.",
       "explanation": "Correct because... Option A is tempting but wrong because..."
     }}
   ]
@@ -674,6 +680,12 @@ Return ONLY valid JSON (no markdown, no commentary):
         result = _parse_json_response(text)
         questions = result.get("questions", [])
         # Validate each question has required fields
+        # Backfill hint/solution_approach if AI omitted them (graceful degradation)
+        for q in questions:
+            if not q.get("hint"):
+                q["hint"] = "Think carefully about the core concept behind this topic."
+            if not q.get("solution_approach"):
+                q["solution_approach"] = q.get("explanation", "")
         valid = [
             q for q in questions
             if q.get("question") and len(q.get("options", [])) == 4
@@ -730,6 +742,8 @@ def _fallback_spark(chapter: str, topic: str) -> list[dict]:
             "question": q.get("text", ""),
             "options": [o.get("text", "") for o in opts[:4]],
             "correct_index": correct_index,
+            "hint": "Think carefully about the core concept behind this topic.",
+            "solution_approach": explanation,
             "explanation": explanation,
         })
 
@@ -740,6 +754,8 @@ def _fallback_spark(chapter: str, topic: str) -> list[dict]:
             "question": f"[No AI key configured — add ANTHROPIC_API_KEY for fresh Spark questions on {topic.replace('_', ' ')}.]",
             "options": ["True", "False", "Cannot determine", "Depends on context"],
             "correct_index": 0,
+            "hint": "Set ANTHROPIC_API_KEY to enable AI-generated hints.",
+            "solution_approach": "Set ANTHROPIC_API_KEY in your environment to enable AI-generated Spark questions.",
             "explanation": "Set ANTHROPIC_API_KEY in your environment to enable AI-generated Spark questions.",
         })
 

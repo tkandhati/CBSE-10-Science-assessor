@@ -20,6 +20,22 @@ router = APIRouter(prefix="/api/spark", tags=["spark"])
 
 # ── Topic rotation ─────────────────────────────────────────────────────────────
 
+# Subject grouping — rotation order: Chemistry → Biology → Physics → Env Science
+_SUBJECT_ORDER = ["chemistry", "biology", "physics", "env_sci"]
+_SUBJECT_CHAPTERS: dict[str, list[str]] = {
+    "chemistry": ["ch01_chemical_reactions", "ch02_acids_bases_salts", "ch03_metals_non_metals", "ch04_carbon_compounds"],
+    "biology":   ["ch05_life_processes", "ch06_control_coordination", "ch07_reproduction", "ch08_heredity"],
+    "physics":   ["ch10_light", "ch11_human_eye", "ch12_electricity", "ch13_magnetic_effects"],
+    "env_sci":   ["ch15_our_environment"],
+}
+# Reverse map: chapter → subject
+_CHAPTER_SUBJECT: dict[str, str] = {
+    ch: subj
+    for subj, chapters in _SUBJECT_CHAPTERS.items()
+    for ch in chapters
+}
+
+
 def _all_topics(conn) -> list[tuple[str, str]]:
     """Return all distinct (chapter, topic) pairs that have approved MCQs."""
     rows = conn.execute(
@@ -31,28 +47,58 @@ def _all_topics(conn) -> list[tuple[str, str]]:
 
 def _pick_topic(profile: dict, conn) -> tuple[str, str]:
     """
-    Pick the topic with the fewest spark attempts.
-    Tie-break: oldest last_tested date (least recently covered wins).
+    Pick next topic using subject-first rotation:
+    1. Pick subject with fewest total spark attempts (tie-break: predefined order).
+    2. Within subject, pick chapter with fewest total attempts.
+    3. Within chapter, pick topic with fewest attempts (tie-break: oldest last_tested).
     """
     all_topics = _all_topics(conn)
     if not all_topics:
         return ("ch12_electricity", "ohms_law")
 
-    topic_attempts  = profile.get("topic_attempts", {}) or {}
-    topic_last      = profile.get("topic_last_tested", {}) or {}
+    topic_attempts = profile.get("topic_attempts", {}) or {}
+    topic_last     = profile.get("topic_last_tested", {}) or {}
 
-    best_ch, best_tp = all_topics[0]
-    best_attempts    = float("inf")
-    best_last        = "9999-12-31"
-
+    # Build per-chapter attempt totals from available topics
+    chapter_totals: dict[str, int] = {}
     for ch, tp in all_topics:
+        key = f"{ch}.{tp}"
+        chapter_totals[ch] = chapter_totals.get(ch, 0) + topic_attempts.get(key, 0)
+
+    # Step 1 — pick subject with fewest total attempts
+    subject_totals: dict[str, int] = {}
+    for subj in _SUBJECT_ORDER:
+        subject_totals[subj] = sum(
+            chapter_totals.get(ch, 0)
+            for ch in _SUBJECT_CHAPTERS[subj]
+        )
+    best_subject = min(_SUBJECT_ORDER, key=lambda s: subject_totals[s])
+
+    # Step 2 — within subject, pick chapter with fewest total attempts
+    subject_chapters_available = [
+        ch for ch in _SUBJECT_CHAPTERS[best_subject]
+        if any(ch == t[0] for t in all_topics)
+    ]
+    if not subject_chapters_available:
+        # Fallback: ignore subject constraint
+        subject_chapters_available = list({ch for ch, _ in all_topics})
+
+    best_chapter = min(subject_chapters_available, key=lambda ch: chapter_totals.get(ch, 0))
+
+    # Step 3 — within chapter, pick topic with fewest attempts (tie-break: oldest last_tested)
+    chapter_topics = [(ch, tp) for ch, tp in all_topics if ch == best_chapter]
+    best_ch, best_tp = chapter_topics[0]
+    best_att  = float("inf")
+    best_last = "9999-12-31"
+
+    for ch, tp in chapter_topics:
         key      = f"{ch}.{tp}"
         attempts = topic_attempts.get(key, 0)
         last     = topic_last.get(key, "0000-01-01")
-        if attempts < best_attempts or (attempts == best_attempts and last < best_last):
+        if attempts < best_att or (attempts == best_att and last < best_last):
             best_ch, best_tp = ch, tp
-            best_attempts    = attempts
-            best_last        = last
+            best_att  = attempts
+            best_last = last
 
     return best_ch, best_tp
 
