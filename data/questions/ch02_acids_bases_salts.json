@@ -35,7 +35,7 @@
           "Acids turn blue litmus red; bases turn red litmus blue"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option B — Blue litmus turns red. Acids turn blue litmus red; bases turn red litmus blue.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -62,7 +62,7 @@
           "Both colour changes stated"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Two natural indicators: (1) Turmeric — yellow in acidic solution, red/pink in basic solution. (2) Red cabbage juice — red/pink in acid, green/yellow in base. (Also acceptable: litmus — red in acid, blue in base.)",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -105,7 +105,7 @@
           "Metals + dilute acid → salt + hydrogen gas"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option C — ZnSO4 and H2 gas are produced. When a metal reacts with a dilute acid: metal + acid produces salt + hydrogen gas. Zn + H2SO4 produces ZnSO4 + H2.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -147,7 +147,7 @@
           "Base reacts with ammonium salt to release NH3; NH3 is basic"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option A — Ammonia (NH3). A base (NaOH) reacts with an ammonium salt to release NH3 gas. NH3 is basic and turns moist red litmus blue.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -189,7 +189,7 @@
           "Soapy/slippery feel is a property of bases, not acids"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option D — \"They feel soapy and slippery to touch\" is NOT a property of acids; it is a property of bases/alkalis. Acids are corrosive and sour, not soapy.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -246,7 +246,7 @@
           "Brisk effervescence of CO2 gas; gas turns lime water milky"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "(a) Na2CO3 + 2HCl produces 2NaCl + H2O + CO2. (b) Observation: brisk effervescence (bubbling) of CO2 gas; the gas turns lime water milky.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -360,7 +360,7 @@
           "All three equations balanced; one example each"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Chemical properties of acids: (a) Metal + acid produces salt + H2: Zn + H2SO4 produces ZnSO4 + H2. (b) Metal oxide + acid produces salt + water (neutralisation): CuO + H2SO4 produces CuSO4 + H2O. (c) Metal carbonate + acid produces salt + water + CO2: Na2CO3 + 2HCl produces 2NaCl + H2O + CO2.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -404,7 +404,7 @@
           "CaCO3 + CO2 + H2O → Ca(HCO3)2 (soluble); both A and R correct"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option A — Both A and R are true and R is the correct explanation of A. Excess CO2 reacts with CaCO3 and water to form soluble Ca(HCO3)2, dissolving the white precipitate: CaCO3 + CO2 + H2O produces Ca(HCO3)2.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -433,7 +433,7 @@
           "Test: burning splint shows pop sound"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Diagram should show: a flask containing metal (e.g. Zn) + dilute acid (e.g. H2SO4), a delivery tube leading to a collection vessel for H2 gas, and a burning splint at the mouth of the tube showing a \"pop\" sound as the test for hydrogen.",
         "diagram_required": true,
         "diagram_checklist": [
           "Flask with reactants",
@@ -482,7 +482,7 @@
           "HCl → H+ + Cl-  (or HCl + H2O → H3O+ + Cl-)"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option A — H+ (H3O+) and Cl-. HCl dissolved in water ionises: HCl + H2O produces H3O+ + Cl-. The hydronium ion H3O+ is responsible for acidic properties.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -509,7 +509,7 @@
           "Base: substance that produces OH- ions in water (e.g. NaOH, KOH)"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Arrhenius acid: a substance that produces H+ ions in aqueous solution (e.g. HCl produces H+ + Cl-). Arrhenius base: a substance that produces OH- ions in aqueous solution (e.g. NaOH produces Na+ + OH-).",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -541,7 +541,7 @@
           "Strong acid: degree of ionisation ≈ 1 (100%); weak acid << 1"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Strong acid: completely ionises in water — degree of ionisation ~100% (e.g. HCl, H2SO4). Weak acid: partially ionises in water — degree of ionisation much less than 100% (e.g. acetic acid CH3COOH, carbonic acid H2CO3). Strong acids have much higher H+ concentration than weak acids at the same molarity.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -665,7 +665,7 @@
           "Acids ionise to give H+ (and anion); ions conduct electricity; both A and R correct"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option A — Both A and R are true and R is the correct explanation of A. Acids ionise in water to give H+ ions (and anions); these mobile ions carry electric charge, allowing conduction.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -706,7 +706,7 @@
           "pH < 7 → acidic; pH 3 is strongly acidic"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option A — Strongly acidic. pH 3 is well below 7, indicating a high H+ concentration. pH scale: 0-7 is acidic; closer to 0 means more strongly acidic.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -748,7 +748,7 @@
           "Adding acid increases H+; OH- concentration decreases; pH moves towards neutral"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option B — pH decreases towards 7. Adding acid increases H+ concentration, which neutralises some OH- ions, reducing the pH from 11 toward neutral (7), but not instantly to 7 unless exactly stoichiometric.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -777,7 +777,7 @@
           "(a) Neutral: pH 7  (b) Strong acid: pH < 7 (e.g. 1–2)  (c) Strong base: pH > 7 (e.g. 13–14)"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "The pH scale measures acidity/alkalinity from 0 to 14 based on H+ concentration. (a) Neutral solution: pH = 7. (b) Strong acid: pH < 7 (e.g., 1-2). (c) Strong base: pH > 7 (e.g., 13-14).",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -808,7 +808,7 @@
           "Farmers add lime (CaO) to correct acidic soil"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Most crops grow best in slightly acidic to neutral soil (pH 6-7). Soil with very low or very high pH reduces nutrient availability and damages roots. Farmers add quicklime (CaO) or slaked lime (Ca(OH)2) to raise the pH of acidic soil.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -878,7 +878,7 @@
           "(c) Acid rain: SO2 + NO2 dissolve in rainwater → H2SO4/HNO3; pH < 5.6; corrodes buildings (marble/limestone), harms aquatic life, damages crops"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "(a) Stomach secretes HCl (pH 1.5-2); enzymes like pepsin work in this acidic medium for protein digestion; antacids neutralise excess acid. (b) Bee sting: formic (methanoic) acid (acidic); wasp sting: alkaline; nettle plant contains formic acid. (c) Acid rain: SO2 + NO2 dissolve in rainwater forming H2SO4/HNO3; pH drops below 5.6, corroding marble buildings and harming aquatic life and crops.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -912,7 +912,7 @@
           "Five substances placed approximately correctly"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Diagram: a horizontal scale from 0 to 14, marked \"Acidic\" (0-7) and \"Basic/Alkaline\" (7-14), neutral at 7. Approximate placements: (a) gastric juice ~pH 1-2, (b) blood ~pH 7.4, (c) lemon juice ~pH 2-3, (d) neutral solution pH 7, (e) bleach (NaOCl) ~pH 11-12.",
         "diagram_required": true,
         "diagram_checklist": [
           "Scale 0-14",
@@ -963,7 +963,7 @@
           "Strong acid + weak base → acidic salt; e.g. NH4Cl"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option A — Acidic salt (pH < 7). A strong acid + weak base produces a salt that hydrolyses in water to give H+ ions (acidic solution, pH < 7). Example: NH4Cl (from HCl + NH4OH).",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -991,7 +991,7 @@
           "(b) 2HNO3 + Ca(OH)2 → Ca(NO3)2 + 2H2O → Ca(NO3)2"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "A salt is an ionic compound formed by the neutralisation of an acid by a base. (a) H2SO4 + 2KOH produces K2SO4 + 2H2O; salt = potassium sulphate (K2SO4). (b) 2HNO3 + Ca(OH)2 produces Ca(NO3)2 + 2H2O; salt = calcium nitrate (Ca(NO3)2).",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1021,7 +1021,7 @@
           "Washing soda: Na2CO3.10H2O; used as cleansing agent / water softener"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Water of crystallisation is a fixed number of water molecules chemically bonded in the crystal structure of a salt. The compound with 10 water molecules is washing soda: Na2CO3.10H2O (sodium carbonate decahydrate). It is used as a cleansing agent and water softener.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1086,7 +1086,7 @@
           "(b) Baking powder = NaHCO3 + edible acid (e.g. tartaric acid); on heating/moisture, CO2 released → dough rises; tartaric acid neutralises Na2CO3 taste"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "(a) Washing soda from baking soda: 2NaHCO3 (heat) produces Na2CO3 + H2O + CO2; rehydrate Na2CO3 to get Na2CO3.10H2O. (b) Baking powder = NaHCO3 + edible acid (tartaric acid); on heating or with moisture, CO2 is released making dough rise; tartaric acid also neutralises the Na2CO3 formed so food does not taste bitter.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1134,7 +1134,7 @@
           "Chlor-alkali process: NaCl solution electrolysis → NaOH + Cl2 + H2"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option C — NaOH, Cl2, and H2. Electrolysis of brine (NaCl solution) in the chlor-alkali process produces sodium hydroxide (NaOH) at the cathode region, chlorine gas (Cl2) at the anode, and hydrogen gas (H2) at the cathode.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1164,7 +1164,7 @@
           "H2: (1) manufacture of NH3 (Haber process) (2) hydrogenation of oils → margarine / HCl production"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Chlorine gas (Cl2) uses: (1) manufacture of PVC, pesticides, and CFCs; (2) disinfecting drinking water and making bleaching agents. Hydrogen gas (H2) uses: (1) manufacture of ammonia (Haber process) and hydrochloric acid; (2) hydrogenation of vegetable oils to make margarine.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1195,7 +1195,7 @@
           "Uses: (1) bleaching cotton/linen/washed clothes (2) disinfecting drinking water"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Formula of bleaching powder: Ca(OCl)Cl (calcium oxychloride). Uses: (1) bleaching cotton, linen, and washed clothes in the textile industry; (2) disinfecting drinking water and swimming pools.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1233,7 +1233,7 @@
           "Uses: H2 (fuel, margarine), Cl2 (bleach, PVC), NaOH (soap, detergent)"
         ],
         "formula": "2NaCl(aq) + 2H2O(l) → 2NaOH(aq) + Cl2(g) + H2(g)",
-        "expected_answer": null,
+        "expected_answer": "The chlor-alkali process electrolyses brine (NaCl solution). At the cathode: 2H+ + 2e- produces H2 (reduction). At the anode: 2Cl- produces Cl2 + 2e- (oxidation). NaOH forms in solution near the cathode. Overall: 2NaCl(aq) + 2H2O(l) produces 2NaOH(aq) + Cl2(g) + H2(g). Uses: H2 (fuel, making margarine), Cl2 (bleach, PVC), NaOH (soap, detergent manufacturing). Diagram should show electrolytic cell with labelled electrodes, gas outlets, and NaOH collection.",
         "diagram_required": true,
         "diagram_checklist": [
           "Electrolytic cell",
@@ -1286,7 +1286,7 @@
           "Gypsum: CaSO4.2H2O; heated at 373 K → CaSO4.1/2H2O (Plaster of Paris)"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option C — CaSO4.0.5H2O (Plaster of Paris). Gypsum (CaSO4.2H2O) heated at 373 K loses 1.5 molecules of water to form the hemihydrate CaSO4.1/2H2O, known as Plaster of Paris.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1374,7 +1374,7 @@
           "Phenolphthalein: colourless in acid, pink in base"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option C — Phenolphthalein. It is colourless in acidic and neutral solutions, and turns pink/red in basic solutions. Note: the question states pink in acid, but phenolphthalein is actually colourless in acid and pink in base.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1417,7 +1417,7 @@
           "Olfactory indicators change their smell/odour in acidic vs basic medium"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option B — Olfactory indicators change their smell/odour in acidic or basic medium. Examples: onion loses its smell in basic solution; vanilla extract loses its characteristic smell in basic solution.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1445,7 +1445,7 @@
           "Acidic solution: red/pink colour; Basic solution: green/yellow colour"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Boil red cabbage and collect the purple juice. Add a few drops to test solutions. In acidic solution the juice turns red/pink; in basic solution it turns green/yellow. The colour change is due to anthocyanin pigments that respond to pH changes.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1489,7 +1489,7 @@
           "Metal carbonate + acid → salt + water + CO2"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option C — CO2 and H2O (steam). Metal carbonate + acid produces salt + water + CO2. Example: CaCO3 + 2HCl produces CaCl2 + H2O + CO2.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1530,7 +1530,7 @@
           "CaO + H2O → Ca(OH)2 (slaked lime); exothermic"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option A — CaO + H2O produces Ca(OH)2. This reaction is exothermic and produces slaked lime (calcium hydroxide). It is used to treat acidic soil.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1559,7 +1559,7 @@
           "Reaction is vigorous/exothermic; H2 may catch fire"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "When sodium is dropped in water it reacts vigorously: 2Na + 2H2O produces 2NaOH + H2. Products are sodium hydroxide (NaOH) and hydrogen gas (H2). The reaction is highly exothermic; the heat may ignite the H2 gas, causing a flame.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1589,7 +1589,7 @@
           "CO3(2-) + H2O ⇌ HCO3- + OH-; OH- makes solution basic"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Washing soda (Na2CO3) is a salt of a strong base (NaOH) and a weak acid (H2CO3). When dissolved in water, the carbonate ion hydrolyses: CO3(2-) + H2O produces HCO3- + OH-. The OH- ions make the solution basic (pH > 7), so Na2CO3 acts as a base.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1712,7 +1712,7 @@
           "No water → no ionisation → no ions → no conduction"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option D — HCl does not ionise in toluene as there is no water. Water is required for ionisation of HCl into H+ and Cl- ions; without ions, the solution cannot conduct electricity. Toluene is a non-polar solvent that does not facilitate ionisation.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1740,7 +1740,7 @@
           "Water provides medium for ionisation; H+ and OH- ions are only produced when dissolved in water"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Ionisation is the process by which a compound dissociates (breaks apart) into its constituent ions in a solvent. Water is necessary because it provides a polar medium that stabilises ions by solvation (hydration). Without water, acids and bases remain as covalent compounds and do not produce H+ or OH- ions.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1772,7 +1772,7 @@
           "Base: produces OH- ions in water; e.g. NaOH, KOH"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Acids produce H+ ions (or H3O+ ions) in water; examples: HCl produces H+ + Cl-, H2SO4 produces 2H+ + SO4(2-). Bases produce OH- ions in water; examples: NaOH produces Na+ + OH-, KOH produces K+ + OH-.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1849,7 +1849,7 @@
           "Pure water: [H+] = [OH-]; pH = 7"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option B — pH 7. Pure water at 25 degrees C has equal concentrations of H+ and OH- ions ([H+] = [OH-] = 10^-7 M), making it perfectly neutral at pH 7.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1892,7 +1892,7 @@
           "Normal rain: pH ~5.6 (dissolved CO2); pH < 5.6 → acid rain"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option C — 5.6. Normal rain dissolves atmospheric CO2 forming weak carbonic acid, giving a natural pH of ~5.6. When SO2 and NO2 dissolve in rainwater, pH drops below 5.6, making it acid rain.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -1920,7 +1920,7 @@
           "Outside this range: enzymes stop working; acidosis (pH < 7.35) or alkalosis (pH > 7.45) → fatal"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Blood pH is maintained between 7.35-7.45 by buffer systems (e.g. carbonate-bicarbonate buffer). If pH falls below 7.35 (acidosis) or rises above 7.45 (alkalosis), enzymes stop functioning, metabolism is disrupted, and the condition becomes life-threatening.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1953,7 +1953,7 @@
           "Basic substance neutralises excess acid, raising pH"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "The farmer should add quicklime (CaO), slaked lime (Ca(OH)2), or chalk (CaCO3) to the acidic soil. These basic substances neutralise the excess acid, raising the pH to the ideal range of 6-7 for most crops. Example: Ca(OH)2 + H2SO4 produces CaSO4 + 2H2O.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -1986,7 +1986,7 @@
           "(Also accept: amino acids in proteins, nucleic acids in DNA/RNA)"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Two acids in the human body: (1) Hydrochloric acid (HCl) — found in gastric juice (stomach); activates pepsin and kills bacteria during digestion. (2) Lactic acid — produced in muscles during anaerobic respiration (vigorous exercise); causes muscle fatigue and soreness.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -2074,7 +2074,7 @@
           "Gypsum heated at 373 K → Plaster of Paris (CaSO4.½H2O)"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option C — CaSO4.0.5H2O (Plaster of Paris). Gypsum (CaSO4.2H2O) loses 1.5 molecules of water when heated at 373 K, forming CaSO4.1/2H2O.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -2103,7 +2103,7 @@
           "(c) Bleaching powder: Ca(OCl)Cl (calcium oxychloride)"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "(a) Baking soda: NaHCO3 (sodium hydrogen carbonate / sodium bicarbonate). (b) Washing soda: Na2CO3.10H2O (sodium carbonate decahydrate). (c) Bleaching powder: Ca(OCl)Cl (calcium oxychloride).",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -2133,7 +2133,7 @@
           "Takes up water of crystallisation → forms interlocking crystals → hard solid"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Plaster of Paris (CaSO4.1/2H2O) sets when mixed with water because it rehydrates to form gypsum: CaSO4.1/2H2O + 1.5H2O produces CaSO4.2H2O. The gypsum crystals interlock as they form, creating a hard rigid solid.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -2165,7 +2165,7 @@
           "(Also: phenolphthalein: colourless in acid/neutral, pink in base)"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Method 1: Dissolve the salt in water and test with litmus paper — red litmus turns blue (basic); blue litmus turns red (acidic); no change (neutral). Method 2: Use universal indicator paper or pH paper; compare the colour to the pH chart. (Also: phenolphthalein is colourless in acid/neutral and pink in base.)",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -2254,7 +2254,7 @@
           "2NaHCO3 → Na2CO3 + H2O + CO2; CO2 is non-combustible, smothers fire"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Option C — CO2 gas. When NaHCO3 (baking soda) is heated: 2NaHCO3 produces Na2CO3 + H2O + CO2. CO2 is non-combustible and denser than air, smothering the fire by cutting off its oxygen supply.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
@@ -2282,7 +2282,7 @@
           "Uses: (1) soap/detergent manufacture (2) paper industry (3) textile / de-greasing metals"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Full name of NaOH: Sodium hydroxide (also called caustic soda). Industrial uses: (1) manufacture of soap and detergents; (2) paper and pulp industry; (3) manufacture of textiles (rayon) and de-greasing metals.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -2313,7 +2313,7 @@
           "If it absorbs moisture it will set/harden and become unusable"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Plaster of Paris must be stored in moisture-proof containers because it readily reacts with water: CaSO4.1/2H2O + 1.5H2O produces CaSO4.2H2O (gypsum). If it absorbs moisture from the air, it will harden and set, making it unusable for casting.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {
@@ -2345,7 +2345,7 @@
           "HClO / Cl2 kills pathogens → disinfects drinking water / swimming pools"
         ],
         "formula": null,
-        "expected_answer": null,
+        "expected_answer": "Bleaching powder is used to disinfect drinking water and swimming pools. When dissolved in water it releases nascent chlorine/hypochlorous acid (HClO) which kills pathogens. Reaction: Ca(OCl)Cl + CO2 + H2O produces CaCO3 + HClO + HCl; the HClO acts as the disinfecting agent.",
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {

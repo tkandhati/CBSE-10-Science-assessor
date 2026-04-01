@@ -25,8 +25,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "life process",
+          "decomposition",
+          "maintenance",
+          "nutrition",
+          "respiration"
+        ],
+        "key_points": [
+          "Life processes are maintenance functions performed by living organisms: nutrition, respiration, transportation, excretion",
+          "Decomposition is the breakdown of dead organic matter by external agents (microbes) — not a maintenance function of the organism itself",
+          "Trick to remember: if an organism does NOT perform it to keep itself alive, it is not a life process"
+        ],
         "formula": null,
         "expected_answer": "Decomposition",
         "diagram_required": false,
@@ -86,8 +96,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "photosynthesis",
+          "CO2",
+          "H2O",
+          "raw materials",
+          "reactants"
+        ],
+        "key_points": [
+          "The two raw materials consumed in photosynthesis are CO2 (enters via stomata) and H2O (absorbed by roots)",
+          "Sunlight and chlorophyll are conditions/catalysts, not raw materials that get used up",
+          "Equation: 6CO2 + 6H2O + sunlight/chlorophyll produces C6H12O6 + 6O2"
+        ],
         "formula": null,
         "expected_answer": "CO₂ and H₂O",
         "diagram_required": false,
@@ -121,8 +141,17 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "chloroplast",
+          "photosynthesis",
+          "chlorophyll",
+          "organelle"
+        ],
+        "key_points": [
+          "Chloroplasts are the organelles in plant cells where photosynthesis takes place",
+          "They contain the green pigment chlorophyll that absorbs light energy",
+          "Mitochondria perform respiration (energy release); do not confuse the two organelles"
+        ],
         "formula": null,
         "expected_answer": "Chloroplast",
         "diagram_required": false,
@@ -340,8 +369,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "saprophyte",
+          "dead matter",
+          "decaying",
+          "extracellular digestion",
+          "Rhizopus"
+        ],
+        "key_points": [
+          "Saprophytes feed on dead and decaying organic matter by secreting digestive enzymes externally",
+          "Examples: Rhizopus (bread mould), mushrooms, many soil bacteria",
+          "Distinction: parasites feed on living hosts; saprophytes feed on non-living dead matter"
+        ],
         "formula": null,
         "expected_answer": "Saprophytes",
         "diagram_required": false,
@@ -401,8 +440,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "HCl",
+          "pepsin",
+          "acidic medium",
+          "stomach",
+          "bacteria"
+        ],
+        "key_points": [
+          "HCl secreted in the stomach creates an acidic pH (~2) essential for the enzyme pepsin to work",
+          "HCl also kills most ingested bacteria, acting as a chemical barrier to infection",
+          "Starch is digested by salivary amylase in the mouth, not by HCl"
+        ],
         "formula": null,
         "expected_answer": "Create an acidic medium for pepsin and kill bacteria",
         "diagram_required": false,
@@ -436,8 +485,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "villi",
+          "small intestine",
+          "surface area",
+          "absorption",
+          "projections"
+        ],
+        "key_points": [
+          "Villi are finger-like projections lining the small intestine that massively increase surface area for absorption",
+          "Each villus contains blood capillaries and a lymph vessel (lacteal) for absorption of nutrients",
+          "Alveoli are in lungs; nephrons are in kidney — villi are exclusively in the small intestine"
+        ],
         "formula": null,
         "expected_answer": "Villi",
         "diagram_required": false,
@@ -611,8 +670,19 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "aerobic respiration",
+          "glucose",
+          "CO2",
+          "H2O",
+          "oxygen",
+          "complete oxidation"
+        ],
+        "key_points": [
+          "Aerobic respiration uses oxygen to completely oxidise glucose, producing CO2 and H2O with a large energy release",
+          "Equation: C6H12O6 + 6O2 produces 6CO2 + 6H2O + energy (38 ATP)",
+          "Ethanol+CO2 is produced by yeast (anaerobic); lactic acid by muscle cells (anaerobic) — not aerobic"
+        ],
         "formula": null,
         "expected_answer": "CO₂ and H₂O",
         "diagram_required": false,
@@ -646,8 +716,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "anaerobic respiration",
+          "yeast",
+          "ethanol",
+          "CO2",
+          "fermentation"
+        ],
+        "key_points": [
+          "In yeast without oxygen, anaerobic respiration incompletely breaks down glucose",
+          "Products are ethanol (alcohol) and CO2 — this is called fermentation",
+          "In human muscle cells, anaerobic respiration instead produces lactic acid (not ethanol)"
+        ],
         "formula": null,
         "expected_answer": "CO₂ and ethanol",
         "diagram_required": false,
@@ -774,8 +854,19 @@
       "text": "During aerobic respiration, one molecule of glucose produces 38 molecules of ATP. If each ATP releases 30.5 kJ/mol of energy, calculate the total energy released per mole of glucose during aerobic respiration.",
       "options": null,
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "ATP",
+          "energy",
+          "aerobic respiration",
+          "kJ/mol",
+          "38 ATP",
+          "30.5"
+        ],
+        "key_points": [
+          "Aerobic respiration produces 38 ATP molecules per glucose molecule oxidised",
+          "Each ATP releases approximately 30.5 kJ/mol of usable energy",
+          "Total energy per mole of glucose = 38 x 30.5 = 1159 kJ/mol"
+        ],
         "formula": "atp_count * energy_per_atp",
         "expected_answer": "Total energy = 38 × 30.5 = 1159 kJ/mol",
         "diagram_required": false,
@@ -857,8 +948,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "pulmonary artery",
+          "right ventricle",
+          "lungs",
+          "deoxygenated",
+          "heart"
+        ],
+        "key_points": [
+          "The pulmonary artery carries deoxygenated blood from the right ventricle to the lungs for oxygenation",
+          "Pulmonary vein is the reverse — it returns oxygenated blood from the lungs to the left atrium",
+          "Remember: arteries carry blood AWAY from the heart; veins carry blood TOWARDS the heart"
+        ],
         "formula": null,
         "expected_answer": "Pulmonary artery",
         "diagram_required": false,
@@ -892,8 +993,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "platelets",
+          "clotting",
+          "thrombocytes",
+          "wound",
+          "fibrin"
+        ],
+        "key_points": [
+          "Platelets (thrombocytes) are tiny cell fragments that initiate blood clotting at wound sites",
+          "They release clotting factors that convert fibrinogen to fibrin, forming a mesh that seals wounds",
+          "RBCs carry oxygen; WBCs fight infections; plasma is the liquid matrix — none of these clot blood"
+        ],
         "formula": null,
         "expected_answer": "Platelets",
         "diagram_required": false,
@@ -1075,8 +1186,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "arteries",
+          "thick walls",
+          "elastic",
+          "high pressure",
+          "heart"
+        ],
+        "key_points": [
+          "Arteries receive blood pumped at high pressure directly from the ventricles of the heart",
+          "Thick, elastic walls allow arteries to expand under high pressure and then recoil without bursting",
+          "R correctly explains A: the high-pressure transport function is the reason for thick elastic walls"
+        ],
         "formula": null,
         "expected_answer": "Both A and R are true, and R is the correct explanation of A. Arteries carry blood pumped from the heart at high pressure, so they need thick, elastic walls to withstand and maintain that pressure.",
         "diagram_required": false,
@@ -1110,8 +1231,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "xylem",
+          "water",
+          "minerals",
+          "upward",
+          "transpiration pull"
+        ],
+        "key_points": [
+          "Xylem is the vascular tissue that transports water and dissolved minerals from roots upward to leaves",
+          "Transport in xylem is unidirectional (upward only), driven mainly by transpiration pull",
+          "Phloem transports food (sucrose) from leaves to other parts — not water and minerals"
+        ],
         "formula": null,
         "expected_answer": "Xylem",
         "diagram_required": false,
@@ -1213,8 +1344,18 @@
       "text": "A plant transpires 500 mL of water per day through its leaves. If only 2% of the water absorbed by roots is used in photosynthesis, calculate the total volume of water absorbed by the plant per day.",
       "options": null,
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "transpiration",
+          "photosynthesis",
+          "percentage",
+          "water absorbed",
+          "98%"
+        ],
+        "key_points": [
+          "If 2% of absorbed water is used in photosynthesis, then 98% is transpired",
+          "Therefore: transpired water = 98% of total absorbed; rearrange to get total = transpired / 0.98",
+          "Calculation: 500 / 0.98 = approximately 510.2 mL total water absorbed per day"
+        ],
         "formula": "transpired / (1 - photosynthesis_pct/100)",
         "expected_answer": "Water used in photosynthesis = 2% of total. Water transpired = 98% of total. So total = 500/0.98 ≈ 510.2 mL.",
         "diagram_required": false,
@@ -1265,8 +1406,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "xylem",
+          "unidirectional",
+          "phloem",
+          "bidirectional",
+          "assertion-reason"
+        ],
+        "key_points": [
+          "Xylem transport is unidirectional (only upward) because it is driven by transpiration pull from leaves",
+          "Phloem transport IS bidirectional, but this is a separate fact that does not explain xylem direction",
+          "Both A and R are TRUE, but R does NOT explain why xylem is unidirectional — hence option B"
+        ],
         "formula": null,
         "expected_answer": "Both A and R are true, but R is NOT the correct explanation of A. Xylem transport is unidirectional (upward) due to transpiration pull, while phloem transport is bidirectional. Both statements are true but the phloem fact does not explain why xylem is unidirectional.",
         "diagram_required": false,
@@ -1300,8 +1451,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "nephron",
+          "kidney",
+          "functional unit",
+          "filtration",
+          "urine"
+        ],
+        "key_points": [
+          "The nephron is the microscopic structural and functional unit of the kidney; each kidney has ~1 million nephrons",
+          "A nephron performs ultrafiltration, selective reabsorption, and secretion to produce urine",
+          "Neuron is a nerve cell; alveolus is in lungs; villus is in the small intestine"
+        ],
         "formula": null,
         "expected_answer": "Nephron",
         "diagram_required": false,
@@ -1379,8 +1540,19 @@
       "text": "The kidneys filter approximately 180 litres of blood plasma per day. If the normal urine output is 1.5 litres per day, calculate the percentage of filtrate that is reabsorbed by the renal tubules.",
       "options": null,
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "reabsorption",
+          "kidney",
+          "filtrate",
+          "urine",
+          "percentage",
+          "tubules"
+        ],
+        "key_points": [
+          "Kidney filters ~180 L of blood plasma per day, but only ~1.5 L is excreted as urine",
+          "Reabsorbed volume = total filtrate - urine = 180 - 1.5 = 178.5 L",
+          "Percentage reabsorbed = (178.5 / 180) x 100 = 99.17%, showing the extreme efficiency of tubular reabsorption"
+        ],
         "formula": "((filtrate - urine) / filtrate) * 100",
         "expected_answer": "Reabsorbed = 180 - 1.5 = 178.5 L. Percentage = (178.5/180) × 100 = 99.17%.",
         "diagram_required": false,
@@ -1468,8 +1640,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "molecular movement",
+          "maintenance",
+          "alive",
+          "life criterion",
+          "cellular reactions"
+        ],
+        "key_points": [
+          "The defining feature of a living organism is continuous molecular movement and maintenance reactions inside cells",
+          "Growth alone is not unique to life (crystals grow); movement alone is not sufficient either",
+          "Maintenance reactions ensure organised body structures are preserved against natural breakdown"
+        ],
         "formula": null,
         "expected_answer": "Molecular movement and maintenance reactions",
         "diagram_required": false,
@@ -1529,8 +1711,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "photosynthesis",
+          "oxygen",
+          "by-product",
+          "water splitting",
+          "stomata"
+        ],
+        "key_points": [
+          "During photosynthesis, water molecules are split (photolysis) and oxygen is released as a by-product through stomata",
+          "This photosynthetically produced oxygen is the main source of atmospheric O2 on Earth",
+          "CO2 is a reactant consumed during photosynthesis; it is only released during respiration"
+        ],
         "formula": null,
         "expected_answer": "Oxygen",
         "diagram_required": false,
@@ -1564,8 +1756,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "chlorophyll",
+          "green pigment",
+          "sunlight",
+          "chloroplast",
+          "photosynthesis"
+        ],
+        "key_points": [
+          "Chlorophyll is the green photosynthetic pigment in chloroplasts that absorbs red and blue wavelengths of light",
+          "It reflects green light, which is why plants appear green to us",
+          "Haemoglobin carries oxygen in blood; xanthophyll and carotene are accessory/non-green pigments"
+        ],
         "formula": null,
         "expected_answer": "Chlorophyll",
         "diagram_required": false,
@@ -1599,8 +1801,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "autotroph",
+          "photosynthesis",
+          "green plant",
+          "self-feeding",
+          "inorganic"
+        ],
+        "key_points": [
+          "Autotrophs manufacture their own food from inorganic raw materials using sunlight (photosynthesis) or chemical energy",
+          "Green plants are the principal autotrophs, converting CO2 and H2O into glucose via photosynthesis",
+          "Mushroom is a saprophyte; Amoeba is a holozoic heterotroph; Cuscuta is a parasitic plant — all heterotrophs"
+        ],
         "formula": null,
         "expected_answer": "Green plant",
         "diagram_required": false,
@@ -1695,8 +1907,19 @@
       "text": "If a plant produces 180 g of glucose through photosynthesis, calculate the mass of CO₂ consumed. (Molecular masses: C₆H₁₂O₆ = 180, CO₂ = 44)",
       "options": null,
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "photosynthesis",
+          "moles",
+          "CO2",
+          "glucose",
+          "stoichiometry",
+          "balanced equation"
+        ],
+        "key_points": [
+          "From the balanced equation 6CO2 + 6H2O produces C6H12O6 + 6O2: one mole of glucose requires 6 moles of CO2",
+          "Moles of glucose produced = mass / molar mass = glucose_mass / 180",
+          "Mass of CO2 consumed = moles of glucose x 6 x 44 g/mol"
+        ],
         "formula": "(glucose_mass / molar_mass_glucose) * co2_ratio * molar_mass_co2",
         "expected_answer": "Moles of glucose = 180/180 = 1 mol. From equation 6CO₂ needed per glucose. Mass CO₂ = 6 × 44 = 264 g.",
         "diagram_required": false,
@@ -1756,8 +1979,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "villi",
+          "small intestine",
+          "surface area",
+          "absorption",
+          "nutrients"
+        ],
+        "key_points": [
+          "Villi are microscopic finger-like projections found only on the inner wall of the small intestine",
+          "They enormously increase the absorptive surface area, enabling efficient uptake of digested nutrients",
+          "The small intestine is the primary site of both final digestion and absorption of all major food groups"
+        ],
         "formula": null,
         "expected_answer": "Small intestine",
         "diagram_required": false,
@@ -1791,8 +2024,19 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "pepsin",
+          "acidic",
+          "stomach",
+          "protein digestion",
+          "HCl",
+          "pH"
+        ],
+        "key_points": [
+          "Pepsin is a protease enzyme in the stomach that digests proteins into smaller peptides",
+          "It is only active in an acidic environment (pH ~2) created by HCl secreted by the stomach",
+          "Enzymes are pH-sensitive; pepsin becomes inactive in neutral or alkaline conditions"
+        ],
         "formula": null,
         "expected_answer": "Acidic",
         "diagram_required": false,
@@ -1826,8 +2070,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "bile",
+          "gall bladder",
+          "liver",
+          "storage",
+          "fat emulsification"
+        ],
+        "key_points": [
+          "Bile is produced by the liver but is stored in the gall bladder between meals",
+          "When fatty food enters the small intestine, the gall bladder contracts and releases bile into the duodenum",
+          "Remember: liver produces bile, gall bladder stores it — these are two different organs"
+        ],
         "formula": null,
         "expected_answer": "Gall bladder",
         "diagram_required": false,
@@ -1942,8 +2196,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "glycolysis",
+          "cytoplasm",
+          "pyruvate",
+          "glucose breakdown",
+          "first step"
+        ],
+        "key_points": [
+          "Glycolysis — the first step of respiration — occurs in the cytoplasm and breaks glucose into pyruvate",
+          "This is common to BOTH aerobic and anaerobic respiration in ALL organisms",
+          "Mitochondria are involved only in the subsequent aerobic steps (Krebs cycle and electron transport chain)"
+        ],
         "formula": null,
         "expected_answer": "Cytoplasm",
         "diagram_required": false,
@@ -1977,8 +2241,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "anaerobic respiration",
+          "muscles",
+          "lactic acid",
+          "oxygen debt",
+          "cramps"
+        ],
+        "key_points": [
+          "During vigorous exercise, muscles cannot get enough oxygen and switch to anaerobic respiration",
+          "In human muscle cells, anaerobic respiration produces lactic acid — not ethanol (which is yeast)",
+          "Accumulated lactic acid causes muscle fatigue and cramps; it is cleared when oxygen supply is restored"
+        ],
         "formula": null,
         "expected_answer": "Lactic acid",
         "diagram_required": false,
@@ -2012,8 +2286,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "mitochondria",
+          "aerobic respiration",
+          "powerhouse",
+          "ATP",
+          "Krebs cycle"
+        ],
+        "key_points": [
+          "Mitochondria are the \"powerhouse of the cell\" where aerobic respiration occurs and most ATP is produced",
+          "The Krebs cycle and electron transport chain (ETC) take place in the mitochondria",
+          "Chloroplasts are for photosynthesis; glycolysis occurs in the cytoplasm — not in mitochondria"
+        ],
         "formula": null,
         "expected_answer": "Mitochondria",
         "diagram_required": false,
@@ -2112,8 +2396,19 @@
       "text": "If one molecule of glucose yields 38 ATP during aerobic respiration and only 2 ATP during anaerobic respiration, how many times more ATP is produced in aerobic respiration compared to anaerobic respiration?",
       "options": null,
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "ATP",
+          "aerobic",
+          "anaerobic",
+          "energy efficiency",
+          "38 ATP",
+          "2 ATP"
+        ],
+        "key_points": [
+          "Aerobic respiration yields 38 ATP per glucose; anaerobic respiration yields only 2 ATP per glucose",
+          "Aerobic / anaerobic ratio = 38 / 2 = 19 times more energy from aerobic respiration",
+          "This enormous difference explains why aerobic organisms can sustain much higher activity levels"
+        ],
         "formula": "aerobic_atp / anaerobic_atp",
         "expected_answer": "38 ÷ 2 = 19 times more ATP is produced in aerobic respiration.",
         "diagram_required": false,
@@ -2164,8 +2459,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "plasma",
+          "blood",
+          "liquid component",
+          "serum",
+          "lymph"
+        ],
+        "key_points": [
+          "Blood has two parts: the liquid plasma (about 55% of blood volume) and the cellular components",
+          "Plasma is the yellowish fluid that transports nutrients, hormones, CO2, and proteins",
+          "Lymph is tissue fluid outside blood vessels; serum is plasma minus clotting factors"
+        ],
         "formula": null,
         "expected_answer": "Plasma",
         "diagram_required": false,
@@ -2199,8 +2504,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "veins",
+          "valves",
+          "backflow",
+          "one-way",
+          "low pressure"
+        ],
+        "key_points": [
+          "Veins carry blood at lower pressure back towards the heart and contain valves to prevent backflow",
+          "The valves ensure one-way blood flow toward the heart against gravity in the limbs",
+          "Arteries have thick walls for high pressure but lack internal valves (except at heart exits)"
+        ],
         "formula": null,
         "expected_answer": "Veins",
         "diagram_required": false,
@@ -2234,8 +2549,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "left atrium",
+          "oxygenated blood",
+          "pulmonary vein",
+          "lungs",
+          "heart chambers"
+        ],
+        "key_points": [
+          "Pulmonary veins carry oxygenated blood from the lungs and deliver it to the left atrium of the heart",
+          "From the left atrium, oxygenated blood passes to the left ventricle, which pumps it to the body via the aorta",
+          "The right atrium receives deoxygenated blood from the body via the vena cava — opposite side"
+        ],
         "formula": null,
         "expected_answer": "Left atrium",
         "diagram_required": false,
@@ -2350,8 +2675,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "phloem",
+          "food transport",
+          "translocation",
+          "sucrose",
+          "leaves"
+        ],
+        "key_points": [
+          "Phloem is the vascular tissue that transports dissolved food (mainly sucrose) from leaves to all other parts of the plant",
+          "This process is called translocation and requires energy from ATP",
+          "Xylem transports water and minerals upward — never food"
+        ],
         "formula": null,
         "expected_answer": "Phloem",
         "diagram_required": false,
@@ -2385,8 +2720,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "transpiration",
+          "water vapour",
+          "stomata",
+          "leaves",
+          "evaporation"
+        ],
+        "key_points": [
+          "Transpiration is the loss of water vapour from plant surfaces, mainly through stomata in leaves",
+          "It creates a transpiration pull (suction) that helps draw water upward through xylem",
+          "Translocation is food movement through phloem; osmosis is water movement across membranes"
+        ],
         "formula": null,
         "expected_answer": "Transpiration",
         "diagram_required": false,
@@ -2459,8 +2804,18 @@
       "text": "A plant absorbs water at a rate of 25 mL per hour through its roots. How much water (in litres) will it absorb in 12 hours?",
       "options": null,
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "water absorption",
+          "transpiration rate",
+          "roots",
+          "litres",
+          "calculation"
+        ],
+        "key_points": [
+          "Water absorption rate = 25 mL per hour; time = 12 hours",
+          "Total water absorbed = rate x time = 25 x 12 = 300 mL",
+          "Convert to litres: 300 mL / 1000 = 0.30 L"
+        ],
         "formula": "(rate_ml * hours) / 1000",
         "expected_answer": "25 × 12 = 300 mL = 0.30 L.",
         "diagram_required": false,
@@ -2510,8 +2865,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "urea",
+          "liver",
+          "deamination",
+          "amino acids",
+          "excretory product"
+        ],
+        "key_points": [
+          "Urea is the main nitrogenous excretory waste in humans, formed in the liver by deamination of excess amino acids",
+          "The kidneys then filter urea from the blood to form urine — but urea is MADE in the liver, not the kidneys",
+          "Deamination: amino group (-NH2) removed from amino acids and converted to urea in the liver"
+        ],
         "formula": null,
         "expected_answer": "Liver",
         "diagram_required": false,
@@ -2545,8 +2910,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "ureter",
+          "kidney",
+          "urinary bladder",
+          "urine transport",
+          "urethra"
+        ],
+        "key_points": [
+          "Ureters are two tubes (one from each kidney) that carry urine down to the urinary bladder",
+          "Urethra is a single tube that carries urine from the bladder to the outside during urination",
+          "Memory tip: UreteR goes to the bladdeR; urethRa exits the body (different tube)"
+        ],
         "formula": null,
         "expected_answer": "Ureter",
         "diagram_required": false,
@@ -2591,8 +2966,18 @@
       "text": "If the kidneys produce 1.5 litres of urine from 180 litres of filtrate in a day, what volume (in litres) of filtrate is reabsorbed?",
       "options": null,
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "reabsorption",
+          "filtrate",
+          "urine",
+          "kidney tubules",
+          "volume calculation"
+        ],
+        "key_points": [
+          "Total filtrate per day = 180 L; urine produced = 1.5 L",
+          "Reabsorbed volume = 180 - 1.5 = 178.5 L",
+          "Renal tubules reabsorb useful substances (glucose, amino acids, water, salts) back into the blood"
+        ],
         "formula": "filtrate - urine",
         "expected_answer": "Reabsorbed volume = 180 - 1.5 = 178.5 litres.",
         "diagram_required": false,
@@ -2643,8 +3028,18 @@
         }
       ],
       "rubric": {
-        "keywords": [],
-        "key_points": [],
+        "keywords": [
+          "Cuscuta",
+          "parasite",
+          "haustoria",
+          "host plant",
+          "no chlorophyll"
+        ],
+        "key_points": [
+          "Cuscuta (dodder) has no chlorophyll and cannot photosynthesise, so it lives as a parasite on host plants",
+          "It wraps around a host plant and inserts haustoria (sucking organs) to extract water and nutrients",
+          "Parasites harm their living host; saprophytes feed on non-living dead matter — Cuscuta does the former"
+        ],
         "formula": null,
         "expected_answer": "Parasite",
         "diagram_required": false,
@@ -2677,6 +3072,337 @@
         "diagram_required": false,
         "diagram_checklist": [],
         "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "nutrition_heterotrophic"
+    },
+    {
+      "id": "N_CH05_lpi_001",
+      "use_for": "both",
+      "text": "Which of the following is the BEST definition of a life process?",
+      "options": [
+        {
+          "text": "Any chemical reaction occurring inside a cell",
+          "is_correct": false
+        },
+        {
+          "text": "A maintenance function necessary to prevent damage and breakdown in the body",
+          "is_correct": true
+        },
+        {
+          "text": "Movement of an organism from one place to another",
+          "is_correct": false
+        },
+        {
+          "text": "Growth and reproduction of an organism",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "life process",
+          "maintenance",
+          "breakdown",
+          "living organism",
+          "molecular movement"
+        ],
+        "key_points": [
+          "Life processes are maintenance functions carried out by all living organisms to prevent damage and breakdown.",
+          "They require energy (from nutrition) and maintain the organized complexity that defines life.",
+          "Without life processes, molecular damage would accumulate and the organism would die."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — A maintenance function necessary to prevent damage and breakdown in the body.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "life_processes_intro"
+    },
+    {
+      "id": "N_CH05_lpi_002",
+      "use_for": "both",
+      "text": "A doctor tests whether a person is alive by checking for breathing and heartbeat. Which two life processes do breathing and heartbeat represent, respectively?",
+      "options": [
+        {
+          "text": "Nutrition and Reproduction",
+          "is_correct": false
+        },
+        {
+          "text": "Respiration and Transportation",
+          "is_correct": true
+        },
+        {
+          "text": "Excretion and Nutrition",
+          "is_correct": false
+        },
+        {
+          "text": "Transportation and Excretion",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "breathing",
+          "heartbeat",
+          "respiration",
+          "transportation",
+          "life process"
+        ],
+        "key_points": [
+          "Breathing is part of the respiration process — taking in O2 and releasing CO2 for cellular energy production.",
+          "Heartbeat drives the circulatory system which performs transportation — moving nutrients, gases, and waste around the body.",
+          "These two are used clinically as signs of life because they stop immediately at death."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — Respiration (breathing) and Transportation (heartbeat/circulation).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "life_processes_intro"
+    },
+    {
+      "id": "N_CH05_lpi_003",
+      "use_for": "both",
+      "text": "Carbon and oxygen are key elements needed by living organisms. From which life process do organisms primarily get carbon (as CO2) to build organic molecules?",
+      "options": [
+        {
+          "text": "Excretion",
+          "is_correct": false
+        },
+        {
+          "text": "Respiration releases CO2; autotrophs fix it via Nutrition (photosynthesis)",
+          "is_correct": true
+        },
+        {
+          "text": "Transportation",
+          "is_correct": false
+        },
+        {
+          "text": "Reproduction",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "carbon dioxide",
+          "photosynthesis",
+          "autotrophs",
+          "nutrition",
+          "carbon fixation"
+        ],
+        "key_points": [
+          "CO2 from the atmosphere is the carbon source for autotrophs.",
+          "Through photosynthesis (autotrophic nutrition), plants fix CO2 into glucose and other organic molecules.",
+          "Heterotrophs obtain carbon by consuming other organisms, ultimately tracing back to photosynthesis."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — Autotrophs fix atmospheric CO2 through photosynthesis (autotrophic nutrition).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "life_processes_intro"
+    },
+    {
+      "id": "N_CH05_lpi_004",
+      "use_for": "both",
+      "text": "Why is it said that all the activities of life processes are ultimately dependent on nutrition?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "energy",
+          "nutrition",
+          "ATP",
+          "molecular movements",
+          "maintenance",
+          "life processes"
+        ],
+        "key_points": [
+          "All life processes — respiration, transportation, excretion, reproduction — require energy.",
+          "Energy for cellular work comes from the oxidation of food molecules (obtained through nutrition).",
+          "Without nutrition, there is no fuel to drive the molecular movements that maintain organisation and prevent breakdown.",
+          "Therefore nutrition is the foundational life process on which all others depend."
+        ],
+        "formula": null,
+        "expected_answer": "All life processes require energy. Energy is obtained by breaking down food molecules (nutrition). Without nutrition, there is no energy to drive respiration, transportation, excretion, or any other maintenance process, so the organism would die.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "energy_link": 1,
+          "nutrition_as_fuel": 1,
+          "consequence": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "life_processes_intro"
+    },
+    {
+      "id": "N_CH05_nth_001",
+      "use_for": "both",
+      "text": "Which of the following organisms is an example of a saprotrophic (saprophytic) heterotroph?",
+      "options": [
+        {
+          "text": "Amoeba",
+          "is_correct": false
+        },
+        {
+          "text": "Bread mould (Rhizopus)",
+          "is_correct": true
+        },
+        {
+          "text": "Pitcher plant",
+          "is_correct": false
+        },
+        {
+          "text": "Tapeworm",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "saprotrophic",
+          "saprophyte",
+          "bread mould",
+          "Rhizopus",
+          "dead organic matter",
+          "extracellular digestion"
+        ],
+        "key_points": [
+          "Saprotrophic organisms feed on dead and decaying organic matter by secreting digestive enzymes outside their body (extracellular digestion) and absorbing the products.",
+          "Bread mould (Rhizopus) is a classic example — it grows on bread and secretes amylase and other enzymes.",
+          "Amoeba is holozoic; pitcher plant is insectivorous; tapeworm is parasitic."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — Bread mould (Rhizopus) is a saprotrophic fungus that digests dead organic matter externally.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "nutrition_heterotrophic"
+    },
+    {
+      "id": "N_CH05_nth_002",
+      "use_for": "both",
+      "text": "In Amoeba, food is engulfed by pseudopodia to form a food vacuole. What are the correct steps of holozoic nutrition in the correct order?",
+      "options": [
+        {
+          "text": "Ingestion -> Digestion -> Absorption -> Assimilation -> Egestion",
+          "is_correct": true
+        },
+        {
+          "text": "Digestion -> Ingestion -> Absorption -> Assimilation -> Egestion",
+          "is_correct": false
+        },
+        {
+          "text": "Ingestion -> Absorption -> Digestion -> Egestion -> Assimilation",
+          "is_correct": false
+        },
+        {
+          "text": "Ingestion -> Digestion -> Egestion -> Absorption -> Assimilation",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "holozoic nutrition",
+          "ingestion",
+          "digestion",
+          "absorption",
+          "assimilation",
+          "egestion",
+          "Amoeba"
+        ],
+        "key_points": [
+          "Holozoic nutrition involves five steps in order: Ingestion (taking in food) -> Digestion (breaking down complex molecules) -> Absorption (nutrients enter cells) -> Assimilation (using nutrients for energy/growth) -> Egestion (removing undigested waste).",
+          "In Amoeba, pseudopodia engulf food (ingestion), digestive enzymes break it down in the food vacuole (digestion), nutrients diffuse into cytoplasm (absorption + assimilation), and undigested matter is expelled (egestion)."
+        ],
+        "formula": null,
+        "expected_answer": "Option A — Ingestion -> Digestion -> Absorption -> Assimilation -> Egestion.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "nutrition_heterotrophic"
+    },
+    {
+      "id": "N_CH05_nth_003",
+      "use_for": "both",
+      "text": "How does a parasitic plant like Cuscuta (dodder) obtain its nutrition? How does this differ from a saprotrophic organism?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Cuscuta",
+          "parasite",
+          "haustoria",
+          "host",
+          "saprophyte",
+          "dead matter",
+          "living host"
+        ],
+        "key_points": [
+          "Cuscuta (dodder) is a parasitic plant — it lacks chlorophyll and winds around a host plant.",
+          "It sends haustorial roots into the host's vascular tissue (xylem and phloem) and directly absorbs water, minerals, and prepared food from the living host.",
+          "Saprotrophic organisms feed on DEAD and decaying organic matter by secreting digestive enzymes externally.",
+          "Key difference: Parasite feeds on a LIVING host; saprophyte feeds on DEAD organic matter."
+        ],
+        "formula": null,
+        "expected_answer": "Cuscuta is a parasite: it uses haustoria to tap into a living host plant's vascular tissue and steal nutrients. Saprophytes (like fungi) secrete enzymes to digest DEAD organic matter externally then absorb the products. Parasite = living host; Saprophyte = dead matter.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "cuscuta_mechanism": 1,
+          "saprophyte_mechanism": 1,
+          "key_difference": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "nutrition_heterotrophic"
+    },
+    {
+      "id": "N_CH05_nth_004",
+      "use_for": "both",
+      "text": "Why are heterotrophs dependent on autotrophs for their energy needs? Explain with reference to the flow of energy in an ecosystem.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "autotroph",
+          "heterotroph",
+          "photosynthesis",
+          "energy flow",
+          "food chain",
+          "organic molecules"
+        ],
+        "key_points": [
+          "Autotrophs (plants, algae) convert solar energy into chemical energy stored in organic molecules via photosynthesis.",
+          "Heterotrophs cannot make their own food — they must consume other organisms to obtain organic molecules.",
+          "When heterotrophs eat autotrophs or other heterotrophs, they break down these organic molecules to release the stored energy.",
+          "Energy flows from sun -> autotrophs -> herbivores -> carnivores; at each step, energy is lost as heat.",
+          "Ultimately, all energy in an ecosystem originates from autotrophic fixation of solar energy."
+        ],
+        "formula": null,
+        "expected_answer": "Autotrophs fix solar energy into organic molecules via photosynthesis. Heterotrophs cannot do this, so they must consume autotrophs (or other heterotrophs) to obtain organic molecules for energy. Energy flows: Sun -> Autotrophs -> Heterotrophs, making heterotrophs fundamentally dependent on autotrophs.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "autotroph_role": 1,
+          "heterotroph_limitation": 1,
+          "energy_flow": 1
+        }
       },
       "template_params": null,
       "diagram_path": null,

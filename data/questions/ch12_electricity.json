@@ -2451,6 +2451,224 @@
       "diagram_path": null,
       "use_for": "test",
       "topic": "electric_current_pd"
+    },
+    {
+      "id": "N_CH11_ep_001",
+      "use_for": "both",
+      "text": "An electric heater draws a current of 5 A from a 220 V supply. What is the power consumed by the heater?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "electric power",
+          "P = VI",
+          "watt",
+          "current",
+          "voltage"
+        ],
+        "key_points": [
+          "Step 1: Use the formula P = V x I",
+          "Step 2: P = 220 x 5",
+          "Final: P = 1100 W = 1.1 kW"
+        ],
+        "formula": "P = V x I",
+        "expected_answer": "P = 1100 W",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_correct": 1,
+          "substitution": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "V": {
+            "value": 220,
+            "unit": "V",
+            "locked": true
+          },
+          "I": {
+            "value": 5,
+            "unit": "A",
+            "locked": true
+          }
+        },
+        "formula_expression": "V * I",
+        "units": "W",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "electric_power"
+    },
+    {
+      "id": "N_CH11_ep_002",
+      "use_for": "both",
+      "text": "A 100 ohm resistance is connected across a 220 V supply. Calculate the power dissipated in the resistance.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "electric power",
+          "P = V squared over R",
+          "watt",
+          "resistance",
+          "voltage"
+        ],
+        "key_points": [
+          "Step 1: When only V and R are known, use P = V^2 / R",
+          "Step 2: P = (220)^2 / 100 = 48400 / 100",
+          "Final: P = 484 W"
+        ],
+        "formula": "P = V^2 / R",
+        "expected_answer": "P = 484 W",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_correct": 1,
+          "substitution": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "V": {
+            "value": 220,
+            "unit": "V",
+            "locked": true
+          },
+          "R": {
+            "value": 100,
+            "unit": "ohm",
+            "locked": true
+          }
+        },
+        "formula_expression": "(V ** 2) / R",
+        "units": "W",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "electric_power"
+    },
+    {
+      "id": "N_CH11_ep_003",
+      "use_for": "both",
+      "text": "A current of 4 A flows through a 25 ohm resistor. Find the power dissipated as heat.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "electric power",
+          "P = I squared R",
+          "watt",
+          "current",
+          "resistor"
+        ],
+        "key_points": [
+          "Step 1: When only I and R are known, use P = I^2 x R",
+          "Step 2: P = (4)^2 x 25 = 16 x 25",
+          "Final: P = 400 W"
+        ],
+        "formula": "P = I^2 R",
+        "expected_answer": "P = 400 W",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_correct": 1,
+          "substitution": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "I": {
+            "value": 4,
+            "unit": "A",
+            "locked": true
+          },
+          "R": {
+            "value": 25,
+            "unit": "ohm",
+            "locked": true
+          }
+        },
+        "formula_expression": "(I ** 2) * R",
+        "units": "W",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "electric_power"
+    },
+    {
+      "id": "N_CH11_ep_004",
+      "use_for": "both",
+      "text": "An electric bulb is rated 60 W at 220 V. Find (i) the resistance of the filament and (ii) the current flowing through it when connected to a 220 V supply.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "power rating",
+          "resistance",
+          "current",
+          "filament",
+          "P = V^2/R",
+          "P = VI"
+        ],
+        "key_points": [
+          "Given: P = 60 W, V = 220 V",
+          "Step 1 (resistance): P = V^2 / R  =>  R = V^2 / P = (220)^2 / 60 = 48400 / 60",
+          "R = 806.67 ohm",
+          "Step 2 (current): P = V x I  =>  I = P / V = 60 / 220",
+          "I = 0.27 A",
+          "Final: R = 806.67 ohm, I = 0.27 A"
+        ],
+        "formula": "R = V^2/P; I = P/V",
+        "expected_answer": "(i) R = 806.67 ohm  (ii) I = 0.27 A",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "resistance": 2,
+          "current": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "electric_power"
+    },
+    {
+      "id": "N_CH11_ep_005",
+      "use_for": "both",
+      "text": "A household uses the following electrical appliances: (i) Refrigerator of 400 W for 10 hours per day. (ii) Two electric fans of 80 W each for 12 hours per day. (iii) 6 electric tubes of 18 W each for 6 hours per day. Calculate the total electrical energy consumed by the household in one day in kWh.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "electrical energy",
+          "kWh",
+          "power",
+          "time",
+          "appliances"
+        ],
+        "key_points": [
+          "Formula: Energy (kWh) = Power (kW) x Time (h)",
+          "Refrigerator: 0.4 kW x 10 h = 4.0 kWh",
+          "Two fans: 2 x 0.08 kW x 12 h = 1.92 kWh",
+          "Six tubes: 6 x 0.018 kW x 6 h = 0.648 kWh",
+          "Total = 4.0 + 1.92 + 0.648 = 6.568 kWh",
+          "Final: Total energy consumed = 6.568 kWh per day"
+        ],
+        "formula": "E = P x t (in kWh)",
+        "expected_answer": "Total energy = 6.568 kWh per day",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "refrigerator": 1,
+          "fans": 1,
+          "tubes": 1,
+          "total": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "electric_power"
     }
   ]
 }

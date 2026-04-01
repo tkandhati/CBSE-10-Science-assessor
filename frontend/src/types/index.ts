@@ -6,6 +6,7 @@ export interface Option {
 export interface Rubric {
   keywords: string[]
   key_points: string[]
+  hint?: string
   formula: string | null
   expected_answer: string
   diagram_required: boolean

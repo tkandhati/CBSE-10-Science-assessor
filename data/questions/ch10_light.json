@@ -1472,6 +1472,801 @@
       },
       "template_params": null,
       "diagram_path": null
+    },
+    {
+      "id": "N_CH09_mfm_001",
+      "use_for": "both",
+      "text": "A concave mirror has a radius of curvature of 30 cm. An object is placed 20 cm in front of the mirror. Find the position of the image formed.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "mirror formula",
+          "focal length",
+          "radius of curvature",
+          "image distance",
+          "real image"
+        ],
+        "key_points": [
+          "Step 1: R = 30 cm, so f = R/2 = 15 cm; for a concave mirror f is negative, so f = -15 cm",
+          "Step 2: Object is in front of mirror, so u = -20 cm (New Cartesian sign convention)",
+          "Step 3: Apply mirror formula: 1/v + 1/u = 1/f  →  1/v = 1/f - 1/u",
+          "Step 4: 1/v = 1/(-15) - 1/(-20) = -4/60 + 3/60 = -1/60",
+          "Final: v = -60 cm — negative means real image formed 60 cm in front of the mirror"
+        ],
+        "formula": "1/v + 1/u = 1/f",
+        "expected_answer": "v = -60 cm. The image is real, inverted, and formed 60 cm in front of the concave mirror.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "focal_length_correct": 1,
+          "formula_applied": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "f": {
+            "value": -15,
+            "unit": "cm",
+            "locked": true
+          },
+          "u": {
+            "value": -20,
+            "unit": "cm",
+            "locked": true
+          }
+        },
+        "formula_expression": "1 / (1/f - 1/u)",
+        "units": "cm",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "mirror_formula_magnification"
+    },
+    {
+      "id": "N_CH09_mfm_002",
+      "use_for": "both",
+      "text": "An object is placed 10 cm in front of a convex mirror of focal length 15 cm. Find the position of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "convex mirror",
+          "virtual image",
+          "positive focal length",
+          "mirror formula"
+        ],
+        "key_points": [
+          "Step 1: Convex mirror — focal length is positive: f = +15 cm",
+          "Step 2: Object in front of mirror: u = -10 cm",
+          "Step 3: 1/v = 1/f - 1/u = 1/15 - 1/(-10) = 1/15 + 1/10 = 2/30 + 3/30 = 5/30",
+          "Step 4: v = 30/5 = +6 cm",
+          "Final: v = +6 cm — positive means virtual image formed 6 cm behind the mirror (virtual, erect, diminished)"
+        ],
+        "formula": "1/v + 1/u = 1/f",
+        "expected_answer": "v = +6 cm. The image is virtual, erect, diminished, and formed 6 cm behind the convex mirror.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "sign_convention": 1,
+          "formula_applied": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "f": {
+            "value": 15,
+            "unit": "cm",
+            "locked": true
+          },
+          "u": {
+            "value": -10,
+            "unit": "cm",
+            "locked": true
+          }
+        },
+        "formula_expression": "1 / (1/f - 1/u)",
+        "units": "cm",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "mirror_formula_magnification"
+    },
+    {
+      "id": "N_CH09_mfm_003",
+      "use_for": "both",
+      "text": "A concave mirror produces a 3 times magnified real image of an object placed 10 cm in front of it. Find the focal length of the mirror.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "magnification",
+          "real image",
+          "inverted",
+          "focal length",
+          "mirror formula"
+        ],
+        "key_points": [
+          "Step 1: Real image is inverted, so m = -3 (negative for real, inverted image)",
+          "Step 2: m = -v/u  =>  -3 = -v/(-10)  =>  v = -30 cm",
+          "Step 3: Apply mirror formula: 1/f = 1/v + 1/u = 1/(-30) + 1/(-10) = -1/30 - 3/30 = -4/30",
+          "Final: f = -7.5 cm. Negative confirms it is a concave mirror."
+        ],
+        "formula": "m = -v/u; 1/f = 1/v + 1/u",
+        "expected_answer": "f = -7.5 cm. The focal length of the concave mirror is 7.5 cm.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "v_from_magnification": 1,
+          "formula_applied": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "u": {
+            "value": -10,
+            "unit": "cm",
+            "locked": true
+          },
+          "m_val": {
+            "value": -3,
+            "unit": "",
+            "locked": true
+          }
+        },
+        "formula_expression": "1 / (1/(-m_val * u) + 1/u)",
+        "units": "cm",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "mirror_formula_magnification"
+    },
+    {
+      "id": "N_CH09_mfm_004",
+      "use_for": "both",
+      "text": "An object 5 cm tall is placed 25 cm in front of a concave mirror of focal length 20 cm. Find (i) the image distance and (ii) the height of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "image distance",
+          "height of image",
+          "magnification",
+          "real inverted",
+          "concave mirror"
+        ],
+        "key_points": [
+          "Given: h_o = 5 cm, u = -25 cm, f = -20 cm (concave mirror)",
+          "Step 1: 1/v = 1/f - 1/u = 1/(-20) - 1/(-25) = -5/100 + 4/100 = -1/100",
+          "Step 2: v = -100 cm (real image, 100 cm in front of mirror)",
+          "Step 3: Magnification m = -v/u = -(-100)/(-25) = -4",
+          "Step 4: h_i = m x h_o = -4 x 5 = -20 cm",
+          "Final: Image is 100 cm in front of mirror; image height = 20 cm (inverted, enlarged 4 times)"
+        ],
+        "formula": "1/v + 1/u = 1/f; m = -v/u = h_i/h_o",
+        "expected_answer": "(i) v = -100 cm  (ii) h_i = -20 cm (inverted image, 20 cm tall)",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "image_distance": 2,
+          "magnification": 1,
+          "image_height": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "mirror_formula_magnification"
+    },
+    {
+      "id": "N_CH09_mfm_005",
+      "use_for": "both",
+      "text": "The image formed by a concave mirror is real, inverted, and 4 times the size of the object. If the object is 15 cm from the mirror, find the focal length of the mirror.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "magnification",
+          "real image",
+          "focal length",
+          "concave mirror",
+          "mirror formula"
+        ],
+        "key_points": [
+          "Step 1: Real, inverted image => m = -4",
+          "Step 2: m = -v/u  =>  -4 = -v/(-15)  =>  v = -(4 x 15) = -60 cm",
+          "Step 3: 1/f = 1/v + 1/u = 1/(-60) + 1/(-15) = -1/60 - 4/60 = -5/60",
+          "Final: f = -60/5 = -12 cm. Negative sign confirms concave mirror."
+        ],
+        "formula": "m = -v/u; 1/f = 1/v + 1/u",
+        "expected_answer": "f = -12 cm. The focal length of the concave mirror is 12 cm.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "v_from_magnification": 1,
+          "formula_applied": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "u": {
+            "value": -15,
+            "unit": "cm",
+            "locked": true
+          },
+          "m_val": {
+            "value": -4,
+            "unit": "",
+            "locked": true
+          }
+        },
+        "formula_expression": "1 / (1/(-m_val * u) + 1/u)",
+        "units": "cm",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "mirror_formula_magnification"
+    },
+    {
+      "id": "N_CH09_pol_001",
+      "use_for": "both",
+      "text": "A convex lens has a focal length of 25 cm. What is its power?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "power",
+          "focal length",
+          "metres",
+          "dioptre",
+          "positive power"
+        ],
+        "key_points": [
+          "Step 1: Convert focal length to metres: f = 25 cm = 0.25 m",
+          "Step 2: Power P = 1/f (f in metres) = 1/0.25",
+          "Final: P = +4 D. Positive power confirms it is a converging (convex) lens."
+        ],
+        "formula": "P = 1/f (f in metres)",
+        "expected_answer": "P = +4 D",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "unit_conversion": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "f_cm": {
+            "value": 25,
+            "unit": "cm",
+            "locked": true
+          }
+        },
+        "formula_expression": "100 / f_cm",
+        "units": "D",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "power_of_lens"
+    },
+    {
+      "id": "N_CH09_pol_002",
+      "use_for": "both",
+      "text": "A concave lens has a focal length of 2 m. What is its power?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "power",
+          "concave lens",
+          "negative power",
+          "dioptre",
+          "diverging"
+        ],
+        "key_points": [
+          "Step 1: Concave lens is a diverging lens; focal length is negative: f = -2 m",
+          "Step 2: Power P = 1/f = 1/(-2)",
+          "Final: P = -0.5 D. Negative power confirms it is a diverging (concave) lens."
+        ],
+        "formula": "P = 1/f (f in metres)",
+        "expected_answer": "P = -0.5 D",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "sign_convention": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "f": {
+            "value": -2,
+            "unit": "m",
+            "locked": true
+          }
+        },
+        "formula_expression": "1 / f",
+        "units": "D",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "power_of_lens"
+    },
+    {
+      "id": "N_CH09_pol_003",
+      "use_for": "both",
+      "text": "A convex lens forms an image 60 cm from the lens on the other side when an object is placed 20 cm in front of it. Find (i) the focal length and (ii) the power of the lens.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "lens formula",
+          "focal length",
+          "power",
+          "convex lens",
+          "dioptre"
+        ],
+        "key_points": [
+          "Given: u = -20 cm, v = +60 cm (image on other side = positive for real image)",
+          "Step 1: 1/f = 1/v - 1/u = 1/60 - 1/(-20) = 1/60 + 3/60 = 4/60",
+          "Step 2: f = 60/4 = 15 cm = 0.15 m",
+          "Step 3: P = 1/f = 1/0.15 = +6.67 D",
+          "Final: f = 15 cm, P = +6.67 D (converging lens)"
+        ],
+        "formula": "1/f = 1/v - 1/u; P = 1/f",
+        "expected_answer": "(i) f = 15 cm  (ii) P = +6.67 D",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "focal_length": 2,
+          "power": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "power_of_lens"
+    },
+    {
+      "id": "N_CH09_pol_004",
+      "use_for": "both",
+      "text": "Two thin lenses of power +3.5 D and -2.5 D are placed in contact. Find the power and focal length of the combination.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "combined power",
+          "lenses in contact",
+          "focal length",
+          "converging combination"
+        ],
+        "key_points": [
+          "Step 1: For lenses in contact, P_total = P1 + P2 = 3.5 + (-2.5) = +1.0 D",
+          "Step 2: f = 1/P = 1/1.0 = 1 m = 100 cm",
+          "Final: The combination has power +1 D and focal length 1 m. It acts as a converging lens."
+        ],
+        "formula": "P = P1 + P2; f = 1/P",
+        "expected_answer": "P = +1.0 D, f = 1 m = 100 cm",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "combined_power": 1,
+          "focal_length": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "P1": {
+            "value": 3.5,
+            "unit": "D",
+            "locked": true
+          },
+          "P2": {
+            "value": -2.5,
+            "unit": "D",
+            "locked": true
+          }
+        },
+        "formula_expression": "P1 + P2",
+        "units": "D",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "power_of_lens"
+    },
+    {
+      "id": "N_CH09_sl_001",
+      "use_for": "both",
+      "text": "A convex lens of focal length 20 cm forms an image of an object placed 30 cm from the lens. Find the image distance and describe the nature of the image.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "lens formula",
+          "real image",
+          "inverted",
+          "magnified",
+          "convex lens"
+        ],
+        "key_points": [
+          "Given: f = +20 cm (convex), u = -30 cm",
+          "Step 1: 1/v = 1/f + 1/u = 1/20 + 1/(-30) = 3/60 - 2/60 = 1/60",
+          "Step 2: v = +60 cm (positive => image on opposite side = real)",
+          "Step 3: m = v/u = 60/(-30) = -2 (inverted and magnified twice)",
+          "Final: v = +60 cm; image is real, inverted, and 2x magnified"
+        ],
+        "formula": "1/v - 1/u = 1/f",
+        "expected_answer": "v = +60 cm. Image is real, inverted, magnified (2x), formed on the other side of the lens.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_applied": 1,
+          "image_distance": 1,
+          "nature_described": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "f": {
+            "value": 20,
+            "unit": "cm",
+            "locked": true
+          },
+          "u": {
+            "value": -30,
+            "unit": "cm",
+            "locked": true
+          }
+        },
+        "formula_expression": "1 / (1/f + 1/u)",
+        "units": "cm",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "spherical_lenses"
+    },
+    {
+      "id": "N_CH09_sl_002",
+      "use_for": "both",
+      "text": "An object is placed 40 cm from a concave lens of focal length 20 cm. Find the image distance.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "concave lens",
+          "virtual image",
+          "diverging",
+          "lens formula",
+          "negative focal length"
+        ],
+        "key_points": [
+          "Step 1: Concave lens => f = -20 cm; u = -40 cm",
+          "Step 2: 1/v = 1/f + 1/u = 1/(-20) + 1/(-40) = -2/40 - 1/40 = -3/40",
+          "Step 3: v = -40/3 = -13.3 cm",
+          "Final: v = -13.3 cm — negative means virtual image on the same side as the object (erect, diminished)"
+        ],
+        "formula": "1/v - 1/u = 1/f",
+        "expected_answer": "v = -13.3 cm. Image is virtual, erect, and diminished, formed on the same side as the object.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "sign_convention": 1,
+          "formula_applied": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "f": {
+            "value": -20,
+            "unit": "cm",
+            "locked": true
+          },
+          "u": {
+            "value": -40,
+            "unit": "cm",
+            "locked": true
+          }
+        },
+        "formula_expression": "1 / (1/f + 1/u)",
+        "units": "cm",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "spherical_lenses"
+    },
+    {
+      "id": "N_CH09_sl_003",
+      "use_for": "both",
+      "text": "An object is placed at twice the focal length (u = 2f) of a convex lens of focal length 15 cm. Find the image distance and magnification.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "2f position",
+          "equal size image",
+          "real image",
+          "inverted",
+          "magnification -1"
+        ],
+        "key_points": [
+          "Step 1: u = -2f = -30 cm, f = +15 cm",
+          "Step 2: 1/v = 1/f + 1/u = 1/15 + 1/(-30) = 2/30 - 1/30 = 1/30",
+          "Step 3: v = +30 cm",
+          "Step 4: m = v/u = 30/(-30) = -1",
+          "Final: v = +30 cm; m = -1. Image is real, inverted, same size as object, formed at 2f on the other side."
+        ],
+        "formula": "1/v - 1/u = 1/f; m = v/u",
+        "expected_answer": "v = +30 cm, m = -1. Image is real, inverted, and the same size as the object.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "image_distance": 1,
+          "magnification": 1,
+          "nature": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "f": {
+            "value": 15,
+            "unit": "cm",
+            "locked": true
+          },
+          "u": {
+            "value": -30,
+            "unit": "cm",
+            "locked": true
+          }
+        },
+        "formula_expression": "1 / (1/f + 1/u)",
+        "units": "cm",
+        "answer_precision": 1,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "spherical_lenses"
+    },
+    {
+      "id": "N_CH09_rs_001",
+      "use_for": "both",
+      "text": "Light travels at 2 x 10^8 m/s in a glass slab. Calculate the refractive index of glass. (Speed of light in vacuum = 3 x 10^8 m/s)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "refractive index",
+          "speed of light",
+          "vacuum",
+          "ratio",
+          "optically denser"
+        ],
+        "key_points": [
+          "Step 1: Refractive index n = speed of light in vacuum / speed of light in medium",
+          "Step 2: n = c/v = (3 x 10^8) / (2 x 10^8)",
+          "Final: n = 1.5. This shows glass is optically denser than vacuum/air — light slows down when entering glass."
+        ],
+        "formula": "n = c/v",
+        "expected_answer": "n = 1.5",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "formula_correct": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": {
+        "variables": {
+          "c": {
+            "value": 300000000.0,
+            "unit": "m/s",
+            "locked": true
+          },
+          "v_light": {
+            "value": 200000000.0,
+            "unit": "m/s",
+            "locked": true
+          }
+        },
+        "formula_expression": "c / v_light",
+        "units": "(dimensionless)",
+        "answer_precision": 2,
+        "fixed": true
+      },
+      "diagram_path": null,
+      "topic": "refraction_snell"
+    },
+    {
+      "id": "N_CH09_rs_002",
+      "use_for": "both",
+      "text": "The refractive index of diamond is 2.42. Find the speed of light in diamond. (Speed of light in vacuum = 3 x 10^8 m/s)",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "refractive index",
+          "speed of light",
+          "diamond",
+          "optically denser"
+        ],
+        "key_points": [
+          "Step 1: n = c/v  =>  rearrange to get v = c/n",
+          "Step 2: v = (3 x 10^8) / 2.42",
+          "Final: v = 1.24 x 10^8 m/s. Diamond has a very high refractive index, so light slows down significantly inside it — this causes the sparkle effect."
+        ],
+        "formula": "n = c/v  =>  v = c/n",
+        "expected_answer": "v = 1.24 x 10^8 m/s",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "rearranging_formula": 1,
+          "answer_correct": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "refraction_snell"
+    },
+    {
+      "id": "N_CH09_rl_001",
+      "use_for": "both",
+      "text": "Which of the following statements correctly describes the first law of reflection?",
+      "options": [
+        {
+          "text": "The angle of incidence equals the angle of reflection, measured from the reflecting surface",
+          "is_correct": false
+        },
+        {
+          "text": "The incident ray, reflected ray, and normal all lie in the same plane",
+          "is_correct": true
+        },
+        {
+          "text": "The angle of incidence is always greater than the angle of reflection",
+          "is_correct": false
+        },
+        {
+          "text": "The normal is parallel to the reflecting surface",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "incident ray",
+          "reflected ray",
+          "normal",
+          "same plane",
+          "first law of reflection"
+        ],
+        "key_points": [
+          "The first law of reflection states that the incident ray, the normal at the point of incidence, and the reflected ray all lie in the same plane.",
+          "The second law states that the angle of incidence equals the angle of reflection (both measured from the normal, not the surface)."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — the incident ray, reflected ray, and normal all lie in the same plane.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "reflection_laws"
+    },
+    {
+      "id": "N_CH09_rl_002",
+      "use_for": "both",
+      "text": "A ray of light strikes a plane mirror at an angle of 35 degrees to the surface. What is the angle of reflection?",
+      "options": [
+        {
+          "text": "35 degrees",
+          "is_correct": false
+        },
+        {
+          "text": "55 degrees",
+          "is_correct": true
+        },
+        {
+          "text": "70 degrees",
+          "is_correct": false
+        },
+        {
+          "text": "90 degrees",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "angle of incidence",
+          "angle of reflection",
+          "normal",
+          "complement"
+        ],
+        "key_points": [
+          "Angle with the surface = 35 degrees; angle of incidence (from normal) = 90 - 35 = 55 degrees.",
+          "By the law of reflection, angle of reflection = angle of incidence = 55 degrees."
+        ],
+        "formula": "angle of incidence = 90 - angle with surface",
+        "expected_answer": "Option B — 55 degrees. The angle from the normal is 90 - 35 = 55 degrees.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "reflection_laws"
+    },
+    {
+      "id": "N_CH09_rl_003",
+      "use_for": "both",
+      "text": "Which property of light is used in the working of a periscope?",
+      "options": [
+        {
+          "text": "Refraction",
+          "is_correct": false
+        },
+        {
+          "text": "Dispersion",
+          "is_correct": false
+        },
+        {
+          "text": "Regular reflection from plane mirrors",
+          "is_correct": true
+        },
+        {
+          "text": "Total internal reflection only",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "periscope",
+          "plane mirror",
+          "reflection",
+          "regular reflection"
+        ],
+        "key_points": [
+          "A periscope uses two plane mirrors inclined at 45 degrees to redirect light around a corner.",
+          "Each mirror reflects the incident ray by regular (specular) reflection, obeying the laws of reflection."
+        ],
+        "formula": null,
+        "expected_answer": "Option C — regular reflection from plane mirrors.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "reflection_laws"
+    },
+    {
+      "id": "N_CH09_rl_004",
+      "use_for": "both",
+      "text": "What is the difference between regular (specular) reflection and diffuse reflection?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "regular reflection",
+          "specular",
+          "diffuse",
+          "smooth surface",
+          "rough surface",
+          "parallel rays"
+        ],
+        "key_points": [
+          "Regular (specular) reflection occurs from smooth, polished surfaces — parallel incident rays reflect as parallel reflected rays.",
+          "Diffuse reflection occurs from rough surfaces — parallel incident rays scatter in many different directions because the surface has many tiny irregularities, each with a different normal.",
+          "Both types obey the laws of reflection at each point of incidence."
+        ],
+        "formula": null,
+        "expected_answer": "Regular reflection (smooth surfaces): parallel rays remain parallel after reflection. Diffuse reflection (rough surfaces): parallel rays scatter in many directions. Both obey laws of reflection at each point.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "regular_reflection": 1,
+          "diffuse_reflection": 1,
+          "both_obey_laws": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "reflection_laws"
     }
   ]
 }

@@ -359,6 +359,7 @@ function UnderstandingView({ session }: { session: SessionResponse }) {
   const [answers,    setAnswers]    = useState<Record<string, AnswerState>>({})
   const [submitting, setSubmitting] = useState(false)
   const [error,      setError]      = useState('')
+  const [hintShown,  setHintShown]  = useState<Record<string, boolean>>({})
   const tickRef = useRef<() => void>(() => {})
 
   const questions = session.questions
@@ -475,6 +476,43 @@ function UnderstandingView({ session }: { session: SessionResponse }) {
                 value={getAns(q.id).answerText ?? ''}
                 onChange={e => updAns(q.id, { answerText: e.target.value })} />
             )}
+
+            {/* Hint — shown before answering for all question types */}
+            {(() => {
+              const hintText = q.rubric?.hint ?? q.rubric?.key_points?.[0] ?? q.rubric?.keywords?.[0] ?? null
+              const ans = getAns(q.id)
+              const alreadyAnswered = ans.instantResult != null ||
+                (q.type !== 'mcq' && q.type !== 'assertion_reason' && q.type !== 'numerical' &&
+                  (ans.answerText ?? '').trim().length > 0)
+              if (!hintText || alreadyAnswered) return null
+              return hintShown[q.id] ? (
+                <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+                  <span className="font-semibold">Hint: </span>{hintText}
+                </div>
+              ) : (
+                <button
+                  onClick={() => setHintShown(prev => ({ ...prev, [q.id]: true }))}
+                  className="mt-3 text-xs text-gray-400 hover:text-amber-600 transition-colors underline underline-offset-2"
+                >
+                  Need a hint?
+                </button>
+              )
+            })()}
+
+            {/* Post-answer concept explanation — MCQ and Numerical only */}
+            {(q.type === 'mcq' || q.type === 'assertion_reason' || q.type === 'numerical') &&
+              getAns(q.id).instantResult != null &&
+              (q.rubric?.key_points?.length ?? 0) > 0 && (
+                <div className="mt-4 rounded-xl border border-blue-200 bg-blue-50 p-4 text-sm text-blue-800">
+                  <p className="font-semibold mb-2 text-blue-700">How to think about it</p>
+                  <ul className="space-y-1 list-disc list-inside leading-relaxed">
+                    {q.rubric!.key_points.slice(0, 2).map((kp, i) => (
+                      <li key={i}>{kp}</li>
+                    ))}
+                  </ul>
+                </div>
+              )
+            }
           </div>
         )}
 

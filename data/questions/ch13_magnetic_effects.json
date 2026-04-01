@@ -2368,6 +2368,208 @@
       "diagram_path": null,
       "use_for": "test",
       "topic": "magnetic_field_lines"
+    },
+    {
+      "id": "N_CH12_fc_001",
+      "use_for": "both",
+      "text": "According to Fleming's Left Hand Rule, which finger points in the direction of the magnetic field?",
+      "options": [
+        {
+          "text": "Thumb",
+          "is_correct": false
+        },
+        {
+          "text": "Index finger (forefinger)",
+          "is_correct": true
+        },
+        {
+          "text": "Middle finger",
+          "is_correct": false
+        },
+        {
+          "text": "Ring finger",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Fleming's left hand rule",
+          "index finger",
+          "magnetic field",
+          "force",
+          "current"
+        ],
+        "key_points": [
+          "In Fleming's Left Hand Rule: Index finger = direction of magnetic field (B), Middle finger = direction of conventional current (I), Thumb = direction of force/motion on conductor (F).",
+          "Memory aid: FBI — Forefinger = B (field), Centre/middle = I (current), thuMb = Motion."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — Index finger (forefinger) points in the direction of the magnetic field.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "force_on_conductor"
+    },
+    {
+      "id": "N_CH12_fc_002",
+      "use_for": "both",
+      "text": "A current-carrying conductor is placed in a magnetic field. The force on the conductor will be maximum when the angle between the conductor and the magnetic field is:",
+      "options": [
+        {
+          "text": "0 degrees",
+          "is_correct": false
+        },
+        {
+          "text": "45 degrees",
+          "is_correct": false
+        },
+        {
+          "text": "90 degrees",
+          "is_correct": true
+        },
+        {
+          "text": "180 degrees",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "force on conductor",
+          "magnetic field",
+          "angle",
+          "maximum force",
+          "perpendicular"
+        ],
+        "key_points": [
+          "Force F = BIL sin(theta), where theta is the angle between the conductor and magnetic field.",
+          "sin(90 degrees) = 1 is the maximum value, so force is maximum when conductor is perpendicular to the field.",
+          "When theta = 0 or 180 degrees (conductor parallel to field), sin = 0, so F = 0."
+        ],
+        "formula": "F = BIL sin(theta)",
+        "expected_answer": "Option C — 90 degrees. Force is maximum when conductor is perpendicular to the magnetic field.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "force_on_conductor"
+    },
+    {
+      "id": "N_CH12_fc_003",
+      "use_for": "both",
+      "text": "Fleming's Left Hand Rule is used to find the direction of force on a current-carrying conductor in a magnetic field. This rule applies to which device?",
+      "options": [
+        {
+          "text": "Generator",
+          "is_correct": false
+        },
+        {
+          "text": "Transformer",
+          "is_correct": false
+        },
+        {
+          "text": "Electric motor",
+          "is_correct": true
+        },
+        {
+          "text": "Galvanometer",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "Fleming's left hand rule",
+          "electric motor",
+          "force",
+          "current",
+          "magnetic field"
+        ],
+        "key_points": [
+          "Fleming's Left Hand Rule gives the direction of mechanical force on a current-carrying conductor — this is the principle of an electric motor (electrical energy to mechanical energy).",
+          "Fleming's Right Hand Rule applies to generators (mechanical energy to electrical energy).",
+          "Left Hand = motor (Left Hand = L = Lorentz force on current)."
+        ],
+        "formula": null,
+        "expected_answer": "Option C — Electric motor. The left-hand rule predicts the force that drives rotation in a motor.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "force_on_conductor"
+    },
+    {
+      "id": "N_CH12_fc_004",
+      "use_for": "both",
+      "text": "State the factors that affect the magnitude of the force on a current-carrying conductor placed in a magnetic field.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "current",
+          "magnetic field strength",
+          "length of conductor",
+          "angle",
+          "force"
+        ],
+        "key_points": [
+          "Factor 1: Strength of the magnetic field (B) — greater field, greater force.",
+          "Factor 2: Magnitude of the current (I) — greater current, greater force.",
+          "Factor 3: Length of the conductor in the field (L) — longer conductor, greater force.",
+          "Factor 4: Angle between conductor and field (theta) — F = BIL sin(theta); maximum at 90 degrees, zero when parallel.",
+          "Combining: F = BIL sin(theta)"
+        ],
+        "formula": "F = BIL sin(theta)",
+        "expected_answer": "Force depends on: (i) magnetic field strength B, (ii) current I, (iii) length of conductor L, (iv) angle between conductor and field. F = BIL sin(theta).",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "B_mentioned": 1,
+          "I_mentioned": 1,
+          "L_mentioned": 1,
+          "angle_mentioned": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "force_on_conductor"
+    },
+    {
+      "id": "N_CH12_fc_005",
+      "use_for": "both",
+      "text": "Explain how the direction of force on a current-carrying conductor in a magnetic field reverses when (i) the direction of current is reversed, and (ii) the direction of the magnetic field is reversed.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "direction of force",
+          "reverse current",
+          "reverse magnetic field",
+          "Fleming's left hand rule"
+        ],
+        "key_points": [
+          "By Fleming's Left Hand Rule, force direction depends on both the current direction and the field direction.",
+          "(i) Reversing current: middle finger (current) points in opposite direction => thumb (force) reverses direction.",
+          "(ii) Reversing magnetic field: index finger (field) points opposite => thumb (force) reverses direction.",
+          "Reversing both current AND field simultaneously: force direction stays the same (two reversals cancel out).",
+          "This principle is why a DC motor's rotation reverses when supply terminals are swapped."
+        ],
+        "formula": null,
+        "expected_answer": "Reversing current reverses the force direction. Reversing the magnetic field also reverses the force direction. Reversing both keeps force direction unchanged.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "current_reversal": 1,
+          "field_reversal": 1,
+          "explanation": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "force_on_conductor"
     }
   ]
 }

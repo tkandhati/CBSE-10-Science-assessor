@@ -2274,6 +2274,304 @@
       "template_params": null,
       "diagram_path": null,
       "topic": "reproductive_health"
+    },
+    {
+      "id": "N_CH07_vp_001",
+      "use_for": "both",
+      "text": "Which of the following is an example of natural vegetative propagation?",
+      "options": [
+        {
+          "text": "Grafting of mango",
+          "is_correct": false
+        },
+        {
+          "text": "Layering of jasmine",
+          "is_correct": false
+        },
+        {
+          "text": "Formation of new plants from the eyes of a potato",
+          "is_correct": true
+        },
+        {
+          "text": "Cutting of sugarcane",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "vegetative propagation",
+          "natural",
+          "potato",
+          "eyes",
+          "asexual reproduction"
+        ],
+        "key_points": [
+          "Natural vegetative propagation occurs without human intervention.",
+          "Potato tubers have 'eyes' (buds) that naturally sprout into new plants under suitable conditions — this is natural vegetative propagation.",
+          "Grafting, layering, and cuttings are artificial (human-assisted) methods of vegetative propagation."
+        ],
+        "formula": null,
+        "expected_answer": "Option C — Formation of new plants from the eyes of a potato is natural vegetative propagation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "vegetative_propagation"
+    },
+    {
+      "id": "N_CH07_vp_002",
+      "use_for": "both",
+      "text": "What is the main advantage of vegetative propagation over seed reproduction for a fruit grower?",
+      "options": [
+        {
+          "text": "Vegetatively propagated plants have more genetic variation",
+          "is_correct": false
+        },
+        {
+          "text": "Vegetatively propagated plants bear fruit earlier and are identical to the parent",
+          "is_correct": true
+        },
+        {
+          "text": "Vegetative propagation produces disease-resistant plants",
+          "is_correct": false
+        },
+        {
+          "text": "Vegetative propagation always produces more plants than seeds",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "vegetative propagation",
+          "fruit bearing",
+          "identical to parent",
+          "clones",
+          "no variation"
+        ],
+        "key_points": [
+          "Plants from vegetative propagation are genetically identical (clones) to the parent plant.",
+          "They retain all the desirable characteristics (taste, size, yield) of the parent.",
+          "They fruit much earlier than seed-grown plants (e.g. banana, potato, sugarcane).",
+          "Seed-grown plants may show variation and take longer to mature and fruit."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — Vegetatively propagated plants bear fruit earlier and are genetically identical (clones) to the parent plant, preserving all desired traits.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "vegetative_propagation"
+    },
+    {
+      "id": "N_CH07_vp_003",
+      "use_for": "both",
+      "text": "In the artificial method called 'layering', a branch is bent to touch the soil and roots develop before it is cut. Which plant is commonly propagated this way?",
+      "options": [
+        {
+          "text": "Potato",
+          "is_correct": false
+        },
+        {
+          "text": "Rose",
+          "is_correct": false
+        },
+        {
+          "text": "Jasmine",
+          "is_correct": true
+        },
+        {
+          "text": "Bryophyllum",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "layering",
+          "jasmine",
+          "vegetative propagation",
+          "roots",
+          "branch",
+          "artificial"
+        ],
+        "key_points": [
+          "Layering involves bending a branch to the ground, wounding it slightly, and allowing roots to develop while still attached to the parent plant.",
+          "Once roots form, the branch is cut and planted independently.",
+          "Jasmine is a classic example of layering.",
+          "Rose is propagated by cuttings; Bryophyllum by leaf margin buds; Potato by tuber eyes."
+        ],
+        "formula": null,
+        "expected_answer": "Option C — Jasmine is commonly propagated by layering.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "vegetative_propagation"
+    },
+    {
+      "id": "N_CH07_vp_004",
+      "use_for": "both",
+      "text": "Bryophyllum (sprout-leaf plant) can grow new plants from its leaf margins. What type of vegetative propagation does this represent, and what is the name for the small plantlets formed on leaf margins?",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "Bryophyllum",
+          "leaf margin",
+          "adventitious buds",
+          "plantlets",
+          "natural vegetative propagation"
+        ],
+        "key_points": [
+          "Bryophyllum undergoes natural vegetative propagation — no human intervention needed.",
+          "Adventitious buds develop at the notches along the leaf margins.",
+          "When leaves fall to the ground, each bud can grow into a new plant.",
+          "The small plantlets formed are called 'bulbils' or, more commonly for Bryophyllum, 'epiphyllous buds' / adventitious plantlets."
+        ],
+        "formula": null,
+        "expected_answer": "Natural vegetative propagation via adventitious buds (epiphyllous buds/plantlets) that develop at the notches on the leaf margins. Each plantlet can grow into a complete new plant when the leaf falls.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "type_identified": 1,
+          "buds_named": 1,
+          "mechanism": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "vegetative_propagation"
+    },
+    {
+      "id": "N_CH07_dcv_001",
+      "use_for": "both",
+      "text": "During DNA copying, small variations occur. Which of the following is the MOST important consequence of these variations?",
+      "options": [
+        {
+          "text": "They always cause disease in the offspring",
+          "is_correct": false
+        },
+        {
+          "text": "They are the raw material for evolution",
+          "is_correct": true
+        },
+        {
+          "text": "They prevent the offspring from surviving",
+          "is_correct": false
+        },
+        {
+          "text": "They cause the offspring to look exactly like the parent",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "DNA copying",
+          "variation",
+          "evolution",
+          "natural selection",
+          "raw material"
+        ],
+        "key_points": [
+          "Variations introduced during DNA copying are usually minor and the offspring is mostly similar to the parent.",
+          "These variations are the raw material for evolution — over many generations, natural selection acts on variations.",
+          "Beneficial variations improve survival in changing environments; harmful ones are eliminated.",
+          "Without variation, all individuals would be identical and a single disease/environment change could wipe out an entire species."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — Variations are the raw material for evolution. Natural selection acts on these variations over generations.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "dna_copying_variation"
+    },
+    {
+      "id": "N_CH07_dcv_002",
+      "use_for": "both",
+      "text": "Asexual reproduction produces offspring with fewer variations than sexual reproduction. Why is this so?",
+      "options": [
+        {
+          "text": "Asexual reproduction does not involve any DNA",
+          "is_correct": false
+        },
+        {
+          "text": "In asexual reproduction, only one parent contributes DNA, so variation comes only from DNA copying errors",
+          "is_correct": true
+        },
+        {
+          "text": "Asexual reproduction uses mitosis which always produces errors",
+          "is_correct": false
+        },
+        {
+          "text": "Sexual reproduction involves mutations that asexual reproduction does not",
+          "is_correct": false
+        }
+      ],
+      "rubric": {
+        "keywords": [
+          "asexual reproduction",
+          "sexual reproduction",
+          "variation",
+          "DNA copying",
+          "two parents",
+          "one parent"
+        ],
+        "key_points": [
+          "Asexual reproduction: single parent, offspring gets DNA only from that parent. Variation arises only from small errors in DNA copying (very rare).",
+          "Sexual reproduction: two parents, offspring gets DNA from both. The combination of two different DNA sets creates enormous variation through random mixing and crossing over.",
+          "Greater variation in sexual reproduction is an evolutionary advantage — populations adapt faster to environmental changes."
+        ],
+        "formula": null,
+        "expected_answer": "Option B — In asexual reproduction, only one parent contributes DNA, so the only source of variation is copying errors. Sexual reproduction combines DNA from two parents, creating much greater variation.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {}
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "dna_copying_variation"
+    },
+    {
+      "id": "N_CH07_dcv_003",
+      "use_for": "both",
+      "text": "A bacterium divides by binary fission every 20 minutes. After 3 such divisions, will all daughter cells have identical DNA? Explain why small variations can still occur.",
+      "options": null,
+      "rubric": {
+        "keywords": [
+          "binary fission",
+          "DNA copying",
+          "identical",
+          "copying errors",
+          "variation",
+          "fidelity"
+        ],
+        "key_points": [
+          "In theory, binary fission produces genetically identical daughter cells — the same DNA is copied and distributed.",
+          "However, DNA copying is not perfectly error-free. Occasionally, the wrong nucleotide is inserted (mutation).",
+          "Such errors are rare but accumulate over many generations, introducing small variations.",
+          "After 3 divisions, all 8 daughter cells should be nearly identical, but rare copying errors mean tiny variations may exist.",
+          "These variations are the basis for bacterial evolution and antibiotic resistance."
+        ],
+        "formula": null,
+        "expected_answer": "After 3 divisions, 8 daughter cells are produced. They should be nearly identical because binary fission copies DNA faithfully. However, DNA copying is not 100% accurate — occasional errors (mutations) can introduce small variations. These rare variations are the source of evolutionary change even in asexually reproducing organisms.",
+        "diagram_required": false,
+        "diagram_checklist": [],
+        "partial_marks": {
+          "nearly_identical": 1,
+          "copying_errors_mentioned": 1,
+          "significance": 1
+        }
+      },
+      "template_params": null,
+      "diagram_path": null,
+      "topic": "dna_copying_variation"
     }
   ]
 }

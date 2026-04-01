@@ -45,8 +45,9 @@ export default function SparkSession() {
   const [correct,    setCorrect]    = useState(0)
   const [done,       setDone]       = useState(false)
   const [result,     setResult]     = useState<{ xp_gained: number; current_streak: number } | null>(null)
-  const [finishing,  setFinishing]  = useState(false)
-  const [hintShown,  setHintShown]  = useState(false)
+  const [finishing,    setFinishing]    = useState(false)
+  const [hintShown,    setHintShown]    = useState(false)
+  const [answerRecord, setAnswerRecord] = useState<Record<number, boolean>>({})
 
   useEffect(() => {
     startSpark()
@@ -66,6 +67,7 @@ export default function SparkSession() {
     const q = questions[current]
     const isCorrect = idx === q.correct_index
     setState(isCorrect ? 'correct' : 'wrong')
+    setAnswerRecord(prev => ({ ...prev, [current]: isCorrect }))
     if (isCorrect) setCorrect(c => c + 1)
   }
 
@@ -159,10 +161,40 @@ export default function SparkSession() {
 
           <button
             onClick={() => navigate('/')}
-            className="w-full bg-blue-600 text-white font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors"
+            className="w-full bg-blue-600 text-white font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors mb-6"
           >
             Back to dashboard
           </button>
+        </div>
+
+        {/* Concept reinforcement */}
+        <div className="bg-white rounded-2xl border shadow-sm p-6 mt-2">
+          <p className="text-sm font-bold text-gray-700 mb-4">Today's Key Concepts</p>
+          <div className="space-y-3">
+            {questions.map((q, idx) => {
+              const wasCorrect = answerRecord[idx] === true
+              const concept = q.solution_approach || q.explanation
+              return (
+                <div
+                  key={idx}
+                  className={`rounded-xl border p-4 text-sm ${
+                    wasCorrect
+                      ? 'bg-green-50 border-green-200'
+                      : 'bg-amber-50 border-amber-300'
+                  }`}
+                >
+                  <div className="flex items-start gap-2">
+                    <span className={`shrink-0 font-bold text-xs mt-0.5 ${wasCorrect ? 'text-green-600' : 'text-amber-600'}`}>
+                      {wasCorrect ? '✓' : '✗'} Q{idx + 1}
+                    </span>
+                    <p className={`leading-relaxed ${wasCorrect ? 'text-gray-700' : 'text-gray-800'}`}>
+                      {concept}
+                    </p>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
         </div>
       </div>
     )
