@@ -316,8 +316,8 @@ Return ONLY valid JSON:
       "keywords_found": ["keyword"],
       "points_covered": ["point correctly addressed"],
       "points_missed": ["point not addressed"],
-      "comment": "One encouraging sentence.",
-      "suggestions": "One specific improvement tip."
+      "comment": "1-2 sentences: acknowledge what was right, then explicitly state why marks were deducted (e.g. 'Marks reduced because X was missing / incorrect').",
+      "suggestions": "One specific, actionable improvement tip."
     }}
   ]
 }}"""
@@ -394,7 +394,7 @@ def _fallback_ocr(questions: list[dict]) -> list[dict]:
 def call_2_score_and_guide(items: list[dict], chapter: str, session_type: str) -> dict:
     """
     Score answers and return overall_guidance paragraph.
-    Used for Chapter Tests and Mocks.
+    Used for Understanding Sessions, Chapter Tests, and Mocks.
     Returns {"evaluations": [...], "overall_guidance": "..."}
     """
     if not items:
@@ -403,19 +403,33 @@ def call_2_score_and_guide(items: list[dict], chapter: str, session_type: str) -
         evals = _fallback_evaluate(items)
         return {"evaluations": evals, "overall_guidance": "AI evaluation unavailable — review model answers manually."}
 
-    is_mock = session_type == "mock"
-    scope_desc = "Full Mock Test (all 13 Science chapters)" if is_mock else f"chapter test for {chapter}"
+    is_mock         = session_type == "mock"
+    is_understanding = session_type == "understanding"
+    scope_desc = (
+        "Full Mock Test (all 13 Science chapters)" if is_mock
+        else f"understanding session for {chapter}" if is_understanding
+        else f"chapter test for {chapter}"
+    )
     guidance_spec = (
         "A comprehensive 3-4 sentence paragraph covering: (1) top 3 weakest areas identified "
         "across the full paper with specific chapter and topic names, (2) estimated marks "
         "recoverable with targeted revision in the next 2 weeks, (3) specific study "
         "recommendation for each weak area."
         if is_mock
-        else "A 2-3 sentence paragraph: summarise overall performance, highlight 1-2 strongest areas, give 1-2 specific improvement priorities."
+        else "1-2 encouraging sentences: acknowledge what the student understood well, then give one specific, actionable tip for the concept(s) they missed."
+    )
+
+    leniency_note = (
+        "\nScoring policy for understanding sessions: be LENIENT and encouraging. "
+        "Award full marks if the core concept is correct even if phrasing differs from the model answer. "
+        "Award 70-80% marks for answers that show understanding but miss minor details. "
+        "Reserve low scores only for clearly wrong or blank answers. "
+        "This student is learning — reward understanding, not memorised wording."
+        if is_understanding else ""
     )
 
     prompt = f"""You are scoring a CBSE Class 10 Science {scope_desc}.
-Be encouraging but accurate. Award partial marks proportionally.
+Be encouraging but accurate. Award partial marks proportionally.{leniency_note}
 
 Answers to evaluate ({len(items)} items):
 {json.dumps(items, indent=2)}
@@ -429,8 +443,8 @@ Return ONLY valid JSON:
       "keywords_found": ["keyword"],
       "points_covered": ["point correctly addressed"],
       "points_missed": ["point not addressed"],
-      "comment": "One encouraging sentence.",
-      "suggestions": "One specific improvement tip."
+      "comment": "1-2 sentences: acknowledge what was right, then explicitly state why marks were deducted (e.g. 'Marks reduced because X was missing / incorrect').",
+      "suggestions": "One specific, actionable improvement tip."
     }}
   ],
   "overall_guidance": "{guidance_spec}"

@@ -27,7 +27,6 @@ from backend.services.profile_updater import update_profile, compute_exam_readin
 from backend.services.ai_client import (
     call_1_select_questions,
     call_1_ocr_pdf,
-    call_2_evaluate_subjective,
     call_2_score_and_guide,
 )
 from backend.gamification import check_and_award_badges, check_level_up, calculate_level
@@ -619,6 +618,10 @@ def submit_session(session_id: str, req: Optional[SubmitSessionRequest] = None):
             generated_params=gen_params.get(qid),
         )
 
+        # Understanding sessions: always use AI for subjective — keyword match is too rigid
+        if sess_type == "understanding" and q_type in ("short", "long", "assertion_reason"):
+            needs_ai = True
+
         if needs_ai:
             ai_needed.append({
                 "question_id":   qid,
@@ -634,12 +637,10 @@ def submit_session(session_id: str, req: Optional[SubmitSessionRequest] = None):
     # ── Layer 3 — single AI Call 2 ─────────────────────────────────────────
     overall_guidance = ""
     if ai_needed:
-        if sess_type in PAPER_TEST_TYPES:
-            call2 = call_2_score_and_guide(ai_needed, assessment["chapter"], sess_type)
-            ai_evals     = call2["evaluations"]
-            overall_guidance = call2.get("overall_guidance", "")
-        else:
-            ai_evals = call_2_evaluate_subjective(ai_needed)
+        # Use call_2_score_and_guide for all session types — it scores + returns overall guidance
+        call2 = call_2_score_and_guide(ai_needed, assessment["chapter"], sess_type)
+        ai_evals     = call2["evaluations"]
+        overall_guidance = call2.get("overall_guidance", "")
 
         for ev in ai_evals:
             qid   = ev["question_id"]

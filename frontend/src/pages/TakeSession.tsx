@@ -359,7 +359,6 @@ function UnderstandingView({ session }: { session: SessionResponse }) {
   const [answers,    setAnswers]    = useState<Record<string, AnswerState>>({})
   const [submitting, setSubmitting] = useState(false)
   const [error,      setError]      = useState('')
-  const [hintShown,  setHintShown]  = useState<Record<string, boolean>>({})
   const tickRef = useRef<() => void>(() => {})
 
   const questions = session.questions
@@ -399,8 +398,15 @@ function UnderstandingView({ session }: { session: SessionResponse }) {
       time_seconds:    getAns(q.id).timeSeconds,
     }))
     try {
-      const results = await submitSession(session.session_id, subs)
-      navigate(`/session/${session.session_id}/results`, { state: { results } })
+      const resp = await submitSession(session.session_id, subs)
+      // Pass only celebration data; Results page fetches full breakdown from API
+      navigate(`/session/${session.session_id}/results`, {
+        state: {
+          new_badges:    resp.new_badges    ?? [],
+          leveled_up:    resp.leveled_up    ?? false,
+          current_level: resp.current_level ?? 1,
+        },
+      })
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : 'Submit failed')
       setSubmitting(false)
@@ -477,25 +483,14 @@ function UnderstandingView({ session }: { session: SessionResponse }) {
                 onChange={e => updAns(q.id, { answerText: e.target.value })} />
             )}
 
-            {/* Hint — shown before answering for all question types */}
+            {/* Hint — always visible before answering, like Spark */}
             {(() => {
               const hintText = q.rubric?.hint ?? q.rubric?.key_points?.[0] ?? q.rubric?.keywords?.[0] ?? null
-              const ans = getAns(q.id)
-              const alreadyAnswered = ans.instantResult != null ||
-                (q.type !== 'mcq' && q.type !== 'assertion_reason' && q.type !== 'numerical' &&
-                  (ans.answerText ?? '').trim().length > 0)
-              if (!hintText || alreadyAnswered) return null
-              return hintShown[q.id] ? (
+              if (!hintText || getAns(q.id).instantResult != null) return null
+              return (
                 <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
                   <span className="font-semibold">Hint: </span>{hintText}
                 </div>
-              ) : (
-                <button
-                  onClick={() => setHintShown(prev => ({ ...prev, [q.id]: true }))}
-                  className="mt-3 text-xs text-gray-400 hover:text-amber-600 transition-colors underline underline-offset-2"
-                >
-                  Need a hint?
-                </button>
               )
             })()}
 

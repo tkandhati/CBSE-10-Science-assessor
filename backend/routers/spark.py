@@ -20,20 +20,50 @@ router = APIRouter(prefix="/api/spark", tags=["spark"])
 
 # ── Topic rotation ─────────────────────────────────────────────────────────────
 
-# Subject grouping — rotation order: Chemistry → Biology → Physics → Env Science
-_SUBJECT_ORDER = ["chemistry", "biology", "physics", "env_sci"]
-_SUBJECT_CHAPTERS: dict[str, list[str]] = {
-    "chemistry": ["ch01_chemical_reactions", "ch02_acids_bases_salts", "ch03_metals_non_metals", "ch04_carbon_compounds"],
-    "biology":   ["ch05_life_processes", "ch06_control_coordination", "ch07_reproduction", "ch08_heredity"],
-    "physics":   ["ch10_light", "ch11_human_eye", "ch12_electricity", "ch13_magnetic_effects"],
-    "env_sci":   ["ch15_our_environment"],
+# Canonical chapter order — used only for tie-breaking (all 13 chapters equally weighted)
+_CHAPTER_ORDER = [
+    "ch01_chemical_reactions", "ch02_acids_bases_salts",
+    "ch03_metals_non_metals",  "ch04_carbon_compounds",
+    "ch05_life_processes",     "ch06_control_coordination",
+    "ch07_reproduction",       "ch08_heredity",
+    "ch10_light",              "ch11_human_eye",
+    "ch12_electricity",        "ch13_magnetic_effects",
+    "ch15_our_environment",
+]
+_CHAPTER_RANK = {ch: i for i, ch in enumerate(_CHAPTER_ORDER)}
+
+# Legacy key prefix → full chapter ID (for migrating old topic_attempts entries)
+_LEGACY_CHAPTER_MAP = {
+    "chemical_reactions":  "ch01_chemical_reactions",
+    "acids_bases_salts":   "ch02_acids_bases_salts",
+    "metals_non_metals":   "ch03_metals_non_metals",
+    "carbon_compounds":    "ch04_carbon_compounds",
+    "life_processes":      "ch05_life_processes",
+    "control_coordination":"ch06_control_coordination",
+    "reproduction":        "ch07_reproduction",
+    "heredity":            "ch08_heredity",
+    "light":               "ch10_light",
+    "human_eye":           "ch11_human_eye",
+    "electricity":         "ch12_electricity",
+    "magnetic_effects":    "ch13_magnetic_effects",
+    "our_environment":     "ch15_our_environment",
 }
-# Reverse map: chapter → subject
-_CHAPTER_SUBJECT: dict[str, str] = {
-    ch: subj
-    for subj, chapters in _SUBJECT_CHAPTERS.items()
-    for ch in chapters
-}
+
+
+def _migrate_topic_attempts(raw: dict) -> dict:
+    """
+    Upgrade any old-format 'shortname.topic' keys to 'ch##_fullname.topic'.
+    Returns a new dict; no-ops if all keys are already in the new format.
+    """
+    migrated: dict[str, int] = {}
+    for key, val in raw.items():
+        parts = key.split(".", 1)
+        if len(parts) == 2 and parts[0] in _LEGACY_CHAPTER_MAP:
+            new_key = f"{_LEGACY_CHAPTER_MAP[parts[0]]}.{parts[1]}"
+            migrated[new_key] = migrated.get(new_key, 0) + val
+        else:
+            migrated[key] = migrated.get(key, 0) + val
+    return migrated
 
 
 def _all_topics(conn) -> list[tuple[str, str]]:
@@ -47,45 +77,32 @@ def _all_topics(conn) -> list[tuple[str, str]]:
 
 def _pick_topic(profile: dict, conn) -> tuple[str, str]:
     """
-    Pick next topic using subject-first rotation:
-    1. Pick subject with fewest total spark attempts (tie-break: predefined order).
-    2. Within subject, pick chapter with fewest total attempts.
-    3. Within chapter, pick topic with fewest attempts (tie-break: oldest last_tested).
+    Pick next topic using chapter-first rotation (all 13 chapters equally weighted):
+    1. Pick chapter with fewest total spark attempts (tie-break: canonical chapter order).
+    2. Within chapter, pick topic with fewest attempts (tie-break: oldest last_tested).
     """
     all_topics = _all_topics(conn)
     if not all_topics:
-        return ("ch12_electricity", "ohms_law")
+        return ("ch12_electricity", "ohms_law_resistance")
 
-    topic_attempts = profile.get("topic_attempts", {}) or {}
+    topic_attempts = _migrate_topic_attempts(profile.get("topic_attempts", {}) or {})
     topic_last     = profile.get("topic_last_tested", {}) or {}
 
-    # Build per-chapter attempt totals from available topics
+    # Available chapters (those with indexed MCQs)
+    available_chapters = list({ch for ch, _ in all_topics})
+
+    # Step 1 — pick chapter with fewest total attempts (tie-break: canonical order)
     chapter_totals: dict[str, int] = {}
     for ch, tp in all_topics:
         key = f"{ch}.{tp}"
         chapter_totals[ch] = chapter_totals.get(ch, 0) + topic_attempts.get(key, 0)
 
-    # Step 1 — pick subject with fewest total attempts
-    subject_totals: dict[str, int] = {}
-    for subj in _SUBJECT_ORDER:
-        subject_totals[subj] = sum(
-            chapter_totals.get(ch, 0)
-            for ch in _SUBJECT_CHAPTERS[subj]
-        )
-    best_subject = min(_SUBJECT_ORDER, key=lambda s: subject_totals[s])
+    best_chapter = min(
+        available_chapters,
+        key=lambda ch: (chapter_totals.get(ch, 0), _CHAPTER_RANK.get(ch, 99)),
+    )
 
-    # Step 2 — within subject, pick chapter with fewest total attempts
-    subject_chapters_available = [
-        ch for ch in _SUBJECT_CHAPTERS[best_subject]
-        if any(ch == t[0] for t in all_topics)
-    ]
-    if not subject_chapters_available:
-        # Fallback: ignore subject constraint
-        subject_chapters_available = list({ch for ch, _ in all_topics})
-
-    best_chapter = min(subject_chapters_available, key=lambda ch: chapter_totals.get(ch, 0))
-
-    # Step 3 — within chapter, pick topic with fewest attempts (tie-break: oldest last_tested)
+    # Step 2 — within chapter, pick topic with fewest attempts (tie-break: oldest last_tested)
     chapter_topics = [(ch, tp) for ch, tp in all_topics if ch == best_chapter]
     best_ch, best_tp = chapter_topics[0]
     best_att  = float("inf")
@@ -245,8 +262,8 @@ def complete_spark(session_id: str, body: CompleteBody):
             default = [] if field == "badges" else {}
             profile[field] = json.loads(v) if isinstance(v, str) and v else default
 
-        # Increment topic_attempts + last_tested
-        attempts = profile["topic_attempts"]
+        # Migrate any legacy-format keys, then increment topic_attempts + last_tested
+        attempts = _migrate_topic_attempts(profile["topic_attempts"])
         attempts[topic_key] = attempts.get(topic_key, 0) + 1
         last_tested = profile["topic_last_tested"]
         last_tested[topic_key] = date.today().isoformat()
