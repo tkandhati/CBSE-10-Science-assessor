@@ -37,7 +37,8 @@
         "expected_answer": "It indicates the direction of the reaction",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what the arrow separates on either side of a chemical equation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -68,7 +69,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "defines chemical equation"
-        }
+        },
+        "hint": "Focus on what symbols and information a chemical equation communicates about a reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -98,7 +100,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "correct balanced equation with state symbols"
-        }
+        },
+        "hint": "Remember to balance atoms and include physical state symbols for each substance."
       },
       "template_params": null,
       "diagram_path": null,
@@ -127,7 +130,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "correct example with comparison"
-        }
+        },
+        "hint": "Think about what law a correctly balanced equation must satisfy."
       },
       "template_params": null,
       "diagram_path": null,
@@ -170,7 +174,8 @@
         "expected_answer": "3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count atoms of each element on both sides to check which option is balanced."
       },
       "template_params": null,
       "diagram_path": null,
@@ -212,7 +217,8 @@
         "expected_answer": "3, 4, 4",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Start by balancing Fe atoms, then count O and H atoms systematically."
       },
       "template_params": null,
       "diagram_path": null,
@@ -241,7 +247,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "state symbols"
-        }
+        },
+        "hint": "Start with the element appearing in fewest compounds and adjust coefficients step by step."
       },
       "template_params": null,
       "diagram_path": null,
@@ -271,7 +278,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "correct state symbols"
-        }
+        },
+        "hint": "Write a skeletal equation first, then balance K before balancing H atoms."
       },
       "template_params": null,
       "diagram_path": null,
@@ -298,7 +306,8 @@
         "expected_answer": "4 oxygen atoms on each side",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count how many oxygen atoms are in 4 molecules of H2O on the left side."
       },
       "template_params": {
         "variables": {
@@ -340,7 +349,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark each": "each correct balanced equation (a–d)"
-        }
+        },
+        "hint": "Write each skeletal equation first, then balance the element with most atoms first."
       },
       "template_params": null,
       "diagram_path": null,
@@ -383,7 +393,8 @@
         "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which fundamental law requires equal atoms on both sides of an equation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -425,7 +436,8 @@
         "expected_answer": "CaO + H₂O → Ca(OH)₂",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how many reactants and how many products are involved in combination reactions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -467,7 +479,8 @@
         "expected_answer": "Photochemical decomposition",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider what type of energy source causes AgCl to decompose in this reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -495,7 +508,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "correct definition and example of endothermic"
-        }
+        },
+        "hint": "Focus on whether energy is released or absorbed to classify each reaction type."
       },
       "template_params": null,
       "diagram_path": null,
@@ -536,7 +550,8 @@
         ],
         "partial_marks": {
           "1 mark": "balanced equation"
-        }
+        },
+        "hint": "Think about which electrode collects which gas and the 2:1 volume ratio of gases."
       },
       "template_params": null,
       "diagram_path": null,
@@ -567,7 +582,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "balanced equation"
-        }
+        },
+        "hint": "Consider what happens to glucose during respiration and whether energy is released or absorbed."
       },
       "template_params": null,
       "diagram_path": null,
@@ -595,7 +611,8 @@
         "expected_answer": "3 mL of O₂",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use the balanced equation to find the molar ratio of H2 to O2 by volume."
       },
       "template_params": {
         "variables": {
@@ -639,7 +656,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "labelling exothermic/endothermic"
-        }
+        },
+        "hint": "Think about how combination builds one product while decomposition breaks one reactant into many."
       },
       "template_params": null,
       "diagram_path": null,
@@ -681,7 +699,8 @@
         "expected_answer": "Zn + CuSO₄ → ZnSO₄ + Cu",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which reaction involves one element replacing another element in a compound."
       },
       "template_params": null,
       "diagram_path": null,
@@ -723,7 +742,8 @@
         "expected_answer": "Barium sulphate",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which product is insoluble in water and therefore forms a precipitate."
       },
       "template_params": null,
       "diagram_path": null,
@@ -754,7 +774,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "balanced equation"
-        }
+        },
+        "hint": "Consider the relative reactivity of iron and copper in the activity series."
       },
       "template_params": null,
       "diagram_path": null,
@@ -783,7 +804,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "both equations correct"
-        }
+        },
+        "hint": "Focus on whether one or two elements are displaced in each type of reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -811,7 +833,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "balanced equation"
-        }
+        },
+        "hint": "Think about what property of the product causes it to separate out of solution."
       },
       "template_params": null,
       "diagram_path": null,
@@ -844,7 +867,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "explanation of colour change"
-        }
+        },
+        "hint": "Think about which metal is more reactive and what colour change results from displacement."
       },
       "template_params": null,
       "diagram_path": "chap01_disp_diagram_001.svg",
@@ -876,7 +900,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "identifying R cannot displace others"
-        }
+        },
+        "hint": "Use each given reaction result to compare reactivity pairs and rank all three elements."
       },
       "template_params": null,
       "diagram_path": null,
@@ -917,7 +942,8 @@
         "expected_answer": "Gain of oxygen by a substance",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether oxidation involves gaining or losing oxygen from a substance."
       },
       "template_params": null,
       "diagram_path": null,
@@ -961,7 +987,8 @@
         "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on whether CuO gains or loses oxygen during this reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -989,7 +1016,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "at least one example each"
-        }
+        },
+        "hint": "Use the definitions of oxidation and reduction in terms of oxygen gain or loss."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1017,7 +1045,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "correctly identifies incorrect statement"
-        }
+        },
+        "hint": "Identify which substance gains oxygen and which substance loses oxygen in the reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1048,7 +1077,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "equation and explanation (c)"
-        }
+        },
+        "hint": "Think about what reaction copper undergoes with oxygen and what hydrogen does to reverse it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1090,7 +1120,8 @@
         "expected_answer": "Rusting",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the slow reaction of iron with moisture and oxygen forming an oxide coating."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1135,7 +1166,8 @@
         "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider why an inert gas like nitrogen prevents a chemical reaction from occurring with fats."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1165,7 +1197,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "rancidity definition and example"
-        }
+        },
+        "hint": "Both corrosion and rancidity involve the same fundamental type of chemical process."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1196,7 +1229,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "consequence if sealed in air"
-        }
+        },
+        "hint": "Consider what gas must be removed from packaging to prevent oxidation of oils and fats."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1225,7 +1259,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "correct mass calculation = 22g"
-        }
+        },
+        "hint": "Use the mole ratio from the balanced equation to calculate mass of CO2."
       },
       "template_params": {
         "variables": {
@@ -1278,7 +1313,8 @@
         "expected_answer": "Zn and H₂SO₄",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall which side of the arrow holds the starting materials in a chemical equation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1320,7 +1356,8 @@
         "expected_answer": "The substance is in aqueous solution (dissolved in water)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what the abbreviation aq stands for in solution chemistry."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1360,7 +1397,8 @@
         "expected_answer": "(s)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the four state symbols and match solid to its correct abbreviation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1402,7 +1440,8 @@
         "expected_answer": "8",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Multiply the coefficient by the number of H atoms in each water molecule formula."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1442,7 +1481,8 @@
         "expected_answer": "Law of conservation of mass",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which scientific law states atoms cannot be created or destroyed in a reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1472,7 +1512,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "steps listed correctly"
-        }
+        },
+        "hint": "Think about adjusting only the coefficients, never the formulae, of substances in the equation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1501,7 +1542,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "correct balanced equation"
-        }
+        },
+        "hint": "Count Na atoms on both sides first, then adjust and recount H and O."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1526,7 +1568,8 @@
         "expected_answer": "7 atoms (3 Fe + 4 O)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Add the subscripts of each element in the Fe3O4 formula to get total atoms."
       },
       "template_params": {
         "variables": {
@@ -1585,7 +1628,8 @@
         "expected_answer": "Combination reaction",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count the number of reactants and products to identify this reaction pattern."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1627,7 +1671,8 @@
         "expected_answer": "Decomposition of limestone (CaCO₃ → CaO + CO₂)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which reaction absorbs energy from surroundings rather than releasing it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1669,7 +1714,8 @@
         "expected_answer": "Electrolytic decomposition",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider what type of energy drives the decomposition of water in electrolysis apparatus."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1700,7 +1746,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "equation and product name"
-        }
+        },
+        "hint": "Think about how many products form when two substances combine together in a reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1731,7 +1778,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "colour change stated"
-        }
+        },
+        "hint": "Think about what type of decomposition heat drives and what colour change accompanies it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1760,7 +1808,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "correct mass = 28g"
-        }
+        },
+        "hint": "Use the 1:1 mole ratio of CaCO3 to CaO and scale using the given mass."
       },
       "template_params": {
         "variables": {
@@ -1813,7 +1862,8 @@
         "expected_answer": "Single displacement reaction",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether one or both reactants are compounds in this specific reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1855,7 +1905,8 @@
         "expected_answer": "Zinc (Zn)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the activity series and which metals rank higher than copper in reactivity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1896,7 +1947,8 @@
         "expected_answer": "BaSO₄ is insoluble in water",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about why only insoluble products separate from the solution as precipitate."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1924,7 +1976,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "equation"
-        }
+        },
+        "hint": "Think about what property of the product causes it to settle out of solution."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1954,7 +2007,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "reaction type + explanation"
-        }
+        },
+        "hint": "Recall the reactivity order and identify which element ranks higher than copper."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1983,7 +2037,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark each": "each correct difference"
-        }
+        },
+        "hint": "Compare what each type of reactant is and what each type of product typically forms."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2009,7 +2064,8 @@
         "expected_answer": "2 moles of silver",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use the molar ratio from the balanced equation to scale moles of silver produced."
       },
       "template_params": {
         "variables": {
@@ -2062,7 +2118,8 @@
         "expected_answer": "Copper is oxidised",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether copper gains or loses oxygen to determine if it is oxidised."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2091,7 +2148,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "ZnO reduced correctly identified with reason"
-        }
+        },
+        "hint": "Identify which substance gains and which loses oxygen using the given equation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2119,7 +2177,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "0.5 mark each": "each correct identification (4 total)"
-        }
+        },
+        "hint": "Track oxygen movement for each equation to decide oxidation or reduction for each substance."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2149,7 +2208,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "example with identification"
-        }
+        },
+        "hint": "Think about what must happen simultaneously to both oxidation and reduction in any redox reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2178,7 +2238,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "two examples"
-        }
+        },
+        "hint": "Think about what type of slow reaction gradually destroys a metal surface in the environment."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2210,7 +2271,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "two/three methods"
-        }
+        },
+        "hint": "Think about what chemical process causes fats to spoil and how blocking oxygen prevents it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2241,7 +2303,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 mark": "CaCO₃ formation from whitewash"
-        }
+        },
+        "hint": "Think about what protective layer forms on the surface and how it shields the material."
       },
       "template_params": null,
       "diagram_path": null,

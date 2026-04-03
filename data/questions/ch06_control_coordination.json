@@ -35,7 +35,8 @@
         "expected_answer": "Neuron",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which cell is the basic structural and functional unit of the nervous system."
       },
       "template_params": null,
       "diagram_path": null,
@@ -74,7 +75,8 @@
         "expected_answer": "Synapse",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what the gap between two neurons is called where chemical signals cross."
       },
       "template_params": null,
       "diagram_path": null,
@@ -103,7 +105,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "definition_only": 1
-        }
+        },
+        "hint": "Think about the chemical that crosses the synaptic gap to trigger the next neuron."
       },
       "template_params": null,
       "diagram_path": null,
@@ -135,7 +138,8 @@
         "partial_marks": {
           "function_only": 1,
           "one_example": 1
-        }
+        },
+        "hint": "Think about what would happen if sense organs could no longer detect environmental changes."
       },
       "template_params": null,
       "diagram_path": null,
@@ -167,7 +171,8 @@
         "partial_marks": {
           "identification_only": 2,
           "functions": 1
-        }
+        },
+        "hint": "Recall the four main neuron parts: which end receives information and which transmits it?"
       },
       "template_params": null,
       "diagram_path": "chap6_ns_dia_006.svg",
@@ -209,7 +214,8 @@
           "diagram_only": 2,
           "explanation_only": 2,
           "both_complete": 5
-        }
+        },
+        "hint": "Draw and label dendrite, cell body, axon, and axon terminal; describe each part's role."
       },
       "template_params": null,
       "diagram_path": null,
@@ -248,7 +254,8 @@
         "expected_answer": "Olfactory receptor",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the prefix olfact and which sense organ it relates to."
       },
       "template_params": null,
       "diagram_path": null,
@@ -287,7 +294,8 @@
         "expected_answer": "Spinal cord",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about where reflex arcs are formed: which part of the CNS handles them directly?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -316,7 +324,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one_difference": 1
-        }
+        },
+        "hint": "Think about which involves conscious brain control and which bypasses the brain entirely."
       },
       "template_params": null,
       "diagram_path": null,
@@ -350,7 +359,8 @@
         "partial_marks": {
           "sequence_partial": 1,
           "naming_reflex": 1
-        }
+        },
+        "hint": "Trace the pathway from the skin receptor to the spinal cord and back to muscle."
       },
       "template_params": null,
       "diagram_path": null,
@@ -391,7 +401,8 @@
         "expected_answer": "Both A and R are true, and R is the correct explanation of A. Reflex actions are quick because the nerve impulse is processed in the spinal cord itself without going to the brain, reducing the response time.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about why bypassing the brain makes reflex actions faster than voluntary responses."
       },
       "template_params": null,
       "diagram_path": null,
@@ -430,7 +441,8 @@
         "expected_answer": "Cerebellum",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which brain region is responsible for coordination of body balance and posture."
       },
       "template_params": null,
       "diagram_path": null,
@@ -470,7 +482,8 @@
         "expected_answer": "Medulla in the hind-brain",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which part of the hind-brain controls automatic continuous functions like heartbeat."
       },
       "template_params": null,
       "diagram_path": null,
@@ -498,7 +511,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one_region_with_function": 1
-        }
+        },
+        "hint": "Name all three brain regions and link each to one specific function."
       },
       "template_params": null,
       "diagram_path": null,
@@ -527,7 +541,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one_protection": 1
-        }
+        },
+        "hint": "Think about the bony structure enclosing the brain and the fluid surrounding it inside."
       },
       "template_params": null,
       "diagram_path": null,
@@ -556,7 +571,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one_type": 1
-        }
+        },
+        "hint": "Think about which signals pass through the spinal cord: both reflex and brain-to-body signals."
       },
       "template_params": null,
       "diagram_path": null,
@@ -585,7 +601,8 @@
         "partial_marks": {
           "identification_only": 1.5,
           "functions": 1.5
-        }
+        },
+        "hint": "Identify which brain region controls thinking, which controls balance, and which controls heartbeat."
       },
       "template_params": null,
       "diagram_path": "chap6_hb_dia_006.svg",
@@ -617,7 +634,8 @@
         "partial_marks": {
           "differences_only": 2,
           "examples": 1
-        }
+        },
+        "hint": "Think about whether each action is continuous and automatic or sudden and stimulus-triggered."
       },
       "template_params": null,
       "diagram_path": null,
@@ -656,7 +674,8 @@
         "expected_answer": "Cytokinin",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which option belongs to plants: the others are all animal hormones."
       },
       "template_params": null,
       "diagram_path": null,
@@ -695,7 +714,8 @@
         "expected_answer": "Chemotropism",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what kind of stimulus is causing the directional growth of the pollen tube."
       },
       "template_params": null,
       "diagram_path": null,
@@ -728,7 +748,8 @@
           "definition": 1,
           "two_hormones": 1,
           "all_four": 2
-        }
+        },
+        "hint": "Name all four plant hormones and link auxin to elongation, abscisic acid to inhibition."
       },
       "template_params": null,
       "diagram_path": null,
@@ -757,7 +778,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one_difference": 1
-        }
+        },
+        "hint": "Compare whether each movement depends on growth or on water content changes in cells."
       },
       "template_params": null,
       "diagram_path": null,
@@ -789,7 +811,8 @@
           "auxin_role": 1,
           "mechanism": 1,
           "bending": 1
-        }
+        },
+        "hint": "Think about how auxin moves toward the shady side and what happens to those cells."
       },
       "template_params": null,
       "diagram_path": null,
@@ -820,7 +843,8 @@
         "partial_marks": {
           "auxin_movement": 1,
           "coiling": 1
-        }
+        },
+        "hint": "Think about how auxin moves away from the contact side causing differential growth to coil."
       },
       "template_params": null,
       "diagram_path": null,
@@ -855,7 +879,8 @@
         "partial_marks": {
           "general_mechanism": 2,
           "each_hormone": 1.5
-        }
+        },
+        "hint": "Explain how hormones coordinate plant responses without a nervous system using two examples."
       },
       "template_params": null,
       "diagram_path": null,
@@ -894,7 +919,8 @@
         "expected_answer": "Insulin",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which hormone from the pancreas lowers blood glucose levels after a meal."
       },
       "template_params": null,
       "diagram_path": null,
@@ -923,7 +949,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "iodine_thyroid_link": 1
-        }
+        },
+        "hint": "Think about which mineral the thyroid gland needs to produce thyroxin."
       },
       "template_params": null,
       "diagram_path": null,
@@ -956,7 +983,8 @@
         "partial_marks": {
           "two_responses": 1,
           "three_responses": 2
-        }
+        },
+        "hint": "Think about the fight-or-flight response and what changes happen to heart rate and blood flow."
       },
       "template_params": null,
       "diagram_path": null,
@@ -987,7 +1015,8 @@
         "partial_marks": {
           "insulin_function": 1,
           "diabetes_link": 1
-        }
+        },
+        "hint": "Think about what happens to blood sugar when the pancreas produces insufficient insulin."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1018,7 +1047,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each_gland_complete": 1
-        }
+        },
+        "hint": "Link each gland to its hormone and that hormone's main function using the diagram."
       },
       "template_params": null,
       "diagram_path": "chap6_ha_dia_005.svg",
@@ -1053,7 +1083,8 @@
           "nervous_only": 2,
           "hormonal_only": 2,
           "comparison": 1
-        }
+        },
+        "hint": "Compare speed, medium (electrical vs chemical), and duration of effect for each system."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1097,7 +1128,8 @@
         "expected_answer": "Both A and R are true, but R is not the correct explanation of A. Iodine deficiency causes goitre because iodine is essential for the thyroid gland to synthesise thyroxin. Swelling of the neck is indeed a symptom of goitre but it does not explain why iodine deficiency causes the disease.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Check whether neck swelling is the cause of goitre or merely a symptom of it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1126,7 +1158,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "formula_substitution": 1
-        }
+        },
+        "hint": "Use the formula t = sqrt(2d/g) and substitute the given distance value."
       },
       "template_params": {
         "variables": {
@@ -1164,7 +1197,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "excess_calculation": 1
-        }
+        },
+        "hint": "Subtract the upper normal limit from the measured value, then calculate percentage of that limit."
       },
       "template_params": {
         "variables": {
@@ -1202,7 +1236,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "formula": 1
-        }
+        },
+        "hint": "Use time equals distance divided by speed and watch your units carefully."
       },
       "template_params": {
         "variables": {
@@ -1257,7 +1292,8 @@
         "expected_answer": "Dendrite",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which part of the neuron collects information at its receiving end."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1297,7 +1333,8 @@
         "expected_answer": "Taste",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the term gust meaning taste: which receptor type does this describe?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1321,7 +1358,8 @@
         "expected_answer": "The axon carries/transmits the electrical impulse away from the cell body to the axon terminal, where it is passed to the next neuron or effector.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which long fibre carries electrical impulses away from the neuron cell body."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1349,7 +1387,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "receptor": 1
-        }
+        },
+        "hint": "Think about which receptor type detects smell and where it sends the impulse for processing."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1388,7 +1427,8 @@
         "expected_answer": "Neurons",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which type of cell makes up the network that forms nervous tissue."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1411,7 +1451,8 @@
         "expected_answer": "The central nervous system (CNS) consists of the brain and the spinal cord.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which two structures together make up the central nervous system."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1451,7 +1492,8 @@
         "expected_answer": "Pulling hand away from a flame",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which action is involuntary, automatic, and happens without conscious thought."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1481,7 +1523,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "definition": 1
-        }
+        },
+        "hint": "Think about the pathway from receptor to effector and name each component in order."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1510,7 +1553,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "speed_point": 1
-        }
+        },
+        "hint": "Think about why a spinal cord shortcut makes reflex responses faster and safer."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1549,7 +1593,8 @@
         "expected_answer": "All of the above",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which answer includes all three functions: thinking, heartbeat, and balance."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1589,7 +1634,8 @@
         "expected_answer": "Fore-brain (Cerebrum)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which large brain region handles conscious thinking and reasoning."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1614,7 +1660,8 @@
         "expected_answer": "The cerebellum is responsible for the precision of voluntary actions and for maintaining the posture and balance of the body.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which brain region maintains posture and coordinates precision of voluntary actions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1639,7 +1686,8 @@
         "expected_answer": "The medulla oblongata (in the hind-brain) controls involuntary actions such as heartbeat, breathing, blood pressure, salivation and vomiting.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which part of the hind-brain controls involuntary functions like heartbeat and breathing."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1662,7 +1710,8 @@
         "expected_answer": "The spinal cord is protected by the vertebral column (backbone).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the bony column of vertebrae that surrounds and protects the spinal cord."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1702,7 +1751,8 @@
         "expected_answer": "Cerebrum",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which brain region is involved in conscious deliberate actions like writing."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1741,7 +1791,8 @@
         "expected_answer": "Phototropism",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the type of tropism that describes directional growth in response to light."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1780,7 +1831,8 @@
         "expected_answer": "Abscisic acid",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which plant hormone acts as a growth inhibitor and causes wilting."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1804,7 +1856,8 @@
         "expected_answer": "Auxin is a plant hormone that promotes growth by stimulating cells to grow longer. Gibberellin is another example that promotes stem growth.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Name one hormone that promotes cell elongation and another that promotes stem growth."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1833,7 +1886,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "roots_direction": 1
-        }
+        },
+        "hint": "Think about which direction roots and shoots grow in relation to the pull of gravity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1874,7 +1928,8 @@
         "expected_answer": "Change in water content of cells",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether Mimosa leaf movement requires growth or just water movement in cells."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1904,7 +1959,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one_reason": 1
-        }
+        },
+        "hint": "Think about why organisms need to detect environmental changes and coordinate organ responses."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1943,7 +1999,8 @@
         "expected_answer": "Pituitary gland",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which gland at the brain base acts as the master hormone gland."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1983,7 +2040,8 @@
         "expected_answer": "Growth hormone",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which hormone from the pituitary gland controls skeletal growth in children."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2012,7 +2070,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "mechanism": 1
-        }
+        },
+        "hint": "Think about how endocrine glands release hormones into the blood to reach target organs."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2042,7 +2101,8 @@
         "partial_marks": {
           "definition": 1,
           "example": 1
-        }
+        },
+        "hint": "Think about how rising blood sugar triggers insulin release and falling sugar reduces it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2083,7 +2143,8 @@
         "expected_answer": "Testosterone and Oestrogen",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which sex hormones cause the changes seen during puberty in males and females."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2109,7 +2170,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "drop_calc": 1
-        }
+        },
+        "hint": "Calculate the drop in blood sugar between the two readings and express as a percentage."
       },
       "template_params": {
         "variables": {
@@ -2151,7 +2213,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "formula": 1
-        }
+        },
+        "hint": "Use time equals distance divided by speed and convert to milliseconds."
       },
       "template_params": {
         "variables": {
@@ -2191,7 +2254,8 @@
         "expected_answer": "Rate = 30/48 = 0.625 degrees per hour",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Divide the total bending angle by the number of hours to find the hourly rate."
       },
       "template_params": {
         "variables": {

@@ -37,7 +37,8 @@
         "expected_answer": "Cropland",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which option is created and maintained by human activity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -68,7 +69,8 @@
         "partial_marks": {
           "definition": 1,
           "examples": 1
-        }
+        },
+        "hint": "Define ecosystem as organisms plus non-living factors; give one natural and one human-made example."
       },
       "template_params": null,
       "diagram_path": null,
@@ -99,7 +101,8 @@
         "partial_marks": {
           "biotic_definition+examples": 1,
           "abiotic_definition+examples": 1
-        }
+        },
+        "hint": "Contrast living (biotic) versus non-living (abiotic) and give two examples of each."
       },
       "template_params": null,
       "diagram_path": null,
@@ -138,7 +141,8 @@
           "role_of_consumers": 1,
           "role_of_decomposers": 1,
           "absence_of_decomposers_effects": 2
-        }
+        },
+        "hint": "Address producers, consumers, and decomposers separately, then predict what happens without decomposers."
       },
       "template_params": null,
       "diagram_path": null,
@@ -182,7 +186,8 @@
         "expected_answer": "10 J",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Plants capture 1% of solar energy; only 10% of that reaches primary consumers."
       },
       "template_params": null,
       "diagram_path": null,
@@ -213,7 +218,8 @@
         "partial_marks": {
           "definition": 1,
           "food_chain_with_levels": 1
-        }
+        },
+        "hint": "Define trophic level as a step in a food chain; label levels T1 to T5."
       },
       "template_params": null,
       "diagram_path": null,
@@ -244,7 +250,8 @@
         "partial_marks": {
           "reason_for_short_chains": 1,
           "significance_of_10pct_law": 1
-        }
+        },
+        "hint": "Only 10% of energy transfers at each level; too little remains after 3-4 steps."
       },
       "template_params": null,
       "diagram_path": null,
@@ -287,7 +294,8 @@
         "expected_answer": "Both A and R are true and R is the correct explanation of A. Energy flow in an ecosystem is always unidirectional — from producers to consumers — and it cannot cycle back to the sun.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Energy flows forward only; evaluate A and R separately, then check if R explains A."
       },
       "template_params": null,
       "diagram_path": null,
@@ -320,7 +328,8 @@
           "trophic_level_identification": 1,
           "energy_calculation": 1,
           "explanation_of_energy_loss": 1
-        }
+        },
+        "hint": "Plants capture 1% of solar energy; then 10% transfers at each successive trophic level."
       },
       "template_params": null,
       "diagram_path": "chap13_fcw_diag_001.svg",
@@ -352,7 +361,8 @@
           "first_trophic_level": 1,
           "food_chain_count_and_example": 1,
           "dual_consumer_identification": 1
-        }
+        },
+        "hint": "First trophic level is always the producers at the base of the food web."
       },
       "template_params": null,
       "diagram_path": "chap13_fcw_diag_002.svg",
@@ -383,7 +393,8 @@
           "grasshopper_energy": 0.5,
           "frog_energy": 0.75,
           "snake_energy": 0.75
-        }
+        },
+        "hint": "Apply the 10% law: each level receives 10% of the previous level's energy."
       },
       "template_params": {
         "variables": {
@@ -433,7 +444,8 @@
           "definition": 1,
           "increasing_concentration_explanation": 1,
           "example": 1
-        }
+        },
+        "hint": "Non-degradable chemicals concentrate progressively at each higher trophic level."
       },
       "template_params": null,
       "diagram_path": null,
@@ -477,7 +489,8 @@
         "expected_answer": "Tiger",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Non-degradable pesticides accumulate at each trophic level; top consumer has highest concentration."
       },
       "template_params": null,
       "diagram_path": null,
@@ -520,7 +533,8 @@
         "expected_answer": "Reduce CFC production",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the 1987 UNEP agreement (Montreal Protocol) and which chemical it targeted."
       },
       "template_params": null,
       "diagram_path": null,
@@ -551,7 +565,8 @@
         "partial_marks": {
           "explanation": 1,
           "reactions": 1
-        }
+        },
+        "hint": "UV splits O2 into free O atoms; each O atom then combines with O2."
       },
       "template_params": null,
       "diagram_path": null,
@@ -585,7 +600,8 @@
           "why_concerned": 1,
           "health_effects": 1,
           "steps_taken": 1
-        }
+        },
+        "hint": "Ozone absorbs UV; its depletion allows UV to reach Earth causing health and ecosystem damage."
       },
       "template_params": null,
       "diagram_path": null,
@@ -626,7 +642,8 @@
           "function_of_ozone_layer": 1,
           "CFC_mechanism": 2,
           "consequences": 1
-        }
+        },
+        "hint": "Describe ozone formation, UV shielding, CFC catalytic destruction, and health consequences."
       },
       "template_params": null,
       "diagram_path": null,
@@ -671,7 +688,8 @@
         "expected_answer": "Polythene, detergent and PVC",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Microorganisms cannot break down synthetic plastics; find the group containing only such items."
       },
       "template_params": null,
       "diagram_path": null,
@@ -702,7 +720,8 @@
         "partial_marks": {
           "biodegradable_explanation+example": 1,
           "non_biodegradable_explanation+example": 1
-        }
+        },
+        "hint": "Biodegradable substances have matching enzymes in nature; non-biodegradable ones do not."
       },
       "template_params": null,
       "diagram_path": null,
@@ -739,7 +758,8 @@
           "problem_1": 1,
           "problem_2": 1,
           "problem_3": 1
-        }
+        },
+        "hint": "Think about persistence in soil, biological magnification, and harm to animals."
       },
       "template_params": null,
       "diagram_path": null,
@@ -774,7 +794,8 @@
           "identification_of_5R": 1,
           "examples_for_each_R": 1,
           "most_effective_with_reason": 1
-        }
+        },
+        "hint": "The 5R hierarchy is Refuse, Reduce, Reuse, Repurpose, Recycle; Refuse prevents waste at source."
       },
       "template_params": null,
       "diagram_path": "chap13_wst_diag_001.svg",
@@ -818,7 +839,8 @@
         "expected_answer": "Grass, goat and human",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "A valid food chain must start with a producer (plant) in a realistic feeding sequence."
       },
       "template_params": null,
       "diagram_path": null,
@@ -861,7 +883,8 @@
         "expected_answer": "All of the above",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "All three practices reduce waste, save energy, or cut emissions; do all three qualify?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -893,7 +916,8 @@
         "partial_marks": {
           "decomposers_action": 1,
           "nutrient_recycling": 1
-        }
+        },
+        "hint": "Decomposers break organic matter into inorganic substances, completing the nutrient cycle."
       },
       "template_params": null,
       "diagram_path": null,
@@ -925,7 +949,8 @@
         "partial_marks": {
           "food_chain_vs_web_definition": 1,
           "reason_web_is_realistic": 1
-        }
+        },
+        "hint": "A food chain is linear; a food web is interconnected with multiple food sources."
       },
       "template_params": null,
       "diagram_path": null,
@@ -969,7 +994,8 @@
         "expected_answer": "Third",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Trace Grass (T1) to Cow (T2) to Milk/Curd to Ravi; identify Ravi's trophic level."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1012,7 +1038,8 @@
         "expected_answer": "Unidirectional",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Energy passes producer to consumer in one direction; it cannot cycle back to the sun."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1054,7 +1081,8 @@
         "expected_answer": "Decrease in energy at higher trophic levels",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "After 3 to 4 trophic transfers so little energy remains another level cannot be sustained."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1086,7 +1114,8 @@
         "partial_marks": {
           "effect_on_level_above": 1,
           "effect_on_level_below": 1
-        }
+        },
+        "hint": "Removing a trophic level starves organisms above and allows organisms below to overpopulate."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1116,7 +1145,8 @@
         "partial_marks": {
           "producer_energy": 1,
           "secondary_consumer_energy": 1
-        }
+        },
+        "hint": "Producers capture 1% of solar energy; secondary consumers receive 10% of primary consumer energy."
       },
       "template_params": {
         "variables": {
@@ -1162,7 +1192,8 @@
         "partial_marks": {
           "producer_level": 1,
           "second_trophic_level": 1
-        }
+        },
+        "hint": "Use the 10% law in reverse: divide up the chain to find each level's energy."
       },
       "template_params": {
         "variables": {
@@ -1212,7 +1243,8 @@
         "partial_marks": {
           "effect_1": 1,
           "effect_2": 1
-        }
+        },
+        "hint": "Biodegradable waste in large amounts causes eutrophication or releases greenhouse gases on decomposition."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1243,7 +1275,8 @@
         "partial_marks": {
           "effect_1": 1,
           "effect_2": 1
-        }
+        },
+        "hint": "Non-biodegradable substances persist for very long periods and concentrate through biological magnification."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1287,7 +1320,8 @@
         "expected_answer": "UV radiation splits O₂ into free oxygen atoms that combine with O₂",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "UV splits O2 into free O atoms, which then combine with O2 to form O3."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1321,7 +1355,8 @@
         "partial_marks": {
           "definition_and_location": 1,
           "effect_on_ecosystem": 1
-        }
+        },
+        "hint": "Ozone (O3) is in the stratosphere and absorbs harmful UV-B and UV-C radiation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1367,7 +1402,8 @@
         "expected_answer": "Fruit-peels, cake and lime-juice",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "All items in the group must be decomposable by microorganisms; check each one."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1398,7 +1434,8 @@
         "partial_marks": {
           "method_1": 1,
           "method_2": 1
-        }
+        },
+        "hint": "Think about the 5R approach: reducing generation and recycling are two effective strategies."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1431,7 +1468,8 @@
         "formula": null,
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Solar energy is renewable but intermittent; biogas burns cleaner than dung cakes."
       },
       "template_params": null,
       "diagram_path": null,

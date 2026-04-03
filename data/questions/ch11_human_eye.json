@@ -37,7 +37,8 @@
         "expected_answer": "Concave (diverging) lens. In myopia the far point is nearer than infinity; a concave lens of suitable negative power brings the image of a distant object onto the retina.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which lens type pushes the image back onto the retina for myopia."
       },
       "template_params": null,
       "diagram_path": null,
@@ -78,7 +79,8 @@
         "expected_answer": "Myopia (near-sightedness). The student sees nearby objects clearly but cannot see distant objects.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Clear near vision but blurred distant vision is the hallmark of which defect?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -108,7 +110,8 @@
         "partial_marks": {
           "causes": 1,
           "correction": 1
-        }
+        },
+        "hint": "State causes (lens curvature or eyeball length) and which lens type diverges the light."
       },
       "template_params": null,
       "diagram_path": null,
@@ -139,7 +142,8 @@
         "partial_marks": {
           "myopia": 1,
           "hypermetropia": 1
-        }
+        },
+        "hint": "Compare where each defect forms the image (front vs behind retina) and which lens corrects each."
       },
       "template_params": null,
       "diagram_path": null,
@@ -170,7 +174,8 @@
           "formula_setup": 1,
           "substitution": 1,
           "final_answer": 1
-        }
+        },
+        "hint": "Use u = -infinity, v = -far_point in metres, then P = 1/v - 1/u."
       },
       "template_params": {
         "variables": {
@@ -213,7 +218,8 @@
           "formula_setup": 1,
           "substitution": 1,
           "final_answer": 1
-        }
+        },
+        "hint": "Use u = -0.25 m (normal near point) and v = -near_point in metres, then P = 1/v - 1/u."
       },
       "template_params": {
         "variables": {
@@ -260,7 +266,8 @@
           "formula": 1,
           "distant": 1,
           "near": 1
-        }
+        },
+        "hint": "Apply f = 1/P for each power value and convert to cm if needed."
       },
       "template_params": {
         "variables": {
@@ -313,7 +320,8 @@
           "correction": 1,
           "symptoms": 1,
           "difference": 1
-        }
+        },
+        "hint": "Focus on age-related loss of accommodation due to ciliary muscles and lens flexibility."
       },
       "template_params": null,
       "diagram_path": null,
@@ -350,7 +358,8 @@
           "formula": 1,
           "substitution": 1,
           "answer": 1
-        }
+        },
+        "hint": "For diagram show image behind retina; for calculation use P = 1/v - 1/u with correct signs."
       },
       "template_params": null,
       "diagram_path": null,
@@ -393,7 +402,8 @@
         "expected_answer": "Both A and R are true and R correctly explains A. Upper concave corrects myopia; lower convex corrects hypermetropia.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which lens goes on top (distant) and which on bottom (near) in bifocal lenses."
       },
       "template_params": null,
       "diagram_path": null,
@@ -432,7 +442,8 @@
         "expected_answer": "Retina. The eye lens system forms a real, inverted image on the retina.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which eye structure contains light-sensitive rods and cones."
       },
       "template_params": null,
       "diagram_path": null,
@@ -473,7 +484,8 @@
         "expected_answer": "Iris. The iris is a dark muscular diaphragm that controls the size of the pupil, regulating light entering the eye.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which structure acts as a muscular diaphragm controlling the size of the pupil."
       },
       "template_params": null,
       "diagram_path": null,
@@ -508,7 +520,8 @@
         "partial_marks": {
           "2_correct": 1,
           "4_correct": 2
-        }
+        },
+        "hint": "For each part, think: does it refract, regulate light, adjust focal length, or convert signals?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -557,7 +570,8 @@
           "labeled_diagram": 2,
           "structure": 2,
           "image_formation": 1
-        }
+        },
+        "hint": "Describe each component from cornea to optic nerve; image on retina is real and inverted."
       },
       "template_params": null,
       "diagram_path": null,
@@ -590,7 +604,8 @@
         "partial_marks": {
           "similarities": 1,
           "differences": 1
-        }
+        },
+        "hint": "Compare focus adjustment: camera moves lens mechanically; eye changes lens shape by accommodation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -631,7 +646,8 @@
         "expected_answer": "Ciliary muscles. Contraction increases curvature (shorter focal length); relaxation decreases curvature (longer focal length).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which muscle changes the curvature of the crystalline lens."
       },
       "template_params": null,
       "diagram_path": null,
@@ -661,7 +677,8 @@
         "partial_marks": {
           "definition": 1,
           "points": 1
-        }
+        },
+        "hint": "Define accommodation and state both the near point and far point of a normal eye."
       },
       "template_params": null,
       "diagram_path": null,
@@ -692,7 +709,8 @@
           "muscles": 0.5,
           "curvature": 0.75,
           "focal_length": 0.75
-        }
+        },
+        "hint": "Ciliary muscles contract for near vision; what happens to curvature and focal length?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -723,7 +741,8 @@
         "partial_marks": {
           "limit_explanation": 1,
           "strain_effect": 1
-        }
+        },
+        "hint": "Think about the minimum focal length limit even with full ciliary muscle contraction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -764,7 +783,8 @@
         "expected_answer": "Most deviated: Violet (shortest wavelength). Least deviated: Red (longest wavelength).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Relate deviation to wavelength: shorter wavelength gives more or less deviation in a prism?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -793,7 +813,8 @@
         "partial_marks": {
           "definition": 1,
           "VIBGYOR_Newton": 1
-        }
+        },
+        "hint": "Name the splitting phenomenon, recall VIBGYOR order, and who first demonstrated it with sunlight."
       },
       "template_params": null,
       "diagram_path": null,
@@ -832,7 +853,8 @@
         "partial_marks": {
           "conditions": 1,
           "droplet_role": 1
-        }
+        },
+        "hint": "Two conditions: sunlight present and raindrops opposite Sun; each droplet acts like a prism."
       },
       "template_params": null,
       "diagram_path": null,
@@ -874,7 +896,8 @@
           "second_prism": 1,
           "white_light_emerges": 1,
           "conclusion": 1
-        }
+        },
+        "hint": "First prism splits; second inverted prism recombines all colours — what does this prove?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -912,7 +935,8 @@
           "diagram": 1,
           "max_min": 1,
           "acronym": 1
-        }
+        },
+        "hint": "Draw prism with white light in and VIBGYOR out; violet deviates most, red deviates least."
       },
       "template_params": null,
       "diagram_path": null,
@@ -951,7 +975,8 @@
         "expected_answer": "Angle of deviation (angle D). It is the angle through which the incident ray is deflected by the prism.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "The angle between the incident ray direction and emergent ray direction has a specific name."
       },
       "template_params": null,
       "diagram_path": null,
@@ -981,7 +1006,8 @@
         "partial_marks": {
           "prism": 1,
           "slab": 1
-        }
+        },
+        "hint": "Inclined surfaces in prism add deviation; parallel surfaces in slab cancel out deviation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1026,7 +1052,8 @@
           "diagram": 1,
           "rays_labelled": 1,
           "angles_marked": 1
-        }
+        },
+        "hint": "Draw triangular prism with all five angles (i, r, e, A, D) and all three rays labelled."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1068,7 +1095,8 @@
         "expected_answer": "Both A and R are true and R correctly explains A. The inclined surfaces cause both refractions to deviate the ray in the same direction, resulting in the angle of deviation.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Check whether inclined surfaces correctly explain why emergent ray is not parallel to incident."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1108,7 +1136,8 @@
         "expected_answer": "Atmospheric refraction of starlight. The continuously changing refractive index of the atmosphere causes the apparent position to fluctuate, making starlight entering the eye flicker.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which atmospheric property changes continuously and bends starlight."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1136,7 +1165,8 @@
         "partial_marks": {
           "stars": 1,
           "planets": 1
-        }
+        },
+        "hint": "Stars are point sources; planets are extended sources — how does size affect light fluctuations?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1166,7 +1196,8 @@
         "partial_marks": {
           "mechanism": 1,
           "2_minutes": 1
-        }
+        },
+        "hint": "Atmospheric refraction bends sunlight upward near horizon; by approximately how many minutes?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1209,7 +1240,8 @@
           "changing_conditions": 1,
           "point_source_twinkling": 1,
           "planets_extended": 1
-        }
+        },
+        "hint": "Explain gradually changing refractive index, apparent vs actual position, and why planets differ."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1251,7 +1283,8 @@
         "expected_answer": "Red light has the longest wavelength in the visible spectrum and is scattered the least by fog, smoke, or dust particles. Therefore it can be seen from the greatest distance, making it ideal for danger signals.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which colour has the longest wavelength and is therefore scattered least."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1282,7 +1315,8 @@
         "partial_marks": {
           "blue_sky": 1,
           "astronaut_dark": 1
-        }
+        },
+        "hint": "Shorter wavelengths scatter more — link this to blue sky and why high-altitude sky looks dark."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1314,7 +1348,8 @@
         "partial_marks": {
           "definition": 1,
           "examples_distinction": 1
-        }
+        },
+        "hint": "Tyndall effect needs particles large enough to scatter; compare colloidal vs dissolved particles."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1354,7 +1389,8 @@
         "expected_answer": "Myopia (near-sightedness). In myopia the image of a distant object forms in front of the retina.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about where the image of a distant object forms in a myopic eye."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1396,7 +1432,8 @@
         "expected_answer": "Weakening of ciliary muscles due to age is a cause of presbyopia, not myopia. Myopia is caused by (i) excessive curvature of the eye lens or (ii) elongation of the eyeball.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Identify which cause belongs to presbyopia rather than myopia to find the odd one out."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1436,7 +1473,8 @@
         "expected_answer": "Bifocal lenses (upper concave for distance, lower convex for near vision).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Presbyopia affects both near and far vision; which single lens type addresses both distances?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1463,7 +1501,8 @@
         "partial_marks": {
           "defect": 1,
           "lens": 1
-        }
+        },
+        "hint": "Cannot read nearby means near point has shifted far; which lens type shifts it back?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1493,7 +1532,8 @@
         "partial_marks": {
           "structure": 1,
           "who_uses": 1
-        }
+        },
+        "hint": "Bifocal has two portions; describe upper and lower, then name who commonly needs it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1521,7 +1561,8 @@
           "formula": 1,
           "substitution": 1,
           "answer": 1
-        }
+        },
+        "hint": "Use P = -1/far_point (in metres); the result is negative, confirming a concave lens."
       },
       "template_params": {
         "variables": {
@@ -1560,7 +1601,8 @@
           "formula": 1,
           "substitution": 1,
           "answer": 1
-        }
+        },
+        "hint": "Use P = 1/v - 1/u with u = -0.25 m and v = -near_point in metres."
       },
       "template_params": {
         "variables": {
@@ -1600,7 +1642,8 @@
           "formula": 1,
           "calculation": 1,
           "type": 1
-        }
+        },
+        "hint": "Use f = 1/P; negative f means concave, positive f means convex."
       },
       "template_params": {
         "variables": {
@@ -1651,7 +1694,8 @@
         "expected_answer": "2.3 cm",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the standard textbook value for the diameter of the human eyeball."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1691,7 +1735,8 @@
         "expected_answer": "The outer surface of the cornea. The cornea provides most of the refraction; the crystalline lens provides fine adjustment.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Most refraction happens at the front surface of the eye, not in the crystalline lens."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1721,7 +1766,8 @@
         "partial_marks": {
           "pupil": 1,
           "optic_nerve": 1
-        }
+        },
+        "hint": "Pupil is the opening admitting light; optic nerve carries electrical signals to the brain."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1752,7 +1798,8 @@
         "partial_marks": {
           "definition": 1,
           "treatment": 1
-        }
+        },
+        "hint": "Think about what happens to the crystalline lens with age and how surgery treats it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1792,7 +1839,8 @@
         "expected_answer": "25 cm. Objects closer than this cannot be seen clearly without strain.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "This is the standard near point distance for comfortable clear vision in a normal young adult."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1834,7 +1882,8 @@
         "expected_answer": "Decreases. Ciliary muscle contraction increases the curvature of the lens (it thickens), decreasing its focal length to enable clear near vision.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Ciliary muscles contracting increases curvature; greater curvature means shorter or longer focal length?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1864,7 +1913,8 @@
         "partial_marks": {
           "definition": 1,
           "reason": 1
-        }
+        },
+        "hint": "Least distance of distinct vision is minimum distance for strain-free vision; 25 cm is the limit."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1893,7 +1943,8 @@
         "partial_marks": {
           "normal_far_point": 1,
           "myopia_change": 1
-        }
+        },
+        "hint": "Normal far point is infinity; how does myopia shift the far point to a finite distance?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1933,7 +1984,8 @@
         "expected_answer": "Violet has the shortest wavelength in the visible spectrum and is therefore deviated the most by a glass prism.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "In VIBGYOR the first letter has the shortest wavelength and the greatest deviation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1974,7 +2026,8 @@
         "expected_answer": "Dispersion of sunlight by water droplets acting as prisms. Each droplet refracts, disperses, internally reflects, and refracts again.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which optical processes inside each water droplet produce the rainbow."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2002,7 +2055,8 @@
         "partial_marks": {
           "sequence": 1,
           "most_least": 1
-        }
+        },
+        "hint": "VIBGYOR runs from most to least deviated; violet is most, red is least."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2032,7 +2086,8 @@
         "partial_marks": {
           "opposite_reason": 1,
           "mechanism": 1
-        }
+        },
+        "hint": "Light enters front of raindrop, reflects internally, then exits facing the observer."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2072,7 +2127,8 @@
         "expected_answer": "Not parallel (at an angle). The angle between them is called the angle of deviation.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "A triangular prism has inclined surfaces; compare this to a rectangular slab with parallel surfaces."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2101,7 +2157,8 @@
         "partial_marks": {
           "definition": 1,
           "direction": 1
-        }
+        },
+        "hint": "Angle of deviation is between original incident direction and final emergent direction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2132,7 +2189,8 @@
         "partial_marks": {
           "surface1": 1,
           "surface2": 1
-        }
+        },
+        "hint": "Rarer to denser bends towards normal; denser to rarer bends away from normal."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2173,7 +2231,8 @@
         "expected_answer": "Atmospheric refraction. The atmosphere bends sunlight towards the Earth, making the apparent position of the Sun above its actual position near the horizon, allowing us to see it ~2 minutes before actual sunrise.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Atmospheric refraction bends sunlight, making the Sun appear above its actual position near the horizon."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2201,7 +2260,8 @@
         "partial_marks": {
           "earth_twinkling": 1,
           "moon_no_twinkling": 1
-        }
+        },
+        "hint": "Twinkling is caused by atmospheric refraction; the Moon has no atmosphere — what follows?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -2230,7 +2290,8 @@
         "partial_marks": {
           "stars": 1,
           "sun_sunrise": 1
-        }
+        },
+        "hint": "No atmosphere means no scattering and no refraction — trace effects on stars and sunrise timing."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2271,7 +2332,8 @@
         "expected_answer": "A colloidal solution (like milk or smoke in air). Fine suspended particles scatter light making the beam visible. In true solutions, dissolved molecules are too small to scatter light.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Tyndall effect needs particles large enough to scatter; colloidal particles qualify, dissolved molecules do not."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2300,7 +2362,8 @@
         "partial_marks": {
           "reason": 1,
           "conclusion": 1
-        }
+        },
+        "hint": "Blue sky requires scattering by air molecules; very few molecules at high altitude means what?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -2330,7 +2393,8 @@
         "partial_marks": {
           "wavelength_scattering": 1,
           "distance_visibility": 1
-        }
+        },
+        "hint": "Red light has the longest wavelength; longer wavelength means less scattering and farther travel."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2362,7 +2426,8 @@
         "formula": null,
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Match each person's symptom (near vs far blur) to name the defect, then identify the corrective lens."
       },
       "template_params": null,
       "diagram_path": null,

@@ -36,7 +36,8 @@
         "expected_answer": "(d) Concentric circles centred on the wire",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the shape of field lines around a long straight current-carrying wire."
       },
       "template_params": null,
       "diagram_path": null,
@@ -77,7 +78,8 @@
         "expected_answer": "(b) Magnetic field around the conductor",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall which part of the right hand shows the magnetic field in the Thumb Rule."
       },
       "template_params": null,
       "diagram_path": null,
@@ -118,7 +120,8 @@
         "expected_answer": "(c) The conductor is perpendicular to the magnetic field",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use F = BIL sin-theta; think which angle gives the maximum sin-theta."
       },
       "template_params": null,
       "diagram_path": null,
@@ -159,7 +162,8 @@
         "expected_answer": "(c) Increases heavily",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Short circuit drops resistance to near zero; use I = V/R to see current."
       },
       "template_params": null,
       "diagram_path": null,
@@ -200,7 +204,8 @@
         "expected_answer": "(d) The same at all points (uniform)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Parallel equally-spaced field lines inside a solenoid indicate a specific kind of field."
       },
       "template_params": null,
       "diagram_path": null,
@@ -241,7 +246,8 @@
         "expected_answer": "(c) Electric motor",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Which device converts electrical energy to mechanical energy using force on a conductor?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -282,7 +288,8 @@
         "expected_answer": "(b) At any given point the magnetic field has a unique direction, so two lines meeting would imply two directions",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Field has a unique direction at every point; think what two crossing lines would imply."
       },
       "template_params": null,
       "diagram_path": null,
@@ -323,7 +330,8 @@
         "expected_answer": "(c) 20 times as large",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Field at the coil centre is proportional to number of turns (B ∝ n)."
       },
       "template_params": null,
       "diagram_path": null,
@@ -363,7 +371,8 @@
         "expected_answer": "(c) Earth wire",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall colour coding: live = red, neutral = black, earth = green."
       },
       "template_params": null,
       "diagram_path": null,
@@ -398,7 +407,8 @@
           "1 property correct": 1,
           "2 properties correct": 2,
           "3 properties correct": 3
-        }
+        },
+        "hint": "Think about closed loops, tangent gives direction, no intersection, density means strength."
       },
       "template_params": null,
       "diagram_path": null,
@@ -428,7 +438,8 @@
         "partial_marks": {
           "thumb = current direction": 1,
           "fingers = field direction": 1
-        }
+        },
+        "hint": "Recall which hand to use and what thumb versus curled fingers each represent."
       },
       "template_params": null,
       "diagram_path": null,
@@ -462,7 +473,8 @@
         "partial_marks": {
           "correct fingers mentioned": 1,
           "correct assignments of field/current/force": 1
-        }
+        },
+        "hint": "Stretch three left-hand fingers mutually perpendicular; assign field, current, force to each."
       },
       "template_params": null,
       "diagram_path": null,
@@ -493,7 +505,8 @@
         "partial_marks": {
           "function of earth wire": 1,
           "reason for earthing metallic appliances": 1
-        }
+        },
+        "hint": "Earth wire gives a low-resistance path to ground; think what hazard it prevents."
       },
       "template_params": null,
       "diagram_path": null,
@@ -524,7 +537,8 @@
         "partial_marks": {
           "bar magnet has field": 1,
           "force acts on compass needle / needle aligns": 1
-        }
+        },
+        "hint": "A compass is a small magnet; the bar magnet's field exerts force on its poles."
       },
       "template_params": null,
       "diagram_path": null,
@@ -555,7 +569,8 @@
         "partial_marks": {
           "(i) correct": 1,
           "(ii) correct": 1
-        }
+        },
+        "hint": "Recall B proportional to I/r; think how B changes with distance or current."
       },
       "template_params": null,
       "diagram_path": null,
@@ -585,7 +600,8 @@
         "partial_marks": {
           "identifies conventional current opposite": 1,
           "correct direction vertically downward": 1
-        }
+        },
+        "hint": "Conventional current is opposite to electron motion; then apply Fleming's Left-Hand Rule."
       },
       "template_params": null,
       "diagram_path": null,
@@ -617,7 +633,8 @@
         "partial_marks": {
           "short circuit definition": 1,
           "two safety devices named": 1
-        }
+        },
+        "hint": "Think what causes a short circuit and how fuse or MCB protects the circuit."
       },
       "template_params": null,
       "diagram_path": null,
@@ -651,7 +668,8 @@
           "field pattern similarity mentioned": 1,
           "N and S poles identified": 1,
           "uniform field inside noted": 1
-        }
+        },
+        "hint": "Compare solenoid's external field with a bar magnet's — both have N and S poles."
       },
       "template_params": null,
       "diagram_path": null,
@@ -681,7 +699,8 @@
           "(i) correct": 1,
           "(ii) correct": 1,
           "(iii) correct": 1
-        }
+        },
+        "hint": "F = BIL; think how displacement changes when I, B, or current direction changes."
       },
       "template_params": null,
       "diagram_path": null,
@@ -714,7 +733,8 @@
         "partial_marks": {
           "rule named correctly": 1,
           "correct application described": 1
-        }
+        },
+        "hint": "Fleming's Right-Hand Rule: thumb = conductor motion, forefinger = field, middle = induced current."
       },
       "template_params": null,
       "diagram_path": null,
@@ -746,7 +766,8 @@
           "correct rule applied": 1,
           "(i) correct": 1,
           "(ii) correct": 1
-        }
+        },
+        "hint": "Apply Right-Hand Thumb Rule with thumb pointing east-to-west; find field below and above."
       },
       "template_params": null,
       "diagram_path": null,
@@ -775,7 +796,8 @@
         "partial_marks": {
           "method 1": 1,
           "method 2": 1
-        }
+        },
+        "hint": "Two ways to create a magnetic field: a permanent magnet or an electric current."
       },
       "template_params": null,
       "diagram_path": null,
@@ -808,7 +830,8 @@
           "identifies current direction = west": 1,
           "applies Fleming's LHR correctly": 1,
           "correct answer: upward": 1
-        }
+        },
+        "hint": "Positive charge moving west gives westward current; apply Fleming's Left-Hand Rule for field."
       },
       "template_params": null,
       "diagram_path": null,
@@ -839,7 +862,8 @@
           "formula written": 1,
           "correct current calculated": 1,
           "conclusion about fuse": 1
-        }
+        },
+        "hint": "Use I = P/V; compare result with the 5 A fuse rating."
       },
       "template_params": {
         "variables": {
@@ -884,7 +908,8 @@
         "partial_marks": {
           "formula stated": 1,
           "correct answer 15B₀": 1
-        }
+        },
+        "hint": "Field at centre of a coil scales with turns: B = n times B0."
       },
       "template_params": {
         "variables": {
@@ -932,7 +957,8 @@
           "formula and current calculated": 1,
           "5A insufficient explained": 1,
           "10A fuse recommended": 1
-        }
+        },
+        "hint": "Use I = P/V; compare result with 5 A and 10 A ratings."
       },
       "template_params": {
         "variables": {
@@ -993,7 +1019,8 @@
           "uniform field inside explained": 1,
           "bar magnet analogy": 1,
           "N/S poles explained": 1
-        }
+        },
+        "hint": "Inside solenoid: uniform parallel field; outside: resembles a bar magnet's closed loops."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1039,7 +1066,8 @@
           "Fleming LHR correctly stated": 2,
           "diagram correct": 1,
           "F = BILsinθ with θ=90 explained": 1
-        }
+        },
+        "hint": "F = BIL sin-theta is maximum at 90 degrees; use Fleming's LHR for direction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1084,7 +1112,8 @@
           "definition of magnetic field": 1,
           "diagram correct": 2,
           "4 properties listed (0.5 each)": 2
-        }
+        },
+        "hint": "Recall: closed loops, tangent = direction, no intersection, density indicates field strength."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1125,7 +1154,8 @@
         "expected_answer": "(a) Both A and R are true, and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Unique field direction means two crossing lines would imply two directions — impossible."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1169,7 +1199,8 @@
         "expected_answer": "(a) Both A and R are true, and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Fuse wire has low melting point and high resistance; it melts to break the circuit."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1211,7 +1242,8 @@
           "arrows correct": 0.5,
           "lines denser near poles": 0.5,
           "closed loops": 0.5
-        }
+        },
+        "hint": "Draw closed loops from N, curving around, entering S; mark arrows and dense poles."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1255,7 +1287,8 @@
           "internal uniform field": 0.5,
           "N/S poles labeled": 0.5,
           "external field lines": 1
-        }
+        },
+        "hint": "Draw solenoid with current on turns; uniform parallel lines inside, loops outside."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1305,7 +1338,8 @@
           "battery": 0.5,
           "rotation arrow": 0.5,
           "all labels present": 1
-        }
+        },
+        "hint": "Label all six: coil ABCD, N and S poles, commutator, brushes, battery, rotation arrow."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1346,7 +1380,8 @@
         "expected_answer": "(a) Becomes an independent complete magnet with both N and S poles",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Cutting a magnet gives two complete magnets; magnetic monopoles cannot exist."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1387,7 +1422,8 @@
         "expected_answer": "(b) The magnetic field is stronger there",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Density (closeness) of field lines represents the strength of the magnetic field."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1428,7 +1464,8 @@
         "expected_answer": "(c) Doubles",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "B proportional to I for a straight conductor; doubling I doubles B."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1469,7 +1506,8 @@
         "expected_answer": "(b) Current flow",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "In Right-Hand Thumb Rule, the thumb points in the direction of current."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1511,7 +1549,8 @@
         "expected_answer": "(c) Zero",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "F = BIL sin-theta; parallel to B means theta = 0, so force = 0."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1552,7 +1591,8 @@
         "expected_answer": "(c) Direction of current",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Fleming LHR: Forefinger = Field, Middle finger = Current, Thumb = Force."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1593,7 +1633,8 @@
         "expected_answer": "(b) Parallel",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Domestic appliances need the same voltage and independent switching; think which connection gives both."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1634,7 +1675,8 @@
         "expected_answer": "(b) 220 V",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the standard voltage between live and neutral in Indian domestic AC supply."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1675,7 +1717,8 @@
         "expected_answer": "(c) Zero",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use F = qvB sin-theta; v parallel to B gives theta = 0."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1716,7 +1759,8 @@
         "expected_answer": "(b) The field doubles",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "B proportional to I/r; with constant I and r halved, what happens to B?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1758,7 +1802,8 @@
         "expected_answer": "(b) AC generator uses slip rings; DC generator uses a split-ring commutator",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Slip rings give AC; split-ring commutator gives DC (unidirectional) output."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1790,7 +1835,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct property": 0.5
-        }
+        },
+        "hint": "List four from: closed loops, tangent = direction, no intersection, density = strength."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1823,7 +1869,8 @@
         "partial_marks": {
           "solenoid defined": 1,
           "electromagnet explained": 1
-        }
+        },
+        "hint": "A solenoid is a helical coil; inserting a soft iron core amplifies its magnetic field."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1854,7 +1901,8 @@
         "partial_marks": {
           "definition": 1,
           "application": 1
-        }
+        },
+        "hint": "Electromagnetic induction: changing flux induces current; the generator is the key application."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1886,7 +1934,8 @@
         "partial_marks": {
           "fuse described": 1,
           "MCB described": 1
-        }
+        },
+        "hint": "Fuse melts (one-time use); MCB trips automatically and can be reset — contrast both."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1916,7 +1965,8 @@
         "partial_marks": {
           "compass placed at point": 1,
           "N-pole direction = field direction": 1
-        }
+        },
+        "hint": "Place a compass; its north pole points in the direction of the magnetic field."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1946,7 +1996,8 @@
         "partial_marks": {
           "difference 1": 1,
           "difference 2": 1
-        }
+        },
+        "hint": "Contrast permanent versus temporary magnetism and fixed versus adjustable strength."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1974,7 +2025,8 @@
         "partial_marks": {
           "generator named": 1,
           "principle stated": 1
-        }
+        },
+        "hint": "Generator converts mechanical to electrical energy via electromagnetic induction in a rotating coil."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2005,7 +2057,8 @@
         "partial_marks": {
           "fault scenario mentioned": 1,
           "earth wire provides safe path": 1
-        }
+        },
+        "hint": "If live wire touches metal casing, earth wire gives a safe low-resistance path to ground."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2036,7 +2089,8 @@
         "partial_marks": {
           "tangent = direction argument": 1,
           "unique direction argument": 1
-        }
+        },
+        "hint": "Two crossing field lines would imply two field directions at one point — impossible."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2065,7 +2119,8 @@
         "partial_marks": {
           "field increases": 1,
           "B ∝ n stated or implied": 1
-        }
+        },
+        "hint": "B proportional to nI; increasing turns per unit length (constant I) increases field strength."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2095,7 +2150,8 @@
         "partial_marks": {
           "F = BIL stated": 1,
           "F ∝ B explanation": 1
-        }
+        },
+        "hint": "F = BIL; stronger magnet means larger B, so force and displacement both increase."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2127,7 +2183,8 @@
           "precaution 1": 1,
           "precaution 2": 1,
           "precaution 3": 1
-        }
+        },
+        "hint": "Avoid too many appliances per circuit; use separate circuits and correct fuse ratings."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2159,7 +2216,8 @@
           "RHTR applied": 1,
           "thumb upward": 1,
           "correct direction (south)": 1
-        }
+        },
+        "hint": "Thumb points upward (current); curled fingers on east side indicate the field direction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2193,7 +2251,8 @@
           "outside N→S mentioned": 0.5,
           "inside S→N mentioned": 0.5,
           "closed loops conclusion": 1
-        }
+        },
+        "hint": "Outside N to S, inside S to N — together they form complete closed loops."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2221,7 +2280,8 @@
         "partial_marks": {
           "formula written": 1,
           "answer computed correctly": 1
-        }
+        },
+        "hint": "Use I = P/V to find the current drawn by the appliance."
       },
       "template_params": {
         "variables": {
@@ -2264,7 +2324,8 @@
         "partial_marks": {
           "formula stated": 1,
           "correct answer n×B₀": 1
-        }
+        },
+        "hint": "Field at coil centre scales with turns: B = n times B0."
       },
       "template_params": {
         "variables": {
@@ -2310,7 +2371,8 @@
           "I = P/V formula and calculation": 1,
           "comparison with fuse rating": 1,
           "correct conclusion": 1
-        }
+        },
+        "hint": "Calculate I = P/V; compare with fuse rating I_f to decide if fuse blows."
       },
       "template_params": {
         "variables": {
@@ -2362,7 +2424,8 @@
         "formula": "F = BIL",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Motor uses force on current-carrying conductor; Fleming's LHR gives the rotation direction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2407,7 +2470,8 @@
         "expected_answer": "Option B — Index finger (forefinger) points in the direction of the magnetic field.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Fleming's LHR: Forefinger = Field, Middle finger = Current, Thumb = Force (motion)."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2452,7 +2516,8 @@
         "expected_answer": "Option C — 90 degrees. Force is maximum when conductor is perpendicular to the magnetic field.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "F = BIL sin-theta; maximum force when theta = 90 degrees (sin-90 = 1)."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2497,7 +2562,8 @@
         "expected_answer": "Option C — Electric motor. The left-hand rule predicts the force that drives rotation in a motor.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Fleming's Left-Hand Rule describes force on a current; this is the motor principle."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2532,7 +2598,8 @@
           "I_mentioned": 1,
           "L_mentioned": 1,
           "angle_mentioned": 1
-        }
+        },
+        "hint": "F = BIL sin-theta; identify which four quantities appear and how each affects force."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2565,7 +2632,8 @@
           "current_reversal": 1,
           "field_reversal": 1,
           "explanation": 1
-        }
+        },
+        "hint": "Reversing current or field direction each independently reverses the force direction."
       },
       "template_params": null,
       "diagram_path": null,

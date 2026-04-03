@@ -39,7 +39,8 @@
         "expected_answer": "(b) It ensures transfer of characters and generates variations.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about why DNA must be copied before a new cell can function independently."
       },
       "template_params": null,
       "diagram_path": null,
@@ -69,7 +70,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1": "Mentions species survival benefit only"
-        }
+        },
+        "hint": "Consider what happens to a species when all individuals are identical versus varied."
       },
       "template_params": null,
       "diagram_path": null,
@@ -95,7 +97,8 @@
         "expected_answer": "Number of chromosomes in each gamete = 48 / 2 = 24 chromosomes. During meiosis, the chromosome number is halved so that when two gametes fuse during fertilisation, the original diploid number is restored.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall that meiosis halves the chromosome number; apply gametes = somatic divided by 2."
       },
       "template_params": {
         "variables": {
@@ -146,7 +149,8 @@
         "expected_answer": "(b) Yeast",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which organism forms a small outgrowth that pinches off as a new individual."
       },
       "template_params": null,
       "diagram_path": null,
@@ -186,7 +190,8 @@
         "expected_answer": "(c) Plasmodium",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on the organism that divides into many daughter cells simultaneously, not just two."
       },
       "template_params": null,
       "diagram_path": null,
@@ -214,7 +219,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1": "Defines only one type correctly"
-        }
+        },
+        "hint": "Compare how many offspring are produced in each type of fission."
       },
       "template_params": null,
       "diagram_path": null,
@@ -241,7 +247,8 @@
         "expected_answer": "Spores are protected by thick walls that allow them to survive unfavourable conditions. They are light and produced in large numbers, which aids wide dispersal by wind and water. When conditions become favourable (moist surface), they germinate and grow into new individuals.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the protective coat of spores and how it helps them survive harsh conditions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -273,7 +280,8 @@
         "partial_marks": {
           "1": "Any one organism explained correctly",
           "2": "Any two organisms explained correctly"
-        }
+        },
+        "hint": "Consider how a fixed body structure like a flagellum affects the direction of fission."
       },
       "template_params": null,
       "diagram_path": null,
@@ -301,7 +309,8 @@
         "expected_answer": "Complex multi-cellular organisms have specialised cells organised into tissues and organs placed at definite positions. They cannot regenerate from cut pieces because their body design requires specific organisation that cannot be recreated by simple cell division. Unlike Hydra or Planaria, they lack enough specialised regenerative cells to rebuild the entire body plan.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the level of cell specialisation needed to rebuild a complete body plan."
       },
       "template_params": null,
       "diagram_path": null,
@@ -340,7 +349,8 @@
           "2": "Any two organisms explained",
           "3": "All three organisms but lacking detail",
           "4": "Complete but without diagrams/examples"
-        }
+        },
+        "hint": "Organise by type: binary fission in Amoeba and Leishmania, then multiple fission in Plasmodium."
       },
       "template_params": null,
       "diagram_path": null,
@@ -373,7 +383,8 @@
           "Developing bud with tentacles",
           "Labels: parent body, bud, tentacles"
         ],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Show the sequence: outgrowth forms on Hydra body, develops tentacles, then detaches."
       },
       "template_params": null,
       "diagram_path": null,
@@ -415,7 +426,8 @@
         "expected_answer": "(a) Both A and R are true and R is the correct explanation of A. Regeneration is the ability to regrow from body parts when cut, but it is not a normal reproductive strategy. Organisms reproduce through other dedicated mechanisms.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Ask yourself whether organisms normally get cut up in order to reproduce."
       },
       "template_params": null,
       "diagram_path": null,
@@ -456,7 +468,8 @@
         "expected_answer": "(c) Leaf buds in Bryophyllum. Buds produced in the notches along the leaf margin of Bryophyllum fall on the soil and develop into new plants — this is vegetative propagation.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which option involves a vegetative plant part making a new plant naturally."
       },
       "template_params": null,
       "diagram_path": null,
@@ -485,7 +498,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1": "Any one advantage stated correctly"
-        }
+        },
+        "hint": "Consider time-to-fruiting and how a parent plant passes its exact traits to offspring."
       },
       "template_params": null,
       "diagram_path": null,
@@ -525,7 +539,8 @@
         "expected_answer": "(d) Pollen grains. The anther is the top part of the stamen and produces yellowish pollen grains containing male germ-cells.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which part of the stamen produces the yellowish dust-like male cells."
       },
       "template_params": null,
       "diagram_path": null,
@@ -566,7 +581,8 @@
         "expected_answer": "(b) Fruit. After fertilisation, the ovary grows rapidly and ripens to form a fruit, while the ovule develops into a seed.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall what the outer structure around the ovule becomes after fertilisation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -595,7 +611,8 @@
         "expected_answer": "Pollination is the transfer of pollen grains from the anther to the stigma of a flower. It can be self-pollination (same flower) or cross-pollination (different flower). Fertilisation is the fusion of the male germ-cell (from pollen grain) with the female gamete (egg cell) present in the ovule. Pollination is a prerequisite for fertilisation.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish pollen transfer (physical event) from gamete fusion (cellular event)."
       },
       "template_params": null,
       "diagram_path": null,
@@ -630,7 +647,8 @@
         "partial_marks": {
           "1": "Any two changes mentioned",
           "2": "Seed or fruit formation explained"
-        }
+        },
+        "hint": "Follow the fate of the zygote, ovule, ovary, and floral parts after fertilisation occurs."
       },
       "template_params": null,
       "diagram_path": null,
@@ -659,7 +677,8 @@
         "expected_answer": "Self-pollination is the transfer of pollen grains from the anther to the stigma of the same flower. Cross-pollination is the transfer of pollen grains from the anther of one flower to the stigma of another flower. Two agents of pollination are wind and insects.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider whether pollen comes from the same flower or a different plant."
       },
       "template_params": null,
       "diagram_path": null,
@@ -703,7 +722,8 @@
           "2": "Flower structure described",
           "3": "Pollination and fertilisation explained",
           "4": "Complete but lacking seed/fruit formation"
-        }
+        },
+        "hint": "Trace the path: pollination, pollen tube growth, fertilisation, then seed and fruit formation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -737,7 +757,8 @@
         "partial_marks": {
           "1": "Any two parts identified",
           "2": "All parts identified but functions missing"
-        }
+        },
+        "hint": "Identify each label as belonging to the male part stamen or the female part pistil."
       },
       "template_params": null,
       "diagram_path": "chap7_srp_dia_001.svg",
@@ -778,7 +799,8 @@
         "expected_answer": "(a) Both A and R are true and R is the correct explanation of A. Cross-pollination brings genetic material from a different plant, leading to greater genetic variation in offspring compared to self-pollination.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether pollen from a different plant brings different genetic material."
       },
       "template_params": null,
       "diagram_path": null,
@@ -819,7 +841,8 @@
         "expected_answer": "(c) Vas deferens. Vas deferens is part of the male reproductive system through which sperms are delivered.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Identify which listed structure is found in the male rather than the female system."
       },
       "template_params": null,
       "diagram_path": null,
@@ -860,7 +883,8 @@
         "expected_answer": "(c) Fallopian tube (oviduct). Sperms travel upwards and reach the oviduct where they may encounter the egg. Fertilisation takes place in the fallopian tube.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall where sperm meets egg in the female reproductive tract after travelling upward."
       },
       "template_params": null,
       "diagram_path": null,
@@ -888,7 +912,8 @@
         "expected_answer": "The seminal vesicles and prostate gland add their secretions to the sperms along the path of the vas deferens. This fluid makes the transport of sperms easier and also provides nutrition to them.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on what these glands secrete and the two benefits that secretion provides to sperms."
       },
       "template_params": null,
       "diagram_path": null,
@@ -925,7 +950,8 @@
         "partial_marks": {
           "1": "Any two events mentioned",
           "2": "Sequence correct but incomplete"
-        }
+        },
+        "hint": "Trace the sequence: zygote, embryo, implantation, placenta, foetus, then birth."
       },
       "template_params": null,
       "diagram_path": null,
@@ -955,7 +981,8 @@
         "expected_answer": "The embryo gets nourishment from the mother's blood through the placenta. The placenta is a disc-like special tissue embedded in the uterine wall. It contains villi on the embryo's side and blood spaces on the mother's side, providing a large surface area for glucose and oxygen to pass from the mother to the embryo. Waste substances from the embryo are also transferred to the mother's blood through the placenta.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on the placenta structure and the two substances it transfers in each direction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -981,7 +1008,8 @@
         "expected_answer": "Ovulation typically occurs approximately 14 days before the start of the next menstrual period. For a 28-day cycle: 28 - 14 = Day 14. So ovulation most likely occurs around Day 14 of the cycle.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall that ovulation occurs about 14 days before the next period; subtract from cycle length."
       },
       "template_params": {
         "variables": {
@@ -1032,7 +1060,8 @@
           "2": "Three parts listed with functions",
           "3": "Five parts with functions",
           "4": "Complete parts but missing scrotum explanation"
-        }
+        },
+        "hint": "List each male organ with its function, then explain the temperature requirement."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1065,7 +1094,8 @@
         "partial_marks": {
           "1": "Any two parts identified",
           "2": "All parts identified but fertilisation site missing"
-        }
+        },
+        "hint": "Identify each part by whether it produces, carries, or houses the egg."
       },
       "template_params": null,
       "diagram_path": "chap7_hre_dia_001.svg",
@@ -1106,7 +1136,8 @@
         "expected_answer": "(c) Condom. A condom is a mechanical barrier placed on the penis (or worn in the vagina) that prevents sperms from reaching the egg.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which method physically prevents sperm from reaching the egg as a barrier."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1142,7 +1173,8 @@
         "partial_marks": {
           "1": "One category explained",
           "2": "Two categories explained"
-        }
+        },
+        "hint": "Organise your answer by category: barrier, hormonal, IUCD, and surgical methods."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1171,7 +1203,8 @@
         "expected_answer": "No, a copper-T will not help protect against sexually transmitted diseases. The copper-T is placed in the uterus and only prevents pregnancy by blocking implantation. It does not act as a barrier against the transmission of infections during sexual contact. For protection against STDs, barrier methods like condoms should be used.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether the copper-T blocks the path of infection or only prevents implantation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1208,7 +1241,8 @@
           "2": "STDs and contraception discussed",
           "3": "Adds population concern",
           "4": "Complete but prenatal sex determination not covered"
-        }
+        },
+        "hint": "Address STDs, unwanted pregnancy, population control, and the sex-ratio impact of prenatal testing."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1234,7 +1268,8 @@
         "expected_answer": "Number of days = 40 weeks x 7 days/week = 280 days. The normal gestation period in humans is approximately 280 days (about 9 months).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Multiply weeks by 7 days per week to convert the gestation period to days."
       },
       "template_params": {
         "variables": {
@@ -1287,7 +1322,8 @@
         "expected_answer": "(b) Transfer of characters with some variations.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what DNA copying transmits and whether offspring are exact copies of the parent."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1316,7 +1352,8 @@
         "expected_answer": "DNA copying is essential because it transfers genetic information (blueprints for body design) from parent to offspring. Minor variations during copying ensure species survival in changed environments. For example, if water temperature increases due to global warming, most bacteria would die, but heat-resistant variants would survive and reproduce, ensuring species survival.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what happens to a species when the environment changes and some individuals differ."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1356,7 +1393,8 @@
         "expected_answer": "(c) Plasmodium",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall which organism is the malarial parasite and how it divides inside a host cell."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1398,7 +1436,8 @@
         "expected_answer": "(b) Specialised cells that can proliferate and differentiate.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on what kind of cell can both multiply and differentiate into specialised cell types."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1439,7 +1478,8 @@
         "expected_answer": "(b) Rhizopus (bread mould).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which fungus produces spores in sporangia on black-tipped structures on bread."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1466,7 +1506,8 @@
         "expected_answer": "Binary fission is a type of asexual reproduction in which the parent cell splits into two equal daughter cells. Two organisms that reproduce by binary fission are Amoeba and Leishmania.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall binary means two; describe the parent splitting and name two organisms that do this."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1495,7 +1536,8 @@
         "expected_answer": "Fragmentation: A simple multi-cellular organism breaks into smaller fragments upon maturation, and each fragment grows into a new individual. Example: Spirogyra. Regeneration: When an organism is cut or broken into pieces, specialised cells in each piece can proliferate and develop into a complete organism. Example: Planaria or Hydra.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Contrast whether the break is spontaneous in fragmentation or caused externally in regeneration."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1522,7 +1564,8 @@
         "expected_answer": "Regeneration is not the same as reproduction because most organisms do not normally depend on being cut up to be able to reproduce. Regeneration is the ability to regrow from body parts when cut, but it is not a deliberate reproductive strategy. Reproduction is a dedicated biological process for producing new offspring without requiring the parent to be damaged.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether organisms normally rely on being cut up to produce new offspring."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1548,7 +1591,8 @@
         "expected_answer": "Number of divisions in 3 hours = 3 x 60 / 30 = 6. Number of cells = 2^6 = 64 Amoeba cells.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count divisions in the given time, then use cells = 2 to the power n."
       },
       "template_params": {
         "variables": {
@@ -1600,7 +1644,8 @@
         "expected_answer": "(b) Vegetative propagation.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Identify which type involves a vegetative plant part producing new plants without seeds."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1632,7 +1677,8 @@
         "expected_answer": "Vegetative propagation is a mode of asexual reproduction in plants where parts like roots, stems, or leaves develop into new plants. Examples: (1) Bryophyllum — buds on leaf margins grow into new plants; (2) Potato — eyes on potato tubers sprout into new plants. Advantages: (1) Plants bear flowers and fruits earlier; (2) All offspring are genetically identical to the parent, preserving desirable traits.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which vegetative part is used, give two examples, and explain two farmer advantages."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1673,7 +1719,8 @@
         "expected_answer": "(c) Pistil.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall that the female reproductive part consists of stigma, style, and ovary together."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1714,7 +1761,8 @@
         "expected_answer": "(b) Seed. The ovule develops into a seed after fertilisation, while the ovary develops into a fruit.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish between what the ovule becomes versus what the ovary becomes after fertilisation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1754,7 +1802,8 @@
         "expected_answer": "(d) Anther.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which part of the stamen contains and releases pollen grains."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1783,7 +1832,8 @@
         "expected_answer": "The three parts of the pistil are: (1) Stigma — the terminal sticky part that receives pollen grains; (2) Style — the middle elongated tube connecting stigma to ovary; (3) Ovary — the swollen bottom part containing ovules, each with an egg cell.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Name all three parts of the pistil and describe the role each plays in reproduction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1812,7 +1862,8 @@
         "expected_answer": "Pollination is the transfer of pollen grains from the anther to the stigma of a flower. In self-pollination, pollen is transferred within the same flower. In cross-pollination, pollen is transferred from the anther of one flower to the stigma of another flower, aided by agents like wind, water, or animals.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish whether pollen travels within the same flower or between different flowers."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1847,7 +1898,8 @@
         "expected_answer": "After landing on the stigma, the pollen grain germinates and a pollen tube grows out, travelling through the style to reach the ovary. The male germ-cell from the pollen grain moves through this tube. In the ovary, it reaches the ovule where the male germ-cell fuses with the female gamete (egg cell). This fusion is called fertilisation, and the resulting cell is the zygote.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Follow the pollen grain step by step: germination on stigma, tube growth, then fertilisation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1871,7 +1923,8 @@
         "expected_answer": "Maximum number of seeds = 3 carpels x 5 ovules per carpel = 15 seeds.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Multiply the number of carpels by ovules per carpel to find the maximum possible seeds."
       },
       "template_params": {
         "variables": {
@@ -1927,7 +1980,8 @@
         "expected_answer": "(c) Testes.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which organ inside the scrotum actually manufactures the sperm cells."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1968,7 +2022,8 @@
         "expected_answer": "(b) Placenta.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which tube connects ovary to uterus where gametes meet."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1997,7 +2052,8 @@
         "expected_answer": "Menstruation is the periodic discharge of the thickened uterus lining along with blood and mucous through the vagina. It occurs when the egg released by the ovary is not fertilised. Since no embryo needs to be nourished, the thickened, blood-rich uterus lining breaks down and is shed. This cycle occurs roughly every 28 days and lasts 2 to 8 days.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on the uterus lining, why it built up, and what triggers breakdown."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2023,7 +2079,8 @@
         "expected_answer": "The testes are located outside the abdominal cavity in the scrotal sac because the formation of sperms requires a temperature that is lower than the normal body temperature (~37°C). The scrotum provides this cooler environment necessary for proper sperm production.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall that sperm production requires a temperature lower than normal body temperature."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2055,7 +2112,8 @@
         "expected_answer": "Changes in girls at puberty include: (1) Breast size begins to increase with darkening of skin of the nipples; (2) Menstruation starts; (3) Thick hair grows in armpits and genital area; (4) Skin may become oily with pimples; (5) Thinner hair may appear on arms and legs; (6) Awareness of own body increases.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "List changes in breast development, menstruation onset, hair growth, and skin changes at puberty."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2086,7 +2144,8 @@
         "expected_answer": "The placenta is a disc-like special tissue embedded in the uterine wall. It has villi on the embryo's side and blood spaces on the mother's side, providing a large surface area. Its role is to: (1) Allow glucose and oxygen to pass from mother's blood to the embryo for nourishment; (2) Remove waste substances from the embryo into the mother's blood for excretion.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about villi on the embryo side and blood spaces on the mother side."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2112,7 +2171,8 @@
         "expected_answer": "Each sperm or egg cell will contain 46 / 2 = 23 chromosomes. Meiosis is a type of cell division that reduces the chromosome number to half, producing haploid gametes.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Meiosis halves the chromosome number; divide the somatic count by 2 to find the answer."
       },
       "template_params": {
         "variables": {
@@ -2165,7 +2225,8 @@
         "expected_answer": "(c) Gonorrhoea. It is a bacterial infection that is transmitted through sexual contact.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which disease is spread specifically through sexual contact, not food or air."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2206,7 +2267,8 @@
         "expected_answer": "(b) Uterus. The copper-T is an intrauterine device placed in the uterus.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about where in the female reproductive tract the device is placed to prevent pregnancy."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2236,7 +2298,8 @@
         "expected_answer": "Bacterial STD: Gonorrhoea (or Syphilis). Viral STD: HIV-AIDS (or Warts). Transmission can be prevented by using condoms during sexual intercourse, which act as a barrier to prevent the spread of infections.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Name one bacterial and one viral STD, then identify a physical barrier method."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2269,7 +2332,8 @@
         "partial_marks": {
           "1": "One category explained correctly",
           "2": "Two categories explained correctly"
-        }
+        },
+        "hint": "Think about whether each method blocks sperm physically, alters hormones, or severs a tube surgically."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2314,7 +2378,8 @@
         "expected_answer": "Option C — Formation of new plants from the eyes of a potato is natural vegetative propagation.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish natural (no human help) from artificial (human-assisted) vegetative propagation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2360,7 +2425,8 @@
         "expected_answer": "Option B — Vegetatively propagated plants bear fruit earlier and are genetically identical (clones) to the parent plant, preserving all desired traits.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider time-to-fruit and whether offspring are genetically identical to the parent plant."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2407,7 +2473,8 @@
         "expected_answer": "Option C — Jasmine is commonly propagated by layering.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which method bends a branch into soil to grow roots before cutting."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2440,7 +2507,8 @@
           "type_identified": 1,
           "buds_named": 1,
           "mechanism": 1
-        }
+        },
+        "hint": "Focus on where buds develop on the leaf and what those adventitious buds are called."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2486,7 +2554,8 @@
         "expected_answer": "Option B — Variations are the raw material for evolution. Natural selection acts on these variations over generations.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what role small variations play over many generations of natural selection."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2532,7 +2601,8 @@
         "expected_answer": "Option B — In asexual reproduction, only one parent contributes DNA, so the only source of variation is copying errors. Sexual reproduction combines DNA from two parents, creating much greater variation.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider how many parents contribute DNA in each type of reproduction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2567,7 +2637,8 @@
           "nearly_identical": 1,
           "copying_errors_mentioned": 1,
           "significance": 1
-        }
+        },
+        "hint": "Recall that DNA copying is highly faithful but not perfectly error-free; rare errors accumulate."
       },
       "template_params": null,
       "diagram_path": null,

@@ -41,7 +41,8 @@
         "expected_answer": "Decomposition",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which process is performed by an organism itself to stay alive."
       },
       "template_params": null,
       "diagram_path": null,
@@ -67,7 +68,8 @@
         "expected_answer": "Life processes such as nutrition, respiration, and excretion are necessary because living organisms constantly need energy to maintain their highly ordered body structures. These processes enable molecular movements required for maintaining organisation and repair of damaged parts.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider what would happen inside cells if energy supply stopped permanently."
       },
       "template_params": null,
       "diagram_path": null,
@@ -112,7 +114,8 @@
         "expected_answer": "CO₂ and H₂O",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what plants actually consume as raw materials versus what they produce."
       },
       "template_params": null,
       "diagram_path": null,
@@ -156,7 +159,8 @@
         "expected_answer": "Chloroplast",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall which organelle contains the green pigment that captures light energy."
       },
       "template_params": null,
       "diagram_path": null,
@@ -183,7 +187,8 @@
         "expected_answer": "Stomata are tiny pores on the surface of leaves, controlled by guard cells. They allow carbon dioxide from the atmosphere to enter the leaf, which is essential for photosynthesis. Stomata also facilitate the release of oxygen and water vapour (transpiration).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how CO2 enters a leaf and what controls that entry point."
       },
       "template_params": null,
       "diagram_path": null,
@@ -210,7 +215,8 @@
         "expected_answer": "6CO₂ + 6H₂O  →(sunlight, chlorophyll)→  C₆H₁₂O₆ + 6O₂. Carbon dioxide and water, in the presence of sunlight and chlorophyll, produce glucose and oxygen.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the balanced equation and identify what goes in on the left side."
       },
       "template_params": null,
       "diagram_path": null,
@@ -238,7 +244,8 @@
         "expected_answer": "During photosynthesis three events occur: (i) Absorption of light energy by chlorophyll. (ii) Conversion of light energy to chemical energy, with the splitting of water molecules into hydrogen and oxygen. (iii) Reduction of carbon dioxide to carbohydrates using the chemical energy from step (ii).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the three key events: light absorption, water splitting, and CO2 fixation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -275,7 +282,8 @@
           "Food vacuole",
           "Nucleus"
         ],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the temporary extensions Amoeba forms and the steps from ingestion to egestion."
       },
       "template_params": null,
       "diagram_path": null,
@@ -303,7 +311,8 @@
         "expected_answer": "(a) A = Guard cell, B = Stomatal pore. (b) Stomata allow exchange of gases (CO₂ in, O₂ out) for photosynthesis and facilitate transpiration. (c) When guard cells lose water, they become flaccid (shrink), causing the stomatal pore to close.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider what happens to guard cells when they lose water: turgid or flaccid?"
       },
       "template_params": null,
       "diagram_path": "chap5_nau_dia_001.svg",
@@ -340,7 +349,8 @@
           "Stomata on lower epidermis",
           "Vascular bundle (xylem and phloem)"
         ],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the layers from upper to lower epidermis and where chloroplasts are densest."
       },
       "template_params": null,
       "diagram_path": null,
@@ -385,7 +395,8 @@
         "expected_answer": "Saprophytes",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which option feeds on non-living decaying matter, not a living host."
       },
       "template_params": null,
       "diagram_path": null,
@@ -411,7 +422,8 @@
         "expected_answer": "Saprophytic nutrition involves obtaining nutrients from dead and decaying organic matter (e.g., Rhizopus/mushrooms). Parasitic nutrition involves deriving nutrients from a living host organism, often harming it (e.g., Cuscuta/tapeworm).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on where each organism gets nutrients from: dead matter vs. a living host."
       },
       "template_params": null,
       "diagram_path": null,
@@ -456,7 +468,8 @@
         "expected_answer": "Create an acidic medium for pepsin and kill bacteria",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what HCl provides to the stomach environment for enzymes to function."
       },
       "template_params": null,
       "diagram_path": null,
@@ -501,7 +514,8 @@
         "expected_answer": "Villi",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which structure increases surface area specifically for nutrient absorption."
       },
       "template_params": null,
       "diagram_path": null,
@@ -527,7 +541,8 @@
         "expected_answer": "Herbivores eat plants that contain cellulose, which is difficult to digest. A longer small intestine provides more time and greater surface area for the complete digestion and absorption of this plant material. Carnivores eat meat, which is easier to digest, so they need a shorter intestine.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider what makes cellulose harder to digest and why more intestine length helps."
       },
       "template_params": null,
       "diagram_path": null,
@@ -554,7 +569,8 @@
         "expected_answer": "Saliva is secreted by salivary glands in the mouth. It contains the enzyme salivary amylase, which breaks down starch (a complex carbohydrate) into maltose (a simple sugar). Saliva also moistens the food, making it easier to swallow and facilitating the action of enzymes.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on which enzyme in saliva breaks down which substrate in the mouth."
       },
       "template_params": null,
       "diagram_path": null,
@@ -582,7 +598,8 @@
         "expected_answer": "Bile juice is produced by the liver and stored in the gall bladder. It plays two roles: (i) it makes the acidic food from the stomach alkaline so that pancreatic enzymes can act on it, and (ii) it emulsifies fats (breaks large fat globules into smaller ones) to increase the surface area for lipase to act.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about bile's two roles: making the medium alkaline and breaking up fat globules."
       },
       "template_params": null,
       "diagram_path": null,
@@ -607,7 +624,8 @@
         "expected_answer": "Peristaltic movements are rhythmic contractions and relaxations of the muscles lining the alimentary canal. These wave-like movements push the food forward along the digestive tract, from the oesophagus to the rectum, ensuring that food moves through the canal even against gravity.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about wave-like muscle contractions and their direction of movement along the canal."
       },
       "template_params": null,
       "diagram_path": null,
@@ -641,7 +659,8 @@
         "expected_answer": "Digestion starts in the mouth where salivary amylase breaks starch into maltose. Food passes through the oesophagus by peristalsis to the stomach, where HCl creates an acidic medium and pepsin breaks proteins into peptides. In the small intestine, bile from the liver emulsifies fats, while pancreatic enzymes (trypsin, lipase, amylase) further digest proteins, fats, and carbohydrates. The intestinal wall secretes enzymes to complete digestion. Villi in the small intestine absorb the digested nutrients into the blood. The large intestine absorbs water from the undigested food, and the remainder is expelled.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Trace each organ in order: mouth, oesophagus, stomach, small intestine, large intestine."
       },
       "template_params": null,
       "diagram_path": null,
@@ -687,7 +706,8 @@
         "expected_answer": "CO₂ and H₂O",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what aerobic respiration fully oxidises and what two by-products it makes."
       },
       "template_params": null,
       "diagram_path": null,
@@ -732,7 +752,8 @@
         "expected_answer": "CO₂ and ethanol",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish between yeast anaerobic and muscle cell anaerobic end products."
       },
       "template_params": null,
       "diagram_path": null,
@@ -761,7 +782,8 @@
         "expected_answer": "Aerobic respiration occurs in the presence of oxygen and results in complete breakdown of glucose into CO₂ and H₂O, releasing a large amount of energy. Anaerobic respiration occurs without oxygen and results in incomplete breakdown of glucose into ethanol and CO₂ (in yeast) or lactic acid (in muscles), releasing much less energy.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Compare the role of oxygen and completeness of glucose breakdown in each type."
       },
       "template_params": null,
       "diagram_path": null,
@@ -787,7 +809,8 @@
         "expected_answer": "Aerobic respiration releases more energy because glucose is completely oxidised into CO₂ and H₂O, extracting all the chemical energy stored in glucose. In anaerobic respiration, glucose is only partially broken down (into ethanol or lactic acid), so a significant amount of energy remains locked in the end products.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether the end products of anaerobic respiration still contain stored energy."
       },
       "template_params": null,
       "diagram_path": null,
@@ -814,7 +837,8 @@
         "expected_answer": "During inhalation, the diaphragm contracts and flattens while rib muscles contract to move ribs upward and outward. This increases the volume of the thoracic cavity, reducing pressure, and air rushes into the lungs. During exhalation, the diaphragm relaxes and curves upward, ribs move downward and inward, reducing the thoracic volume, and air is pushed out.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how diaphragm and rib movement change thoracic cavity volume during each phase."
       },
       "template_params": null,
       "diagram_path": null,
@@ -842,7 +866,8 @@
         "expected_answer": "During vigorous exercise, the demand for oxygen exceeds the supply. Muscle cells start respiring anaerobically, producing lactic acid as a by-product. The accumulation of lactic acid in the muscles causes cramps and fatigue.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what accumulates in muscles when oxygen supply is insufficient during exercise."
       },
       "template_params": null,
       "diagram_path": null,
@@ -871,7 +896,8 @@
         "expected_answer": "Total energy = 38 × 30.5 = 1159 kJ/mol",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Multiply the number of ATP molecules by the energy released per molecule."
       },
       "template_params": {
         "variables": {
@@ -919,7 +945,8 @@
         "expected_answer": "Breathing involves two phases. During inhalation, the intercostal muscles contract, moving ribs upward and outward; the diaphragm contracts and flattens. This increases the thoracic cavity volume, lowering air pressure inside the lungs, and atmospheric air rushes in. During exhalation, the intercostal muscles and diaphragm relax, reducing the thoracic cavity volume, increasing pressure, and pushing air out. In the lungs, air reaches the alveoli (tiny balloon-like structures with very thin walls and rich blood supply). Oxygen from alveolar air diffuses into blood capillaries, while CO₂ from blood diffuses into the alveoli to be exhaled. The extensive network of alveoli provides a large surface area (~80 m²) for efficient gas exchange.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Cover both phases of breathing and describe gas exchange happening at the alveoli."
       },
       "template_params": null,
       "diagram_path": null,
@@ -964,7 +991,8 @@
         "expected_answer": "Pulmonary artery",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the rule that arteries carry blood away from the heart towards a destination."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1009,7 +1037,8 @@
         "expected_answer": "Platelets",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which blood component initiates the clotting process at a wound site."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1038,7 +1067,8 @@
         "expected_answer": "Double circulation means blood passes through the heart twice during one complete cycle. The right side of the heart pumps deoxygenated blood to the lungs (pulmonary circulation), where it gets oxygenated. This oxygenated blood returns to the left side of the heart, which then pumps it to the rest of the body (systemic circulation). This separation ensures that oxygenated blood does not mix with deoxygenated blood, allowing efficient delivery of oxygen to tissues — essential for warm-blooded animals with high energy needs.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how many times blood passes through the heart and name the two loops."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1067,7 +1097,8 @@
         "expected_answer": "Arteries: (i) Thick, elastic walls to withstand high pressure. (ii) Carry oxygenated blood away from the heart (except pulmonary artery). (iii) No valves. Veins: (i) Thin walls with a larger lumen. (ii) Carry deoxygenated blood towards the heart (except pulmonary vein). (iii) Have valves to prevent backflow of blood.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Compare wall thickness, presence of valves, and direction of blood flow in each vessel."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1094,7 +1125,8 @@
         "expected_answer": "Lymph (tissue fluid) is a yellowish fluid formed when plasma, proteins, and WBCs escape from capillaries into intercellular spaces. Functions: (i) It drains excess fluid from tissues back into the blood. (ii) It carries absorbed fats from the small intestine. (iii) Lymph nodes contain lymphocytes that fight infections, providing immunity.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about where lymph comes from and how it relates to plasma leaking from capillaries."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1120,7 +1152,8 @@
         "expected_answer": "The left ventricle has thicker muscular walls because it pumps oxygenated blood to the entire body through systemic circulation. This requires generating much higher pressure to push blood through the long network of arteries reaching all organs. The right ventricle only pumps blood to the nearby lungs (pulmonary circulation), requiring less pressure.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how far the left ventricle must pump blood compared to the right ventricle."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1157,7 +1190,8 @@
           "Pulmonary artery from right ventricle",
           "Correct labelling of all four parts"
         ],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall which vessel leaves from which ventricle and label all four required parts."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1202,7 +1236,8 @@
         "expected_answer": "Both A and R are true, and R is the correct explanation of A. Arteries carry blood pumped from the heart at high pressure, so they need thick, elastic walls to withstand and maintain that pressure.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Determine whether both statements are true and whether one explains the other causally."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1247,7 +1282,8 @@
         "expected_answer": "Xylem",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which vascular tissue transports water and minerals upward from roots."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1277,7 +1313,8 @@
         "expected_answer": "Translocation is the transport of soluble products of photosynthesis (mainly sucrose) from leaves to other parts of the plant through the phloem. The food is loaded into sieve tubes of the phloem using energy from ATP. This increases the osmotic pressure in the phloem, causing water to enter from neighbouring xylem. The resulting pressure difference drives the movement of food through the sieve tubes to storage organs, growing regions, and roots.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how food is loaded into phloem using energy and what drives its movement."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1305,7 +1342,8 @@
         "expected_answer": "Water moves upward in tall trees primarily due to transpiration pull. As water evaporates from leaf surfaces through stomata, it creates a suction force that pulls the water column upward through xylem vessels. Cohesion (attraction between water molecules) and adhesion (attraction between water and xylem walls) maintain an unbroken water column. Root pressure also contributes by pushing water upward from the roots.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about transpiration pull, cohesion of water molecules, and root pressure together."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1332,7 +1370,8 @@
         "expected_answer": "Transpiration plays several roles: (i) It creates a transpiration pull (suction force) that helps draw water upward through xylem vessels. (ii) It aids in the absorption and upward transport of minerals dissolved in water from the soil. (iii) It has a cooling effect on the plant surface. (iv) It helps maintain the water balance in the plant.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider how water loss from leaves creates a suction force driving upward water movement."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1360,7 +1399,8 @@
         "expected_answer": "Water used in photosynthesis = 2% of total. Water transpired = 98% of total. So total = 500/0.98 ≈ 510.2 mL.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "If 2% is used in photosynthesis then 98% is transpired; rearrange to find total absorbed."
       },
       "template_params": {
         "variables": {
@@ -1422,7 +1462,8 @@
         "expected_answer": "Both A and R are true, but R is NOT the correct explanation of A. Xylem transport is unidirectional (upward) due to transpiration pull, while phloem transport is bidirectional. Both statements are true but the phloem fact does not explain why xylem is unidirectional.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Check whether both statements are individually true and whether the second explains the first."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1467,7 +1508,8 @@
         "expected_answer": "Nephron",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which microscopic unit inside the kidney performs filtration and reabsorption."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1497,7 +1539,8 @@
         "expected_answer": "A nephron is the structural and functional unit of the kidney. It consists of: (i) Bowman's capsule — a cup-shaped structure enclosing a cluster of capillaries called the glomerulus. Blood entering the glomerulus is filtered under high pressure (ultrafiltration). Water, glucose, amino acids, salts, and urea pass into the Bowman's capsule. (ii) A long tubular part where selective reabsorption occurs — useful substances like glucose, amino acids, and most water are reabsorbed into the blood capillaries. (iii) The remaining fluid (urine) containing urea, excess salts, and water passes into the collecting duct and eventually to the ureter.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Trace the path: Bowman capsule and glomerulus for filtration, tubule for reabsorption."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1528,7 +1571,8 @@
         "expected_answer": "Plants excrete waste products by various methods: (i) Gaseous wastes (O₂ and CO₂) are removed through stomata. (ii) Excess water is transpired through leaves. (iii) Many waste products are stored in cellular vacuoles, old xylem, bark, or in leaves that fall off. (iv) Some plants store wastes as resins and gums in old wood. Plants do not have specialised excretory organs like animals.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how plants use stomata, transpiration, leaves, and vacuoles for waste removal."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1557,7 +1601,8 @@
         "expected_answer": "Reabsorbed = 180 - 1.5 = 178.5 L. Percentage = (178.5/180) × 100 = 99.17%.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Reabsorbed equals filtrate minus urine; divide by filtrate and multiply by 100."
       },
       "template_params": {
         "variables": {
@@ -1611,7 +1656,8 @@
           "Urethra from bladder",
           "Renal artery and vein on each kidney"
         ],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Draw two kidneys with ureters leading to a bladder and a urethra exiting below."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1656,7 +1702,8 @@
         "expected_answer": "Molecular movement and maintenance reactions",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what is happening inside cells even when the organism looks completely still."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1682,7 +1729,8 @@
         "expected_answer": "Even when organisms appear inactive, their internal molecular processes never stop. Continuous energy is required to maintain the organised structure of the body, repair damaged molecules and cells, and sustain essential chemical reactions. Without these maintenance processes, the ordered biological structures would break down.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider what would break down inside cells if molecular maintenance reactions stopped."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1727,7 +1775,8 @@
         "expected_answer": "Oxygen",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what is released when water molecules are split during the light reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1772,7 +1821,8 @@
         "expected_answer": "Chlorophyll",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which pigment reflects green light and absorbs sunlight for photosynthesis."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1817,7 +1867,8 @@
         "expected_answer": "Green plant",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which organism makes its own food using sunlight rather than consuming others."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1844,7 +1895,8 @@
         "expected_answer": "Guard cells are specialised kidney-shaped cells that surround each stomatal pore. They regulate the opening and closing of stomata. When guard cells absorb water and become turgid, the stomatal pore opens, allowing gas exchange. When they lose water and become flaccid, the pore closes.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what guard cells do when they absorb water versus when they lose water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1871,7 +1923,8 @@
         "expected_answer": "Desert plants face extreme water scarcity. To minimise water loss through transpiration, they keep their stomata closed during the hot daytime. They open stomata at night when it is cooler, taking in CO₂ which is stored as an intermediate. This CO₂ is then used for photosynthesis during the day when sunlight is available.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how desert plants balance their need for CO2 against water loss."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1895,7 +1948,8 @@
         "expected_answer": "The enzyme present in saliva is salivary amylase. It breaks down starch (a complex carbohydrate) into maltose (a simpler sugar) in the mouth.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the enzyme in saliva and the substrate it acts on in the mouth."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1924,7 +1978,8 @@
         "expected_answer": "Moles of glucose = 180/180 = 1 mol. From equation 6CO₂ needed per glucose. Mass CO₂ = 6 × 44 = 264 g.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use the balanced equation: 1 mole of glucose requires 6 moles of CO2."
       },
       "template_params": {
         "variables": {
@@ -1995,7 +2050,8 @@
         "expected_answer": "Small intestine",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which organ is specially adapted to maximise nutrient absorption surface area."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2041,7 +2097,8 @@
         "expected_answer": "Acidic",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the role HCl plays in creating the right environment for pepsin to work."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2086,7 +2143,8 @@
         "expected_answer": "Gall bladder",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish between where bile is produced and where it is stored between meals."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2112,7 +2170,8 @@
         "expected_answer": "Villi are finger-like projections on the inner lining of the small intestine. They greatly increase the surface area available for absorption of digested food. Each villus has a network of blood capillaries and a lymph vessel (lacteal), enabling efficient absorption of nutrients into the bloodstream.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how finger-like projections increase surface area and what vessels they contain."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2141,7 +2200,8 @@
         "expected_answer": "In the stomach, gastric glands in the walls secrete: (i) Hydrochloric acid (HCl) which creates an acidic medium (pH ~2) and kills ingested bacteria. (ii) Pepsin enzyme which breaks down proteins into smaller peptides. (iii) Mucus which protects the inner lining of the stomach from the corrosive effect of HCl.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the three secretions of gastric glands and what each one does."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2167,7 +2227,8 @@
         "expected_answer": "The food we eat contains complex, large, and insoluble molecules like starch, proteins, and fats. These molecules are too big to pass through the walls of the small intestine into the blood. Digestion breaks them down into smaller, simpler, and soluble molecules (like glucose, amino acids, and fatty acids) that can be absorbed and used by cells.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the size of food molecules compared to pores in the intestinal wall."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2212,7 +2273,8 @@
         "expected_answer": "Cytoplasm",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about where glycolysis occurs and which step is common to both respiration types."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2257,7 +2319,8 @@
         "expected_answer": "Lactic acid",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish between anaerobic products in yeast and in human muscle cells specifically."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2302,7 +2365,8 @@
         "expected_answer": "Mitochondria",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which organelle is called the powerhouse of the cell and why."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2330,7 +2394,8 @@
         "expected_answer": "The nose filters incoming air using fine hairs and mucus in the nostrils, trapping dust particles and pathogens. It also warms and moistens the air before it passes into the lungs, protecting the delicate lung tissues.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the two roles the nose plays before air reaches the delicate lung tissues."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2356,7 +2421,8 @@
         "expected_answer": "Lungs need a very large surface area for efficient gas exchange. Millions of tiny alveoli provide approximately 80 m² of surface area in human lungs. This extensive area ensures that sufficient oxygen can diffuse into the blood and carbon dioxide can diffuse out during each breathing cycle, meeting the body's metabolic demands.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how millions of tiny alveoli contribute to efficient gas diffusion."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2384,7 +2450,8 @@
         "expected_answer": "The end products of anaerobic respiration in yeast are ethanol (alcohol) and carbon dioxide. This process is called fermentation. Commercial applications include: brewing and wine-making (where ethanol is the desired product) and baking (where CO₂ causes dough to rise).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what yeast produces without oxygen and how bakers and brewers use this."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2413,7 +2480,8 @@
         "expected_answer": "38 ÷ 2 = 19 times more ATP is produced in aerobic respiration.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Divide aerobic ATP count by anaerobic ATP count to find the ratio."
       },
       "template_params": {
         "variables": {
@@ -2475,7 +2543,8 @@
         "expected_answer": "Plasma",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the fluid component of blood that carries dissolved substances through vessels."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2520,7 +2589,8 @@
         "expected_answer": "Veins",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which type of vessel needs valves to prevent backflow at low pressure."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2565,7 +2635,8 @@
         "expected_answer": "Left atrium",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Trace oxygenated blood from lungs back to the heart: which side and chamber receives it?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -2593,7 +2664,8 @@
         "expected_answer": "Blood components: (i) Plasma — the fluid matrix that transports dissolved nutrients, hormones, proteins, and CO₂. (ii) Red blood cells (RBCs) — contain haemoglobin to transport oxygen. (iii) White blood cells (WBCs) — fight infections and provide immunity. (iv) Platelets — help in clotting of blood at wound sites to prevent blood loss.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Name all four blood components and link each to one function: oxygen, immunity, clotting, transport."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2619,7 +2691,8 @@
         "expected_answer": "If there were no platelets in the blood, the clotting mechanism would fail. At any site of injury, blood would not coagulate to seal the wound. This would result in continuous bleeding even from minor cuts, which could be life-threatening. Platelets release clotting factors that initiate the coagulation cascade to form a plug at wound sites.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what happens at a wound site if the clotting process cannot begin."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2646,7 +2719,8 @@
         "expected_answer": "The separation of the right and left sides of the heart by the septum prevents the mixing of oxygenated and deoxygenated blood. This ensures that highly oxygenated blood is delivered to the body tissues, which is essential for the high energy demands of warm-blooded mammals who need to maintain constant body temperature.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about why mixing oxygenated and deoxygenated blood reduces oxygen delivery efficiency."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2691,7 +2765,8 @@
         "expected_answer": "Phloem",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which vascular tissue transports the products of photosynthesis from leaves."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2736,7 +2811,8 @@
         "expected_answer": "Transpiration",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the term for water leaving leaves as vapour through stomata."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2765,7 +2841,8 @@
         "expected_answer": "Xylem transports water and dissolved minerals from roots upward to leaves and other aerial parts. This transport is unidirectional. Phloem transports the products of photosynthesis (mainly sucrose) from leaves to storage organs, roots, and growing parts. Phloem transport (translocation) is bidirectional.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Compare direction and substance transported in xylem versus phloem."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2792,7 +2869,8 @@
         "expected_answer": "Root hair cells have a higher concentration of dissolved substances (ions, sugars) compared to the soil water. Water from the soil moves into the root hair cells by osmosis — from a region of higher water concentration (soil) to lower water concentration (cell sap). This water then moves from cell to cell across the root cortex to the xylem vessels.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about osmosis: which side has higher solute concentration, root cells or soil water?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -2820,7 +2898,8 @@
         "expected_answer": "25 × 12 = 300 mL = 0.30 L.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Multiply rate by time, then convert millilitres to litres."
       },
       "template_params": {
         "variables": {
@@ -2881,7 +2960,8 @@
         "expected_answer": "Liver",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which organ converts excess amino acids to urea via deamination."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2926,7 +3006,8 @@
         "expected_answer": "Ureter",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which tube connects each kidney to the urinary bladder, not the urethra."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2954,7 +3035,8 @@
         "expected_answer": "The kidneys are the main excretory organs in humans. They filter blood to remove nitrogenous waste products (mainly urea and uric acid) along with excess water and salts. The filtered waste is expelled as urine. Kidneys also play a vital role in regulating water and electrolyte balance (osmoregulation) in the body.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the kidney's two main jobs: filtering nitrogenous waste and regulating water balance."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2982,7 +3064,8 @@
         "expected_answer": "Reabsorbed volume = 180 - 1.5 = 178.5 litres.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Subtract urine volume from total filtrate to find the volume reabsorbed."
       },
       "template_params": {
         "variables": {
@@ -3044,7 +3127,8 @@
         "expected_answer": "Parasite",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether Cuscuta can photosynthesise and what kind of host it depends on."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3071,7 +3155,8 @@
         "expected_answer": "Bread mould (Rhizopus) shows saprophytic mode of nutrition. It secretes digestive enzymes onto the dead organic matter (like bread), breaking it down into simpler soluble substances outside its body. These digested nutrients are then absorbed through the cell surface. This is also called extracellular digestion.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how Rhizopus digests food outside its body before absorbing it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3116,7 +3201,8 @@
         "expected_answer": "Option B — A maintenance function necessary to prevent damage and breakdown in the body.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which definition focuses on maintenance and preventing breakdown in the body."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3161,7 +3247,8 @@
         "expected_answer": "Option B — Respiration (breathing) and Transportation (heartbeat/circulation).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which life process breathing links to and which process keeps the heart pumping."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3206,7 +3293,8 @@
         "expected_answer": "Option B — Autotrophs fix atmospheric CO2 through photosynthesis (autotrophic nutrition).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how autotrophs capture atmospheric CO2 to build organic molecules."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3240,7 +3328,8 @@
           "energy_link": 1,
           "nutrition_as_fuel": 1,
           "consequence": 1
-        }
+        },
+        "hint": "Think about where the energy for every other life process ultimately comes from."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3286,7 +3375,8 @@
         "expected_answer": "Option B — Bread mould (Rhizopus) is a saprotrophic fungus that digests dead organic matter externally.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which organism feeds on dead organic matter by secreting enzymes externally."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3332,7 +3422,8 @@
         "expected_answer": "Option A — Ingestion -> Digestion -> Absorption -> Assimilation -> Egestion.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the correct sequence from taking food in to expelling undigested waste."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3367,7 +3458,8 @@
           "cuscuta_mechanism": 1,
           "saprophyte_mechanism": 1,
           "key_difference": 1
-        }
+        },
+        "hint": "Focus on whether each organism feeds on a living host or dead decaying matter."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3402,7 +3494,8 @@
           "autotroph_role": 1,
           "heterotroph_limitation": 1,
           "energy_flow": 1
-        }
+        },
+        "hint": "Think about where autotrophs get energy from and why heterotrophs cannot do the same."
       },
       "template_params": null,
       "diagram_path": null,

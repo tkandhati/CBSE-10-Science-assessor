@@ -37,7 +37,8 @@
         "expected_answer": "(c) Flow of electrons",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which particles are free to move in a metallic conductor."
       },
       "template_params": null,
       "diagram_path": null,
@@ -79,7 +80,8 @@
         "expected_answer": "(b) 1 C of charge gains 1 J of energy",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use V = W/Q; substitute V=1 and Q=1 to find work done."
       },
       "template_params": null,
       "diagram_path": null,
@@ -112,7 +114,8 @@
         "partial_marks": {
           "definition_only": 1,
           "formula_and_unit": 1
-        }
+        },
+        "hint": "Define current as rate of charge flow; recall I = Q/t and 1 A."
       },
       "template_params": null,
       "diagram_path": null,
@@ -143,7 +146,8 @@
         "partial_marks": {
           "definition_only": 1,
           "1_volt_definition": 1
-        }
+        },
+        "hint": "Define PD as work per unit charge; use V = W/Q for 1 volt."
       },
       "template_params": null,
       "diagram_path": null,
@@ -173,7 +177,8 @@
         "partial_marks": {
           "formula_correct": 1,
           "answer_correct": 1
-        }
+        },
+        "hint": "Use Q = It; convert minutes to seconds first."
       },
       "template_params": {
         "variables": {
@@ -233,7 +238,8 @@
         "expected_answer": "(a) Both A and R are true and R is the correct explanation of A. Electrons flow from - to + terminal; conventional current is defined as opposite, i.e., + to - through external circuit.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Conventional current is opposite to the direction of electron flow."
       },
       "template_params": null,
       "diagram_path": null,
@@ -274,7 +280,8 @@
         "expected_answer": "(b) Directly proportional to current I",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how V and I relate at constant temperature (Ohm's law)."
       },
       "template_params": null,
       "diagram_path": null,
@@ -315,7 +322,8 @@
         "expected_answer": "(c) Remains the same. I_new = 2V/2R = V/R = I_original",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply I = V/R; see what happens when both V and R are doubled."
       },
       "template_params": null,
       "diagram_path": null,
@@ -348,7 +356,8 @@
         "partial_marks": {
           "statement": 1,
           "formula_and_unit": 1
-        }
+        },
+        "hint": "State Ohm's law, write V = IR, define R, and give its SI unit."
       },
       "template_params": null,
       "diagram_path": null,
@@ -384,7 +393,8 @@
           "two_factors": 1,
           "formula_correct": 1,
           "definitions": 1
-        }
+        },
+        "hint": "Use R = rho*l/A; describe how R changes with length, area, and material."
       },
       "template_params": null,
       "diagram_path": null,
@@ -415,7 +425,8 @@
         "partial_marks": {
           "one_reason": 1,
           "both_reasons": 2
-        }
+        },
+        "hint": "Think why high resistivity and high melting point matter for heating elements."
       },
       "template_params": null,
       "diagram_path": null,
@@ -443,7 +454,8 @@
         "partial_marks": {
           "R_correct": 1,
           "new_I_correct": 1
-        }
+        },
+        "hint": "Find R = V/I first; then apply Ohm's law at the new voltage."
       },
       "template_params": null,
       "diagram_path": null,
@@ -476,7 +488,8 @@
           "part_a": 1,
           "part_b": 1,
           "part_c": 1
-        }
+        },
+        "hint": "On a V-I graph, slope = R; steeper slope means higher resistance."
       },
       "template_params": null,
       "diagram_path": "chap11_ohm_diagram_001.svg",
@@ -520,7 +533,8 @@
         "expected_answer": "(b) Both A and R are true but R is not the correct explanation of A. The higher resistivity is a separate property from oxidation resistance.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Both statements are true; check if oxidation resistance explains high resistivity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -564,7 +578,8 @@
         "expected_answer": "(d) 25. Each piece = R/5; five in parallel: R' = (R/5)/5 = R/25; R/R' = 25.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Each piece is R/5; apply parallel formula 1/Rp = n/R_each, then find R/Rp."
       },
       "template_params": null,
       "diagram_path": null,
@@ -605,7 +620,8 @@
         "expected_answer": "(c) Current. In a series circuit, there is only one path for current flow.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "In series there is one path; think which quantity is shared by all resistors."
       },
       "template_params": null,
       "diagram_path": null,
@@ -637,7 +653,8 @@
         "partial_marks": {
           "V_equation": 1,
           "final_formula": 1
-        }
+        },
+        "hint": "In series same I flows; write V = I(R1+R2+R3) to derive Rs."
       },
       "template_params": null,
       "diagram_path": null,
@@ -669,7 +686,8 @@
         "partial_marks": {
           "one_advantage": 1,
           "two_advantages": 2
-        }
+        },
+        "hint": "Full supply voltage and independent operation are key advantages of parallel connection."
       },
       "template_params": null,
       "diagram_path": null,
@@ -703,7 +721,8 @@
         "partial_marks": {
           "part_i_correct": 1.5,
           "part_ii_correct": 1.5
-        }
+        },
+        "hint": "Try two-parallel-one-series for 9 ohm; two-series-one-parallel for 4 ohm."
       },
       "template_params": null,
       "diagram_path": null,
@@ -734,7 +753,8 @@
           "part_a": 1,
           "part_b": 1,
           "part_c": 1
-        }
+        },
+        "hint": "Add R for total, use I = V/Rs, then V = IR across each component."
       },
       "template_params": {
         "variables": {
@@ -789,7 +809,8 @@
           "part_a": 1,
           "part_b": 1,
           "part_c": 1
-        }
+        },
+        "hint": "Use 1/Rp = 1/R1+1/R2+1/R3; each branch current = 6 V divided by R."
       },
       "template_params": null,
       "diagram_path": "chap11_sp_diagram_001.svg",
@@ -824,7 +845,8 @@
           "part_b": 1,
           "part_c": 1,
           "part_d": 1
-        }
+        },
+        "hint": "Find Rp for parallel pair first, add to R1, then use I = V/R_total."
       },
       "template_params": null,
       "diagram_path": "chap11_sp_diagram_002.svg",
@@ -868,7 +890,8 @@
           "derivation_steps": 2,
           "final_formula": 1,
           "proof_Rp_less": 1
-        }
+        },
+        "hint": "In parallel same V appears across all; write I = V/R1+V/R2+V/R3 to derive 1/Rp."
       },
       "template_params": null,
       "diagram_path": null,
@@ -899,7 +922,8 @@
         "partial_marks": {
           "Rp_correct": 1.5,
           "I_correct": 1.5
-        }
+        },
+        "hint": "Use 1/Rp = 1/100+1/50+1/500 to find Rp, then I = 220/Rp."
       },
       "template_params": null,
       "diagram_path": null,
@@ -943,7 +967,8 @@
         "expected_answer": "(c) 1:4",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use H = V2t/R for each configuration and compare at the same supply voltage."
       },
       "template_params": null,
       "diagram_path": null,
@@ -978,7 +1003,8 @@
         "partial_marks": {
           "formula_with_symbols": 1,
           "three_relationships": 1
-        }
+        },
+        "hint": "State H = I2Rt; identify each symbol and list the three proportionalities."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1011,7 +1037,8 @@
         "partial_marks": {
           "cord_vs_element": 1,
           "properties_heating_element": 1
-        }
+        },
+        "hint": "Compare H = I2Rt for cord (low R) and element (high R)."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1046,7 +1073,8 @@
           "working_principle": 1,
           "why_series": 1,
           "fuse_rating_correct": 1
-        }
+        },
+        "hint": "Fuse melts by Joule heating; use I = P/V to find the operating current."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1073,7 +1101,8 @@
         "partial_marks": {
           "formula_applied": 1,
           "answer": 1
-        }
+        },
+        "hint": "Apply H = I2Rt directly with the given I, R, and t values."
       },
       "template_params": {
         "variables": {
@@ -1129,7 +1158,8 @@
           "derivation": 2,
           "max_I_and_R": 1.5,
           "min_I_and_R": 1.5
-        }
+        },
+        "hint": "Derive H=I2Rt from W=VIt and V=IR; for part b use I=P/V."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1171,7 +1201,8 @@
         "expected_answer": "(b) IR². The correct expressions for power are VI, I²R and V²/R. IR² does not have units of power.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Check each option against P = VI = I2R = V2/R for correct dimensions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1214,7 +1245,8 @@
         "expected_answer": "(d) 25 W. R = 220²/100 = 484 Ω; P at 110V = 110²/484 = 25 W.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Find R = V2/P at rated voltage; then use P = V2/R at 110 V."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1249,7 +1281,8 @@
         "partial_marks": {
           "definition_and_formulas": 1,
           "unit_and_kWh": 1
-        }
+        },
+        "hint": "Define power as rate of energy use; write P = VI = I2R = V2/R."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1279,7 +1312,8 @@
         "partial_marks": {
           "energy_correct": 1.5,
           "cost_correct": 1.5
-        }
+        },
+        "hint": "Energy (kWh) = Power (kW) x time (h); multiply kWh by cost per unit."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1317,7 +1351,8 @@
           "part_b": 1,
           "part_c": 1,
           "part_d_and_e": 2
-        }
+        },
+        "hint": "Parallel: same voltage; use R = V2/P and I = P/V for each lamp."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1358,7 +1393,8 @@
         "expected_answer": "(b) 3 A. I = 180/60 = 3 A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use I = Q/t; convert 1 minute to seconds before dividing."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1398,7 +1434,8 @@
         "expected_answer": "(a). 1 volt means 1 joule of work per coulomb of charge.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use V = W/Q; if V=1 and Q=1 C, how much work is done?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1428,7 +1465,8 @@
         "partial_marks": {
           "definition": 1,
           "unit_and_instrument": 1
-        }
+        },
+        "hint": "Define current as rate of charge flow; name the ammeter connected in series."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1456,7 +1494,8 @@
         "partial_marks": {
           "charge": 1,
           "electrons": 1
-        }
+        },
+        "hint": "Use Q = It, then n = Q divided by electron charge."
       },
       "template_params": {
         "fixed": false,
@@ -1509,7 +1548,8 @@
           "voltmeter_reason": 1,
           "ammeter_reason": 1,
           "interchange_consequence": 1
-        }
+        },
+        "hint": "Voltmeter has very high R (parallel); ammeter has very low R (series)."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1551,7 +1591,8 @@
         "expected_answer": "(a) A straight line through the origin.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "V proportional to I at constant temperature; what shape does V-I graph have?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1593,7 +1634,8 @@
         "expected_answer": "(c) 4 times. R ∝ L/A ⇒ R′ = ρ(2L)/(A/2) = 4R.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply R = rho*L/A with L doubled and A halved to find the net effect."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1622,7 +1664,8 @@
         "partial_marks": {
           "statement": 1,
           "conditions": 1
-        }
+        },
+        "hint": "State V = IR and specify the condition of constant temperature."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1656,7 +1699,8 @@
           "length_factor": 1,
           "area_factor": 1,
           "resistivity": 1
-        }
+        },
+        "hint": "Use R = rho*L/A; describe how R depends on length, area, and resistivity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1686,7 +1730,8 @@
         "partial_marks": {
           "correct_wire": 1,
           "reasoning": 1
-        }
+        },
+        "hint": "Slope of V-I graph = V/I = R; steeper slope means higher resistance."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1716,7 +1761,8 @@
         "partial_marks": {
           "high_resistivity": 1,
           "other_property": 1
-        }
+        },
+        "hint": "Alloys have high resistivity and resist oxidation; explain why each property matters."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1743,7 +1789,8 @@
         "partial_marks": {
           "current": 1,
           "charge": 1
-        }
+        },
+        "hint": "Use I = V/R for current, then Q = I times t for charge."
       },
       "template_params": {
         "fixed": false,
@@ -1810,7 +1857,8 @@
         "expected_answer": "(c) 18 Ω. Rs = 3+6+9 = 18 Ω.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "In series Rs = R1+R2+R3; simply add all three resistance values."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1850,7 +1898,8 @@
         "expected_answer": "(b) R/3. 1/Rp = 3/R ⇒ Rp = R/3.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply 1/Rp = 3/R for three equal resistors in parallel, then invert."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1891,7 +1940,8 @@
         "expected_answer": "(c) Remains unchanged. Each branch independently has the same supply voltage, so disconnecting one does not affect others.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "In parallel each branch has the same independent voltage."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1924,7 +1974,8 @@
           "similarity": 1,
           "difference_1": 1,
           "difference_2": 1
-        }
+        },
+        "hint": "Contrast series (same I) with parallel (same V) and compare equivalent R values."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1957,7 +2008,8 @@
           "equiv_R": 1,
           "branch_currents": 1,
           "total_current": 1
-        }
+        },
+        "hint": "Use 1/Rp = 1/2+1/3+1/6, then find each branch current from I = V/R."
       },
       "template_params": null,
       "diagram_path": "chap11_sp_diagram_001.svg",
@@ -1990,7 +2042,8 @@
           "full_voltage": 1,
           "independence": 1,
           "failure_argument": 1
-        }
+        },
+        "hint": "Full supply voltage and independent switching are the two main parallel advantages."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2023,7 +2076,8 @@
           "parallel_R": 1,
           "total_R": 1,
           "current": 1
-        }
+        },
+        "hint": "Find Rp = R2*R3/(R2+R3) first, add to R1, then use I = V/R_total."
       },
       "template_params": null,
       "diagram_path": "chap11_sp_diagram_002.svg",
@@ -2052,7 +2106,8 @@
         "partial_marks": {
           "series_part": 1.5,
           "parallel_part": 1.5
-        }
+        },
+        "hint": "Series: Rs = R1+R2, I = V/Rs; parallel: Rp = R1*R2/(R1+R2), I = V/Rp."
       },
       "template_params": {
         "fixed": false,
@@ -2121,7 +2176,8 @@
         "expected_answer": "(b) 792,000 J. H = 220 × 2 × 1800 = 792,000 J.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use H = VIt; convert 30 minutes to seconds first."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2164,7 +2220,8 @@
         "expected_answer": "(b) Low resistivity. Fuse needs HIGH resistivity to generate enough heat to melt at fault current.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Fuse must heat and melt fast; think whether high or low resistivity does this."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2196,7 +2253,8 @@
         "partial_marks": {
           "formula_statement": 1,
           "three_factors": 1
-        }
+        },
+        "hint": "State H = I2Rt; list its three proportionalities with I squared, R, and t."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2225,7 +2283,8 @@
         "partial_marks": {
           "tungsten_reason": 1,
           "copper_reason": 1
-        }
+        },
+        "hint": "Contrast high resistivity of tungsten with very low resistivity of copper."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2259,7 +2318,8 @@
           "resistance": 1,
           "current": 1,
           "heat_energy": 1
-        }
+        },
+        "hint": "Use R = V2/P, I = P/V, and H = Pt for the three parts."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2305,7 +2365,8 @@
         "expected_answer": "(b) 40 W bulb. In series, same I; P=I²R. R_40 > R_100, so 40W bulb dissipates more power.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Series: same I; use R = V2/P for each bulb, then compare P = I2R."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2346,7 +2407,8 @@
         "expected_answer": "(b) Joule (J). kWh is a commercial unit; the SI unit of energy is joule.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish the SI unit (joule) from the commercial unit (kWh) of energy."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2378,7 +2440,8 @@
           "definition": 0.5,
           "three_formulas": 1,
           "unit": 0.5
-        }
+        },
+        "hint": "Define power as rate of energy use; write P = VI = I2R = V2/R."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2413,7 +2476,8 @@
           "individual_energies": 1.5,
           "total_energy": 0.5,
           "cost": 1
-        }
+        },
+        "hint": "Energy = P (kW) times time (h) per appliance; sum all, then multiply by rate."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2445,7 +2509,8 @@
         "formula": "1/Req = 1/R1 + 1/R2 + 1/R3",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "In parallel all share the same voltage; use H = I2Rt to explain heating difference."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2478,7 +2543,8 @@
           "formula_correct": 1,
           "substitution": 1,
           "answer_correct": 1
-        }
+        },
+        "hint": "Use P = V times I with the given voltage and current."
       },
       "template_params": {
         "variables": {
@@ -2527,7 +2593,8 @@
           "formula_correct": 1,
           "substitution": 1,
           "answer_correct": 1
-        }
+        },
+        "hint": "Only V and R are known; use P = V2/R."
       },
       "template_params": {
         "variables": {
@@ -2576,7 +2643,8 @@
           "formula_correct": 1,
           "substitution": 1,
           "answer_correct": 1
-        }
+        },
+        "hint": "Only I and R are known; use P = I2 times R."
       },
       "template_params": {
         "variables": {
@@ -2628,7 +2696,8 @@
         "partial_marks": {
           "resistance": 2,
           "current": 1
-        }
+        },
+        "hint": "Use R = V2/P and I = P/V at the rated voltage."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2664,7 +2733,8 @@
           "fans": 1,
           "tubes": 1,
           "total": 1
-        }
+        },
+        "hint": "Compute Energy = P (kW) times hours for each appliance, then sum in kWh."
       },
       "template_params": null,
       "diagram_path": null,

@@ -37,7 +37,8 @@
         "expected_answer": "Covalent bond",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the type of bond formed by sharing electrons between atoms."
       },
       "template_params": null,
       "diagram_path": null,
@@ -78,7 +79,8 @@
         "expected_answer": "4, 4",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count carbon valence electrons and how many more are needed to complete the octet."
       },
       "template_params": null,
       "diagram_path": null,
@@ -108,7 +110,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "1 reason correct": 1
-        }
+        },
+        "hint": "Consider the energy cost of gaining or losing four electrons versus sharing them."
       },
       "template_params": null,
       "diagram_path": null,
@@ -143,7 +146,8 @@
         "partial_marks": {
           "correct CH4 only": 1,
           "correct CO2 only": 2
-        }
+        },
+        "hint": "Count shared pairs carefully: each C-H is one pair, each C=O is two pairs."
       },
       "template_params": null,
       "diagram_path": null,
@@ -169,7 +173,8 @@
         "expected_answer": "7 covalent bonds (1 C–C + 6 C–H)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count bonds systematically: one C-C bond plus one C-H bond for each hydrogen."
       },
       "template_params": {
         "variables": {
@@ -229,7 +234,8 @@
         "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about why a 3D covalent network structure makes a substance extremely hard."
       },
       "template_params": null,
       "diagram_path": null,
@@ -270,7 +276,8 @@
         "expected_answer": "Catenation",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the self-linking property of carbon that forms chains and rings."
       },
       "template_params": null,
       "diagram_path": null,
@@ -311,7 +318,8 @@
         "expected_answer": "Propan-1-ol",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count carbons in the chain, then locate where the OH group is attached."
       },
       "template_params": null,
       "diagram_path": null,
@@ -353,7 +361,8 @@
         "expected_answer": "CH₃CH₂OH and CH₃CH₂CH₂OH",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Check whether both compounds have the same functional group and differ by exactly one CH2."
       },
       "template_params": null,
       "diagram_path": null,
@@ -385,7 +394,8 @@
         "partial_marks": {
           "definition only": 1,
           "one characteristic": 1
-        }
+        },
+        "hint": "Focus on the defining features: same functional group, differ by CH2, similar properties."
       },
       "template_params": null,
       "diagram_path": null,
@@ -418,7 +428,8 @@
         "partial_marks": {
           "saturated definition + example": 1,
           "unsaturated definition + example": 1
-        }
+        },
+        "hint": "Think about single bonds only for saturated, and double or triple bonds for unsaturated."
       },
       "template_params": null,
       "diagram_path": null,
@@ -452,7 +463,8 @@
         "partial_marks": {
           "correct IUPAC name only": 1,
           "correct structure only": 2
-        }
+        },
+        "hint": "Find the longest chain containing the OH group, number from the end nearest to OH."
       },
       "template_params": null,
       "diagram_path": null,
@@ -487,7 +499,8 @@
         "partial_marks": {
           "definition only": 1,
           "one correct isomer": 1
-        }
+        },
+        "hint": "Same molecular formula but different connectivity describes the key concept here."
       },
       "template_params": null,
       "diagram_path": null,
@@ -516,7 +529,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "correct formula only": 1
-        }
+        },
+        "hint": "Substitute n into the general formula CnH2n to find the molecular formula."
       },
       "template_params": {
         "variables": {
@@ -563,7 +577,8 @@
         "partial_marks": {
           "one correct pair + functional group": 2,
           "two correct pairs, wrong general formula": 2
-        }
+        },
+        "hint": "Identify the functional group of each compound first, then pair those sharing the same group."
       },
       "template_params": null,
       "diagram_path": "chap4_ver_dia_001.svg",
@@ -601,7 +616,8 @@
           "alkanols series correct": 1,
           "alkanals series correct": 1,
           "4 characteristics": 1
-        }
+        },
+        "hint": "Structure your answer around the definition, four characteristics, then the two named series."
       },
       "template_params": null,
       "diagram_path": null,
@@ -643,7 +659,8 @@
         "expected_answer": "(a) Both A and R are true and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how catenation plus tetravalency together explain the vast number of carbon compounds."
       },
       "template_params": null,
       "diagram_path": null,
@@ -685,7 +702,8 @@
         "expected_answer": "Ethane",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about hydrogenation: H2 adding across a double bond with Ni catalyst."
       },
       "template_params": null,
       "diagram_path": null,
@@ -727,7 +745,8 @@
         "expected_answer": "CO₂ and H₂O are produced and heat energy is released.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the products of complete combustion of any carbon-hydrogen compound in excess oxygen."
       },
       "template_params": null,
       "diagram_path": null,
@@ -758,7 +777,8 @@
         "partial_marks": {
           "definition only": 1,
           "equation only": 1
-        }
+        },
+        "hint": "Think about oxidation as addition of oxygen or removal of hydrogen from the compound."
       },
       "template_params": null,
       "diagram_path": null,
@@ -790,7 +810,8 @@
         "partial_marks": {
           "test identified": 1,
           "observation for one type": 1
-        }
+        },
+        "hint": "Bromine water is the test; think about what a C=C double bond does to it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -821,7 +842,8 @@
         "partial_marks": {
           "balanced equation only": 2,
           "reasons only (no equation)": 1
-        }
+        },
+        "hint": "Balance the combustion equation systematically, then link high calorific value to fuel use."
       },
       "template_params": null,
       "diagram_path": null,
@@ -855,7 +877,8 @@
           "inference correct": 1,
           "addition reaction correct": 1,
           "substitution correct": 1
-        }
+        },
+        "hint": "Link bromine water decolourisation to unsaturation, then assign addition and substitution."
       },
       "template_params": null,
       "diagram_path": null,
@@ -883,7 +906,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "correct method, arithmetic error": 1
-        }
+        },
+        "hint": "Use the mole ratio from the equation: 1 mol CH4 produces 2 mol H2O."
       },
       "template_params": {
         "variables": {
@@ -932,7 +956,8 @@
           "explanation of substitution": 1,
           "further substitution": 1,
           "two other reactions": 1
-        }
+        },
+        "hint": "Focus on one H being replaced by Cl and the light condition required."
       },
       "template_params": null,
       "diagram_path": null,
@@ -971,7 +996,8 @@
         "partial_marks": {
           "correct diagram only": 2,
           "correct equation only": 1
-        }
+        },
+        "hint": "Think about what happens when bromine water meets a compound with a C=C double bond."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1012,7 +1038,8 @@
         "expected_answer": "–OH (hydroxyl group)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which functional group is characteristic of the alcohol family."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1053,7 +1080,8 @@
         "expected_answer": "Ethanoic acid",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count the carbons and identify the functional group to apply IUPAC naming rules."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1095,7 +1123,8 @@
         "expected_answer": "CO₂ (carbon dioxide)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which reaction of a carboxylic acid produces a gas that turns limewater milky."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1125,7 +1154,8 @@
         "partial_marks": {
           "reaction (i) correct": 1,
           "reaction (ii) correct": 1
-        }
+        },
+        "hint": "Think about how ethanol reacts with an active metal and separately with an oxidising agent."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1158,7 +1188,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one correct property": 1
-        }
+        },
+        "hint": "Focus on a property that differs clearly: odour, boiling point, or melting point."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1190,7 +1221,8 @@
         "partial_marks": {
           "one test complete": 2,
           "both tests observation only": 2
-        }
+        },
+        "hint": "Use acid-base tests: litmus and NaHCO3 will reveal which liquid is acidic."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1223,7 +1255,8 @@
         "partial_marks": {
           "correct equation": 2,
           "catalyst + product names": 1
-        }
+        },
+        "hint": "Think about the reversible reaction between an acid and alcohol using an acid catalyst."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1256,7 +1289,8 @@
         "partial_marks": {
           "denatured alcohol definition": 2,
           "harmful effect": 1
-        }
+        },
+        "hint": "Think about why industrial ethanol is made unfit for drinking and its body effects."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1283,7 +1317,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "correct atoms counted, arithmetic error": 1
-        }
+        },
+        "hint": "Add up atomic masses: 2 carbons, 4 hydrogens, and 2 oxygens in ethanoic acid."
       },
       "template_params": {
         "variables": {
@@ -1340,7 +1375,8 @@
           "(i) and (ii) correct": 1,
           "(iii) correct": 1,
           "(iv) equation correct": 1
-        }
+        },
+        "hint": "Identify the functional group in each structure first, then match to its IUPAC name."
       },
       "template_params": null,
       "diagram_path": "chap4_eth_dia_001.svg",
@@ -1374,7 +1410,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct equation": 1
-        }
+        },
+        "hint": "Write each equation in order: metal, carbonate, hydrogen carbonate, then alcohol reaction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1416,7 +1453,8 @@
         "expected_answer": "Micelles",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the spherical cluster soap molecules form with hydrophobic tails inward in water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1459,7 +1497,8 @@
         "expected_answer": "Soap reacts with dissolved Ca²⁺ and Mg²⁺ salts to form insoluble calcium/magnesium soaps.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what ions in hard water react with soap to form an insoluble product."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1490,7 +1529,8 @@
         "partial_marks": {
           "definition only": 1,
           "process named": 1
-        }
+        },
+        "hint": "Think about soap as a salt of a fatty acid and how saponification produces it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1521,7 +1561,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one correct point": 1
-        }
+        },
+        "hint": "Compare raw material, hard water behaviour, and biodegradability for each cleaning agent."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1554,7 +1595,8 @@
         "partial_marks": {
           "hard water explanation": 1,
           "detergent advantage": 1
-        }
+        },
+        "hint": "Think about which hard water ions react with soap and why detergents are immune."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1590,7 +1632,8 @@
           "hydrophobic/hydrophilic explanation": 1,
           "micelle formation": 1,
           "role of agitation": 1
-        }
+        },
+        "hint": "Explain how the hydrophobic tail embeds in oil while the hydrophilic head stays in water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1624,7 +1667,8 @@
           "correct chemical group named": 1,
           "solubility explanation": 1,
           "comparison to soap": 1
-        }
+        },
+        "hint": "Focus on the solubility of the calcium or magnesium salt of the detergent group."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1656,7 +1700,8 @@
         "partial_marks": {
           "any one justified feature": 1,
           "two justified features": 2
-        }
+        },
+        "hint": "Consider which structural features give hard water effectiveness, biodegradability, and low toxicity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1701,7 +1746,8 @@
           "mechanism (2 steps)": 2,
           "micelle diagram": 1,
           "hard water reason": 1
-        }
+        },
+        "hint": "Cover saponification, then the dual-ended structure of soap, micelle formation, and hard water failure."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1742,7 +1788,8 @@
         "expected_answer": "4",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count how many covalent bonds carbon forms with hydrogen in methane."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1782,7 +1829,8 @@
         "expected_answer": "Two double bonds (C=O)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Count shared pairs between carbon and each oxygen in the O=C=O structure."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1810,7 +1858,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one allotrope + property": 1
-        }
+        },
+        "hint": "Diamond is the hardest; graphite is a conductor and lubricant; both are allotropes of carbon."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1837,7 +1886,8 @@
         "partial_marks": {
           "correct config": 1,
           "bonding reason": 1
-        }
+        },
+        "hint": "Write config 2,4 and count how many electrons are needed to complete the octet."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1869,7 +1919,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct row": 1
-        }
+        },
+        "hint": "Compare structure type (3D vs layered), hardness, and presence of delocalised electrons."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1909,7 +1960,8 @@
         "expected_answer": "–COOH",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which functional group the name ethanoic acid belongs to."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1951,7 +2003,8 @@
         "expected_answer": "8",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Substitute n equals 3 into the general formula CnH(2n+2) to get the hydrogen count."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1992,7 +2045,8 @@
         "expected_answer": "CH₃CH₂CH₂OH",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Check which option shares the same functional group as ethanol and differs by one CH2."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2032,7 +2086,8 @@
         "expected_answer": "CnH2n",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the general formula for the series that contains one double bond per molecule."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2061,7 +2116,8 @@
         "partial_marks": {
           "definition": 1,
           "reason": 1
-        }
+        },
+        "hint": "Think about why C-C bonds are strong and stable compared to bonds in other elements."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2092,7 +2148,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct name+example": 1
-        }
+        },
+        "hint": "Associate each symbol (OH, CHO, COOH) with its name and a familiar example compound."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2118,7 +2175,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct name": 1
-        }
+        },
+        "hint": "Count carbons, identify the functional group or double bond, and number the chain."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2150,7 +2208,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each series correct": 1
-        }
+        },
+        "hint": "Use the general formulas CnH2n+2, CnH2n, and CnH2n-2 for the three series."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2174,7 +2233,8 @@
         "expected_answer": "C₅H₁₀ (pent-1-ene)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Substitute the given value of n into CnH2n to find the molecular formula."
       },
       "template_params": {
         "variables": {
@@ -2226,7 +2286,8 @@
         "expected_answer": "CO₂ and H₂O",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the two products always formed in complete combustion of carbon-hydrogen compounds."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2267,7 +2328,8 @@
         "expected_answer": "Addition reaction",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which reaction type involves a reagent adding across a carbon-carbon double bond."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2308,7 +2370,8 @@
         "expected_answer": "Ethene (C₂H₄)",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall which type of bond (single or double) allows bromine water to be decolourised."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2337,7 +2400,8 @@
         "partial_marks": {
           "definition": 1,
           "example": 1
-        }
+        },
+        "hint": "Think about oxidation as addition of oxygen or removal of hydrogen from a molecule."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2365,7 +2429,8 @@
         "partial_marks": {
           "equation": 1,
           "reason": 1
-        }
+        },
+        "hint": "Write the balanced equation for CH4 combustion, then identify why it is a good fuel."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2397,7 +2462,8 @@
           "addition with equation": 1,
           "substitution with equation": 1,
           "both distinctions": 1
-        }
+        },
+        "hint": "Focus on whether double bond presence determines which reaction type occurs."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2425,7 +2491,8 @@
         "partial_marks": {
           "equation correct": 1,
           "products named": 1
-        }
+        },
+        "hint": "Apply substitution: one H on ethane is replaced by one Cl in sunlight."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2451,7 +2518,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "correct method, arithmetic error": 1
-        }
+        },
+        "hint": "Use the 1:3 mole ratio of propane to CO2 from the balanced equation."
       },
       "template_params": {
         "variables": {
@@ -2504,7 +2572,8 @@
         "expected_answer": "It is miscible with water in all proportions.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about physical properties like state, miscibility with water, or effect on litmus."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2545,7 +2614,8 @@
         "expected_answer": "Ester",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the product formed when a carboxylic acid reacts with an alcohol."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2586,7 +2656,8 @@
         "expected_answer": "Liquid P",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall which of the two liquids is acidic and can turn blue litmus red."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2617,7 +2688,8 @@
         ],
         "partial_marks": {
           "one correct structure+formula": 1
-        }
+        },
+        "hint": "Draw the carbon skeleton, attach the appropriate functional group, then count atoms."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2648,7 +2720,8 @@
         "partial_marks": {
           "equation correct": 1,
           "obs+products": 1
-        }
+        },
+        "hint": "Ethanoic acid reacts with Na2CO3 similarly to how it reacts with NaHCO3."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2677,7 +2750,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one correct effect": 1
-        }
+        },
+        "hint": "Focus on the effect on the central nervous system and the liver with prolonged use."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2706,7 +2780,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct equation+products": 1
-        }
+        },
+        "hint": "Ethanoic acid is acidic; think about how acids react with active metals and with carbonates."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2737,7 +2812,8 @@
         "partial_marks": {
           "definition+equation": 2,
           "smell+reverse": 1
-        }
+        },
+        "hint": "Think about acid plus alcohol giving ester plus water, and how saponification reverses it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2762,7 +2838,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "correct atoms, arithmetic error": 1
-        }
+        },
+        "hint": "Add atomic masses: 2 carbons, 6 hydrogens, 1 oxygen in the molecular formula C2H6O."
       },
       "template_params": {
         "variables": {
@@ -2824,7 +2901,8 @@
         "expected_answer": "Hydrophilic end",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which end of a soap molecule is attracted to water molecules."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2867,7 +2945,8 @@
         "expected_answer": "Saponification",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the name of the reaction where fat reacts with alkali to form soap."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2910,7 +2989,8 @@
         "expected_answer": "The Ca²⁺/Mg²⁺ salts of detergents are soluble.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider the solubility of calcium and magnesium salts of detergent groups in water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2939,7 +3019,8 @@
         "partial_marks": {
           "definition": 1,
           "products named": 1
-        }
+        },
+        "hint": "Think about alkaline hydrolysis of fat and the two products: soap and glycerol."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2969,7 +3050,8 @@
         "partial_marks": {
           "reason": 1,
           "name of precipitate": 1
-        }
+        },
+        "hint": "Think about Ca2+ and Mg2+ in hard water reacting with soap to form scum."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3000,7 +3082,8 @@
         "partial_marks": {
           "definition": 1,
           "environmental impact": 1
-        }
+        },
+        "hint": "Think about whether microorganisms can break down straight-chain or branched-chain molecules."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3037,7 +3120,8 @@
           "formation described": 1,
           "diagram correct": 1,
           "stability reason": 1
-        }
+        },
+        "hint": "Describe how tails cluster inward and heads face water, forming a stable colloidal structure."
       },
       "template_params": null,
       "diagram_path": null,
@@ -3069,7 +3153,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct row": 1
-        }
+        },
+        "hint": "Compare each row: raw material, hard water performance, and environmental impact."
       },
       "template_params": null,
       "diagram_path": null,

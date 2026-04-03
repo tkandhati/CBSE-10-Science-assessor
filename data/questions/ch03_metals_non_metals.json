@@ -35,7 +35,8 @@
         "expected_answer": "(b) Malleability",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which property lets metals be hammered flat without breaking."
       },
       "template_params": null,
       "diagram_path": null,
@@ -66,7 +67,8 @@
         "partial_marks": {
           "a": 1,
           "b": 1
-        }
+        },
+        "hint": "Connect each term to what changes shape: thin sheets versus thin wires."
       },
       "template_params": null,
       "diagram_path": null,
@@ -99,7 +101,8 @@
         "partial_marks": {
           "graphite": 1,
           "diamond": 1
-        }
+        },
+        "hint": "Think about how atom arrangement in each allotrope determines its special behaviour."
       },
       "template_params": null,
       "diagram_path": null,
@@ -143,7 +146,8 @@
         "expected_answer": "(c) Potassium",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider which metals sit right at the very top of the reactivity series."
       },
       "template_params": null,
       "diagram_path": null,
@@ -189,7 +193,8 @@
         "expected_answer": "(c) Dilute nitric acid — because HNO₃ is a strong oxidising agent that oxidises any H₂ formed to water.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what makes dilute nitric acid special compared to other dilute acids."
       },
       "template_params": null,
       "diagram_path": null,
@@ -223,7 +228,8 @@
         "partial_marks": {
           "reason": 1,
           "consequence": 1
-        }
+        },
+        "hint": "Focus on sodium reacting with both oxygen and moisture in air simultaneously."
       },
       "template_params": null,
       "diagram_path": null,
@@ -257,7 +263,8 @@
           "i": 1,
           "ii": 1,
           "iii": 1
-        }
+        },
+        "hint": "Apply the general metal plus water formula for each metal given the conditions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -296,7 +303,8 @@
           "i": 1,
           "ii": 1,
           "iii": 1
-        }
+        },
+        "hint": "A more reactive metal always displaces a less reactive one from its salt solution."
       },
       "template_params": null,
       "diagram_path": null,
@@ -331,7 +339,8 @@
         "partial_marks": {
           "observation": 1,
           "equation": 1
-        }
+        },
+        "hint": "Compare reactivity of Zn and Fe, then predict the colour change in solution."
       },
       "template_params": null,
       "diagram_path": null,
@@ -365,7 +374,8 @@
           "moles_Zn": 1,
           "ratio": 1,
           "moles_H2": 1
-        }
+        },
+        "hint": "Use moles equals mass over molar mass, then apply the 1:1 Zn:H2 ratio."
       },
       "template_params": {
         "variables": {
@@ -412,7 +422,8 @@
           "copper_iron": 1.5,
           "aluminium": 1.5,
           "equation": 1
-        }
+        },
+        "hint": "Anchor each explanation to where the metal sits relative to hydrogen in the series."
       },
       "template_params": null,
       "diagram_path": null,
@@ -458,7 +469,8 @@
         "expected_answer": "(a) Both A and R are true, and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Decide if copper can displace hydrogen, and then check whether R correctly explains A."
       },
       "template_params": null,
       "diagram_path": null,
@@ -494,7 +506,8 @@
           "a": 1,
           "b": 1,
           "c": 1
-        }
+        },
+        "hint": "Ask which metal is more reactive and can displace the other from its salt solution."
       },
       "template_params": null,
       "diagram_path": "chap3_chem_diag_001.svg",
@@ -531,7 +544,8 @@
           "identification": 1,
           "composition": 1,
           "explanation": 1
-        }
+        },
+        "hint": "Think about a famous acid mixture that dissolves gold by combining oxidising and complexing roles."
       },
       "template_params": null,
       "diagram_path": null,
@@ -577,7 +591,8 @@
         "expected_answer": "(b) In the solid state, ions are locked in a rigid crystal lattice and cannot move. On melting, ions become free to migrate and conduct electricity.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Focus on whether ions can move freely in each state to carry charge."
       },
       "template_params": null,
       "diagram_path": null,
@@ -613,7 +628,8 @@
           "electron_dot": 1,
           "formation": 1,
           "ions": 1
-        }
+        },
+        "hint": "Track electron transfer step by step: Na gives electrons, O receives them."
       },
       "template_params": null,
       "diagram_path": null,
@@ -645,7 +661,8 @@
         "partial_marks": {
           "force": 1,
           "energy": 1
-        }
+        },
+        "hint": "Think about the strength of electrostatic forces between oppositely charged ions in the lattice."
       },
       "template_params": null,
       "diagram_path": null,
@@ -683,7 +700,8 @@
           "solid": 1,
           "solution": 1,
           "molten": 1
-        }
+        },
+        "hint": "Consider whether ions can migrate in each state; migration is required for conduction."
       },
       "template_params": null,
       "diagram_path": null,
@@ -723,7 +741,8 @@
           "MgCl2_formation": 1.5,
           "properties": 1,
           "identification": 1
-        }
+        },
+        "hint": "Trace how electrons move from each metal atom to chloride ions during bond formation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -767,7 +786,8 @@
         "expected_answer": "(c) Ionic compounds are generally SOLUBLE in water and INSOLUBLE in organic solvents like kerosene. Statement C reverses this and is incorrect.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall whether ionic compounds dissolve in water or in non-polar organic solvents."
       },
       "template_params": null,
       "diagram_path": null,
@@ -812,7 +832,8 @@
         "expected_answer": "(c) Roasting",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Distinguish between ore type (sulphide vs carbonate) and the type of air supply used."
       },
       "template_params": null,
       "diagram_path": null,
@@ -859,7 +880,8 @@
         "expected_answer": "(b) Impure copper is the anode; pure copper is the cathode.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Remember which electrode is impure and which one accumulates pure deposited metal."
       },
       "template_params": null,
       "diagram_path": null,
@@ -899,7 +921,8 @@
           "roasting_def": 0.5,
           "calc_eq": 1,
           "roast_eq": 1
-        }
+        },
+        "hint": "Focus on ore type, air supply, and the gas released for each process."
       },
       "template_params": null,
       "diagram_path": null,
@@ -933,7 +956,8 @@
           "mineral": 1,
           "ore": 1,
           "gangue": 1
-        }
+        },
+        "hint": "Each term describes a different category: natural occurrence, usefulness, and impurity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -969,7 +993,8 @@
           "step1": 1,
           "step2": 1,
           "refining": 1
-        }
+        },
+        "hint": "Cu2S is a sulphide ore; think roasting, then smelting, then electrolytic purification."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1006,7 +1031,8 @@
           "equation": 1,
           "application": 1,
           "redox": 1
-        }
+        },
+        "hint": "Identify which substance gains oxygen and which loses it, then link to the application."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1042,7 +1068,8 @@
           "a": 1,
           "b": 1,
           "c": 1
-        }
+        },
+        "hint": "Apply moles equals mass divided by molar mass, then write the electrode half-reactions."
       },
       "template_params": {
         "variables": {
@@ -1093,7 +1120,8 @@
           "electrodes": 1,
           "electrolyte": 1,
           "anode_mud": 1
-        }
+        },
+        "hint": "The impure electrode dissolves; insoluble impurities settle below it as anode mud."
       },
       "template_params": null,
       "diagram_path": "chap3_metal_diag_001.svg",
@@ -1140,7 +1168,8 @@
         "expected_answer": "(a) Both A and R are true, and R is the correct explanation of A.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider whether these metals cling to oxygen more strongly than carbon does."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1179,7 +1208,8 @@
           "gold": 1,
           "sodium": 1,
           "extraction": 1
-        }
+        },
+        "hint": "Link reactivity series position to whether a metal occurs free or combined."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1226,7 +1256,8 @@
         "expected_answer": "(b) Galvanisation",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which metal acts sacrificially, being more reactive than iron."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1260,7 +1291,8 @@
         "partial_marks": {
           "definition": 1,
           "explanation": 1
-        }
+        },
+        "hint": "Zinc is more reactive than iron; consider what happens when zinc corrodes preferentially."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1298,7 +1330,8 @@
           "a": 1,
           "b": 1,
           "c": 1
-        }
+        },
+        "hint": "Use the fraction carat divided by 24 to find the proportion of pure gold."
       },
       "template_params": {
         "variables": {
@@ -1357,7 +1390,8 @@
           "roasting_calcination": 1.5,
           "reduction": 1,
           "thermite": 1.5
-        }
+        },
+        "hint": "Link ore type to extraction: sulphide or carbonate becomes oxide first, then reduced."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1402,7 +1436,8 @@
           "jewellery": 1,
           "pillar": 1,
           "methods": 1
-        }
+        },
+        "hint": "Focus on the two simultaneous conditions needed for rusting and why noble metals resist it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1444,7 +1479,8 @@
         "expected_answer": "(c) Sonority",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which physical property involves metals producing sound when struck."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1485,7 +1521,8 @@
         "expected_answer": "(b) Mercury",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall which single metal is uniquely liquid at room temperature."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1515,7 +1552,8 @@
         "partial_marks": {
           "metal_reasons": 1,
           "coating": 1
-        }
+        },
+        "hint": "Think about conductivity and ductility for the core, and insulation for the coating."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1555,7 +1593,8 @@
         "expected_answer": "(a) Metal oxide and hydrogen",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the two general products formed when any metal reacts with water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1597,7 +1636,8 @@
         "expected_answer": "(c) Iron",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which metal reacts only with steam, not cold or hot water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1639,7 +1679,8 @@
         "expected_answer": "(b) No reaction",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply the reactivity series: can a less reactive metal displace a more reactive one?"
       },
       "template_params": null,
       "diagram_path": null,
@@ -1671,7 +1712,8 @@
           "i": 1,
           "ii": 1,
           "iii": 1
-        }
+        },
+        "hint": "Each metal reacts differently; write the oxide or hydroxide product based on reactivity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1701,7 +1743,8 @@
           "gas": 0.5,
           "eq": 1,
           "test": 0.5
-        }
+        },
+        "hint": "Think about the gas produced when metals react with dilute acids and its flame test."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1734,7 +1777,8 @@
           "hot": 0.5,
           "steam": 0.5,
           "reason": 0.5
-        }
+        },
+        "hint": "Higher temperature supplies more energy; trace how the product changes from hot water to steam."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1765,7 +1809,8 @@
         "partial_marks": {
           "a": 1,
           "b": 2
-        }
+        },
+        "hint": "Divide mass of Fe by its molar mass, then use the 1:1 ratio for FeCl2."
       },
       "template_params": {
         "variables": {
@@ -1811,7 +1856,8 @@
           "order": 1.5,
           "HCl": 0.5,
           "eq": 1
-        }
+        },
+        "hint": "Rank metals by their water reactivity, then identify which sit above hydrogen in the series."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1854,7 +1900,8 @@
         "expected_answer": "(b) HNO₃ is a strong oxidising agent that oxidises H₂ to water.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what makes nitric acid an oxidising agent, not just an acid."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1896,7 +1943,8 @@
         "expected_answer": "(b) Ions are fixed in crystal lattice and cannot move.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Ask whether ions can physically move in a rigid crystal lattice."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1938,7 +1986,8 @@
         "expected_answer": "(c) NaCl",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider which compound is formed by electron transfer rather than electron sharing."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1971,7 +2020,8 @@
           "Cl_dot": 0.5,
           "transfer": 1,
           "lattice": 1
-        }
+        },
+        "hint": "Show electron configurations before and after transfer; Na loses one, Cl gains one."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2002,7 +2052,8 @@
         "partial_marks": {
           "hard": 1,
           "brittle": 1
-        }
+        },
+        "hint": "Strong forces resist deformation; shifted planes align like charges causing repulsion."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2034,7 +2085,8 @@
           "eq": 1,
           "moles": 1,
           "mass": 1
-        }
+        },
+        "hint": "Divide mass of Mg by its molar mass; the 1:1 ratio gives moles of MgO."
       },
       "template_params": {
         "variables": {
@@ -2088,7 +2140,8 @@
         "expected_answer": "(b) Cathode",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about where in the electrolytic cell metal ions are reduced to metal atoms."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2129,7 +2182,8 @@
         "expected_answer": "(c) Electrolytic reduction of molten salts",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Consider whether carbon can displace a metal that bonds more strongly with oxygen."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2162,7 +2216,8 @@
           "mineral": 1,
           "ore": 1,
           "gangue": 1
-        }
+        },
+        "hint": "Distinguish between natural occurrence, profitable extraction, and unwanted impurity."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2194,7 +2249,8 @@
         "partial_marks": {
           "easier": 1,
           "treatment": 1
-        }
+        },
+        "hint": "Think about which form of an ore can be directly reduced by carbon without pre-treatment."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2228,7 +2284,8 @@
           "i": 1,
           "ii": 1,
           "iii": 1
-        }
+        },
+        "hint": "Write each step: ore to oxide conversion, then oxide to metal reduction equation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2262,7 +2319,8 @@
           "def": 1,
           "reason": 1,
           "economic": 1
-        }
+        },
+        "hint": "Consider why less reactive metals like Au and Ag do not dissolve into the electrolyte."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2296,7 +2354,8 @@
           "a": 1,
           "b": 1,
           "c": 1
-        }
+        },
+        "hint": "Divide mass by molar mass for Cu; each Cu2+ ion requires 2 electrons."
       },
       "template_params": {
         "variables": {
@@ -2350,7 +2409,8 @@
         "expected_answer": "(c) These metals have greater affinity for oxygen than carbon.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Compare which element holds oxygen more tightly: carbon or these highly reactive metals."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2391,7 +2451,8 @@
         "expected_answer": "(c) Basic copper carbonate Cu₂(OH)₂CO₃",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what copper forms when it reacts with moist CO2 in air."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2424,7 +2485,8 @@
         "partial_marks": {
           "conditions": 1,
           "experiment": 1
-        }
+        },
+        "hint": "Compare test tubes: which had both air and water versus only one condition."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2456,7 +2518,8 @@
         "partial_marks": {
           "aluminium": 1.5,
           "lemon": 1.5
-        }
+        },
+        "hint": "Think about Al forming a protective oxide and acid in lemon dissolving copper tarnish."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2488,7 +2551,8 @@
           "a": 1,
           "b": 1,
           "c": 1
-        }
+        },
+        "hint": "Use carat divided by 24 times 100 for percentage, then scale to find the mass."
       },
       "template_params": {
         "variables": {

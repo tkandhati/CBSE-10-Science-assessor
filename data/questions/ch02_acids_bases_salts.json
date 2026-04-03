@@ -38,7 +38,8 @@
         "expected_answer": "Option B — Blue litmus turns red. Acids turn blue litmus red; bases turn red litmus blue.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how acids affect blue litmus and bases affect red litmus paper."
       },
       "template_params": null,
       "diagram_path": null,
@@ -67,7 +68,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "one correct natural indicator with one colour": 1
-        }
+        },
+        "hint": "Think of plants or kitchen items whose colour changes in acids versus bases."
       },
       "template_params": null,
       "diagram_path": null,
@@ -108,7 +110,8 @@
         "expected_answer": "Option C — ZnSO4 and H2 gas are produced. When a metal reacts with a dilute acid: metal + acid produces salt + hydrogen gas. Zn + H2SO4 produces ZnSO4 + H2.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the general rule for what metals produce when they react with dilute acids."
       },
       "template_params": null,
       "diagram_path": null,
@@ -150,7 +153,8 @@
         "expected_answer": "Option A — Ammonia (NH3). A base (NaOH) reacts with an ammonium salt to release NH3 gas. NH3 is basic and turns moist red litmus blue.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what gas a base produces when heated with an ammonium salt."
       },
       "template_params": null,
       "diagram_path": null,
@@ -192,7 +196,8 @@
         "expected_answer": "Option D — \"They feel soapy and slippery to touch\" is NOT a property of acids; it is a property of bases/alkalis. Acids are corrosive and sour, not soapy.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about which properties belong to bases rather than acids."
       },
       "template_params": null,
       "diagram_path": null,
@@ -222,7 +227,8 @@
         "partial_marks": {
           "equation only": 1,
           "type only": 1
-        }
+        },
+        "hint": "Think about what reaction type occurs between an acid and a base."
       },
       "template_params": null,
       "diagram_path": null,
@@ -252,7 +258,8 @@
         "partial_marks": {
           "equation": 1,
           "observation": 1
-        }
+        },
+        "hint": "Think about what gas is produced when a carbonate reacts with an acid."
       },
       "template_params": null,
       "diagram_path": null,
@@ -285,7 +292,8 @@
           "identifies need for water": 1,
           "mentions ionisation/ions": 1,
           "complete explanation": 1
-        }
+        },
+        "hint": "Think about what role water plays in producing ions from a covalent compound like HCl."
       },
       "template_params": null,
       "diagram_path": null,
@@ -310,7 +318,8 @@
         "expected_answer": "16 mL",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use a direct proportion between volume of HCl and volume of NaOH at neutralisation."
       },
       "template_params": {
         "variables": {
@@ -365,7 +374,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct equation with example": 1
-        }
+        },
+        "hint": "Think about the three types of acid reactions: with metal, metal oxide, and metal carbonate."
       },
       "template_params": null,
       "diagram_path": null,
@@ -407,7 +417,8 @@
         "expected_answer": "Option A — Both A and R are true and R is the correct explanation of A. Excess CO2 reacts with CaCO3 and water to form soluble Ca(HCO3)2, dissolving the white precipitate: CaCO3 + CO2 + H2O produces Ca(HCO3)2.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what happens to CaCO3 when it reacts with excess CO2 and water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -443,7 +454,8 @@
         ],
         "partial_marks": {
           "each correct label": 0.5
-        }
+        },
+        "hint": "Think about how the gas is collected and how a burning splint tests for hydrogen."
       },
       "template_params": null,
       "diagram_path": null,
@@ -485,7 +497,8 @@
         "expected_answer": "Option A — H+ (H3O+) and Cl-. HCl dissolved in water ionises: HCl + H2O produces H3O+ + Cl-. The hydronium ion H3O+ is responsible for acidic properties.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what ions HCl produces when it dissolves and ionises in water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -515,7 +528,8 @@
         "partial_marks": {
           "acid definition+example": 1,
           "base definition+example": 1
-        }
+        },
+        "hint": "Think about what types of ions each Arrhenius acid and base produces in water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -547,7 +561,8 @@
         "partial_marks": {
           "strong acid": 1,
           "weak acid": 1
-        }
+        },
+        "hint": "Think about the degree to which a strong acid ionises compared to a weak acid."
       },
       "template_params": null,
       "diagram_path": null,
@@ -580,7 +595,8 @@
           "ions present": 1,
           "ions are mobile/charged": 1,
           "complete explanation": 1
-        }
+        },
+        "hint": "Think about what type of particles must be present in solution to carry electric current."
       },
       "template_params": null,
       "diagram_path": null,
@@ -605,7 +621,8 @@
         "expected_answer": "20 mL",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply direct proportion between volumes of HCl and NaOH at neutralisation."
       },
       "template_params": {
         "variables": {
@@ -668,7 +685,8 @@
         "expected_answer": "Option A — Both A and R are true and R is the correct explanation of A. Acids ionise in water to give H+ ions (and anions); these mobile ions carry electric charge, allowing conduction.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about whether H+ ions are responsible for electrical conduction in acidic solutions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -709,7 +727,8 @@
         "expected_answer": "Option A — Strongly acidic. pH 3 is well below 7, indicating a high H+ concentration. pH scale: 0-7 is acidic; closer to 0 means more strongly acidic.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall where pH 3 falls on the 0-14 scale relative to the neutral point."
       },
       "template_params": null,
       "diagram_path": null,
@@ -751,7 +770,8 @@
         "expected_answer": "Option B — pH decreases towards 7. Adding acid increases H+ concentration, which neutralises some OH- ions, reducing the pH from 11 toward neutral (7), but not instantly to 7 unless exactly stoichiometric.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how adding more H+ ions to a basic solution changes its pH value."
       },
       "template_params": null,
       "diagram_path": null,
@@ -783,7 +803,8 @@
         "partial_marks": {
           "definition": 1,
           "three values": 1
-        }
+        },
+        "hint": "Recall the pH scale range and values that mark neutral, acidic, and basic."
       },
       "template_params": null,
       "diagram_path": null,
@@ -814,7 +835,8 @@
         "partial_marks": {
           "ideal pH range": 1,
           "effect on growth/nutrients": 1
-        }
+        },
+        "hint": "Think about what pH range suits most crops and how lime corrects acidic soil."
       },
       "template_params": null,
       "diagram_path": null,
@@ -849,7 +871,8 @@
           "acid production": 1,
           "pH < 5.5 / enamel": 1,
           "toothpaste basic/neutralise": 1
-        }
+        },
+        "hint": "Think about what bacteria produce from sugar and how toothpaste neutralises it."
       },
       "template_params": null,
       "diagram_path": null,
@@ -884,7 +907,8 @@
         "partial_marks": {
           "each point (a)(b)(c)": 1,
           "all three complete": 2
-        }
+        },
+        "hint": "Consider how stomach pH, insect stings, and dissolved gases in rain all involve pH effects."
       },
       "template_params": null,
       "diagram_path": null,
@@ -924,7 +948,8 @@
         "partial_marks": {
           "scale drawn": 1,
           "each correct placement": 0.5
-        }
+        },
+        "hint": "Place gastric juice, blood, lemon juice, and bleach at their approximate pH positions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -966,7 +991,8 @@
         "expected_answer": "Option A — Acidic salt (pH < 7). A strong acid + weak base produces a salt that hydrolyses in water to give H+ ions (acidic solution, pH < 7). Example: NH4Cl (from HCl + NH4OH).",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how the parent acid and base strengths determine the salt pH."
       },
       "template_params": null,
       "diagram_path": null,
@@ -997,7 +1023,8 @@
         "partial_marks": {
           "definition": 1,
           "each formula": 0.5
-        }
+        },
+        "hint": "Think about which ions from the acid and base combine to form the salt."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1027,7 +1054,8 @@
         "partial_marks": {
           "definition": 1,
           "compound with formula + use": 1
-        }
+        },
+        "hint": "Think about how many water molecules are chemically bonded in the washing soda crystal."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1060,7 +1088,8 @@
           "NaCl explanation": 1,
           "Na2CO3 explanation": 1,
           "hydrolysis/OH-": 1
-        }
+        },
+        "hint": "Consider whether each parent acid and base is strong or weak and why it matters."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1093,7 +1122,8 @@
           "(a) equation and explanation": 2,
           "(b) composition and mechanism": 2,
           "clarity": 1
-        }
+        },
+        "hint": "Think about how heating NaHCO3 gives Na2CO3 and what CO2 does in baking."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1137,7 +1167,8 @@
         "expected_answer": "Option C — NaOH, Cl2, and H2. Electrolysis of brine (NaCl solution) in the chlor-alkali process produces sodium hydroxide (NaOH) at the cathode region, chlorine gas (Cl2) at the anode, and hydrogen gas (H2) at the cathode.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about the chlor-alkali process and what three substances brine electrolysis produces."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1170,7 +1201,8 @@
         "partial_marks": {
           "two Cl2 uses": 1,
           "two H2 uses": 1
-        }
+        },
+        "hint": "Think about industrial uses of Cl2 for bleaching and H2 for fuel and food."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1201,7 +1233,8 @@
         "partial_marks": {
           "formula": 1,
           "two uses": 1
-        }
+        },
+        "hint": "Think about the calcium-based compound formed from chlorine gas reacting with slaked lime."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1247,7 +1280,8 @@
           "reactions": 2,
           "uses": 1,
           "overall equation": 1
-        }
+        },
+        "hint": "Think about electrolysis of brine, what forms at each electrode, and the overall equation."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1289,7 +1323,8 @@
         "expected_answer": "Option C — CaSO4.0.5H2O (Plaster of Paris). Gypsum (CaSO4.2H2O) heated at 373 K loses 1.5 molecules of water to form the hemihydrate CaSO4.1/2H2O, known as Plaster of Paris.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about how many water molecules remain when gypsum is heated at 373 K."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1313,7 +1348,8 @@
         "expected_answer": "6 mL",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply direct proportion between the volumes of H2SO4 and NaOH at neutralisation."
       },
       "template_params": {
         "variables": {
@@ -1377,7 +1413,8 @@
         "expected_answer": "Option C — Phenolphthalein. It is colourless in acidic and neutral solutions, and turns pink/red in basic solutions. Note: the question states pink in acid, but phenolphthalein is actually colourless in acid and pink in base.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about phenolphthalein and whether it shows colour in acid or in base."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1420,7 +1457,8 @@
         "expected_answer": "Option B — Olfactory indicators change their smell/odour in acidic or basic medium. Examples: onion loses its smell in basic solution; vanilla extract loses its characteristic smell in basic solution.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what changes in olfactory indicators when added to acid or base solution."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1451,7 +1489,8 @@
         "partial_marks": {
           "method": 1,
           "both colour changes": 1
-        }
+        },
+        "hint": "Think about the colour of red cabbage juice in acidic versus basic solutions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1492,7 +1531,8 @@
         "expected_answer": "Option C — CO2 and H2O (steam). Metal carbonate + acid produces salt + water + CO2. Example: CaCO3 + 2HCl produces CaCl2 + H2O + CO2.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the general equation for metal carbonate reacting with acid and its gaseous product."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1533,7 +1573,8 @@
         "expected_answer": "Option A — CaO + H2O produces Ca(OH)2. This reaction is exothermic and produces slaked lime (calcium hydroxide). It is used to treat acidic soil.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what product forms when a metal oxide reacts with water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1565,7 +1606,8 @@
         "partial_marks": {
           "equation": 1,
           "products + observation": 1
-        }
+        },
+        "hint": "Think about what sodium produces when it reacts vigorously with water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1595,7 +1637,8 @@
         "partial_marks": {
           "identifies as basic": 1,
           "hydrolysis/OH- explanation": 1
-        }
+        },
+        "hint": "Think about what ions the carbonate anion produces when it reacts with water."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1628,7 +1671,8 @@
           "cause of indigestion": 1,
           "equation": 1,
           "mechanism": 1
-        }
+        },
+        "hint": "Think about what NaHCO3 neutralises in the stomach and what gas is released."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1651,7 +1695,8 @@
         "expected_answer": "43.75 mL",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply direct proportion between HCl and NaOH volumes to scale for the new NaOH volume."
       },
       "template_params": {
         "variables": {
@@ -1715,7 +1760,8 @@
         "expected_answer": "Option D — HCl does not ionise in toluene as there is no water. Water is required for ionisation of HCl into H+ and Cl- ions; without ions, the solution cannot conduct electricity. Toluene is a non-polar solvent that does not facilitate ionisation.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what role water plays in allowing HCl to produce ions."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1746,7 +1792,8 @@
         "partial_marks": {
           "ionisation definition": 1,
           "role of water": 1
-        }
+        },
+        "hint": "Think about why a polar solvent like water is needed for ionisation to occur."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1778,7 +1825,8 @@
         "partial_marks": {
           "acid with examples": 1,
           "base with examples": 1
-        }
+        },
+        "hint": "Think about what ions in water distinguish an acid from a base."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1811,7 +1859,8 @@
           "A strong electrolyte": 1,
           "B weak electrolyte": 1,
           "ionisation reasoning": 1
-        }
+        },
+        "hint": "Think about how brightness of a bulb relates to the concentration of ions in solution."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1852,7 +1901,8 @@
         "expected_answer": "Option B — pH 7. Pure water at 25 degrees C has equal concentrations of H+ and OH- ions ([H+] = [OH-] = 10^-7 M), making it perfectly neutral at pH 7.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Recall the pH of a neutral solution where H+ and OH- concentrations are exactly equal."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1895,7 +1945,8 @@
         "expected_answer": "Option C — 5.6. Normal rain dissolves atmospheric CO2 forming weak carbonic acid, giving a natural pH of ~5.6. When SO2 and NO2 dissolve in rainwater, pH drops below 5.6, making it acid rain.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what gases dissolved in rainwater lower its pH below the natural threshold."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1926,7 +1977,8 @@
         "partial_marks": {
           "normal range": 1,
           "consequences": 1
-        }
+        },
+        "hint": "Think about what buffer systems maintain blood pH within a narrow safe range."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1959,7 +2011,8 @@
         "partial_marks": {
           "what to add": 1,
           "why / chemistry": 1
-        }
+        },
+        "hint": "Think about what basic substance farmers add to neutralise overly acidic soil."
       },
       "template_params": null,
       "diagram_path": null,
@@ -1991,7 +2044,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each acid with location and role": 1
-        }
+        },
+        "hint": "Think about what acid is in the stomach and what muscles produce during exercise."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2018,7 +2072,8 @@
         "expected_answer": "pH = 6; acidic",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Use pH = -log[H+] with the H+ concentration scaled up from pure water."
       },
       "template_params": {
         "variables": {
@@ -2077,7 +2132,8 @@
         "expected_answer": "Option C — CaSO4.0.5H2O (Plaster of Paris). Gypsum (CaSO4.2H2O) loses 1.5 molecules of water when heated at 373 K, forming CaSO4.1/2H2O.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what happens to gypsum when it is heated to around 373 K."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2108,7 +2164,8 @@
         "diagram_checklist": [],
         "partial_marks": {
           "each correct": 0.5
-        }
+        },
+        "hint": "Recall the common names, chemical names, and formulas of NaHCO3, Na2CO3.10H2O, and Ca(OCl)Cl."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2139,7 +2196,8 @@
         "partial_marks": {
           "equation": 1,
           "explanation of hardening": 1
-        }
+        },
+        "hint": "Think about what Plaster of Paris absorbs from water and why that causes hardening."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2171,7 +2229,8 @@
         "partial_marks": {
           "each valid method": 1,
           "correct interpretation": 1
-        }
+        },
+        "hint": "Think about how litmus paper reveals whether a dissolved salt is acidic or basic."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2194,7 +2253,8 @@
         "expected_answer": "7.5 mL",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply direct proportion between acid and base volumes to scale for the new base volume."
       },
       "template_params": {
         "variables": {
@@ -2257,7 +2317,8 @@
         "expected_answer": "Option C — CO2 gas. When NaHCO3 (baking soda) is heated: 2NaHCO3 produces Na2CO3 + H2O + CO2. CO2 is non-combustible and denser than air, smothering the fire by cutting off its oxygen supply.",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Think about what gas NaHCO3 releases on heating and why that gas extinguishes fire."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2288,7 +2349,8 @@
         "partial_marks": {
           "full name": 0.5,
           "three uses": 1.5
-        }
+        },
+        "hint": "Think about the industrial applications of NaOH in soap making, paper, and textile industries."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2319,7 +2381,8 @@
         "partial_marks": {
           "reason": 1,
           "consequence": 1
-        }
+        },
+        "hint": "Think about why moisture causes Plaster of Paris to react and become unusable."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2352,7 +2415,8 @@
           "use": 1,
           "equation": 1,
           "mechanism": 1
-        }
+        },
+        "hint": "Think about what reactive species bleaching powder releases in water to kill pathogens."
       },
       "template_params": null,
       "diagram_path": null,
@@ -2375,7 +2439,8 @@
         "expected_answer": "24 mL",
         "diagram_required": false,
         "diagram_checklist": [],
-        "partial_marks": {}
+        "partial_marks": {},
+        "hint": "Apply direct proportion between H2SO4 and NaOH volumes to find the required acid volume."
       },
       "template_params": {
         "variables": {
