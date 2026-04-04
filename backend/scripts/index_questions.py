@@ -62,10 +62,14 @@ def requires_diagram(q: dict) -> bool:
 
 
 def infer_type(q: dict) -> str:
-    """Infer question type from ID pattern and options presence."""
+    """Infer question type from explicit field, ID pattern, or options presence."""
+    # Explicit type field in JSON takes priority over all heuristics
+    explicit = q.get("type", "").strip().lower()
+    if explicit in ("mcq", "short", "numerical", "long", "diagram", "assertion_reason", "case_based"):
+        return explicit
+
     qid = q.get("id", "").lower()
     has_options = bool(q.get("options"))
-    has_formula = bool((q.get("rubric") or {}).get("formula"))
 
     # ID-based patterns first
     if re.search(r"_mcq_|[_\-]mcq\d|mcq_", qid):
@@ -74,7 +78,7 @@ def infer_type(q: dict) -> str:
         return "assertion_reason"
     if re.search(r"_num_|_num\d|numerical", qid):
         return "numerical"
-    if re.search(r"_long_|_la_|_la\d|_long\d", qid):
+    if re.search(r"_long_|_la_|_la\d|_long\d|_lng_|_lng\d", qid):
         return "long"
     if re.search(r"_case_|case_based", qid):
         return "case_based"
@@ -84,8 +88,8 @@ def infer_type(q: dict) -> str:
     # Fallback on content
     if has_options:
         return "mcq"
-    if has_formula:
-        return "numerical"
+    # Note: has_formula is NOT used as a fallback — rubric.formula is reference text,
+    # not a reliable signal that the answer is numeric. Default to short.
     return "short"
 
 

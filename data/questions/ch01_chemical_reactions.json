@@ -1238,6 +1238,7 @@
     },
     {
       "id": "chap01_corr_num_001",
+      "type": "long",
       "use_for": "test",
       "text": "Carbon burns completely in oxygen to form carbon dioxide. Molecular mass of C = 12 u, O₂ = 32 u, CO₂ = 44 u.\n(a) Write the balanced equation.\n(b) If 6 g of carbon reacts with excess oxygen, what mass of CO₂ is produced?",
       "options": null,

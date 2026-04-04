@@ -58,9 +58,14 @@ def score_numerical(question: dict, answer_text: str, generated_params: Optional
     precision = 2
 
     if generated_params and generated_params.get("expected_answer") is not None:
-        expected = float(generated_params["expected_answer"])
-        units = generated_params.get("units", "")
-        precision = generated_params.get("answer_precision", 2)
+        raw = generated_params["expected_answer"]
+        if not isinstance(raw, (int, float)):
+            # AI sometimes returns a dict or string for complex questions — skip to rubric
+            raw = None
+        if raw is not None:
+            expected = float(raw)
+            units = generated_params.get("units", "")
+            precision = generated_params.get("answer_precision", 2)
     else:
         # Fallback: extract a number from rubric.expected_answer string
         rubric = question.get("rubric") or {}

@@ -508,6 +508,7 @@
     },
     {
       "id": "chap4_ver_num_001",
+      "type": "short",
       "use_for": "test",
       "text": "Write the molecular formula of the 4th member of the alkene homologous series. The general formula of alkenes is CnH2n. Show your working.",
       "options": null,
@@ -2217,6 +2218,7 @@
     },
     {
       "id": "chap4_ver_num_u001",
+      "type": "short",
       "use_for": "understanding",
       "text": "Write the molecular formula of the nth member of the alkene series (CnH2n) for n = 5. Name the compound.",
       "options": null,

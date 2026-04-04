@@ -1040,6 +1040,7 @@
     },
     {
       "id": "chap3_metal_num_001",
+      "type": "long",
       "use_for": "test",
       "text": "In the electrolytic refining of copper, 6.4 g of copper dissolves from the impure anode and an equivalent amount is deposited at the pure cathode.\n(a) How many moles of Cu dissolve from the anode? (Atomic mass of Cu = 64 u)\n(b) Write the ionic equations at the anode and cathode.\n(c) If the same mass of zinc (At. mass = 65 u) were used instead, how many moles would dissolve?",
       "options": null,
@@ -1300,6 +1301,7 @@
     },
     {
       "id": "chap3_corr_num_001",
+      "type": "long",
       "use_for": "test",
       "text": "Pure gold is known as 24-carat gold. In India, 22-carat gold is commonly used for making jewellery.\n(a) Calculate the percentage of pure gold in 22-carat gold.\n(b) Calculate the mass of pure gold in a 22-carat gold ornament that weighs 48 g.\n(c) What is the remaining 2 parts made of, and why?",
       "options": null,
@@ -2061,6 +2063,7 @@
     },
     {
       "id": "chap3_ionic_num_u001",
+      "type": "long",
       "use_for": "understanding",
       "text": "2.4 g of Mg burns in O₂ forming MgO. (a) Write balanced equation. (b) Moles of MgO formed (At. mass Mg=24, O=16). (c) Mass of MgO produced.",
       "options": null,
@@ -2328,6 +2331,7 @@
     },
     {
       "id": "chap3_metal_num_u001",
+      "type": "long",
       "use_for": "understanding",
       "text": "19.2 g of copper deposits at cathode during electrolytic refining (At. mass Cu=64).\n(a) Moles of Cu? (b) Moles of electrons transferred (Cu²⁺ + 2e⁻ -> Cu)? (c) Write the cathode half-reaction.",
       "options": null,
@@ -2527,6 +2531,7 @@
     },
     {
       "id": "chap3_corr_num_u001",
+      "type": "long",
       "use_for": "understanding",
       "text": "22-carat gold = 22 parts gold + 2 parts copper in 24.\n(a) Calculate % pure gold. (b) Mass of gold in 12 g bangle. (c) Compare with 18-carat: which has more gold?",
       "options": null,
