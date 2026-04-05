@@ -67,12 +67,54 @@ def _new_session_id() -> str:
     return f"asmt_{ts}_{short}"
 
 
+def _normalize_options(raw_options, rubric: dict) -> tuple[list, Optional[int]]:
+    """
+    Normalize options to list format and return (options_list, correct_index).
+
+    Handles two formats:
+      - List:  [{"text": "...", "is_correct": true}, ...]   — standard format
+      - Dict:  {"A": "...", "B": "...", "C": "...", "D": "..."}  — legacy format
+    """
+    if not raw_options:
+        return [], None
+
+    if isinstance(raw_options, list):
+        correct_index = next(
+            (i for i, o in enumerate(raw_options) if isinstance(o, dict) and o.get("is_correct")),
+            None,
+        )
+        return raw_options, correct_index
+
+    if isinstance(raw_options, dict):
+        # Legacy dict format — correct answer is the first key_point (e.g. "B")
+        correct_key = ""
+        kp = (rubric or {}).get("key_points") or []
+        if kp:
+            correct_key = str(kp[0]).strip().upper()
+        keys = list(raw_options.keys())
+        options_list = [
+            {"text": raw_options[k], "is_correct": k.upper() == correct_key}
+            for k in keys
+        ]
+        correct_index = next(
+            (i for i, k in enumerate(keys) if k.upper() == correct_key),
+            None,
+        )
+        return options_list, correct_index
+
+    return [], None
+
+
 def _build_question_out(qid: str, seq: int, question_store: dict,
                          meta: dict, gen_params: dict) -> Optional[dict]:
     q = question_store.get(qid)
     if not q:
         return None
     q_type = meta.get("type", "short")
+    rubric = q.get("rubric") or {}
+
+    options_list, correct_index = _normalize_options(q.get("options"), rubric)
+
     q_out: dict = {
         "id":               qid,
         "sequence":         seq,
@@ -80,18 +122,14 @@ def _build_question_out(qid: str, seq: int, question_store: dict,
         "type":             q_type,
         "difficulty":       meta.get("difficulty", 1),
         "marks":            meta.get("marks", 1),
-        "options":          q.get("options"),
+        "options":          options_list if options_list else None,
         "diagram_path":     q.get("diagram_path"),
         "generated_params": gen_params.get(qid),
-        "rubric":           q.get("rubric"),
-        "correct_option_index": None,
+        "rubric":           rubric,
+        "correct_option_index": correct_index if q_type in ("mcq", "assertion_reason") else None,
         "expected_answer":  None,
         "expected_answer_str": None,
     }
-    if q_type in ("mcq", "assertion_reason") and q.get("options"):
-        q_out["correct_option_index"] = next(
-            (i for i, o in enumerate(q["options"]) if o.get("is_correct")), None
-        )
     if q_type == "numerical":
         gp = gen_params.get(qid)
         if gp:
