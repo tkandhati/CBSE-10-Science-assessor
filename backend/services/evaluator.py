@@ -52,6 +52,10 @@ def score_mcq(question: dict, selected_option: Optional[int]) -> dict:
 def score_numerical(question: dict, answer_text: str, generated_params: Optional[dict]) -> dict:
     max_marks = question.get("marks", 1)
 
+    # Multi-part numerical: answer_text is JSON like {"grasshopper_J":"10000","frog_J":"1000",...}
+    if generated_params and generated_params.get("expected_parts"):
+        return _score_multipart_numerical(question, answer_text, generated_params)
+
     # Try generated_params first (Understanding sessions), then rubric (Chapter Tests)
     expected: Optional[float] = None
     units = ""
@@ -106,6 +110,58 @@ def score_numerical(question: dict, answer_text: str, generated_params: Optional
             "keywords_found": [str(student_val)],
             "points_covered": [f"Answer: {expected} {units}"] if is_correct else [],
             "points_missed": [] if is_correct else [f"Expected {expected} {units}"],
+            "comment": comment,
+        },
+    }
+
+
+def _score_multipart_numerical(question: dict, answer_text: str, generated_params: dict) -> dict:
+    """Score a multi-part numerical where the student submits JSON answers per part."""
+    import json as _json
+    max_marks = question.get("marks", 1)
+    parts = generated_params["expected_parts"]  # list of {label, value, units}
+
+    try:
+        student_answers = _json.loads(answer_text) if answer_text else {}
+    except Exception:
+        student_answers = {}
+
+    correct_count = 0
+    points_covered = []
+    points_missed = []
+
+    for part in parts:
+        label = part["label"]
+        expected = float(part["value"])
+        units = part.get("units", "")
+        precision = generated_params.get("answer_precision", 0)
+        tolerance = max(10 ** (-precision), abs(expected) * 0.02) if expected else 0.5
+
+        raw = student_answers.get(label, "")
+        student_val = _extract_number(str(raw)) if raw else None
+
+        if student_val is not None and abs(student_val - expected) <= tolerance:
+            correct_count += 1
+            points_covered.append(f"{label}: {expected} {units}".strip())
+        else:
+            got = f", got {student_val}" if student_val is not None else ""
+            points_missed.append(f"{label}: expected {expected} {units}{got}".strip())
+
+    all_correct = correct_count == len(parts)
+    score = max_marks if all_correct else round(max_marks * correct_count / len(parts), 1)
+    comment = (
+        f"All {len(parts)} parts correct!" if all_correct
+        else f"{correct_count}/{len(parts)} parts correct."
+    )
+    return {
+        "score": score,
+        "max_marks": max_marks,
+        "is_correct": all_correct,
+        "evaluation_layer": "deterministic",
+        "feedback": {
+            "keywords_found": [],
+            "points_covered": points_covered,
+            "points_missed": points_missed,
             "comment": comment,
         },
     }

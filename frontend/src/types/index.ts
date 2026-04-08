@@ -14,6 +14,12 @@ export interface Rubric {
   partial_marks: Record<string, number>
 }
 
+export interface ExpectedPart {
+  label: string
+  value: number
+  units: string
+}
+
 export interface GeneratedParams {
   variables: Record<string, number>
   expected_answer: number | null
@@ -21,6 +27,7 @@ export interface GeneratedParams {
   formula_expression: string
   units: string
   answer_precision: number
+  expected_parts?: ExpectedPart[]
 }
 
 export interface Question {

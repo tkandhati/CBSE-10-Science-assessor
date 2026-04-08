@@ -415,7 +415,8 @@
         }
       },
       "diagram_path": null,
-      "topic": "food_chains_webs"
+      "topic": "food_chains_webs",
+      "type": "numerical"
     },
     {
       "id": "ch15_bio_sht_001",

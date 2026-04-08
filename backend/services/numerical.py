@@ -47,16 +47,36 @@ def _generate_fresh(template_params: dict) -> dict:
 
     expected: Optional[float] = None
     expected_str: Optional[str] = None
-    if formula:
+    expected_parts: Optional[list] = None  # for multi-part questions
+
+    # Multi-part: template has an expected_values dict with named answers
+    expected_values = template_params.get("expected_values")
+    if expected_values and isinstance(expected_values, dict) and len(expected_values) > 1:
+        # Scale each fixed value by any variable substitution (variables are locked/fixed here)
+        parts = []
+        for label, val in expected_values.items():
+            # Recompute from formula if possible, else use fixed value
+            parts.append({
+                "label": label,
+                "value": round(float(val), precision),
+                "units": units,
+            })
+        expected_parts = parts
+        # Keep expected_answer as None so single-answer grading is skipped
+    elif formula:
         try:
             safe_env = {**generated, "math": math, "sqrt": math.sqrt, "pi": math.pi}
             raw = eval(formula, {"__builtins__": {}}, safe_env)  # noqa: S307
-            expected = round(float(raw), precision)
-            expected_str = f"{expected} {units}".strip()
+            if isinstance(raw, tuple):
+                # Formula yields multiple values — shouldn't normally happen without expected_values
+                expected = None
+            else:
+                expected = round(float(raw), precision)
+                expected_str = f"{expected} {units}".strip()
         except Exception:
             expected = None
 
-    return {
+    result = {
         "variables": generated,
         "expected_answer": expected,
         "expected_answer_str": expected_str,
@@ -64,6 +84,9 @@ def _generate_fresh(template_params: dict) -> dict:
         "units": units,
         "answer_precision": precision,
     }
+    if expected_parts:
+        result["expected_parts"] = expected_parts
+    return result
 
 
 def extract_student_number(answer_text: str) -> Optional[float]:

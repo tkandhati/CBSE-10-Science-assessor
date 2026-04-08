@@ -319,6 +319,71 @@ function NumericalInput({ question, answer, onChange, onCheck }: {
   onChange: (v: string) => void; onCheck: () => void
 }) {
   const gp = question.generated_params
+  const parts = gp?.expected_parts
+
+  // Parse multi-part answers from JSON string
+  const partValues: Record<string, string> = (() => {
+    if (!parts) return {}
+    try { return JSON.parse(answer.answerText ?? '{}') } catch { return {} }
+  })()
+
+  const updatePart = (label: string, val: string) => {
+    const updated = { ...partValues, [label]: val }
+    onChange(JSON.stringify(updated))
+  }
+
+  const allPartsFilled = parts ? parts.every(p => (partValues[p.label] ?? '').trim() !== '') : false
+
+  if (parts && parts.length > 1) {
+    return (
+      <div className="mt-4 space-y-3">
+        {gp && Object.keys(gp.variables).length > 0 && (
+          <div className="bg-blue-50 rounded-lg p-3 text-sm text-blue-800">
+            <strong>Given:</strong>{' '}
+            {Object.entries(gp.variables).map(([k, v]) => `${k} = ${v}`).join(', ')}
+          </div>
+        )}
+        <div className="space-y-2">
+          {parts.map((part, i) => {
+            const letter = String.fromCharCode(97 + i)
+            const checked = answer.instantResult != null
+            const partCorrect = checked && (() => {
+              const sv = parseFloat(partValues[part.label] ?? '')
+              const tol = Math.max(Math.pow(10, -(gp?.answer_precision ?? 0)), Math.abs(part.value) * 0.02)
+              return !isNaN(sv) && Math.abs(sv - part.value) <= tol
+            })()
+            return (
+              <div key={part.label} className="flex items-center gap-2">
+                <span className="text-sm font-medium text-gray-600 w-5">({letter})</span>
+                <input
+                  type="number" step="any"
+                  placeholder={`Answer in ${part.units || gp?.units || 'J'}`}
+                  value={partValues[part.label] ?? ''}
+                  onChange={e => updatePart(part.label, e.target.value)}
+                  disabled={checked}
+                  className="flex-1 border-2 border-gray-200 rounded-lg px-3 py-2 text-sm focus:border-blue-500 outline-none"
+                />
+                {checked && (
+                  partCorrect
+                    ? <span className="text-green-600 text-sm font-medium">✓</span>
+                    : <span className="text-red-500 text-sm">{part.value} {part.units}</span>
+                )}
+              </div>
+            )
+          })}
+        </div>
+        {answer.instantResult == null && (
+          <button onClick={onCheck} disabled={!allPartsFilled}
+            className="px-4 py-2 bg-blue-600 text-white rounded-lg disabled:opacity-40 text-sm">
+            Check All
+          </button>
+        )}
+        {answer.instantResult === 'correct' && <p className="text-green-600 font-medium">All correct!</p>}
+        {answer.instantResult === 'wrong' && <p className="text-amber-600 font-medium">Some parts incorrect — see above.</p>}
+      </div>
+    )
+  }
+
   return (
     <div className="mt-4 space-y-3">
       {gp && (
@@ -382,6 +447,20 @@ function UnderstandingView({ session }: { session: SessionResponse }) {
 
   const handleNumCheck = () => {
     if (!q) return
+    const parts = q.generated_params?.expected_parts
+    if (parts && parts.length > 1) {
+      // Multi-part: check each part
+      let partValues: Record<string, string> = {}
+      try { partValues = JSON.parse(getAns(q.id).answerText ?? '{}') } catch { /* empty */ }
+      const precision = q.generated_params?.answer_precision ?? 0
+      const allCorrect = parts.every(p => {
+        const sv = parseFloat(partValues[p.label] ?? '')
+        const tol = Math.max(Math.pow(10, -precision), Math.abs(p.value) * 0.02)
+        return !isNaN(sv) && Math.abs(sv - p.value) <= tol
+      })
+      updAns(q.id, { instantResult: allCorrect ? 'correct' : 'wrong' })
+      return
+    }
     const val = parseFloat(getAns(q.id).answerText ?? '')
     const exp = q.generated_params?.expected_answer
     if (isNaN(val) || exp == null) return
